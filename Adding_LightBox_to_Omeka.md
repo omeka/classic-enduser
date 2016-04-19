@@ -7,9 +7,9 @@ The first step is to get the latest LightBox 2 package from <http://lokeshdhakar
 
 **Step Two: Modify and Upload the LightBox Package**
 
-Once you have the package, unzip it so you can upload the files into the correct places in your theme directory. We will need to upload the **img** folder, the **lightbox-2.6.min.js** file, and the **lightbox.css** file to the correct places in your theme's folder.
+Once you have the package, unzip it so you can upload the files into the correct places in your theme directory. We will need to upload the *img* folder, the *lightbox-2.6.min.js* file, and the *lightbox.css* file to the correct places in your theme's folder.
 
-Upload the entire **img** folder to your theme's top directory. (Alternatively, you could upload the images to your theme's **/images** directory, and modify the **lightbox.css** stylesheet to look for them there.)
+Upload the entire *img* folder to your theme's top directory. (Alternatively, you could upload the images to your theme's **/images** directory, and modify the **lightbox.css** stylesheet to look for them there.)
 
 Upload the **lightbox-2.6.min.js** file to **/yourtheme/javascripts/vendor**.
 

@@ -7,16 +7,12 @@ The Omeka team is committed to making Omeka an accessible option for building co
 The following statements apply to Omeka versions 2.3 and higher.
 
 Front End (Public view)
-------------------------------------------------------------------------------------------
+---------------------------------------------------------------
 
 The public view of Omeka has the following features to improve accessibility:
 
--   [ARIA](http://www.w3.org/WAI/intro/aria) (Accessible Rich
-    Internet Applications) landmarks for tabbing through page content,
-    when not using a mouse or using a screen reader;
--   Ability to skip navigation menu and go straight to content when
-    using a keyboard or screen reader to navigate the site (in all
-    RRCHNM-produced themes);
+-   [ARIA](http://www.w3.org/WAI/intro/aria) (Accessible Rich Internet Applications) landmarks for tabbing through page content, when not using a mouse or using a screen reader;
+-   Ability to skip navigation menu and go straight to content when using a keyboard or screen reader to navigate the site (in all RRCHNM-produced themes);
 -   Semantic HTML5 markup.
 
 These features are included in the core code as well as the plugins and themes which come bundled with Omeka for download (Plugins: Exhibit Builder, Coins, Simple Pages; Themes: Thanks Roy, Berlin, Seasons).
@@ -30,12 +26,8 @@ Back End (Administrative view)
 
 The administrative dashboard of Omeka has the following features for accessibility:
 
--   Ability to skip navigation menu and go straight to content when
-    using a keyboard or screen reader to navigate the site. If you do
-    not skipnav, the sequence is: settings (top navigation bar), plugins
-    (left navigation bar), content;
--   ARIA landmarks for screen readers on the Admin Dashboard,
-    designating the header, navigation, footer, and main body content;
+-   Ability to skip navigation menu and go straight to content when using a keyboard or screen reader to navigate the site. If you do not skipnav, the sequence is: settings (top navigation bar), plugins (left navigation bar), content;
+-   ARIA landmarks for screen readers on the Admin Dashboard, designating the header, navigation, footer, and main body content;
 -   Semantic HTML5 markup.
 
 A VPAT (Voluntary Product Accessibility Template) is available for[download as a PDF](../files/docs/VPAT_Omeka2015.pdf).
