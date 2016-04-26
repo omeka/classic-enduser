@@ -5,7 +5,7 @@ Create a Custom Loop of Items
 There may be some cases where you will want to display a custom loop of items, on your homepage or elsewhere in your theme.
 
 Step 1: Getting your Custom List of Items
----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------
 
 The first thing we need to do is get the array of items we want to loop through. We do this using the [get\_items](https://omeka.org/codex/Theme_API/get_items "Theme API/get items")
 and [set\_items\_for\_loop](https://omeka.org/codex/Theme_API/set_items_for_loop "Theme API/set items for loop") helpers in tandem. Let's say, for example, we want a loop of ten recent items that are Documents (item type) and are tagged 'history'. We'll use the `get_items` helper to query the database for items matching that criteria, and place that query inside the `set_items_for_loop` help to "set" those items for the loop we'll create later:
@@ -18,8 +18,8 @@ set_items_for_loop(get_items(array('recent' => true,
 ```
 
 
-Step 2: Start the Loop 
--------------------------------------------------------------------------------------
+Step 2: Start the Loop
+--------------------------------------------------------------
 
 Once we have set the items to loop through, using the `get_items` helper, we can now build a loop. First, we'll want to check to make sure there are in fact items that match the criteria we've used. This can be done using a simple `if` statement:
 
@@ -63,7 +63,7 @@ set_items_for_loop(get_items(array('recent' => true,
 ```
 
 Step 3: Display Item Metadata
----------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------
 
 Now that we have our loop of items ready, we can now add helper functions to retrieve specific bits of metadata for each item in the loop. Because this is a loop through ten items, you'll only need to use the helper functions once; The page will display the same metadata for each of the ten items sequentially.
 

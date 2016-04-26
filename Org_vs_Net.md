@@ -7,17 +7,17 @@ Org vs Net
 
 For a more comprehensive comparison, see [this document](http://bitly.com/compareomekas)
 
-  **Omeka downloadable**                                                **Omeka.net**
-  --------------------------------------------------------------------- ----------------------------------------------------------------
-  LAMP server required                                                  No server required
-  FTP client required                                                   No FTP client required
-  Web-based administrative interface                                    Web-based administrative interface
-  Add, edit, delete Items, Item Types, Collections, Exhibits            Add, edit, delete Items, Item Types, Collections, Exhibits
-  Customize themes and plugins by editing server files                  Configurable themes and plugins through admin interface
-  Storage space determined by your server and/or server administrator   Storage space according to the plan you choose.
-  Unlimited number of plugins and themes                                Plugins and themes determined by the plan you chose
-  File size limitations, determined by your server administrator        File size limitations: 64mb
-  One site per installation                                             Multiple sites, depending on your plan, per user account
-  Free                                                                  Free basic plan always available w/other options for small fee
+| Omeka Classic | Omeka.net |
+| ---|---| 
+| LAMP server required | No server required |
+FTP client required | No FTP client required
+Web-based administrative interface | Web-based administrative interface
+Add, edit, delete Items, Item Types, Collections, Exhibits | Add, edit, delete Items, Item Types, Collections, Exhibits
+Customize themes and plugins by editing server files |      Configurable themes and plugins through admin interface
+Storage space determined by your server and/or server administrator | Storage space according to the plan you choose.  
+Unlimited number of plugins and themes | Plugins and themes determined by the plan you chose
+File size limitations, determined by your server administrator | File size limitations: 64mb
+One site per installation |Multiple sites, depending on your plan, per user account
+Free | Free basic plan always available w/other options for small fee
 
 
