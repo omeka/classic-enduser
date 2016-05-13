@@ -1,5 +1,6 @@
 Working with Dublin Core
 ========================
+
 Why Dublin Core?
 ----------
 
@@ -9,7 +10,8 @@ The Omeka team decided that we wanted to contribute to a movement that is helpin
 
 -   [Historical overview and bibliography of Dublin Core resources](http://www.oclc.org/research/activities/past/orprojects/dublincore/default.htm).
 
-Interpreting Dublin Core Fields in Omeka --------------------------------------------------------
+Interpreting Dublin Core Fields in Omeka 
+--------------------------------------------------------
 
 The following Dublin Core fields are available in Omeka, together with some suggestions on interpreting the fields. The fields are vague by design so please consult with the [DCMI element descriptions](http://dublincore.org/documents/usageguide/elements.shtml) to be sure you are fulfilling the demands of your project.
 
@@ -34,8 +36,7 @@ Examples: a photo caption; descriptive information of an artifact/museum object;
 
 **Rights** Information about rights held in and over the resource. Typically, rights information includes a statement about various property rights associated with the resource, including intellectual property rights. Examples: spell out conditions of use for specific items here; Creative Commons type; Public Domain.
 
-**Relation** A related resource. Recommended best practice is to
-identify the related resource by means of a string conforming to a formal identification system. Examples: a still image of a person entered as a "person" type.
+**Relation** A related resource. Recommended best practice is to identify the related resource by means of a string conforming to a formal identification system. Examples: a still image of a person entered as a "person" type.
 
 **Format** The file format, physical medium, or dimensions of a
 resource. Examples include size and duration. Recommended best practice is to use a controlled vocabulary such as the Internet Media Types (MIME).

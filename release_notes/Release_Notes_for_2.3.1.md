@@ -1,73 +1,8 @@
-<div id="wrap">
-
-[Skip Navigation](Release_Notes_for_2.3.1.html#content)
-<div id="header">
-
-<div class="padding">
-
-<span
-id="logo">[![Omeka](http://omeka.org/ui/i/logo-horizontal-288px.gif)](../index.html)</span>
-<div id="search-form">
-
-</div>
-
--   <div id="nav-showcase">
-
-    </div>
-
-    [Showcase](../showcase.1.html)
--   <div id="nav-involved">
-
-    </div>
-
-    [Get Involved](../index.html%3Fp=124.html)
--   <div id="nav-addons">
-
-    </div>
-
-    [Add-Ons](../add-ons.1.html)
--   <div id="nav-forums">
-
-    </div>
-
-    [Forums](../forums/topic/mysqli-stmt.bind-result.html)
--   <div id="nav-documentation">
-
-    </div>
-
-    [Documentation](http://omeka.org/codex/)
--   <div id="nav-download">
-
-    </div>
-
-    [Download](../download.1.html)
-
-</div>
-
-</div>
-
-<div id="content">
-
-<div class="padding">
-
-<div id="user-meta">
-
--   <div id="pt-login">
-
-    </div>
-
-    [Log
-    In](http://omeka.org/c/index.php?title=Special:UserLogin&returnto=Release%20Notes%20for%202.3.1)
-
-</div>
-
 Release Notes for 2.3.1
 =======================
 
-<div id="primary">
 
-Omeka 2.3.1 is the first maintenance release for version 2.3. It was
-released on August 27, 2015.
+Omeka 2.3.1 is the first maintenance release for version 2.3. It was released on August 27, 2015.
 
 <span id="Enhancements" class="mw-headline"> Enhancements </span>
 -----------------------------------------------------------------

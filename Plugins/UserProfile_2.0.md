@@ -1,95 +1,19 @@
-<div id="wrap">
-
-[Skip Navigation](UserProfile_2.0.html#content)
-<div id="header">
-
-<div class="padding">
-
-<span
-id="logo">[![Omeka](../../ui/i/logo-horizontal-288px.gif)](../../index.html)</span>
-<div id="search-form">
-
-</div>
-
--   <div id="nav-showcase">
-
-    </div>
-
-    [Showcase](../../showcase/index.html)
--   <div id="nav-involved">
-
-    </div>
-
-    [Get Involved](../../get-involved/index.html)
--   <div id="nav-addons">
-
-    </div>
-
-    [Add-Ons](../../add-ons/index.html)
--   <div id="nav-forums">
-
-    </div>
-
-    [Forums](../../forums/index.html)
--   <div id="nav-documentation">
-
-    </div>
-
-    [Documentation](../index.html)
--   <div id="nav-download">
-
-    </div>
-
-    [Download](../../download/index.html)
-
-</div>
-
-</div>
-
-<div id="content">
-
-<div class="padding">
-
-<div id="user-meta">
-
--   <div id="pt-login">
-
-    </div>
-
-    [Log
-    In](https://omeka.org/c/index.php?title=Special:UserLogin&returnto=Plugins/UserProfile%202.0)
-
-</div>
-
 Plugins/UserProfile 2.0
 =======================
 
-<div id="contentSub">
+About User Profiles
+------------------------------------------------------------
 
-<span class="subpages">&lt;
-[Plugins](../Plugins.1.html "Plugins")</span>
-
-</div>
-
-<div id="primary">
-
-<span id="About_User_Profiles" class="mw-headline"> About User Profiles </span>
--------------------------------------------------------------------------------
-
-User Profiles is designed to address many different situations in which
-gathering and/or displaying information about users is helpful. In many
-cases, these situations involve a combination of User Profiles with
-other plugins. Example use cases might be:
+User Profiles is designed to address many different situations in which gathering and/or displaying information about users is helpful. In many cases, these situations involve a combination of User Profiles with other plugins. Example use cases might be:
 
 -   Create structured, consistent information about the creators of
     the site.
 -   Give credit to researchers by having them create profiles that are
     automatically linked to from the items they add.
--   If commenting is used for discussion, create profiles for
-    the moderators.
--   If the [Guest User](http://omeka.org/codex/Plugins/GuestUser_2.0)
-    plugin is installed and active, guest users who comment could also
-    create profiles.
+-   If commenting is used for discussion, create profiles for the moderators.
+-   If the [Guest User](../Plugins/GuestUser_2.0) plugin is installed and active, guest users who comment could also create profiles.
+
+[There is a screencast for this plugin](https://vimeo.com/165052886)
 
 <span id="Install_and_Configure" class="mw-headline"> Install and Configure </span>
 -----------------------------------------------------------------------------------
