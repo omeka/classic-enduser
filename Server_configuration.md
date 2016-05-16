@@ -1,6 +1,8 @@
 Server configuration
 ====================
-Suggested Specs for memory --------------------------------------------------------------
+
+Suggested Specs for memory
+--------------------------------------------------------------
 
 -   Low usage: 512MB RAM
 -   Medium usage: 1GB RAM

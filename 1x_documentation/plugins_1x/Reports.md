@@ -1,156 +1,53 @@
-<div id="wrap">
-
-[Skip Navigation](Reports.html#content)
-<div id="header">
-
-<div class="padding">
-
-<span
-id="logo">[![Omeka](../../ui/i/logo-horizontal-288px.gif)](../../index.html)</span>
-<div id="search-form">
-
-</div>
-
--   <div id="nav-showcase">
-
-    </div>
-
-    [Showcase](../../showcase/index.html)
--   <div id="nav-involved">
-
-    </div>
-
-    [Get Involved](../../get-involved/index.html)
--   <div id="nav-addons">
-
-    </div>
-
-    [Add-Ons](../../add-ons/index.html)
--   <div id="nav-forums">
-
-    </div>
-
-    [Forums](../../forums/index.html)
--   <div id="nav-documentation">
-
-    </div>
-
-    [Documentation](../index.html)
--   <div id="nav-download">
-
-    </div>
-
-    [Download](../../download/index.html)
-
-</div>
-
-</div>
-
-<div id="content">
-
-<div class="padding">
-
-<div id="user-meta">
-
--   <div id="pt-login">
-
-    </div>
-
-    [Log
-    In](https://omeka.org/c/index.php?title=Special:UserLogin&returnto=Plugins/Reports)
-
-</div>
-
-Plugins/Reports
+Reports
 ===============
 
-<div id="contentSub">
+The **Bar Code & Reports** plugin allows users to create reports from Omeka items. The plugin can create reports in HTML and PDF formats, including bar codes, and is extensible to additional formats.
 
-<span class="subpages">&lt;
-[Plugins](../Plugins.1.html "Plugins")</span>
+Using this plugin, you can create PDF [QR Codes](http://en.wikipedia.org/wiki/QR_Code) for your Omeka items, HTML
+output, as well as other custom formats (see **Extending,** below)).
 
-</div>
+To read more about using QRCodes in museums and making them work in your gallery, see the [Powerhouse Museum](http://www.powerhousemuseum.com/dmsblog/index.php/2009/03/05/qr-codes-in-the-museum-problems-and-opportunities-with-extended-object-labels/).
 
-<div id="primary">
-
-The **Bar Code & Reports** plugin allows users to create reports from
-Omeka items. The plugin can create reports in HTML and PDF formats,
-including bar codes, and is extensible to additional formats.
-
-Using this plugin, you can create PDF [QR
-Codes](http://en.wikipedia.org/wiki/QR_Code) for your Omeka items, HTML
-output, as well as other custom formats (see
-[Extending](Reports.html#Extending)).
-
-To read more about using QRCodes in museums and making them work in your
-gallery, see the [Powerhouse
-Museum](http://www.powerhousemuseum.com/dmsblog/index.php/2009/03/05/qr-codes-in-the-museum-problems-and-opportunities-with-extended-object-labels/).
-
-<span id="Requirements" class="mw-headline"> Requirements </span>
------------------------------------------------------------------
+Requirements 
+-----------------------------------------------------
 
 The Reports plugin requires Omeka version 1.0 or higher.
 
-If you are using Omeka.net, please see [instructions for this
-plugin](http://info.omeka.net/build-a-website/manage-themes-and-plugins/reports-and-bar-codes/)
-in Help pages for Omeka.net.
+If you are using Omeka.net, please see [instructions for this plugin](http://info.omeka.net/build-a-website/manage-themes-and-plugins/reports-and-bar-codes/) in Help pages for Omeka.net.
 
-<span id="Configuration" class="mw-headline"> Configuration </span>
--------------------------------------------------------------------
+Configuration
+----------------------------------------------------
 
--   **Path to PHP-CLI:** This option must point to a PHP-CLI command
-    that satisfies Omeka's requirements. For more information about the
-    correct value for this option, check with your hosting provider.
-    -   Default: The plugin will attempt to guess an appropriate path to
-        PHP-CLI
+-   **Path to PHP-CLI:** This option must point to a PHP-CLI command that satisfies Omeka's requirements. For more information about the correct value for this option, check with your hosting provider.
+    - Default: The plugin will attempt to guess an appropriate path to PHP-CLI
+-   **Reports save directory:** This is the path (on your server, not on the Web) where created reports will be saved. This directory *must* be writable by the server for reports to be generated.
+    - Default: `[Omeka directory]/plugins/Reports/generated_reports`
 
-<!-- -->
-
--   **Reports save directory:** This is the path (on your server, not on
-    the Web) where created reports will be saved. This directory *must*
-    be writable by the server for reports to be generated.
-    -   Default: *\[Omeka
-        directory\]*/plugins/Reports/generated\_reports
-
-<span id="Screencast" class="mw-headline"> Screencast </span>
+Screencast
 -------------------------------------------------------------
 
-Watch a [quick
-screencast](../../files/movies/Barcode_tutorial_small.mov) demonstrating
+Watch a [quick screencast](../../files/movies/Barcode_tutorial_small.mov) demonstrating
 how a bar code might be used inside a museum.
 
-<span id="Instructions" class="mw-headline"> Instructions </span>
------------------------------------------------------------------
+Instructions
+-----------------------------------------------------
 
-A *report* is a named set of items in Omeka. You can create reports that
-encompass all items in the system, or choose to report on one specific
-item, or anything in between. Reports will automatically update as new
-items are added to Omeka.
+A *report* is a named set of items in Omeka. You can create reports that encompass all items in the system, or choose to report on one specific item, or anything in between. Reports will automatically update as new items are added to Omeka.
 
-### <span id="Creating_a_Report" class="mw-headline"> Creating a Report </span>
-
-1.  Go to Admin &gt; Reports
+### Creating a Report 
+1.  Go to Admin - Reports
 2.  Click the link in the top-right that reads "Add a Report."
 3.  On the "Add" page, choose a name and a description for the report.
-4.  On the "Edit Filter" page, you can choose the criteria under which
-    items will be included in the report. Leaving the form blank will
-    select all items in Omeka.
+4.  On the "Edit Filter" page, you can choose the criteria under which items will be included in the report. Leaving the form blank will select all items in Omeka.
 
-### <span id="Generating_a_File" class="mw-headline"> Generating a File </span>
+### Generating a File
+Once you have created a report, you can create report files. To generate a file, you can either click the "Generate File" button on the main Reports page, or a specific report's details page (accessible by clicking the report's name).
 
-Once you have created a report, you can create report files. To generate
-a file, you can either click the "Generate File" button on the main
-Reports page, or a specific report's details page (accessible by
-clicking the report's name).
+The drop-down box next to the "Generate File" button allows you to select the type of report that will be generated.
 
-The drop-down box next to the "Generate File" button allows you to
-select the type of report that will be generated.
+The report will be generated in the background; you can refresh the report details page as the report's status changes from "In Progress" to "Completed."
 
-The report will be generated in the background; you can refresh the
-report details page as the report's status changes from "In Progress" to
-"Completed."
-
-### <span id="Built-in_File_Types" class="mw-headline"> Built-in File Types </span>
+### Built-in File Types
 
 The Reports plugin ships with two output formats.
 
