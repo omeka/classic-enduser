@@ -1,6 +1,7 @@
 
-Harvestable Omeka OAI sets
-==========================
+---
+title: Harvestable Omeka OAI sets
+---
 
 -   Bibliothèque Numérique - Université Rennes 2, University Library:   
 	[\[1\]](http://bibnum.univ-rennes2.fr/oai-pmh-repository/request?verb=ListRecords&metadataPrefix=oai_dc)

@@ -1,13 +1,9 @@
 Moving to Another Server
 ========================
 
-Before moving an existing Omeka project from one server to another, you
-should [upgrade](Upgrading.html "Upgrading") your existing installation
-to the latest version.
+Before moving an existing Omeka project from one server to another, you should [upgrade](Upgrading.html "Upgrading") your existing installation to the latest version.
 
-To move an existing Omeka project, you need to move a) the information
-in the database, and b) the files. The basic procedure for transferring
-both is this:
+To move an existing Omeka project, you need to move a) the information in the database, and b) the files. The basic procedure for transferring both is this:
 
 1.  **Export your existing database** as a .sql file. There are pretty
     good instructions on how to do this using either phpMyAdmin or the
