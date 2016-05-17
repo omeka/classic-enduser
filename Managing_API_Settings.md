@@ -12,7 +12,7 @@ Superusers can choose whether to enable the API in the API tab under Settings in
 -   By default the API will be enabled, but you can un-check the box if you wish to disable the API.
 -   Super users may also adjust the number of results per page (default: 50).
 
-![Configure API with mouse over the “Enable API” checkbox](../doc_files/Api_settings.jpg)
+![Configure API with mouse over the “Enable API” checkbox](/doc_files/Api_settings.jpg)
 
 Plugins can also make their data available via the API. The chart shows what resources and actions can be performed via the API. In the screenshot, you can see that in addition to data about items,
 collections, tags, etc. being available via the API, the Exhibit Builder plugin is also installed, and that information about exhibits and individual exhibit pages is exposed through the API.
@@ -20,7 +20,7 @@ collections, tags, etc. being available via the API, the Exhibit Builder plugin 
 ### API Keys and Permissions
 
 Permissions to modify any data are only given to existing users of your Omeka site who have been given a key by an administrator. See more information on users,
-[Managing_Users_2.0](../Managing_Users_2.md).
+[Managing_Users_2.0](/Managing_Users_2.md).
 
 The same permissions by role apply to the API, so users with the
 “researcher” role will not be able to do anything through the API that they cannot do through the regular admin interface. Users with admin or super levels can obtain keys that could allow their applications to show, browse, add, edit, and delete your site resources. Be careful when generating API keys.
@@ -31,5 +31,5 @@ The chart shows only what is possible via the API. So, for example, it shows tha
 - Find the user, and click on *edit* for their profile.
 - Click "API Keys" in the tabs at the top of the page.
 - Give the new key a label (best practices are to describe how it will be used). Then click the green *Update API Keys* button.
-![API Key dialog](../doc_files/Api_key_2.jpg)
+![API Key dialog](/doc_files/Api_key_2.jpg)
 - The page should reload with an API key generated.

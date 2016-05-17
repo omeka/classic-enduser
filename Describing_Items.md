@@ -5,7 +5,7 @@ Describing Items
 Describing Items
 --------------------------------------------------------
 
-All items in your Omeka archive have core and item type metadata - or the information that will help describe an item. Each item may belong to one collection and may be tagged with an infinite number of keywords. Items will be used to build exhibits.
+All items in your Omeka archive have core and item type metadata - or the information that will help describe an item. IEach item may belong to one collection and may be tagged with an infinite number of keywords. Items will be used to build exhibits.
 
 Each item contains descriptive metadata. By default, Omeka uses the guidelines established in the Dublin Core Metadata Initiative:[http://dublincore.org](http://dublincore.org) to standardize item records. This will make the sharing of data across Omeka, and other platforms, installations possible.
 

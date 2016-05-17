@@ -11,28 +11,26 @@ Scholars:
 -   Use Omeka to publish an essay or digital dissertation, share primary source collections, and collaborate with others in the creation of digital scholarship.
 -   Features you might like: themes, tagging, Exhibit Building plugin, Simple Pages plugin, Docs Viewer plugin, Geolocation plugin.
 -   Examples: [Daisie M. Helyar, 1906-1910 Scrapbook](http://gslis.simmons.edu/daisie/), [Lowcountry Digital History Initiative](http://ldhi.library.cofc.edu/)
--   Tell us how you [Teach\_with\_Omeka](/Teach_with_Omeka.md).
+-   Tell us how you [Teach with Omeka](/Teach_with_Omeka.md).
 
 Museum Professionals:
 -----------------------------------------------------------
 
--   Use Omeka to share collections and build online exhibits with objects you cannot display in the museum. Invite your visitors to tag and mark items as favorites, or to contribute content. Start a blog to publish museum news and podcasts.
--   Features you might like: Dublin Core metadata standards, design themes, Exhibit Builder plugin, Poster Builder plugin, Contribution  plugin, data migration tools (OAI-PMH, CSV, API), Social Bookmarking plugin.
--   Examples: [Object of History](http://objectofhistory.org), [Gulag: Many Days, Many Lives](http://gulaghistory.org), [Martha Washington, A Life](http://marthawashington.us), [Lincoln at 200](http://publications.newberry.org/lincoln/), [Stitching History from the Holocaust](http://liblamp.uwm.edu/omeka/A/)
+-   Use Omeka to share collections and build online exhibits with objects you cannot display in the museum. Invite your visitors to tag and mark items as favorites, or to contribute content. 
+-   Features you might like: Dublin Core metadata standards, design themes, Exhibit Builder plugin, Poster Builder plugin, Contribution plugin, data migration tools (OAI-PMH, CSV, API), Social Bookmarking plugin.
+-   Examples: [Martha Washington, A Life](http://marthawashington.us), [Lincoln at 200](http://publications.newberry.org/lincoln/), [Stitching History from the Holocaust](http://liblamp.uwm.edu/omeka/A/)
 
 Librarians:
 ---------------------------------------------------------------
-
 -   Use Omeka as the publishing tool to complement your online catalog or launch a digital exhibit.
 -   Features you might like: Dublin Core metadata standards, W3C and 508 compliant, extensible and customizable item fields, RSS/Atom syndication, multiple data output formats,Poster Builder plugin, data migration tools (API, OAI-PMH, CSV).
 -   Examples: [Memorial Stadium 1924-1992](http://brickhouse.lib.umn.edu/), [Photographs by Homer L. Shantz](http://digitalcommons.library.arizona.edu/x/exhibits/shantzafrica), [Upper Ringwood Library Collection](http://www.upperringwood.org/index.php), [Fighters on the Farm Front](http://scarc.library.oregonstate.edu/omeka/exhibits/show/fighters).
 
 Archivists:
 ---------------------------------------------------------------
-
 -   Use Omeka to share your collections, display documents and oral histories, or create digital archives with user-generated content.
 -   Features you might like: Dublin Core metadata standards, W3C and 508 compliant, exhibit builder plugin, extensible and customizable item fields, Docs Viewer, Search by Metadata, tagging, data migration tools (API, OAI-PMH, and CSV plugins) .
--   Examples: [Florida Memory](http://floridamemory.com/), [Bracero    History Archive](http://braceroarchive.org), [Hurricane Digital Memory Bank](http://hurricanearchive.org), [Lewis & Clark Digital Collections](http://digitalcollections.lclark.edu/)
+-   Examples: [Florida Memory](http://floridamemory.com/), [Bracero    History Archive](http://braceroarchive.org), [Lewis & Clark Digital Collections](http://digitalcollections.lclark.edu/)
 
 Educators:
 -------------------------------------------------------------

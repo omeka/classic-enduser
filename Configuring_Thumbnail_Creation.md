@@ -2,9 +2,8 @@
 Configuring Thumbnail Creation
 ==============================
 
-
 Choosing a Strategy
--------------------------------------------------------------------------------
+-----------------------------------------------------------
 
 Omeka uses the command-line tool `convert` from ImageMagick by default to create thumbnail images for uploaded files. Instead, you can choose to use the PECL ext/imagick extension (Omeka 2.2 and above) or the PHP GD extension (Omeka 2.3 and above).
 
@@ -14,16 +13,16 @@ To change how Omeka will generate thumbnails, set the option `fileDerivatives.st
 
 To use the GD strategy, use the following line:
 
-    fileDerivatives.strategy = "Omeka_File_Derivative_Strategy_GD"
+`fileDerivatives.strategy = "Omeka_File_Derivative_Strategy_GD”`
 
 To use the IMagick strategy, use the following line:
 
-    fileDerivatives.strategy = "Omeka_File_Derivative_Strategy_Imagick"
+`fileDerivatives.strategy = "Omeka_File_Derivative_Strategy_Imagick”`
 
 The new strategy will only apply to files added to Omeka after the configuration is changed.
 
 Changing Options
--------------------------------------------------------------------------
+---------------------------------------------------------------
 
 In addition to the entire strategy used to create the thumbnails, more fine-grained options are also configurable in application/config/config.ini.
 
@@ -38,7 +37,7 @@ Directions that contain "north" or "south" will use the topmost or bottom-most p
 
 For example, to always make square thumbnails using the topmost part of the uploaded image, set the following line:
 
-    fileDerivatives.strategyOptions.gravity = "north"
+`fileDerivatives.strategyOptions.gravity = "north”`
 
 ### Page
 
@@ -46,13 +45,13 @@ The default external ImageMagick strategy can switch which "page" of an image to
 
 For example, to use the second page when creating thumbnails, set the following line:
 
-    fileDerivatives.strategyOptions.page = 1
+`fileDerivatives.strategyOptions.page = 1`
 
 ### Version 
 
 When using the default external ImageMagick strategy, you can optionally inform Omeka which version of ImageMagick is being used. If it is recent enough, Omeka can switch to creating square thumbnails in a way that is more efficient and produces better results, particularly for images that are much longer in one dimension than the other. Running the command `convert -version` will indicate the version of ImageMagick that is installed.
 
-    fileDerivatives.strategyOptions.version = "6.9.0-0"
+`fileDerivatives.strategyOptions.version = “6.9.0-0”`
 
 ### Auto-Orient
 
@@ -62,4 +61,4 @@ The default external ImageMagick strategy and the Imagick strategy both support 
 
 A common use-case for this is images taken with mobile phone cameras, which often embed an orientation flag to allow computers to automatically rotate the image. Some image manipulation or preview software also will store rotations as only a change to the image's embedded rotation information. Turning `autoOrient` on allows Omeka to produce thumbnails in the expected orientation when these types of images are uploaded.
 
-    fileDerivatives.strategyOptions.autoOrient = true
+`fileDerivatives.strategyOptions.autoOrient = true`
