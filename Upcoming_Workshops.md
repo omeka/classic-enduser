@@ -16,14 +16,14 @@ Virtual Workshops
 
 Videos, lesson plans, and slideshows from Omeka workshops.
 
-Introductions to Omeka
+### Introductions to Omeka
 -   [Omeka and Digital Archives (HASTAC Scholars Digital Collections Webinar)](https://www.youtube.com/watch?v=sV9xcJMiZ8Y), Jim McGrath, February 20, 2015.
 -   [Introduction to Omeka Lesson Plan](http://amandafrench.net/2013/11/12/introduction-to-omeka-lesson-plan/), Amanda French, November 12, 2013.
 
-Working with Omeka
+### Working with Omeka
 - [Omeka tutorials](http://pastispresent.org/2016/good-sources/omeka-tutorials/) for middle-level Omeka users working on their own installations, from the American Antiquarian Society.
 
-Teaching with Omeka
+### Teaching with Omeka
 -   [Digital Tools in The Classroom: Omeka Workshop (Northeastern University)](http://www.slideshare.net/jkmcgrath/omekaworkshop-november-2014) (slides), Dave DeCamp, Jim McGrath, and Amanda Rust. November 17 2014.
 - [Omeka in the Classroom](https://www.youtube.com/watch?v=zyqxEVoCcKQ) (video). Andrew Torget of UNT gives a TxDHC webinar on “Using Omeka in the Classroom: Lessons Learned from Having Undergraduates Build an Online Civil Rights Museum.” Approx 50 minutes.
 
