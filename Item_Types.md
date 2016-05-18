@@ -136,6 +136,6 @@ Person
 Interactive Resource
 -------------------------------------------------------------
 
--   Description: A resource requiring interaction from the user to be understood, executed, or experienced.
--   Examples: forms on Web pages, applets, multimedia learning objects, chat services, or virtual reality environments.
+-   *Description*: A resource requiring interaction from the user to be understood, executed, or experienced.
+-   *Examples*: forms on Web pages, applets, multimedia learning objects, chat services, or virtual reality environments.
 

@@ -1,13 +1,11 @@
 
 Managing Item Types 2.0
 =======================
-Item types are user-defined type of object, with associated metadata.
+Item types are type of object, with associated metadata. Omeka comes with pre-defined item types with fields, but you can easily edit these types, or add your own types.
 
-Omeka comes with pre-defined item types with fields, but you can easily edit these types, or add your own types.
+![Item types browse view](/doc_files/Browse_Item_Types.png)
 
-[![Browse Item Types.png](https://omeka.org/c/images/5/5d/Browse_Item_Types.png)](https://omeka.org/codex/File:Browse_Item_Types.png)
-
-Existing Item Types
+Pre-defined Item Types
 ---------------------------------------------------------
 
 -   Document: A resource containing textual data. Note that facsimiles or images of texts are still of the genre text.
@@ -22,6 +20,8 @@ Existing Item Types
 -   Hyperlink: Title, URL, Description or annotation.
 -   Person: An individual, biographical data, birth and death, etc.
 -   Interactive Resource: A resource requiring interaction from the user to be understood, executed, or experienced. Examples include forms on Web pages, applets, multimedia learning objects, chat services, or virtual reality environments.
+
+See [this detailed discussion of item types](/Item_Types.md) for more information.
 
 Modifying Existing Item Types
 ---------------------------------------------------------------
