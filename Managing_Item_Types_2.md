@@ -23,29 +23,42 @@ Pre-defined Item Types
 
 See [this detailed discussion of item types](/Item_Types.md) for more information.
 
-Modifying Existing Item Types
+Edit an Existing Item Type 
 ---------------------------------------------------------------
-
-[![Modify Item Type.png](https://omeka.org/c/images/b/bb/Modify_Item_Type.png)](https://omeka.org/codex/File:Modify_Item_Type.png)
-
+You can edit existing item types to modify their metadata fields.
 1.  Go to Item Types page in the admin panel and click on the type you want to modify.
-2.  In the next screen, click the "edit" button. From here, you can edit or delete the current metafields for documents, et al, or add new ones.
+2.  In the next screen, click the "edit" button. From here, you can edit or delete the current metadata fields for documents or add new ones (see below, in creating a new item type, for more information)
 3.  When finished, click "Save Changes"
+
+![Editing the Item Type “Text”](/doc_files/itemTypeEdit.png)
+
+While it is possible to delete existing item types using the “delete” button on the browse Item Types page, we recommend that you do not delete the predefined item types; should you ever want to export data, or import from another Omeka install, you may need those item types. Rather, you should create an alternate, more customized item type and 
 
 Creating a new Item Type
 --------------------------------------------------------------
+To create a new Item Type, from the Item Types screen, click the green “Add an Item Type button above the table of Item Types.
 
-![Add Item Type.png](https://omeka.org/c/images/2/2a/Add_Item_Type.png)
+![Add Item Type basic view](/doc_files/itemTypeAdd.png)
 
-1.  If you are interested in creating a new "item type", go to your `/admin/screen`, click on the Item Types tab (`/admin/item-type`s). Using either the green button at the top or near the bottom of the page, click the button to "Add an Item Type."
-2.  From this screen you may create a new item type new fields that correspond with the type of data you want to associate.
+Each Item Type must have a *Name*, preferably not the same name as another existing item type. You can also add a *Description* to help clarify the item type (for example, the descriptions in the list of item types above).
 
-Edit an Existing Item Type Element
----------------------------------------------------------------
+When adding elements, there are two options: add an existing element or create a new one.
 
-![Edit Item Type Element.png](https://omeka.org/c/images/7/74/Edit_Item_Type_Element.png)
+**Existing elements** are elements which have already been created for another item type, but might be applicable to yours. For example, if you were creating a “Letter” item type, you might use the “To” and “From” elements from the “Email” Item Type, and the “Text” element from the “Text” item type.
 
-1.  If you decide to change the name or description of an item type element, you will have to edit using PhPMyAdmin, or another tool that manages MySQL databases on your server.
-2.  Once you have opened your database in PhPMyAdmin, or in a similar tool, find and open the omeka\_elements table. As you browse through this table, you will find every field available for your entire installation.
-3.  Edit the element you would like to modify and save your changes.
-4.  Please note, that if you delete an element in the `/admin/item-types/edit/#ofitemtype` you will also delete any information saved in the database.
+To add an existing element to your item type:
+1. In the Add Element block, select the *Existing* radio button.
+1. Click the green *Add Element* button.
+![Add element block](/doc_files/itemTypeAddElm.png)
+1. In the element block which is created, select the desired element from the dropdown list.
+![Element block with dropdown list opened.](/doc_files/itemTypeExistElm.png)
+
+**New elements** are created by you, both the element name and description. You might need to create these for unique item types, for example “Cancellation Date” and “Cancellation Location” for a “Stamp” item type.
+
+To add a new item type:
+1. In the Add Element block, select the *New* radio button.
+1. Click the green *Add Element* button.
+1. In the element block which is created, enter an *Element Name* in the first field (toward the top of the block). Enter an *Element Description* in the larger text field. Note that this description will show up when editing items, so make sure that it is clear.
+![New element block with no input](/doc_files/itemTypeNewElm.png)
+
+You can delete an existing element by clicking the large X on the upper right corner of the element block.
