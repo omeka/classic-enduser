@@ -2,19 +2,11 @@ Managing Collections 2.0
 ========================
 
 
-Collections may be used in a variety of contexts that make the most
-sense for your archive.
+Collections may be used in a variety of contexts that make the most sense for your archive.
 
-In Omeka, an item can only belong to one collection. Collections can, of
-course, have multiple items. The concept of Omeka collections originates
-from museum and archives collections; one cannot put a document into
-more than one box. It is not necessary to follow a traditional
-interpretation of a collection, say by owner or donor. In Omeka, you can
-also use [tags](http://omeka.org/codex/Managing_Tags_2.0) to organize
-similar items into categories.
+In Omeka, an item can only belong to one collection. Collections can, of course, have multiple items. The concept of Omeka collections originates from museum and archives collections; one cannot put a document into more than one box. It is not necessary to follow a traditional interpretation of a collection, say by owner or donor. In Omeka, you can also use [tags](/Managing_Tags_2md0) to organize similar items into categories.
 
-Create a Collection
--------------------------------------------------------------------------------
+Create a Collection-----------------------------------------------------------
 
 1.  Click on the "Collections" tab in the left navigation bar from
     the Dashboard. Any collections you have created will be listed on
