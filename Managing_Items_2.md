@@ -43,12 +43,38 @@ For more instructions, see:
 -   Collections: May be comprised of different items. Items may only belong to one collection a time.
 -   Tags: Tags can be added to any item, and an item may contain an infinite number of tags.
 
+Browse Items in Admin
+-------------------------------------------------------------
+Clicking on the Items tab from the Dashboard or /admin page takes you to a list of items. By default, these are sorted with most-recently added at the top.
+
+![Browse items view](/doc_files/itemBrowse.png)
+
+The browse items view displays items in a table. Each row is an item. There are columns for a checkbox (to select items for bulk actions), the item title, item creator, item type, and the date added. 
+
+Click the paired up-down arrows next to the Title, Creator, and Date Added headers to sort the items by that field. 
+
+
+To sort by public, private, or featured items, click the Quick     Filter link at the top of the list.
+    -  Note that Items that are not public say (Private) next to the title, Items that are featured have a star inside the item’s title
+
+Each item has buttons to view Details, Edit, or Delete just below its title. 
+
+To view the details of all items, click the Show Details button above the table of items. This will show the first few lines of the item’s Description as well as any associated tags.
+
+![Browse items with details shown](/doc_files/itemBrowseDet.png)
+
+To search all items, click the Search Items button which takes you to an advanced item search page.
+
 Edit an Item
 --------------------------------------------------------------
 
 [Item edit window](doc_files/itemEdit.png)
 
-1.  Access the Items from the tab in the top navigation bar from the Dashboard (/admin/items). This brings you to the Items Browse page. Items are displayed with limited metadata, including the Title, Creator, Item Type, and Date Created. To see additional metadata associated with that item, use the Details link under the item's title. You may also use the blue Show Details tab, which will display details for every item on the page.
+You can edit any of the information you entered when creating an item, or add new information, by going to the Items tab on the left hand navigation. 
+
+Find the item you want to edit and click the 
+
+Items are displayed with limited metadata, including the Title, Creator, Item Type, and Date Created. To see additional metadata associated with that item, use the Details link under the item's title. You may also use the blue Show Details tab, which will display details for every item on the page.
 2.  Find the item you want to edit from the list of items or by searching. To edit only one item, use the Edit link beneath the title of the item. This opens an expanded edit page where you may make your edits. Make sure you click the "Save Changes" button so you don't lose your changes.
 
 Delete an Item
@@ -80,24 +106,6 @@ Batch Editing & Deleting
 -   Check the list of items to be edited or deleted in the box to the right. Un-check box to the left of items if you marked one     by mistake.
 -   Click Save Changes to edit all of the selected items.
 
-Browse Items (in Admin)
--------------------------------------------------------------------------------------------
-
-Clicking on the Items tab from the Dashboard or /admin page takes you to a list of items listed by default in order of most-recently-added. There are many ways to browse, sort, and search your items.
-
-[![Browse items.png](https://omeka.org/c/images/thumb/0/09/Browse_items.png/500px-Browse_items.png)](https://omeka.org/codex/File:Browse_items.png)
-
--   To sort the browsing results click on a heading for the columns including: Title, Creator, Item Type, or Date Added.
-
-
--   To sort by public, private, or featured items, click the Quick     Filter link at the top of the list.
-    -   Items that are not public say (Private) next to the title, Items that are featured have a star inside the item's title
-
--   To view additional information about listed items, click the Show Details button to display the collection, any tags, a description excerpt, and whether item is private or featured. Also, available are quick links for editing or deleting the item.
-
-
-
--   To search through the items, click the Search Items button which takes you to an advanced search page for searching all items, only.
 
 Output Formats 
 ---------------------------------------------------------------------
