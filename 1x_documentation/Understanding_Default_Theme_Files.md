@@ -1,82 +1,12 @@
-<div id="wrap">
-
-[Skip Navigation](Understanding_Default_Theme_Files.html#content)
-<div id="header">
-
-<div class="padding">
-
-<span
-id="logo">[![Omeka](http://omeka.org/ui/i/logo-horizontal-288px.gif)](../index.html)</span>
-<div id="search-form">
-
-</div>
-
--   <div id="nav-showcase">
-
-    </div>
-
-    [Showcase](../showcase.1.html)
--   <div id="nav-involved">
-
-    </div>
-
-    [Get Involved](../index.html%3Fp=124.html)
--   <div id="nav-addons">
-
-    </div>
-
-    [Add-Ons](../add-ons.1.html)
--   <div id="nav-forums">
-
-    </div>
-
-    [Forums](../forums/topic/mysqli-stmt.bind-result.html)
--   <div id="nav-documentation">
-
-    </div>
-
-    [Documentation](http://omeka.org/codex/)
--   <div id="nav-download">
-
-    </div>
-
-    [Download](../download.1.html)
-
-</div>
-
-</div>
-
-<div id="content">
-
-<div class="padding">
-
-<div id="user-meta">
-
--   <div id="pt-login">
-
-    </div>
-
-    [Log
-    In](http://omeka.org/c/index.php?title=Special:UserLogin&returnto=Understanding%20Default%20Theme%20Files)
-
-</div>
-
 Understanding Default Theme Files
 =================================
+Many projects call for some amount of seasoning your public display to taste. Maybe you need to display an additional piece of metadata on the item browse pages, or you want to make a minor rearrangement to the content.
 
-<div id="primary">
+The natural first step is to start looking in your theme's files, where you might see a folder and directory structure like:
 
-Many projects call for some amount of seasoning your public display to
-taste. Maybe you need to display an additional piece of metadata on the
-item browse pages, or you want to make a minor rearrangement to the
-content.
-
-The natural first step is to start looking in your theme's files, where
-you might see a folder and directory structure like:
-
-    {your-theme}
+`    {your-theme}
     -items
-    --show.php
+    --show.php`
 
 This corresponds to what you will see at /items/show/{item-id}.
 

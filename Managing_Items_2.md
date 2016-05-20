@@ -7,28 +7,35 @@ Items are building blocks in Omeka. To build your digital collections website, y
 Before Adding Items 
 ---------------------------------------------------------------
 
-You may want to consult the [Site Planning Tips](Site_Planning_Tips.md) page to think about how to build your site and what you want to do with your items.
+You may want to consult the [Site Planning Tips](/Site_Planning_Tips.md) page to think about how to build your site and what you want to do with your items.
 
-You may also want to think about what type of information you plan to share using the [Dublin Core Metadata](http://dublincore.org/documents/usageguide/) fields before adding and describing items. You may also want to read the [Describing Items](Describing_Items.md) page for a brief explanation of using metadata in Omeka Items.
+You may also want to think about what type of information you plan to share using the [Dublin Core Metadata](http://dublincore.org/documents/usageguide/) fields before adding and describing items. You may also want to read the [Describing Items](/Describing_Items.md) page for a brief explanation of using metadata in Omeka Items.
 
 Add an Item 
 ---------------------------------------------------------------
 
-![Add Item.png](https://omeka.org/c/images/a/a7/Add_Item.png)
+![Add Item.png](/doc_files/itemAdd.png)
 
-1.  From your items page (`mywebsite.org/admin/items`) click the "Add an Item" button.
-2.  This takes you to the admin/items/add page where you see a navigation bar across the top pointing you to different stages of adding an item. At any time, you may check the “Public” and/or “Featured” boxes to the right of the item form. You may also change this status from the `/admin/items` page without needing to re-open the individual item.
-3.  The first tab shows the Dublin Core metafields. These are available for every item in the archive. Each field can have multiple values; Simply click the "Add Input" button beside each field title to add a new input for that field.
-4.  The Item Type Metadata tab lets you choose a specific item type for the object you are adding. Once you choose the type by using the drop-down menu, relevant metadata fields appear for you to complete. (See [Managing Item Types 2.0](Managing_Item_Types_2.0.md) for information about adding/editing item types.)
-5.  The Files tab lets you upload files to an item. Clicking the "Add Another File" link will reveal another field for adding a file. You can associate any number of files to an item. Read more about [Managing Files 2.0](Managing_Files_2.0.md).
-6.  The Tags tab allows you add keyword tags to your item.
-7.  Assign items to a collection: To the right of the page, under the "Add Item" button is a drop-down menu where you can assign your item to a collection. Remember, items can only belong to one collection.
-8.  Be sure to click the "Add Item" button to save your data.
+From your items page (`mywebsite.org/admin/items`) click the "Add an Item" button.
+
+This takes you to the admin/items/add page where you see a navigation bar across the top pointing you to different stages of adding an item. At any time, you may check the “Public” and/or “Featured” boxes to the right of the item form. You may also change this status from the `/admin/items` page without needing to re-open the individual item.
+1.  The first tab shows the **Dublin Core** metadata fields. These are available for every item in the archive. 
+    - Each field can have multiple values; Simply click the "Add Input" button beside each field title to add a new input for that field.
+2.  The **Item Type Metadata** tab lets you choose a specific item type for the object you are adding. 
+     - Once you choose the type by using the drop-down menu, relevant metadata fields appear for you to complete. (See [Managing Item Types 2.0](/Managing_Item_Types_2.0.md) for information about adding/editing item types.)
+3.  The **Files** tab lets you upload files to an item. 
+     - Clicking the "Add Another File" link will reveal another field for adding a file. You can associate any number of files to an item. Read more about [Managing Files 2.0](Managing_Files_2.0.md).
+4.  The **Tags** tab allows you add keyword tags to your item.
+5.  To assign items to a collection: on the right side of the page, under the "Add Item" button is a drop-down menu where you can assign your item to a collection. Remember, items can only belong to one collection.
+6.  Be sure to click the "Add Item" button to save your data.
 
 ###  Adding HTML elements to Items
 
-Each metadata field's text may be enhanced using basic HMTL tags. Check the HTML box below the text box to enable a visual HTML editor. For more instructions, see:
-[Using HTML Editor-TinyMCE](Using_HTML_Editor-TinyMCE.md)
+Each metadata field's text may be enhanced using basic HMTL tags. Check the HTML box below the text box to enable a visual HTML editor. 
+![Item element with Use HTML box ticked](doc_files/itemHTML.png)
+
+For more instructions, see:
+[Using HTML Editor-TinyMCE](/Using_HTML_Editor-TinyMCE.md)
 
 ### Properties of Items
 
@@ -39,13 +46,13 @@ Each metadata field's text may be enhanced using basic HMTL tags. Check the HTML
 Edit an Item
 --------------------------------------------------------------
 
-[Edit Existing Item.png](https://omeka.org/c/images/0/0f/Edit_Existing_Item.png)
+[Item edit window](doc_files/itemEdit.png)
 
 1.  Access the Items from the tab in the top navigation bar from the Dashboard (/admin/items). This brings you to the Items Browse page. Items are displayed with limited metadata, including the Title, Creator, Item Type, and Date Created. To see additional metadata associated with that item, use the Details link under the item's title. You may also use the blue Show Details tab, which will display details for every item on the page.
 2.  Find the item you want to edit from the list of items or by searching. To edit only one item, use the Edit link beneath the title of the item. This opens an expanded edit page where you may make your edits. Make sure you click the "Save Changes" button so you don't lose your changes.
 
 Delete an Item
----------------------------------------------------------------------
+----------------------------------------------------------------
 
 To delete one item, you may delete that item by clicking the Delete link found below the title on the admin/items page. You will be asked to confirm this action.
 

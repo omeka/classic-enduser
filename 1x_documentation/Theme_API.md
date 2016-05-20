@@ -1,90 +1,9 @@
-<div id="wrap">
-
-[Skip Navigation](Theme_API.html#content)
-<div id="header">
-
-<div class="padding">
-
-<span
-id="logo">[![Omeka](http://omeka.org/ui/i/logo-horizontal-288px.gif)](../index.html)</span>
-<div id="search-form">
-
-</div>
-
--   <div id="nav-showcase">
-
-    </div>
-
-    [Showcase](../showcase.1.html)
--   <div id="nav-involved">
-
-    </div>
-
-    [Get Involved](../index.html%3Fp=124.html)
--   <div id="nav-addons">
-
-    </div>
-
-    [Add-Ons](../add-ons.1.html)
--   <div id="nav-forums">
-
-    </div>
-
-    [Forums](../forums/topic/mysqli-stmt.bind-result.html)
--   <div id="nav-documentation">
-
-    </div>
-
-    [Documentation](http://omeka.org/codex/)
--   <div id="nav-download">
-
-    </div>
-
-    [Download](../download.1.html)
-
-</div>
-
-</div>
-
-<div id="content">
-
-<div class="padding">
-
-<div id="user-meta">
-
--   <div id="pt-login">
-
-    </div>
-
-    [Log
-    In](http://omeka.org/c/index.php?title=Special:UserLogin&returnto=Theme%20API)
-
-</div>
-
-Functions
+Theme API Functions
 =========
+This page is outdated
+--------------------------------------------------
 
-<div id="contentSub">
-
-(Redirected from [Theme
-API](http://omeka.org/c/index.php?title=Theme_API&redirect=no "Theme API"))
-
-</div>
-
-<div id="primary">
-
-<div
-style="background:gold; border:1px solid goldenrod; padding: 1em 1em 0 1em; margin-bottom: 1em;">
-
-<span id="This_page_is_outdated" class="mw-headline">This page is outdated</span> {#this-page-is-outdated style="color:#404040; border-bottom: none"}
----------------------------------------------------------------------------------
-
-The information on this page concerns an old or obsolete version of
-Omeka. If you are using a more recent version, instead see [Omeka's
-documentation at
-readthedocs.org](http://omeka.readthedocs.org/en/stable-2.0/Reference/libraries/globals/index.html).
-
-</div>
+The information on this page concerns an old or obsolete version of Omeka. If you are using a more recent version, instead see [Omeka's documentation at readthedocs.org](http://omeka.readthedocs.org/en/stable-2.0/Reference/libraries/globals/index.html).
 
 +--------------------------------------+--------------------------------------+
 | General Helpers                      | -   [auto\_discovery\_link\_tag](Fun |
