@@ -1,6 +1,6 @@
-
-Configuring Thumbnail Creation
-==============================
+---
+title: Configuring Thumbnail Creation
+---
 
 Choosing a Strategy
 -----------------------------------------------------------

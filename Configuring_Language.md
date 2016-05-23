@@ -1,14 +1,13 @@
-Configuring Language
-====================
-
+---
+title: Configuring Language
+---
 
 Available languages and codes
 ---------------------------------------------------------------
 
 Below are listed the languages in which Omeka is available, along with the two or four letter codes that you will need to configure Omeka to use your language.
 
-### Omeka 2.3.1
-
+### Omeka 2.4
 A translation is considered "Complete" at 100%. Languages listed as "Nearly Complete" are between 90 and 99% translated.
 
 The statuses listed in the table are for the core Omeka code; coverage varies for plugins. To help translate Omeka, sign up for an account at [Transifex](https://www.transifex.com) and join our project (an account is required to view progress or contribute).

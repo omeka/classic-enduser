@@ -1,9 +1,6 @@
-
-Describing Items
-================
-
-Describing Items
---------------------------------------------------------
+---
+title: Describing Items
+---
 
 All items in your Omeka archive have core and item type metadata - or the information that will help describe an item. IEach item may belong to one collection and may be tagged with an infinite number of keywords. Items will be used to build exhibits.
 
@@ -12,7 +9,7 @@ Each item contains descriptive metadata. By default, Omeka uses the guidelines e
 It is also possible to install another element set (see[Managing_Element_Sets](../Managing_Element_Sets.md)), or you may create a new element set, (see
 [Creating_an_Element_Set](Creating_an_Element_Set.md)).
 
-### Dublin Core Fields
+## Dublin Core Fields
 
 The following Core fields are available for all Omeka items, and by default are displayed first on the public item pages.
 
