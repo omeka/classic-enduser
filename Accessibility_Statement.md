@@ -1,6 +1,8 @@
 
-Accessibility Statement
-=======================
+---
+title: Accessibility Statement
+---
+
 The Omeka team is committed to making Omeka an accessible option for building collections and exhibits online. We are working to make Omeka’s core code accessible and will continue to make accessibility for persons with disabilities a priority as we develop the code. Omeka strives to adhere to [W3C web design standards](http://www.w3.org/standards/) and to be compliant with [Section 508](http://www.section508.gov/) of the Americans with Disabilities Act (pdf).
 
 The following statements apply to Omeka versions 2.3 and higher.

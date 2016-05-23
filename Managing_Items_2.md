@@ -18,30 +18,36 @@ Add an Item
 
 From your items page (`mywebsite.org/admin/items`) click the "Add an Item" button.
 
-This takes you to the admin/items/add page where you see a navigation bar across the top pointing you to different stages of adding an item. At any time, you may check the “Public” and/or “Featured” boxes to the right of the item form. You may also change this status from the `/admin/items` page without needing to re-open the individual item.
+This takes you to the admin/items/add page where you see a navigation bar across the top pointing you to different stages of adding an item. 
+
 1.  The first tab shows the **Dublin Core** metadata fields. These are available for every item in the archive. 
     - Each field can have multiple values; Simply click the "Add Input" button beside each field title to add a new input for that field.
+    - You can use HTML in these elements if you want; see below for more information. 
 2.  The **Item Type Metadata** tab lets you choose a specific item type for the object you are adding. 
-     - Once you choose the type by using the drop-down menu, relevant metadata fields appear for you to complete. (See [Managing Item Types 2.0](/Managing_Item_Types_2.0.md) for information about adding/editing item types.)
+     - Once you choose the type by using the drop-down menu, relevant metadata fields appear for you to complete. 
+    - See [Managing Item Types 2.0](/Managing_Item_Types_2.0.md) for information about adding/editing item types.)
 3.  The **Files** tab lets you upload files to an item. 
      - Clicking the "Add Another File" link will reveal another field for adding a file. You can associate any number of files to an item. Read more about [Managing Files 2.0](Managing_Files_2.0.md).
 4.  The **Tags** tab allows you add keyword tags to your item.
+     - You must press the “Add Tags” button in order to attach tags to an item. Simple entering them in the Add Tags field will not work.
 5.  To assign items to a collection: on the right side of the page, under the "Add Item" button is a drop-down menu where you can assign your item to a collection. Remember, items can only belong to one collection.
-6.  Be sure to click the "Add Item" button to save your data.
+6. At any time, you may check the “Public” and/or “Featured” boxes to the right of the item form, just under the button for Add Item. 
+7. Be sure to click the "Add Item" button to save your data.
 
-###  Adding HTML elements to Items
+###  Using HTML in Item Elements
 
 Each metadata field's text may be enhanced using basic HMTL tags. Check the HTML box below the text box to enable a visual HTML editor. 
 ![Item element with Use HTML box ticked](doc_files/itemHTML.png)
 
-For more instructions, see:
-[Using HTML Editor-TinyMCE](/Using_HTML_Editor-TinyMCE.md)
+For more information about working with the HTML editor, please see [Using HTML Editor-TinyMCE](/Using_HTML_Editor-TinyMCE.md)
 
-### Properties of Items
+Properties of Items
+-------------------------------------------------------------
+Items: Each item contains Dublin Core and Item Type metadata; an item can belong to one collection at a time, and have an infinite number of tags. Items may contain many or no files.
 
--   Items: Each item contains Dublin Core and Item Type metadata; an item can belong to one collection at a time, and have an infinite number of tags. Items may contain many or no files.
--   Collections: May be comprised of different items. Items may only belong to one collection a time.
--   Tags: Tags can be added to any item, and an item may contain an infinite number of tags.
+Collections: May be comprised of different items. Items may only belong to one collection a time.
+
+Tags: Tags can be added to any item, and an item may contain an infinite number of tags.
 
 Browse Items in Admin
 -------------------------------------------------------------
@@ -53,9 +59,9 @@ The browse items view displays items in a table. Each row is an item. There are 
 
 Click the paired up-down arrows next to the Title, Creator, and Date Added headers to sort the items by that field. 
 
+Note that Items that are not public will display (Private) next to the title, Items that are featured have a star inside the item’s title. The image below shows first a featured item (note the star), then a general public item, then a private item.
 
-To sort by public, private, or featured items, click the Quick     Filter link at the top of the list.
-    -  Note that Items that are not public say (Private) next to the title, Items that are featured have a star inside the item’s title
+![items browse view](/doc_files/itemsBrowsePF.png)
 
 Each item has buttons to view Details, Edit, or Delete just below its title. 
 
