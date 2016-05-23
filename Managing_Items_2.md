@@ -1,6 +1,6 @@
-Managing Items 2.0
-==================
-
+---
+title: Managing Items 2.0
+---
 
 Items are building blocks in Omeka. To build your digital collections website, you must first add items.
 

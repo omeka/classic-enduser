@@ -1,5 +1,6 @@
-Managing Navigation 2.0
-=======================
+---
+title: Managing Navigation 2.0
+---
 
 The Navigation section in Appearance lets you manage your Omeka's public navigation by ordering, editing, and adding navigation links, and by selecting a homepage.
 

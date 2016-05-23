@@ -1,5 +1,6 @@
-How Might You Use Omeka
-=======================
+---
+title: How Might You Use Omeka
+---
 
 As you are thinking about designing a website, you may also want to consult, [Digital History: A Guide to Gathering, Preserving, and, Presenting the Past on the Web](http://chnm.gmu.edu/digitalhistory), by Dan Cohen and Roy Rosenzweig
 

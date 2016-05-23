@@ -1,7 +1,6 @@
-
-
-Legacy Add-Ons
-==============
+---
+title: Legacy Add-Ons
+---
 
 This page collects add-ons that are not compatible with current versions of Omeka.
 

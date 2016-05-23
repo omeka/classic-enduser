@@ -1,6 +1,7 @@
+---
+title: Managing Item Types 2.0
+---
 
-Managing Item Types 2.0
-=======================
 Item types are type of object, with associated metadata. Omeka comes with pre-defined item types with fields, but you can easily edit these types, or add your own types.
 
 ![Item types browse view](/doc_files/itemTypeBrowse.png)

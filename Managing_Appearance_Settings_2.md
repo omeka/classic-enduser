@@ -1,5 +1,6 @@
-Managing Appearance Settings 2.0
-================================
+---
+title: Managing Appearance Settings 2.0
+---
 
 The Settings sub-tab in the Appearance section help you to manage derivative image sizes and adjust some of the display settings for items on the public and admin sides. It is divided into two sections: *Derivative Size Constraints* and *Display Settings*
 

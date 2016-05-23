@@ -1,6 +1,6 @@
-Managing Collections 2.0
-========================
-
+---
+title: Managing Collections 2.0
+---
 
 Collections may be used in a variety of contexts that make the most sense for your archive.
 

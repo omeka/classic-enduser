@@ -1,3 +1,7 @@
+---
+title: Media Files
+---
+
 To keep up with the changing browser support landscape, as of version 2.4 Omeka uses HTML 5 audio and video tags when embedding audio and video, instead of the object and embed tags used by previous versions.
 
 This change means generally better support on newer browsers, but worse support on older ones and for older video formats especially.

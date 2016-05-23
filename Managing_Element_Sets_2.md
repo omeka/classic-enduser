@@ -1,5 +1,6 @@
-Managing Element Sets 2.0
-=========================
+---
+title: Managing Element Sets 2.0
+---
 
 Element Sets are standardized metadata categories that enable you to consistently classify, identify, and sort the digital resources in your Omeka database. Element Sets utilize standardized Dublin Core metadata fields enabling you to classify the items in your database by content, format, and administrative details surrounding stewardship such as rights and preservation.
 

@@ -1,5 +1,7 @@
-Managing Appearance 2.0
-=======================
+---
+title: Managing Appearance 2.0
+---
+
 The Appearance section contains links to sections for configuring the website's theme (design template), the website's navigation, and other appearance-related settings.
 
 ![Appearance.png](/files/Appearance.png)

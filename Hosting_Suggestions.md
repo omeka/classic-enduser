@@ -1,6 +1,7 @@
 
-Hosting Suggestions
-===================
+---
+title: Hosting Suggestions
+---
 
 If you lack access to a server that meets Omeka's [basic requirements](/Preparing_to_Instal.md), try our [Omeka.net](http://omeka.net) hosted service.
 

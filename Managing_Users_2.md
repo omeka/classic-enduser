@@ -1,6 +1,6 @@
-
-Managing Users 2.0
-==================
+---
+title: Managing Users 2.0
+---
 
 The Users section allows the site Administrator to control who may
 access the admin section of the site and what they can do. You may add,

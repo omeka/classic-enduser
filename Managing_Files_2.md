@@ -1,5 +1,6 @@
-Managing Files 2.0
-==================
+---
+title: Managing Files 2.0
+---
 
 When adding [items](/Managing_Items_2.md) to your archive, often you will upload one or more files (images, documents, et al) associated with that item.
 
