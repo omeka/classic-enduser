@@ -1,5 +1,6 @@
-Project Planning Case Studies
-=============================
+---
+title: Project Planning Case Studies
+---
 
 To help project managers think about how to organize an Omeka site, we offer a few case studies of projects developed at CHNM. Please add your own case study as you finish your Omeka sites.
 

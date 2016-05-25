@@ -1,5 +1,6 @@
-Server configuration
-====================
+---
+title: Server configuration
+---
 
 Suggested Specs for memory
 --------------------------------------------------------------

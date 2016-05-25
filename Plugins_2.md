@@ -1,5 +1,6 @@
-Plugins for Omeka version 2.0+ 
----------------------------------------------------------
+---
+title: Plugins for Omeka version 2.0+ 
+---
 
 Below are instructions for using CHNM-developed plugins. Visit the [Add-ons plugin](../plugins.md) page to download specific plugins and find others developed by the Omeka community.
 

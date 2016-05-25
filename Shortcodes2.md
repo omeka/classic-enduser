@@ -1,5 +1,6 @@
-Shortcodes 
-=====
+---
+title: Shortcodes 
+---
 
 Starting with Omeka 2.2, some text fields (like the page content field in Simple Pages) support **shortcodes.**
 
