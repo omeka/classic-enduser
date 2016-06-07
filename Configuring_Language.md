@@ -14,8 +14,9 @@ The statuses listed in the table are for the core Omeka code; coverage varies fo
 
 Language | Code | Status
 ---|---|---
-Albanian (Albania)| `sq_AL` |Partial
+Albanian (Albania)| `sq_AL` | Partial
 Arabic | `ar` | Partial
+Belarusian (Belarus) | `be_BY` | Parial
 Bengali (Bangladesh)| `bn_BD` | Partial
 Bulgarian (Bulgaria)| `bg_BG` | Complete
 Catalan (Spain)| `ca_ES` | Complete
@@ -37,13 +38,14 @@ Hungarian (Hungary) | `hu_HU` | Partial
 Icelandic | `is` | Partial
 Indonesian | `id` | Partial
 Inuktitut | `iu` | Partial
-Italian | `it` | Partial
+Italian | `it` | Nearly Complete
 Japanese | `ja` | Partial
 Korean (Korea) | `ko_KR` | Partial
 Latvian (Latvia) | `lv_LV` | Partial
 Lithuanian | `lt` | Partial
 Macedonian (Macedonia) | `mk_MK` | Partial
 Malay (Malaysia) | `ms_MY` | Partial
+Mongolian | `mn` | Partial
 Norwegian Bokmal | `nb` | Nearly Complete
 Polish | `pl` | Partial
 Portuguese (Brazil) | `pt_BR` | Complete
@@ -54,7 +56,7 @@ Serbian (Serbia) | `sr_RS` | Complete
 Slovenian (Slovenia) | `sl_Sl` | Partial
 Spanish | `es` | Complete
 Spanish (Colombia) | `es_CO` | Nearly Complete
-Swedish (Sweden) | `sv_SE` | Partial
+Swedish (Sweden) | `sv_SE` | Complete
 Tamil | `ta` | Partial
 Thai | `th` | Partial
 Turkish (Turkey) | `tr_TR` | Nearly Complete

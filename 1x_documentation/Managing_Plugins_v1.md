@@ -1,13 +1,10 @@
-
-Managing Plugins
-========================
+---
+title: Managing Plugins
+---
 
 Plugins are tools to extend the basic functionality of Omeka. A list of plugins available for download is on the Plugins Add-Ons
-Directory, and instructions for using plugins
-available on the [Plugins2.0](Plugins2.0.html "Plugins2.0")
-documentation page.
+Directory, and documentation for specific plugins is linked from the [Plugins](/Plugins_2.md) index page. 
 
-Manage Plugins from the Settings button in the right corner of your dashboard, /admin/settings. Activate and deactivate installed plugins from this panel.
 
 -   **Install** – Runs the installer for the plugin and activates the plugin.
 -   **Uninstall** – Runs the uninstaller for the plugin and deletes any information in your installation related to the plugin.

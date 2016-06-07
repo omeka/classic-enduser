@@ -1,6 +1,7 @@
-
-Changing Exhibit Themes to Public Themes
-========================================
+---
+title: Changing Exhibit Themes to Public Themes
+---
+*This documentation for Omeka versions 1.3-1.5 only*
 
 Omeka 1.3 and Exhibit Builder 1.0 changed how Exhibit Builder handles themes. There are no longer themes specific to Exhibit Builder, instead you can choose any available public themes. As such, any themes created specifically for Exhibit Builder will need to be converted to a public theme by following this process.
 
