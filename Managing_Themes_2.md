@@ -25,49 +25,30 @@ To add and activate a new plugin for your Omeka installation, follow these steps
     - Click “Configure Theme” if desired.
 
 Configuring a Theme
------------------------------------------------------------------![Themeconfigureclick.png](https://omeka.org/c/images/thumb/2/2a/Themeconfigureclick.png/400px-Themeconfigureclick.png)](File:Themeconfigureclick.png.html)
-
-[![](https://omeka.org/c/skins/common/images/magnify-clip.png)](File:Themeconfigureclick.png.html "Enlarge")
-
-
+----------------------------------------------------------------
 Configurations let you make choices about the look of your site,
-including adding a logo and homepage text, managing featured elements, and adding footer text. Each configuration is unique to each theme and will be saved with that theme.
+including adding a logo and homepage text, managing featured elements, and adding footer text. 
 
-1.  Click "Configure Theme" to customize your site. The following
-    choices are available in admin/themes:
+The configuration settings you make are unique to each theme and will be saved with that theme. Not all themes have the same configuration settings. 
 
--   Choose a logo file. You may upload a logo file that will replace the
-    site title in the header of the theme. Recommended maximum width for
-    the logo is 500px.
--   Choose a header background image: Upload an image file that will
-    display across the top of your public website.
+![In image, mouse is hovering over the configure button for a theme](/doc_files/Themeconfigureclick.png)
 
-[![Configurelogo.png](https://omeka.org/c/images/thumb/6/60/Configurelogo.png/400px-Configurelogo.png)](File:Configurelogo.png.html)
+To configure your theme, click the "Configure Theme" button below the theme graphic to customize your site. While not all themes have the same configuration settings, most will have the following two sections: 
 
+*Header and Footer* configuration options are:
+- *Logo file.* You may upload a logo file that will replace the site title in the header of the theme. Recommended maximum width for the logo is 500px.
+- *Header background.* Upload an image file that will display across the top of your public website.
+- *Footer text.* An HTML-enabled text box where you can enter text for a site footer to appear on every page. 
+- *Display copyright in footer.*  Check this box if you wish to display your site’s copyright information in the footer. Site copyright information is found in the [General Settings](/Managing_General_Settings_2.md) section.
+- *Use Advanced Site-wide search.* Check this box to allow public-side site visitors to search the whole site, including items, collections, and files, and to use boolean methods when searching.
+![Header and footer configuration options](/doc_files/themeHFConfig.png)
 
--   Display Featured Item: Check this box if you wish to show a featured
-    item on the homepage.
--   Display Featured Collection: Check this box if you wish to show a
-    link featuring a collection on the homepage.
--   Display Featured Exhibit: Check this box if you wish to show a link
-    featuring an exhibit on the homepage.
--   Homepage Recent Items: Choose the number of recent items to be
-    displayed on the homepage. These appear in the order in which they
-    were mostly recently added to the archive.
+*Homepage* configuration options:
+- *Display Featured Item.* Check this box if you wish to show a featured item on the homepage.
+- *Display Featured Collection.* Check this box if you wish to show a featured collection on the homepage.
+- *Display Featured Exhibit.* Check this box if you wish to show a featured exhibit on the homepage.
+- *Homepage Recent Items.* Choose the number of recent items to be displayed on the homepage. These will appear in the order in which they were mostly recently added to the archive.
+-   *Homepage Text*. Add some text to be displayed on your homepage above the Featured Items. This is a good place to add a very short tagline or description of your site. Save longer explanations for an About page.
+![Homepage configuration options](/doc_files/themeHomeConfig.png)
 
-[![Cofigurefeatured.png](https://omeka.org/c/images/thumb/b/b8/Cofigurefeatured.png/400px-Cofigurefeatured.png)](File:Cofigurefeatured.png.html)
-
-
--   Homepage Text: Add some text to be displayed on your homepage above
-    the Featured Items. This is a good place to add a very short tagline
-    or description of your site. Save longer explanations for an
-    About page.
--   Footer Text: Add some text to be displayed in your theme’s footer.
-    This can be a good place to add credits or links to funders.
--   Display Copyright in Footer: Check this box if you wish to display
-    your site’s copyright information in the footer. Site copyright
-    information is found in the [General
-    Settings](Managing_General_Settings_2.0.html "Managing General Settings 2.0") section.
-
-Save Changes at any time to save these customizations.
-
+Remember to save changes.
