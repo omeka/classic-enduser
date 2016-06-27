@@ -8,7 +8,7 @@ The following documentation is primarily for Omeka Classic  versions 2.0 and hig
 - [Intro to Omeka 2.0 (video)](https://vimeo.com/55973380)
 - [Omeka Feature List](/Feature_List.md)
 - [Accessibility Statement](/Accessibility_Statement.md)
-- [Which Omeka to use](/Org_vs_Net.md)
+- [Omeka Classic vs Omeka.net](/Classic_vs_Net.md)
 - [Upcoming Workshops](/Upcoming_Workshops.md)
 
 ### Project Planning

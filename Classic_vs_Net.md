@@ -1,7 +1,6 @@
-
-
-Org vs Net 
-===========
+---
+title: Omeka Classic vs Net 
+---
 
 [Omeka.net](http://omeka.net) is a hosted service option for creating an Omeka-powered site, as opposed to [downloading](../download.1.html) and installing Omeka classic. Both Omeka.net and Omeka Classic installs have advantages and challenges. Use the table below to help you determine which fits your needs: 
 
