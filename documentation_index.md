@@ -18,7 +18,7 @@ The following documentation is primarily for Omeka Classic  versions 2.0 and hig
 - [Project Planning Cast Studies](/Project_Planning_Case_Studies.md)
 
 ### Getting started with Omeka Classic
-- Technical Requirements
+- [System Requirements](/System_Requirements.md)
 - [Hosting Suggestions](/Hosting_Suggestions.md)
 - [Preparing to Install](/Preparing_to_Install.md)
 - [Installing](/Installation.md)

@@ -4,15 +4,15 @@ title: Installation
 
 Check System Requirements
 ----------------------------------------------------------------
--   Check the [Preparing to Install](/Preparing_to_Install.md) section to be certain you have all of the server and program requirements.
+Before installing, check to make sure your server meets the [system requirements](/System_Requirements.md)
 
--   Instructions for installing Omeka on several Linux distributions, including Fedora, OpenSuse, and Ubuntu can be found on the [Preparing to Install](/Preparing_to_Install.md) page.
+Instructions for installing Omeka on several Linux distributions, including Fedora, OpenSuse, and Ubuntu can be found on the [Preparing to Install](/Preparing_to_Install.md) page.
 
 7 Easy Steps for Installing with LAMP server setup 
 -----------
+Note: If you are doing a One-Click install from Dreamhost, you must edit the `db.ini` file in the Omeka directory (see 3 below).
 
--   Note: If you are doing a One-Click install from Dreamhost, you must edit the `db.ini` file in the Omeka directory (see 3 below).
--   If you want to use Omeka in a language other than English, you will need to configure it in the `/application/config/config.ini` file. See [Configuring Language](/Configuring_Language.md) for details. The installation steps are localized, so you might want to do this before the rest of the installation steps below. It is fine to change this after your site is successfully installed.
+If you want to use Omeka in a language other than English, you will need to configure it in the `/application/config/config.ini` file. See [Configuring Language](/Configuring_Language.md) for details. The installation steps are localized, so you might want to do this before the rest of the installation steps below. It is fine to change this after your site is successfully installed.
 
 1. **Create a MySQL database** on your web host, as well as a user with permissions to modify the database.
     - Make sure to take note of the database hostname, the database name, the database user's username, and the database user's password.

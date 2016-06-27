@@ -9,19 +9,19 @@ First, for advice on thinking about what your site is about, how to handle image
 You may also want to consult articles written about using Omeka for teaching, building exhibits, and managing collections in our public [Zotero library](https://www.zotero.org/groups/omeka/items).
 
 ### Case Studies
--   [Exhibit Case Study](https://omeka.org/codex/Exhibit_Case_Study "Exhibit Case Study")
--   [Collecting\_Site\_Case\_Study](https://omeka.org/codex/Collecting_Site_Case_Study "Collecting Site Case Study")
+-   [Exhibit Case Study](/case_studies/Exhibit_Case_Study.md)
+-   [Collecting Site Case Study](/case_studies/Collecting_Site_Case_Study.md)
 -   [Teaching Case Study](https://omeka.org/codex/Teaching_Case_Study "Teaching Case Study")
 -   [Using Omeka for mobile content delivery](http://chnm.gmu.edu/labs/mobile-for-museums/implementation-and-prototypes/)
 
 ### Tips on dissecting an Omeka site
 
--   When trying to determine how to organize and build your site, take a look at the [Showcase](../showcase.1.html). When viewing a site built in Omeka look at different page URLs to clue you in as to how the project is organized.
+-   When trying to determine how to organize and build your site, take a look at the [Showcase](http://www.omeka.org). When viewing a site built in Omeka look at different page URLs to clue you in as to how the project is organized.
     -   Example: When looking at [Making the History of 1989](http://chnm.gmu.edu/1989), you see there is a section of Introductory Essays. When you click on this section, or any of the essays, you will see from the URL that this section was built as an exhibit. Here is the link to the <http://chnm.gmu.edu/1989/exhibits/intro/poland>.
     -   Example: Look at [Children and Youth in History](http://chnm.gmu.edu/cyh/) Click on the Case Studies tab, and you will find that each case study is an individual item in the archive. They created an item type called "case study" and this is what is called to display for this section. See, <http://chnm.gmu.edu/cyh/case-studies/122>.
 
 ### Tips on Planning
-See [Site Planning Tips](Site_Planning_Tips.html "Site Planning Tips") for more specific ways to plan ahead for building an Omeka site.
+See [Site Planning Tips](/Site_Planning_Tips.md) for more specific ways to plan ahead for building an Omeka site.
 
 Before starting to work with Omeka, it is useful to sketch out
 wireframes of site to help to plan how you want the public site to look and how you want visitors to access and use the content in your site. Planning the content and then think about how Omeka can work best for your project.
