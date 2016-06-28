@@ -2,7 +2,7 @@
 title: Setting Directory Permissions
 ---
 
-One of the steps in Omeka's [installation](http://omeka.org/codex/Installation "Installation") process is setting the correct permissions on the `files` directory (`archive` in older versions of Omeka). The necessary process for setting permissions can differ significantly between different servers,
+One of the steps in Omeka's [installation](../Installation.md) process is setting the correct permissions on the `files` directory (`archive` in older versions of Omeka). The necessary process for setting permissions can differ significantly between different servers,
 so it's often best to get specific advice from your hosting provider. This page tries to provide some more general guidance.
 
 The user running the Omeka web process needs **read**, **write**, and **execute** permissions for the `files` directory and all its subdirectories.
@@ -11,7 +11,6 @@ There are three major ways to give the needed permissions. For each option, the 
 
 suExec
 -----------------------------------------------------
-
 For servers using **suExec** (your host will be able to tell you if they are using it), the server executes PHP files using your user account's permissions. This often means you don't need to make any changes at all, since you should already have the proper access to the Omeka files that you unzipped.
 
 Under suExec, you only need to grant write permissions for the **user**.
@@ -33,7 +32,6 @@ For many other servers, the best option is often to set the directories to a gro
 
 World Access
 -----------------------------------------------------
-
 **This is the least secure option. Especially if you are using shared hosting, ask your host for advice before choosing it.**
 
 You can also simply give access to the directories to all users on the system. This option is easy, but be sure to ask your host for advice before you choose it. It can be dangerous to give access to all users, and your host should be able to suggest another option.
