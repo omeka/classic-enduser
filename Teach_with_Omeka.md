@@ -1,5 +1,6 @@
-Teach with Omeka
-================
+---
+title: Teach with Omeka
+---
 
 Courses adopting Omeka
 ---------------------------------------------------------
@@ -20,5 +21,3 @@ Articles on Teaching with Omeka
 Jeffrey McClurken (Associate Professor and Chair of History and American Studies at the University of Mary Washington). [“Teaching with Omeka"](http://chronicle.com/blogs/profhacker/teaching-with-omeka/26078). ProfHacker blog, *Chronicle of Higher Education*, August 9, 2010.
 
 Jeffrey McClurken (Associate Professor and Chair of History and American Studies at the University of Mary Washington), “Teaching and Learning with Omeka: Discomfort, Play, and Creating Public, Online, Digital Collections," *Learning Through Digital Media Experiments in Technology and Pedagogy*, 2011.
-
-Devin Griffiths. ["Teaching With Omeka: Presenting the Peries Project"](http://www.devingriffiths.com/infrastructure/teaching-with-omeka-presenting-the-peries-project/). devolution. May 9, 2012.

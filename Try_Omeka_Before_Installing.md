@@ -1,6 +1,6 @@
-Try Omeka Before Installing
-===========================
-
+---
+title: Try Omeka Before Installing
+---
 If you would like to try Omeka before installing on your own server, consider signing up for a free basic account at
 [Omeka.net](http://www.omeka.net/)
 

@@ -1,5 +1,6 @@
-Troubleshooting Omeka
-=====================
+---
+title: Troubleshooting Omeka
+---
 
 404 Errors
 -------------------------------------------------------------
@@ -13,10 +14,8 @@ If installing `mod_rewrite` does not solve the problem, check that your Apache c
 
 Getting Better Error Messages
 ---------------------------------------------------------------
-A blank or white screen is often an indication that Omeka or PHP has encountered an error. Since error messages can often contain private or technical information, Omeka hides them by default. See [retrieving error messages](Retrieving_error_messages.md) for instructions on how to show these messages. The content of error
-messages can be extremely useful for troubleshooting, so try these steps before seeking further help.
+A blank or white screen is often an indication that Omeka or PHP has encountered an error. Since error messages can often contain private or technical information, Omeka hides them by default. See [retrieving error messages](Retrieving_error_messages.md) for instructions on how to show these messages. The content of error messages can be extremely useful for troubleshooting, so try these steps before seeking further help.
 
 Further Help Troubleshooting
 ----------------------------------------------------------
-General questions should be asked on the [Omeka Forums](http://forums.omeka.org). Advanced users may wish to post their technical questions on the [Developer Mailing List](http://groups.google.com/group/omeka-dev) for a more specific
-solution to their problem.
+General questions should be asked on the [Omeka Forums](http://forum.omeka.org). Advanced users may wish to post their technical questions on the [Developer Mailing List](http://groups.google.com/group/omeka-dev) for a more specific solution to their problem.
