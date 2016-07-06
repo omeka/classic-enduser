@@ -1,136 +1,102 @@
-Plugins/Geolocation 2.0
-=======================
+---
+title: Geolocation 2
+---
 
+The Geolocation plugin allows you to assign a location to items in your Omeka site. The locations are displayed on maps on individual items page and on a browsable map of all geolocated items.
 
-[Plugins](../Plugins.1.html "Plugins")
+There is a [screencast for Geolocation demonstrating its basic functionality.](https://vimeo.com/156298642)
 
-
-The Geolocation plugin allows you to pin items in your database to a
-Google map. Items are geolocated individually with related metadata and
-collectively on a central map.
 
 Configuring
 -------------------------------------------------------------
-
-Once you have
-[installed](../Managing_Plugins_2.0.html#Installing_a_Plugin "Managing Plugins 2.0")
-the Geolocation plugin, select Plugins in the top navigation of your
-admin. Scroll down to the Geolocation plugin and click the green
-Activate button. The page will reload; scroll down again and click the
-Configure button for the Geolocation plugin.
+Once you have [installed](../Managing_Plugins_2.md) the Geolocation plugin, go to the Plugins tab in the top navigation of your admin dashboard. Scroll down to the listing for Geolocation and click *Configure* (if you do not see Configure you may need to click the *Install* or *Activate* buttons.
 
 ### General Settings
+The first section for configuration are the general settings for the appearance of your map on the public and admin sides of your site.
 
+- *Default latitude*: set the center point of the map's latitude (North/South value), in degrees. Using numbers after the decimal point will pinpoint the location more precisely.
+- *Default longitude*: set the center point of the map's longitude (East/West), in degrees. Using numbers after the decimal point will pinpoint the location more precisely.
+Default latitude and longitude of the point on which your map will center.
+- *Default Zoom Level*: Use a whole number of 0 of greater. 0 is the most zoomed out. A value of 15 will result in a map showing roughly one square mile
+-   *Map Type*: Roadmap, Satellite, Hybrid (roadmap overlaid on satellite) or Terrain.
+- *API Key*:
 
-[![Geogen.png](https://omeka.org/c/images/3/3a/Geogen.png)](https://omeka.org/codex/File:Geogen.png)
-
-
--   Default latitude and longitude of the point on which your map
-    will center.
-    -   Latitude has a North/South value (sometimes noted with a N or S
-        after the coordinates, longitude has an East/West value.
-    -   Use a decimal point for the degree mark if you are trying for
-        very specific points (so 51°80 would be 51.8)
--   Default Zoom Level. 0 is the most zoomed out, 20 is very zoomed in.
--   Map Type: Roadmap, Satellite, Hybrid (roadmap overlaid on satellite)
-    or Terrain.
+![General settings for geolocation](../doc_files/plugin_images/geolocation_genset.png)
 
 ### Browse Map Settings
+These settings are for the map through which users can browse all geolocated items, and for the "Search by Address function" that Geolocation enables in advanced item search. 
 
+-   *Number of Locations Per Page*: The browsable map has pagination; set the number of items per map page with a whole number.
+-   *Auto-fit to Locations*: If checked, the browse map will ignore default location and zoom settings designated in General Settings and instead auto fit to the locations of the items displayed (on that page)
+-   *Default Radius*: for the Search By Address function in the advanced items search.
+-   A checkbox to *Use metric distances* for radius search, rather than miles.
 
-[![Brwsmap.png](https://omeka.org/c/images/d/d7/Brwsmap.png)](https://omeka.org/codex/File:Brwsmap.png)
+![Browse map settings for geolocation](../doc_files/plugin_images/geolocation_brset.png)
 
-
--   Number of Locations Per Page. The Map browse has pagination.
--   Auto-fit to Locations. If checked, the browse map will ignore
-    default location and zoom settings (from aobve) and instead auto fit
-    to the locations of the items displayed.
--   Default Radius for the items advanced search.
--   Use metric distances for radius search.
 
 ### Item Map Settings
+These settings are for the map display on an item/show page.
 
+- *Width for Item Map*: set in percent, defaults to 100% if left blank.
+- *Height for Item Map*: set in pixels defaults to 300px if left blank. 
 
-[![ItemMap.png](https://omeka.org/c/images/5/56/ItemMap.png)](https://omeka.org/codex/File:ItemMap.png)
-
-
-You can set the width and height for the item map - if left blank, it
-defaults to a width of 100% and a height of 300px.
+![Item Map settings](../doc_files/plugin_images/geolocation_ItemMap.png)
 
 ### Map Integration
+These settings are for integration of the geolocation map into the site menu and the [contribution](../Plugins/Contribution_2.0.md) plugin's form. 
 
+-   *Add link to map on Items/Browse navigation*: click to make active. 
+- *Add map to contribution form*: click to make active. Note that this will only work if you have the Contribution plugin installed and active.
 
-[![Mapint.png](https://omeka.org/c/images/c/cc/Mapint.png)](https://omeka.org/codex/File:Mapint.png)
-
-
--   Click the first checkbox to add a link to the items map on all
-    items/browse pages.
--   Click the second checkbox to include an option for geolocating
-    contribution items *Note* this will only work if you have the
-    Contribution plugin installed and active.
+![Map Integration settings](../doc_files/plugin_images/geolocation_Mapint.png)
 
 Getting Started
----------------------------------------------------------------------
+----------------------------------------------------------------
+After you have activated and configured the Geolocation plugin, it is time to geolocate some items.
 
-After you have activated and configured the Geolocation plugin, it is
-time to geolocate some items.
+Geolocation adds a Map tab to the options for \ adding or editing an item (admin/item/edit and admin/item/add pages).  When adding metadata for an item, click on the Map tab to add a location.
 
+![Arrow points to the Map tab](../doc_files/plugin_images/geolocation_set1.png)
 
-[![Geolnav.png](https://omeka.org/c/images/c/c9/Geolnav.png)](https://omeka.org/codex/File:Geolnav.png)
+On the tab there is a field for you to *find a location by address* and a map which you can drag to move around, zoom in and out with the plus and minus options (or the scroll wheel on a mouse), and toggle between road and satellite maps. 
 
+Enter the address where you want the marker for the item to be placed. The plugin will automatically add a marker at that location. 
 
-When adding or editing an item (admin/item/edit and admin/item/add
-pages), you will find a new Map tab. When adding metadata for an item,
-click on the Map tab to add a location.
+You can also click directly on the spot on the map where you want to place the marker. A marker automatically maps the selected site.
 
-Enter the address of the item you wish to geolocate. A marker
-automatically maps the selected address.
+To change the location of an item, type in the new address or click on the new location. You'll be asked if you are sure you would like to change the item location. Select OK or Cancel.
 
-OR, Click directly on the map to place the item you wish to geolocate. A
-marker automatically maps the selected site.
-
-
-[![Geolchange.png](https://omeka.org/c/images/5/5d/Geolchange.png)](https://omeka.org/codex/File:Geolchange.png)
-
-
-\
-
--   To change the location of an item, type in the new address. You'll
-    be asked if you are sure you would like to change the item location.
-    Select OK or Cancel.
--   Don't forget to save your changes.
+To remove geolocation from an item, click directly on the marker. A dialog box will ask you to confirm that you want to delete the location assignment. 
+Don't forget to save your changes.
 
 Viewing Items on the Public Map 
--------------------------------------------------------------------------------------------------------
-
-Visitors to your Omeka site may use a map to browse through all of your
-geolocated items.
+----------------------------------------------------------------
+Visitors to your Omeka site may use a map to browse through all of your geolocated items.
 
 When configuring the plugin, if you selected "Add Link to Map on
 Items/Browse Navigation," a "Browse Map" link will be added
 automatically to the secondary navigation on the items/browse page.
 
+![Public items map view in the Thanks Roy theme](../doc_files/plugin_images/geolocation_pubbr.png)
 
-[![Geolocmapnav.png](https://omeka.org/c/images/c/c5/Geolocmapnav.png)](https://omeka.org/codex/File:Geolocmapnav.png)
+From this view, visitors may browse all mapped items, browse by tag, search for items and browse the map.
 
-
-From this view, visitors may browse all mapped items, browse by tag,
-search for items and browse the map.
-
-They may also locate a mapped item by clicking on the items listed in
-the right column of the map.
+They may also locate a mapped item by clicking on the items listed in the right column of the map.
 
 Browse and Search Items on Admin Map
-----------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------
+A Map tab appears in the left navigation bar located on the left side of the Dashboard. Clicking on the Map tab takes you to a map that displays all items geolocated in your Omeka site--public and not public, and an advanced search form to locate specific items.
 
-A Map tab appears in the left navigation bar located on the left side of
-the Dashboard. Clicking on the Map tab takes you to a map that displays
-all items geolocated in your Omeka site--public and not public.
+![Admin item browse map with search form](../doc_files/plugin_images/geolocation_adminbr.png)
 
+From this view, you may also search mapped items using the item advanced search. Search results appear directly on the map.
 
-[![Geoladminbrowse.png](https://omeka.org/c/images/5/52/Geoladminbrowse.png)](https://omeka.org/codex/File:Geoladminbrowse.png)
+Geolocation and Exhibit Builder
+--------------------------------
+If you have [Exhibit Builder](/ExhibitBuilder_3.0.md) (version 3.x) installed, Geolocation will add a Map block to the options when building pages. 
 
+![Admin item browse map with search form](../doc_files/plugin_images/geolocation_ex1.png)
 
--   From this view, you may also search mapped items using the item
-    advanced search. Search results appear directly on the map.
+You can add items with geolocation markers to the map block. The exhibit will display a single map with the markers for those specific items. 
 
+![Public view of exhibit map block](../doc_files/plugin_images/geolocation_ex2.png)
