@@ -1,12 +1,14 @@
-Upgrading
-=========
+---
+title: Upgrading
+---
 
-1.  Always **back up your database** in case something goes wrong during the upgrade. For instructions, see [Backing up an Omeka    Database](https://omeka.org/codex/Backing_up_an_Omeka_Database "Backing up an Omeka Database").
+1.  Always **back up your database** in case something goes wrong during the upgrade. For instructions, see [Backing up an Omeka    Database](/Backing_up_an_Omeka_Database.md).
 2.  **Deactivate your plugins** in Settings &gt; Plugins of the     administrative panel.
-    - Be careful not to *uninstall* the plugins, because you may lose data. See [Upgrading Plugins](https://omeka.org/codex/Upgrading_Plugins "Upgrading Plugins") for more information.
-    - Check to make sure your plugins are compatible with the versionof Omeka you're upgrading to. Especially when moving from 1.x to 2.x, you may need to use updated versions of plugins instead of the old ones.
+    - Be careful not to *uninstall* the plugins, because you may lose data. See the instructions for [upgrading plugins](/Managing_Plugins_2.md#upgrading-plugins) for more information.
+    - Check to make sure your plugins are compatible with the version of Omeka you're upgrading to. Especially when moving from 1.x to 2.x, you may need to use updated versions of plugins instead of the old ones.
 3.  **Move your old Omeka installation** out of the way, either to somewhere else on your server or transfer the files to your local computer.
 4.  **Download and unzip** the latest version of Omeka into the empty directory where your previous install of Omeka was located.
+     - If you download to the your computer and then upload to the server, either see if you can unzip the folder on the server *or* make sure that hidden files are visible on your computer to ensure that all files are transferred.
 5.  **Move or copy the following files and directories** from your old Omeka folder to the corresponding location in your new Omeka installation (if copying, make sure you keep all permissions the same as they were before):
     - `db.ini` (in version 0.9, this was located in application/config/db.ini; since version 0.10 this has been relocated to the root of your installation.)
     - `files/` (for versions below 2.0, the folder is instead named `archive/`)
@@ -15,5 +17,8 @@ Upgrading
     - If you've modified any of Omeka's core files, you'll need to move those changes over too (be careful with this, as the original file may have been changed in newer versions)
 6.  Finally, you may need to **upgrade your database**. Go to your site's administrative panel in your web browser.
     - If a database upgrade is needed, you'll automatically be redirected to an upgrade page (example.com/admin/upgrade). Click"Upgrade" to update your database to reflect the new data model and finish the upgrade. 
-    - *Omeka 1.2.1 and earlier only*: Instead of redirecting, older Omeka versions will show an alert on your dashboard with a link to follow if the database needs tobe upgraded.
+    - *Omeka 1.2.1 and earlier only*: Instead of redirecting, older Omeka versions will show an alert on your dashboard with a link to follow if the database needs to be upgraded.
     - If you weren't redirected when you went to your administrative panel, then no database changes were required, so you're done!
+
+### Troubleshooting an upgrade
+If you have problems upgrading, double-check to make sure that the db.ini, congif.ini (in the `application/config` folder), and .htaccess files are present and have the correct information. 

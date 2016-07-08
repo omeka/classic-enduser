@@ -1,6 +1,6 @@
-
-Upcoming Workshops
-==================
+---
+title: Upcoming Workshops
+---
 
 Workshops
 -----------------------------------------------------------
@@ -22,6 +22,9 @@ Videos, lesson plans, and slideshows from Omeka workshops.
 
 ### Working with Omeka
 - [Omeka tutorials](http://pastispresent.org/2016/good-sources/omeka-tutorials/) for middle-level Omeka users working on their own installations, from the American Antiquarian Society.
+- [Omeka and Neatline Mapping Tutorials](http://haskinssociety.org/omeka-neatline) from The Haskins Society. There are two tutorials: 
+    - "[Getting Familiar with Omeka](http://haskinssociety.org/omeka-neatline-1)," designed to help cultivate a basic understanding of Omeka using only free tools and server space; 
+    - "[Creating an Annotated Historical Map Using Omeka Neatline](http://haskinssociety.org/omeka-neatline-2)," intended to walk users through the steps required to create an interactive map.
 
 ### Teaching with Omeka
 -   [Digital Tools in The Classroom: Omeka Workshop (Northeastern University)](http://www.slideshare.net/jkmcgrath/omekaworkshop-november-2014) (slides), Dave DeCamp, Jim McGrath, and Amanda Rust. November 17 2014.

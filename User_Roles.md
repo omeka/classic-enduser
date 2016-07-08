@@ -1,58 +1,38 @@
-User Roles
-==========
+---
+title: User Roles
+---
 Omeka allows you to give different backend users different levels of access to your archive. Read through the following list of actions available to users to determine what works best for your project team members.
+
+All logged in site Super, Admin, Contributor, and Researcher users can view non-public content (items, collections, Simple Pages, Exhibits, etc) on the site.
 
 Super Users
 -------------------------------
 
 -   Can do anything and everything in Omeka.
--   Supers are the only users with access to the Settings panel for activating and configuring plugins; choosing and configuring themes; adding and editing users; changing general settings.
+-   Supers are the only users with access to the top navigation tabs for Plugins, Appearance, Users, and Settings. 
 
 Admin Users
 -----
+Admin users do not have access to the tabs for managing plugins, appearance, users, or site settings.
 
-Admin users do not have access to the Settings panel.
-
-**Items**
-- add items
-- edit items (including those from other users)
-- tag items
-- view all the items that are not public
-- remove tags by other users
-- make items public (or not public)
-- make items featured
-
-**Collections**
-- add collections
-- edit collections
-- view collections that aren't public
-
-**Files**
-- edit/remove files
-
-**Tags**
-- rename tags (as in, change the tag 'foo' to 'bar’)
-- delete tags for all items (as in, remove the tag 'katrina' from the whole system at one time)
-
-**Item Types** 
-- add/edit/delete the available Types
-
-**Plugins**
-- Admins may use any of the plugin panels and actions, once activated and configured by Supers.
+Admin users can:
+- Add, edit, tag, and delete items, both their own and created by other users. 
+- Make items, collections, exhibits, and other content public or not public.
+- Make items, collections, exhibits, and other content features or not featured.
+- Add, edit, and delete Item Types. 
+- Add, edit, and delete files.
+- Interact with plugins installed and activated by a SuperUser.
+- Add, edit, and delete tags. 
 
 Contributor Users 
 --------------------------------------------------------
+Contributor users have control over their own content but can only view content created by others. They cannot make their own content public. 
 
-- tag items
-- add new items
-- edit their own items
-- delete their own items
+Contributor users can:
+- add, edit, tag, and delete items which they created.
 - cannot make their own items public.
-- can see items by other contributors that have not been made public.
 - create their own exhibits from items that are public.
 
 Researcher Users
 ---------------------------------
-
-- view items that are not public
-- view collections that are not public
+Researchers can log in to the admin side of an Omeka site and see the content, but cannot interact with it in any way. They cannot add, edit, delete, or tag any items. 
