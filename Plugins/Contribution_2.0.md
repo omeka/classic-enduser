@@ -17,40 +17,51 @@ An Omeka site with the Contribution plugin now requires you to upload and instal
 -   [Record Relations](/RecordRelations_2.0.md) (optional, only required for collecting user information)
 -   [User Profiles](/UserProfile_2.0.md) (optional, only required for collecting user information)
 
-Getting Started with a New Omeka Installation
+Installing
 ------------------------------------------------------------
 
 -   Upload and [install](../Managing_Plugins_2.md#Installing_a_Plugin) the Guest User plugin first. If you have uploaded the other plugins first, you will see in the plugin directory that you cannot install other Contribution-related plugins until Guest User is installed first.
 
 ### Guest User Configuration
+After installing the plugin, click the Configure button. For more information go to the [Guest User documentation](GuestUser_2.0.md).
 
-1. After installing the plugin, click the Configure button. For more information go to the [Guest User documentation](GuestUser_2.0.md).
-    1. Let visitors know a bit about how their contributions will be used and why they are so valuable in the 'Registration
-    Features' information.
-    2. All contributors must register as a guest user in order
-    to contribute.
-    3. It is easiest to contribute if administrator approval is not required and you allow 20 minute instant access. To prevent spam, using ReCaptcha is recommended.
-    4. Additional contribution-specific information for guest users can be created here.
-2. If you do not wish for your contributors to create an account or to log in to contribute an item, use the following configurations in the Guest User plugin:
-    1. Check the box to "Allow open registration," that gives contributor the ability to register without administrator approval
-    2. Additionally, you can allow instant access, that gives contributors the ability to contribute without getting an account. This gives them 20 minutes to submit their contribution, from the time they access the form.
-
-### Configuring the Contribution Form
-
+### Installing
 1. Upload and install the Contribution plugin in the plugin directory.
 2. Contribution settings: A new tab will appear in the left side
 navigation bar labeled, “Contribution.” Click on Contribution to configure the form and submission settings.
     - Note: a link to the contribution form will automatically be added to the site’s navigation. If you wish you draft the form first, go to the site’s Appearance tab at the top of the Dashboard and click on Navigation. Uncheck the “Contribute an Item” link. At this point you can edit the label, or do that later.
-3. *Getting Started* tab offers instructions for setting up for the form and submission settings.
-4. *Contribution Settings* 
-    1. To include questions on the public form, you must first choose the types of items you wish users to add (document, image, sound, moving images) and then create questions whose answers map to specific metadata fields.
-    2. Click on the Contribution Types tab to select the item types you want contributors to select from on the public form. Read more about [Managing Item Types](../Managing_Item_Types_2.0.md) in Omeka.
-    3. Story and Image types are already selected, and you may add other existing types.
-    4. Choose a label for this type. For example, a document type is called a Story.
-    5. Decide whether to allow and/or require file uploads when this type is selected on the form.
-    6. Be sure to add metadata fields for information you wish to collect for those specific Item Types. If there are custom questions for this form that you wish each person to fill out, regardless of type, you will need to add each element to each item type. Read more about [Managing Item Types](../Managing_Item_Types_2.0.md) in Omeka.
-    7. Save Changes.
-        - At any time you may go back and edit the item types and those configurations.
+
+## Setting up Contribution
+Contribution is managed from the plugin's tab on the left-hand navigation of the admin dashboard. 
+
+The Contribution section has four tabs: Getting Started, Contribution Types, Submission Settings, and Contributions. 
+
+![Contribution tab, open to Getting Started](../doc_files/plugin_images/contribution_main.png)
+
+### Getting Started
+The *Getting Started* tab offers instructions for setting up for the form and submission settings.
+
+### Contribution Types
+The Contribution Types tab has a table with a row for each type. Every row shows:
+-  the type's *name* (the label you give it); 
+- its *type* (corresponding Item Type from your Omeka install);
+- the number of *Contributed Items* (which also acts as link to those items);
+- whether *File Upload* is allowed, disallowed, or required; and
+- an *Edit* button. 
+
+![Contribution Types table](../doc_files/plugin_images/contribution_types1.png)
+
+Click *Edit* to add or change data collection for a specific type. Click *Add* to create a new type to collect. 
+
+On the Add/Edit screen for Contribution Types, there are fields for the display name and form upload, and a series of element inputs for the data you will collect from contributors. 
+
+Options are:
+- *Display Name* is the label for the contribution type - how it will appear on the public side. If left blank, the form will just use the Item Type name.
+- *Allow File Upload Via Form*: you can choose to allow, require, or disallow. If this is set to "required," users will not be able to submit the contribution form without attaching a file. 
+
+![Contribution tab, open to Getting Started](../doc_files/plugin_images/contribution_main.png)
+
+
 5. *Submission Settings*: Click on Submission Settings Tab.
     1. Choose a slug to customize the url for the contribution form.
     1. Add confirmation email: An email message will be sent to each contributor from this address confirming that they submitted a contribution to this website. Leave blank if you do not want an email sent.
