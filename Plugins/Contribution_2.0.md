@@ -55,31 +55,53 @@ Click *Edit* to add or change data collection for a specific type. Click *Add* t
 
 On the Add/Edit screen for Contribution Types, there are fields for the display name and form upload, and a series of element inputs for the data you will collect from contributors. 
 
+![Contribution type Story edit page](../doc_files/plugin_images/contribution_story.png)
+
 Options are:
 - *Display Name* is the label for the contribution type - how it will appear on the public side. If left blank, the form will just use the Item Type name.
 - *Allow File Upload Via Form*: you can choose to allow, require, or disallow. If this is set to "required," users will not be able to submit the contribution form without attaching a file. 
+- *Elements*: each element appears as a block. 
+     - The block is labeled with the Dublin Core element,
+     - *Prompt* is like display name, in that it changes the label of the element on the form. 
+     - The *Multiple Rows* checkbox sets whether the entry field on the form has a single row (indicating a short answer) or allows for multiple rows (making it easier for contributors to write paragraphs of text).
 
-![Contribution tab, open to Getting Started](../doc_files/plugin_images/contribution_main.png)
+To add an element (question) to the contribution form:
+1. Go to the bottom element block, titled "Add Element".
+1. Select an element from the dropdown list (this will be all the Dublin Core elements as well as all Item Type elements.
+1. Type a prompt in the Prompt field.
+1. If you want contributors to be able to enter longer blocks of text, click the *Multiple rows* checkbox. 
+1. Remember to save changes.
 
+You can edit any element's prompt or multiple row setting at any time.
 
-5. *Submission Settings*: Click on Submission Settings Tab.
-    1. Choose a slug to customize the url for the contribution form.
-    1. Add confirmation email: An email message will be sent to each contributor from this address confirming that they submitted a contribution to this website. Leave blank if you do not want an email sent.
-    1. Add emails to which you want a notification sent when new contributions are received. You can enter multiple email addresses, separated by a comma.
-    1. Terms of service: paste in text of language of consent for anyone contributing to the site.
-    1. Decide whether to use the ‘Simple’ options. This requires that contributors only provide an email address. Select this option if you have set up the Guest User plugin enabling “instant access.”
-    1. Add text for Contribution notification emails.
-    1. Specify a collection for all new contributed items to be added - remember collections must be created first.
-    1. Select a default contribution type (the type that is visible on the top of the dropdown menu, or choose No default type).
-    1. If you’re collecting user data with the User Profiles plugin, you must select which profile to make available for your contribution users. See below for more information about creating a user profile.
-    1. Save changes.
+To delete an element, click the X button in the right corner of the block and save changes. If you accidentally click the delete button, you can click again (the X changes to an undo arrow) to restore the block.
 
-6. *Contributions*
-    1. Contributions tab is where you can view all submissions through the public contribution form.
-    1. From this screen, it is possible to review and make items public or change their status.
-    1. All contributions through the form will also be available to browse and search on from the Items tab in your Omeka site.
+![two blocks](../doc_files/plugin_images/contribution_addel.png)
 
-### Collecting Information from Contributors (optional)
+In the above image, the upper block has marked for deletion - note that the header for the block is highlighted in red. The lower block is the add element block option with the dropdown open.
+
+If you want users to select from a drop-down instead of entering text, use [Simple Vocab](/SimpleVocab_2.0.md) to set up a controlled vocabulary for the element which will be applied on the admin side when adding/editing an item and in contribution forms. If you want users to be able to assign a location to their contributions, use the [Geolocation](/Geolocation_2.0.md) plugin and check the *add map to contribution form* in its configuration settings.
+
+### Submission Settings
+This section is for the standard settings for your contribution form and general contribution options. 
+
+The settings are:
+- *Contribution Slug*: customize the url for the contribution form.
+- *Contribution Confirmation Email* : An email message will be sent to each contributor from this address confirming that they submitted a contribution to this website. Leave blank if you do not want an email sent.
+- *New Contribution Notification Emails*: Add emails to which you want a notification sent when new contributions are received. You can enter multiple email addresses, separated by a comma.
+- *Terms of service*: paste in text of language of consent for anyone contributing to the site, or make a short statement linking to a [Simple Page](/SimplePages_2.0.md) with a longer terms of service statement. 
+ - *Use 'Simple' Options*: requires that contributors only provide an email address. Select this option if you have set up the Guest User plugin enabling “instant access.”
+- *Email text to send to contributors*: the text of the email sent to contributors when they contribute an item. 
+- *Contribution Collection*: If you want, you can specify a collection to which all new contributed items will be added (note that you must create the collection before you can select it from this dropdown).
+- *Default Contribution Type*: If you select a type, it will automatically load when someone navigates to the public contribution form.
+- If you’re collecting user data with the User Profiles plugin, you must select which profile to make available for your contribution users. See below for more information about creating a user profile.
+   
+Remember to save changes. 
+
+### Contributions
+This  tab is where you can view all submissions through the public contribution form. From this screen, it is possible to review and make items public or change their status. All contributions through the form will also be available to browse and search on from the Items tab in your Omeka site.
+
+## Collecting Information from Contributors (optional)
 
 To ask for additional information about your contributors, you will need to install 2 additional plugins. If you were not collecting contributor information, you do not need to install Record Relations or User Profiles to use Contribution.
 
