@@ -1,57 +1,27 @@
-Plugins/Library of Congress Suggest 2.0
-=======================================
+---
+title: Library of Congress Suggest 2.0
+---
+This plugin adds an auto-complete feature to almost any metadata field in your Omeka site by pulling results from Library of Congress's list of authorities and controlled vocabularies. This functionality helps those building an Omeka site to enforce consistent metadata input and data compatibility with other databases of records.
 
-[Plugins](../Plugins.1.html "Plugins")
+The plugin does not require configuration. After [installing](../Managing_Plugins_2.md#installing-a-plugin) the plugin, there should be a LC Suggest tab on the left hand navigation of your admin dashboard.
 
-Overview 
----------------------------------------------------------
+## Choosing Vocabularies
 
-This plugin adds an auto-complete feature to almost any metadata field
-in your Omeka site by pulling results from Library of Congress's list of
-authorities and controlled vocabularies. This functionality helps those
-building an Omeka site to enforce consistent metadata input and data
-compatibility with other databases of records.
+The Library of Congress maintains an Authorities and Vocabularies service that controls metadata terms used in creating and maintaining records of their holdings. Choices include, LC Subject Headings, MARC Geographic Areas, and Thesaurus of Graphic Materials. See the [full list of standardized vocabularies and authorities](http://id.loc.gov/).
 
-### Installation 
-
--   See [Installing a Plugin](../Managing_Plugins_2.0.html#Installing_a_Plugin "Managing Plugins 2.0")
-    to install Library of Congress Suggest.
--   After installing, go to the newly-added tab in the left navigation
-    menu found under Dashboard.
-
-### Choosing Vocabularies
-
-The Library of Congress maintains an Authorities and Vocabularies
-service that controls metadata terms used in creating and maintaining
-records of their holdings. Choices include, LC Subject Headings, MARC
-Geographic Areas, and Thesaurus of Graphic Materials. See the [full list of standardized vocabularies and authorities](http://id.loc.gov/).
-
--   In the LC Suggestion admin page, first choose a metadata field that
-    you wish to contain controlled vocabulary (any of the core or item
-    type fields) from the dropdown menu.
+-   In the LC Suggestion admin page, first choose a metadata field that you wish to contain controlled vocabulary (any of the core or item type fields) from the dropdown menu.
 -   Assign that field a Library of Congress authority/vocabulary.
--   Elements already assigned an authority/vocabulary are marked with an
-    asterisk (\*).
+-   Elements already assigned an authority/vocabulary are marked with an asterisk (`*`).
 -   Click Edit Suggest.
 
-[![LCSuggest.png](https://omeka.org/c/images/thumb/1/1f/LCSuggest.png/500px-LCSuggest.png)](https://omeka.org/codex/File:LCSuggest.png)
+![LC Suggest with dropdown selected and a number of assignments already made](../doc_files/plugin_omages/LCSuggest.png)
 
 
-### Edit Vocabulary and Authority Associations
+## Edit Vocabulary and Authority Associations
 
--   To change or remove a vocabulary/authority associated with a field
-    go back to the LC Suggest tab.
--   Select the metadata element you wish to edit, and choose a new
-    Authority/Vocabulary from that menu, or to remove a controlled set
-    completely choose "Select Below."
--   Click Edit Suggest. If you removed an authority/vocabulary, no
-    metadata will be deleted or changed in the items.
+-   To change or remove a vocabulary/authority associated with a field go back to the LC Suggest tab.
+-   Select the metadata element you wish to edit, and choose a new Authority/Vocabulary from that menu, or to remove a controlled set completely choose "Select Below."
+-   Click Edit Suggest. If you removed an authority/vocabulary, no metadata will be deleted or changed in the items.
 
-### Adding, Editing Items with LC Suggest 
-
--   When adding or editing item metadata, users must start typing in the
-    open text box of that specific field adding the first couple of
-    letters of the vocabulary or authority to prompt the
-    auto-suggest feature. There might be a short delay, but a short menu
-    will appear with choices drawn directly from the authority or vocab
-    list you have associated with that field.
+## Adding, Editing Items with LC Suggest 
+When adding or editing item metadata, users must start typing in the open text box of that specific field adding the first couple of letters of the vocabulary or authority to prompt the auto-suggest feature. There might be a short delay, but a short menu will appear with choices drawn directly from the authority or vocab list you have associated with that field.
