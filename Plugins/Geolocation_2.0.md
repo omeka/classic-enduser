@@ -19,7 +19,7 @@ The first section for configuration are the general settings for the appearance 
 Default latitude and longitude of the point on which your map will center.
 - *Default Zoom Level*: Use a whole number of 0 of greater. 0 is the most zoomed out. A value of 15 will result in a map showing roughly one square mile
 -   *Map Type*: Roadmap, Satellite, Hybrid (roadmap overlaid on satellite) or Terrain.
-- *API Key*:
+- *API Key*: If you have a Google API key, you can enter it here. Not required for the plugin to function.
 
 ![General settings for geolocation](../doc_files/plugin_images/geolocation_genset.png)
 
