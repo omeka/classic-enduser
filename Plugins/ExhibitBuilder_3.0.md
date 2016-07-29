@@ -1,36 +1,14 @@
-Plugins/ExhibitBuilder 3.0
-==========================
+---
+title: Exhibit Builder 3.0
+---
 
-[Plugins](../Plugins.1.html "Plugins")
+The Exhibit Builder plugin allows you to develop online exhibits, or special web pages, that combine items from your Omeka archive and may include narrative text.
 
-The Exhibit Builder plugin allows you to develop online exhibits, or
-special web pages, that combine items from your Omeka archive and may
-include narrative text.
+Exhibits are composed of pages, generally an initial page that introduces your exhibit and subsequent pages composed of the items from your Omeka database that you wish to highlight and/or relate to each other. Exhibit Builder exhibits may be as short as one page or consist of multiple pages. You can make the pages of an exhibit hierarchical.
 
-Exhibits are composed of pages, generally an initial page that
-introduces your exhibit and subsequent pages composed of the items from
-your Omeka database that you wish to highlight and/or relate to each
-other. Exhibit Builder exhibits may be as short as one page or consist
-of multiple pages. You can make the pages of an exhibit hierarchical.
+The layout of exhibits in Exhibit Builder 3.0 is highly customizable, with the pages composed of smaller units called blocks. There are three content block types which come with Exhibit Builder 3.0: file with text, gallery, and text block.
 
-The layout of exhibits in Exhibit Builder 3.0 is highly customizable,
-with the pages composed of smaller units called blocks. There are three
-content block types which come with Exhibit Builder 3.0: file with text,
-gallery, and text block.
-
-Other plugins may include their own Exhibit Builder block layouts, if
-the developer has created them.
-
-Upgrading from Exhibit Builder 2.0
------------------------------------------------------------------------------------------------------------
-
-Before you upgrade from Exhibit Builder 2.0 to 3.0, be sure to [back up](https://omeka.org/codex/Backing_up_an_Omeka_Database "Backing up an Omeka Database")
-your Omeka installation, especially your Exhibit Builder tables.
-
-The upgrade should transform the layouts of your exhibit pages from the
-old format to the new, without any loss of information. The [section
-below](ExhibitBuilder_3.0.html#Previous_Exhibit_Builder_Layouts)
-describes how older exhibit layouts should transfer.
+Other plugins may include their own Exhibit Builder block layouts, if the developer has created them.
 
 Configuring
 --------------------------------------------------------------
@@ -253,22 +231,19 @@ Galleries with interpretive text for each set.
 
 NB: You cannot change one kind content block (ex. Gallery) to a
 different kind of content block (ex. File with Text). However, because
-you can move content blocks around, adding a new block to replace an
-existing one is less work than in previous versions of Exhibit Builder.
+you can move content blocks around, adding a new block to replace an existing one is less work than in previous versions of Exhibit Builder.
 
-Layout options ([see above](ExhibitBuilder_3.0.html#Layout_Options)) are
-in *italics* for Exhibit Builder 3.0 blocks.
+Layout options ([see above](ExhibitBuilder_3.0.html#Layout_Options)) are in *italics* for Exhibit Builder 3.0 blocks.
 
-  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  Exhibit Builder 2.0                                                                                                                                                             Exhibit Builder 3.0
-  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------------
-  [![Gallery-full-left.gif](https://omeka.org/c/images/2/20/Gallery-full-left.gif)](https://omeka.org/codex/File:Gallery-full-left.gif)\                                          [![EBGallery.gif](https://omeka.org/c/images/1/19/EBGallery.gif)](https://omeka.org/codex/File:EBGallery.gif)\
-  Gallery-full-left                                                                                                                                                               One gallery block. Showcase file position *left*, gallery position *right*.
+The explanations are formatted as follows: Exhibit Builder 2.0 | Exhibit Builder 3.0
 
-  [![Gallery-full-right.gif](https://omeka.org/c/images/c/cc/Gallery-full-right.gif)](https://omeka.org/codex/File:Gallery-full-right.gif)\                                       [![EBGallery.gif](https://omeka.org/c/images/1/19/EBGallery.gif)](https://omeka.org/codex/File:EBGallery.gif)\
-  Gallery-full-right                                                                                                                                                              One gallery block. Showcase file position *left*, gallery position *right*.
+![Gallery-full-left.gif](../doc_files/plugin_images/Gallery-full-left.gif) | ![EBGallery.gif](../doc_files/plugin_images/EBGallery.gif)
+Gallery-full-left | One gallery block, showcase file position *left*, gallery position *right*.
 
-  [![Gallery-thumbnails.gif](https://omeka.org/c/images/5/5e/Gallery-thumbnails.gif)](https://omeka.org/codex/File:Gallery-thumbnails.gif)\                                       [![EBGallery.gif](https://omeka.org/c/images/1/19/EBGallery.gif)](https://omeka.org/codex/File:EBGallery.gif)\
+![Gallery-full-right.gif](../doc_files/plugin_images/Gallery-full-right.gif) | ![EBGallery.gif](../doc_files/plugin_images/EBGallery.gif)
+Gallery-full-right | One gallery block, showcase file position *left*, gallery position *right*.
+
+![Gallery-thumbnails.gif](https://omeka.org/c/images/5/5e/Gallery-thumbnails.gif)](https://omeka.org/codex/File:Gallery-thumbnails.gif)\                                       [![EBGallery.gif](https://omeka.org/c/images/1/19/EBGallery.gif)](https://omeka.org/codex/File:EBGallery.gif)\
   Gallery-thumbnails                                                                                                                                                              One gallery block
 
   [![Gallery-thumbnails-text-bottom.gif](https://omeka.org/c/images/e/e0/Gallery-thumbnails-text-bottom.gif)](https://omeka.org/codex/File:Gallery-thumbnails-text-bottom.gif)\   [![EBGallery.gif](https://omeka.org/c/images/1/19/EBGallery.gif)](https://omeka.org/codex/File:EBGallery.gif)\
@@ -299,3 +274,14 @@ in *italics* for Exhibit Builder 3.0 blocks.
   [![Text-image-right.gif](https://omeka.org/c/images/2/21/Text-image-right.gif)](https://omeka.org/codex/File:Text-image-right.gif)\                                             [![FileWText.gif](https://omeka.org/c/images/1/1f/FileWText.gif)](https://omeka.org/codex/File:FileWText.gif)\
   Text-image-right                                                                                                                                                                One File with Text block, file position *right*.
   -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrading from Exhibit Builder 2.0
+----------------------------------------------------------------
+
+Before you upgrade from Exhibit Builder 2.0 to 3.0, be sure to [back up](https://omeka.org/codex/Backing_up_an_Omeka_Database "Backing up an Omeka Database")
+your Omeka installation, especially your Exhibit Builder tables.
+
+The upgrade should transform the layouts of your exhibit pages from the
+old format to the new, without any loss of information. The [section
+below](ExhibitBuilder_3.0.html#Previous_Exhibit_Builder_Layouts)
+describes how older exhibit layouts should transfer.
