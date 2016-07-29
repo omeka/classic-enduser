@@ -215,29 +215,30 @@ marker is clicked, as will the item file and title.
 
 [![Ebmap.jpg](https://omeka.org/c/images/9/9d/Ebmap.jpg)](https://omeka.org/codex/File:Ebmap.jpg)
 
+
+Upgrading from Exhibit Builder 2.0
+----------------------------------------------------------------
+
+Before you upgrade from Exhibit Builder 2.0 to 3.0, be sure to [back up](https://omeka.org/codex/Backing_up_an_Omeka_Database "Backing up an Omeka Database") your Omeka installation, especially your Exhibit Builder tables.
+
+The upgrade should transform the layouts of your exhibit pages from the old format to the new, without any loss of information. The section below describes how older exhibit layouts should transfer.
+
 ### Previous Exhibit Builder Layouts
 
 The following is a list of [layouts from previous versions](https://omeka.org/codex/Exhibit_Builder_Layouts "Exhibit Builder Layouts")
-of Exhibit Builder showing how the old layouts can correspond to new
-content blocks. These correlations are how pages built in previous
-versions of Exhibit Builder will be imported when upgrading.
+of Exhibit Builder showing how the old layouts can correspond to new content blocks. These correlations are how pages built in previous versions of Exhibit Builder will be imported when upgrading.
 
-Although it is possible to reproduce previous layouts using Exhibit
-Builder 3.0, the content blocks allow for a much wider variety of
-layouts. For example, rather than having all the files on one side, as
-in image list left or right, files could alternate sides. You can also
-combine a Gallery block with File with Text Blocks, or stack multiple
-Galleries with interpretive text for each set.
+Although it is possible to reproduce previous layouts using Exhibit Builder 3.0, the content blocks allow for a much wider variety of
+layouts. For example, rather than having all the files on one side, as in image list left or right, files could alternate sides. You can also combine a Gallery block with File with Text Blocks, or stack multiple Galleries with interpretive text for each set.
 
-NB: You cannot change one kind content block (ex. Gallery) to a
-different kind of content block (ex. File with Text). However, because
+NB: You cannot change one kind content block (ex. Gallery) to a different kind of content block (ex. File with Text). However, because
 you can move content blocks around, adding a new block to replace an existing one is less work than in previous versions of Exhibit Builder.
 
 Layout options ([see above](ExhibitBuilder_3.0.html#Layout_Options)) are in *italics* for Exhibit Builder 3.0 blocks.
 
-The explanations are formatted as follows: Exhibit Builder 2.0 | Exhibit Builder 3.0
+The explanations are formatted as follows: Exhibit Builder 2.0  Exhibit Builder 3.0
 
-![Gallery-full-left.gif](../doc_files/plugin_images/Gallery-full-left.gif) | ![EBGallery.gif](../doc_files/plugin_images/EBGallery.gif)
+![Gallery-full-left.gif](../doc_files/plugin_images/Gallery-full-left.gif) ![EBGallery.gif](../doc_files/plugin_images/EBGallery.gif)  
 Gallery-full-left | One gallery block, showcase file position *left*, gallery position *right*.
 
 ![Gallery-full-right.gif](../doc_files/plugin_images/Gallery-full-right.gif) | ![EBGallery.gif](../doc_files/plugin_images/EBGallery.gif)
@@ -273,15 +274,3 @@ Gallery-full-right | One gallery block, showcase file position *left*, gallery p
 
   [![Text-image-right.gif](https://omeka.org/c/images/2/21/Text-image-right.gif)](https://omeka.org/codex/File:Text-image-right.gif)\                                             [![FileWText.gif](https://omeka.org/c/images/1/1f/FileWText.gif)](https://omeka.org/codex/File:FileWText.gif)\
   Text-image-right                                                                                                                                                                One File with Text block, file position *right*.
-  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-Upgrading from Exhibit Builder 2.0
-----------------------------------------------------------------
-
-Before you upgrade from Exhibit Builder 2.0 to 3.0, be sure to [back up](https://omeka.org/codex/Backing_up_an_Omeka_Database "Backing up an Omeka Database")
-your Omeka installation, especially your Exhibit Builder tables.
-
-The upgrade should transform the layouts of your exhibit pages from the
-old format to the new, without any loss of information. The [section
-below](ExhibitBuilder_3.0.html#Previous_Exhibit_Builder_Layouts)
-describes how older exhibit layouts should transfer.
