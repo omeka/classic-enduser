@@ -14,7 +14,7 @@ The Library of Congress maintains an Authorities and Vocabularies service that c
 -   Elements already assigned an authority/vocabulary are marked with an asterisk (`*`).
 -   Click Edit Suggest.
 
-![LC Suggest with dropdown selected and a number of assignments already made](../doc_files/plugin_omages/LCSuggest.png)
+![LC Suggest with dropdown selected and a number of assignments already made](../doc_files/plugin_images/LCSuggest.png)
 
 
 ## Edit Vocabulary and Authority Associations
