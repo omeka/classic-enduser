@@ -30,7 +30,7 @@ If you replace the default texts and later want to restore them, they are as fol
 This page contains user-generated content and does not necessarily reflect the opinions of this website. For more information, please refer to our terms of service and conditions. If you would like to report the content of this as objectionable, please contact us.
 
 **Poster Page Help** 
-`<h2>`Your Posters`</h2>` To build a poster, you may use any public item in in this website and add a caption. `<p>`Click the button that says "New Poster." Assign a title to your poster, add a short description. Click the tab that says "Add an Item" and select any item that you wish to include in your poster. Continue adding items and captions.`</p> <p>` Be sure to save your poster. You may return to edit your poster at any time.`</p> <p>`You may print this poster, or share it by email.`</p>`
+`<h2>Your Posters</h2>` To build a poster, you may use any public item in in this website and add a caption. `<p>`Click the button that says "New Poster." Assign a title to your poster, add a short description. Click the tab that says "Add an Item" and select any item that you wish to include in your poster. Continue adding items and captions.`</p> <p>` Be sure to save your poster. You may return to edit your poster at any time.`</p> <p>`You may print this poster, or share it by email.`</p>`
 
 Posters
 -------------------------------------------------------
@@ -46,13 +46,13 @@ Enter the title of the poster. The title will display on the posters page as wel
 
 Add a description. The first 200 characters will appear on the Posters page. To add items, click the Add an Item button. This will open a pop-up window which allows you to browse or search your items in order to add them. Click on an item and then click the brown Select Item button to add it to your poster.
 
-[![Pb1.jpg](https://omeka.org/c/images/7/70/Pb1.jpg)](https://omeka.org/codex/File:Pb1.jpg)
+![Edit poster on the public side, seasons theme](../doc_files/plugin_images/posterpublic.jpg)
 
 Every item you add will have a caption field. Bear in mind that in carousel view text does not wrap, so your caption will need to be concise.
 
 Once you have added a number of items, you can change their order by using the buttons located between the thumbnail file and the caption field. These buttons are: move to top (double up); move up one (single up); move down one (single down); move to bottom (double down); delete item (X).
 
-[![Pbitems.png](https://omeka.org/c/images/f/f3/Pbitems.png)](https://omeka.org/codex/File:Pbitems.png)
+![Items in a poster](../doc_files/plugin_images/Pbitems.png)
 
 Finally, you may save your poster or discard all changes and return to the dashboard.
 
@@ -66,11 +66,11 @@ To view your poster, click the poster title from the Posters page.
 
 **Print** Takes you to a new page displaying your poster content all on one page, suitable for printing.
 
-[![Pbbrwse.png](https://omeka.org/c/images/f/fb/Pbbrwse.png)](https://omeka.org/codex/File:Pbbrwse.png)
+![browse posters, public side view](../doc_files/plugin_images/Pbbrwse.png)
 
 ### Manage Posters
 Logged-in users can manage their posters from the public side of the Omeka installation. While logged in, users of all levels will only see their own posters on the public side. However, they can access all posters through the Posters tab on the left-hand navigation on the admin dashboard.
 
 Administrators and Super Users can delete posters created by any user via the Posters tab on the left side of the admin dashboard. You will be asked to confirm before the item is deleted.
 
-[![Pbadmin.png](https://omeka.org/c/images/c/c7/Pbadmin.png)](https://omeka.org/codex/File:Pbadmin.png)
+![Manage posters, admin side view](../doc_files/plugin_images/Pbadmin.png)
