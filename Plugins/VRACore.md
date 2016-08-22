@@ -8,12 +8,13 @@ Configuration
 
 Once installed, the VRA Core plugin has three configuration options, all checkboxes:
 
-- *Skip VRA Core elements*: when this box is checked, users will only enter display values for items, and the elements for the value will be skipped. For example, a user would enter title but the field for Title Elements would not be available for input.
-- *Skip VRA Core attributes*: when this box is checked, element attributes (extent, pref, refid, etc) are disabled.
+- *Skip VRA Core attributes*: when this box is checked, element attributes (extent, pref, refid, etc) are disabled on the admin side.
+- *Skip VRA Core elements*: when this box is checked, users will only enter display values for items, and the elements for the value will be skipped on the admin side. For example, a user would enter title but the field for Title Elements would not be available for input.
 - *Hide VRA Core details on public side*: when this box is checked, the public view of an item will only show the VRA Core display values. Additional elements and attributes will remain visible only on the admin side, if used at all.
 - *Hide VRA Core attributes on public side*: when this box is checked, data entered for VRA Core attributes (extent, pref, etc) will be visible on the admin side of the Omeka installation but not on the public view.
+- *Hide VRA Core dataDate attribute on public side*: when this box is checked, and the Hide VRA Core details setting above is not checked, the VRA Core dataDate attribute will not be displayed publicly.
 
-![VRA Core configuration options](../doc_files/plugin_images/Vraccon.png)
+![VRA Core configuration options](../doc_files/plugin_images/VRAConfig.png)
 
 Adding an Item
 ----------------------------

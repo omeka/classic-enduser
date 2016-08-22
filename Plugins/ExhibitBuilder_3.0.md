@@ -12,152 +12,104 @@ Other plugins may include their own Exhibit Builder block layouts, if the develo
 
 Configuring
 --------------------------------------------------------------
+This plugin is included in your downloaded Omeka installation and does not require a separate download. Select Plugins in the top navigation of your admin. Activate your plugin and select Configure to choose the sequence in which your exhibits appear. Exhibits may be ordered by date added, alphabetically by name, or most recent.
 
-This plugin is included in your Omeka installation and does not require
-a separate download. Select Plugins in the top navigation of your admin.
-Activate your plugin and select Configure to choose the sequence in
-which your exhibits appear. Exhibits may be ordered by date added,
-alphabetically by name, or most recent.
+![Configuration drop down open to show all options](../doc_files/plugin_images/Eb3config.jpg)
 
-[![Eb3config.jpg](https://omeka.org/c/images/c/c8/Eb3config.jpg)](https://omeka.org/codex/File:Eb3config.jpg)
-
--   Choose the order of your Browse Page Exhibit display from the
-    dropdown menu.
+-   Choose the order of your Browse Page Exhibit display from the dropdown menu. 
 -   Don't forget to save your changes.
 
 Getting Started
----------------------------------------------------------------------
+----------------------------------------------------------------
+Once you have activated and configured the Exhibit Builder plugin, Exhibits should appear in the left navigation bar. Clicking on it will take you to the Browse Exhibits page (admin/exhibits in your installation).
 
-Once you have activated and configured the Exhibit Builder plugin,
-Exhibits should appear in the left navigation bar. Clicking on it will
-take you to the Browse Exhibits page (admin/exhibits in your
-installation).
+To create an exhibit, go to the Exhibits tab and click the green button labeled "Add an Exhibit". 
 
-[![Ebadd.jpg](https://omeka.org/c/images/9/94/Ebadd.jpg)](https://omeka.org/codex/File:Ebadd.jpg)
+![Add exhibit page](/doc_files/plugin_images/exhibitbuilder_add.png)
 
-To create an exhibit, go to the Exhibits tab and click the green button
-labeled "Add an Exhibit". This will take you to a new page where you can
-enter the following metadata:
-
+On the Add Exhibit page, enter the following metadata: 
 -   Title: the name of your exhibit, which will be displayed to users
--   Slug: the abbreviated exhibit name which appears in the url, for
-    example <http://youromekasite/exhibits/show/slug>
+-   Slug: the abbreviated exhibit name which appears in the url, for example `http://youromekasite/exhibits/show/slug`
 -   Credits: acknowledgements which will be visible to the public
 -   Description: an introduction or overview for the exhibit
--   Tags: keywords or themes that give users another option for
-    finding exhibits.
+-   Tags: keywords or themes that give users another option for finding exhibits.
 
-Once you have entered the data, click Save Changes to create your
-exhibit.
+Once you have entered the data, click Save Changes to create your exhibit.
+
+There is an option to select a theme for the exhibit (see below).
+
+The *Use summary page* checkbox allows you to decide whether or not to use a summary page. An exhibit summary page displays the exhibit description and navigation options. If this box is unchecked, users navigating to the exhibit will start on the first page of the exhibit.
+
+Upload a *cover image* to represent the exhibit on browse pages and elsewhere on your site. 
 
 ### Theme
+By default, your exhibits will display using the same theme as the rest of the site. You may choose a different theme for each exhibit. To do so, select a theme from the dropdown, which will default display "Current Public Theme."
 
-By default, your exhibits will display using the same theme as the rest
-of the site. Or, you may choose a different theme for each exhibit. To
-do so, select a theme from the dropdown, which will default display
-"Current Public Theme."
+![theme dropdown with seasons selected and configure button visible](../doc_files/plugin_images/exhibitbuilder_themeconfig.png)
 
-[![Ebtheme.jpg](https://omeka.org/c/images/2/21/Ebtheme.jpg)](https://omeka.org/codex/File:Ebtheme.jpg)
+If you select an option other than "Current Public Theme" for your exhibit, you can configure the theme settings for the exhibit by clicking the Configure button which will appear next to the dropdown.
 
-After selecting a specific theme for exhibit, you can configure that
-theme by adding a logo, header image, footer text, and copyright
-information which displays only for that exhibit. Note that if you
-change the theme, you must click Save Changes before you configure the
-theme. So if you have been using Berlin and you want to change to the
-Winter version of Seasons, you will have to click Save Changes after
-switching from Berlin to Seasons in the Theme dropdown before you can
-configure the Seasons theme.
+After selecting a specific theme for exhibit, you can configure that theme by adding a logo, header image, footer text, and copyright information which displays only for that exhibit. 
+
+Note that if you change the theme, you must click Save Changes before you configure the theme. So if you have been using Berlin and you want to change to the Winter version of Seasons, you will have to click Save Changes after switching from Berlin to Seasons in the Theme dropdown before you can configure the Seasons theme.
 
 Pages
 -------------------------------------------------
+Once you have created an exhibit you can add pages to it by clicking the Add Page button at the bottom of the Exhibit Metadata page.
 
-Once you have created an exhibit you can add pages to it by clicking the
-Add Page button at the bottom of the Exhibit Metadata page.
-
-[![Ebaddp.jpg](https://omeka.org/c/images/2/21/Ebaddp.jpg)](https://omeka.org/codex/File:Ebaddp.jpg)
+![Arrow points to the Add Page button](../doc_files/plugin_images/Ebaddpage.png)
 
 Once on the Add Page screen, add the following:
 
--   Page Title: visible to users, used for navigating through
-    the exhibit.
--   Page Slug: an abbreviated exhibit name that appears in the url, for
-    example <http://youromekasite/exhibits/show/exhibit_slug/page_slug>
+-   Page Title: visible to users, used for navigating through the exhibit.
+-   Page Slug: an abbreviated exhibit name that appears in the url, for example `http://youromekasite/exhibits/show/exhibit_slug/page_slug`
 
-To save the page information and continue editing that page, click the
-Save Changes button. To save the basic information for that page and add
-another page, click the Save and Add Another Page button.
+To save the page information and continue editing that page, click the Save Changes button. To save the basic information for that page and add another page, click the Save and Add Another Page button.
 
 ### Organizing Pages
 
-An exhibit in Omeka can have multiple pages. You can reorder these pages
-by dragging and dropping, and you can use drag and drop to set up an
-exhibit page hierarchy. Note that these hierarchies cannot be more than
-three levels deep.
+An exhibit in Omeka can have multiple pages. You can reorder these pages by dragging and dropping, and you can use drag and drop to set up an exhibit page hierarchy. Note that these hierarchies cannot be more than three levels deep.
 
-You can also delete pages from the Exhibit Metadata page through a
-two-step process. First, click the large black X on the display bar of
-the page you wish to delete. Once you click the X, the bar will turn red
-(see the bar for the page Edward in the image below). Clicking the arrow
-will undo the delete action. To confirm deleting a page, you must click
-the Save Changes button. Once pages have been deleted, they cannot be
-restored.
+You can also delete pages from the Exhibit Metadata page through a two-step process. First, click the large black X on the display bar of the page you wish to delete. Once you click the X, the bar will turn red (see the bar for the page Edward in the image below). Clicking the arrow will undo the delete action. To confirm deleting a page, you must click the Save Changes button. Once pages have been deleted, they cannot be restored.
 
-[![Ebpage.jpg](https://omeka.org/c/images/1/19/Ebpage.jpg)](https://omeka.org/codex/File:Ebpage.jpg)
+![Pages in a hierarchy](../doc_files/plugin_images/ebpages.png)
 
 Content
 -----------------------------------------------------
+Pages are made up of combinations of smaller content units called 'blocks.' There are four basic kinds of blocks: item(s) with text, an item gallery, text only, or a geolocation map (if you have installed the Geolocation plugin). Each page can have one or more content blocks.
 
-Layouts from earlier versions applied to an entire page, but in EB 3.0
-pages combine smaller content units called 'blocks.' There are four
-kinds of blocks: item(s) with text, an item gallery, text only, or a
-geolocation map (if you have installed the Geolocation plugin). Each
-page can have one or more content blocks.
+The **File with Text** block allows you to pair fullsize or thumbnail files of your items with a block of text. The item files will all be the same size. Text will appear either to the right or left of the item(s). You can use a single item file paired with text, or have multiple item files to the right or left of a block of text.
 
-The **File with Text** block allows you to pair fullsize or thumbnail
-files of your items with a block of text. The item files will all be the
-same size. Text will appear either to the right or left of the item(s).
-You can use a single item file paired with text, or have multiple item
-files to the right or left of a block of text.
+The **Gallery** block creates a gallery of item files, generally large square thumbnails. You can add text to the gallery, which will display left or right of the gallery. In a gallery block, you can specify a showcase file, which will appear fullsize either to the right or left of the text. The other gallery images can be placed below the showcase image or beside it, over the text.
 
-The **Gallery** block creates a gallery of item files, generally large
-square thumbnails. You can add text to the gallery, which will display
-left or right of the gallery. In a gallery block, you can specify a
-showcase file, which will appear fullsize either to the right or left of
-the text. The other gallery images can be placed below the showcase
-image or beside it, over the text.
+The **Text** block allows you to create a section of text which spans the width of the entire page.
 
-The **Text** block allows you to create a section of text which spans
-the width of the entire page.
+![Select block dialog with options as described above](../doc_files/plugin_images/Ebaddc.jpg)
 
-[![Ebaddc.jpg](https://omeka.org/c/images/a/a8/Ebaddc.jpg)](https://omeka.org/codex/File:Ebaddc.jpg)
-
-To add a content block, select the layout you want in the New Block
-dialog box. Once you have selected the kind you want, click the "Add new
-content block" button. You will have a new block on the page to
-configure your content.
+To add a content block, select the layout you want in the New Block dialog box. Once you have selected the kind you want, click the "Add new content block" button. You will have a new block on the page to configure your content.
 
 ### Adding Items
+1. If you have selected any block other than Text, choose an item by clicking the large plus sign button titled *Add Item* appearing in the Items area.
 
-If you have selected any block other than Text, choose an item by
-clicking the large plus sign button appearing in the Items area. An
-items browse dialog box pops up showing all of your items. You can
-search in the items or browse. To select an item, click on its bar. The
-right end of the bar will highlight a dark brown "Select Item" button.
-Click Select Item to find options for creating a caption for the item.
-If you have more than one file uploaded for an item, you will be able to
-select which you want to use by clicking on it. When you have finished,
-click the green "Apply" button in the bottom right-hand corner to add
-the item.
+![Empty file block, arrow pointing to the Add Item button](../doc_files/plugin_images/eb_additem1.png)
 
-Once you have added an item, you can change the caption or selected file
-by clicking the edit button which sits across the bottom of the item
-icon. To delete items, click the x in the upper right hand corner of the
-item icon; this will gray out the icon, indicating that it will be
-deleted the next time you save changes. If you decide not to delete the
-item, you can click the arrow which replaced the x, but you must do so
-before you save your changes.
+1. An items browse dialog box pops up showing all of your items.
+    - You can browse using the back and forth arrow buttons in the upper right corner of the dialog box. ![Attach an Item window with browse options](../doc_files/plugin_images/eb_additem2a.png)
+    - Clicking *Show Search Form* will take you to an advanced item search. ![Advanced search options in attach an item window](../doc_files/plugin_images/eb_additem2a.png)
 
-[![Ebitma.jpg](https://omeka.org/c/images/a/a1/Ebitma.jpg)](https://omeka.org/codex/File:Ebitma.jpg)
+To select an item, click on its bar. 
+- The right end of the bar will highlight a dark brown "Select Item" button. 
+- Click Select Item to find options for creating a caption for the item. 
+    - If you have more than one file uploaded for an item, you will be able to select which you want to use by clicking on it.
+- When you have finished, click the green "Apply" button in the bottom right-hand corner to add the item. 
+
+Once you have added an item, you can change the caption or selected file by clicking the edit button which sits across the bottom of the item icon. 
+
+To add multiple files from the same item, simply add the same item to the block, choosing a different file to represent the item each time.
+
+To delete items, click the x in the upper right hand corner of the item icon; this will gray out the icon, indicating that it will be deleted the next time you save changes. If you decide not to delete the item, you can click the arrow which replaced the x, but you must do so before you save your changes.
+
+![Items added to a b](../doc_files/plugin_images/eb_additem.jpg)
 
 Exhibit text can be formatted, either using the formatting toolbar at
 the top of the text entry box or with html. To write your own html, or
