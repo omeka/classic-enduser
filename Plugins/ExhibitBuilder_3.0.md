@@ -182,6 +182,11 @@ The explanations are formatted as follows: Exhibit Builder 2.0  Exhibit Builder 
 ![Gallery-full-left.gif](../doc_files/plugin_images/exhibitbuilder/Gallery-full-left.gif) ![EBGallery.gif](../doc_files/plugin_images/exhibitbuilder/EBGallery.gif)  
 Gallery-full-left | One gallery block, showcase file position *left*, gallery position *right*.
 
+| EB 2.0 Layout | EB 3. Layout |
+| --- | --- |
+| Gallery-full-left ![Gallery-full-left.gif](../doc_files/plugin_images/exhibitbuilder/Gallery-full-left.gif) | One gallery block, showcase file position *left*, gallery position *right*. ![EBGallery.gif](../doc_files/plugin_images/exhibitbuilder/EBGallery.gif)   |
+
+
 ![Gallery-full-right.gif](../doc_files/plugin_images/Gallery-full-right.gif) | ![EBGallery.gif](../doc_files/plugin_images/EBGallery.gif)
 Gallery-full-right | One gallery block, showcase file position *left*, gallery position *right*.
 
