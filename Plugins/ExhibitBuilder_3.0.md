@@ -84,7 +84,7 @@ The **Gallery** block creates a gallery of item files, generally large square th
 
 The **Text** block allows you to create a section of text which spans the width of the entire page.
 
-![Select block dialog with options as described above](../doc_files/plugin_images/Ebaddc.jpg)
+![Select block dialog with options as described above](../doc_files/plugin_images/eb_selectblock.jpg)
 
 To add a content block, select the layout you want in the New Block dialog box. Once you have selected the kind you want, click the "Add new content block" button. You will have a new block on the page to configure your content.
 
@@ -97,76 +97,67 @@ To add a content block, select the layout you want in the New Block dialog box. 
     - You can browse using the back and forth arrow buttons in the upper right corner of the dialog box. ![Attach an Item window with browse options](../doc_files/plugin_images/eb_additem2a.png)
     - Clicking *Show Search Form* will take you to an advanced item search. ![Advanced search options in attach an item window](../doc_files/plugin_images/eb_additem2a.png)
 
-To select an item, click on its bar. 
-- The right end of the bar will highlight a dark brown "Select Item" button. 
-- Click Select Item to find options for creating a caption for the item. 
+1. To select an item, click on the bar representing it in the Attach an Item window. The right end of the bar will highlight a dark brown "Select Item" button. ![Select Item is visible.](../doc_files/plugin_images/eb_additem3.png)
+
+1. Click Select Item to find options for selecting a file and creating a caption for the item. 
     - If you have more than one file uploaded for an item, you will be able to select which you want to use by clicking on it.
-- When you have finished, click the green "Apply" button in the bottom right-hand corner to add the item. 
+    - Add a caption in the text field. This will appear in smaller font below the file, not as part of a larger text block. Best practice is to keep it short.
+    ![Attach an item, with three file options and a caption field.](../doc_files/plugin_images/eb_additem4.png)
+
+1. Click Apply to add the item to the block.
+
+Click the X in the upper right corner of the Attach an Item window at any time to exit the process.
 
 Once you have added an item, you can change the caption or selected file by clicking the edit button which sits across the bottom of the item icon. 
 
 To add multiple files from the same item, simply add the same item to the block, choosing a different file to represent the item each time.
 
-To delete items, click the x in the upper right hand corner of the item icon; this will gray out the icon, indicating that it will be deleted the next time you save changes. If you decide not to delete the item, you can click the arrow which replaced the x, but you must do so before you save your changes.
+To delete items, click the x in the upper right hand corner of the item icon; this will gray out the icon, indicating that it will be deleted the next time you save changes. If you decide not to delete the item, you can click the curved arrow which replaced the x, but you must do so before you save your changes.
 
-![Items added to a b](../doc_files/plugin_images/eb_additem.jpg)
+In the image below, the middle item has been marked for deletion. A red arrow points to the X to delete the third item.
+![Image described above](../doc_files/plugin_images/eb_delitem.png)
 
-Exhibit text can be formatted, either using the formatting toolbar at
-the top of the text entry box or with html. To write your own html, or
-paste from somewhere else, click the blue HTML button in the formatting
-toolbar at the top of the text entry box. This will open up an HTML
-Source Editor window in which you can work.
+Exhibit text can be formatted using the [text editor bar](../Using_HTML_Editor-TinyMCE.md). To write your own html, or paste from somewhere else, click the blue HTML button in the formatting toolbar at the top of the text entry box. This will open up an HTML Source Editor window in which you can work.
 
 ### Layout Options
 
-Both the File with Text and Gallery blocks include layout options to
-change the look of the exhibit page. To access these options, click the
-black triangle button to the right of the Layout Options text at the
-bottom of the block. This will reveal dropdown menus with options for
-changing the layout.
+Both the File with Text and Gallery blocks include layout options to change the look of the exhibit page. To access these options, click the black triangle button to the right of the Layout Options text at the bottom of the block. This will reveal dropdown menus with options for changing the layout.
 
-For **File with Text** you can change the position of the file relative
-to the text (file position) and the size of the file. File position is
-either right or left. File size can be full size, thumbnail, or square
-thumbnail. Whatever you select affects all of the files for that block
-equally. The text in this block will stay fixed to the right or left of
-the file, but will wrap below if the length of the text exceeds the
-height of the file. Captions can be set to align to the left margin,
-center, or right margin of the thumbnail file for which they are
-entered.
+The **File with Text** block has the following options, all of which are drop-down menus (options listed in parentheses after the dropdown label):
+- File Position (left, right): position of the file relative to the text block.
+- File Size (full-size, thumbnail, square thumbnail): 
+- Captions position (center, left, right): the position of the file's caption relative to the file (not the text block)
+Whatever you select affects all of the files for that block equally. The text in this block will stay fixed to the right or left of the file, but will wrap below if the length of the text exceeds the height of the file.
 
-\
+![File with Text block layout options](../doc_files/plugin_images/eb_fwtLayout.png)
 
-[![Ebftlo.jpg](https://omeka.org/c/images/e/ee/Ebftlo.jpg)](https://omeka.org/codex/File:Ebftlo.jpg)
 
-For **Gallery** you can determine the showcase file position, gallery
-position, gallery file size, and captions alignment. A showcase file
-will be fullsize, while the rest of the gallery files are large square
-thumbnails. Exhibit Builder will use the first item in the block for the
-showcase; note that you can change the order of the items by dragging
-and dropping. If there is no showcase file or text, the gallery will use
-the full width of the page. Gallery position is relative to the text in
-that block. Your options for the thumbnail images in Gallery file size
-are square or not. Captions can be set to align to the left margin,
-center, or right margin of the thumbnail file for which they are
-entered.
+The **Gallery** block has the following options, all of which are drop-down menus (options listed in parentheses after the dropdown label): 
+- Showcase File Position (no showcase file, left, right): a showcase file is full-size, while the rest of the gallery files are thumbnails. 
+- Gallery position (left, right): position of the gallery files relative to the showcase file. If there is no showcase file, the gallery will use the full width of the page.
+- Gallery File Size (square thumbnail, thumbnail): for all files in the gallery except the showcase file.
+- Captions Position (center, left, right): the position of the file's caption relative to its file.
 
-[![Ebglo.jpg](https://omeka.org/c/images/b/b9/Ebglo.jpg)](https://omeka.org/codex/File:Ebglo.jpg)
+![Gallery block layout options](../doc_files/plugin_images/eb_gLayout.png)
+
+The **File** block has the following options, all of which are drop-down menus (options listed in parentheses after the dropdown label): 
+- File Position (left, right, center): position of the file relative to page margins.
+- File Size (full-size, thumbnail, square thumbnail): 
+- Captions position (center, left, right): the position of the file's caption relative to page margins (not the file)
+
+![File block layout options](../doc_files/plugin_images/eb_fLayout.png)
 
 ### Additional Layouts
-
 Some plugins include their own Exhibit Builder content block layouts.
 
 If you have installed the Geolocation plugin, you will have the
-**Geolocation Map** block as an option in your exhibits. This block has
-no text. Select items which already have been geolocated using the
-plugin in their item edit page. This block displays as a map across the
-full width of the page, with markers for the items you select. Any
-captions you enter will appear in a pop-up inside the map when the item
-marker is clicked, as will the item file and title.
+**Geolocation Map** block as an option in your exhibits. This block has no text. Select items which already have been geolocated using the plugin in their item edit page. This block displays as a map across the full width of the page, with markers for the items you select. Any captions you enter will appear in a pop-up inside the map when the item marker is clicked, as will the item file and title.
 
-[![Ebmap.jpg](https://omeka.org/c/images/9/9d/Ebmap.jpg)](https://omeka.org/codex/File:Ebmap.jpg)
+This image shows a Geolocation block with items added:
+![Geolocation block](../doc_files/plugin_images/eb_geolocationBlock.png)
 
+And this is how the map looks on the public view of the exhibit page:
+![Geolocation block public view](../doc_files/plugin_images/eb_geolocationPublic.png)
 
 Upgrading from Exhibit Builder 2.0
 ----------------------------------------------------------------
