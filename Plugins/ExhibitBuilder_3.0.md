@@ -175,48 +175,19 @@ Although it is possible to reproduce previous layouts using Exhibit Builder 3.0,
 
 NB: You cannot change one kind content block (ex. Gallery) to a different kind of content block (ex. File with Text). However, because you can move content blocks around, adding a new block to replace an existing one is less work than in previous versions of Exhibit Builder.
 
-Layout options are in *italics* for Exhibit Builder 3.0 blocks.
+Block [layout options](/ExhibitBuilder_3.0.md#layout-options) are in *italics* for Exhibit Builder 3.0 blocks.
 
-The explanations are formatted as follows: Exhibit Builder 2.0  Exhibit Builder 3.0
-
-![Gallery-full-left.gif](../doc_files/plugin_images/exhibitbuilder/Gallery-full-left.gif) ![EBGallery.gif](../doc_files/plugin_images/exhibitbuilder/EBGallery.gif)  
-Gallery-full-left | One gallery block, showcase file position *left*, gallery position *right*.
-
-| EB 2.0 Layout | EB 3. Layout |
+| Exhibit Builder 2 Layout | Exhibit Builder 3.x Layout |
 | --- | --- |
-| Gallery-full-left ![Gallery-full-left.gif](../doc_files/plugin_images/exhibitbuilder/Gallery-full-left.gif) | One gallery block, showcase file position *left*, gallery position *right*. ![EBGallery.gif](../doc_files/plugin_images/exhibitbuilder/EBGallery.gif)   |
-
-
-![Gallery-full-right.gif](../doc_files/plugin_images/Gallery-full-right.gif) | ![EBGallery.gif](../doc_files/plugin_images/EBGallery.gif)
-Gallery-full-right | One gallery block, showcase file position *left*, gallery position *right*.
-
-![Gallery-thumbnails.gif](https://omeka.org/c/images/5/5e/Gallery-thumbnails.gif)](https://omeka.org/codex/File:Gallery-thumbnails.gif)\                                       [![EBGallery.gif](https://omeka.org/c/images/1/19/EBGallery.gif)](https://omeka.org/codex/File:EBGallery.gif)\
-  Gallery-thumbnails                                                                                                                                                              One gallery block
-
-  [![Gallery-thumbnails-text-bottom.gif](https://omeka.org/c/images/e/e0/Gallery-thumbnails-text-bottom.gif)](https://omeka.org/codex/File:Gallery-thumbnails-text-bottom.gif)\   [![EBGallery.gif](https://omeka.org/c/images/1/19/EBGallery.gif)](https://omeka.org/codex/File:EBGallery.gif)\
-  Gallery-thumbnails-text-bottom                                                                                                                                                  One gallery block with text added, or one gallery block with no text and one text block.
-
-  [![Gallery-thumbnails-text-top.gif](https://omeka.org/c/images/2/2a/Gallery-thumbnails-text-top.gif)](https://omeka.org/codex/File:Gallery-thumbnails-text-top.gif)\            [![EbText.gif](https://omeka.org/c/images/a/ae/EbText.gif)](https://omeka.org/codex/File:EbText.gif)\
-  Gallery-thumbnails-text-top                                                                                                                                                      [![EBGallery.gif](https://omeka.org/c/images/1/19/EBGallery.gif)](https://omeka.org/codex/File:EBGallery.gif)\
-                                                                                                                                                                                   One text block above one gallery block with no text.
-
-  [![Image-list-left.gif](https://omeka.org/c/images/e/e1/Image-list-left.gif)](https://omeka.org/codex/File:Image-list-left.gif)\                                                [![FileWText.gif](https://omeka.org/c/images/1/1f/FileWText.gif)](https://omeka.org/codex/File:FileWText.gif)\
-  Image-list-left                                                                                                                                                                 Series of File with Text blocks, file position *left*, files *full size* .
-
-  [![Image-list-left-thumbs.gif](https://omeka.org/c/images/b/bb/Image-list-left-thumbs.gif)](https://omeka.org/codex/File:Image-list-left-thumbs.gif)\                           [![FileWText.gif](https://omeka.org/c/images/1/1f/FileWText.gif)](https://omeka.org/codex/File:FileWText.gif)\
-  Image-list-left-thumbnails                                                                                                                                                      Series of File with Text blocks, file position *left*, files *thumbnail* or *square thumbnail size*.
-
-  [![Image-list-right.gif](https://omeka.org/c/images/f/fc/Image-list-right.gif)](https://omeka.org/codex/File:Image-list-right.gif)\                                             [![FileWText.gif](https://omeka.org/c/images/1/1f/FileWText.gif)](https://omeka.org/codex/File:FileWText.gif)\
-  Image-list-right                                                                                                                                                                Series of File with Text blocks, file position *right*, files *full size*.
-
-  [![Image-list-right-thumbs.gif](https://omeka.org/c/images/1/19/Image-list-right-thumbs.gif)](https://omeka.org/codex/File:Image-list-right-thumbs.gif)\                        [![FileWText.gif](https://omeka.org/c/images/1/1f/FileWText.gif)](https://omeka.org/codex/File:FileWText.gif)\
-  Image-list-right-thumbnails                                                                                                                                                     Series of File with Text blocks, file position *right*, files *thumbnail* or *square thumbnail size*.
-
-  [![Text.gif](https://omeka.org/c/images/d/df/Text.gif)](https://omeka.org/codex/File:Text.gif)\                                                                                 [![EbText.gif](https://omeka.org/c/images/a/ae/EbText.gif)](https://omeka.org/codex/File:EbText.gif)\
-  Text                                                                                                                                                                            One text block
-
-  [![Text-image-left.gif](https://omeka.org/c/images/c/c6/Text-image-left.gif)](https://omeka.org/codex/File:Text-image-left.gif)\                                                [![FileWText.gif](https://omeka.org/c/images/1/1f/FileWText.gif)](https://omeka.org/codex/File:FileWText.gif)\
-  Text-image-left                                                                                                                                                                 One File with Text block, file position *left*.
-
-  [![Text-image-right.gif](https://omeka.org/c/images/2/21/Text-image-right.gif)](https://omeka.org/codex/File:Text-image-right.gif)\                                             [![FileWText.gif](https://omeka.org/c/images/1/1f/FileWText.gif)](https://omeka.org/codex/File:FileWText.gif)\
-  Text-image-right                                                                                                                                                                One File with Text block, file position *right*.
+| Gallery-full-left ![Gallery-full-left.gif](../doc_files/plugin_images/exhibitbuilder/Gallery-full-left.gif) | One gallery block, showcase file position *left*, gallery position *right*. ![GalleryBlock](../doc_files/plugin_images/exhibitbuilder/ebblock_gallery.png)  |
+| Gallery-full-right ![Gallery-full-right.gif](../doc_files/plugin_images/exhibitbuilder/Gallery-full-right.gif) | One gallery block, showcase file position *left*, gallery position *right*. ![GalleryBlock](../doc_files/plugin_images/exhibitbuilder/ebblock_gallery.png) |
+| Gallery-thumbnails ![gallery thumbnails page](../doc_files/plugin_images/exhibitbuilder/Gallery-thumbnails.gif) |  One gallery block, no showcase file. ![GalleryBlock](../doc_files/plugin_images/exhibitbuilder/ebblock_gallery.png) |
+| Gallery-thumbnails-text-bottom ![Gallery-thumbnails-text-bottom.gif](../doc_files/plugin_images/exhibitbuilder/Gallery-thumbnails-text-bottom.gif)| One gallery block with text added, or one gallery block with no text and one text block. ![GalleryBlock](../doc_files/plugin_images/exhibitbuilder/ebblock_gallery.png) |
+| Gallery-thumbnails-text-top ![Gallery-thumbnails-text-top.gif](../doc_files/plugin_images/exhibitbuilder/Gallery-thumbnails-text-top.gif) | One text block above one gallery block.  ![TextBlock](../doc_files/plugin_images/exhibitbuilder/ebblock_text.png) + ![GalleryBlock](../doc_files/plugin_images/exhibitbuilder/ebblock_gallery.png) |
+| Image-list-left ![Image-list-left.gif](../doc_files/plugin_images/exhibitbuilder/Image-list-left.gif) | Series of File with Text blocks, file position *left*, files *full size* ![File w Text block](../doc_files/plugin_images/exhibitbuilder/ebblock_filewtext.png) |
+| Image-list-left-thumbnails ![Image-list-left-thumbs.gif](../doc_files/plugin_images/exhibitbuilder/Image-list-left-thumbs.gif) | Series of File with Text blocks, file position *left*, files *thumbnail* or *square thumbnail size*. ![File w Text block](../doc_files/plugin_images/exhibitbuilder/ebblock_filewtext.png) |
+| Image-list-right ![Image-list-right.gif](../doc_files/plugin_images/exhibitbuilder/Image-list-right.gif) | Series of File with Text blocks, file position *right*, files *full size*. ![File w Text block](../doc_files/plugin_images/exhibitbuilder/ebblock_filewtext.png) |
+| Image-list-right-thumbnails ![Image-list-right-thumbs.gif](../doc_files/plugin_images/exhibitbuilder/Image-list-right-thumbs.gif) | Series of File with Text blocks, file position *right*, files *thumbnail* or *square thumbnail size*. ![File w Text block](../doc_files/plugin_images/exhibitbuilder/ebblock_filewtext.png) |
+| Text ![Text.gif](../doc_files/plugin_images/exhibitbuilder/Text.gif) | One text block ![Text block](../doc_files/plugin_images/exhibitbuilder/ebblock_text.png) |
+| Text-image-left ![Text-image-left.gif](../doc_files/plugin_images/exhibitbuilder/Text-image-left.gif) | One File with Text block, file position *left*. ![File w Text block](../doc_files/plugin_images/exhibitbuilder/ebblock_filewtext.png) | 
+| Text-image-right ![Text-image-right.gif](../doc_files/plugin_images/exhibitbuilder/Text-image-right.gif) | One File with Text block, file position *right*. ![File w Text block](../doc_files/plugin_images/exhibitbuilder/ebblock_filewtext.png) |
