@@ -6,9 +6,9 @@ The Ngram Plugin allows you to generate ngrams using items in your Omeka install
 
 For additional information on ngrams, please see:
 Benjamin M. Schmidt, “Words Alone: Dismantling Topic Models in the Humanities,” Journal of Digital Humanities 2, no. 1 (winter 2012).
-Dan Cohen, “A Conversation with Data: Prospecting Victorian Words and Ideas,” dancohen.org, May 30, 2012. 
-
 http://journalofdigitalhumanities.org/2-1/words-alone-by-benjamin-m-schmidt/
+
+Dan Cohen, “A Conversation with Data: Prospecting Victorian Words and Ideas,” dancohen.org, May 30, 2012.
 http://www.dancohen.org/2012/05/30/a-conversation-with-data-prospecting-victorian-words-and-ideas/
 
 
@@ -68,10 +68,10 @@ On the Add a Corpus page, complete the following options:
 * **Public**: A check box. Click the checkbox to make the corpus visible to public users (on the public side of the site).
 * **Search Query**: A field in which you refine the contents of your corpus by inputting a search query. The best way to get this search query is to perform an advanced search of the items in your collection on the Admin side of your Omeka site. Then, copy and paste the entire URL of the results, after the part that reads admin/items/browse?
 * **Sequence**: 
-** **Sequence Element**: select from elements but it should be something with numeric or date input. Items without the selected element field filled in (for instance, an item without a Date, will not be included in the corpus). For best results, ensure consistency of metadata, and select a meaningful field.
-** **Sequence type**: choose from Date by Year, Date by Month, Date by Day, or Numeric Sequence Range the field will prompt you with the proper format for the sequence if you choose a Date type. If numeric, make sure the format matches the numeric sequence of the elements you’re drawing from.
-** **Note***: Date should be entered in the YearMonthDay format and should be entered as a range. (for instance, 200101-201601)
-** **Note***: You do not have to have a sequence, but without one you cannot generate graphs. 
+* **Sequence Element**: select from elements but it should be something with numeric or date input. Items without the selected element field filled in (for instance, an item without a Date, will not be included in the corpus). For best results, ensure consistency of metadata, and select a meaningful field.
+* **Sequence type**: choose from Date by Year, Date by Month, Date by Day, or Numeric Sequence Range the field will prompt you with the proper format for the sequence if you choose a Date type. If numeric, make sure the format matches the numeric sequence of the elements you’re drawing from.
+* **Note***: Date should be entered in the YearMonthDay format and should be entered as a range. (for instance, 200101-201601)
+* **Note***: You do not have to have a sequence, but without one you cannot generate graphs. 
 
 * **Note** the Text Element box under the green Add Corpus button on the Add Corpus page. The Text Element was configured in the plugin panel. 
 
@@ -197,10 +197,10 @@ Note that the ngram plugin does not strip out stop words (a, the, of, for exampl
 
 ##Browse Corpora
 Once you have at least one corpus, the page at admin/ngram/corpora (the ngram tab) will display a table of your corpora with the following information for each:
-* **Name** (that you give it)
-* **Text Element** being used as the source of the corpus data,  with element set in parentheses
-* **Sequence Element**, with element set in parentheses
-* **Sequence Type**
-* **Sequence Range**
+- **Name** (that you give it)
+- **Text Element** being used as the source of the corpus data,  with element set in parentheses
+- **Sequence Element**, with element set in parentheses
+- **Sequence Type**
+- **Sequence Range**
 
 ![A screenshot of the corpus page with the features described above.](../doc_files/plugin_images/ngram-browsecorpora.png)
