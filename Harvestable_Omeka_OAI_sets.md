@@ -1,4 +1,3 @@
-
 ---
 title: Harvestable Omeka OAI sets
 ---

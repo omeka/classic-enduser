@@ -100,3 +100,63 @@ If you have [Exhibit Builder](/ExhibitBuilder_3.0.md) (version 3.x) installed, G
 You can add items with geolocation markers to the map block. The exhibit will display a single map with the markers for those specific items. 
 
 ![Public view of exhibit map block](../doc_files/plugin_images/geolocation_ex2.png)
+
+Shortcodes
+-----------------
+The geolocation [shortcode](../Shortcodes.md) will create a map of items based on parameters it is given.
+
+The shortcode is `[geolocation]`. Without any additional parameters, it will return a map of all items that contain geolocation data, limited by the records per page as set in the Geolocation plugin configuration.
+
+**Options**
+
+`fit`
+:   specify whether to allow google map to automatically center and zoom the map to fit all of the markers. This is on by default.
+
+To manually specify the map/location zoom, use the following options. Note, to use these options, fit must be set to ‘0’ or ‘false’.
+
+`lat` 
+:   specify the latitude of the map’s initial center point, in degrees.
+:   Must be between -90 and 90.
+
+`lon` 
+:   specify the longitude of the map’s initial center point, in degrees.
+:   Must be between -180 and 180
+
+`zoom` 
+:   specify the initial zoom level of the map. 0 is the most zoomed out.
+
+If any of `lat`, `lon`, or `zoom` are not specifically set, and ‘fit’ is set to `0` or `false`, the settings from the Geolocation plugin configuration page will be used.
+
+`type` 
+:   specify the type of google map that appears. Defaults to the setting from the Geolocation plugin configuration page.
+- roadmap - displays the road map view
+- satellite - displays Google Earth satellite images
+- hybrid - displays a mixture of road map and satellite views
+- terrain - displays a physical map based on terrain information
+
+`collection` 
+:   limits the map’s items to those from a specific collection, using the collection ID number. Only one collection may be specified.
+:   For example: `[geolocation collection=5]`
+
+`tags`
+:   limits the map’s items to those from a specific tag. Multiple tags can be entered, separated by a comma, and without any spaces.
+:   For example: `[geolocation tags=baseball,math]`
+
+`height`
+:   set the map height. Can be set in pixels or percentages, but requires specification with either px or %; defaults to 436px.
+:   For example: `[geolocation height=300px]` or `[geolocation height=50%]`
+
+`width` 
+:   set the map width. Can be set in pixels or percentages, but requires specification with either px or %; defaults to 100%.
+:   For example: `[geolocation width=200px]` or `[geolocation width=75%]`
+
+#### Examples
+
+To print a map of all geotagged items, simply use: 
+:  `[geolocation]`
+
+For a map that gets all of the items from your first collection, that are also tagged ‘baseball’
+: `[geolocation collection=1 tags=baseball]`
+ 
+A shortcode that leveraged all of the possible parameters would look like
+:    `[geolocation lat=42 lon=117 zoom=7 type=hybrid collection=4 tags=baseball,math,oakland height=500px width=500px]`
