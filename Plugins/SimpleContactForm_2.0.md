@@ -1,277 +1,41 @@
-<div id="wrap">
+---
+title: SimpleContactForm 2.0
+---
+The Simple Contact Form allows you to create a contact form on your site through which visitors can send comments, suggestions, and other feedback. By default, the plugin adds "Contact Us" to your site's main navigation.
 
-[Skip Navigation](SimpleContactForm_2.0.html#content)
-<div id="header">
-
-<div class="padding">
-
-<span
-id="logo">[![Omeka](../../ui/i/logo-horizontal-288px.gif)](../../index.html)</span>
-<div id="search-form">
-
-</div>
-
--   <div id="nav-showcase">
-
-    </div>
-
-    [Showcase](../../showcase/index.html)
--   <div id="nav-involved">
-
-    </div>
-
-    [Get Involved](../../get-involved/index.html)
--   <div id="nav-addons">
-
-    </div>
-
-    [Add-Ons](../../add-ons/index.html)
--   <div id="nav-forums">
-
-    </div>
-
-    [Forums](../../forums/index.html)
--   <div id="nav-documentation">
-
-    </div>
-
-    [Documentation](../index.html)
--   <div id="nav-download">
-
-    </div>
-
-    [Download](../../download/index.html)
-
-</div>
-
-</div>
-
-<div id="content">
-
-<div class="padding">
-
-<div id="user-meta">
-
--   <div id="pt-login">
-
-    </div>
-
-    [Log
-    In](https://omeka.org/c/index.php?title=Special:UserLogin&returnto=Plugins/SimpleContactForm%202.0)
-
-</div>
-
-Plugins/SimpleContactForm 2.0
-=============================
-
-<div id="contentSub">
-
-<span class="subpages">&lt;
-[Plugins](../Plugins.1.html "Plugins")</span>
-
-</div>
-
-<div id="primary">
-
-The Simple Contact Form enables visitors to your Omeka site to email
-comments and suggestions to the site administrator. By default, the
-plugin adds "Contact Us" to your site's main navigation.
-
-\
-
-<div class="floatleft">
-
-[![Scfconfigure.png](https://omeka.org/c/images/0/0d/Scfconfigure.png)](https://omeka.org/codex/File:Scfconfigure.png)
-
-</div>
-
-Install Simple Contact Form using the instructions for [Installing a
-Plugin](../Managing_Plugins_2.0.html#Installing_a_Plugin "Managing Plugins 2.0").
-
-\
-
-<span id="Configuring" class="mw-headline"> Configuring </span>
+Configuration
 ---------------------------------------------------------------
+Once you have [installed](../Managing_Plugins_2.md#installing-a-plugin) Simple Contact, you will need to configure it. You should be automatically redirected to the plugin when you activate it from the admin Plugins page. If you are not, go to the top navigationon on the admin dashboard and click Plugins, then scroll to Simple Contact (plugins are arranged alphabetically) and click the blue *Configure* button.
 
-<div class="floatleft">
+The configuration settings have a number of fields, almost all of which relate to setting up the various email addresses and messages needed for a contact form.
 
-[![Scffields.png](https://omeka.org/c/images/5/53/Scffields.png)](https://omeka.org/codex/File:Scffields.png)
+The fields are as follows:
+- *Reply-From email*: if this field is filled, this is the reply-to and sent-from email address of the message sent to visitors letting them know their message has been sent (see the Public Notification options below).
+- *Forward-To Email*, enter the email address to which you want notifications to go when a user submits a message via the form.  If this field is blank, you will not receive user messages sent from the contact form.
 
-</div>
+![reply-from and forward-to fields](../doc_files/plugin_images/simplecontact1.png)
 
-\
+- *Email Subject (Admin Notification)*: subject line for emails sent by the system to an administrator at the *Forward-To Email* address entered above. By default, this is "A User Has Contacted  You."
+- *Email Message (Admin Notification)* is the beginning of the message sent to the *Forward-to email* address; the visitor's message is added below this introduction. 
 
--   In the Reply-From field, insert the email address to which user
-    contacts will go.. If you leave it blank, your users will not be
-    sent a confirmation email acknowledging their emails were submitted.
--   In the Forward-To Email, enter the email address from which you will
-    receive notifications that a user has contacted you via the form. If
-    this field is blank, you will not receive user messages sent from
-    the contact form.
--   In the Email Subject field, enter the message users receive after
-    submitting an email via the Contact Form.
--   In the Email Message field, enter the message the site administrator
-    receives when an email is sent to your site via the Contact Form.
--   Remember to Save Changes.
--   Finally, make sure that you have configured
-    [ReCaptcha](https://omeka.org/codex/ReCaptcha "ReCaptcha") for your
-    Omeka installation in your Security Settings. ReCaptcha prevents
-    unwanted email from spammers.
+![admin notification email settings](../doc_files/plugin_images/simplecontact2.png)
 
-<div class="printfooter">
+- *Email Subject (Public Notification)*: subject line for emails sent by the system to visitors who post a message through the form. 
+- *Email Message (Public Notification)* is the beginning of the message sent to the visitor, and is followed by the text of the message they sent.
 
-Retrieved from
-"[https://omeka.org/codex/Plugins/SimpleContactForm\_2.0](SimpleContactForm_2.0.html)"
+![public notification email settings](../doc_files/plugin_images/simplecontact3.png)
 
-</div>
+Configure the page on which the form appears with these settings: 
+- *Contact Page Title*: the title of the page 
+- *Instructions for Contact Page*: allows you to add instructions or other information to the page.
+- *Add to Main Navigation*: click this checkbox to add the contact form to the main site navigation. You can manage the position of this page in the navigation [from the Appearances tab](../Managing_Navigation_2.md)
 
-<div id="catlinks" class="catlinks">
+![contact page settings](../doc_files/plugin_images/simplecontact4.png)
 
-<div id="mw-normal-catlinks">
+When the visitor clicks the submit button on the contact page form, they are redirected to a thank you page. Settings for this are:
+- *Thank You Page Title*:  title of the page.
+- *Thank You Page Message*: by default this is "We appreciate your comments and suggestions."
 
-[Category](../Special:Categories.html "Special:Categories"): <span
-dir="ltr">[Plugins](https://omeka.org/codex/Category:Plugins "Category:Plugins")</span>
+Remember to save your changes by clicking the green Save Changes button on the right side of the window. 
 
-</div>
-
-</div>
-
-</div>
-
-<div id="secondary">
-
-<div class="portlet">
-
-Documentation
--------------
-
--   [Home](../index.html)
--   [Screencasts](../Screencasts.html)
--   [Themes](../Managing_Themes_2.0.html)
--   [Appearance](../Managing_Appearance_2.0.html)
--   [Plugins](../Plugins2.0.html)
-
-</div>
-
-<div class="portlet">
-
-Page View
----------
-
--   <div id="nav-page">
-
-    </div>
-
-    [Page](SimpleContactForm_2.0.html)
--   <div id="nav-discussion">
-
-    </div>
-
-    [Discussion](https://omeka.org/c/index.php?title=Talk:Plugins/SimpleContactForm_2.0&action=edit&redlink=1)
--   <div id="nav-view_source">
-
-    </div>
-
-    [View
-    source](https://omeka.org/c/index.php?title=Plugins/SimpleContactForm_2.0&action=edit)
--   <div id="nav-history">
-
-    </div>
-
-    [History](https://omeka.org/c/index.php?title=Plugins/SimpleContactForm_2.0&action=history)
-
-</div>
-
-<div id="wiki-toolbox" class="portlet">
-
-Toolbox
--------
-
--   <div id="t-whatlinkshere">
-
-    </div>
-
-    [What links
-    here](https://omeka.org/codex/Special:WhatLinksHere/Plugins/SimpleContactForm_2.0)
--   <div id="t-recentchangeslinked">
-
-    </div>
-
-    [Related
-    changes](https://omeka.org/codex/Special:RecentChangesLinked/Plugins/SimpleContactForm_2.0)
--   <div id="t-specialpages">
-
-    </div>
-
-    [Special pages](../Special:SpecialPages.html)
-
-</div>
-
-[![Creative Commons
-License](https://i.creativecommons.org/l/by/3.0/us/88x31.png)](http://creativecommons.org/licenses/by/3.0/us/)\
-Omeka Documentation is licensed under a [Creative Commons Attribution
-3.0 United States
-License](http://creativecommons.org/licenses/by/3.0/us/).
-
-</div>
-
-</div>
-
-</div>
-
-<div id="footer">
-
-<div class="padding">
-
-<div id="sitemap">
-
-<div class="section">
-
-### About
-
--   [Project](../../about/index.html)
--   [Staff](../../about/staff/index.html)
--   [News](../../blog/index.html)
--   [License](http://www.gnu.org/copyleft/gpl.html)
-
-</div>
-
-<div class="section">
-
-### Help
-
--   [User Forums](../../forums/index.html)
--   [Documentation](../index.html)
--   [Dev Listserv](http://groups.google.com/group/omeka-dev)
--   [Contact](../../contact/index.html)
-
-</div>
-
-<div class="section">
-
-### Downloads
-
--   [Download Omeka](../../download/index.html)
--   [Plugins](../../addons/plugins.html)
--   [Themes](../../addons/themes.html)
--   [Packages](../../download/packages/index.html)
-
-</div>
-
-</div>
-
-<div id="chnm-meta">
-
-<span id="chnm-logo">[![Roy Rosenzweig Center for History and New
-Media](../../ui/i/rrchnm-logo-regular.gif)](http://chnm.gmu.edu)</span>
-Omeka is a project of the [Roy Rosenzweig Center for History and New
-Media](http://chnm.gmu.edu), [George Mason
-University](http://www.gmu.edu). Copyright © 2007–2016 CHNM.
-
-</div>
-
-</div>
-
-</div>
-
-</div>
+You can enable [ReCaptcha](../ReCaptca.md) on your site to reduce spammer submissions through the Contact Form.
