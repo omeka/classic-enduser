@@ -159,6 +159,10 @@ This image shows a Geolocation block with items added:
 And this is how the map looks on the public view of the exhibit page:
 ![Geolocation block public view](../doc_files/plugin_images/eb_geolocationPublic.png)
 
+Shortcodes
+--------------------
+Exhibit Builder adds specific [shortcodes](../Shortcodes.md) to your instal which allow you to call specific exhibits or featured exhibits. See the [plugin shortcodes documentation](/Plugin_Shortcodes.md) for more information. 
+
 Upgrading from Exhibit Builder 2.0
 ----------------------------------------------------------------
 
