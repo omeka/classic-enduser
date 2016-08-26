@@ -36,8 +36,8 @@ When the visitor clicks the submit button on the contact page form, they are red
 - *Thank You Page Title*:  title of the page.
 - *Thank You Page Message*: by default this is "We appreciate your comments and suggestions."
 
-Remember to save your changes by clicking the green Save Changes button on the right side of the window. 
-
 ![thank you page settings](../doc_files/plugin_images/simplecontact5.png)
+
+Remember to save your changes by clicking the green Save Changes button on the right side of the window. 
 
 You can enable [ReCaptcha](../ReCaptca.md) on your site to reduce spammer submissions through the Contact Form.
