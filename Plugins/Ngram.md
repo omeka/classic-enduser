@@ -22,20 +22,19 @@ Make sure your php path is properly configured.
 
 Installation and Configuration
 --------------------------------------------------------------
-1. Install the plugin.
+###Install the plugin.
 
 Once you’ve installed it on the server, navigate to the Plugins menu in your Omeka site and click the install button. On installation the plugin automatically creates a Ngram button in the Admin navigation and allows the plugin to be configured on the Plugins page.
 
 ![A screenshot of the Ngram plugin, at the Plugins page with the green install button.](../doc_files/plugin_images/ngram-install.png)
 
-
 ![A screenshot of the Ngram plugin on the navigation bar.](../doc_files/plugin_images/ngram-nav.png)
 
-2. Configure the plugin. 
+###Configure the plugin. 
 
 There are two configuration features for the Ngram plugin:
 
-* **Text Element**: a dropdown menu from which you may select one text element to create an ngram corpus. 
+**Text Element**: a dropdown menu from which you may select one text element to create an ngram corpus. 
 
 In order to produce an ngram, the plugin must be directed to a particular text element. For best results, choose a Text Element by reviewing items within your collection and identify a text field that is meaningful across multiple items. 
 
@@ -43,9 +42,9 @@ Text Elements are listed in a dropdown menu. If you have created unique metadata
 
 For example, a user might choose to examine a collection of items with useful text in the Description field. Configuring the Text Element to the Description field directs the plugin to create a corpus that includes all items with text in that element. Items that do not have content in this text element will be ignored.
 
-Note: You may select different text elements for different corpora. However do not modify the Text Element setting while you are in the process of validating items and generating ngrams for a corpus! Doing so will break that process. Only change this once you have generated all ngrams for a corpus.
+**Note**: You may select different text elements for different corpora. However do not modify the Text Element setting while you are in the process of validating items and generating ngrams for a corpus! Doing so will break that process. Only change this once you have generated all ngrams for a corpus.
 
-* **Reset processes**: a checkbox that will reset any ongoing processes that are hanging or showing errors. 
+**Reset processes**: a checkbox that will reset any ongoing processes that are hanging or showing errors. 
 Note: be sure to click to save changes.
 
 
@@ -64,35 +63,39 @@ A corpus is drawn from the items in your collection with content in a particular
 To create a corpus and start viewing ngrams, go to the Ngram tab on the left hand navigation of your Omeka admin dashboard. On the Browse Corpora page, click the green Add a Corpus button. 
 
 On the Add a Corpus page, complete the following options:
-* **Name**: A field in which you must give the corpus a name. Ideally, choose something that meaningfully describes the corpora, as there are no descriptions for these corpora.
-* **Public**: A check box. Click the checkbox to make the corpus visible to public users (on the public side of the site).
-* **Search Query**: A field in which you refine the contents of your corpus by inputting a search query. The best way to get this search query is to perform an advanced search of the items in your collection on the Admin side of your Omeka site. Then, copy and paste the entire URL of the results, after the part that reads admin/items/browse?
-* **Sequence**: 
-* **Sequence Element**: select from elements but it should be something with numeric or date input. Items without the selected element field filled in (for instance, an item without a Date, will not be included in the corpus). For best results, ensure consistency of metadata, and select a meaningful field.
-* **Sequence type**: choose from Date by Year, Date by Month, Date by Day, or Numeric Sequence Range the field will prompt you with the proper format for the sequence if you choose a Date type. If numeric, make sure the format matches the numeric sequence of the elements you’re drawing from.
-* **Note***: Date should be entered in the YearMonthDay format and should be entered as a range. (for instance, 200101-201601)
-* **Note***: You do not have to have a sequence, but without one you cannot generate graphs. 
 
-* **Note** the Text Element box under the green Add Corpus button on the Add Corpus page. The Text Element was configured in the plugin panel. 
+**Name**: A field in which you must give the corpus a name. Ideally, choose something that meaningfully describes the corpora, as there are no descriptions for these corpora.
+
+**Public**: A check box. Click the checkbox to make the corpus visible to public users (on the public side of the site).
+
+**Search Query**: A field in which you refine the contents of your corpus by inputting a search query. The best way to get this search query is to perform an advanced search of the items in your collection on the Admin side of your Omeka site. Then, copy and paste the entire URL of the results, after the part that reads admin/items/browse?
+
+**Sequence**: 
+- **Sequence Element**: select from elements but it should be something with numeric or date input. Items without the selected element field filled in (for instance, an item without a Date, will not be included in the corpus). For best results, ensure consistency of metadata, and select a meaningful field.
+- **Sequence type**: choose from Date by Year, Date by Month, Date by Day, or Numeric Sequence Range the field will prompt you with the proper format for the sequence if you choose a Date type. If numeric, make sure the format matches the numeric sequence of the elements you’re drawing from.
+
+**Note**: Date should be entered in the YearMonthDay format and should be entered as a range. (for instance, 200101-201601)
+
+**Note**: You do not have to have a sequence, but without one you cannot generate graphs. 
+
+**Note** the Text Element box under the green Add Corpus button on the Add Corpus page. The Text Element was configured in the plugin panel. 
 
 When you have completed adding your corpus, click the green Add Corpus button. 
 
 
 ![A screenshot of the Add Corpus screen with the fields described above.](../doc_files/plugin_images/ngram-addcorp.png)
 
-
 ###Manage your Corpus
 After you have added a corpus, the screen will update with information and options for that corpus.
 
-
-![A screenshot of the Manage Corpus page, elements described below.](../doc_files/plugin_images/ngram-managing.png)
+![A screenshot of the Manage Corpus page, elements described below.](../doc_files/plugin_images/ngram-managing .png)
 
 On the left the elements that were input on the Add Corpus screen are listed. 
-* **Public**
-* **Search Query**
-* **Browse search results**
-* **Sequence Element**
-* **Sequence Range**
+- **Public**
+- **Search Query**
+- **Browse search results**
+- **Sequence Element**
+- **Sequence Range**
 
 Note: Clicking browse Search Results will open a Browse Items page with all the items based on your search term.
 
@@ -114,22 +117,22 @@ This will take you to a new screen with three tabs: valid items, invalid items, 
 ![A screenshot of the Validate Corpus Items tabs described above.](../doc_files/plugin_images/ngram-val-menu.png)
 
 **Valid items** are those items with sequence text that is readable to the plugin (See Figure 1). The table on this tab gives: 
-* the item number (a link to the item),
-* the text in the sequence element, and
-* Sequence member, or how it will be used in sequence by the plugin (Ex. when the sequence is “Date by Year” and the Sequence. 
+- the item number (a link to the item),
+- the text in the sequence element, and
+- Sequence member, or how it will be used in sequence by the plugin (Ex. when the sequence is “Date by Year” and the Sequence. 
 
 **Invalid items** have text in the sequence element which the plugin cannot parse (See Figure 2). However, you can click on the Item ID number to go in and edit the item to correct the element text. 
 
 **Out of range items** have text in their sequence element which is outside the range you set (See Figure 3). The table on this tab gives:
-* the item number (a link to the item), 
-* the text in the sequence element, and 
-* Sequence member, or how it will be used in sequence by the plugin (Ex. when the sequence is “Date by Year” and the Sequence 
+- the item number (a link to the item), 
+- the text in the sequence element, and 
+- Sequence member, or how it will be used in sequence by the plugin (Ex. when the sequence is “Date by Year” and the Sequence 
 
-Note: to update the sequence text in these items, utilize the linked item number to modify each item. If you do not modify out of range items, they will not be included in the corpus.
+**Note**: to update the sequence text in these items, utilize the linked item number to modify each item. If you do not modify out of range items, they will not be included in the corpus.
 
 For ease of navigation, you may click to open a new tab for the invalid or out of range items you would like to modify. Refresh the list of valid and invalid items by reloading this page. Once you are done correcting invalid items, or the list of valid items looks correct, click the green Accept Valid Items button.
 
-Note: Once you click the Accept Valid Items button you will not be able to reconfigure the item pool or reset the body of valid items
+**Note**: Once you click the Accept Valid Items button you will not be able to reconfigure the item pool or reset the body of valid items
 
 Valid Items (Figure 1)
 
@@ -143,9 +146,7 @@ Out of Range Items (Figure 3)
 
 ![A screenshot of the Validate Corpus Items page with the Out of Range Items tab selected. Text at the top of the screen instructs users to review and edit the items before clicking to Accept Valid Items. Below is a table of the Out of Range items with the content described above.](../doc_files/plugin_images/ngram-val-out.png)
 
- 
-Note: After you have validated your items, the Item Counts pane will update to provide a count of the number of items in your corpus.
-
+**Note**: After you have validated your items, the Item Counts pane will update to provide a count of the number of items in your corpus.
 
 ![A screenshot of the small Item Counts window. Text reads Item Counts, Pool: 6004, Corpus: 6000.](../doc_files/plugin_images/ngram-corpvalid-itemcount.png)
 
@@ -154,8 +155,7 @@ After you have validated your items, click the buttons to generate unigrams (sin
 
 You do not have to generate unigrams, bigrams, and trigrams in order to use the View Corpus functions. However, running all three processes before you view corpus will give you more options when analyzing the corpus.
 
-Note: It is only possible to generate one corpus at a time.
-
+**Note**: It is only possible to generate one corpus at a time.
 
 ![A screenshot of the corpus screen with Items Validated.](../doc_files/plugin_images/ngram-gen.png)
 
@@ -166,16 +166,15 @@ Once you have created a corpus, validated the items, and generated ngrams, you c
 
 In order to get back to the Corpus summary page from the Corpus viewer, click the “back to Corpus” button just under the label Corpus viewer.
 
-
 ![A screenshot of the Back to corpus button.](../doc_files/plugin_images/ngram-viewcorp.png)
 
-Ngram Search - Using the text field, you can enter comma-separated phrases or words which you want to graph the frequency of. Note: you can only search for two word phrases if you have generated bigrams, etc. 
+**Ngram Search** - Using the text field, you can enter comma-separated phrases or words which you want to graph the frequency of. Note: you can only search for two word phrases if you have generated bigrams, etc. 
 
 You can, if you want, specify a range for the corpus search. Note that the format of the range you search must match exactly the format of your sequence data. So if you have sequenced the corpus by year, enter a four digit year, whereas if you have done it by month you must enter yyyymm formatted range data.
 
 The results should return a sequence graph (if they do not, check the formatting of the range data), along with a table showing Ngram Counts and Total Ngram Counts.
 
-Note: These results reflect the composition of the selected corpus (which has been filtered by text element and search query), not the entirety of your collection.  
+**Note**: These results reflect the composition of the selected corpus (which has been filtered by text element and search query), not the entirety of your collection.  
 
 
 ![A screenshot of the Corpus Viewer page with the phrase and range fields described above.](../doc_files/plugin_images/ngram-Corpusviewer.png)
@@ -184,7 +183,7 @@ Note: These results reflect the composition of the selected corpus (which has be
 ![A screenshot of the corpus viewer with Graph, Ngram Counts, and Total Ngram Counts described above.](../doc_files/plugin_images/ngram-viewer.png)
 
 
-Ngram Frequency- The Ngram Frequency Corpus view returns ngrams in order of frequency.
+**Ngram Frequency** - The Ngram Frequency Corpus view returns ngrams in order of frequency.
 
 Enter the number of results you want to return of unigram, bigrams, or trigrams (select one using the radio button). By default the number of results is set to 100.
 
