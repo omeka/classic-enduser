@@ -1,5 +1,6 @@
-Plugins/SimpleVocab 2.0
-=======================
+---
+title: SimpleVocab 2.0
+---
 With the Simple Vocab plugin you can define a controlled vocabulary for any metadata elements 
 
 A [controlled vocabulary](https://en.wikipedia.org/wiki/Controlled_vocabulary) is a list of predefined terms that are predetermined by an administrator or the teach of researchers working on a project.

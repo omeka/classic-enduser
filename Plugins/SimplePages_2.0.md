@@ -7,45 +7,56 @@ Simple Pages can be written in plain text or using HTML. You can insert items, e
 
 Configuration
 -------------------------
-Once activated, Simple Pages has a single configuration setting. To manage this setting, go to the Plugins tab, located in the top navigation in the admin dashboard. Scroll down to Simple Pages and click the blue *Configure* button. 
+To configure the Simple Pages plugin, go to the Plugins tab in the top admin nav, and scroll to Simple Pages. Click the blue *Configure* button. 
 
-The setting for Simple Pages is a checkbox to *Filter User Input for Page Content.* If checked, the plugin will filter any user-entered text in a Simple Page against the HTML filters in the [security settings](../Managing_Security_Settings_2.md), removing any disallowed HTML tags. 
+Simple Pages has a single configuration setting, a checkbox to *Filter User Input for Page Content.* If checked, the plugin will filter any user-entered text in a Simple Page against the HTML filters in the [security settings](../Managing_Security_Settings_2.md), removing any disallowed HTML tags. 
 
-![Simple Pages configuration setting](../doc_files/plugin_images/simplePgsConfig.png)
+![Simple Pages configuration setting](../doc_files/plugin_images/simplePagsConfig.png)
 
-Create a Page 
+Managing Simple Pages
 ------------------------------------------------------
+Add, edit, and delete Simple Pages from the tab on the left-hand navigation on the admin dashbaord.
 
+![Left nav with the SimplePages tab indicated with a red frame](../doc_files/plugin_images/simplePagesTab.png)
 
+The Simple Page admin Browse has two views: list view (default) and Hierarchy. 
 
+The List View displays as a table with columns for the page *Title*, the page's *slug*, and the date and user that *last modified* the page.
 
-[![Simple
-Pages.png](https://omeka.org/c/images/a/ac/Simple_Pages.png)](https://omeka.org/codex/File:Simple_Pages.png)
+![List view of Simple Pages Browse](../doc_files/plugin_images/simplePagesBrL.png)
 
--   Find the Simple Pages tab in the left side menu under "Dashboard."
--   To start building a webpage, click Add a Page.
--   Titling the page is required, and add a unique URL slug for the page if you wish. For example, “about” is the slug in the following URL: www.myomekasite.com/about
--   Add any text you want to appear on the page in the designated text box below. If you want to format the text, you may use simple HTML markup.
-    -   By checking the "Use HTML editor" button, you can add simple
-        mark up to your text, including links, and you can embed
-        multimedia web objects.
-            -   If you wish to include PHP in your Simple Pages, do not use the
-        HTML editor for this page.
--   To create a hierarchy of pages, or nested page, you may choose which page acts as the “Parent.” If you choose not to nest pages and want them linked on the homepage, choose Main Page (No Parent) option.
--   You may also choose to link to this page to the primary, or main site, navigation that appears on every page in the website.
--   To order the pages on the website's navigation, see [Managing\_Navigation\_2.0](../Managing_Navigation_2.0.html "Managing Navigation 2.0").
--   Click the green "Save Changes" button to save your page. Once you are ready to publish the page, click the Public box found under the Save Changes button.
+The Hierarchy view allows you to see parent and child pages in order. When adding or editing a page, you can assign a "parent" page, one higher in the hierarchy. Each page is an unordered list item, with the page's *Title* followed by the *slug* in parentheses, the most recent date modified and by whom, and the public/private status of the page.
 
-[![Simple.png](https://omeka.org/c/images/thumb/2/2e/Simple.png/500px-Simple.png)](https://omeka.org/codex/File:Simple.png)
+![Hierarchical view of Simple Pages browse](../doc_files/plugin_images/simplePagesBrH.png)
 
+### Adding a Page
+To add a new page, click the green *Add a Page* button on the Simple Pages admin Browse. 
 
-Viewing Pages
-------------------------------------------------------
+On the Add Page page you can enter:
+- *Title* (required): the name of the page. This is what will display by default in the [navigation](../managing nav)
+- *Slug*: the url for the page (youromekasite.net/slug)
+- *Use HTML Editor* checkbox: tick this if you want to use the HTML editor to format the text on the page.
+- *Text*: page content. 
+    - If you have checked the box above, you will be able to use the [Tiny MCE HTML editor] to format this content. 
+    - You can also use [shortcodes] in the text area.
 
-To view the public page, you may click "View Public Page" the Edit page
-or by clicking the page's title from Simple Pages Browse page. To see
-relationships of the pages, click on Hierarchy View available on the
-Simple Pages Browse.
+To the right of these fields is the green *Save Changes* button.  Below it are the following options:
+- *Parent* dropdown. Choose a parent page (above in the hierarchy) for this page.
+- *Order* of this page relative to other pages with the same parent.
+- *Publish this page* checkbox. Checking the box will make the page public. 
+
+![Add simple page]((../doc_files/plugin_images/simplePagesAdd.png)
+
+Be sure to Save Changes.
+
+### Editing and Deleting Pages
+Edit any page by going to the admin browse Simple Pages and clicking "edit" under the Page title. Note that clicking the title will take you to the public view of that page.
+
+When you view the details of a page which has already been created, there are additional options below the *Save Changes* button. 
+- Click the blue *View Public Page* button to open a new tab with the public version of the page you are editing. 
+- Click the red *Delete* button to delete the page. A dialog box will pop up to ask you to confirm the deletion.
+
+![Editing a Simple Page](../doc_files/plugin_images/simplePagesEdit.png)
 
 Advanced Users
 -------------------------------------------------------

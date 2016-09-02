@@ -1,9 +1,6 @@
-Plugins/UserProfile 2.0
-=======================
-
-About User Profiles
-------------------------------------------------------------
-
+---
+title: User Profiles
+---
 User Profiles is designed to address many different situations in which gathering and/or displaying information about users is helpful. In many cases, these situations involve a combination of User Profiles with other plugins. Example use cases might be:
 
 -   Create structured, consistent information about the creators of

@@ -9,7 +9,7 @@ The following documentation is primarily for Omeka Classic  versions 2.0 and hig
 - [Omeka Feature List](/Feature_List.md)
 - [Accessibility Statement](/Accessibility_Statement.md)
 - [Omeka Classic vs Omeka.net](/Classic_vs_Net.md)
-- [Upcoming Workshops](/Upcoming_Workshops.md)
+- [Workshops](/Workshops.md)
 
 ### Project Planning
 - [Site Planning tips](/Site_Planning_Tips.md)

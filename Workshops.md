@@ -1,6 +1,8 @@
 ---
-title: Upcoming Workshops
+title: Workshops
 ---
+
+Interested in hosting an Omeka workshop? Send an email request to outreach@omeka.org.  We do require travel expenses and an honorarium be paid for a team member to give a workshop. 
 
 Workshops
 -----------------------------------------------------------
