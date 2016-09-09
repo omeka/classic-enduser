@@ -14,4 +14,4 @@ Log in via the command line, and change directories to the directory where you w
 
 `{.de1} 
 mysqldump -h localhost -u username -p omeka_db_name > omeka_db_backup.sql
-`
+` 
