@@ -86,7 +86,7 @@ When you have completed adding your corpus, click the green Add Corpus button.
 ###Manage your Corpus
 After you have added a corpus, the screen will update with information and options for that corpus.
 
-![A screenshot of the Manage Corpus page, elements described below.](../doc_files/plugin_images/ngram-managing .png)
+![A screenshot of the Manage Corpus page, elements described below.](../doc_files/plugin_images/ngram-managing.png)
 
 On the left the elements that were input on the Add Corpus screen are listed. 
 - **Public**
