@@ -9,18 +9,24 @@ Editorial User Role
 -----------------------
 The plugin creates a new [role](../User_Roles.md), Exhibit-contributor, which largely functions like the Contributor role but can also edit Exhibits when added in the Editorial blocks (see below for more information)
 
+An Editorial-contributor can view, edit, add, and delete content in any exhibit to which they are added. This includes adding new exhibits, creating new pages, adding blocks to pages, and adding items to exisiting pages. Note: they will have access to all items in your Omeka collection.
+
+Users with the Exhibit-contributor role cannot view the backend of exhibits to which they have not been added. They are also prohibited from editing items. 
+
 Using Editorial Blocks
 -------------------------
 Once you have [installed](../Managing_Plugins_2.md#installing-a-plugin) and activated the Editorial plugin, it is ready to use.
 
 From the Exhibits tab on the left-hand navigation of your admin dashboard, click *Edit* on the Exhibit for which you want to create an editorial block. Select the page on which you want to leave a comment or start a discussion. 
 
+![One red arrow points to the Exhibits tab and a second red arrow points to the Edit button for a specific exhibit.](../doc_files/plugin_images/Editorial-browseexhibit.png)
+
 ### Add an Editorial block
-The New Block layout options should now include an Editorial Block, with Omeka's logo for the block icon:
+Navigate to an exisiting page or create a new page in your exhibit. In the *Content* section, the *New Block* layout options should now include an *Editorial Block*, with Omeka's logo for the block icon:
 
 ![A red arrow points to the Editorial block](../doc_files/plugin_images/editorial_addblock.png)
 
-Select Editorial Block in the New Block options and click the long green *Add New Content Block* button.
+Click to select *Editorial Block* in the New Block options and click the long green *Add New Content Block* button.
 
 ### Add the first comment in a block
 The block will have your username and a text field for comments, which can be formatted [using html](../Using_HTML_Editor-TinyMCE.md). If your Omeka site email is also registered with [Gravatar](https://en.gravatar.com/), then your Gravatar will show up above your username. Type your comment in the text field.
@@ -33,6 +39,8 @@ Once you have made your comment, you can either Save Changes to save it, or conf
 - *Additional Email Text*: this optional field allows you to add instructions or other text to the email. 
 - *Grant Access To*: set which users on the Omeka site can see and comment on this Editorial block. SuperUsers will always be able to see Editorial blocks. Other users must be added. 
       - Use *Grant Access* to allow Exhibit-contributor users to view this exhibit.
+      
+Note: Multiple *Editorial Blocks* can be added to a single page, allowing for multiple comment chains.
 
 ![Editorial block options, no selections made](../doc_files/plugin_images/editorial_options.png)
 
