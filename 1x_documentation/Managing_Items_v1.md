@@ -1,27 +1,17 @@
-
-Managing Items
-==============
-
+---
+title: Managing Items
+---
 
 Items are the Archive
------------------------------------------------------------------------------------
-
+----------------------------------------------------------------
 To build a digital archive, you must first add items.
 
 Before Adding Items 
--------------------------------------------------------------------------------
+----------------------------------------------------------------
 
-You may want to consult the
-[Site\_Planning\_Tips](http://omeka.org/codex/Site_Planning_Tips "Site Planning Tips")
-page to think about how to build your site and what you want to do with
-your items.
+You may want to consult the [Site Planning Tips](../Site_Planning_Tipes.md) page to think about how to build your site and what you want to do with your items.
 
-You may also want to think about what type of information you plan to
-share using the [Dublin Core
-Metadata](http://dublincore.org/documents/usageguide/) fields before
-adding and describing items. You may also want to read the
-[Describing\_Items](Describing_Items.html "Describing Items") page for a
-brief explanation of using metadata in Omeka Items.
+You may also want to think about what type of information you plan to share using the [Dublin Core Metadata](http://dublincore.org/documents/usageguide/) fields before adding and describing items. You may also want to read the [Describing Items](../Describing_Items.md) page for a brief explanation of using metadata in Omeka Items.
 
 Screencast 
 -------------------------------------------------------------
@@ -34,51 +24,21 @@ Add an Item
 
 1.  From your dashboard (mywebsite.org/admin) click "Add new item to
     your archive."
-2.  This takes you to the admin/items/add page where you see a
-    navigation bar on the left pointing you to different sections of
-    adding an item. At any time, you may check the “Public and/or
-    “Featured” boxes at the top of the item form. You may also change
-    this status from the /admin/items page without needing to re-open
-    the individual item.
-3.  The first tab shows the Dublin Core metafields. These are available
-    for every item in the archive. Each field can have multiple values;
-    Simply click the "Add Input" link below each field title to add a
-    new input for that field.
-4.  The [item type](Item_Types.html "Item Types") section lets you
-    choose a specific item type for the object you are adding. Once you
-    choose the type, relevant metadata fields appear for you
-    to complete. (See [Managing Item
-    Types](Managing_Item_Types.html "Managing Item Types") for
-    information about adding/editing item types.)
-5.  The Collection section allows you to add this item to a collection.
-    Collections must already exist in the system before you can add an
-    item to the collection. (See [Managing
-    Collections](Managing_Collections.html "Managing Collections") for
-    information about adding/editing collections.)
-6.  The Files section lets you upload multiple files to an item.
-    Clicking the "Add Another File" link will reveal another field for
-    adding a file. You can associate any number of files to an item.
-    Read more about
-    [Managing\_Files](Managing_Files.html "Managing Files").
+2.  This takes you to the admin/items/add page where you see a     navigation bar on the left pointing you to different sections of adding an item. At any time, you may check the “Public and/or “Featured” boxes at the top of the item form. You may also change this status from the /admin/items page without needing to re-open the individual item.
+3.  The first tab shows the Dublin Core metafields. These are available for every item in the archive. Each field can have multiple values; Simply click the "Add Input" link below each field title to add a new input for that field.
+4.  The [item type](Item_Types.html "Item Types") section lets you     choose a specific item type for the object you are adding. Once you choose the type, relevant metadata fields appear for you     to complete. (See [Managing Item Types](Managing_Item_Types.html "Managing Item Types") for information about adding/editing item types.) 
+5. The Collection section allows you to add this item to a collection. Collections must already exist in the system before you can add an item to the collection. (See [Managing Collections](Managing_Collections.html "Managing Collections") for information about adding/editing collections.)
+6.  The Files section lets you upload multiple files to an item. Clicking the "Add Another File" link will reveal another field for adding a file. You can associate any number of files to an item. Read more about [Managing\_Files](Managing_Files.html "Managing Files").
 7.  The Tags tab allows you add keyword tags to your item.
-8.  A tab called "Additional Item Metadata" will be present if you have
-    installed plugins that use this, or if you have upgraded from Omeka
-    version 0.9. (This tab will hold any legacy metadata from
-    older versions.)
+8.  A tab called "Additional Item Metadata" will be present if you have installed plugins that use this, or if you have upgraded from Omeka version 0.9. (This tab will hold any legacy metadata from older versions.)
 9.  Be sure to click the "Add Item" button to save your data.
 
-###Adding HTML elements to Items
+### Adding HTML elements to Items
 
-
-Each metadata field's text may be enhanced using basic HMTL tags. Check
-the HTML box below the text box to enable a visual HTML editor. For more
-instructions, see:
-[Using\_HTML\_Editor-TinyMCE](http://omeka.org/codex/Using_HTML_Editor-TinyMCE "Using HTML Editor-TinyMCE")
+Each metadata field's text may be enhanced using basic HMTL tags. Check the HTML box below the text box to enable a visual HTML editor. For more instructions, see: Using HTML Editor TinyMCE
 
 ### Diagram of Items in an Archive
--   Items: Each item contains Dublin Core and Item Type metadata; an
-    item can belong to one collection at a time, and have an infinite
-    number of tags. Items may contain many or no files.
+-   Items: Each item contains Dublin Core and Item Type metadata; an item can belong to one collection at a time, and have an infinite number of tags. Items may contain many or no files.
 -   Collections: May be comprised of different items. Items may only
     belong to one collection a time.
 -   Tags: Tags can be added to any item, and an item may contain an

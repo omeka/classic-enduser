@@ -20,6 +20,6 @@ To install and activate a new theme, do the following:
 Creating Themes
 ----------------------------------------------------------------
 
-One of the easiest ways to develop your own theme is to modify one of the pre-existing ones in our [themes directory](../download/themes/index.html). Hacking on a CSS file, you can create a dramatically different website with minimal work.
+One of the easiest ways to develop your own theme is to modify one of the pre-existing ones in our themes directory. Hacking on a CSS file, you can create a dramatically different website with minimal work.
 
 If you're interested in creating new themes, check out the [Theme Writing Best Practices](../1x_documentation/Theme_Writing_Best_Practices.md) to get started, and use the [Theme API](../1x_documentation/Theme_API.md) page as a reference.

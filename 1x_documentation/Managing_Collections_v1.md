@@ -2,11 +2,11 @@
 title: Managing Collections
 ---
 Collections may be used in a variety of contexts that make the most sense for your archive. It is not necessary to follow a traditional interpretation of a collection, say by owner or donor. In Omeka, you can also use tags to organize similar items into categories.
--
+
 Screencast Tutorial
 ----------------------------------------------------------------
 
-Watch a screencast tutorial on [managing collections and tags](../1x_Screencasts/CollectionsandTags1.0.mov).
+Watch a screencast tutorial on [managing collections and tags](../1x_documentation/1x_Screencasts/CollectionsandTags1.0.mov).
 
 Create a Collection
 ----------------------------------------------------------------
@@ -27,25 +27,17 @@ clicking the edit button found to the right of the named collection.
 Adding Items to Collections
 -----------------------------------------------------------------------------------------------
 
--   First you must create the collection, and then you may add an item
-    to it through the add/edit item form. See [Managing
-    Items](Managing_Items.html "Managing Items").
-
-
-
+-   First you must create the collection, and then you may add an item to it through the add/edit item form. See [Managing Items](../1x_documentation/Managing_Items_v1.md).
 -   An item may only belong to one collection a time. You may switch
     collection associations for an item at any time.
 
 Browsing Collections
----------------------------------------------------------------------------------
+----------------------------------------------------------------
 
-In the admin/collections section, you may sort collections by clicking
-Name or Date Added
+In the admin/collections section, you may sort collections by clicking Name or Date Added
 
 Nested Collections 
------------------------------------------------------------------------------
+----------------------------------------------------------------
 
-If you wish to create nested collections and you are running Omeka
-version 1.5 or above, you may download and use the [Collection
-Tree](../add-ons/plugins/collection-tree.1.html) plugin.
+If you wish to create nested collections and you are running Omeka version 1.5 or above, you may download and use the [Collection Tree](../1x_documentation/Plugins/collection-tree.1.html) plugin.
 
