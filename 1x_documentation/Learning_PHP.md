@@ -1,6 +1,6 @@
-
-Learning PHP
-============
+---
+title: Learning PHP
+---
 
 PHP is a scripting language primarily used for web development. Omeka is written in PHP, using the [Zend Framework](http://framework.zend.com).
 

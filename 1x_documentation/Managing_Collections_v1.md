@@ -1,35 +1,25 @@
-Managing Collections
-====================
-
-
-Collections may be used in a variety of contexts that make the most
-sense for your archive. It is not necessary to follow a traditional
-interpretation of a collection, say by owner or donor. In Omeka, you can
-also use tags to organize similar items into categories.
-
+---
+title: Managing Collections
+---
+Collections may be used in a variety of contexts that make the most sense for your archive. It is not necessary to follow a traditional interpretation of a collection, say by owner or donor. In Omeka, you can also use tags to organize similar items into categories.
+-
 Screencast Tutorial
--------------------------------------------------------------------------------
+----------------------------------------------------------------
 
-Watch a screencast tutorial on [managing collections and
-tags](../files/movies/CollectionsandTags1.0.mov).
+Watch a screencast tutorial on [managing collections and tags](../1x_Screencasts/CollectionsandTags1.0.mov).
 
 Create a Collection
--------------------------------------------------------------------------------
+----------------------------------------------------------------
 
-1.  Click on the "Collections" tab in the /admin interface top
-    navigation bar. Any collections you create will be listed on the
-    /admin/collections page.
+1.  Click on the "Collections" tab in the /admin interface top navigation bar. Any collections you create will be listed on the other/admin/collections page.
 2.  Click, "Add a Collection."
-3.  Name and describe your collection, or add the name of
-    a donor/collector.
+3.  Name and describe your collection, or add the name of a donor/collector.
 4.  Determine if you want this collection visible to the public.
-5.  You may associate an item with this collection, and all others you
-    create, when adding or editing an item.
-6.  Be sure to click "Save Collection" to save your
-    newly-created collection.
+5.  You may associate an item with this collection, and all others you create, when adding or editing an item.
+6.  Be sure to click "Save Collection" to save your newly-created collection.
 
 Edit a Collection
----------------------------------------------------------------------------
+----------------------------------------------------------------
 
 You may edit collections at any time by going to the Collections tab and
 clicking the edit button found to the right of the named collection.
