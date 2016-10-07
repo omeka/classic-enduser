@@ -3,7 +3,7 @@ Omeka 2.4 was released on January 21, 2016.
 PHP Requirements Changes
 ------------------------
 
--   ‘’’Omeka 2.4 requires PHP 5.3.2 or higher.’’’ Previous versions have worked with the PHP 5.2 series, so be sure to check what version you’re running before you upgrade.
+-   **Omeka 2.4 requires PHP 5.3.2 or higher.** Previous versions have worked with the PHP 5.2 series, so be sure to check what version you’re running before you upgrade.
 -   Omeka 2.4 now supports PHP 7.
 
 Audio and Video Support Changes
