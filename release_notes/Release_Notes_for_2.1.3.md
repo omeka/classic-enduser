@@ -1,10 +1,10 @@
-Release Notes for 2.1.3
-=======================
-
+---
+title: Release Notes for 2.1.3
+---
 
 Omeka 2.1.3 is the third maintenance release in the 2.1 series. It was released on December 4, 2013.
 
-<span id="Bugs_Fixed" class="mw-headline"> Bugs Fixed </span>
+Bugs Fixed  
 -------------------------------------------------------------
 
 -   Sessions table error when upgrading from pre-1.5 versions (*[\#611](https://github.com/omeka/Omeka/issues/611)*)

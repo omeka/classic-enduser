@@ -1,4 +1,4 @@
---
+---
 title: Release Notes for 2.2.2
 ---
 Omeka 2.2.2 is the second maintenance release in the 2.2 series. It was released on July 23, 2014. Users of earlier versions are recommended to upgrade.
