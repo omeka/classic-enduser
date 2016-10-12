@@ -95,8 +95,15 @@ The settings are:
 - *Contribution Collection*: If you want, you can specify a collection to which all new contributed items will be added (note that you must create the collection before you can select it from this dropdown).
 - *Default Contribution Type*: If you select a type, it will automatically load when someone navigates to the public contribution form.
 - If you’re collecting user data with the User Profiles plugin, you must select which profile to make available for your contribution users. See below for more information about creating a user profile.
-   
+
 Remember to save changes. 
+
+#### Versions X and above
+Versions X and higher of Contribution have two additional settings to enable anonymous contribution, which replace the *Use 'Simple' Options* setting.
+
+*Allow non-registered contributions* requires that contributors only provide an email address. Select this option if you have set up the Guest User plugin enabling “instant access.” These contributors will get an email enabling them to make a password if the decide to create an account. (This setting is similar to the old 'Simple' option when it is checked and 'Allow Anonymous Contribution' is not).
+
+*Allow Anonymous contributions* can only be used if the previous checkbox is on. You cannot allow anonymous contributions without allowing non-registered contributions. 
 
 ### Contributions
 This  tab is where you can view all submissions through the public contribution form. From this screen, it is possible to review and make items public or change their status. All contributions through the form will also be available to browse and search on from the Items tab in your Omeka site.
