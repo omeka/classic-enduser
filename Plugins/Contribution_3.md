@@ -38,7 +38,7 @@ The Contribution section has four tabs: Getting Started, Contribution Types, Sub
 The *Getting Started* tab offers instructions for setting up for the form and submission settings.
 
 ### Contribution Types
-The Contribution Types tab has a table with a row for each type. Every row shows:
+The Contribution Types section is where you choose what type of items users can share through this form (still image, audio, video, document/story), and where you ask questions about what users are sharing. The tab has a table with a row for each type. Every row shows:
 -  the type's *name* (the label you give it); 
 - its *type* (corresponding Item Type from your Omeka install);
 - the number of *Contributed Items* (which also acts as link to those items);
@@ -102,7 +102,7 @@ These settings work in conjunction to permit varying levels of anonymity for you
 
 The boxes work together as follows:
 - No boxes checked: site visitors have to create a Guest User and wait for their account to be approved before they can make contributions to the site.
-- "Allow non-registered" checked: visitors can make a contribution without creating a Guest User account but must provide an email address; they then have the option of completing registration by creating a password. They can also create an account as above. [Selecting this option is similar to the old 'Simple' option.]
+- "Allow non-registered" checked: visitors can make a contribution without creating a Guest User account but must provide an email address; they then have the option of completing registration by creating a password. They can also create an account as above.
 - Both "Allow non-registered" and "Allow anonymous": visitors can still create accounts or just provide an email, but they have the option to contribute items completely anonymously, without providing an email address or any other identifying information. 
  
 **Additional Settings**
@@ -115,13 +115,16 @@ The boxes work together as follows:
 
 Remember to save changes. 
 
-### Older versions
+#### Older versions
 If you are running Contribution versions 3.0.3 or lower, the Contributor Anonymity settings will be a single checkbox instead of two:
 
 ![shows the differences between the versions](../doc_files/plugin_images/contribution_compare.png)
 
-*Use 'Simple' Options*: requires that contributors only provide an email address. Select this option if you have set up the Guest User plugin enabling “instant access.” If you would like to collect additional information from users, see below.
 
+
+*Use 'Simple' Options*: requires that contributors only provide an email address. Select this option if you have set up the Guest User plugin enabling “instant access.” 
+
+The Simple Options are equvialent to selecting "Allow non-registered contributions" but not "Allow anonymous contributions" on newer versions of the plugin. 
 
 ### Contributions
 This  tab is where you can view all submissions through the public contribution form. From this screen, it is possible to review and make items public or change their status. All contributions through the form will also be available to browse and search on from the Items tab in your Omeka site.
