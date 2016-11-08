@@ -144,7 +144,9 @@ Adding Contribution link to Site Navigation
     - Go to the site’s Appearance tab at the top of the Dashboard and click on Navigation. You may rename the public link to the Contribution form. The default label is “Contribute an Item.”
 -   Drag and drop the links if you wish to re-order the navigational elements of your site.
 
-Vetting and Managing Contributions ------------------------------------------------------------
+
+Vetting and Managing Contributions
+-----------------------------------------------------------
 
 All new contributions will be not be made public, and by default will be marked as “Needs Review.”
 
