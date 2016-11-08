@@ -118,7 +118,7 @@ Remember to save changes.
 #### Older versions
 If you are running Contribution versions 3.0.3 or lower, the Contributor Anonymity settings will be a single checkbox instead of two:
 
-![shows the differences between the versions](../doc_files/plugin_images/contribution_compare.png)
+![simple options](../doc_files/plugin_images/contribution_simple.png)
 
 
 
