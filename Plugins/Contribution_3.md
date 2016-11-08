@@ -64,11 +64,11 @@ Options are:
      - The *Multiple Rows* checkbox sets whether the entry field on the form has a single row (indicating a short answer) or allows for multiple rows (making it easier for contributors to write paragraphs of text).
 
 To add an element (question) to the contribution form:
-1. Go to the bottom element block, titled "Add Element".
-1. Select an element from the dropdown list (this will be all the Dublin Core fields as well as all Item Type elements.
-1. Type a prompt in the Prompt field.
-1. If you want contributors to be able to enter longer blocks of text, click the *Multiple rows* checkbox. 
-1. Remember to save changes.
+- Go "Add Element".
+- Select an element from the dropdown list (this includes all the Dublin Core fields as well as all Item Type elements.)
+- Type a prompt or question in the Prompt field.
+- If you want contributors to be able to enter longer blocks of text, click the *Multiple rows* checkbox. 
+- Save changes.
 
 You can edit any element's prompt or multiple row setting at any time.
 
@@ -83,7 +83,7 @@ If you want users to select from a drop-down instead of entering text, use [Simp
 If you want users to be able to assign a location to their contributions, use the [Geolocation](/Geolocation_2.0.md) plugin and check the *add map to contribution form* in its configuration settings.
 
 ### Submission Settings
-This setting is where you set the general contribution options for your form, including user  anonymity and the text of emails to be sent to contributors. 
+In this section, you set the contribution options for your form, including an option for user anonymity and type in the text of email confirmations sent to contributors. 
 
 - *Contribution Slug*: customize the end of the url for the contribution form (youromekasite.net/slug). If you leave this blank, the url for the contribution form will be youromekaite.net/contribution
 
@@ -131,11 +131,11 @@ If you are running Contribution versions 3.0.3 or lower, the Contributor Anonymi
 The Simple Options are equvialent to selecting "Allow non-registered contributions" but not "Allow anonymous contributions" on newer versions of the plugin. 
 
 ### Contributions
-This  tab is where you can view all submissions through the public contribution form. From this screen, it is possible to review and make items public or change their status. All contributions through the form will also be available to browse and search on from the Items tab in your Omeka site.
+This  tab is where you manage and view all submissions. From this screen, it is possible to review and make items public or change their status. All contributions through the form will also be visible to browse and search on from the Items tab in your Omeka site.
 
 ## Collecting Information from Contributors (optional)
 
-To ask for additional information about your contributors, you will need to install 2 additional plugins. If you were not collecting contributor information, you do not need to install Record Relations or User Profiles to use Contribution.
+To ask for additional information about your contributors, you will need to install 2 additional plugins. If you do not wish to collect contributor information, you do not need to install Record Relations or User Profiles to use Contribution.
 
 1. Upload and install the [Record Relations plugin](/RecordRelations_2.0.md)
 2. Upload and install the [User Profiles plugin](/UserProfile_2.0.md). Once Record Relations is installed, the User Profiles plugin will become available to install. Follow directions for creating user profiles in that plugin's documentation.
@@ -144,14 +144,14 @@ Adding Contribution link to Site Navigation
 ----------------------------------------------------------
 
 - A link to the contribution form is automatically added to the main site navigation.
-    - Go to the site’s Appearance tab at the top of the Dashboard and click on Navigation. You may rename the public link to the Contribution form. The default label is “Contribute an Item.”
+    - Go to the site’s Appearance tab at the top of the Dashboard and click on Navigation. You may rename the public link to the Contribution form, the default label is “Contribute an Item.”
 -   Drag and drop the links if you wish to re-order the navigational elements of your site.
 
 
 Vetting and Managing Contributions
 -----------------------------------------------------------
 
-All new contributions will be not be made public, and by default will be marked as “Needs Review.”
+All new contributions will be private, and by default will be marked as “Needs Review.”
 
 1. To review, go to the **Contributed Items** tab in the left navigation (once you start collecting, this tab changes name from Contribution to Contributed Items).
 1. Go to the **Contributions** tab and browse contributions.
