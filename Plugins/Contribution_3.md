@@ -85,25 +85,46 @@ If you want users to select from a drop-down instead of entering text, use [Simp
 ### Submission Settings
 This section is for the standard settings for your contribution form and general contribution options. 
 
-The settings are:
-- *Contribution Slug*: customize the url for the contribution form.
+- *Contribution Slug*: customize the end of the url for the contribution form (youromekasite.net/slug). If you leave this blank, the url for the contribution form will be youromekaite.net/contribution
+
+**Email settings**
 - *Contribution Confirmation Email* : An email message will be sent to each contributor from this address confirming that they submitted a contribution to this website. Leave blank if you do not want an email sent.
 - *New Contribution Notification Emails*: Add emails to which you want a notification sent when new contributions are received. You can enter multiple email addresses, separated by a comma.
+
+**Terms of Service**
 - *Terms of service*: paste in text of language of consent for anyone contributing to the site, or make a short statement linking to a [Simple Page](/SimplePages_2.0.md) with a longer terms of service statement. 
- - *Use 'Simple' Options*: requires that contributors only provide an email address. Select this option if you have set up the Guest User plugin enabling “instant access.”
+
+**Contributor anonymity settings**
+These two checkboxes are where you can set whether people must sign up and have an approved account before contributing, can contribute but must provide an email, or can contribute completely anonymously.
+
+![two options, both checked](../doc_files/plugin_images/contribution_anon.png)
+
+- *Allow non-registered contributions* requires that contributors only provide an email address. Select this option if you have set up the Guest User plugin enabling “instant access.” These contributors will get an email enabling them to make a password if the decide to create an account.
+      - This setting is similar to the old 'Simple' option when it is checked and 'Allow Anonymous Contribution' is not.
+- *Allow Anonymous contributions* can only be used if the previous checkbox is on. You cannot allow anonymous contributions without allowing non-registered contributions. 
+
+The boxes work together as follows:
+- No boxes checked: site visitors have to create a Guest User and wait for their account to be approved before they can make contributions to the site.
+- "Allow non-registered" checked: visitors can make a contribution without creating a Guest User account but must provide an email address; they then have the option of completing registration by  creating a password. They can also create an account as above.
+- Both "Allow non-registered" and "Allow anonymous": visitors can still create accounts or just provide an email, but they have the option to contribute items completely anonymously, without providing an email address or any other identifying information. 
+
+
+**Additional Settings**
 - *Email text to send to contributors*: the text of the email sent to contributors when they contribute an item. 
 - *Contribution Collection*: If you want, you can specify a collection to which all new contributed items will be added (note that you must create the collection before you can select it from this dropdown).
 - *Default Contribution Type*: If you select a type, it will automatically load when someone navigates to the public contribution form.
-- If you’re collecting user data with the User Profiles plugin, you must select which profile to make available for your contribution users. See below for more information about creating a user profile.
+
+**If User Profiles is installed**
+- If you’re collecting user data with the [User Profiles](../Plugins/UserProfile_2.0.md) plugin, you must select which profile to make available for your contribution users. See below for more information about creating a user profile.
 
 Remember to save changes. 
 
-#### Versions 3.1.0 and above
-Versions 3.1.0 and higher of Contribution have two additional settings to enable anonymous contribution, which replace the *Use 'Simple' Options* setting.
+#### Older versions
+If you are running Contribution versions 3.0.3 or lower, the Contributor Anonymity settings will be a single checkbox instead of two:
 
-*Allow non-registered contributions* requires that contributors only provide an email address. Select this option if you have set up the Guest User plugin enabling “instant access.” These contributors will get an email enabling them to make a password if the decide to create an account. (This setting is similar to the old 'Simple' option when it is checked and 'Allow Anonymous Contribution' is not).
 
-*Allow Anonymous contributions* can only be used if the previous checkbox is on. You cannot allow anonymous contributions without allowing non-registered contributions. 
+*Use 'Simple' Options*: requires that contributors only provide an email address. Select this option if you have set up the Guest User plugin enabling “instant access.”
+
 
 ### Contributions
 This  tab is where you can view all submissions through the public contribution form. From this screen, it is possible to review and make items public or change their status. All contributions through the form will also be available to browse and search on from the Items tab in your Omeka site.
