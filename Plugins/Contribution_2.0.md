@@ -98,8 +98,8 @@ The settings are:
 
 Remember to save changes. 
 
-#### Versions X and above
-Versions X and higher of Contribution have two additional settings to enable anonymous contribution, which replace the *Use 'Simple' Options* setting.
+#### Versions 3.1.0 and above
+Versions 3.1.0 and higher of Contribution have two additional settings to enable anonymous contribution, which replace the *Use 'Simple' Options* setting.
 
 *Allow non-registered contributions* requires that contributors only provide an email address. Select this option if you have set up the Guest User plugin enabling “instant access.” These contributors will get an email enabling them to make a password if the decide to create an account. (This setting is similar to the old 'Simple' option when it is checked and 'Allow Anonymous Contribution' is not).
 
