@@ -1,7 +1,7 @@
 ---
 title: Contribution 2.0
 ---
-There is a [screencast](https://vimeo.com/165200216) for this plugin
+There is a [screencast](https://vimeo.com/165200216) for this plugin - please note that the screencast is [version 3.0.1](https://github.com/omeka/classic-enduser/blob/master/Plugins/Contribution_3.md#older-versions) and not the most current version of the plugin.
 
 The Contribution plugin provides a way to collect stories, images, and other files from the public and manage those contributions in your Omeka site as items. Contributors may share and upload content anonymously, and their information will only be available to site administrators. All contributions are private by default and require a site administrator to make them public on the Omeka site. The plugin can also automatically add a reCAPTCHA box at the bottom of each form to prevent spam-bots from spamming your website.
 
