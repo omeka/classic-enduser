@@ -79,7 +79,7 @@ In the above image, the upper block has marked for deletion - note that the head
 If you want users to select from a drop-down instead of entering text, use [Simple Vocab](/SimpleVocab_2.0.md) to set up a controlled vocabulary for the element which will be applied on the admin side when adding/editing an item and in contribution forms. If you want users to be able to assign a location to their contributions, use the [Geolocation](/Geolocation_2.0.md) plugin and check the *add map to contribution form* in its configuration settings.
 
 ### Submission Settings
-This section is for the standard settings for your contribution form and general contribution options. 
+This setting is where you set the general contribution options for your form, including user  anonymity and the text of emails to be sent to contributors. 
 
 - *Contribution Slug*: customize the end of the url for the contribution form (youromekasite.net/slug). If you leave this blank, the url for the contribution form will be youromekaite.net/contribution
 
