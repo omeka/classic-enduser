@@ -1,11 +1,12 @@
 ---
 title: Contribution 3.x
 ---
-The Contribution plugin provides a form to collect stories, images, and other files from the public and manage those contributions in your Omeka site as items. Contributors may share and upload content anonymously, and their information will only be available to site administrators. All contributions are private by default and require a site administrator to review and make them public on the Omeka site. The plugin can also automatically add a reCAPTCHA box at the bottom of each form to prevent spam-bots from spamming your website.
+The Contribution plugin provides a form to collect stories, images, and other files from the public and manage those contributions in your Omeka site as items. Contributors may share and upload content anonymously, and their information will only be available to site administrators. All contributions are private by default and require a site administrator to review and make them public on the Omeka site. The plugin can also automatically add a reCAPTCHA box at the bottom of each form to prevent spam-bots from spamming your website. Contribution also offers options for users to create guest accounts that make it easier for one user to submit multiple items. 
 
-Contribution also offers options for users to create guest accounts that make it easier for one user to submit multiple items. 
+Other plugins can be integrated into the Contribution form, such as [Simple Vocab](/SimpleVocab_2.0.md) for creating dropdown menu choices, and [Geolocation](/Geolocation_2.0.md) for inviting users to map their submissions or locations. 
 
-Installing and configuring the Contribution plugin requires a few steps. Watching the [screencast](https://vimeo.com/165200216) we created for using and configuring this addon can be helpful as you think through each step.  - please note that the screencast is [version 3.0.1](https://github.com/omeka/classic-enduser/blob/master/Plugins/Contribution_3.md#older-versions) and not the most current version of the plugin.
+Installing and configuring the Contribution plugin requires a few steps. Please read through the documentation carefully. 
+Watching the [screencast](https://vimeo.com/165200216) we created for using and configuring this addon can be helpful as you think through each step.  - please note that the screencast is [version 3.0.1](https://github.com/omeka/classic-enduser/blob/master/Plugins/Contribution_3.md#older-versions) and not the most current version of the plugin.
 
 An Omeka site with the Contribution plugin requires you to upload and install two separate plugins:
 -   [Guest User](/GuestUser_2.0.md) (required)
@@ -40,7 +41,7 @@ The *Getting Started* tab offers instructions for setting up for the form and su
 
 ### Contribution Types
 The Contribution Types section is where you choose what type of items users can share through this form (still image, audio, video, document/story), and where you ask questions about what users are sharing. The tab has a table with a row for each type. Every row shows:
--  the type's *name* (the label you give it); 
+- the type's *name* (the label you give it); 
 - its *type* (corresponding Item Type from your Omeka install);
 - the number of *Contributed Items* (which also acts as link to those items);
 - whether *File Upload* is allowed, disallowed, or required; and
@@ -58,13 +59,13 @@ Options are:
 - *Display Name* is the label for the contribution type - how it will appear on the public side. If left blank, the form will use the Item Type name.
 - *Allow File Upload Via Form*: you can choose to allow, require, or disallow. If this is set to "required," users will not be able to submit the contribution form without attaching a file. 
 - *Elements*: each element appears as a block. 
-     - The block is labeled with the Dublin Core element,
-     - *Prompt* is like display name, in that it changes the label of the element on the form. 
+     - The block is labeled with the Dublin Core field name
+     - *Prompt* is what appears on the form. Use this field to ask question or describe what you seek from users, ie, "Share your story" or "When did you take this photograph?"  
      - The *Multiple Rows* checkbox sets whether the entry field on the form has a single row (indicating a short answer) or allows for multiple rows (making it easier for contributors to write paragraphs of text).
 
 To add an element (question) to the contribution form:
 1. Go to the bottom element block, titled "Add Element".
-1. Select an element from the dropdown list (this will be all the Dublin Core elements as well as all Item Type elements.
+1. Select an element from the dropdown list (this will be all the Dublin Core fields as well as all Item Type elements.
 1. Type a prompt in the Prompt field.
 1. If you want contributors to be able to enter longer blocks of text, click the *Multiple rows* checkbox. 
 1. Remember to save changes.
@@ -77,7 +78,9 @@ To delete an element, click the X button in the right corner of the block and sa
 
 In the above image, the upper block has marked for deletion - note that the header for the block is highlighted in red. The lower block is the add element block option with the dropdown open.
 
-If you want users to select from a drop-down instead of entering text, use [Simple Vocab](/SimpleVocab_2.0.md) to set up a controlled vocabulary for the element which will be applied on the admin side when adding/editing an item and in contribution forms. If you want users to be able to assign a location to their contributions, use the [Geolocation](/Geolocation_2.0.md) plugin and check the *add map to contribution form* in its configuration settings.
+If you want users to select from a drop-down instead of entering text, use [Simple Vocab](/SimpleVocab_2.0.md) to set up a controlled vocabulary for the element which will be applied on the admin side when adding/editing an item and in contribution forms. 
+
+If you want users to be able to assign a location to their contributions, use the [Geolocation](/Geolocation_2.0.md) plugin and check the *add map to contribution form* in its configuration settings.
 
 ### Submission Settings
 This setting is where you set the general contribution options for your form, including user  anonymity and the text of emails to be sent to contributors. 
