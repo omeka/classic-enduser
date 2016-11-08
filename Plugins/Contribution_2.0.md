@@ -76,7 +76,7 @@ You can edit any element's prompt or multiple row setting at any time.
 
 To delete an element, click the X button in the right corner of the block and save changes. If you accidentally click the delete button, you can click again (the X changes to an undo arrow) to restore the block.
 
-![two blocks](../doc_files/plugin_images/contribution_addel.png)
+![two blocks](../doc_files/plugin_images/contribution_addEl.png)
 
 In the above image, the upper block has marked for deletion - note that the header for the block is highlighted in red. The lower block is the add element block option with the dropdown open.
 
