@@ -122,6 +122,7 @@ Remember to save changes.
 #### Older versions
 If you are running Contribution versions 3.0.3 or lower, the Contributor Anonymity settings will be a single checkbox instead of two:
 
+![shows the differences between the versions](../doc_files/plugin_images/contribution_compare.png)
 
 *Use 'Simple' Options*: requires that contributors only provide an email address. Select this option if you have set up the Guest User plugin enabling “instant access.”
 
