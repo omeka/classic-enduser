@@ -85,7 +85,7 @@ If you want users to be able to assign a location to their contributions, use th
 ### Submission Settings
 In this section, you set the contribution options for your form, including an option for user anonymity and type in the text of email confirmations sent to contributors. 
 
-- *Contribution Slug*: customize the end of the url for the contribution form (youromekasite.net/slug). If you leave this blank, the url for the contribution form will be youromekaite.net/contribution
+- *Contribution Slug*: customize the end of the url for the contribution form (youromekasite.net/slug). If you leave this blank, the url for the contribution form will be youromekasite.net/contribution
 
 **Email settings**
 - *Contribution Confirmation Email* : An email message will be sent to each contributor from this address confirming that they submitted a contribution to this website. Leave blank if you do not want an email sent.
