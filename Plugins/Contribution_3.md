@@ -1,16 +1,17 @@
 ---
-title: Contribution 2.0
+title: Contribution 3.x
 ---
-There is a [screencast](https://vimeo.com/165200216) for this plugin - please note that the screencast is [version 3.0.1](https://github.com/omeka/classic-enduser/blob/master/Plugins/Contribution_3.md#older-versions) and not the most current version of the plugin.
+The Contribution plugin provides a form to collect stories, images, and other files from the public and manage those contributions in your Omeka site as items. Contributors may share and upload content anonymously, and their information will only be available to site administrators. All contributions are private by default and require a site administrator to review and make them public on the Omeka site. The plugin can also automatically add a reCAPTCHA box at the bottom of each form to prevent spam-bots from spamming your website.
 
-The Contribution plugin provides a way to collect stories, images, and other files from the public and manage those contributions in your Omeka site as items. Contributors may share and upload content anonymously, and their information will only be available to site administrators. All contributions are private by default and require a site administrator to make them public on the Omeka site. The plugin can also automatically add a reCAPTCHA box at the bottom of each form to prevent spam-bots from spamming your website.
+Contribution also offers options for users to create guest accounts that make it easier for one user to submit multiple items. 
 
-Contribution offers the option to create guest user accounts, enabling multiple contributions from the same user. If this option is selected, Administrators can collect specific information about those users with the User Profiles plugin.
+Installing and configuring the Contribution plugin requires a few steps. Watching the [screencast](https://vimeo.com/165200216) we created for using and configuring this addon can be helpful as you think through each step.  - please note that the screencast is [version 3.0.1](https://github.com/omeka/classic-enduser/blob/master/Plugins/Contribution_3.md#older-versions) and not the most current version of the plugin.
 
-An Omeka site with the Contribution plugin requires you to upload and install two separate plugins. There are two additional plugins you will need to install if you want to collect any user information:
-
+An Omeka site with the Contribution plugin requires you to upload and install two separate plugins:
 -   [Guest User](/GuestUser_2.0.md) (required)
 -   Contribution (required)
+
+If you want to collect any information from your contributors, install these two additional plugins:
 -   [Record Relations](/RecordRelations_2.0.md) (optional, only required for collecting user information)
 -   [User Profiles](/UserProfile_2.0.md) (optional, only required for collecting user information)
 
