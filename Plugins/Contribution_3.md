@@ -3,17 +3,14 @@ title: Contribution 2.0
 ---
 There is a [screencast](https://vimeo.com/165200216) for this plugin
 
-The Contribution plugin provides a way to collect stories, images, and other files from the public and manage those contributions in your Omeka site as items. Contributors may share and upload content anonymously, and their information will only be available site administrators. The form can also automatically add a reCAPTCHA box at the bottom of each form to prevent spam-bots from spamming your website.
+The Contribution plugin provides a way to collect stories, images, and other files from the public and manage those contributions in your Omeka site as items. Contributors may share and upload content anonymously, and their information will only be available to site administrators. All contributions are private by default and require a site administrator to make them public on the Omeka site. The plugin can also automatically add a reCAPTCHA box at the bottom of each form to prevent spam-bots from spamming your website.
 
-All contributions are private by default and require a site
-administrator to make them public on the Omeka site.
+Contribution offers the option to create guest user accounts, enabling multiple contributions from the same user. If this option is selected, Administrators can collect specific information about those users with the User Profiles plugin.
 
-Contribution offers site administrators the ability to let contributors create guest user accounts to better enable multiple contributions from the same user. Administrators can collect specific information about those users with the User Profiles plugin.
+An Omeka site with the Contribution plugin requires you to upload and install two separate plugins. There are two additional plugins you will need to install if you want to collect any user information:
 
-An Omeka site with the Contribution plugin now requires you to upload and install two separate plugins. There are two additional plugins you will need to install if you want to collect any user information:
-
--   [Guest User](/GuestUser_2.0.md)
--   Contribution
+-   [Guest User](/GuestUser_2.0.md) (required)
+-   Contribution (required)
 -   [Record Relations](/RecordRelations_2.0.md) (optional, only required for collecting user information)
 -   [User Profiles](/UserProfile_2.0.md) (optional, only required for collecting user information)
 
@@ -27,8 +24,7 @@ After installing the plugin, click the Configure button. For more information go
 
 ### Installing
 1. Upload and install the Contribution plugin in the plugin directory.
-2. Contribution settings: A new tab will appear in the left side
-navigation bar labeled, “Contribution.” Click on Contribution to configure the form and submission settings.
+2. Contribution settings: A new tab will appear in the left side navigation bar labeled, “Contribution.” Click on Contribution to configure the form and submission settings.
     - Note: a link to the contribution form will automatically be added to the site’s navigation. If you wish you draft the form first, go to the site’s Appearance tab at the top of the Dashboard and click on Navigation. Uncheck the “Contribute an Item” link. At this point you can edit the label, or do that later.
 
 ## Setting up Contribution
@@ -58,7 +54,7 @@ On the Add/Edit screen for Contribution Types, there are fields for the display 
 ![Contribution type Story edit page](../doc_files/plugin_images/contribution_story.png)
 
 Options are:
-- *Display Name* is the label for the contribution type - how it will appear on the public side. If left blank, the form will just use the Item Type name.
+- *Display Name* is the label for the contribution type - how it will appear on the public side. If left blank, the form will use the Item Type name.
 - *Allow File Upload Via Form*: you can choose to allow, require, or disallow. If this is set to "required," users will not be able to submit the contribution form without attaching a file. 
 - *Elements*: each element appears as a block. 
      - The block is labeled with the Dublin Core element,
@@ -95,20 +91,20 @@ This section is for the standard settings for your contribution form and general
 - *Terms of service*: paste in text of language of consent for anyone contributing to the site, or make a short statement linking to a [Simple Page](/SimplePages_2.0.md) with a longer terms of service statement. 
 
 **Contributor anonymity settings**
-These two checkboxes are where you can set whether people must sign up and have an approved account before contributing, can contribute but must provide an email, or can contribute completely anonymously.
+Two checkboxes allow an Administrator to set the user requirements for submitting contributions. 
+
+These settings work in conjunction to permit varying levels of anonymity for your contributors. For instance, you may require users to sign up and have an approved account before contributing, require them to provide an email before contributing, or permit completely anonymous contributions.
 
 ![two options, both checked](../doc_files/plugin_images/contribution_anon.png)
 
-- *Allow non-registered contributions* requires that contributors only provide an email address. Select this option if you have set up the Guest User plugin enabling “instant access.” These contributors will get an email enabling them to make a password if the decide to create an account.
-      - This setting is similar to the old 'Simple' option when it is checked and 'Allow Anonymous Contribution' is not.
-- *Allow Anonymous contributions* can only be used if the previous checkbox is on. You cannot allow anonymous contributions without allowing non-registered contributions. 
+- *Allow non-registered contributions* requires that contributors only provide an email address. Select this option if you have set up the Guest User plugin enabling “instant access.” These contributors will get an email that allows them the option of creating a password for their user account. 
+- *Allow Anonymous contributions* can only be used if *Allow non-registered contributions* is checked. You cannot allow anonymous contributions without allowing non-registered contributions. 
 
 The boxes work together as follows:
 - No boxes checked: site visitors have to create a Guest User and wait for their account to be approved before they can make contributions to the site.
-- "Allow non-registered" checked: visitors can make a contribution without creating a Guest User account but must provide an email address; they then have the option of completing registration by  creating a password. They can also create an account as above.
+- "Allow non-registered" checked: visitors can make a contribution without creating a Guest User account but must provide an email address; they then have the option of completing registration by creating a password. They can also create an account as above. [Selecting this option is similar to the old 'Simple' option.]
 - Both "Allow non-registered" and "Allow anonymous": visitors can still create accounts or just provide an email, but they have the option to contribute items completely anonymously, without providing an email address or any other identifying information. 
-
-
+ 
 **Additional Settings**
 - *Email text to send to contributors*: the text of the email sent to contributors when they contribute an item. 
 - *Contribution Collection*: If you want, you can specify a collection to which all new contributed items will be added (note that you must create the collection before you can select it from this dropdown).
@@ -124,7 +120,7 @@ If you are running Contribution versions 3.0.3 or lower, the Contributor Anonymi
 
 ![shows the differences between the versions](../doc_files/plugin_images/contribution_compare.png)
 
-*Use 'Simple' Options*: requires that contributors only provide an email address. Select this option if you have set up the Guest User plugin enabling “instant access.”
+*Use 'Simple' Options*: requires that contributors only provide an email address. Select this option if you have set up the Guest User plugin enabling “instant access.” If you would like to collect additional information from users, see below.
 
 
 ### Contributions
