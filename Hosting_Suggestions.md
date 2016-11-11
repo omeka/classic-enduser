@@ -21,7 +21,8 @@ Others follow in alphabetical order:
 -   Reclaim Hosting: <http://reclaimhosting.com>Free web hosting for academics with a one-click Omeka installer.
 -   RexaHost: [http://hexahost.com](http://hexahost.com/omeka-web-hosting/) offers installation of Omeka through Softaculous.
 -   Softaculous AMPPS <http://www.ampps.com/>
--   Webfaction: <http://webfaction.com/>
+-   TMD Hosting <https://www.tmdhosting.com>
+-   Webfaction <http://webfaction.com/>
 -   Webuzo <http://webuzo.com/apps/educational/Omeka> has a virtual appliance to run Omeka.
 
 Users have reported difficulty with the following shared web hosts:

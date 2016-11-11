@@ -5,8 +5,6 @@ Plugins for Omeka version 1.5+ -------------------------------------------------
 Below are documentation pages for individual plugins. Visit the
 plugins page to download specific plugins.
 
-Need [Plugins2.0](Plugins2.0.md) for Omeka 2.0?
-
 -   [Atom Output](Plugins/AtomOutput.md)
 -   [Barcode & Reports](Plugins/Reports.md "Plugins/Reports")
 -   [Coins](Plugins/Coins.md "Plugins/Coins")
