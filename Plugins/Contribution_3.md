@@ -24,7 +24,7 @@ Installing
 ### Guest User Configuration
 After installing the plugin, click the Configure button. For more information go to the [Guest User documentation](GuestUser_2.0.md).
 
-### Installing
+### Installing Contribution
 1. Upload and install the Contribution plugin in the plugin directory.
 2. Contribution settings: A new tab will appear in the left side navigation bar labeled, “Contribution.” Click on Contribution to configure the form and submission settings.
     - Note: a link to the contribution form will automatically be added to the site’s navigation. If you wish you draft the form first, go to the site’s Appearance tab at the top of the Dashboard and click on Navigation. Uncheck the “Contribute an Item” link. At this point you can edit the label, or do that later.
@@ -83,7 +83,7 @@ If you want users to select from a drop-down instead of entering text, use [Simp
 If you want users to be able to assign a location to their contributions, use the [Geolocation](/Geolocation_2.0.md) plugin and check the *add map to contribution form* in its configuration settings.
 
 ### Submission Settings
-In this section, you set the contribution options for your form, including an option for user anonymity and type in the text of email confirmations sent to contributors. 
+In this section, you set the contribution options for your form, including an option for user anonymity, and provide the text for the email confirmations sent to contributors. 
 
 - *Contribution Slug*: customize the end of the url for the contribution form (youromekasite.net/slug). If you leave this blank, the url for the contribution form will be youromekasite.net/contribution
 
@@ -97,12 +97,12 @@ In this section, you set the contribution options for your form, including an op
 **Contributor anonymity settings**
 Two checkboxes allow an Administrator to set the user requirements for submitting contributions. 
 
-These settings work in conjunction to permit varying levels of anonymity for your contributors. For instance, you may require users to sign up and have an approved account before contributing, require them to provide an email before contributing, or permit completely anonymous contributions.
+These settings work together to permit varying levels of anonymity for your contributors. For instance, you may require users to sign up and have an approved account before contributing, or you may require them to provide an email before contributing, or you may permit completely anonymous contributions.
 
 ![two options, both checked](../doc_files/plugin_images/contribution_anon.png)
 
 - *Allow non-registered contributions* requires that contributors only provide an email address. Select this option if you have set up the Guest User plugin enabling “instant access.” These contributors will get an email that allows them the option of creating a password for their user account. 
-- *Allow Anonymous contributions* can only be used if *Allow non-registered contributions* is checked. You cannot allow anonymous contributions without allowing non-registered contributions. 
+- *Allow Anonymous contributions* makes it possible for users to make contributions without providing any personal data (no email address). This option can only be used if *Allow non-registered contributions* is checked. You cannot allow anonymous contributions without allowing non-registered contributions. 
 
 The boxes work together as follows:
 - No boxes checked: site visitors have to create a Guest User and wait for their account to be approved before they can make contributions to the site.
@@ -120,7 +120,7 @@ The boxes work together as follows:
 Remember to save changes. 
 
 #### Older versions
-If you are running Contribution versions 3.0.3 or lower, the Contributor Anonymity settings will be a single checkbox instead of two:
+If you are running Contribution versions 3.0.3 or lower, the required Contributor user data settings will be a single checkbox instead of two:
 
 ![simple options](../doc_files/plugin_images/contribution_simple.png)
 
