@@ -101,8 +101,8 @@ These settings work together to permit varying levels of anonymity for your cont
 
 ![two options, both checked](../doc_files/plugin_images/contribution_anon.png)
 
-- *Allow non-registered contributions* requires that contributors only provide an email address. Select this option if you have set up the Guest User plugin enabling “instant access.” These contributors will get an email that allows them the option of creating a password for their user account. 
-- *Allow Anonymous contributions* makes it possible for users to make contributions without providing any personal data (no email address). This option can only be used if *Allow non-registered contributions* is checked. You cannot allow anonymous contributions without allowing non-registered contributions. 
+- *Allow Non-Registered Contributions* requires that contributors only provide an email address. Select this option if you have set up the Guest User plugin enabling “instant access.” These contributors will get an email that allows them the option of creating a password for their user account. 
+- *Allow Anonymous Contributions* makes it possible for users to make contributions without providing any personal data (no email address). This option can only be used if *Allow non-registered contributions* is checked. You cannot allow anonymous contributions without allowing non-registered contributions. 
 
 The boxes work together as follows:
 - No boxes checked: site visitors have to create a Guest User and wait for their account to be approved before they can make contributions to the site.
