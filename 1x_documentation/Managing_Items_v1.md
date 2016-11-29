@@ -1,6 +1,7 @@
 ---
 title: Managing Items
 ---
+The following documentation is for Omeka **versions 1.0-1.5+**.
 
 Items are the Archive
 ----------------------------------------------------------------
