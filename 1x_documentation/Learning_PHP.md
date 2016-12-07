@@ -14,7 +14,3 @@ Web Tutorials
 ----------------------------------------------------------------
 -   [PHP 101: PHP For the Absolute Beginner](https://devzone.zend.com/6/php-101-php-for-the-absolute-beginner/)
 -   [W3Schoools](http://www.w3schools.com/php/default.asp)
-
-Books
----------------------------------------------------
-There are plenty of books about PHP. A few suggestions:

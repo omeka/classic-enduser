@@ -8,12 +8,10 @@ title: Escaping Data
 
 The Gist 
 ---------------------------------------------------------
-
 Data that comes from the user is untrustworthy. "User data" includes both data retrieved from the database as well as input from any given user request (e.g. from the URL, form submissions, etc.). The way to avoid problems from untrustworthy data is twofold: validating data prior to storing in the database, and escaping data properly before display. Omeka takes care of validating data that will go into the database (though not automatically for plugins -- that is responsibility of plugin writers), but ensuring the security of displayed data is, unfortunately, the responsibility of the theme writer. Failing to do this won't always leave your Omeka site open to attack, but under certain circumstances it will. The only way to prevent problems for certain is to make sure that data is escaped properly before display.
 
 What could possibly go wrong?
------------------------------------------------------------------
-
+---------------------------------------------------------------
 Just for example, suppose you have a theme that displays the search query for which results are being displayed, and the code currently looks like this:
 
 
