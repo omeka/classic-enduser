@@ -10,7 +10,7 @@ Below are listed the languages in which Omeka is available, along with the two o
 ### Omeka 2.4
 A translation is considered "Complete" at 100%. Languages listed as "Nearly Complete" are between 90 and 99% translated. Languages listed as "Started" are less then 25% complete.
 
-The statuses listed in the table are for the core Omeka code; coverage varies for plugins. To help translate Omeka, sign up for an account at [Transifex](https://www.transifex.com) and join our project (an account is required to view progress or contribute).
+The statuses listed in the table are for the core Omeka code; coverage varies for plugins. To help [translate Omeka](../Translate_Omeka.md), sign up for an account at [Transifex](https://www.transifex.com) and join our project (an account is required to view progress or contribute).
 
 Language | Code | Status
 ---|---|---
@@ -26,7 +26,7 @@ Chinese (Taiwan)| `zn_TW` |Nearly Complete
 Croatian | `hr` | Nearly Complete
 Czech | `cs` | Nearly Complete
 Danish (Denmark) | `da_DK` | Partial
-Dutch (Belgium) | `nl_BE` | Nearly Complet00e
+Dutch (Belgium) | `nl_BE` | Nearly Complete
 Dutch (Netherlands) | `nl_NL` | Nearly Complete
 Estonian | `et` | Nearly Complete
 Finnish (Finland) | `fi_FI` | Nearly Complete
@@ -46,9 +46,9 @@ Latvian (Latvia) | `lv_LV` | Partial
 Lithuanian | `lt` | Partial
 Macedonian (Macedonia) | `mk_MK` | Partial
 Malay (Malaysia) | `ms_MY` | Started
-Mongolian | `mn` | Partial
+Mongolian | `mn` | Complete
 Norwegian Bokmal | `nb` | Nearly Complete
-Occitan (post 1550) | `oc` | Complete
+Occitan (post 1500) | `oc` | Complete
 Polish | `pl` | Nearly Complete
 Portuguese (Brazil) | `pt_BR` | Complete
 Portuguese (Portugal) | `pt_PT` | Complete
