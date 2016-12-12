@@ -24,7 +24,7 @@ moderate, add, and view comments. Each function allows you to choose one or more
 
 **Akismet API key**: If you are allowing public, unmoderated commenting, we recommend you obtain an [Akismet](http://akismet.com/) API key for spam management. You may use a key you are currently implementing on a blog or another site that collects public feedback, provided that that key is not site-specific in the key settings on the Akismet site.
 
-![Configuration settings](../doc_files/plugin_images/filename/commenting_config.png)
+![Configuration settings](../doc_files/plugin_images/commenting_config.png)
 
 Moderating Comments
 ------------------------------------------------------
@@ -51,9 +51,9 @@ User Flagging
 
 Public users may flag any comments they feel are inappropriate or may be spam. To do that, users should click the 'Flag Inappropriate" link for the comment in question:
 
-![A spam comment](../doc_files/plugin_images/filename/PublicSpam.png)
+![A spam comment](../doc_files/plugin_images/PublicSpam.png)
 
-![Flagged comment](../doc_files/plugin_images/filename/PublicFlag.png)
+![Flagged comment](../doc_files/plugin_images/PublicFlag.png)
 
 That comment will be flagged as potential spam and/or inappropriate. It will only be visible to users with permission to manage comments. From the public interface, users with permission to manage comments can simply unflag the comment if it is not acceptable. If further action is needed, those users can go to the admin interface to unapprove or delete the comment if it is indeed inappropriate, report it as spam, or unflag
 it if it not spam or inappropriate.
