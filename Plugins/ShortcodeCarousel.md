@@ -1,6 +1,7 @@
 ---
 title: Shortcodes Carousel
 ---
+*Current version: 1.0.1*
 
 The plugin adds a [shortcode](../Shortcodes.md) to create a carousel of items using [jCarousel](http://sorgalla.com/jcarousel/)
 

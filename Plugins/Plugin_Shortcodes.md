@@ -57,7 +57,7 @@ General Options:
 - `num`
 
 ### Geolocation
-The geolocation shortcode will create a map of items based on parameters it is given.
+The [geolocation](../Plugins/Geolocation.md) shortcode will create a map of items based on parameters it is given.
 
 The shortcode is `[geolocation]`. Without any additional parameters, it will return a map of all items that contain geolocation data, limited by the records per page as set in the Geolocation plugin configuration.
 
@@ -117,7 +117,7 @@ A shortcode that leveraged all of the possible parameters would look like
 
 ### Shortcodes Carousel
 
-Requires the [Shortcodes Carousel plugin](URL NEEDED).
+Requires the [Shortcodes Carousel plugin](../Plugins/ShortcodeCarousel.md).
 
 The plugin adds a shortcode to create a carousel of items using
 [jCarousel](http://sorgalla.com/jcarousel/)

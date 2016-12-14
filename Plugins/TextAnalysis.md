@@ -1,7 +1,7 @@
 ---
 title: Text Analysis
 ---
-*version 1.1*
+*Current version 1.1*
 
 The Text Analysis plugin connects your Omeka Classic site with [AlchemyAPI](http://www.alchemyapi.com/) to enable text analysis on individual items. 
 

@@ -1,6 +1,8 @@
 ---
 title: Omeka API Import
 ---
+*Current version: 1.1.1*
+
 The Omeka API Import plugin allows users to import item data and users from an existing Omeka installation (origin) via an API into the user’s Omeka installation (target). 
 
 Multiple imports from the same origin site will update the data, not create new items.
@@ -13,7 +15,7 @@ The origin Omeka installation does not need to have the Omeka API Import plugin 
 
 Installation 
 ---------------------------------------------------------------
-You can download the latest version of Omeka API Import from the Omeka Plugin Directory. To add the plugin to your Omeka site, follow the installation instructions on the [Managing Plugins](../Managing_Plugins_2.md "Managing Plugins") page.
+You can download the latest version of Omeka API Import from the Omeka Plugin Directory. To add the plugin to your Omeka site, follow the installation instructions on the [Managing Plugins](../Managing_Plugins.md "Managing Plugins") page.
 
 Importing 
 -----------------------------------------------------------
@@ -63,6 +65,6 @@ Collection Tree (on the target site) and Omeka API Import create a conflict that
 Compatible Plugins
 -------------------------------------------------------
 
-If **Geolocation** (v2.2.1 or higher) or **ExhibitBuilder** (v3.1.1 or higher) plugins are installed and active on both sites, data from those plugins will be imported.
+If [Geolocation](../Plugins/Geolocation.md) (v2.2.1 or higher) or [ExhibitBuilder](../Plugins/ExhibitBuilder.md) (v3.1.1 or higher) plugins are installed and active on both sites, data from those plugins will be imported.
 
 Deactivate the plugin on either site to prevent the data from being imported.

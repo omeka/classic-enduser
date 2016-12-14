@@ -1,6 +1,7 @@
 ---
 title: PDF Text
 ---
+*Current version: 1.0.1*
 
 PdfText enables searching on PDF files by extracting their texts and saving them to their file records. PdfText strips out images and layout in the original file, leaving only searchable text which is viewable from site admin.
 

@@ -1,21 +1,21 @@
 ---
 title: Editorial
 ---
-The Editorial Plugin adds a block to [Exhibit Builder](/ExhibitBuilder_3.0.md) pages which allows users to add comments on and discuss in-progress exhibits. These comments are only visible to logged-in users of the site.
+The Editorial Plugin adds a block to [Exhibit Builder](../Plugins/ExhibitBuilder.md) pages which allows users to add comments on and discuss in-progress exhibits. These comments are only visible to logged-in users of the site.
 
 You must be using Exhibit Builder version 3.3.3 (not yet released, but is included in the master branch on GitHub) or higher for Editorial to work.
 
 Editorial User Role
 -----------------------
-The plugin creates a new [role](../User_Roles.md), Exhibit-contributor, which largely functions like the Contributor role but can also edit Exhibits when added in the Editorial blocks (see below for more information)
+The plugin creates a new [role](../Plugins/User_Roles.md), Exhibit-contributor, which largely functions like the Contributor role but can also edit Exhibits when added in the Editorial blocks (see below for more information)
 
-An Exhibit-contributor can view, edit, add, and delete content in any exhibit to which they are added. This includes adding new exhibits, creating new pages, adding blocks to pages, and adding items to exisiting pages. Note: they will have access to all items in your Omeka collection.
+An Exhibit-contributor can view, edit, add, and delete content in any exhibit to which they are added. This includes adding new exhibits, creating new pages, adding blocks to pages, and adding items to existing pages. Note: they will have access to all items in your Omeka collection.
 
 Users with the Exhibit-contributor role cannot view the backend of exhibits to which they have not been added. They are also prohibited from editing items. 
 
 Using Editorial Blocks
 -------------------------
-Once you have [installed](../Managing_Plugins_2.md#installing-a-plugin) and activated the Editorial plugin, it is ready to use.
+Once you have [installed](../Managing_Plugins.md#installing-a-plugin) and activated the Editorial plugin, it is ready to use.
 
 From the Exhibits tab on the left-hand navigation of your admin dashboard, click *Edit* on the Exhibit for which you want to create an editorial block. Select the page on which you want to leave a comment or start a discussion. 
 
@@ -34,7 +34,7 @@ The block will have your username and a text field for comments, which can be fo
 ![Editorial block with a gravatar above the username](../doc_files/plugin_images/editorial_block.png)
 
 Once you have made your comment, you can either Save Changes to save it, or configure the following options before saving: 
-- *Send Email Notifications*: If checked, the plugin will send an email every time someone comments on this editorial block to receipients you select.
+- *Send Email Notifications*: If checked, the plugin will send an email every time someone comments on this editorial block to recipients you select.
 - *Selected Recipients*: select recipients to be emailed about changes to the block. This will initially only have your username. As you grant access to users, their name will also appear in this select box. Use the command key while clicking to select more than one user. 
 - *Additional Email Text*: this optional field allows you to add instructions or other text to the email. 
 - *Grant Access To*: set which users on the Omeka site can see and comment on this Editorial block. SuperUsers will always be able to see Editorial blocks. Other users must be added. 
