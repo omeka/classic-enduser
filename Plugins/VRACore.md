@@ -1,6 +1,8 @@
 ---
 title: VRA Core
 ---
+*Current version: 1.2*
+
 The VRA Core plugin for Omeka adds elements from the [VRA Core Metadata standard](http://core.vraweb.org/index.html) to your Omeka site, which can be used to describe items and collections on your site. It does not replace the Dublin Core metadata elements in your Omeka classic site.
 
 Configuration

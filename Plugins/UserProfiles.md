@@ -37,7 +37,7 @@ The profile type form has two required fields:
 
 If you are only creating one profile, these can be brief but if you plan to create multiple profiles you may want to make the labels distinct and the descriptions more robust. 
 
-![Add new profile page, completely blank](../doc_files/plugin_images/userprofiles_userprofiles_newtype.png)
+![Add new profile page, completely blank](../doc_files/plugin_images/userprofiles_newtype.png)
 
 Profiles need at least one element. 
 

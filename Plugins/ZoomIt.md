@@ -1,6 +1,7 @@
 ---
-title: ZoomIt 2.0
+title: ZoomIt
 ---
+*Current version: 2.0*
 
 The ZoomIt allows you to embed an image viewer on the public and administrative items/show pagesallowing your users zoom in and around images.The plugin relies on an beta service from Microsoft, [Zoom.It](http://zoom.it/).
 
@@ -13,6 +14,7 @@ JPG, PNG, TIFF, GIF, BMP, SVG.
 Configuration
 ----------------------------------------------------------
 The configuration page has the following options, in two sections, one for the Admin side and one for the Public side.
+
 **Admin Theme settings**
 - *Embed viewer in admin item show pages*: check this box to show the viewer on admin item/show pages.
 - Set the admin viewer *width* and *height* in pixels.

@@ -1,6 +1,7 @@
 ---
-title: Zotero Import 2.0
+title: Zotero Import
 ---
+*Current version: 2.0.2*
 With this plugin you can move your Zotero research into Omeka, making it possible to further organize and exhibit your Zotero library. Just sync your library to the Zotero server, tell the Zotero Import plugin what library you want to import, and it'll pull in source items, notes, files, and web snapshots.
 
 Features
@@ -13,7 +14,7 @@ In addition to mapping data to the Zotero element set, the plugin maps data to t
 
 The plugin also adds a field to the advanced search page that narrows search results by Zotero item type. Every Zotero item has an item type, so it's a helpful way to sort through your items.
 
-Requirements</span>
+Requirements
 ---------------------------------------------------------------
 
 -   **Sync Zotero library**: The Zotero library must be synced to the Zotero.org server prior to import. To import files, the Zotero client must be set to sync attachment files. You can find     instructions on how to do this at the [Zotero website](http://www.zotero.org/support/sync). 
@@ -39,7 +40,7 @@ Installation and Importing
 ---------------------------------------------------------------
 If you want to import all file types, *you must disable file upload validation* in Omeka Admin &gt; Settings &gt; Security Settings before import.
 
-Once you've [installed](../Managing_Plugins_2.md#installing-a-plugin) the plugin, go to the "Zotero Import" tab in the admin interface and fill out the form (/admin/zotero-import).
+Once you've [installed](../Managing_Plugins.md#installing-a-plugin) the plugin, go to the "Zotero Import" tab in the admin interface and fill out the form (/admin/zotero-import).
 
 1. To fill out the form, you will need find the feed URL to the Zotero library you want to import and, if desired or necessary, a private key to access those sources. Click "Continue" to begin the importing process.
 
