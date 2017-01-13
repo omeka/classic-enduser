@@ -1,11 +1,12 @@
-Display a Specific Collection
-=============================
-
+---
+title: Display a Specific Collection
+---
+*This documentation for Omeka versions up to 1.5 only*
 
 There may be some instances when you want to display the metadata for a specific collection on your theme. You can use the following methods to display a specific collection:
 
 Set the Current Collection
----------------------------------------------------------------------------------------------
+----------------------------------------------------------------
 
 You first need to set the collection using several helpers: [set\_current\_collection](Theme_API/set_current_collection.html "Theme API/set current collection")
 and [get\_collection\_by\_id](Theme_API/get_collection_by_id.html "Theme API/get collection by id"). So, this example requires you to know the ID of the collection you'd like to use.

@@ -1,13 +1,10 @@
 
-Display Specific Files for an Item
-==================================
+---
+title: Display Specific Files for an Item
+---
+*This documentation for Omeka versions up to 1.5 only*
 
-Lets say that you'd like to display a specific file for each item, say
-the first file, in a different manner than your other files. To do so,
-there are several ways to retrieve the first file for an item. The
-following examples can be used on the items/show.php template page, but
-could be modified to work anywhere that an Item object is available in
-your theme.
+Lets say that you'd like to display a specific file for each item, say the first file, in a different manner than your other files. To do so, there are several ways to retrieve the first file for an item. The following examples can be used on the items/show.php template page, but could be modified to work anywhere that an Item object is available in your theme.
 
 The Item Files array
 ---------------------------------------------------------------------------------
@@ -56,16 +53,13 @@ show_file_metadata(array(), $firstFile);
 Showing Specific Files with Helpers
 ---------------------------------------------------------------------------------------------------------------
 
-A few theme helpers allow you to specify which files to display. [Theme
-API/item\_image](http://omeka.org/c/index.php?title=Theme_API/item_image&action=edit&redlink=1 "Theme API/item image (page does not exist)"), [Theme
-API/item\_fullsize](Theme_API/item_fullsize.html "Theme API/item fullsize"), [Theme
-API/item\_thumbnail](Theme_API/item_thumbnail.html "Theme API/item thumbnail"), and [Theme API/item\_square\_thumbnail](Theme_API/item_square_thumbnail.html "Theme API/item square thumbnail") allow you to pass the index number of the file as a parameter.
+A few theme helpers allow you to specify which files to display. Theme API item_image, Theme API item_fullsize, Theme
+API item_thumbnail, and Theme API item_square_thumbnail allow you to pass the index number of the file as a parameter.
 
 Showing Only Image Files 
 -----------------------------------------------------------------------------------------
 
-The \$item-&gt;Files array will return all the files associated with an
-item, regardless of the type of file. If you want to loop through all of your files, and only display the ones that are images, you'll need to check each file to see if it has an thumbnail associated with it. The following code example shows you how:
+The \$item-&gt;Files array will return all the files associated with an item, regardless of the type of file. If you want to loop through all of your files, and only display the ones that are images, you'll need to check each file to see if it has an thumbnail associated with it. The following code example shows you how:
 
 
 ``` {.de1}

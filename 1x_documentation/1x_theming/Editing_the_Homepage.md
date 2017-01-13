@@ -1,18 +1,15 @@
-Editing the Homepage
-====================
+---
+title: Editing the Homepage
+---
 
-The home page for your Omeka installation is the first page users will
-see when their visit your site. Omeka themes use the 'index.php' template file located at the root of your theme's folder for displaying
-content on the home page. You can modify this template file to change
-the display of content on your home page.
+*This documentation for Omeka versions up to 1.5 only*
+
+The home page for your Omeka installation is the first page users will see when their visit your site. Omeka themes use the 'index.php' template file located at the root of your theme's folder for displaying content on the home page. You can modify this template file to change the display of content on your home page.
 
 Structure of index.php 
 -------------------------------------------------------------------------------------
 
-In most of our publicly-available themes, we have taken lots of care to
-add meaningful comments to template files to help you find where
-specific content is generated. We've also used meaningful values for ID
-and class attributes whenever possible.
+In most of our publicly-available themes, we have taken lots of care to add meaningful comments to template files to help you find where specific content is generated. We've also used meaningful values for ID and class attributes whenever possible.
 
 Lets take a look at the index.php template file in the default theme:
 

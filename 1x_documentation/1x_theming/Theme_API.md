@@ -1,9 +1,7 @@
 Theme API Functions
 =========
-This page is outdated
---------------------------------------------------
 
-The information on this page concerns an old or obsolete version of Omeka. If you are using a more recent version, instead see [Omeka's documentation at readthedocs.org](http://omeka.readthedocs.org/en/stable-2.0/Reference/libraries/globals/index.html).
+*This documentation for Omeka versions up to 1.5 only*
 
 +--------------------------------------+--------------------------------------+
 | General Helpers                      | -   [auto\_discovery\_link\_tag](Fun |

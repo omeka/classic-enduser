@@ -1,8 +1,9 @@
-Display Specific Metadata for an Item File
-==========================================
+---
+title: Display Specific Metadata for an Item File
+---
+*This documentation for Omeka versions up to 1.5 only*
 
-Suppose you want to display specific metadata for an item file. You can retrieve any Dublin Core or Omeka Legacy element metadata. For example,
-suppose you want to print all of the Dublin Core Title data for the item files.
+Suppose you want to display specific metadata for an item file. You can retrieve any Dublin Core or Omeka Legacy element metadata. For example, suppose you want to print all of the Dublin Core Title data for the item files.
 
 
 ``` {.de1}
@@ -35,8 +36,7 @@ You can retrieve the following internal metadata an item file:
 -   square thumbnail uri
 -   permalink
 
-Suppose you want to loop through the files for the current item, and
-create a link to that file. Then put the following code in your item/show.php page of your theme:
+Suppose you want to loop through the files for the current item, and create a link to that file. Then put the following code in your item/show.php page of your theme:
 
 
 

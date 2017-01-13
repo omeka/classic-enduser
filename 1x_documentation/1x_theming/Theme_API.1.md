@@ -1,27 +1,9 @@
-Functions
-=========
+---
+title: Functions
+---
 
-<div id="contentSub">
+*This documentation for Omeka versions up to 1.5 only*
 
-(Redirected from [Theme
-API](https://omeka.org/c/index.php?title=Theme_API&redirect=no "Theme API"))
-
-</div>
-
-<div id="primary">
-
-<div
-style="background:gold; border:1px solid goldenrod; padding: 1em 1em 0 1em; margin-bottom: 1em;">
-
-<span id="This_page_is_outdated" class="mw-headline">This page is outdated</span> {#this-page-is-outdated style="color:#404040; border-bottom: none"}
----------------------------------------------------------------------------------
-
-The information on this page concerns an old or obsolete version of
-Omeka. If you are using a more recent version, instead see [Omeka's
-documentation at
-readthedocs.org](http://omeka.readthedocs.org/en/stable-2.0/Reference/libraries/globals/index.html).
-
-</div>
 
 +--------------------------------------+--------------------------------------+
 | General Helpers                      | -   [auto\_discovery\_link\_tag](htt |

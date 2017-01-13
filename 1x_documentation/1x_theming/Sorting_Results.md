@@ -1,5 +1,8 @@
-Sorting Results
-===============
+---
+title: Sorting Results
+---
+*This documentation for Omeka versions up to 1.5 only*
+
 Since version 1.3, Omeka has built-in support for sorting the results of browse and search actions. The most obvious place you can see this new functionality is on the admin-side items/browse page, where you can now sort the results by each column.
 
 Sorting is available on the admin and public interfaces, and works with any Omeka object.

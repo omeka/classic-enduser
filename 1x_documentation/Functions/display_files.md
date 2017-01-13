@@ -1,89 +1,13 @@
-<div id="wrap">
+---
+title: 1x Functions display files
+---
+*This documentation for Omeka versions up to 1.5 only*
 
-[Skip Navigation](display_files.html#content)
-<div id="header">
+Displays a set of files based on the file's MIME type and any options that are passed. This is primarily used by other helper functions and will not be used by theme writers in most cases.
 
-<div class="padding">
+The `display_files` function does the actual work for the `display_files_for_item` helper function.
 
-<span
-id="logo">[![Omeka](http://omeka.org/ui/i/logo-horizontal-288px.gif)](../../index.html)</span>
-<div id="search-form">
-
-</div>
-
--   <div id="nav-showcase">
-
-    </div>
-
-    [Showcase](../../showcase.1.html)
--   <div id="nav-involved">
-
-    </div>
-
-    [Get Involved](../../index.html%3Fp=124.html)
--   <div id="nav-addons">
-
-    </div>
-
-    [Add-Ons](../../add-ons.1.html)
--   <div id="nav-forums">
-
-    </div>
-
-    [Forums](../../forums/topic/mysqli-stmt.bind-result.html)
--   <div id="nav-documentation">
-
-    </div>
-
-    [Documentation](http://omeka.org/codex/)
--   <div id="nav-download">
-
-    </div>
-
-    [Download](../../download.1.html)
-
-</div>
-
-</div>
-
-<div id="content">
-
-<div class="padding">
-
-<div id="user-meta">
-
--   <div id="pt-login">
-
-    </div>
-
-    [Log
-    In](http://omeka.org/c/index.php?title=Special:UserLogin&returnto=Functions/display%20files)
-
-</div>
-
-Functions/display files
-=======================
-
-<div id="contentSub">
-
-<span class="subpages">&lt;
-[Functions](../Functions.html "Functions")</span>
-
-</div>
-
-<div id="primary">
-
-<span id="Description" class="mw-headline"> Description </span>
----------------------------------------------------------------
-
-Displays a set of files based on the file's MIME type and any options
-that are passed. This is primarily used by other helper functions and
-will not be used by theme writers in most cases.
-
-The `display_files` function does the actual work for the
-`display_files_for_item` helper function.
-
-<span id="Usage" class="mw-headline"> Usage </span>
+Usage
 ---------------------------------------------------
 
 <div class="mw-geshi mw-content-ltr" dir="ltr">

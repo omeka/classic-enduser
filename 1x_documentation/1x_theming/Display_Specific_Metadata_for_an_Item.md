@@ -1,14 +1,12 @@
-Display Specific Metadata for an Item
-=====================================
+---
+title: Display Specific Metadata for an Item
+---
+*This documentation for Omeka versions up to 1.5 only*
 
-In cases where you want to display specific metadata for an item, in a
-specific order, you can use the [item](Theme_API/item.html "Theme API/item") helper for each metadata field instead of relying on the
+In cases where you want to display specific metadata for an item, in a specific order, you can use the [item](Theme_API/item.html "Theme API/item") helper for each metadata field instead of relying on the
 [show\_item\_metadata](Theme_API/show_item_metadata.html "Theme API/show item metadata") helper.
 
-Lets say, for example we want to forgo using the `show_item_metadata`
-helper, and instead display the Title, Creator, Description, and Tags
-for every item. Lets use the `item` helper to get the first three
-fields, wrapping each instance of those fields with an HTML:
+Lets say, for example we want to forgo using the `show_item_metadata` helper, and instead display the Title, Creator, Description, and Tags for every item. Lets use the `item` helper to get the first three fields, wrapping each instance of those fields with an HTML:
 
 
 ``` {.de1}
@@ -19,8 +17,7 @@ fields, wrapping each instance of those fields with an HTML:
 </div>
 ```
 
-You could do something similar for any of the Dublin Core or Item Type
-Metadata fields.
+You could do something similar for any of the Dublin Core or Item Type Metadata fields.
 
 For the tags, we'll use another helper function, [item\_tags\_as\_string](Theme_API/item_tags_as_string.html "Theme API/item tags as string"), to display the tags as a comma-separated string, like so:
 

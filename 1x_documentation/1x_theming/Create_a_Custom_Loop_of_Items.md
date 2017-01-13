@@ -1,6 +1,7 @@
-Create a Custom Loop of Items
-=============================
-
+---
+title: Create a Custom Loop of Items
+---
+*This documentation for Omeka versions up to 1.5 only*
 
 There may be some cases where you will want to display a custom loop of items, on your homepage or elsewhere in your theme.
 
