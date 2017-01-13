@@ -1,6 +1,7 @@
 ---
-title: Omeka Classic 1x Functions
+title: Omeka Classic 1x Functions auto discovery link tag
 ---
+*This documentation for Omeka versions up to 1.5 only*
 
 This function outputs a &lt;link&gt; tag for the RSS feed so the browser can auto-discover the feed.
 

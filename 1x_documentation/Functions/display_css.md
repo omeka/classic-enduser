@@ -1,6 +1,7 @@
 ---
 title: Omeka Classic 1x Functions display css
 ---
+*This documentation for Omeka versions up to 1.5 only*
 
 The display\_css() helper function prints HTML `link` tags to the page for each stylesheet added with queue\_css(). It is
 commonly used in a theme's common/header.php file to print the `link` tags inside the page `head`.

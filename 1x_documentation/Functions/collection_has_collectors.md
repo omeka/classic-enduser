@@ -1,6 +1,8 @@
 ---
 title: Omeka Classic 1x Functions collection has collectors
 ---
+*This documentation for Omeka versions up to 1.5 only*
+
 
 The `collection_has_collectors` returns true or false if a given collection has collectors associated with it.
 

@@ -1,6 +1,7 @@
 ---
 title: Omeka Classic 1x Functions common
-================
+---
+*This documentation for Omeka versions up to 1.5 only*
 
 The `common` function loads a script, optionally passing in some variables. Themes and plugins can use this function to separate distinct blocks of output into different scripts, even if all the output will appear on one page.
 

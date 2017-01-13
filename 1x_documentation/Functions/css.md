@@ -1,6 +1,8 @@
 ---
 title: Omeka Classic 1x Functions css
 ---
+*This documentation for Omeka versions up to 1.5 only*
+
 css() is a helper function used when referencing a css file within a theme, and commonly included within a theme's header.php file. It returns the path to a css file located in the css folder of that theme, usually located in themes/YourTheme/css.
 
 **Note:** Starting with Omeka 1.3, the queue\_css helper is preferred to this one for most use cases.

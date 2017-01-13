@@ -1,6 +1,8 @@
 ---
 title: Omeka Classic 1x Functions collection is featured
 ---
+*This documentation for Omeka versions up to 1.5 only*
+
 The `collection_is_featured` helper returns whether the current
 collection is featured.
 

@@ -1,6 +1,7 @@
 ---
 title: Omeka Classic 1x Functions collection
 ---
+*This documentation for Omeka versions up to 1.5 only*
 
 Description
 ---------------------------------------------------------------

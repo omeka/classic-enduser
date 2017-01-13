@@ -1,5 +1,5 @@
 ---
-title: 1x Functions display js
+title: Omeka Classic 1x Functions display js
 ---
 *This documentation for Omeka versions up to 1.5 only*
 

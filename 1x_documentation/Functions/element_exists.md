@@ -1,5 +1,5 @@
 ---
-Title: Function element exists
+Title: Omeka Classic 1x Function element exists
 ---
 *This documentation for Omeka versions up to 1.5 only*
 
