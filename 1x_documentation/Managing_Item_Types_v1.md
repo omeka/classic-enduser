@@ -1,6 +1,7 @@
 ---
 title: Managing Item Types
 ---
+*This documentation for Omeka versions up to 1.5 only*
 
 Item types are user-defined type of object, with associated Omeka comes with pre-defined item types with fields, but you can easily edit these types, or add your own types.
 

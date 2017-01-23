@@ -1,6 +1,8 @@
 ---
 title: Managing Collections
 ---
+*This documentation for Omeka versions up to 1.5 only*
+
 Collections may be used in a variety of contexts that make the most sense for your archive. It is not necessary to follow a traditional interpretation of a collection, say by owner or donor. In Omeka, you can also use tags to organize similar items into categories.
 
 Screencast Tutorial
@@ -39,5 +41,5 @@ In the admin/collections section, you may sort collections by clicking Name or D
 Nested Collections 
 ----------------------------------------------------------------
 
-If you wish to create nested collections and you are running Omeka version 1.5 or above, you may download and use the [Collection Tree](../1x_documentation/Plugins/collection-tree.1.html) plugin.
+If you wish to create nested collections and you are running Omeka version 1.5 or above, you may download and use the [Collection Tree](../1x_documentation/Plugins_1x/collection-tree.1.html) plugin.
 

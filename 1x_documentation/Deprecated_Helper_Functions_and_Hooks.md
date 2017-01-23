@@ -1,11 +1,11 @@
-Deprecated Helper Functions and Hooks
-=====================================
+---
+title: Deprecated Helper Functions and Hooks
+---
 
-
-The following helper functions and hooks have been deprecated in previous versions of Omeka:
+The following helper functions and hooks have been deprecated in previous versions of Omeka Classic:
 
 Helper Functions deprecated in 0.10 
----------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------
 
 -   add\_controllers(\$dir='controllers')
 -   add\_data\_feed(\$format, \$options=array())
@@ -52,7 +52,7 @@ Helper Functions deprecated in 0.10
 -   users(array \$params = array())
 
 Hooks deprecated in 0.10 
------------------------------------------------------------------------------------------
+----------------------------------------------------------------
 
 -   theme\_header
     -   use targeted hooks for public/admin theme

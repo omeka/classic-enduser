@@ -1,6 +1,7 @@
 ---
 title: Managing General Settings
 ---
+*This documentation for Omeka versions up to 1.5 only*
 
 Find the general site settings by clicking on the Settings button in the right corner of your dashboard, or go to, /admin/settings.
 

@@ -1,6 +1,7 @@
 ---
 title: Managing Files
 ---
+*This documentation for Omeka versions up to 1.5 only*
 
 When adding items to your archive, often you will upload one or more files (images, documents, et al) associated with that item.
 

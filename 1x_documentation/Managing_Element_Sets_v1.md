@@ -1,6 +1,7 @@
 ---
 title: Managing Element Sets
 ---
+*This documentation for Omeka versions up to 1.5 only*
 
 Manage element sets by clicking on the Settings button in the right corner of your dashboard, or by going to, /admin/settings. The Element Sets tab allows you to review and delete element sets available in your Omeka installation.
 
