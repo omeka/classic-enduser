@@ -23,10 +23,25 @@ User Levels and Access
 
 You may assign Users different levels of access to the admin interface.
 
--   Super users can access all available pages in the admin. Supers are the only users with access to the Settings panel, choosing and configuring themes; adding and editing users; changing general settings.
--   Administrator users can access and edit Items, Collections, and Tags.
--   Contributor users can add items and edit items they have created. They may create exhibits using any item in the archive, and have permission to view any public exhibit from the administrative side.
--   Researcher users can see all of the Items, Collections, and Item Types pages--public or private, but cannot edit any content.
+**Super users**:
+- can access all available pages in the admin. 
+- are the only user role which has access to the Appearance, Plugins, Users, and Settings tabs on the top navigation;
+- can add, edit, delete, and publish all content types;
+- can interact with all plugins.
+
+**Administrator** users:
+- can add, edit, delete, and publish all Items, Collections, and Tags in the site;
+- can add, edit, delete, and publish Exhibits;
+- can interact with any plugin that adds a tab to the left-hand navigation.
+
+**Contributor** users:
+- can add items, but can only edit and delete items they created, and cannot publish any items;
+- can add Collections and edit, delete, and publish any collections they create;
+- may create exhibits using any item in the archive;
+- may only interact with certain plugins.
+
+**Researcher** users:
+- can view all content, including items, collections, tags, maps, exhibits, and contributed items, but cannot add, edit, or delete anything.
 
 Add a User
 -------------------------------------------------------------
