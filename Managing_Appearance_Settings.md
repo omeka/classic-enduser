@@ -29,6 +29,8 @@ Display Settings
 ----------------------------------------------------------------
 These settings relate to the display of results on the public and admin sides and some aspects of metadata display on the public side. 
 
+**Use Square Thumbnails** set the installation to use square-cropped images by default wherever thumbnails appear in the public interface, regardless of themes (NB: Omeka Classic versions 2.5 and higher only).
+
 **Results per page (admin)** sets the number of results on the admin-side browse pages for items, collections, and exhibits. The default is 10.
 
 **Results per page (public)** sets the number of results on the public-side browse pages for items, collections, and exhibits. The default is 10.
