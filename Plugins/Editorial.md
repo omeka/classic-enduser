@@ -56,7 +56,7 @@ To reply to their comments, simply type in the *Leave New Response* field direct
 ### Editing and deleting comments 
 Currently users are unable to delete comments. However, it is possible to edit your own comments. Go to the comment you would like to edit, click the right-facing arrow to have the text box appear, make any needed fixes or updates, and save changes. Administrators and superusers are able to edit original comments but not responses to those comments.  
 
-### Public side view
+## Public side view
 Although the content of Editorial blocks is not visible to non-logged in users, they do show up on the public side view when you are logged in:
 
 Editorial block on the public side when the user is logged in:
