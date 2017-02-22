@@ -1,5 +1,5 @@
 ---
-title: Managing Element Sets
+title: Managing Element Sets in Omeka Classic 1x
 ---
 *This documentation for Omeka versions up to 1.5 only*
 

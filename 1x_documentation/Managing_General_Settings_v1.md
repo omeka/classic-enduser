@@ -1,5 +1,5 @@
 ---
-title: Managing General Settings
+title: Managing General Settings in Omeka Classic 1x
 ---
 *This documentation for Omeka versions up to 1.5 only*
 

@@ -34,11 +34,11 @@ The block will have your username and a text field for comments, which can be fo
 ![Editorial block with a gravatar above the username](../doc_files/plugin_images/editorial_block.png)
 
 Once you have made your comment, you can either Save Changes to save it, or configure the following options before saving: 
+- *Grant Access To*: set which users on the Omeka site can see and comment on this Editorial block. SuperUsers will always be able to see Editorial blocks. Other users must be added. 
+      - Use *Grant Access* to allow Exhibit-contributor users to view this exhibit.
 - *Send Email Notifications*: If checked, the plugin will send an email every time someone comments on this editorial block to recipients you select.
 - *Selected Recipients*: select recipients to be emailed about changes to the block. This will initially only have your username. As you grant access to users, their name will also appear in this select box. Use the command key while clicking to select more than one user. 
 - *Additional Email Text*: this optional field allows you to add instructions or other text to the email. 
-- *Grant Access To*: set which users on the Omeka site can see and comment on this Editorial block. SuperUsers will always be able to see Editorial blocks. Other users must be added. 
-      - Use *Grant Access* to allow Exhibit-contributor users to view this exhibit.
       
 Note: Multiple *Editorial Blocks* can be added to a single page, allowing for multiple comment chains.
 

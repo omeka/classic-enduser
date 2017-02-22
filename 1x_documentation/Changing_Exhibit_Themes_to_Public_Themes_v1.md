@@ -1,5 +1,5 @@
 ---
-title: Changing Exhibit Themes to Public Themes
+title: Changing Exhibit Themes to Public Themes in Omeka Classic 1x
 ---
 *This documentation for Omeka versions 1.3-1.5 only*
 

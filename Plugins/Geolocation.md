@@ -15,12 +15,12 @@ Once you have [installed](../Managing_Plugins.md#installing-a-plugin) the Geoloc
 ### General Settings
 The first section for configuration are the general settings for the appearance of your map on the public and admin sides of your site.
 
+- *API Key*: enter your GoogleMaps API key here. To get a key, click the "Get a Key" button on the [GoogleMaps APIs webpage](https://developers.google.com/maps/web/).
 - *Default latitude*: set the center point of the map's latitude (North/South value), in degrees. Using numbers after the decimal point will pinpoint the location more precisely.
 - *Default longitude*: set the center point of the map's longitude (East/West), in degrees. Using numbers after the decimal point will pinpoint the location more precisely.
 Default latitude and longitude of the point on which your map will center.
 - *Default Zoom Level*: Use a whole number of 0 of greater. 0 is the most zoomed out. A value of 15 will result in a map showing roughly one square mile
 -   *Map Type*: Roadmap, Satellite, Hybrid (roadmap overlaid on satellite) or Terrain.
-- *API Key*: If you have a Google API key, you can enter it here. Not required for the plugin to function.
 
 ![General settings for geolocation](../doc_files/plugin_images/geolocation_genset.png)
 

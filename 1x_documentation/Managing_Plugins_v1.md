@@ -1,5 +1,5 @@
 ---
-title: Managing Plugins
+title: Managing Plugins in Omeka Classic 1x 
 ---
 *This documentation for Omeka versions up to 1.5 only*
 

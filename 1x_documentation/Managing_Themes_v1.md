@@ -1,6 +1,7 @@
+---
+title: Managing Themes in Omeka Classic 1x
+---
 
-Managing Themes
-===============
 *This documentation is for Omeka Classic versions 1.0-1.5*
 
 Themes allow you to customize the look and feel of your public Omeka site.

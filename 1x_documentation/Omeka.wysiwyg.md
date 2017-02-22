@@ -1,9 +1,10 @@
-Omeka.wysiwyg
-=============
+---
+title: Omeka.wysiwyg in Omeka Classic 1.x
+---
 
+*This documentation for Omeka Classic versions up to 1.5 only*
 
-Omeka.wysiwyg is a JavaScript function that allows you to add TinyMCE to
-textareas in the administrative panel.
+Omeka.wysiwyg is a JavaScript function that allows you to add TinyMCE to textareas in the administrative panel.
 
 Parameters
 -------------------------------------------------------------
@@ -26,8 +27,7 @@ Omeka.wysiwyg has the following default parameters
 -   theme\_advanced\_buttons3: "",
 -   theme\_advanced\_toolbar\_align: "left"
 
-Any of these parameters can be changed by passing the new parameter and
-value to the Omeka.wysiwyg function:
+Any of these parameters can be changed by passing the new parameter and value to the Omeka.wysiwyg function:
 
 
 ``` {.de1}
@@ -38,6 +38,5 @@ Omeka.wysiwyg({
 });
 ```
 
-A complete list of parameters can be found on the [TinyMCE documentation
-wiki](http://tinymce.moxiecode.com/wiki.php).
+A complete list of parameters can be found on the [TinyMCE documentation wiki](http://tinymce.moxiecode.com/wiki.php).
 

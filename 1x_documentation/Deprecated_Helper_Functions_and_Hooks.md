@@ -1,5 +1,5 @@
 ---
-title: Deprecated Helper Functions and Hooks
+title: Deprecated Helper Functions and Hooks for Omeka Classic 1x
 ---
 
 The following helper functions and hooks have been deprecated in previous versions of Omeka Classic:

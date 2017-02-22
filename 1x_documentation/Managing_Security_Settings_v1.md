@@ -1,5 +1,5 @@
 ---
-title: Managing Security Settings
+title: Managing Security Settings in Omeka Classic 1x
 ---
 *This documentation for Omeka versions up to 1.5 only*
 
@@ -17,3 +17,4 @@ Allowed File Types:
 ReCaptcha Public and Private Keys:
     -   If you are using a public-facing form (Contribution plugin, Simple Contact), please sign up for a [ReCaptcha key](http://www.google.com/recaptcha) to reduce spam sent to the administrator's email.
 
+ 

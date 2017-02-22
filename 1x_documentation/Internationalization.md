@@ -1,5 +1,5 @@
 ---
-title: Internationalization
+title: Internationalization in Omeka Classic 1x
 ---
 
 *This documentation is for Omeka Classic versions 1.0-1.5*
