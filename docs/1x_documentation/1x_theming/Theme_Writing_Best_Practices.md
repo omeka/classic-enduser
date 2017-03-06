@@ -1,0 +1,173 @@
+---
+title: Theme Writing Best Practices
+---
+*This documentation for Omeka versions up to 1.5 only*
+
+
+Naming Your Theme </span>
+---------------------------------------------------------------------------
+
+The folder name of your theme is stored in the database. This means if you later change the folder name, the theme will no longer work.
+
+Theme Directory Structure
+------------------------------------------------------------------
+
+As of Omeka 1.3, public themes use the following files and file
+structure:
+
+-   **my\_theme/** (folder)
+    -   **items/** (folder)
+        -   *browse.php*
+        -   *show.php*
+        -   *tags.php*
+    -   **exhibits/** (folder)
+        -   *browse.php*
+        -   *show.php*
+        -   *summary.php*
+        -   *item.php*
+    -   **collections/** (folder)
+        -   *browse.php*
+        -   *show.php*
+    -   **common/** (folder)
+        -   *header.php*
+        -   *footer.php*
+    -   **css/** (folder)
+        -   *screen.css*
+    -   **images/** (folder)
+    -   **javascripts/** (folder)
+    -   *theme.ini*
+    -   *theme.jpg*
+    -   *index.php*
+    -   *404.php*
+
+### 1.2.1 and Earlier
+
+Themes in Omeka 1.2.1 and earlier require, at minimum, the following structure:
+
+-   /collections
+    -   browse.php
+    -   show.php
+-   /common
+    -   header.php
+    -   footer.php
+-   /css
+    -   screen.css
+-   index.php
+-   /items
+    -   browse.php
+    -   show.php
+    -   tags.php
+-   theme.ini
+-   theme.jpg
+
+Template Files
+----------------------------------------------------
+
+### 1.3 and Later
+
+As of version 1.3, Omeka includes templates for each public view for themes in the core. This means public themes do not have to include all the template files themselves; Instead, themes can omit files, and rely instead on the core template files. If, however, theme developers wish to override the core template files, they can simply add that template file to their custom theme, and Omeka will use the theme file instead of the one from the core.
+
+Themes can also now optionally include extra views to customize pages created by plugins. See [Theming Plugin Pages](  ) for more information.
+
+
+Theme.ini
+----------------------------------------------------------
+
+The theme.ini is a required file that provides information about your theme to Omeka. Filling this out should be the second step in creating a theme so you can easily identify it in the list of available themes in the administrative interface. Below is an example of the correct formatting for the .ini file.
+
+``` {.de1}
+[theme]
+author = "Jeremy Boggs"
+title = "Thanks, Roy"
+description = "A tribute to Roy Rosenzweig."
+license = "GPL"
+website = "thanksroy.org"
+```
+
+Note that all values should be wrapped in quotation marks.
+
+Upcoming versions of Omeka will switch to using omeka\_target\_version instead of omeka\_tested\_up\_to, and will include a new support\_link. These changes are part of the mechanism to let you add our themes to our listing at omeka.org/add-ons/themes.
+
+Common Directory
+-------------------------------------------------------------------------
+
+The 'common' directory can contain any partial files you'd like to include in other parts of your theme, such as header.php or footer.php. While the header and footer files have special theme functions to include them ([head](Functions/ ) and
+[foot](Functions/ ), respectively), you can
+include any other file in the 'common' directory using the
+[common](Functions/ ) theme function.
+
+### Header
+
+The header file, at 'common/header.php', is a global file that can be called on any other page by using the function
+[head](Theme_API/head ). It should contain at a minimum all of the markup you would place in the `<head>` tags of an html page, such as doctype, stylesheets, javascripts, stylesheets, etc.It is recommended you include [plugin_header](Theme_API/plugin_header ) in the `<head>` so users will be able to take advantage of omeka's plugin extensibility. To fully take advantage of this file it is recommended opening the `<body>` tag and placing any other elements you would like to appear on all pages of your theme, such as title, logo, and primary navigation. Navigation can be generated with [public\_nav\_main](Theme_API/public_nav_main ).
+You could also include search functionality here by using
+[simple\_search](Theme_API/simple_search.html "Theme API/simple search")
+and/or
+[link\_to\_advanced\_search](Theme_API/link_to_advanced_search.html "Theme API/link to advanced search").
+
+### Footer
+
+Filling out the footer.php file now will allow you to start with
+webpages that validates from the start. Close any tags you opened in the header, such as `<body>` or perhaps `<div id="content">`. It is again recommended you include plugin_footer. This file will be pulled in anywhere
+[foot](Theme_API/foot ) is called.
+
+Building the Homepage
+-------------------------------------------------------------
+
+The homepage for your theme is generated by the 'index.php' at the root of your theme. If you have decided to use the header and footer files, you should include [head](Theme_API/head ) at the very top and [foot](Theme_API/foot ) at the very bottom of the page.
+
+Here you can use functions such as [display\_random\_featured\_item](Functions/display_random_featured_item.html )
+or [display\_random\_featured\_collection](Functions/display_random_featured_collection.html ) or the [code snippet to display recently added](Functions/recent_items.html ) items to pull content from your database.
+
+The Items Directory
+------------------------------------------------------------
+
+### items/browse
+
+The 'items/browse' view uses the file 'items/browse.php'. This page displays a list of all public items in the database. You have the option to include navigation to view a list of items or a list of all item tags by using the [nav](Theme_API/nav.html ") function.
+
+It is recommended you include [pagination\_links](Theme_API/pagination_links.html ) somewhere on the browse page, to allow users to page through all of the items in the list.
+
+Again, see the page about looping items for more information on how multiple items are displayed.
+
+You can also use more advanced functions here to list items by
+collection, type, specific tags.
+
+It is also recommended you include plugin\_append\_to\_items\_browse\_each and plugin\_append\_to\_items\_browse,
+so plugins that use these hooks can append content to the items/browse page.
+
+### items/show
+
+The 'items/show' view uses the file 'items/show.php'. This page utilizes the [item](Theme_API/item.htm "). Explain its use with
+title as example to show use as function or with variable.
+
+If you want to simply return all the element set metadata for an item you should use [show\_item\_metadata](Theme_API/ ).
+If you want to have more control over which elements are returned on this page refer to the [item](Theme_API/item.html  )
+theme helper.
+
+You can also include related files, collections, tags, and citations using the following functions
+
+-   [display\_files\_for\_item](Theme_API/display_files_for_item.html "Theme API/display files for item")
+-   [link\_to\_collection\_for\_item](http://omeka.org/codex/Theme_API/link_to_collection_for_item "Theme API/link to collection for item")
+-   [item\_tags\_as\_string](Theme_API/item_tags_as_string.html "Theme API/item tags as string")
+-   [item\_citation](Theme_API/item_citation.html "Theme API/item citation")
+
+We also recommended including plugin\_append\_to\_items\_show
+so plugins can append information to the items/show page.
+
+### <span id="items.2Ftags" class="mw-headline"> items/tags </span>
+
+The 'items/tags' view uses the file 'items/tags.php'. This page can be used to display all of the tags in a cloud formation by using [tag\_cloud](Theme_API/tag_cloud.html ).
+
+Theme Configuration
+------------------------------------------------------------
+
+As of Omeka 1.2, theme developers can now add configuration options to their themes, which allows users to set theme options from the admin panel. If a configuration form is available for a theme, a "Configure" button will appear for the active public theme.
+
+See [Theme Configuration](Theme_Configuration.html ) for
+details on adding admin configuration to your theme.
+
+Finishing Up
+-----------------------------------------------------
+
+Take a screenshot of your beautiful new theme! Resize it to 190px x 140px and save it as theme.jpg. Put this in the theme directory.
