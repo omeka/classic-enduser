@@ -1,4 +1,14 @@
 site_name: 'Omeka Classic User Manual'
 theme: 'readthedocs'
 site_dir: 'html'
+pages:
+    - Home: index.md
+    - Getting Started: 
+        - 'Project Planning': 'GettingStarted/Project_Planning.md'
+        - 'Hosting Suggestions': 'GettingStarted/Hosting_Suggestions.md'
+    - Appearance: 
+        - 'Appearance': 'Appearance.md'
+        - 'Themes': 'Appearance/themes.md'
+        - 'Navigation': 'Appearance/Navigation.md'
+        
 
