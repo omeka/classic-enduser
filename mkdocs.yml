@@ -1,3 +1,4 @@
 site_name: 'Omeka Classic User Manual'
 theme: 'readthedocs'
-site_dir: ''
+site_dir: 'html'
+

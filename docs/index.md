@@ -11,7 +11,7 @@ The following documentation is primarily for Omeka Classic  versions 2.0 and hig
 - [Omeka Classic vs Omeka.net](/Classic_vs_Net.md)
 - [Workshops](/Workshops.md)
 
-### Project Planning
+### [Project Planning](/projectplanning.md)
 - [Site Planning tips](/Site_Planning_Tips.md)
 - [How you might use Omeka](/How_Might_You_Use_Omeka.md)
 - [Using Omeka Classic with other tools and platforms](/Using_Omeka_with_Other_Tools_and_Platforms.md)
