@@ -3,12 +3,33 @@ theme: 'readthedocs'
 site_dir: 'html'
 pages:
     - Home: index.md
-    - Getting Started: 
+    - About Omeka:
+        - 'Accessibility Statement': 'Accessibility_Statement.md'
+    - Project Planning:
         - 'Project Planning': 'GettingStarted/Project_Planning.md'
         - 'Hosting Suggestions': 'GettingStarted/Hosting_Suggestions.md'
+    - Getting Started: 
+        - 'System Requirements': 'Installation/System_Requirements.md'
+        - 'Hosting Suggestions': 'GettingStarted/Hosting_Suggestions.md'
+        - 'Preparing to Install': 'Installation/Preparing_to_Install.md'
+        - 'Installing': 'Installation/Installation.md'
+    - Plugins:
+        - 'Working with Plugins': 'Adding_and_Managing_Plugins.md'
+        - 'Plugin Shortcodes': 'Plugins/Plugin_Shortcodes.md'
+        - 'Plugins':
+            - 'COins': 'Plugins/Coins.md'
+            - 'Collection Tree': 'Plugins/CollectionTree.md'
     - Appearance: 
         - 'Appearance': 'Appearance.md'
         - 'Themes': 'Appearance/themes.md'
         - 'Navigation': 'Appearance/Navigation.md'
-        
+        - 'Appearance Settings': 'Appearance/Appearance_Settings.md'
+    - Users: 'Users.md'
+    - Settings:
+        - 'General Settings': 'Settings/General_Settings.md'
+        - 'Security Settings': 'Settings/Security_Settings.md'
+        - 'Search Settings': 'Settings/Search_Settings.md'
+        - 'Element Sets': 'Settings/Element_Sets.md'
+        - 'Item Type Elements': 'Settings/Item_Type_Elements.md'
+        - 'API Settings': 'Settings/API_Settings.md'
 

@@ -3,7 +3,7 @@ title: Omeka Classic Documentation
 ---
 The following documentation is primarily for Omeka Classic  versions 2.0 and higher, with most pages written for versions 2.4.x. Please see the bottom of the page for documentation for prior versions of Omeka.
 
-## Getting Started
+## About Omeka
 - When to Use Omeka
 - [Intro to Omeka 2.0 (video)](https://vimeo.com/55973380)
 - [Omeka Feature List](/Feature_List.md)
@@ -26,7 +26,6 @@ The following documentation is primarily for Omeka Classic  versions 2.0 and hig
 - [Configuring Language](/Configuring_Language.md)
 
 ## Omeka Classic
-- [Using the Omeka Admin Dashboard](/Using_the_Omeka_Admin.md)
 - [Screencasts](/Screencasts.md)
 - Installing and Updating Plugins and Themes
 - [Retrieving Error Messages](/Retrieving_Error_Messages.md)

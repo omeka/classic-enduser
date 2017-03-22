@@ -23,25 +23,37 @@ User Levels and Access
 
 You may assign Users different levels of access to the admin interface.
 
-**Super users**:
-- can access all available pages in the admin. 
-- are the only user role which has access to the Appearance, Plugins, Users, and Settings tabs on the top navigation;
-- can add, edit, delete, and publish all content types;
-- can interact with all plugins.
+**Super Users**  
 
-**Administrator** users:
-- can add, edit, delete, and publish all Items, Collections, and Tags in the site;
-- can add, edit, delete, and publish Exhibits;
-- can interact with any plugin that adds a tab to the left-hand navigation.
+-   Can do anything and everything in Omeka.
+-   Supers are the only users with access to the top navigation tabs for Plugins, Appearance, Users, and Settings. 
 
-**Contributor** users:
-- can add items, but can only edit and delete items they created, and cannot publish any items;
-- can add Collections and edit, delete, and publish any collections they create;
-- may create exhibits using any item in the archive;
-- may only interact with certain plugins.
+**Admin Users**  
 
-**Researcher** users:
-- can view all content, including items, collections, tags, maps, exhibits, and contributed items, but cannot add, edit, or delete anything.
+Admin users do not have access to the tabs for managing plugins, appearance, users, or site settings.
+
+Admin users can:
+
+- Add, edit, tag, and delete items, both their own and created by other users.  
+- Make items, collections, exhibits, and other content public or not public.  
+- Make items, collections, exhibits, and other content features or not featured.
+- Add, edit, and delete Item Types. 
+- Add, edit, and delete files.
+- Interact with plugins installed and activated by a SuperUser.
+- Add, edit, and delete tags. 
+
+**Contributor Users**   
+
+Contributor users have control over their own content but can only view content created by others. They cannot make their own content public. 
+
+Contributor users can:  
+- add, edit, tag, and delete items which they created.
+- cannot make their own items public.
+- create their own exhibits from items that are public.
+
+**Researcher Users**
+
+Researchers can log in to the admin side of an Omeka site and see the content, but cannot interact with it in any way. They cannot add, edit, delete, or tag any items. 
 
 Add a User
 -------------------------------------------------------------
@@ -59,7 +71,7 @@ Edit Users
 ----------------------------------------------------------------
 To edit a user, click on the word Edit beneath the username in the Browse Users page. This will direct you to a new page with tab options labelled General, Change Password, and API Keys.
 
-[![Edit User form](../doc_files/UserEdit.png)
+![Edit User form](../doc_files/UserEdit.png)
 
 On the General tab you can edit the username, display name, email, and role of the user. You can also toggle whether a user is active or inactive. Inactive users are not deleted, so the items, collections, and tags created by that user remain associated with their account, but the individual can not longer log into the site to make changes or create new data.
 
