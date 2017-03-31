@@ -1,22 +1,26 @@
 ---
 title: Text Analysis
 ---
-*Current version 1.1*
+*Current version 2.0*
 
-The Text Analysis plugin connects your Omeka Classic site with [AlchemyAPI](http://www.alchemyapi.com/) to enable text analysis on individual items. 
+The Text Analysis plugin connects your Omeka Classic site with [Watson Natural Language Understanding](https://www.ibm.com/watson/developercloud/natural-language-understanding.html) to enable text analysis on individual items. You must create an [IBM Bluemix account](https://www.ibm.com/watson/developercloud/doc/natural-language-understanding/getting-started.html) to use this plugin. 
+
+Because Bluemix includes paid plans, only SuperUsers and Admin users can make use of the functions of the text analysis plugin.
 
 Configuration
 -------------
 After you have installed the plugin, go to the Plugins tab in the upper navigation, and scroll down to Text Analysis. Click the blue *Configure* button. 
 
-On the Configure Plugin page, enter your [AlchemyAPI key](http://www.alchemyapi.com/api/register.html). In order to get an AlchemyAPI key, you must register for the Watson Developer cloud, part of IBM Bluemix. While IBM Bluemix has paid options, you should be able to use the free version to run this plugin. (Note: once logged in to Bluemix, AlchemyAPI is under the Watson tab. See their [getting started documentation](https://new-console.ng.bluemix.net/docs/services/AlchemyAPI/index.html#gettingstartedtemplate) for more information). 
+On the Configure Plugin page, enter your Bluemix username and password.
 
 ![Configuration settings](../doc_files/plugin_images/textanalysis_config.png)
 
-Be sure to save changes after entering the API key.
+Be sure to save changes.
 
 Using Text Analysis
 --------------------
+**Note:** Because usage may incur costs with IBM Bluemix, use of this plugin is restricted to SuperUsers and Admin users only.
+
 Once you have saved the API key, you can view text analysis on any item in your collection. 
 
 Go to the Items tab on on the left hand navigation and click on the title of any item (this plugin will work best with longer text blocks). Note that you want to click on the title and not the *edit* button so that you are looking at the items/show page, not the items/edit page. 
@@ -25,7 +29,16 @@ On the items/show page, the bottom option of the right hand blocks (below the Ed
 
 ![Large red arrow points to the Text Analysis block](../doc_files/plugin_images/textanalysis_location.png)
 
-Select an element from the dropdown in the Text Analysis block; you should be able to select any Dublin Core or Item Type element that has text entered in that item. Once you have chosen an element, click the *Analyze This Element* button.
+Select an element from the dropdown in the Text Analysis block; you should be able to select any Dublin Core or Item Type element that has text entered in that item. 
+
+The checkboxes below the dropdown menu allow you to limit which features to analyze. By default they are all checked, but you can uncheck up to three if you want. Your options are (see below for more information):
+
+- Entities
+- Keywords
+- Categories
+- Concepts 
+
+Once you have chosen an element and, if desired, limited the features, click the *Analyze This Element* button.
 
 ![Text Analysis block close up](../doc_files/plugin_images/textanalysis_dropdown.png)
 

@@ -19,6 +19,7 @@ pages:
         - 'Plugins':
             - 'COins': 'Plugins/Coins.md'
             - 'Collection Tree': 'Plugins/CollectionTree.md'
+            - 'Exhibit Image Annotation': 'Plugins/ExhibitImageAnnotation.md'
     - Appearance: 
         - 'Appearance': 'Appearance.md'
         - 'Themes': 'Appearance/themes.md'
