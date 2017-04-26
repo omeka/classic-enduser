@@ -30,3 +30,24 @@ If you have [ReCaptcha enabled](https://omeka.org/codex/ReCaptcha), you can requ
 Using the Plugin
 -----------------------------------------------------------------
 It is important to note that almost all the functionality of the will be with other plugins; Guest user does not do much on its own. You will have to do additional configuration within other plugins (User Profiles, for instance) to realize the full benefits of the Guest User plugin.
+
+Hiding the Header
+-------------------------
+When you activate Guest User, it adds a header bar with Login and Register links to the public side of your site. If you want to hide this header bar, you will need to edit the code of the plugin.
+
+From your file manager, go to the folder for the Omeka Site, then to the plugins folder and open the GuestUser folder.
+
+Open the file named “GuestUser.php” using a plain text editor suitable for writing and editing code.
+
+Comment out lines 24 and 25 . Commenting out uses `/*` and the end result should look like this: 
+
+`protected $_filters = array(
+       /* 'public_navigation_admin_bar',
+       'public_show_admin_bar’, */`
+
+This will remove the general login/register links which are as follows:  
+ 
+- Login: yoursiteurl/users/login 
+- Register: yoursiteurl/guest-user/user/register
+
+You might want to hard code those into a Simple Page or preserve the links somewhere else on your site.
