@@ -167,17 +167,31 @@ In order to get back to the Corpus summary page from the Corpus viewer, click th
 
 ![A screenshot of the Back to corpus button.](../doc_files/plugin_images/ngram-viewcorp.png)
 
-**Ngram Search** - Using the text field, you can enter comma-separated phrases or words which you want to graph the frequency of. Note: you can only search for two word phrases if you have generated bigrams, etc. 
+**Ngram Search** - Using the text field, enter comma-separated phrases or words to graph frequency across the corpus. Note: you can only search for two word phrases if you have generated bigrams, etc. 
 
 You can, if you want, specify a range for the corpus search. Note that the format of the range you search must match exactly the format of your sequence data. So if you have sequenced the corpus by year, enter a four digit year, whereas if you have done it by month you must enter yyyymm formatted range data.
 
-The results should return a sequence graph (if they do not, check the formatting of the range data), along with a table showing Ngram Counts and Total Ngram Counts.
-
-**Note**: These results reflect the composition of the selected corpus (which has been filtered by text element and search query), not the entirety of your collection.  
-
-
 ![A screenshot of the Corpus Viewer page with the phrase and range fields described above.](../doc_files/plugin_images/ngram-Corpusviewer.png)
 
+The results should return a sequence graph (if they do not, check the formatting of the range data), along with a table showing Ngram Counts and Total Ngram Counts.
+
+Sequence Graph: Hovering over points on the sequence graph produces a small chart containing data, that includes;
+- time period
+- ngram
+- percentage of the ngram in the corpus for a particular time period.
+
+Ngram Counts: This chart includes information about the ngrams in the corpus. 
+- ngram: the phrases or words used to produce the sequence graph.
+- n: number of words in the ngram phrase.
+- Count: total number of that ngram in the corpus.
+- Frequency %: percentage of the ngram in the entire corpus.
+
+Total Ngram Counts: This chart includes information about the corpus.
+- n: the number of words/phrases in an ngram.
+- Total Count: the number of unigrams, bigrams, trigrams in the corpus.
+- Total Unique Count: the number of unique ngrams within the unigrams, bigrams, trigrams.
+
+**Note**: These results reflect the composition of the selected corpus (which has been filtered by text element and search query), not the entirety of your collection.  
 
 ![A screenshot of the corpus viewer with Graph, Ngram Counts, and Total Ngram Counts described above.](../doc_files/plugin_images/ngram-viewer.png)
 
