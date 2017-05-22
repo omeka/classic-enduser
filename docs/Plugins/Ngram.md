@@ -74,11 +74,11 @@ On the Add a Corpus page, complete the following options:
 - **Sequence Element**: select from elements but it should be something with numeric or date input. Items without the selected element field filled in (for instance, an item without a Date will not be included in the corpus). For best results, ensure consistency of metadata, and select a meaningful field.
 - **Sequence type**: choose from Date by Year, Date by Month, Date by Day, or Numeric Sequence Range. The field will prompt you with the proper format for the sequence if you choose a Date type. If numeric, make sure the format matches the numeric sequence of the elements you’re drawing from.
 
-**Note**: Date should be entered in the YearMonthDay format and should be entered as a range. (for instance, 200101-201601)
+**Note**: Date should be entered in the YearMonthDay format and should be entered as a range. (for instance, 20010101-20160101)
 
 **Note**: You do not have to have a sequence, but without one you cannot generate graphs. 
 
-**Note** the Text Element box under the green Add Corpus button on the Add Corpus page. The Text Element was configured in the plugin panel. 
+**Note**: The Text Element box under the green Add Corpus button on the Add Corpus page. The Text Element was configured in the plugin panel. 
 
 When you have completed adding your corpus, click the green Add Corpus button. 
 
@@ -97,7 +97,7 @@ On the left the elements that were input on the Add Corpus screen are listed.
 - Sequence Element
 - Sequence Range
 
-Note: Clicking browse Search Results will open a Browse Items page with all the items based on your search term.
+**Note**: Clicking browse Search Results will open a Browse Items page with all the items based on your search term.
 
 On the right, buttons allow the user to Edit and Delete the corpus and Validate Items. After you have validated items, buttons here allow you to generate unigrams, bigrams, and trigrams, and to view the corpus. Below, a small pane indicates the Text Element for the corpus.  At the bottom an Item Counts pane will populate a pool of items from which this corpus may be derived. 
 
@@ -168,7 +168,9 @@ In order to get back to the Corpus summary page from the Corpus viewer, click th
 
 ![A screenshot of the Back to corpus button.](../doc_files/plugin_images/ngram-viewcorp.png)
 
-**Ngram Search** - Using the text field, enter comma-separated phrases or words to graph frequency across the corpus. Note: you can only search for two word phrases if you have generated bigrams, etc. 
+**Ngram Search** - Using the text field, enter comma-separated phrases or words to graph frequency across the corpus. 
+
+**Note**: You can only search for two word phrases if you have generated bigrams, etc. 
 
 You can, if you want, specify a range for the corpus search. Note that the format of the range you search must match exactly the format of your sequence data. So if you have sequenced the corpus by year, enter a four digit year, whereas if you have done it by month you must enter yyyymm formatted range data.
 
@@ -176,7 +178,7 @@ You can, if you want, specify a range for the corpus search. Note that the forma
 
 The results should return a sequence graph (if they do not, check the formatting of the range data), along with a table showing Ngram Counts and Total Ngram Counts.
 
-Sequence Graph: Hovering over points on the sequence graph produces a small chart containing data, that includes;
+Sequence Graph: Hovering over points on the sequence graph produces a small chart containing data that includes;
 - time period
 - ngram
 - percentage of the ngram in the corpus for a particular time period.
