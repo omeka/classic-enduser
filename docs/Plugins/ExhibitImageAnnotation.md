@@ -6,7 +6,11 @@ title: Exhibit Image Annotation
 
 This plugin adds a content block type to Exhibit Builder which allows you to create annotations on an image file. The annotation will be visible on both the public and admin views of the exhibit.
 
+<<<<<<< HEAD
 Content blocks are the pieces used to create exhibit pages. If you have used Exhibit Builder, you have already worked with the following blocks: file with text, gallery, text, and file.
+=======
+Content blocks are the pieces which are used to create exhibit pages. If you have used Exhibit Builder, you have already worked with the following block types: file with text, gallery, text, and file.
+>>>>>>> master
 
 ## Annotating an Image
 To add an image annotation, create a new page in an  exhibit, or go to an existing page on which you want the annotation bloc to appear.
@@ -19,8 +23,11 @@ First, add an image annotation block:
 
 Next, add an image to the block by clicking the Add Item button. Select from the image files in your site, just as you would adding content to any exhibit page block.  
 
+<<<<<<< HEAD
 ![a red arrow points to the Add Item button, represented by a large brown plus sign with the text "Add Item" under it]( eximageanno_additem.png)
 
+=======
+>>>>>>> master
 Please note that each Image Annotation block can only have a single image, but you can put multiple blocks on a page.
 
 Once you have selected an image, open the section of the block labeled *Annotate Image* (you may need to click the small triangle on the right hand side of the header bar to do this). 
