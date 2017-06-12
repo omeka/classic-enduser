@@ -82,7 +82,6 @@ On the Add a Corpus page, complete the following options:
 
 When you have completed adding your corpus, click the green Add Corpus button. 
 
-
 ![A screenshot of the Add Corpus screen with the fields described above.](../doc_files/plugin_images/ngram-addcorp.png)
 
 ### Manage your Corpus
