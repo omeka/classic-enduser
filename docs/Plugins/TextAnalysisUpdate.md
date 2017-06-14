@@ -31,14 +31,14 @@ To find your *MALLET script directory*: go to your MALLET installation and navig
 
 ## Create a Corpus
 
-To create a corpus, you will need to use the Ngram plugin: 
+### Create Corpus
+To create a corpus, you will need to use the [Ngram](../Plugins/Ngram.md)  plugin (see that documentation for complete information on corpora). 
 
 A corpus is drawn from the items in your collection with content in a particular text element (which is selected on the plugin configuration page), it is further defined by a Search Query and Sequence elements (on the Add a Corpus page), producing an Item Pool. The Item Pool will be further refined by Validating the Items.
 
-
 ![A screenshot of the Corpora page with the green Add a Corpus button.](../doc_files/plugin_images/ngram-corpus-add.png)
 
-To create a corpus and start viewing ngrams, go to the Ngram tab on the left hand navigation of your Omeka admin dashboard. On the Browse Corpora page, click the green Add a Corpus button. 
+To create a corpus, go to the Ngram tab on the left hand navigation of your Omeka admin dashboard. On the Browse Corpora page, click the green Add a Corpus button. 
 
 On the Add a Corpus page, complete the following options:
 
@@ -49,16 +49,70 @@ On the Add a Corpus page, complete the following options:
 **Search Query**: A field in which you refine the contents of your corpus by inputting a search query. The best way to get this search query is to perform an advanced search of the items in your collection on the Admin side of your Omeka site. Then, copy and paste the entire URL of the results, after the part that reads admin/items/browse?
 
 **Sequence**: 
+If you use sequence, you will select from these sequence elements when viewing your corpus' text analysis (both NLU and MALLET). To conduct a text analysis on the entire corpus, *do not* use a sequence.
+
 - **Sequence Element**: select from elements but it should be something with numeric or date input. Items without the selected element field filled in (for instance, an item without a Date will not be included in the corpus). For best results, ensure consistency of metadata, and select a meaningful field.
 - **Sequence type**: choose from Date by Year, Date by Month, Date by Day, or Numeric Sequence Range. The field will prompt you with the proper format for the sequence if you choose a Date type. If numeric, make sure the format matches the numeric sequence of the elements you’re drawing from.
 
-**Note**: Date should be entered in the YearMonthDay format and should be entered as a range. (for instance, 20010101-20160101)
-
-**Note**: You do not have to have a sequence, but without one you cannot generate graphs. 
-
-**Note**: The Text Element box under the green Add Corpus button on the Add Corpus page. The Text Element was configured in the plugin panel. 
+**Notes**: 
+- Date should be entered in the YearMonthDay format and should be entered as a range. (for instance, 20010101-20160101)
 
 When you have completed adding your corpus, click the green Add Corpus button. 
 
 ![A screenshot of the Add Corpus screen with the fields described above.](../doc_files/plugin_images/ngram-addcorp.png)
 
+### Validate Corpus
+After the Corpus has been created you must validate items before you can generate ngrams and view frequencies. To do so, click the green Validate Items button on the right hand side (just below the Delete button).
+
+
+![A screenshot of the Manage Corpus buttons panel. A blue arrow highlights the Validate Items button.](../doc_files/plugin_images/ngram-val.png)
+
+This will take you to a new screen with three tabs: valid items, invalid items, and out of range items. 
+
+
+![A screenshot of the Validate Corpus Items tabs described above.](../doc_files/plugin_images/ngram-val-menu.png)
+
+**Valid items** are those items with sequence text that is readable to the plugin (See Figure 1). The table on this tab gives: 
+- the item number (a link to the item),
+- the text in the sequence element, and
+- Sequence member, or how it will be used in sequence by the plugin (Ex. when the sequence is “Date by Year” and the Sequence. 
+
+**Invalid items** have text in the sequence element which the plugin cannot parse (See Figure 2). However, you can click on the Item ID number to go in and edit the item to correct the element text. 
+
+**Out of range items** have text in their sequence element which is outside the range you set (See Figure 3). The table on this tab gives:
+- the item number (a link to the item), 
+- the text in the sequence element, and 
+- Sequence member, or how it will be used in sequence by the plugin (Ex. when the sequence is “Date by Year” and the Sequence 
+
+**Note**: to update the sequence text in these items, utilize the linked item number to modify each item. If you do not modify out of range items, they will not be included in the corpus.
+
+For ease of navigation, you may click to open a new tab for the invalid or out of range items you would like to modify. Refresh the list of valid and invalid items by reloading this page. Once you are done correcting invalid items, or the list of valid items looks correct, click the green Accept Valid Items button.
+
+**Note**: Once you click the Accept Valid Items button you will not be able to reconfigure the item pool or reset the body of valid items
+
+Valid Items (Figure 1)
+
+![A screenshot of the Validate Corpus Items page with the Valid Items tab selected. Text at the top of the screen instructs users to review and edit the items before clicking to Accept Valid Items. Below is a table of the Valid items with the content described above.](../doc_files/plugin_images/ngram-val-valid.png)
+
+Invalid Items (Figure 2)
+
+![A screenshot of the Validate Corpus Items page with the Invalid Items tab selected. Text at the top of the screen instructs users to review and edit the items before clicking to Accept Valid Items. Below there are no invalid items to display.](../doc_files/plugin_images/ngram-val-invalid.png)
+
+Out of Range Items (Figure 3)
+
+![A screenshot of the Validate Corpus Items page with the Out of Range Items tab selected. Text at the top of the screen instructs users to review and edit the items before clicking to Accept Valid Items. Below is a table of the Out of Range items with the content described above.](../doc_files/plugin_images/ngram-val-out.png)
+
+**Note**: After you have validated your items, the Item Counts pane will update to provide a count of the number of items in your corpus.
+
+![A screenshot of the small Item Counts window. Text reads Item Counts, Pool: 6004, Corpus: 6000.](../doc_files/plugin_images/ngram-corpvalid-itemcount.png)
+
+## Using Text Analysis
+
+Once you have created at least one corpus, navigate to the Text Analysis tab in the left-hand navigation of your dashboard. 
+
+### Analyze a corpus
+
+To analyze one of your existing corpora, click the green *Analyze a corpus* button on the Text Analysis page.
+
+On the page which loads:
+1. Select a corpus generate with the Ngram plugin to analyzed. 
