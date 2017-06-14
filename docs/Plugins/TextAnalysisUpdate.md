@@ -64,11 +64,9 @@ When you have completed adding your corpus, click the green Add Corpus button.
 ### Validate Corpus
 After the Corpus has been created you must validate items before you can generate ngrams and view frequencies. To do so, click the green Validate Items button on the right hand side (just below the Delete button).
 
-
 ![A screenshot of the Manage Corpus buttons panel. A blue arrow highlights the Validate Items button.](../doc_files/plugin_images/ngram-val.png)
 
 This will take you to a new screen with three tabs: valid items, invalid items, and out of range items. 
-
 
 ![A screenshot of the Validate Corpus Items tabs described above.](../doc_files/plugin_images/ngram-val-menu.png)
 
@@ -115,4 +113,52 @@ Once you have created at least one corpus, navigate to the Text Analysis tab in 
 To analyze one of your existing corpora, click the green *Analyze a corpus* button on the Text Analysis page.
 
 On the page which loads:
-1. Select a corpus generate with the Ngram plugin to analyzed. 
+1. *Corpus*: Select a corpus generate with the Ngram plugin to analyzed from a dropdown menu of your Omeka site's existing corpora. Note that corpora cannot be analyzed until they have been validated.
+2. *Features*: Using checkboxes, select which sorts of analysis you want to run on the corpus. For NLU you can select Entities, Keywords, Categories and Concepts. MALLET has a single checkbox.
+3. *Item Cost Only?* Check this box to get an estimated cost of running NLU features on the selected corpus.
+4. *Stopwords* (MALLET): If you want to add stopwords for MALLET, enter whitespaced-separated words in this text box. The (list of default stopwords for MALLET)[https://github.com/mimno/Mallet/blob/master/stoplists/en.txt] includes most common English-language stopwords. Note that carriage returns will count as whitespace in this field, should you need to copy and paste a list of stopwords.
+
+Once you have configured these settings, click the green *Analyze Corpus* button.
+
+Once you have clicked the button, you will return to the main page for the Text Analysis plugin tab. The page will display the message "Analyzing the corpus. This may take some time. Feel free to navigate away from this page and close your browser. Refresh this page to see if the process is complete."  Corpora which are being processed will show up in the table of corpora with the Process status "In Progress"
+
+### View analysis
+
+Once you have analyzed at least one corpus, the Text Analysis page will display a table of analyzed corpora with the following columns:  
+- *Name*: name of the corpus. Includes a delete button to remove this analysis.
+- *Process*: will either display as "In Progress" or "Complete"
+- *NLU Analysis*: Once the process is complete, the NLU Analysis column will display one or more of the following:
+		- the item cost; 
+		- either a dropdown to view analysis by sequence element (set in the corpus) or a link to *view* if there was no sequence element;
+		- if you selected "Item Cost Only", this column will only display the cost of the running the processes.
+- *MALLET Topic Model* Once the process if complete, the MALLET Topic Model column will display either a dropdown to view topic models by sequence element (set in the corpus) or a link to *view* if there was no sequence element.
+
+To view analysis, click view or select from the dropdown for MALLET or NLU. 
+
+#### NLU Analysis
+Viewing the NLU Analysis will present you with the following tabs, most of which correspond to various [AlchemyLanguage features](http://www.alchemyapi.com/products/alchemylanguage):
+
+*Overview*: which summarizes the item and element analyzed, the word count for the element along with number of Unique words, the character count, text size, and the full text of the element being analyzed.
+![Overview for sample item](../doc_files/plugin_images/textanalysis_overview.png)
+
+*Frequencies* is a table with each word, the total count within the element, and the relative frequency of the word in relation to the total word count. 
+![Frequencies for Pride and Prejudice text sample](../doc_files/plugin_images/textanalysis_freq.png)
+
+*Entities* displays a table of named entities in the text, with columns for entity, type, sentiment, count, and relevance. When possible, entites are linked to external sources including maps, [DBpedia](http://wiki.dbpedia.org/about), and the official website if it can be determined.
+
+![Entities table for Pride and Prejudice text sample](../doc_files/plugin_images/textanalysis_ent1.png)
+![Example of an entity with external links](../doc_files/plugin_images/textanalysis_ent2.png)
+
+*Taxonomy* applies the AlchemyAPI [taxonomy](http://www.alchemyapi.com/products/alchemylanguage/taxonomy) grouping labels to your content, with a confidence marker and a score. 
+
+![Taxonomy of Pride and Prejudice text sample](../doc_files/plugin_images/textanalysis_tax.png)
+
+*Concepts* are given in a table with the concept and relevance; the words and phrases are generated by computation extraction and may not be referenced in the text. For more on how concepts work, see [the documentation from AlchemyAPI](http://www.alchemyapi.com/products/alchemylanguage/concept-tagging). 
+
+![Concepts related to Pride and Prejudice text sample](../doc_files/plugin_images/textanalysis_concept.png)
+
+*Keywords* include keywords, the associated sentiment based on context, and relevance in the overall text sample.
+
+![Keywords]((../doc_files/plugin_images/textanalysis_kw.png)
+
+#### MALLET Analysis
