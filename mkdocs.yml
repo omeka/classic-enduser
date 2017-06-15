@@ -3,16 +3,24 @@ theme: 'readthedocs'
 site_dir: 'html'
 pages:
     - Home: index.md
-    - About Omeka:
+    - Getting Started:
+        - 'Site Planning Tips'
         - 'Accessibility Statement': 'Accessibility_Statement.md'
-    - Project Planning:
         - 'Project Planning': 'GettingStarted/Project_Planning.md'
         - 'Hosting Suggestions': 'GettingStarted/Hosting_Suggestions.md'
-    - Getting Started: 
+        - 'How you might use Omeka'
+    - Installing:
         - 'System Requirements': 'Installation/System_Requirements.md'
-        - 'Hosting Suggestions': 'GettingStarted/Hosting_Suggestions.md'
         - 'Preparing to Install': 'Installation/Preparing_to_Install.md'
         - 'Installing': 'Installation/Installation.md'
+        - 'Upgrading'
+        - 'Configuring Language'
+    - Content:
+        - 'Items' 
+        - 'Files'
+        - 'Working with Dublin Core'
+        - 'Using the HTML editor'
+        
     - Plugins:
         - 'Working with Plugins': 'Adding_and_Managing_Plugins.md'
         - 'Plugin Shortcodes': 'Plugins/Plugin_Shortcodes.md'

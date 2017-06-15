@@ -15,7 +15,7 @@ The following documentation is primarily for Omeka Classic  versions 2.0 and hig
 - [Site Planning tips](/Site_Planning_Tips.md)
 - [How you might use Omeka](/How_Might_You_Use_Omeka.md)
 - [Using Omeka Classic with other tools and platforms](/Using_Omeka_with_Other_Tools_and_Platforms.md)
-- [Project Planning Cast Studies](/Project_Planning_Case_Studies.md)
+- [Project Planning Case Studies](/Project_Planning_Case_Studies.md)
 
 ### Getting started with Omeka Classic
 - [System Requirements](/System_Requirements.md)
