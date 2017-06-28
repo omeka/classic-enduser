@@ -113,10 +113,10 @@ Once you have created at least one corpus, navigate to the Text Analysis tab in 
 To analyze one of your existing corpora, click the green *Analyze a corpus* button on the Text Analysis page.
 
 On the page which loads:
-1. *Corpus*: Select a corpus generate with the Ngram plugin to analyzed from a dropdown menu of your Omeka site's existing corpora. Note that corpora cannot be analyzed until they have been validated.
+1. *Corpus*: Select a corpus (generated with the Ngram plugin) to analyze from a dropdown menu of your Omeka site's existing corpora. Note that corpora cannot be analyzed until they have been validated.
 2. *Features*: Using checkboxes, select which sorts of analysis you want to run on the corpus. For NLU you can select Entities, Keywords, Categories and Concepts. MALLET has a single checkbox.
 3. *Item Cost Only?* Check this box to get an estimated cost of running NLU features on the selected corpus.
-4. *Stopwords* (MALLET): If you want to add stopwords for MALLET, enter whitespaced-separated words in this text box. The (list of default stopwords for MALLET)[https://github.com/mimno/Mallet/blob/master/stoplists/en.txt] includes most common English-language stopwords. Note that carriage returns will count as whitespace in this field, should you need to copy and paste a list of stopwords.
+4. *Stopwords* (MALLET): If you want to add stopwords for MALLET, enter whitespaced-separated words in this text box. The [list of default stopwords for MALLET](https://github.com/mimno/Mallet/blob/master/stoplists/en.txt) includes most common English-language stopwords. Note that carriage returns will count as whitespace in this field, should you need to copy and paste a list of stopwords.
 
 Once you have configured these settings, click the green *Analyze Corpus* button.
 
@@ -131,7 +131,7 @@ Once you have analyzed at least one corpus, the Text Analysis page will display 
 		- the item cost; 
 		- either a dropdown to view analysis by sequence element (set in the corpus) or a link to *view* if there was no sequence element;
 		- if you selected "Item Cost Only", this column will only display the cost of the running the processes.
-- *MALLET Topic Model* Once the process if complete, the MALLET Topic Model column will display either a dropdown to view topic models by sequence element (set in the corpus) or a link to *view* if there was no sequence element.
+- *MALLET Topic Model*: Once the process if complete, the MALLET Topic Model column will display either a dropdown to view topic models by sequence element (set in the corpus) or a link to *view* if there was no sequence element.
 
 To view analysis, click view or select from the dropdown for MALLET or NLU. 
 
