@@ -54,7 +54,7 @@ If you use sequence, you will select from these sequence elements when viewing y
 - **Sequence Element**: select from elements but it should be something with numeric or date input. Items without the selected element field filled in (for instance, an item without a Date will not be included in the corpus). For best results, ensure consistency of metadata, and select a meaningful field.
 - **Sequence type**: choose from Date by Year, Date by Month, Date by Day, or Numeric Sequence Range. The field will prompt you with the proper format for the sequence if you choose a Date type. If numeric, make sure the format matches the numeric sequence of the elements you’re drawing from.
 
-**Notes**: 
+**Note**: 
 - Date should be entered in the YearMonthDay format and should be entered as a range. (for instance, 20010101-20160101)
 
 When you have completed adding your corpus, click the green Add Corpus button. 
