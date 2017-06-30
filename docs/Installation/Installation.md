@@ -8,6 +8,27 @@ Before installing, check to make sure your server meets the [system requirements
 
 Instructions for installing Omeka on several Linux distributions, including Fedora, OpenSuse, and Ubuntu can be found on the [Preparing to Install](/Preparing_to_Install.md) page.
 
+## Preparing to Install
+
+
+Before installing Omeka, make sure your web server meets our basic [system requirements](/System_Requirements.md). These are standard requirements that are available by most web hosting services. Once these system requirements are met, all you need to do is install the Omeka software:
+
+### Preparing Your System
+
+Instructions for preparing different Linux distributions to host your own deployment are included below:
+
+-   [Install on Fedora](/reference/Install_on_Fedora.md)
+-   [Install on OpenSUSE](/reference/Install_on_OpenSUSE.md)
+
+### Upgrading Your System
+
+If you need to upgrade your server to meet any of the Omeka system requirements, consult these resources:
+
+-   [Upgrading Apache](http://httpd.apache.org/docs/2.0/upgrading.html)
+-   [Upgrading PHP](http://www.php.net/manual/en/migration5.php)
+-   [Upgrading MySQL](http://www.mysql.org/doc/refman/5.1/en/upgrade.html)
+-   [Installing ImageMagick](http://www.imagemagick.org/script/install-source.php)
+
 7 Easy Steps for Installing with LAMP server setup 
 -----------
 Note: If you are doing a One-Click install from Dreamhost, you must edit the `db.ini` file in the Omeka directory (see 3 below).
