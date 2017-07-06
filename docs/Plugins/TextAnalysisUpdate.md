@@ -176,7 +176,7 @@ All topics load on a single page. At the top of the page is an option to navigat
 
 Topics are displayed in order of occurrence, highest first. Each topic will display with its percentage and a cluster of words found in that topic. 
 
-![The first three topics for an analysis of the Sherlock Holmes short stories. Because there is no sequence element, the top navigation option displays as n/a.](../doc_files/plugin_images/ta_mallet_page.png)
+![The first three topics for an analysis of the Sherlock Holmes short stories. Because there is no sequence element, the top navigation option displays as n/a.](../doc_files/plugin_images/ta_mallet.png)
 
 ### Interpreting analyses
 For help interpreting Natural Langauge analysis:
