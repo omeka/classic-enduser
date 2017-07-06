@@ -112,6 +112,8 @@ Once you have created at least one corpus, navigate to the Text Analysis tab in 
 
 To analyze one of your existing corpora, click the green *Analyze a corpus* button on the Text Analysis page.
 
+![Blank Text Analysis analyze a corpus page with no data entered in the fields. Options are as described below](../doc_files/plugin_images/ta_analyzesettings.png)
+
 On the page which loads:
 1. *Corpus*: Select a corpus (generated with the Ngram plugin) to analyze from a dropdown menu of your Omeka site's existing corpora. Note that corpora cannot be analyzed until they have been validated.
 2. *Features*: Using checkboxes, select which sorts of analysis you want to run on the corpus. For NLU you can select Entities, Keywords, Categories and Concepts. MALLET has a single checkbox.
@@ -121,6 +123,8 @@ On the page which loads:
 Once you have configured these settings, click the green *Analyze Corpus* button.
 
 Once you have clicked the button, you will return to the main page for the Text Analysis plugin tab. The page will display the message "Analyzing the corpus. This may take some time. Feel free to navigate away from this page and close your browser. Refresh this page to see if the process is complete."  Corpora which are being processed will show up in the table of corpora with the Process status "In Progress"
+
+![Text analysis plugin tab with a red arrow pointing to the message In Progress for the corpus 'Short Stories no year'](../doc_files/plugin_images/ta_inprogress.png)
 
 ### View analysis
 
@@ -132,6 +136,8 @@ Once you have analyzed at least one corpus, the Text Analysis page will display 
 		- either a dropdown to view analysis by sequence element (set in the corpus) or a link to *view* if there was no sequence element;
 		- if you selected "Item Cost Only", this column will only display the cost of the running the processes.
 - *MALLET Topic Model*: Once the process if complete, the MALLET Topic Model column will display either a dropdown to view topic models by sequence element (set in the corpus) or a link to *view* if there was no sequence element.
+
+![Table of analyzed corpora with columns as described. The corpora are Doyle short stories with both NLU and Mallet analysis, Sherlock Holmes with only NLU analysis, Short Stories no year with only Mallet analysis, and Testing with only an estimate for NLU costs.](../doc_files/plugin_images/ta_table)
 
 To view analysis, click view or select from the dropdown for MALLET or NLU. 
 
