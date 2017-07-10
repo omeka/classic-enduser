@@ -177,10 +177,3 @@ All topics load on a single page. At the top of the page is an option to navigat
 Regardless of the size of the corpus (whether your corpus has 50 or 500 items), ten topics will be generated. Topics are displayed in order of occurrence, highest first. Each topic will display with its percentage and a cluster of words found in that topic. In this instance, percentage refers to the percentage of the sequence assigned to a given topic, or how relevant each topic is to the sequence. Each topic also comes with a line graph in order to enable users to visualize the percentage for that topic. Please note that not all topics will add up to 100%, as percentages are rounded up to the nearest whole number. 
 
 ![The first three topics for an analysis of the Sherlock Holmes short stories. Because there is no sequence element, the top navigation option displays as n/a.](../doc_files/plugin_images/ta_mallet.png)
-
-### Interpreting analyses
-For help interpreting Natural Langauge analysis:
-
-Further reading on topic modeling and MALLET:
-
-Common English stopwords already excluded from MALLET analysis: https://github.com/mimno/Mallet/blob/master/stoplists/en.txt
