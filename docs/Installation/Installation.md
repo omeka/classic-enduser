@@ -39,7 +39,7 @@ If you want to use Omeka in a language other than English, you will need to conf
     -   The extracted (uncompressed) directory will have a name similar to 'omeka' that includes the version number.
     -   Users familiar with git might want to clone the code from [our public GitHub repository](http://github.com/omeka/Omeka).
 
-1. In the resulting directory, find and open your [database configuration file](/Database_Configuration_File.md), which is named `db.ini`. **Replace the 'XXXXX' values in the db.ini file** with your database host, username, password, and database name.
+1. In the resulting directory, find and open your database configuration file, which is named `db.ini`. **Replace the 'XXXXX' values in the db.ini file** with your database host, username, password, and database name.
     -   You can edit the `db.ini` file with a text editor such as Notepad for Windows or TextEdit for Mac. Be sure to save the file as plain text and keep the name `db.ini`.
     -   You do not need to change values for `prefix` and `port` in the db.ini file.
 
@@ -55,7 +55,7 @@ If you want to use Omeka in a language other than English, you will need to conf
     -   If you renamed the omeka directory 'project' and put it in the top-most directory of your site, for instance, the URL to visit would be `http://mydomain.org/project`.
 
 7.  **Complete the installation form** by filling out the required fields, including the name of your Omeka site, email address, and username/password of the super user (the super user account controls the entire website).
-    -   You can change these settings in [General Settings](/Managing_General_Settings_2.md) once the installation is complete.
+    -   You can change these settings in [General Settings](../Admin/Settings/General_Settings.md) once the installation is complete.
     -   You can leave fields that are already filled in as they are; you do not need to change the values.
 
 If the installation was **successful,** you'll see a screen with links to view the live site or to log in with the superuser's username and password to the administrative panel at `http://mydomain.org/admin`. Congratulations!
@@ -67,4 +67,4 @@ If your installation was **unsuccessful,** try these steps:
 -   If your installation is still unsuccessful, try deleting the entire omeka directory from your server and reuploading it. One or more files might have failed to upload.
 -   If the installation is apparently successful, but you are unable to upload items through the admin interface, make sure that you correctly followed the instructions in Step 4 above. Your web server *must* have write access to the 'archive' directory for you to upload files.
 -   If the installation is successful, but you are getting "File not found" errors when you navigate to addresses such as `http://mydomain.org/admin`, you probably have a conflict with another CMS such as WordPress on the same server. To fix this issue, you probably need to enable the "RewriteBase" line in your `.htaccess` file.
--   If you still have trouble, please consult the [Troubleshooting Omeka](/Troubleshooting_Omeka_2.md) page or post your issue on the [forums](http://forum.omeka.org).
+-   If you still have trouble, please consult the [Troubleshooting Omeka](../Troubleshooting_Omeka.md) page or post your issue on the [forums](http://forum.omeka.org).

@@ -6,7 +6,6 @@ pages:
     - Getting Started:
         - 'Site Planning Tips': 'GettingStarted/Site_Planning_Tips.md'
         - 'Examples and Case Studies': 'GettingStarted/UsingOmeka.md'
-        - 'Project Planning': 'GettingStarted/Project_Planning.md'
         - 'Hosting Suggestions': 'GettingStarted/Hosting_Suggestions.md'
         - 'Feature List': 'GettingStarted/Feature_List.md'
         - 'Accessibility Statement': 'GettingStarted/Accessibility_Statement.md'
@@ -22,7 +21,7 @@ pages:
         - 'Files': 'Content/Files.md'
         - 'Working with Dublin Core': 'Content/Working_with_Dublin_Core.md'
         - 'Using the HTML editor': 'Content/Using_HTML_Editor-TinyMCE.md'
-        - 'Item Types': 'Content/Managing_Item_Types.md'
+        - 'Item Types': 'Content/Item_Types.md'
         - 'Collections': 'Content/Collections.md'
         - 'Tags': 'Content/Tags.md'
         - 'Shortcodes': 'Content/Shortcodes.md'

@@ -2,6 +2,7 @@
 title: System Requirements
 ---
 Omeka Classic version 2.4 has the following system requirements:
+
 -   Linux operating system
     -   [Server configuration](/Server_configuration.md) suggestions
 -   [Apache](http://www.apache.org/) HTTP server (with `mod_rewrite` enabled)
@@ -12,4 +13,4 @@ Omeka Classic version 2.4 has the following system requirements:
 
 ## If your server does not meet these requirements
 -   Try [Omeka.net](http://omeka.net) hosting
--   Try third-party hosting services, here are some [suggestions](http://omeka.org/codex/Hosting_Suggestions).
+-   Try third-party hosting services, here are some [suggestions](../GettingStarted/Hosting_Suggestions.md).

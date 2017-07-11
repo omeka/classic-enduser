@@ -19,11 +19,8 @@ First, add an image annotation block:
 
 Next, add an image to the block by clicking the Add Item button. Select from the image files in your site, just as you would adding content to any exhibit page block.  
 
-<<<<<<< HEAD
 ![a red arrow points to the Add Item button, represented by a large brown plus sign with the text "Add Item" under it]( eximageanno_additem.png)
 
-=======
->>>>>>> master
 Please note that each Image Annotation block can only have a single image, but you can put multiple blocks on a page.
 
 Once you have selected an image, open the section of the block labeled *Annotate Image* (you may need to click the small triangle on the right hand side of the header bar to do this). 
