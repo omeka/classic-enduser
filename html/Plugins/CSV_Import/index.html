@@ -1,0 +1,902 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>CSV Import - Omeka Classic User Manual</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/highlight.css">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "CSV Import";
+    var mkdocs_page_input_path = "Plugins/CSV_Import.md";
+    var mkdocs_page_url = "/Plugins/CSV_Import/";
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js"></script>
+  <script src="../../js/modernizr-2.8.3.min.js"></script>
+  <script type="text/javascript" src="../../js/highlight.pack.js"></script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> Omeka Classic User Manual</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../..">Home</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>Getting Started</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../GettingStarted/Site_Planning_Tips/">Site Planning Tips</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../GettingStarted/UsingOmeka/">Examples and Case Studies</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../GettingStarted/Project_Planning/">Project Planning</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../GettingStarted/Hosting_Suggestions/">Hosting Suggestions</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../GettingStarted/Feature_List/">Feature List</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../GettingStarted/Accessibility_Statement/">Accessibility Statement</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../GettingStarted/Screencasts/">Screencasts</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../GettingStarted/Searching/">Searching</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>Installing</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Installation/System_Requirements/">System Requirements</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Installation/Installation/">Installing</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Installation/Upgrading/">Upgrading</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Installation/Configuring_Language/">Configuring Language</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>Content</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Content/Items/">Items</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Content/Files/">Files</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Content/Working_with_Dublin_Core/">Working with Dublin Core</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Content/Using_HTML_Editor-TinyMCE/">Using the HTML editor</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Content/Managing_Item_Types/">Item Types</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Content/Collections/">Collections</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Content/Tags/">Tags</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Content/Shortcodes/">Shortcodes</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>Administration</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Admin/Adding_and_Managing_Plugins/">Working with Plugins</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../Plugin_Shortcodes/">Plugin Shortcodes</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Admin/Appearance/themes/">Themes</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Admin/Appearance/Navigation/">Navigation</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Admin/Appearance/Appearance_Settings/">Appearance Settings</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Admin/Users/Users/">Users</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Admin/Settings/General_Settings/">General Settings</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Admin/Settings/Security_Settings/">Security Settings</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Admin/Settings/Search_Settings/">Search Settings</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Admin/Settings/Element_Sets/">Element Sets</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Admin/Settings/Item_Type_Elements/">Item Type Elements</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Admin/Settings/API_Settings/">API Settings</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Admin/Settings/ReCaptcha/">ReCaptcha</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>Plugins</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../Coins/">Coins</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../CollectionTree/">Collection Tree</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../Commenting/">Commenting</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../Contribution/">Contribution</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../CSS_Editor/">CSS Editor</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 current">
+        <a class="current" href="./">CSV Import</a>
+        
+            <ul>
+            
+                <li class="toctree-l3"><a href="#preparing-for-csv-import">Preparing for CSV Import</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#importing">Importing</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#undo-an-import">Undo an Import</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#troubleshooting">Troubleshooting</a></li>
+                
+            
+            </ul>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../DerivativeImages/">Derivative Images</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../DocsViewer/">DocsViewer</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../Dropbox/">Dropbox</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../DublinCoreExtended/">Dublin Core Extended</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../Editorial/">Editorial</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../EmbedCodes/">Embed Codes</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../ExhibitBuilder/">Exhibit Builder</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../ExhibitImageAnnotation/">Exhibit Image Annotation</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../Geolocation/">Geolocation</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../GuestUser/">Guest User</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../ItemOrder/">Item Order</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../ItemRelations/">Item Relations</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../Library_of_Congress_Suggest/">Library of Congress Suggest</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../Ngram/">Ngram</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../OaipmhHarvester/">OAI-PMH Harvester</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../OaiPmhRepository/">OAI-PMH Repository</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../Omeka_API_Import/">Omeka API Import</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../PdfText/">PDF Text</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../Posters/">Posters</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../RecordRelations/">Record Relations</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../RedactElements/">Redact Elements</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../Reports/">Reports</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../Scripto/">Scripto</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../SearchByMetadata/">Search by Metadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../ShortcodeCarousel/">Shortcode Carousel</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../SimpleContactForm/">Simple Contact Form</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../SimplePages/">Simple Pages</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../SimpleVocab/">Simple Vocab</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../SocialBookmarking/">Social Bookmarking</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../Text_Analysis2/">Text Analysis</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../TextAnnotation/">Text Annotation</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../UserProfiles/">User Profiles</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../VRACore/">VRA Core</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../ZoomIt/">Zoom It</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../ZoteroImport/">Zotero Import</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>Troubleshooting</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Troubleshooting/Troubleshooting_Omeka/">Troubleshooting</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Troubleshooting/Retrieving_Error_Messages/">Retrieving Error Messages</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>Technical</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Technical/Adding_LightBox_to_Omeka/">Adding Lightbox to Omeka</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Technical/Backing_up_an_Omeka_Database/">Backing up an Omeka database</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Technical/ConfiguringThumbnailCreation/">Configuring Thumbnail Creation</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Technical/Moving_to_Another_Server/">Moving to Another Server</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Technical/Setting_Directory_Permissions/">Setting Directory Permissions</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Technical/Output_Formats/">Output Formats</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Technical/Contribute_Code_to_Omeka/">Contribute Code to Omeka</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Technical/Translate_Omeka/">Translate Omeka</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Technical/Contributed_API_clients/">Contributed API Clients</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Technical/Harvestable_Omeka_OAI_sets/">Harvestable Omeka OAI-PMH sets</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Technical/Legacy_Add-Ons/">Legacy Add-ons</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Technical/Adding_LightBox_to_Omeka/">Adding Lightbox to Omeka</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Technical/Using_Omeka_with_Other_Tools_and_Platforms/">Using Omeka with other tools and platforms</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">Omeka Classic User Manual</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>Plugins &raquo;</li>
+        
+      
+    
+    <li>CSV Import</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <p>The CSV Import plugin allows users to import items from a simple CSV (comma-separated values) file, and then map the CSV column data to multiple elements, files, and/or tags. Each row in the file represents metadata for a single item.</p>
+<p>When using this plugin, if you plan to map to specific Item Type metadata fields, then you may only import one item type (document, still image, sound, et al) at a time. You may perform multiple imports.</p>
+<p>The plugin has the following features:</p>
+<ul>
+<li>File importing: If you specify permanent file URLs in a column, the importer will download and attach a file to each created item. NB: file import only works for files hosted and publicly available online; you cannot import files from a local source (ie, your computer) or from a password-protected location.</li>
+<li>Tag imports: You may include tags in your CSV file and those words will be imported as tags.</li>
+<li>Undo Imports: The Undo option lets you delete all the files added in an import.</li>
+<li>Set custom delimiters: you now have the option to set separate delimiters for columns, files, tags, and elements.</li>
+</ul>
+<h2 id="preparing-for-csv-import">Preparing for CSV Import</h2>
+<p>The best option is usually to use spreadsheet software (Excel, Google Sheets, Numbers) to create and organize your data. Both of these programs can export a spreadsheet into CSV format, and will handle all the necessary escaping and quoting for you.</p>
+<p>However, if you're creating or editing your data by hand, there are a few things to keep in mind:</p>
+<ul>
+<li>You will need to normalize your data before importing. Check to be sure that the first row of your CSV file contains column names, and that every row has the same number of columns.</li>
+<li>Check to see if any of the text contains commas, and if it does surround that segment with double-quotes. Many spreadsheet programs will do this for you automatically. If you are using a spreadsheet program, check the CSV that is exported by opening it in a plain text editor to see if the double-quotes are being added automatically.</li>
+<li>You can specify a unique delimiter for columns, files, tags, and elements. Once you do, be sure to be consistent in formatting.</li>
+<li>Remember, every row represents one item, and all items in the file must be the same item type.</li>
+<li>Look over the Dublin Core and <a href="../Managing_Item_Types.md">Item Type</a> metadata to be sure you can easily map the fields in your CSV file to the Omeka installation. Make any modifications in fields or types as necessary.</li>
+<li>It is possible to import files housed in a digital repository by adding the URL to that specific file in a column representing a file. You may import more than one file per item, by comma separating the urls within a cell. You must use a permanent link for this step.</li>
+</ul>
+<h2 id="importing">Importing</h2>
+<p>A quick note about CSV formats and importing: The column delimiter is the basic building block of the CSV file, and it is a comma by default.</p>
+<p>Each of the remaining delimiter inputs simply accepts a character that's used to separate multiple values within one "cell" of the CSV.</p>
+<p>If you are placing multiple values in single cells, the character you're using to separate those values is the delimiter. The plugin allows you to specify different delimiters for cells that contain tags, links to files, or normal element data.</p>
+<p>To import, go to the CSV Import tab in the left navigation bar in the admin Dashboard.</p>
+<p><strong>Step 1: Select File and Item Settings</strong>
+- Select a CSV file from your computer using the <em>Choose File</em> button.
+- If using an export from an Omeka CSV report, click the next checkbox, which will override all of the following options. 
+- You can use <em>Automap Column Names to Elements</em> if you have formatted your column names as follows: "ElementSetName:ElementSet", for example DublinCore:Title.
+- <em>Select Item Type</em> of the sheet to be imported. NB you can only import one item type at a time. 
+- You can also <em>Select Collection</em> to which to add the imported items.
+- There are two checkboxes to make all of the imported items <em>Public</em> and/or <em>Featured</em></p>
+<p><img alt="Basic import settings" src="../../doc_files/plugin_images/CSV1.png" /></p>
+<p><img alt="Alternate character settings" src="../../doc_files/plugin_images/CSV2.png" /></p>
+<ul>
+<li>The next four fields are for those who are not using a standard csv for their data:<ul>
+<li>If you are not using commas to separate your columns, enter the character you are using instead in the <em>Choose Column Delimiter</em> . Note: You may not use a tab or an empty space.</li>
+<li>If you have used a character other than a comma to separate tags within individual cells in your CSV file, you must indicate that in the <em>Choose Tag Delimiter</em> field. Note: You may not use a tab or an empty space.</li>
+<li>If you have used a character other than a comma to separate multiple URLs within a cell (if you are importing items from an outside repository, for example), indicate that in the <em>Choose File Delimiter</em> field. Note: You may not use a tab or an empty space.</li>
+<li>If any of your metadata fields has more than one element (if your item has more than one creator, for example), please tell the plugin what character you used to separate the elements. If you have more than one element in a a field but leave this blank, the plugin will treat the entire text block as one element. Note: You may not use a tab or an empty space.</li>
+</ul>
+</li>
+</ul>
+<p>Click the <em>Next</em> button once you have filled out the above options to your satisfaction. </p>
+<p><strong>Step 2: Map Columns to Elements, Tags, or Files</strong>
+On this next screen, you will see a table which includes each of the Dublin Core fields in Omeka, the text from your CSV file that is designated for that field. The "Example from CSV file" column in the table shows the data from the first row of data in your CSV, after the column headings. </p>
+<p>For each row in the table (which corresponds to a column in your original CSV) you have the following options: 
+-  <em>Map to Element</em>: Select an element (all of your element sets should be represented) to which to map the column.
+- Click the <em>Use HTML</em> checkbox if this data includes HTML markup.
+- Click the <em>Tags?</em> checkbox (and do not map to an element) to map this data as <a href="../Managing_Tags.md">tags</a>
+- Click the <em>Files?</em> to map this data as a <a href="../Managing_Files.md">file</a> import. </p>
+<p><img alt="Mapping elements" src="../../doc_files/plugin_images/CSV3.png" /></p>
+<p>Click the Import CSV File button to complete the import.</p>
+<p>You may check on the progress of your import using the Status tab.</p>
+<h2 id="undo-an-import">Undo an Import</h2>
+<p>To undo an import:
+-   Click on the CSV Import administrative tab.
+-   Click the Status tab.
+-   Click the Undo link for the Import you want to undo. This will delete all items for this import.</p>
+<p><img alt="CSVUndo.png" src="../../doc_files/plugin_images/CSVUndo.png" /></p>
+<p>If your import hangs without completing for an extended period but the link to undo the import does not appear, you can enter the link directly into your browser address bar according to the following example: <code>http://yourinstallurl/admin/csv-import/index/undo-import/id/idnumberforimport</code></p>
+<p>For example, if your Omeka instance was at the root of example.com and this was your 3rd CSV import, you would use
+<code>http://example.com/admin/csv-import/index/undo-import/id/3</code>. You can hover over the links for previous or subsequent imports to deduce the Import ID.</p>
+<h2 id="troubleshooting">Troubleshooting</h2>
+<p>If you are having trouble with a CSV consistently not importing, try checking for these common issues:
+- Are your file links readable? Try copying and pasting them into the address bar of a browser to see if the link resolves with a file. If it does not, then that may be the issue.
+- Check the encoding on your CSV file. It should be UTF-8
+- Open your CSV file with a different program than the one you created it with and make sure that every row has the same number of columns.
+- Open your CSV file in a text editor and ensure that text blocks are contained in double quotes.</p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../DerivativeImages/" class="btn btn-neutral float-right" title="Derivative Images">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../CSS_Editor/" class="btn btn-neutral" title="CSS Editor"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+	  
+        </div>
+      </div>
+
+    </section>
+    
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../CSS_Editor/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../DerivativeImages/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script src="../../js/theme.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>Items - Omeka Classic User Manual</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/highlight.css">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Items";
+    var mkdocs_page_input_path = "Content/Items.md";
+    var mkdocs_page_url = "/Content/Items/";
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js"></script>
+  <script src="../../js/modernizr-2.8.3.min.js"></script>
+  <script type="text/javascript" src="../../js/highlight.pack.js"></script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> Omeka Classic User Manual</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../..">Home</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>Getting Started</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../GettingStarted/Site_Planning_Tips/">Site Planning Tips</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../GettingStarted/UsingOmeka/">Examples and Case Studies</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../GettingStarted/Project_Planning/">Project Planning</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../GettingStarted/Hosting_Suggestions/">Hosting Suggestions</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../GettingStarted/Feature_List/">Feature List</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../GettingStarted/Accessibility_Statement/">Accessibility Statement</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../GettingStarted/Screencasts/">Screencasts</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../GettingStarted/Searching/">Searching</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>Installing</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Installation/System_Requirements/">System Requirements</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Installation/Installation/">Installing</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Installation/Upgrading/">Upgrading</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Installation/Configuring_Language/">Configuring Language</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>Content</span></li>
+
+        
+            
+    <li class="toctree-l1 current">
+        <a class="current" href="./">Items</a>
+        
+            <ul>
+            
+                <li class="toctree-l3"><a href="#before-adding-items">Before Adding Items</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#add-an-item">Add an Item</a></li>
+                
+                    <li><a class="toctree-l4" href="#using-html-in-item-elements">Using HTML in Item Elements</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#properties-of-items">Properties of Items</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#browse-items-in-admin">Browse Items in Admin</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#edit-an-item">Edit an Item</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#delete-an-item">Delete an Item</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#batch-editing-deleting">Batch Editing &amp; Deleting</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#output-formats">Output Formats</a></li>
+                
+            
+            </ul>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../Files/">Files</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../Working_with_Dublin_Core/">Working with Dublin Core</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../Using_HTML_Editor-TinyMCE/">Using the HTML editor</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../Managing_Item_Types/">Item Types</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../Collections/">Collections</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../Tags/">Tags</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../Shortcodes/">Shortcodes</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>Administration</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Admin/Adding_and_Managing_Plugins/">Working with Plugins</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Plugins/Plugin_Shortcodes/">Plugin Shortcodes</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Admin/Appearance/themes/">Themes</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Admin/Appearance/Navigation/">Navigation</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Admin/Appearance/Appearance_Settings/">Appearance Settings</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Admin/Users/Users/">Users</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Admin/Settings/General_Settings/">General Settings</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Admin/Settings/Security_Settings/">Security Settings</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Admin/Settings/Search_Settings/">Search Settings</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Admin/Settings/Element_Sets/">Element Sets</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Admin/Settings/Item_Type_Elements/">Item Type Elements</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Admin/Settings/API_Settings/">API Settings</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Admin/Settings/ReCaptcha/">ReCaptcha</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>Plugins</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Plugins/Coins/">Coins</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Plugins/CollectionTree/">Collection Tree</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Plugins/Commenting/">Commenting</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Plugins/Contribution/">Contribution</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Plugins/CSS_Editor/">CSS Editor</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Plugins/CSV_Import/">CSV Import</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Plugins/DerivativeImages/">Derivative Images</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Plugins/DocsViewer/">DocsViewer</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Plugins/Dropbox/">Dropbox</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Plugins/DublinCoreExtended/">Dublin Core Extended</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Plugins/Editorial/">Editorial</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Plugins/EmbedCodes/">Embed Codes</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Plugins/ExhibitBuilder/">Exhibit Builder</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Plugins/ExhibitImageAnnotation/">Exhibit Image Annotation</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Plugins/Geolocation/">Geolocation</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Plugins/GuestUser/">Guest User</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Plugins/ItemOrder/">Item Order</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Plugins/ItemRelations/">Item Relations</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Plugins/Library_of_Congress_Suggest/">Library of Congress Suggest</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Plugins/Ngram/">Ngram</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Plugins/OaipmhHarvester/">OAI-PMH Harvester</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Plugins/OaiPmhRepository/">OAI-PMH Repository</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Plugins/Omeka_API_Import/">Omeka API Import</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Plugins/PdfText/">PDF Text</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Plugins/Posters/">Posters</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Plugins/RecordRelations/">Record Relations</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Plugins/RedactElements/">Redact Elements</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Plugins/Reports/">Reports</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Plugins/Scripto/">Scripto</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Plugins/SearchByMetadata/">Search by Metadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Plugins/ShortcodeCarousel/">Shortcode Carousel</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Plugins/SimpleContactForm/">Simple Contact Form</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Plugins/SimplePages/">Simple Pages</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Plugins/SimpleVocab/">Simple Vocab</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Plugins/SocialBookmarking/">Social Bookmarking</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Plugins/Text_Analysis2/">Text Analysis</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Plugins/TextAnnotation/">Text Annotation</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Plugins/UserProfiles/">User Profiles</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Plugins/VRACore/">VRA Core</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Plugins/ZoomIt/">Zoom It</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Plugins/ZoteroImport/">Zotero Import</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>Troubleshooting</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Troubleshooting/Troubleshooting_Omeka/">Troubleshooting</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Troubleshooting/Retrieving_Error_Messages/">Retrieving Error Messages</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>Technical</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Technical/Adding_LightBox_to_Omeka/">Adding Lightbox to Omeka</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Technical/Backing_up_an_Omeka_Database/">Backing up an Omeka database</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Technical/ConfiguringThumbnailCreation/">Configuring Thumbnail Creation</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Technical/Moving_to_Another_Server/">Moving to Another Server</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Technical/Setting_Directory_Permissions/">Setting Directory Permissions</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Technical/Output_Formats/">Output Formats</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Technical/Contribute_Code_to_Omeka/">Contribute Code to Omeka</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Technical/Translate_Omeka/">Translate Omeka</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Technical/Contributed_API_clients/">Contributed API Clients</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Technical/Harvestable_Omeka_OAI_sets/">Harvestable Omeka OAI-PMH sets</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Technical/Legacy_Add-Ons/">Legacy Add-ons</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Technical/Adding_LightBox_to_Omeka/">Adding Lightbox to Omeka</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Technical/Using_Omeka_with_Other_Tools_and_Platforms/">Using Omeka with other tools and platforms</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">Omeka Classic User Manual</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>Content &raquo;</li>
+        
+      
+    
+    <li>Items</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <p>Items are building blocks in Omeka. To build your digital collections website, you must first add items.</p>
+<h2 id="before-adding-items">Before Adding Items</h2>
+<p>You may want to consult the <a href="/Site_Planning_Tips.md">Site Planning Tips</a> page to think about how to build your site and what you want to do with your items.</p>
+<p>You may also want to think about what type of information you plan to share using the <a href="http://dublincore.org/documents/usageguide/">Dublin Core Metadata</a> fields before adding and describing items. You may also want to read the <a href="/Describing_Items.md">Describing Items</a> page for a brief explanation of using metadata in Omeka Items.</p>
+<h2 id="add-an-item">Add an Item</h2>
+<p><img alt="Add Item.png" src="../../doc_files/itemAdd.png" /></p>
+<p>From your items page (<code>mywebsite.org/admin/items</code>) click the "Add an Item" button.</p>
+<p>This takes you to the admin/items/add page where you see a navigation bar across the top pointing you to different stages of adding an item. </p>
+<ol>
+<li>The first tab shows the <strong>Dublin Core</strong> metadata fields. These are available for every item in the archive. <ul>
+<li>Each field can have multiple values; Simply click the "Add Input" button beside each field title to add a new input for that field.</li>
+<li>You can use HTML in these elements if you want; see below for more information. </li>
+</ul>
+</li>
+<li>The <strong>Item Type Metadata</strong> tab lets you choose a specific item type for the object you are adding. <ul>
+<li>Once you choose the type by using the drop-down menu, relevant metadata fields appear for you to complete. </li>
+<li>See <a href="/Managing_Item_Types_2.0.md">Managing Item Types 2.0</a> for information about adding/editing item types.)</li>
+</ul>
+</li>
+<li>The <strong>Files</strong> tab lets you upload files to an item. <ul>
+<li>Clicking the "Add Another File" link will reveal another field for adding a file. You can associate any number of files to an item. Read more about <a href="Managing_Files_2.0.md">Managing Files 2.0</a>.</li>
+</ul>
+</li>
+<li>The <strong>Tags</strong> tab allows you add keyword tags to your item.<ul>
+<li>You must press the “Add Tags” button in order to attach tags to an item. Simple entering them in the Add Tags field will not work.</li>
+</ul>
+</li>
+<li>To assign items to a collection: on the right side of the page, under the "Add Item" button is a drop-down menu where you can assign your item to a collection. Remember, items can only belong to one collection.</li>
+<li>At any time, you may check the “Public” and/or “Featured” boxes to the right of the item form, just under the button for Add Item. </li>
+<li>Be sure to click the "Add Item" button to save your data.</li>
+</ol>
+<h3 id="using-html-in-item-elements">Using HTML in Item Elements</h3>
+<p>Each metadata field's text may be enhanced using basic HMTL tags. Check the HTML box below the text box to enable a visual HTML editor. 
+<img alt="Item element with Use HTML box ticked" src="../doc_files/itemHTML.png" /></p>
+<p>For more information about working with the HTML editor, please see <a href="/Using_HTML_Editor-TinyMCE.md">Using HTML Editor-TinyMCE</a></p>
+<h2 id="properties-of-items">Properties of Items</h2>
+<p>Items: Each item contains Dublin Core and Item Type metadata; an item can belong to one collection at a time, and have an infinite number of tags. Items may contain many or no files.</p>
+<p>Collections: May be comprised of different items. Items may only belong to one collection a time.</p>
+<p>Tags: Tags can be added to any item, and an item may contain an infinite number of tags.</p>
+<h2 id="browse-items-in-admin">Browse Items in Admin</h2>
+<p>Clicking on the Items tab from the Dashboard or /admin page takes you to a list of items. By default, these are sorted with most-recently added at the top.</p>
+<p><img alt="Browse items view" src="../../doc_files/itemBrowse.png" /></p>
+<p>The browse items view displays items in a table. Each row is an item. There are columns for a checkbox (to select items for bulk actions), the item title, item creator, item type, and the date added. </p>
+<p>Click the paired up-down arrows next to the Title, Creator, and Date Added headers to sort the items by that field. </p>
+<p>Note that Items that are not public will display (Private) next to the title, Items that are featured have a star inside the item’s title. The image below shows first a featured item (note the star), then a general public item, then a private item.</p>
+<p><img alt="items browse view" src="../../doc_files/itemsBrowsePF.png" /></p>
+<p>Each item has buttons to view Details, Edit, or Delete just below its title. </p>
+<p>To view the details of all items, click the Show Details button above the table of items. This will show the first few lines of the item’s Description as well as any associated tags.</p>
+<p><img alt="Browse items with details shown" src="../../doc_files/itemBrowseDet.png" /></p>
+<p>To search all items, click the Search Items button which takes you to an advanced item search page.</p>
+<h2 id="edit-an-item">Edit an Item</h2>
+<p><a href="../doc_files/itemEdit.png">Item edit window</a></p>
+<p>You can edit any of the information you entered when creating an item, or add new information, by going to the Items tab on the left hand navigation. </p>
+<p>Find the item you want to edit and click the </p>
+<p>Items are displayed with limited metadata, including the Title, Creator, Item Type, and Date Created. To see additional metadata associated with that item, use the Details link under the item's title. You may also use the blue Show Details tab, which will display details for every item on the page.
+2.  Find the item you want to edit from the list of items or by searching. To edit only one item, use the Edit link beneath the title of the item. This opens an expanded edit page where you may make your edits. Make sure you click the "Save Changes" button so you don't lose your changes.</p>
+<h2 id="delete-an-item">Delete an Item</h2>
+<p>To delete one item, you may delete that item by clicking the Delete link found below the title on the admin/items page. You will be asked to confirm this action.</p>
+<p>You may also delete an item by editing the item, and clicking the "Delete" button, found to the right of the page under the link to View Public Page.</p>
+<h2 id="batch-editing-deleting">Batch Editing &amp; Deleting</h2>
+<ul>
+<li>Click Items tab from the Dashboard or admin screen (admin/items).</li>
+<li>Find items that you wish to edit or delete in a batch by browsing, sorting, or searching.</li>
+<li>Use the check boxes to the left of an item's title to select it for batch editing, or select the box to the left of the Title heading to select all items available on that page.</li>
+<li>Once items are checked, click the the Edit button; the items will open in an editing page where you may make changes.</li>
+</ul>
+<p><a href="https://omeka.org/codex/File:Batch_Edit.png"><img alt="Batch Edit.png" src="https://omeka.org/c/images/f/f0/Batch_Edit.png" /></a></p>
+<ul>
+<li>
+<p>You may make the following changes for each batch of selected items:</p>
+<ul>
+<li>make public or private,</li>
+<li>feature or not featured,</li>
+<li>change Item Type,</li>
+<li>switch or associate selected items with a Collection,</li>
+<li>add Tags to all selected items,</li>
+<li>delete Items,</li>
+<li>include Item Relations, if the <a href="Plugins/ItemRelations.md">Item Relations</a> plugin is installed.</li>
+</ul>
+</li>
+<li>
+<p>Check the list of items to be edited or deleted in the box to the right. Un-check box to the left of items if you marked one     by mistake.</p>
+</li>
+<li>Click Save Changes to edit all of the selected items.</li>
+</ul>
+<h2 id="output-formats">Output Formats</h2>
+<p>Once you have items in an archive, item data may be shared in a variety of <a href="Output_Formats.md">Output Formats</a>.</p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../Files/" class="btn btn-neutral float-right" title="Files">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../../Installation/Configuring_Language/" class="btn btn-neutral" title="Configuring Language"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+	  
+        </div>
+      </div>
+
+    </section>
+    
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../../Installation/Configuring_Language/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../Files/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script src="../../js/theme.js"></script>
+
+</body>
+</html>

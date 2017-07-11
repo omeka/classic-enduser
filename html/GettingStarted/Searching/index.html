@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>Searching - Omeka Classic User Manual</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/highlight.css">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Searching";
+    var mkdocs_page_input_path = "GettingStarted/Searching.md";
+    var mkdocs_page_url = "/GettingStarted/Searching/";
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js"></script>
+  <script src="../../js/modernizr-2.8.3.min.js"></script>
+  <script type="text/javascript" src="../../js/highlight.pack.js"></script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> Omeka Classic User Manual</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../..">Home</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>Getting Started</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../Site_Planning_Tips/">Site Planning Tips</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../UsingOmeka/">Examples and Case Studies</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../Project_Planning/">Project Planning</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../Hosting_Suggestions/">Hosting Suggestions</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../Feature_List/">Feature List</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../Accessibility_Statement/">Accessibility Statement</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../Screencasts/">Screencasts</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 current">
+        <a class="current" href="./">Searching</a>
+        
+            <ul>
+            
+                <li class="toctree-l3"><a href="#basic-search">Basic Search</a></li>
+                
+                    <li><a class="toctree-l4" href="#search-options">Search options</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#advanced-search">Advanced Search</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#troubleshooting">Troubleshooting</a></li>
+                
+                    <li><a class="toctree-l4" href="#seeing-unpublished-items-when-searching-on-the-public-side">Seeing unpublished items when searching on the public side:</a></li>
+                
+                    <li><a class="toctree-l4" href="#if-you-are-having-trouble-finding-words-you-know-are-in-your-install-the-following-may-be-part-of-the-problem">If you are having trouble finding words you know are in your install, the following may be part of the problem:</a></li>
+                
+            
+            </ul>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>Installing</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Installation/System_Requirements/">System Requirements</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Installation/Installation/">Installing</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Installation/Upgrading/">Upgrading</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Installation/Configuring_Language/">Configuring Language</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>Content</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Content/Items/">Items</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Content/Files/">Files</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Content/Working_with_Dublin_Core/">Working with Dublin Core</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Content/Using_HTML_Editor-TinyMCE/">Using the HTML editor</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Content/Managing_Item_Types/">Item Types</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Content/Collections/">Collections</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Content/Tags/">Tags</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Content/Shortcodes/">Shortcodes</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>Administration</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Admin/Adding_and_Managing_Plugins/">Working with Plugins</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Plugins/Plugin_Shortcodes/">Plugin Shortcodes</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Admin/Appearance/themes/">Themes</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Admin/Appearance/Navigation/">Navigation</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Admin/Appearance/Appearance_Settings/">Appearance Settings</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Admin/Users/Users/">Users</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Admin/Settings/General_Settings/">General Settings</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Admin/Settings/Security_Settings/">Security Settings</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Admin/Settings/Search_Settings/">Search Settings</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Admin/Settings/Element_Sets/">Element Sets</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Admin/Settings/Item_Type_Elements/">Item Type Elements</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Admin/Settings/API_Settings/">API Settings</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Admin/Settings/ReCaptcha/">ReCaptcha</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>Plugins</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Plugins/Coins/">Coins</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Plugins/CollectionTree/">Collection Tree</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Plugins/Commenting/">Commenting</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Plugins/Contribution/">Contribution</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Plugins/CSS_Editor/">CSS Editor</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Plugins/CSV_Import/">CSV Import</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Plugins/DerivativeImages/">Derivative Images</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Plugins/DocsViewer/">DocsViewer</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Plugins/Dropbox/">Dropbox</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Plugins/DublinCoreExtended/">Dublin Core Extended</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Plugins/Editorial/">Editorial</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Plugins/EmbedCodes/">Embed Codes</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Plugins/ExhibitBuilder/">Exhibit Builder</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Plugins/ExhibitImageAnnotation/">Exhibit Image Annotation</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Plugins/Geolocation/">Geolocation</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Plugins/GuestUser/">Guest User</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Plugins/ItemOrder/">Item Order</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Plugins/ItemRelations/">Item Relations</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Plugins/Library_of_Congress_Suggest/">Library of Congress Suggest</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Plugins/Ngram/">Ngram</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Plugins/OaipmhHarvester/">OAI-PMH Harvester</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Plugins/OaiPmhRepository/">OAI-PMH Repository</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Plugins/Omeka_API_Import/">Omeka API Import</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Plugins/PdfText/">PDF Text</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Plugins/Posters/">Posters</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Plugins/RecordRelations/">Record Relations</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Plugins/RedactElements/">Redact Elements</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Plugins/Reports/">Reports</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Plugins/Scripto/">Scripto</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Plugins/SearchByMetadata/">Search by Metadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Plugins/ShortcodeCarousel/">Shortcode Carousel</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Plugins/SimpleContactForm/">Simple Contact Form</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Plugins/SimplePages/">Simple Pages</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Plugins/SimpleVocab/">Simple Vocab</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Plugins/SocialBookmarking/">Social Bookmarking</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Plugins/Text_Analysis2/">Text Analysis</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Plugins/TextAnnotation/">Text Annotation</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Plugins/UserProfiles/">User Profiles</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Plugins/VRACore/">VRA Core</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Plugins/ZoomIt/">Zoom It</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Plugins/ZoteroImport/">Zotero Import</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>Troubleshooting</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Troubleshooting/Troubleshooting_Omeka/">Troubleshooting</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Troubleshooting/Retrieving_Error_Messages/">Retrieving Error Messages</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>Technical</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Technical/Adding_LightBox_to_Omeka/">Adding Lightbox to Omeka</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Technical/Backing_up_an_Omeka_Database/">Backing up an Omeka database</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Technical/ConfiguringThumbnailCreation/">Configuring Thumbnail Creation</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Technical/Moving_to_Another_Server/">Moving to Another Server</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Technical/Setting_Directory_Permissions/">Setting Directory Permissions</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Technical/Output_Formats/">Output Formats</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Technical/Contribute_Code_to_Omeka/">Contribute Code to Omeka</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Technical/Translate_Omeka/">Translate Omeka</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Technical/Contributed_API_clients/">Contributed API Clients</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Technical/Harvestable_Omeka_OAI_sets/">Harvestable Omeka OAI-PMH sets</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Technical/Legacy_Add-Ons/">Legacy Add-ons</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Technical/Adding_LightBox_to_Omeka/">Adding Lightbox to Omeka</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../Technical/Using_Omeka_with_Other_Tools_and_Platforms/">Using Omeka with other tools and platforms</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">Omeka Classic User Manual</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>Getting Started &raquo;</li>
+        
+      
+    
+    <li>Searching</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <p>This page explains the search functions in Omeka Classic on the public and admin side, and how to use them. If you are looking for information on how to <a href="/Managing_Search_Settings.md">manage search settings, please see that documentation</a>.</p>
+<h2 id="basic-search">Basic Search</h2>
+<p>The simplest way to search an Omeka Classic installation is using the simple search bar. On the admin side, this is always present in the upper right hand area of the window, under the top navigation. The exact location of the search bar on the public side varies by theme, but is generally close to the navigation menu. </p>
+<p>![Simple Search]</p>
+<p>To perform a basic search, type the keyword you want to search for in the field and either hit enter on your keyboard or click the Search (magnifying glass) button. Depending on the <a href="/Managing_Search_Settings.md">search settings</a>, content in this search might include item, file, and collection metadata, the text on simple pages, exhibit summary pages and exhibit pages. </p>
+<h3 id="search-options">Search options</h3>
+<p>To access the options for the basic search, click on the ellipses (...) button to the right of the search bar, next to the search (magnifying glass) button.</p>
+<p><img alt="Search options, as seen on the public side" src="../../doc_files/searchExpanded.png" /></p>
+<p>The first set of options allows you to select a query type:</p>
+<ul>
+<li>Keyword, or general search</li>
+<li>Boolean, in which you can add boolean operators like AND and NOT</li>
+<li>Exact match, which will only find exact matches to the word or phrase you enter.</li>
+</ul>
+<p>The second set of options are a series of checkboxes for content to include in the search. The checkboxes populate based on the <a href="/Managing_Search_Settings.md">search settings</a> and can include:</p>
+<ul>
+<li>Item</li>
+<li>File</li>
+<li>Collection</li>
+</ul>
+<p>as well as options provided by plugins, such as:</p>
+<ul>
+<li>Simple Page</li>
+<li>Exhibit Page</li>
+<li>Exhibit summary</li>
+</ul>
+<h2 id="advanced-search">Advanced Search</h2>
+<p>Advanced Search, which will only search the items in your Omeka installation, is available on the admin sides, and on the public side if the <em>Use Advanced Site-Wide Search</em> option is checked in the <a href="/Managing_Themes.md">theme settings</a> </p>
+<p>To access the advanced search, click on the ellipses (…) button to the right of the basic search bar (1) and then click the link to “Advanced Search (Items Only)” (2)</p>
+<p>[image: search_advanced]</p>
+<p>The “Search Items” page will load. It presents a variety of options for advanced searching across all items. You do not need to complete all fields, only as many as you want.</p>
+<p>Advanced Search options are:</p>
+<ul>
+<li><strong>Search for Keywords</strong>: general search</li>
+<li><strong>Narrow by specific fields</strong>:<ul>
+<li>select a field from the first dropdown. </li>
+<li>from the second dropdown, select from the following options<ul>
+<li>contains, <ul>
+<li>does not contain, </li>
+<li>is exactly, </li>
+<li>is not exactly, </li>
+<li>is empty, </li>
+<li>is not empty, </li>
+<li>starts with, </li>
+<li>ends with, </li>
+<li>matches, </li>
+<li>does not match</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>in the text area, enter the terms for the field search.</li>
+</ul>
+</li>
+<li>You can add additional field searches using the green “add a field”. Additional field searches include a dropdown to select <em>AND</em> or <em>OR</em> for these terms. Use and to narrow the search, requiring it to find items which meet both field criteria. Use or to keep the search broad, finding items which meet either field criteria.</li>
+<li><strong>Search by a range of item IDs</strong>: text field in which you can enter item IDs. You can describe a range, such as 1-7, or a sequence separated with commas, for example 1,5-7,11.</li>
+<li><strong>Search by collection</strong>: dropdown of collections in your installation.</li>
+<li><strong>Search by type</strong>: dropdown of existing item types.</li>
+<li><strong>Search by User</strong>: dropdown of users on the installation</li>
+<li><strong>Search by tags</strong>: text field</li>
+<li><strong>Public/Non-Public</strong>: dropdown with options for each</li>
+<li><strong>Featured/Non Featured</strong>: dropdown with binary options</li>
+</ul>
+<p>If you have <a href="../../Plugins/Geolocation/">the Geolocation plugin</a> installed, Advanced Search will also include the following options:
+- <strong>Geographic Address</strong>: search for items at an address (text field)
+- <strong>Geographic Radius</strong>: proximity to the address given above, in miles. </p>
+<p>If you have <a href="../../Plugins/ExhibitBuilder/">the Exhibit Builder plugin</a> installed, advanced search will include the following option:
+- <strong>Search by Exhibit</strong>: a dropdown of exhibits. This will find all items used in the specified exhibit.</p>
+<h2 id="troubleshooting">Troubleshooting</h2>
+<h3 id="seeing-unpublished-items-when-searching-on-the-public-side">Seeing unpublished items when searching on the public side:</h3>
+<p>If you are still logged in to your Omeka installation, you will see all items on the public and admin side. Try logging out or visiting the site in a different browser (where you are not logged in).</p>
+<h3 id="if-you-are-having-trouble-finding-words-you-know-are-in-your-install-the-following-may-be-part-of-the-problem">If you are having trouble finding words you know are in your install, the following may be part of the problem:</h3>
+<ul>
+<li>MySQL by default does not index any words shorter than 4 letters long.</li>
+<li>Exact match searches will look for the exact string given by the user, anywhere in the record. For example a search for 'poe' would also return 'poem'.</li>
+<li>MySQL considers terms that appear in over 50% of indexed items to be so common that it excludes them from keyword searches. The easy way to tell if a term meets the the 50% threshold that's at fault is to choose the "boolean" search, as MySQL does not apply the 50% limitation to boolean searches</li>
+</ul>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../../Installation/System_Requirements/" class="btn btn-neutral float-right" title="System Requirements">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../Screencasts/" class="btn btn-neutral" title="Screencasts"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+	  
+        </div>
+      </div>
+
+    </section>
+    
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../Screencasts/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../../Installation/System_Requirements/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script src="../../js/theme.js"></script>
+
+</body>
+</html>

@@ -5,7 +5,7 @@ pages:
     - Home: index.md
     - Getting Started:
         - 'Site Planning Tips': 'GettingStarted/Site_Planning_Tips.md'
-        - 'How you might use Omeka': 'GettingStarted/How_Might_You_Use_Omeka.md'
+        - 'Examples and Case Studies': 'GettingStarted/UsingOmeka.md'
         - 'Project Planning': 'GettingStarted/Project_Planning.md'
         - 'Hosting Suggestions': 'GettingStarted/Hosting_Suggestions.md'
         - 'Feature List': 'GettingStarted/Feature_List.md'
@@ -20,23 +20,19 @@ pages:
     - Content:
         - 'Items': 'Content/Items.md' 
         - 'Files': 'Content/Files.md'
-        - 'Working with Dublin Core'
-        - 'Using the HTML editor'
+        - 'Working with Dublin Core': 'Content/Working_with_Dublin_Core.md'
+        - 'Using the HTML editor': 'Content/Using_HTML_Editor-TinyMCE.md'
         - 'Item Types': 'Content/Managing_Item_Types.md'
-        - 'Collections' 'Content/Collections.md'
-        - 'Tags': 'Collections/Tags.md'
-        - 'Shortcodes': 'Collections/Shortcodes.md'
+        - 'Collections': 'Content/Collections.md'
+        - 'Tags': 'Content/Tags.md'
+        - 'Shortcodes': 'Content/Shortcodes.md'
     - Administration:
-        - Plugins:
             - 'Working with Plugins': 'Admin/Adding_and_Managing_Plugins.md'
             - 'Plugin Shortcodes': 'Plugins/Plugin_Shortcodes.md'
-        - Appearance: 
             - 'Themes': 'Admin/Appearance/themes.md'
             - 'Navigation': 'Admin/Appearance/Navigation.md'
             - 'Appearance Settings': 'Admin/Appearance/Appearance_Settings.md'
-        - Users: 
-            - 'Users.md'
-        - Settings:
+            - 'Users': 'Admin/Users/Users.md'
             - 'General Settings': 'Admin/Settings/General_Settings.md'
             - 'Security Settings': 'Admin/Settings/Security_Settings.md'
             - 'Search Settings': 'Admin/Settings/Search_Settings.md'
@@ -74,8 +70,8 @@ pages:
         - 'Redact Elements': 'Plugins/RedactElements.md'
         - 'Reports': 'Plugins/Reports.md'
         - 'Scripto': 'Plugins/Scripto.md'
-        - 'Search by Metadata' 'Plugins/SearchByMetadata.md'
-        - 'Shortcode Carousel': ''Plugins/ShortcodeCarousel.md'
+        - 'Search by Metadata': 'Plugins/SearchByMetadata.md'
+        - 'Shortcode Carousel': 'Plugins/ShortcodeCarousel.md'
         - 'Simple Contact Form': 'Plugins/SimpleContactForm.md'
         - 'Simple Pages': 'Plugins/SimplePages.md'
         - 'Simple Vocab': 'Plugins/SimpleVocab.md'
@@ -87,7 +83,7 @@ pages:
         - 'Zoom It': 'Plugins/ZoomIt.md'
         - 'Zotero Import': 'Plugins/ZoteroImport.md'
     - Troubleshooting: 
-        - 'Troubleshooting': 'Troubleshooing/Troubleshooting_Omeka.md'
+        - 'Troubleshooting': 'Troubleshooting/Troubleshooting_Omeka.md'
         - 'Retrieving Error Messages': 'Troubleshooting/Retrieving_Error_Messages.md'
     - Technical:
         - 'Adding Lightbox to Omeka': 'Technical/Adding_LightBox_to_Omeka.md'
@@ -98,7 +94,7 @@ pages:
         - 'Output Formats': 'Technical/Output_Formats.md'
         - 'Contribute Code to Omeka': 'Technical/Contribute_Code_to_Omeka.md'
         - 'Translate Omeka': 'Technical/Translate_Omeka.md'
-        - 'Contributed API Clients': 'TTechnical/Contributed_API_clients.md'
+        - 'Contributed API Clients': 'Technical/Contributed_API_clients.md'
         - 'Harvestable Omeka OAI-PMH sets': 'Technical/Harvestable_Omeka_OAI_sets.md'
         - 'Legacy Add-ons': 'Technical/Legacy_Add-Ons.md'
         - 'Adding Lightbox to Omeka': 'Technical/Adding_LightBox_to_Omeka.md'
