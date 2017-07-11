@@ -1,13 +1,18 @@
 ---
 title: Configuring Language
 ---
+Open the config.ini file found in the folder '{omeka-root}/application/config' in a text editor
+
+Look for the "Localization" section (it's right at the top), and the line in it that reads: `locale = "" `
+
+Fill in the two or four letter code for the language you wish to use (see the list above). It is case-sensitive and must match one of the codes exactly.
+
 
 Available languages and codes
 ---------------------------------------------------------------
 
 Below are listed the languages in which Omeka is available, along with the two or four letter codes that you will need to configure Omeka to use your language.
 
-### Omeka 2.4
 A translation is considered "Complete" at 100%. Languages listed as "Nearly Complete" are between 90 and 99% translated. Languages listed as "Started" are less then 25% complete.
 
 The statuses listed in the table are for the core Omeka code; coverage varies for plugins. To help [translate Omeka](/Translate_Omeka.md), sign up for an account at [Transifex](https://www.transifex.com) and join our project (an account is required to view progress or contribute).
@@ -66,13 +71,3 @@ Ukrainian | uk | Partial
 Uzbek (Latin) | `uz@Ltn` | Started
 Welsh (United Kingdom) | `cy_GB` | Nearly Complete
 
-
-Installations of Omeka 1.5 or higher
-----------------------------------------------------------
--   Open the config.ini file found in the folder '{omeka-root}/application/config' in a text editor
--   Look for the "Localization" section (it's right at the top), and the line in it that reads `locale = ""`
--   Fill in the two or four letter code for the language you wish to use (see the list above). It is case-sensitive and must match one of the codes *exactly*.
-
-Omeka 1.4.x or lower 
----------------------------------------------------------------
-The config files before Omeka 1.5 do not contain the "Localization" section discussed above. You will therefore need to either copy over the new config file shipped with Omeka 1.5 or, if you have made changes to your config.ini file, just copy-and-paste the section from the new config file to your current one.

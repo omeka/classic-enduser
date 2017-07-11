@@ -13,13 +13,6 @@ Instructions for installing Omeka on several Linux distributions, including Fedo
 
 Before installing Omeka, make sure your web server meets our basic [system requirements](/System_Requirements.md). These are standard requirements that are available by most web hosting services. Once these system requirements are met, all you need to do is install the Omeka software:
 
-### Preparing Your System
-
-Instructions for preparing different Linux distributions to host your own deployment are included below:
-
--   [Install on Fedora](/reference/Install_on_Fedora.md)
--   [Install on OpenSUSE](/reference/Install_on_OpenSUSE.md)
-
 ### Upgrading Your System
 
 If you need to upgrade your server to meet any of the Omeka system requirements, consult these resources:

@@ -79,10 +79,10 @@ If you have [the Exhibit Builder plugin](/Plugins/ExhibitBuilder.md) installed, 
 
 Troubleshooting
 ---------------------------------------------------
-### Seeing unpublished items when searching on the public side:
+**Seeing unpublished items when searching on the public side**:
 If you are still logged in to your Omeka installation, you will see all items on the public and admin side. Try logging out or visiting the site in a different browser (where you are not logged in).
 
-### If you are having trouble finding words you know are in your install, the following may be part of the problem:
+**If you are having trouble finding words you know are in your install, the following may be part of the problem:**
 
 -   MySQL by default does not index any words shorter than 4 letters long.
 -   Exact match searches will look for the exact string given by the user, anywhere in the record. For example a search for 'poe' would also return 'poem'.
