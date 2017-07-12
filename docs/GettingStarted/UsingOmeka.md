@@ -10,7 +10,14 @@ While not every Omeka site makes use of every feature, there are common threads 
 
 The easiest of these is the message "Proudly Powered by Omeka" in the footer, which is there by default but may be removed in custom themes. Even if that message is missing, there are clues that a site is built in Omeka which can help you understand the choices the site creators made as the built the site. 
 
-**Look at the address bar** Omeka sites will almost always have the same slug for certain pages: browse items is siteurl/items, browse collections is siteurl/collections, and exhibits are siteurl/exhibits. Even if the site creators have changed the label for these pages in their navigation, the urls will generally be the same. 
+**Look at the address bar** Omeka sites will almost always have the same slug for certain pages:
+
+- browse items is siteurl/items; 
+- browse collections is siteurl/collections;
+- exhibits are siteurl/exhibits. 
+
+Even if the site creators have changed the label for these pages in their navigation menu, the urls will generally be the same. Checking the address bar to see what function (item, collection, exhibit, etc) the site is using will help you get a sense of how the creators have structured the site.
+
 
 **Know your themes** 
 
