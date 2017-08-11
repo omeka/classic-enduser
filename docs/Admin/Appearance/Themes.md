@@ -41,7 +41,7 @@ To configure your theme, click the "Configure Theme" button below the theme grap
 - *Footer text.* An HTML-enabled text box where you can enter text for a site footer to appear on every page. 
 - *Display copyright in footer.*  Check this box if you wish to display your site’s copyright information in the footer. Site copyright information is found in the [General Settings](/Managing_General_Settings_2.md) section.
 - *Use Advanced Site-wide search.* Check this box to allow public-side site visitors to search the whole site, including items, collections, and files, and to use boolean methods when searching.
-![Header and footer configuration options](/doc_files/themeHFConfig.png)
+![Header and footer configuration options](/docs/doc_files/themeHFConfig.png)
 
 *Homepage* configuration options:
 - *Display Featured Item.* Check this box if you wish to show a featured item on the homepage.
@@ -49,7 +49,8 @@ To configure your theme, click the "Configure Theme" button below the theme grap
 - *Display Featured Exhibit.* Check this box if you wish to show a featured exhibit on the homepage.
 - *Homepage Recent Items.* Choose the number of recent items to be displayed on the homepage. These will appear in the order in which they were mostly recently added to the archive.
 -   *Homepage Text*. Add some text to be displayed on your homepage above the Featured Items. This is a good place to add a very short tagline or description of your site. Save longer explanations for an About page.
-![Homepage configuration options](/doc_files/themeHomeConfig.png)
+
+![Homepage configuration options](/docs/doc_files/themeHFConfig.png)
 
 Additional Configuration Options:
 
