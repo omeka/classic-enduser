@@ -18,4 +18,4 @@ A blank or white screen is often an indication that Omeka or PHP has encountered
 
 Further Help Troubleshooting
 ----------------------------------------------------------
-General questions should be asked on the [Omeka Forums](http://forum.omeka.org). Advanced users may wish to post their technical questions on the [Developer Mailing List](http://groups.google.com/group/omeka-dev) for a more specific solution to their problem.
+If you continue to have problems, please post a description of your issue along with the version of Omeka and any plugins involved on the [Omeka Forums](http://forum.omeka.org). 
