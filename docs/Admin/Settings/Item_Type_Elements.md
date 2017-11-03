@@ -3,7 +3,7 @@ title: Managing Item Type Elements
 ---
 
 Item Type Elements enables you to manage all the metadata fields
-associated with each [item type](/Managing_Item_Types_2.md) available in your site, e.g. Still Image, Oral History, Document.
+associated with each [item type](../../Content/Item_Types.md) available in your site, e.g. Still Image, Oral History, Document.
 
 You can add new item type elements or change the description of existing elements
 

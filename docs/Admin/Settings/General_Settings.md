@@ -5,8 +5,7 @@ title: Managing General Settings 2.0
 Find the general site settings by clicking on the Settings button in the top navigation bar of the admin view. Settings are only accessible by Super Users.
 
 
-![General Settings screenshot](/doc_files/generalSettings.png)
-
+![General Settings screenshot](/doc_files/Generalsettings.png)
 
 In the General Settings tab, you may edit the fields you filled in when you installed your site, and add other information.
 

@@ -25,7 +25,7 @@ Plugins that use ReCaptcha
 ---------------------------------------------------------------
 The following plugins use Omeka's ReCaptcha support, and configuring ReCaptcha as explained above should enable captchas for all of them. Please make sure you are using the latest version of these plugins.
 
--   [Contribution](/Plugins/Contribution_2.0.md)
--   [SimpleContactForm](/Plugins/SimpleContactForm_2.0.md)
+-   [Contribution](../../Plugins/Contribution_2.0.md)
+-   [SimpleContactForm](../../Plugins/SimpleContactForm_2.0.md)
 
 

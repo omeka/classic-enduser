@@ -22,7 +22,7 @@ To make changes, simply type a number into the corresponding text field.
 
 Please note that changes to these settings will only affect files uploaded after you have made the changes; it does not retroactively re-size existing files. If you want to change existing files, you will need to install the [Derivative Images plugin](../../Plugins/DerivativeImages.md)
 
-Those with access to the server files can also [manage thumbnail creation settings](../../Technical/Configuring_Thumbnail_Creation.md) to change where thumbnails crop the image (see linked documentation for more information)
+Those with access to the server files can also [manage thumbnail creation settings](../../Technical/ConfiguringThumbnailCreation.md) to change where thumbnails crop the image (see linked documentation for more information)
 
 Display Settings
 ----------------------------------------------------------------
