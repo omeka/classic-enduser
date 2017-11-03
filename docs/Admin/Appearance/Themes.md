@@ -60,4 +60,12 @@ Additional Configuration Options:
 * **Colors:** For the themes Thanks Roy, Center Row, The Daily, Big Stuff, . These fields allow you to customize the color of specific parts of the theme (link text, buttons, etc). You must use a six-character [hexadecimal color value](https://www.w3schools.com/colors/default.asp), including the `#`. 
 * **Homepage Text position:** A dropdown menu to set whether the homepage text appears above or below featured items, exhibits, and collections.
 
+Additional Configuration Options:
+
+* **Item File Gallery:** For the themes Thanks Roy, Seasons, Minimalist, and Emiglio. This box displays the files for each item as a gallery of square thumbnails rather than fullsize images. 
+* **Style Sheet:** For the themes Seasons and Rhythm. Select a style sheet (color scheme) from a dropdown menu.
+* **Exhibit Builder navigation:** For the themes Seasons and Minimalist. Choose whether page navigation in exhibits is a full-width bar that stretches across the page or a sidebar that uses a small fraction of the page width.
+* **Colors:** For the themes Thanks Roy, Center Row, The Daily, Big Stuff, . These fields allow you to customize the color of specific parts of the theme (link text, buttons, etc). You must use a six-character [hexadecimal color value](https://www.w3schools.com/colors/default.asp), including the `#`. 
+* **Homepage Text position:** A dropdown menu to set whether the homepage text appears above or below featured items, exhibits, and collections.
+
 Remember to save changes.

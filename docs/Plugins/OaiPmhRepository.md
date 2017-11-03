@@ -46,7 +46,6 @@ If a name can't be detected (for example, if the site is accessed through the `l
 
 ![Configuration options as described above, with no boxes checked.](../doc_files/plugin_images/oaipmhrepo.png)
 
-
 ### Advanced Configuration 
 
 The plugin also allows you to configure some more options about how the repository responds to harvesters. Since the default values are recommended for most users, these values must be edited by hand, in the `config.ini` file in the plugin's root directory, accessed using an FTP or SSH client.
