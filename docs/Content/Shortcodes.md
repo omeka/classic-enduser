@@ -6,6 +6,8 @@ Starting with Omeka 2.2, some text fields (like the page content field in Simple
 
 *Note:* This page is a user’s guide to shortcodes. For developer documentation, see [Working with Shortcodes](http://omeka.readthedocs.org/en/latest/Tutorials/shortcodes.html) on Omeka’s Read the Docs site.*
 
+For shortcodes for Plugins, see the [Plugin Shortcodes](../Plugins/Plugin_Shortcodes.md)
+
 General
 --------
 Shortcodes can be added into Simple Page text fields. The general syntax is

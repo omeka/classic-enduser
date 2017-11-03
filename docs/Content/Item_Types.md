@@ -22,8 +22,6 @@ Pre-defined Item Types
 -   Person: An individual, biographical data, birth and death, etc.
 -   Interactive Resource: A resource requiring interaction from the user to be understood, executed, or experienced. Examples include forms on Web pages, applets, multimedia learning objects, chat services, or virtual reality environments.
 
-See [this detailed discussion of item types](/Item_Types.md) for more information.
-
 Edit an Existing Item Type 
 ---------------------------------------------------------------
 You can edit existing item types to modify their metadata fields.
@@ -47,7 +45,8 @@ When adding elements, there are two options: add an existing element or create a
 
 **Existing elements** are elements which have already been created for another item type, but might be applicable to yours. For example, if you were creating a “Letter” item type, you might use the “To” and “From” elements from the “Email” Item Type, and the “Text” element from the “Text” item type.
 
-To add an existing element to your item type:
+To add an existing element to your item type: 
+
 1. In the Add Element block, select the *Existing* radio button.
 1. Click the green *Add Element* button.
 ![Add element block](/doc_files/itemTypeAddElm.png)
@@ -57,6 +56,7 @@ To add an existing element to your item type:
 **New elements** are created by you, both the element name and description. You might need to create these for unique item types, for example “Cancellation Date” and “Cancellation Location” for a “Stamp” item type.
 
 To add a new item type:
+
 1. In the Add Element block, select the *New* radio button.
 1. Click the green *Add Element* button.
 1. In the element block which is created, enter an *Element Name* in the first field (toward the top of the block). Enter an *Element Description* in the larger text field. Note that this description will show up when editing items, so make sure that it is clear.

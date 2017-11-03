@@ -23,4 +23,4 @@ Allowed Tags
 ----------------------------------------------------------------
 Omeka uses the default rule set from TinyMCE. For a complete list see [default rule set from TinyMCE](http://tinymce.moxiecode.com/wiki.php/Configuration:valid_elements).
 
-To change the allowed tags, go to your [security settings](/Managing_Security_Settings_2.md#html-filtering).
+To change the allowed tags, go to your [security settings](../Admin/Settings/Security_Settings.md)

@@ -4,7 +4,7 @@ title: Managing Collections 2.0
 
 Collections may be used in a variety of contexts that make the most sense for your archive.
 
-In Omeka, an item can only belong to one collection. Collections can, of course, have multiple items. The concept of Omeka collections originates from museum and archives collections; one cannot put a document into more than one box. It is not necessary to follow a traditional interpretation of a collection, say by owner or donor. In Omeka, you can also use [tags](/Managing_Tags_2md0) to organize similar items into categories.
+In Omeka, an item can only belong to one collection. Collections can, of course, have multiple items. The concept of Omeka collections originates from museum and archives collections; one cannot put a document into more than one box. It is not necessary to follow a traditional interpretation of a collection, say by owner or donor. In Omeka, you can also use [tags](/Tag.md) to organize similar items into categories.
 
 Create a Collection
 -----------------------------------------------------------
@@ -21,7 +21,7 @@ Now that you have created a  you may associate an item with this collection, fro
 Adding Items to Collections
 -------------------------------------------------------------
 
-To add items to collections, you must first create the collection. See [Managing Items 2.0](/Managing_Items_2.md) to
+To add items to collections, you must first create the collection. See [the Items documentation](/Items.md) to
 read more about associating an item with a collection.
 
 Note that an item may only belong to one collection a time. You may switch an item from one collection to another at any time.
@@ -38,7 +38,7 @@ Edit a Collection
 
 To edit a collection, click the Edit link underneath the title from the Browse Collections page, /admin/collection. Edit in any fields you wish, and click the "Save Changes" button to the right of the screen.
 
-By default, the most recently added item's primary file will serve as the thumbnail image for the collection. However, if you have installed the [Item Order](Plugins/ItemOrder_2.0.md)
+By default, the most recently added item's primary file will serve as the thumbnail image for the collection. However, if you have installed the [Item Order](../Plugins/ItemOrder.md)
 plugin, you can choose a different item by making that item the first in the collection.
 
 Browsing Collections
