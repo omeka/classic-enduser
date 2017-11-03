@@ -8,7 +8,7 @@ Access Navigation settings by clicking Appearance in the top navigation menu in 
 
 ![Main navigation](/doc_files/navigationMain.png) 
 
-Omeka includes links to Browse Items and Browse Collections by default. If you have installed [Simple Pages](Plugins/SimplePages_2.0.md), the About page will also appear by default, and any published Simple Pages will be automatically added to the navigation. Likewise, once you have installed Exhibit Builder, Browse Exhibits will automatically appear in the navigation.
+Omeka includes links to Browse Items and Browse Collections by default. If you have installed [Simple Pages](../../Plugins/SimplePages.md), the About page will also appear by default, and any published Simple Pages will be automatically added to the navigation. Likewise, once you have installed Exhibit Builder, Browse Exhibits will automatically appear in the navigation.
 
 You may arrange navigation items in any order by dragging and dropping.
 

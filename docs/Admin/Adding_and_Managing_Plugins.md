@@ -1,7 +1,7 @@
 ---
 title: Managing Plugins
 ---
-Plugins are tools to extend the basic functionality of Omeka. A list of plugins available for download is on the [Plugins Add-Ons Directory](http://omeka.org/add-ons/plugins/) (Please note that not every plugin will work with every version of Omeka), and instructions are available on each plugin's documentation page.
+Plugins are tools to extend the basic functionality of Omeka. A list of plugins available for download is on the [Plugins Add-Ons Directory]( ) (Please note that not every plugin will work with every version of Omeka), and instructions are available on each plugin's documentation page.
 
 ![Plugins page](/doc_files/Plugins.png)  
 
@@ -67,6 +67,6 @@ Pre-packaged Plugins
 --------------------
 The following plugins come prepackaged with the download of Omeka Classic: 
 
--   [Coins](/Plugins/Coins_2.0.md) – Adds Coins metadata to items on the admin theme and in public themes.
--   [SimplePages](/Plugins/SimplePages_2.0.md) – Publish static pages on your public site.
--   [Exhibit Builder](/Plugins/ExhibitBuilder_2.0.md): Build narratives around your collections.
+-   [Coins](../Plugins/Coins.md) – Adds Coins metadata to items on the admin theme and in public themes.
+-   [SimplePages](../Plugins/SimplePages.md) – Publish static pages on your public site.
+-   [Exhibit Builder](../Plugins/ExhibitBuilder.md): Build narratives around your collections.

@@ -10,6 +10,7 @@ Installing a Theme
 Watch the [screencast](https://vimeo.com/153819886) demonstrating the process of installing plugins and themes (closed captioned).
 
 To add and activate a new plugin for your Omeka installation, follow these steps:
+
 1.  Download and unzip the file on your desktop.
 2.  Open your FTP client.
 3.  Use your FTP login info to access your site.
@@ -39,7 +40,7 @@ To configure your theme, click the "Configure Theme" button below the theme grap
 - *Logo file.* You may upload a logo file that will replace the site title in the header of the theme. Recommended maximum width for the logo is 500px.
 - *Header background.* Upload an image file that will display across the top of your public website.
 - *Footer text.* An HTML-enabled text box where you can enter text for a site footer to appear on every page. 
-- *Display copyright in footer.*  Check this box if you wish to display your site’s copyright information in the footer. Site copyright information is found in the [General Settings](/Managing_General_Settings_2.md) section.
+- *Display copyright in footer.*  Check this box if you wish to display your site’s copyright information in the footer. Site copyright information is found in the [General Settings](../Settings/General_Settings.md) section.
 - *Use Advanced Site-wide search.* Check this box to allow public-side site visitors to search the whole site, including items, collections, and files, and to use boolean methods when searching.
 ![Header and footer configuration options](/docs/doc_files/themeHFConfig.png)
 

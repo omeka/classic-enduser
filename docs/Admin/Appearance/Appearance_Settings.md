@@ -4,7 +4,6 @@ title: Managing Appearance Settings 2.0
 
 The Settings sub-tab in the Appearance section help you to manage derivative image sizes and adjust some of the display settings for items on the public and admin sides. It is divided into two sections: *Derivative Size Constraints* and *Display Settings*
 
-
 ![All appearance settings, screen cap.](/doc_files/appearSettings.png)
 
 Derivative Size Constraints
@@ -21,9 +20,9 @@ These following are the default settings for the three size constraints, in pixe
 
 To make changes, simply type a number into the corresponding text field.
 
-Please note that changes to these settings will only affect files uploaded after you have made the changes; it does not retroactively re-size existing files. If you want to change existing files, you will need to install the [Derivative Images plugin](/Plugins/DerivativeImages.md)
+Please note that changes to these settings will only affect files uploaded after you have made the changes; it does not retroactively re-size existing files. If you want to change existing files, you will need to install the [Derivative Images plugin](../../Plugins/DerivativeImages.md)
 
-Those with access to the server files can also [manage thumbnail creation settings](/Configuring_Thumbnail_Creation.md) to change where thumbnails crop the image (see linked documentation for more information)
+Those with access to the server files can also [manage thumbnail creation settings](../../Technical/Configuring_Thumbnail_Creation.md) to change where thumbnails crop the image (see linked documentation for more information)
 
 Display Settings
 ----------------------------------------------------------------

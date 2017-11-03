@@ -1,7 +1,8 @@
 ---
 title: Plugin Shortcodes
 ---
-Several plugins also have [shortcodes](../Shortcodes.md) available.
+Several plugins also have [shortcodes](../Content/Shortcodes.md) available.
+
 *Note: the corresponding plugin must be installed and activated to utilize any of the following shortcodes.*
 
 ## General Short Code Options
