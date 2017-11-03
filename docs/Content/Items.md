@@ -74,7 +74,7 @@ To search all items, click the Search Items button which takes you to an advance
 Edit an Item
 --------------------------------------------------------------
 
-[Item edit window](doc_files/itemEdit.png)
+[Item edit window](/doc_files/itemEdit.png)
 
 You can edit any of the information you entered when creating an item, or add new information, by going to the Items tab on the left hand navigation. 
 
@@ -116,5 +116,5 @@ Batch Editing & Deleting
 Output Formats 
 ---------------------------------------------------------------------
 
-Once you have items in an archive, item data may be shared in a variety of [Output Formats](Output_Formats.md).
+Once you have items in an archive, item data may be shared in a variety of [Output Formats](../Technical/Output_Formats.md).
 

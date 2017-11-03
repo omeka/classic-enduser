@@ -7,8 +7,6 @@ Basic Search
 -------------
 The simplest way to search an Omeka Classic installation is using the simple search bar. On the admin side, this is always present in the upper right hand area of the window, under the top navigation. The exact location of the search bar on the public side varies by theme, but is generally close to the navigation menu. 
 
-![Simple Search]
-
 To perform a basic search, type the keyword you want to search for in the field and either hit enter on your keyboard or click the Search (magnifying glass) button. Depending on the [search settings](../Admin/Settings/Search_Settings.md), content in this search might include item, file, and collection metadata, the text on simple pages, exhibit summary pages and exhibit pages. 
 
 ### Search options
