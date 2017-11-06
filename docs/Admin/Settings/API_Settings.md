@@ -20,7 +20,7 @@ collections, tags, etc. being available via the API, the Exhibit Builder plugin 
 ### API Keys and Permissions
 
 Permissions to modify any data are only given to existing users of your Omeka site who have been given a key by an administrator. See more information on users,
-[Managing_Users_2.0](../Users/Users.md).
+[Managing_Users_2.0](../Users/Users).
 
 The same permissions by role apply to the API, so users with the
 “researcher” role will not be able to do anything through the API that they cannot do through the regular admin interface. Users with admin or super levels can obtain keys that could allow their applications to show, browse, add, edit, and delete your site resources. Be careful when generating API keys.

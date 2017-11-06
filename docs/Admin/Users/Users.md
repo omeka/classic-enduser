@@ -63,7 +63,7 @@ To Add a User, select the green button in the upper left hand corner.
 ![Add user form](../doc_files/Usersaddnew.png)
 
 
--   Fill in the fields for the new user. Assign a [role](/User_Roles.md) to the user, and click the green Add User button below the form. 
+-   Fill in the fields for the new user. Assign a role to the user, and click the green Add User button below the form. 
 -   The new user will receive an email at the address you provide with their username and a link that takes them to a form to create a password. Until the new user activates his/her account, and inactive status appears after the Username.
 -   To edit user information, including changing passwords, Super and Admin users may click on the "edit" button on the right side of the username.
 

@@ -6,8 +6,8 @@ All items in your Omeka archive have core and item type metadata - or the inform
 
 Each item contains descriptive metadata. By default, Omeka uses the guidelines established in the Dublin Core Metadata Initiative:[http://dublincore.org](http://dublincore.org) to standardize item records. This will make the sharing of data across Omeka, and other platforms, installations possible.
 
-It is also possible to install another element set (see[Managing_Element_Sets](../Managing_Element_Sets.md)), or you may create a new element set, (see
-[Creating_an_Element_Set](Creating_an_Element_Set.md)).
+It is also possible to install another element set (see[Managing_Element_Sets](../Managing_Element_Sets)), or you may create a new element set, (see
+[Creating_an_Element_Set](Creating_an_Element_Set)).
 
 ## Dublin Core Fields
 

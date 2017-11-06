@@ -3,7 +3,7 @@ title: Item Types
 ---
 The following are the standard Dublin Core item types in an Omeka install. 
 
-File formats are given as examples only and may not be supported by your version of Omeka or your browser. Please see the documentation on [media files](/Media_Files.md) for more information.
+File formats are given as examples only and may not be supported by your version of Omeka or your browser. Please see the documentation on [media files](/Media_Files) for more information.
 
 Document
 ---------------------------------------------------------

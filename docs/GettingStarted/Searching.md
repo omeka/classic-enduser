@@ -1,13 +1,13 @@
 ---
 title: Searching
 ---
-This page explains the search functions in Omeka Classic on the public and admin side, and how to use them. If you are looking for information on how to [manage search settings, please see that documentation](../Admin/Settings/Search_Settings.md).
+This page explains the search functions in Omeka Classic on the public and admin side, and how to use them. If you are looking for information on how to [manage search settings, please see that documentation](../Admin/Settings/Search_Settings).
 
 Basic Search
 -------------
 The simplest way to search an Omeka Classic installation is using the simple search bar. On the admin side, this is always present in the upper right hand area of the window, under the top navigation. The exact location of the search bar on the public side varies by theme, but is generally close to the navigation menu. 
 
-To perform a basic search, type the keyword you want to search for in the field and either hit enter on your keyboard or click the Search (magnifying glass) button. Depending on the [search settings](../Admin/Settings/Search_Settings.md), content in this search might include item, file, and collection metadata, the text on simple pages, exhibit summary pages and exhibit pages. 
+To perform a basic search, type the keyword you want to search for in the field and either hit enter on your keyboard or click the Search (magnifying glass) button. Depending on the [search settings](../Admin/Settings/Search_Settings), content in this search might include item, file, and collection metadata, the text on simple pages, exhibit summary pages and exhibit pages. 
 
 ### Search options
 To access the options for the basic search, click on the ellipses (...) button to the right of the search bar, next to the search (magnifying glass) button.
@@ -20,7 +20,7 @@ The first set of options allows you to select a query type:
 - Boolean, in which you can add boolean operators like AND and NOT
 - Exact match, which will only find exact matches to the word or phrase you enter.
 
-The second set of options are a series of checkboxes for content to include in the search. The checkboxes populate based on the [search settings](../Admin/Settings/Search_Settings.md) and can include:
+The second set of options are a series of checkboxes for content to include in the search. The checkboxes populate based on the [search settings](../Admin/Settings/Search_Settings) and can include:
 
 - Item
 - File
@@ -34,7 +34,7 @@ as well as options provided by plugins, such as:
 
 Advanced Search
 ----------------
-Advanced Search, which will only search the items in your Omeka installation, is available on the admin sides, and on the public side if the *Use Advanced Site-Wide Search* option is checked in the [theme settings](../Admin/Appearance/Themes.md) 
+Advanced Search, which will only search the items in your Omeka installation, is available on the admin sides, and on the public side if the *Use Advanced Site-Wide Search* option is checked in the [theme settings](../Admin/Appearance/Themes) 
 
 To access the advanced search, click on the ellipses (…) button to the right of the basic search bar (1) and then click the link to “Advanced Search (Items Only)” (2)
 
@@ -66,11 +66,11 @@ Advanced Search options are:
 - **Public/Non-Public**: dropdown with options for each
 - **Featured/Non Featured**: dropdown with binary options
 
-If you have [the Geolocation plugin](../Plugins/Geolocation.md) installed, Advanced Search will also include the following options:
+If you have [the Geolocation plugin](../Plugins/Geolocation) installed, Advanced Search will also include the following options:
 - **Geographic Address**: search for items at an address (text field)
 - **Geographic Radius**: proximity to the address given above, in miles. 
 
-If you have [the Exhibit Builder plugin](../Plugins/ExhibitBuilder.md) installed, advanced search will include the following option:
+If you have [the Exhibit Builder plugin](../Plugins/ExhibitBuilder) installed, advanced search will include the following option:
 - **Search by Exhibit**: a dropdown of exhibits. This will find all items used in the specified exhibit.
 
 Troubleshooting

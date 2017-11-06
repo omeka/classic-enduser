@@ -7,9 +7,9 @@ Items are building blocks in Omeka. To build your digital collections website, y
 Before Adding Items 
 ---------------------------------------------------------------
 
-You may want to consult the [Site Planning Tips](/Site_Planning_Tips.md) page to think about how to build your site and what you want to do with your items.
+You may want to consult the [Site Planning Tips](/Site_Planning_Tips) page to think about how to build your site and what you want to do with your items.
 
-You may also want to think about what type of information you plan to share using the [Dublin Core Metadata](http://dublincore.org/documents/usageguide/) fields before adding and describing items. You may also want to read the [Describing Items](/Describing_Items.md) page for a brief explanation of using metadata in Omeka Items.
+You may also want to think about what type of information you plan to share using the [Dublin Core Metadata](http://dublincore.org/documents/usageguide/) fields before adding and describing items. You may also want to read the [Describing Items](/Describing_Items) page for a brief explanation of using metadata in Omeka Items.
 
 Add an Item 
 ---------------------------------------------------------------
@@ -25,9 +25,9 @@ This takes you to the admin/items/add page where you see a navigation bar across
     - You can use HTML in these elements if you want; see below for more information. 
 2.  The **Item Type Metadata** tab lets you choose a specific item type for the object you are adding. 
      - Once you choose the type by using the drop-down menu, relevant metadata fields appear for you to complete. 
-    - See [Managing Item Types 2.0](/Managing_Item_Types_2.0.md) for information about adding/editing item types.)
+    - See [Managing Item Types 2.0](/Managing_Item_Types_2.0) for information about adding/editing item types.)
 3.  The **Files** tab lets you upload files to an item. 
-     - Clicking the "Add Another File" link will reveal another field for adding a file. You can associate any number of files to an item. Read more about [Managing Files 2.0](Managing_Files_2.0.md).
+     - Clicking the "Add Another File" link will reveal another field for adding a file. You can associate any number of files to an item. Read more about [Managing Files 2.0](Managing_Files_2.0).
 4.  The **Tags** tab allows you add keyword tags to your item.
      - You must press the “Add Tags” button in order to attach tags to an item. Simple entering them in the Add Tags field will not work.
 5.  To assign items to a collection: on the right side of the page, under the "Add Item" button is a drop-down menu where you can assign your item to a collection. Remember, items can only belong to one collection.
@@ -39,7 +39,7 @@ This takes you to the admin/items/add page where you see a navigation bar across
 Each metadata field's text may be enhanced using basic HMTL tags. Check the HTML box below the text box to enable a visual HTML editor. 
 ![Item element with Use HTML box ticked](doc_files/itemHTML.png)
 
-For more information about working with the HTML editor, please see [Using HTML Editor-TinyMCE](/Using_HTML_Editor-TinyMCE.md)
+For more information about working with the HTML editor, please see [Using HTML Editor-TinyMCE](/Using_HTML_Editor-TinyMCE)
 
 Properties of Items
 -------------------------------------------------------------
@@ -107,7 +107,7 @@ Batch Editing & Deleting
     -   switch or associate selected items with a Collection,
     -   add Tags to all selected items,
     -   delete Items,
-    -   include Item Relations, if the [Item Relations](Plugins/ItemRelations.md) plugin is installed.
+    -   include Item Relations, if the [Item Relations](Plugins/ItemRelations) plugin is installed.
 
 -   Check the list of items to be edited or deleted in the box to the right. Un-check box to the left of items if you marked one     by mistake.
 -   Click Save Changes to edit all of the selected items.
@@ -116,5 +116,5 @@ Batch Editing & Deleting
 Output Formats 
 ---------------------------------------------------------------------
 
-Once you have items in an archive, item data may be shared in a variety of [Output Formats](../Technical/Output_Formats.md).
+Once you have items in an archive, item data may be shared in a variety of [Output Formats](../Technical/Output_Formats).
 

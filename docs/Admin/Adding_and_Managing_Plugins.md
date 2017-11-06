@@ -67,6 +67,6 @@ Pre-packaged Plugins
 --------------------
 The following plugins come prepackaged with the download of Omeka Classic: 
 
--   [Coins](../Plugins/Coins.md) – Adds Coins metadata to items on the admin theme and in public themes.
--   [SimplePages](../Plugins/SimplePages.md) – Publish static pages on your public site.
--   [Exhibit Builder](../Plugins/ExhibitBuilder.md): Build narratives around your collections.
+-   [Coins](../Plugins/Coins) – Adds Coins metadata to items on the admin theme and in public themes.
+-   [SimplePages](../Plugins/SimplePages) – Publish static pages on your public site.
+-   [Exhibit Builder](../Plugins/ExhibitBuilder): Build narratives around your collections.

@@ -12,7 +12,7 @@ Scholars:
 -   Use Omeka to publish an essay or digital dissertation, share primary source collections, and collaborate with others in the creation of digital scholarship.
 -   Features you might like: themes, tagging, Exhibit Building plugin, Simple Pages plugin, Docs Viewer plugin, Geolocation plugin.
 -   Examples: [Daisie M. Helyar, 1906-1910 Scrapbook](http://gslis.simmons.edu/daisie/), [Lowcountry Digital History Initiative](http://ldhi.library.cofc.edu/)
--   Tell us how you [Teach with Omeka](/Teach_with_Omeka.md).
+-   Tell us how you [Teach with Omeka](/Teach_with_Omeka).
 
 Museum Professionals:
 -----------------------------------------------------------
@@ -39,7 +39,7 @@ Educators:
 -   Use Omeka to build inquiry-based tasks for students, to create lesson plans with accompanying primary sources, or build learning modules with your team.
 -   Features you might like: design themes, exhibit builder, Poster Builder plugin, Commenting plugin, Docs Viewer plugin, tagging.
 -   Examples: [Laurel Grove School Teachers Workshop](http://chnm.gmu.edu/laurelgrove), [Making the History of 1989](http://chnm.gmu.edu/1989), [Teaching & Learning Cleveland](http://csudigitalhumanities.org/exhibits/).
--   Tell us how you [Teachwith Omeka](/Teach_with_Omeka.md).
+-   Tell us how you [Teachwith Omeka](/Teach_with_Omeka).
 
 Enthusiasts:
 --------------------------------------------------------------

@@ -1,7 +1,7 @@
 ---
 title: Omeka Classic Feature List
 ---
-Click [here](../featurelist_2-x.pdf) for a PDF version of this page.
+Click [here](../doc_files/featurelist_2-x.pdf) for a PDF version of this page.
 
 ## Omeka 2.4 Feature List
 **Free, open-source, digital publishing suite for scholars, librarians, archivists, museum professionals, and cultural enthusiasts**

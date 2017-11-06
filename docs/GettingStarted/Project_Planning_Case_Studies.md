@@ -9,8 +9,8 @@ First, for advice on thinking about what your site is about, how to handle image
 You may also want to consult articles written about using Omeka for teaching, building exhibits, and managing collections in our public [Zotero library](https://www.zotero.org/groups/omeka/items).
 
 ### Case Studies
--   [Exhibit Case Study](/case_studies/Exhibit_Case_Study.md)
--   [Collecting Site Case Study](/case_studies/Collecting_Site_Case_Study.md)
+-   [Exhibit Case Study](/case_studies/Exhibit_Case_Study)
+-   [Collecting Site Case Study](/case_studies/Collecting_Site_Case_Study)
 -   [Teaching Case Study](https://omeka.org/codex/Teaching_Case_Study "Teaching Case Study")
 -   [Using Omeka for mobile content delivery](http://chnm.gmu.edu/labs/mobile-for-museums/implementation-and-prototypes/)
 
@@ -21,7 +21,7 @@ You may also want to consult articles written about using Omeka for teaching, bu
     -   Example: Look at [Children and Youth in History](http://chnm.gmu.edu/cyh/) Click on the Case Studies tab, and you will find that each case study is an individual item in the archive. They created an item type called "case study" and this is what is called to display for this section. See, <http://chnm.gmu.edu/cyh/case-studies/122>.
 
 ### Tips on Planning
-See [Site Planning Tips](/Site_Planning_Tips.md) for more specific ways to plan ahead for building an Omeka site.
+See [Site Planning Tips](/Site_Planning_Tips) for more specific ways to plan ahead for building an Omeka site.
 
 Before starting to work with Omeka, it is useful to sketch out
 wireframes of site to help to plan how you want the public site to look and how you want visitors to access and use the content in your site. Planning the content and then think about how Omeka can work best for your project.

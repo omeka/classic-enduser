@@ -23,7 +23,7 @@ You may customize descriptions of element set metadata through adding comments t
 
 To add comments to the metadata field descriptions, click on the arrow to the right of the name of the Dublin Core metadata element. Add your comment in the field below. Don't forget to save your changes.
 
-![Title element comment being edited, with an arrow to the comment field.](/doc_files/Elementscomment.png)]
+![Title element comment being edited, with an arrow to the comment field.](/doc_files/Elementscomment.png)
 
 Reorder Fields
 -------------------------------------------------------------

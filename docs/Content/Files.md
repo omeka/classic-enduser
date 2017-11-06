@@ -2,14 +2,14 @@
 title: Managing Files 2.0
 ---
 
-When adding [items](/Items.md) to your archive, often you will upload one or more files (images, documents, et al) associated with that item.
+When adding [items](/Items) to your archive, often you will upload one or more files (images, documents, et al) associated with that item.
 
 ![Files tab of the Add an Item ](/doc_files/filesAdd.png)
 
 File Types
 -------------------------------------------------------------
 
-Omeka accepts most files and file types. If you are having difficulty or receiving MIME Type errors, please see more information about adjusting the MIME Types or Accepted File Extensions in the section on [managing security settings](../Admin/Settings/Security_Settings.md).
+Omeka accepts most files and file types. If you are having difficulty or receiving MIME Type errors, please see more information about adjusting the MIME Types or Accepted File Extensions in the section on [managing security settings](../Admin/Settings/Security_Settings).
 
 File Display Order
 ---------------------------------------------------------------
@@ -17,7 +17,7 @@ Once files are added to an item, you may click and drag the files into the prefe
 
 Files with Thumbnails
 -------------------------------
-Thumbnail previews are created for all files types in Omeka 2.0. If you have access to the config.ini file, you can manage [thumbnail configuration](../Technical/Configuring_Thumbnail_Creation.md)
+Thumbnail previews are created for all files types in Omeka 2.0. If you have access to the config.ini file, you can manage [thumbnail configuration](../Technical/Configuring_Thumbnail_Creation)
 
 File Size Limitations
 -----------------------------
@@ -28,7 +28,7 @@ These limitations vary from server to server and we cannot change this for you. 
 Batch Add Files
 ---------------------------------------------------------------
 
-To upload more than one file at a time, you may download and install the [Dropbox](../Plugins/Dropbox.md) plugin. It allows you to upload multiple files directly into a folder on your server that you can then add in the items admin interface. 
+To upload more than one file at a time, you may download and install the [Dropbox](../Plugins/Dropbox) plugin. It allows you to upload multiple files directly into a folder on your server that you can then add in the items admin interface. 
 
 File Metadata
 --------------------------------------------------------------
