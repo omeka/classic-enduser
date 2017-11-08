@@ -9,7 +9,7 @@ Note that the Derivative Image plugin does not affect all file types. We highly 
 
 Using the Derivative Image Plugin
 -----------------------------------------------------------------
-After you have [installed](../Managing_Plugins.md#installing-a-plugin) the plugin, Derivative Images is added to your left sidebar in the Admin view.
+After you have [installed](../Admin/Adding_and_Managing_Plugins) the plugin, Derivative Images is added to your left sidebar in the Admin view.
 
 
 -   Open the plugin in the Nav sidebar to configure the dimensions of fullsize, thumbnail, and square thumbnail images in Omeka.

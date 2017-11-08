@@ -23,11 +23,7 @@ Even if the site creators have changed the label for these pages in their naviga
 
 **Skim the navigation**
 
-
-
-
-
-- pay attention to url (exhibit, collection, item, item type, tag)
+- pay attention to urls (exhibit, collection, item, item type, tag)
 - identify plugins by menu navigation label
 
 ## How are others using Omeka?

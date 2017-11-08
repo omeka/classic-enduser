@@ -10,7 +10,7 @@ When you use this service you are acknowledging that you have read and agreed to
 
 Configuring
 ---------------------------------------------------------------
-Once you have [installed](../Managing_Plugins.md#installing-a-plugin) the Docs Viewer plugin, select Plugins in the
+Once you have [installed](../Admin/Adding_and_Managing_Plugins) the Docs Viewer plugin, select Plugins in the
 top navigation of your admin. Activate your plugin and select Configure.
 
 ![DocsViewer configuration options](../doc_files/plugin_images/Docvoptions.png)

@@ -5,26 +5,26 @@ title: Contribution
 
 The Contribution plugin provides a form to collect stories, images, and other files from the public and manage those contributions in your Omeka site as items. Contributors may share and upload content anonymously, and their information will only be available to site administrators. All contributions are private by default and require a site administrator to review and make them public on the Omeka site. The plugin can also automatically add a reCAPTCHA box at the bottom of each form to prevent spam-bots from spamming your website. Contribution also offers options for users to create guest accounts that make it easier for one user to submit multiple items. 
 
-Other plugins can be integrated into the Contribution form, such as [Simple Vocab](../Plugins/SimpleVocab.md) for creating dropdown menu choices, and [Geolocation](../Plugins/Geolocation.md) for inviting users to map their submissions or locations. 
+Other plugins can be integrated into the Contribution form, such as [Simple Vocab](/SimpleVocab) for creating dropdown menu choices, and [Geolocation](/Geolocation) for inviting users to map their submissions or locations. 
 
 Installing and configuring the Contribution plugin requires a few steps. Please read through the documentation carefully. 
 Watching the [screencast](https://vimeo.com/165200216) we created for using and configuring this addon can be helpful as you think through each step.  - please note that the screencast is [version 3.0.1](https://github.com/omeka/classic-enduser/blob/master/Plugins/Contribution_3.md#older-versions) and not the most current version of the plugin.
 
 An Omeka site with the Contribution plugin requires you to upload and install two separate plugins:
--   [Guest User](../Plugins/GuestUser.md) (required)
+-   [Guest User](/GuestUser) (required)
 -   Contribution (required)
 
 If you want to collect any information from your contributors, install these two additional plugins:
--   [Record Relations](../Plugins/RecordRelations.md) (optional, only required for collecting user information)
--   [User Profiles](../Plugins/UserProfile.md) (optional, only required for collecting user information)
+-   [Record Relations](/RecordRelations) (optional, only required for collecting user information)
+-   [User Profiles](/UserProfile) (optional, only required for collecting user information)
 
 Installing
 ------------------------------------------------------------
 
--   Upload and [install](../Managing_Plugins.md#Installing_a_Plugin) the Guest User plugin first. If you have uploaded the other plugins first, you will see in the plugin directory that you cannot install other Contribution-related plugins until Guest User is installed first.
+-   Upload and [install](../Admin/Adding_and_Managing_Plugins) the Guest User plugin first. If you have uploaded the other plugins first, you will see in the plugin directory that you cannot install other Contribution-related plugins until Guest User is installed first.
 
 ### Guest User Configuration
-After installing the plugin, click the Configure button. For more information go to the [Guest User documentation](../Plugins/GuestUser.md).
+After installing the plugin, click the Configure button. For more information go to the [Guest User documentation](/GuestUser).
 
 ### Installing Contribution
 1. Upload and install the Contribution plugin in the plugin directory.
@@ -80,9 +80,9 @@ To delete an element, click the X button in the right corner of the block and sa
 
 In the above image, the upper block has marked for deletion - note that the header for the block is highlighted in red. The lower block is the add element block option with the dropdown open.
 
-If you want users to select from a drop-down instead of entering text, use [Simple Vocab](../Plugins/SimpleVocab.md) to set up a controlled vocabulary for the element which will be applied on the admin side when adding/editing an item and in contribution forms. 
+If you want users to select from a drop-down instead of entering text, use [Simple Vocab](/SimpleVocab) to set up a controlled vocabulary for the element which will be applied on the admin side when adding/editing an item and in contribution forms. 
 
-If you want users to be able to assign a location to their contributions, use the [Geolocation](../Plugins/Geolocation.md) plugin and check the *add map to contribution form* in its configuration settings.
+If you want users to be able to assign a location to their contributions, use the [Geolocation](/Geolocation) plugin and check the *add map to contribution form* in its configuration settings.
 
 ### Submission Settings
 In this section, you set the contribution options for your form, including an option for user anonymity, and provide the text for the email confirmations sent to contributors. 
@@ -94,7 +94,7 @@ In this section, you set the contribution options for your form, including an op
 - *New Contribution Notification Emails*: Add emails to which you want a notification sent when new contributions are received. You can enter multiple email addresses, separated by a comma.
 
 **Terms of Service**
-- *Terms of service*: paste in text of language of consent for anyone contributing to the site, or make a short statement linking to a [Simple Page](../Plugins/SimplePages_2.0.md) with a longer terms of service statement. 
+- *Terms of service*: paste in text of language of consent for anyone contributing to the site, or make a short statement linking to a [Simple Page](/SimplePages) with a longer terms of service statement. 
 
 **Contributor anonymity settings**
 Two checkboxes allow an Administrator to set the user requirements for submitting contributions. 
@@ -117,7 +117,7 @@ The boxes work together as follows:
 - *Default Contribution Type*: If you select a type, it will automatically load when someone navigates to the public contribution form.
 
 **If User Profiles is installed**
-- If you’re collecting user data with the [User Profiles](../Plugins/UserProfiles.md) plugin, you must select which profile to make available for your contribution users. See below for more information about creating a user profile.
+- If you’re collecting user data with the [User Profiles](/UserProfiles) plugin, you must select which profile to make available for your contribution users. See below for more information about creating a user profile.
 
 Remember to save changes. 
 
@@ -138,8 +138,8 @@ This  tab is where you manage and view all submissions. From this screen, it is 
 
 To ask for additional information about your contributors, you will need to install 2 additional plugins. If you do not wish to collect contributor information, you do not need to install Record Relations or User Profiles to use Contribution.
 
-1. Upload and install the [Record Relations plugin](../Plugins/RecordRelations.md)
-2. Upload and install the [User Profiles plugin](../Plugins/UserProfiles.md). Once Record Relations is installed, the User Profiles plugin will become available to install. Follow directions for creating user profiles in that plugin's documentation.
+1. Upload and install the [Record Relations plugin](/RecordRelations)
+2. Upload and install the [User Profiles plugin](/UserProfiles). Once Record Relations is installed, the User Profiles plugin will become available to install. Follow directions for creating user profiles in that plugin's documentation.
 
 Adding Contribution link to Site Navigation
 ----------------------------------------------------------

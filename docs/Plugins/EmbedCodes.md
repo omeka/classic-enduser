@@ -7,7 +7,7 @@ The EmbedCodes plugin enables you to share individual Omeka items as an iframe i
 
 How to Embed Omeka Items in Other Sites 
 ------------------------------------------------------
-Once you have [installed and activated](../Managing_Plugins.md#installing-a-plugin) the plugin, the Embed Code field then appears in the public view of individual items in your website. No further configuration is required.
+Once you have [installed and activated](../Admin/Adding_and_Managing_Plugins) the plugin, the Embed Code field then appears in the public view of individual items in your website. No further configuration is required.
 
 Highlight and copy the entire code in the Embed field.
  

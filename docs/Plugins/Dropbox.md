@@ -10,7 +10,7 @@ The Dropbox allows Omeka users to batch upload a large quantity of files at one 
 Using the Dropbox plugin
 -----------------------
 
-1.  [Install](../Managing_Plugins.md#installing-a-plugin) the Dropbox plugin
+1.  [Install](../Admin/Adding_and_Managing_Plugins) the Dropbox plugin
 2.  Make 'files' folder located in the /Dropbox plugin directory writable to the Apache server. For most servers, you can use the follow command to make the file writable: `chmod -r 775 files`.
 3.  Once activated, the Dropbox plugin creates a tab found on the left side menu under Dashboard in admin.
 4.  FTP files you wish to upload to the /files folder located on the server (/plugins/Dropbox/files/). The list of files will appear in files tab when adding or editing items,and under the Dropbox tab available from the /admin screen (.../admin/dropbox).
@@ -35,5 +35,5 @@ You may add files from the dropbox at any point during the adding or editing pro
 
 Security Settings
 --------------------------------------------------------------
-It may be necessary to add specific mimetypes to the Allowed File Types in the admin section. See [Managing Security Settings](../Managing_Security_Settings.md) for more information.
+It may be necessary to add specific mimetypes to the Allowed File Types in the admin section. See [Security Settings](../Admin/Settings/Security_Settings) for more information.
 

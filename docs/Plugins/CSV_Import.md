@@ -23,7 +23,7 @@ However, if you're creating or editing your data by hand, there are a few things
 -   Check to see if any of the text contains commas, and if it does surround that segment with double-quotes. Many spreadsheet programs will do this for you automatically. If you are using a spreadsheet program, check the CSV that is exported by opening it in a plain text editor to see if the double-quotes are being added automatically.
 -   You can specify a unique delimiter for columns, files, tags, and elements. Once you do, be sure to be consistent in formatting.
 -   Remember, every row represents one item, and all items in the file must be the same item type.
--   Look over the Dublin Core and [Item Type](../Managing_Item_Types.md) metadata to be sure you can easily map the fields in your CSV file to the Omeka installation. Make any modifications in fields or types as necessary.
+-   Look over the [Dublin Core](../Content/Working_with_Dublin_Core) and [Item Type](../Content/Item_Types) metadata to be sure you can easily map the fields in your CSV file to the Omeka installation. Make any modifications in fields or types as necessary.
 -   It is possible to import files housed in a digital repository by adding the URL to that specific file in a column representing a file. You may import more than one file per item, by comma separating the urls within a cell. You must use a permanent link for this step.
 
 Importing 
@@ -62,8 +62,8 @@ On this next screen, you will see a table which includes each of the Dublin Core
 For each row in the table (which corresponds to a column in your original CSV) you have the following options: 
 -  *Map to Element*: Select an element (all of your element sets should be represented) to which to map the column.
 - Click the *Use HTML* checkbox if this data includes HTML markup.
-- Click the *Tags?* checkbox (and do not map to an element) to map this data as [tags](../Managing_Tags.md)
-- Click the *Files?* to map this data as a [file](../Managing_Files.md) import. 
+- Click the *Tags?* checkbox (and do not map to an element) to map this data as [tags](../Content/Tags)
+- Click the *Files?* to map this data as a [file](../Content/Files) import. 
 
  
 ![Mapping elements](../doc_files/plugin_images/CSV3.png)

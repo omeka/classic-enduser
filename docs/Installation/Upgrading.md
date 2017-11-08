@@ -2,9 +2,9 @@
 title: Upgrading
 ---
 
-1.  Always **back up your database** in case something goes wrong during the upgrade. For instructions, see [Backing up an Omeka    Database](/Backing_up_an_Omeka_Database.md).
+1.  Always **back up your database** in case something goes wrong during the upgrade. For instructions, see [Backing up an Omeka    Database](../Technical/Backing_up_an_Omeka_Database).
 2.  **Deactivate your plugins** in Settings &gt; Plugins of the     administrative panel.
-    - Be careful not to *uninstall* the plugins, because you may lose data. See the instructions for [upgrading plugins](/Managing_Plugins_2.md#upgrading-plugins) for more information.
+    - Be careful not to *uninstall* the plugins, because you may lose data. See the instructions for [upgrading plugins](../Admin/Adding_and_Managing_Plugins) for more information.
     - Check to make sure your plugins are compatible with the version of Omeka you're upgrading to. Especially when moving from 1.x to 2.x, you may need to use updated versions of plugins instead of the old ones.
 3.  **Move your old Omeka installation** out of the way, either to somewhere else on your server or transfer the files to your local computer.
 4.  **Download and unzip** the latest version of Omeka into the empty directory where your previous install of Omeka was located.

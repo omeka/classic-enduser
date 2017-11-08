@@ -15,7 +15,7 @@ Below are listed the languages in which Omeka is available, along with the two o
 
 A translation is considered "Complete" at 100%. Languages listed as "Nearly Complete" are between 90 and 99% translated. Languages listed as "Started" are less then 25% complete.
 
-The statuses listed in the table are for the core Omeka code; coverage varies for plugins. To help [translate Omeka](/Translate_Omeka.md), sign up for an account at [Transifex](https://www.transifex.com) and join our project (an account is required to view progress or contribute).
+The statuses listed in the table are for the core Omeka code; coverage varies for plugins. To help [translate Omeka](../Technical/Translate_Omeka), sign up for an account at [Transifex](https://www.transifex.com) and join our project (an account is required to view progress or contribute).
 
 Language | Code | Status
 ---|---|---

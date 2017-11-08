@@ -2,8 +2,6 @@
 title: Screencasts
 ---
 
-Screencasts for version 2.0+
----------------------------------------------------------------
 General:
 
 - [Introduction to Omeka 2.0](https://vimeo.com/55973380)
