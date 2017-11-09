@@ -1,8 +1,6 @@
 ---
 title: Item Relations
 ---
-*Current version: 2.0.2*
-
 The Item Relations plugin lets you define relations between items. For example, you can make one item a part of another item, where "part of" is the relation. You can also make one item a "reproduction of" or a "translation of" another item.
 
 We've bundled the plugin with common relations derived from several formal vocabularies, including:
@@ -16,7 +14,8 @@ You may use these or create a custom vocabulary* with the relations needed in yo
 Configuration 
 ---------------------------------------------------------------
 
-After you have [installed](../Managing_Plugins_2.md#installing-a-plugin) the plugin, you will need to configure the plugin, from the link on the Plugins page accessed from the top navigation of your admin dashboard.
+After you have [installed](../Admin/Adding_and_Managing_Plugins)
+ the plugin, you will need to configure the plugin, from the link on the Plugins page accessed from the top navigation of your admin dashboard.
 
 There are two configuration options:
 - A checkbox to *Append to Public Items Show*. If you want to display an item's relations on its public show page, check this box. 

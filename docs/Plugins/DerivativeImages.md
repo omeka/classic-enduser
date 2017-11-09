@@ -1,8 +1,6 @@
 ---
 title: Derivative Images
 ---
-*Current version: 2.0*
-
 The Derivative image plugin allows users to re-size fullsize, thumbnail, and square thumbnail images of selected file types for public and admin side displays. The Derivative Image plugin is particularly useful if image sizes of files already in Omeka must change when a new theme is selected, after an upgrade from an earlier Omeka version, or after an upgrade of ImageMagick software.
 
 Note that the Derivative Image plugin does not affect all file types. We highly recommended that you backup the archive directory before resizing images.

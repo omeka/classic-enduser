@@ -1,13 +1,11 @@
 ---
 title: GuestUser
 ---
-*Current version: 1.1.1*
-
 The Guest User plugin adds an additional user role to your Omeka site. The Guest role works behind the scenes with other plugins (Commenting, and User Profiles, for example), without giving the guests admin access to your Omeka site.
 
 Install and Configure
 -----------------------------------------------------------------
-After  [installing](../Managing_Plugins.md#installing-a-plugin) the plugin, you should be automatically redirected to the configuration settings for the plugin. You can access these again at any time by clicking the Configure button for Guest User from the Plugins menu.
+After  [installing](../Admin/Adding_and_Managing_Plugins) the plugin, you should be automatically redirected to the configuration settings for the plugin. You can access these again at any time by clicking the Configure button for Guest User from the Plugins menu.
 
 You can enter text for the following fields:
 -   Registration Features: this text will appear at the top of the registration page. You can use it to explain what users are signing up to do, and what the limitations may be.
@@ -25,7 +23,7 @@ There are also two checkboxes:
 
 ![Checkboxes described above, neither checked](../doc_files/plugin_images/GUConfig2.png)
 
-If you have [ReCaptcha enabled](https://omeka.org/codex/ReCaptcha), you can require a ReCaptcha key for registration.
+If you have [ReCaptcha enabled](../Admin/Settings/ReCaptcha), you can require a ReCaptcha key for registration.
 
 Using the Plugin
 -----------------------------------------------------------------

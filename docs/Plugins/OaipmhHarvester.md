@@ -1,8 +1,6 @@
 ---
 title: OAI-PMH Harvester
 ---
-*Current version 2.0.2*
-
 The OAI-PMH Harvester plugin imports records from OAI-PMH data providers.
 
 Some online repositories expose their metadata through the [Open Archives Initiative Protocol for Metadata Harvesting](http://www.openarchives.org/pmh/) (OAI-PMH). This plugin makes it possible to harvest that metadata, mapping it to the Omeka data model. The plugin can be used for one-time data transfers, or to keep up-to-date with changes to an online repository.
@@ -15,7 +13,7 @@ Installation
 ---------------------------------------------------------------
 Your server must have PHP-CLI 5.2+ installed.
 
-Upload and [install](../Managing_Plugins.md#installing-a-plugin) the OAI-PMH Harvester plugin. Configure the plugin in Omeka (see below)
+Upload and [install](../Admin/Adding_and_Managing_Plugins) the OAI-PMH Harvester plugin. Configure the plugin in Omeka (see below)
 
 Configuration 
 ----------------------------------------------------------------
@@ -41,8 +39,6 @@ To perform a harvest, go to the OAI-PMH Harvester tab in the left-hand navigatio
 The harvest process runs in the background and may take a while. Go to the harvest's "Status" page to check the progress
 
 If you encounter errors, submit the base URL and status messages to the Omeka forums
-
-Try out plugin using [harvestable Omeka OAI sets](https://omeka.org/codex/Harvestable_Omeka_OAI_sets "Harvestable Omeka OAI sets").
 
 ### Re-harvesting and updating 
 The harvester includes the ability to make multiple successive harvests from a single repository, keeping in sync with changes to that repository.

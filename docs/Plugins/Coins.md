@@ -1,7 +1,6 @@
 ---
 title: Coins
 ---
-*Current version 2.0.3*
 
 The COinS plugin embeds citation metadata into the pages of your Omeka site for each item. COinS (ContextObjects in Spans) is "a simple, ad hoc community specification for publishing OpenURL references in HTML."
 

@@ -1,13 +1,12 @@
 ---
 title: Simple Contact Form
 ---
-*Current version: 0.5*
-
 The Simple Contact Form allows you to create a contact form on your site through which visitors can send comments, suggestions, and other feedback. By default, the plugin adds "Contact Us" to your site's main navigation.
 
 Configuration
 ---------------------------------------------------------------
-Once you have [installed](../Managing_Plugins.md#installing-a-plugin) Simple Contact, you will need to configure it. You should be automatically redirected to the plugin when you activate it from the admin Plugins page. If you are not, go to the top navigation on the admin dashboard and click Plugins, then scroll to Simple Contact (plugins are arranged alphabetically) and click the blue *Configure* button.
+Once you have [installed](../Admin/Adding_and_Managing_Plugins)
+ Simple Contact, you will need to configure it. You should be automatically redirected to the plugin when you activate it from the admin Plugins page. If you are not, go to the top navigation on the admin dashboard and click Plugins, then scroll to Simple Contact (plugins are arranged alphabetically) and click the blue *Configure* button.
 
 The configuration settings have a number of fields, almost all of which relate to setting up the various email addresses and messages needed for a contact form.
 
@@ -30,7 +29,7 @@ The fields are as follows:
 Configure the page on which the form appears with these settings: 
 - *Contact Page Title*: the title of the page 
 - *Instructions for Contact Page*: allows you to add instructions or other information to the page.
-- *Add to Main Navigation*: click this checkbox to add the contact form to the main site navigation. You can manage the position of this page in the navigation [from the Appearances tab](../Managing_Navigation_2.md)
+- *Add to Main Navigation*: click this checkbox to add the contact form to the main site navigation. You can manage the position of this page in the navigation [from the Appearances tab](../Admin/Appearance/Navigation)
 
 ![contact page settings](../doc_files/plugin_images/simplecontact4.png)
 
@@ -42,4 +41,4 @@ When the visitor clicks the submit button on the contact page form, they are red
 
 Remember to save your changes by clicking the green Save Changes button on the right side of the window. 
 
-You can enable [ReCaptcha](../ReCaptca.md) on your site to reduce spammer submissions through the Contact Form.
+You can enable [ReCaptcha](../Admin/Settings/ReCaptcha) on your site to reduce spammer submissions through the Contact Form.

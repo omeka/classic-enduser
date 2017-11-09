@@ -4,7 +4,6 @@ title: ExhibitBuilder 2.0
 
 **Note** This is an older version of Exhibit Builder and is no longer being updated. The current version of [Exhibit Builder is 3](/ExhibitBuilder)
 
-
 The Exhibit Builder plugin allows you to develop online exhibits, or special web pages, that combine items from your Omeka archive with narrative text.
 
 Exhibits are composed of pages--generally an initial page that

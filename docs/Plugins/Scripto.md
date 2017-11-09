@@ -1,8 +1,6 @@
 ---
 title:  Scripto
 ---
-*Current version: 2.2*
-
 The Scripto plugin allows you to crowdsource the transcription of your Omeka content. It adds a feature rich interface to the admin and public sides that includes many features from [MediaWiki](http://www.mediawiki.org/wiki/MediaWiki), the software behind [Wikipedia](http://www.wikipedia.org/). All items with files can be transcribed. For these purposes an item is a *document*, and an item's files are its *pages*.
 
 Features
@@ -32,7 +30,10 @@ This plugin requires you or your system administrator to [download](http://www.m
 
 Configuring Scripto
 ------------------------------------------------------------
--   **MediaWiki API URL:** URL to your [MediaWiki installation     API](http://www.mediawiki.org/wiki/API:Quick_start_guide#What_you_need_to_access_the_API).
+-   **MediaWiki API URL:** URL to your [MediaWiki installation API](http://www.mediawiki.org/wiki/API:Quick_start_guide#What_you_need_to_access_the_API).
+-   **MediaWiki cookie prefix:** the cookie prefix, most likely your database name.
+	- `<dbname>` if a table prefix is not used, -or-
+	- `<dbname>_<tableprefix>_` if a table prefix is used (note the trailing underscore
 -   **Image viewer:** Select an image viewer to use when transcribing image files. [OpenLayers](http://openlayers.org/) and [Zoom.it](http://zoom.it/) can display JPEG, PNG, GIF, and BMP formats. Zoom.it can also display TIFF and ICO formats. By using Zoom.it you acknowledge that you have read and agreed to the [Microsoft Zoom.it Terms of Service](http://zoom.it/pages/terms/).
 -   **Use Google Docs Viewer?:** Use Google Docs Viewer when transcribing document files? Document files include PDF, DOC, PPT, XLS, TIFF, PS, and PSD formats. By using this service you acknowledge that you have read and agreed to the [Google Docs Viewer Terms of Service](http://docs.google.com/viewer/TOS?hl=en).
 -   **Import type:** Import transcriptions as HTML or plain text?Importing will copy document and page transcriptions from MediaWiki to their corresponding items and files in Omeka. Choose HTML if you want to preserve formatting. Choose plain text if formatting is not important.

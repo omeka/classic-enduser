@@ -1,8 +1,6 @@
 ---
 title: Exhibit Builder
 ---
-*Current version: 3.3.2*
-
 The Exhibit Builder plugin allows you to develop online exhibits, or special web pages, that combine items from your Omeka archive and may include narrative text.
 
 Exhibits are composed of pages, generally an initial page that introduces your exhibit and subsequent pages composed of the items from your Omeka database that you wish to highlight and/or relate to each other. Exhibit Builder exhibits may be as short as one page or consist of multiple pages. You can make the pages of an exhibit hierarchical.
@@ -118,7 +116,7 @@ To delete items, click the x in the upper right hand corner of the item icon; th
 In the image below, the middle item has been marked for deletion. A red arrow points to the X to delete the third item.
 ![Image described above](../doc_files/plugin_images/eb_delitem.png)
 
-Exhibit text can be formatted using the [text editor bar](../Using_HTML_Editor-TinyMCE.md). To write your own html, or paste from somewhere else, click the blue HTML button in the formatting toolbar at the top of the text entry box. This will open up an HTML Source Editor window in which you can work.
+Exhibit text can be formatted using the [text editor bar](../Content/Using_HTML_Editor-TinyMCE). To write your own html, or paste from somewhere else, click the blue HTML button in the formatting toolbar at the top of the text entry box. This will open up an HTML Source Editor window in which you can work.
 
 ### Layout Options
 
@@ -151,7 +149,7 @@ The **File** block has the following options, all of which are drop-down menus (
 ### Additional Layouts
 Some plugins include their own Exhibit Builder content block layouts.
 
-If you have installed the [Geolocation](../Plugins/Geolocation.md) plugin, you will have the
+If you have installed the [Geolocation](/Geolocation) plugin, you will have the
 **Geolocation Map** block as an option in your exhibits. This block has no text. Select items which already have been geolocated using the plugin in their item edit page. This block displays as a map across the full width of the page, with markers for the items you select. Any captions you enter will appear in a pop-up inside the map when the item marker is clicked, as will the item file and title.
 
 This image shows a Geolocation block with items added:
@@ -162,24 +160,17 @@ And this is how the map looks on the public view of the exhibit page:
 
 Shortcodes
 --------------------
-Exhibit Builder adds specific [shortcodes](../Shortcodes.md) to your instal which allow you to call specific exhibits or featured exhibits. See the [plugin shortcodes documentation](/Plugin_Shortcodes.md) for more information. 
-
-Upgrading from Exhibit Builder 2.0
----------------------------------------------------------------
-
-Before you upgrade from (Exhibit Builder 2.0)(../Plugins/ExhibitBuilder2.md) to the current version, be sure to [back up](../Backing_up_an_Omeka_Database.md) your Omeka installation, especially your Exhibit Builder tables.
-
-The upgrade should transform the layouts of your exhibit pages from the old format to the new, without any loss of information. The section below describes how older exhibit layouts should transfer.
+Exhibit Builder adds specific [shortcodes](../Shortcodes) to your instal which allow you to call specific exhibits or featured exhibits. See the [plugin shortcodes documentation](/Plugin_Shortcodes) for more information.
 
 ### Previous Exhibit Builder Layouts
 
-The following is a list of layouts from [previous versions of Exhibit Builder](../Plugins/ExhibitBuilder2.md) showing how the old layouts can correspond to new content blocks. These correlations are how pages built in previous versions of Exhibit Builder will be imported when upgrading.
+The following is a list of layouts from [previous versions of Exhibit Builder](/ExhibitBuilder2) showing how the old layouts can correspond to new content blocks. These correlations are how pages built in previous versions of Exhibit Builder will be imported when upgrading.
 
 Although it is possible to reproduce previous layouts using Exhibit Builder 3.0, the content blocks allow for a much wider variety of layouts. For example, rather than having all the files on one side, as in image list left or right, files could alternate sides. You can also combine a Gallery block with File with Text Blocks, or stack multiple Galleries with interpretive text for each set. 
 
 NB: You cannot change one kind content block (ex. Gallery) to a different kind of content block (ex. File with Text). However, because you can move content blocks around, adding a new block to replace an existing one is less work than in previous versions of Exhibit Builder.
 
-Block [layout options](/ExhibitBuilder_3.0.md#layout-options) are in *italics* for Exhibit Builder 3.0 blocks.
+Block layout options are in *italics* for Exhibit Builder 3.0 blocks.
 
 | Exhibit Builder 2 Layout | Exhibit Builder 3.x Layout |
 | --- | --- |

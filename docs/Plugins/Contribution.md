@@ -1,14 +1,12 @@
 ---
 title: Contribution
 ---
-*Current version: 3.1.*
-
 The Contribution plugin provides a form to collect stories, images, and other files from the public and manage those contributions in your Omeka site as items. Contributors may share and upload content anonymously, and their information will only be available to site administrators. All contributions are private by default and require a site administrator to review and make them public on the Omeka site. The plugin can also automatically add a reCAPTCHA box at the bottom of each form to prevent spam-bots from spamming your website. Contribution also offers options for users to create guest accounts that make it easier for one user to submit multiple items. 
 
 Other plugins can be integrated into the Contribution form, such as [Simple Vocab](/SimpleVocab) for creating dropdown menu choices, and [Geolocation](/Geolocation) for inviting users to map their submissions or locations. 
 
 Installing and configuring the Contribution plugin requires a few steps. Please read through the documentation carefully. 
-Watching the [screencast](https://vimeo.com/165200216) we created for using and configuring this addon can be helpful as you think through each step.  - please note that the screencast is [version 3.0.1](https://github.com/omeka/classic-enduser/blob/master/Plugins/Contribution_3.md#older-versions) and not the most current version of the plugin.
+Watching the [screencast](https://vimeo.com/165200216) we created for using and configuring this addon can be helpful as you think through each step.  - please note that the screencast is [version 3.0.1](https://github.com/omeka/classic-enduser/blob/master/Plugins/Contribution_3#older-versions) and not the most current version of the plugin.
 
 An Omeka site with the Contribution plugin requires you to upload and install two separate plugins:
 -   [Guest User](/GuestUser) (required)
@@ -164,12 +162,12 @@ Upgrading from 1.x to 2.x
 ---------------------------------
 *Be sure to make a copy of the plugin’s files and a backup copy of the database before upgrading.*
 
-1. Follow upgrading process for all [Omeka sites](../Upgrading.md).
+1. Follow upgrading process for all [Omeka sites](../Installation/Upgrading).
 2. Upload and install the following plugins, following all of the steps above for installing plugins and configuring the form above.
-	- [Guest User](../Plugins/GuestUser.md)
-    - [Contribution](../Plugins/Contribution.md)
-    - [Record Relations](../Plugins/RecordRelations.md)
-    - [User Profiles](../Plugins/UserProfiles.md)
+	- [Guest User](/GuestUser)
+    - [Contribution](/Contribution)
+    - [Record Relations](/RecordRelations)
+    - [User Profiles](/UserProfiles)
 3. If you have asked Contributor Questions on 1.5 form, go to User Profiles plugin page. Locate the check box asking if you want to import Contributor settings: check the box and save changes.
 4. Contributor pages should be linked to a Contributor’s profile, and the questions you asked before should be available in the User Profile.
 5. If you have modified the text on the Contribution form itself, those changes will not be transferred. You will need to modify the text on the contribute.php form again in the plugin directory on the server.

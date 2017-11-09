@@ -1,7 +1,6 @@
 ---
 title: CSV Import
 ---
-
 The CSV Import plugin allows users to import items from a simple CSV (comma-separated values) file, and then map the CSV column data to multiple elements, files, and/or tags. Each row in the file represents metadata for a single item.
 
 When using this plugin, if you plan to map to specific Item Type metadata fields, then you may only import one item type (document, still image, sound, et al) at a time. You may perform multiple imports.

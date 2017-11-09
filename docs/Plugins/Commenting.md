@@ -1,7 +1,6 @@
 ---
 title: Commenting
 ---
-*Current version: 2.1.4*
 
 The Commenting plugin allows site viewers to leave comments on items and collections. The plugin also permits administrators to moderate those comments.
 

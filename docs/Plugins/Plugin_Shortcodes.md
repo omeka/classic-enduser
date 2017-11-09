@@ -1,7 +1,7 @@
 ---
 title: Plugin Shortcodes
 ---
-Several plugins also have [shortcodes](../Content/Shortcodes.md) available.
+Several plugins also have [shortcodes](../Content/Shortcodes) available.
 
 *Note: the corresponding plugin must be installed and activated to utilize any of the following shortcodes.*
 
@@ -30,7 +30,7 @@ Options specific to a short code can be found in its own section.
 Organized by the plugin with which they work.
 
 ### Exhibit Builder
-These shortcodes require the [Exhibit Builder](../Plugins/ExhibitBuilder.md) plugin.
+These shortcodes require the [Exhibit Builder](/ExhibitBuilder) plugin.
 
 #### Exhibits
 The exhibits shortcode will return one or multiple exhibits.
@@ -58,7 +58,7 @@ General Options:
 - `num`
 
 ### Geolocation
-The [geolocation](../Plugins/Geolocation.md) shortcode will create a map of items based on parameters it is given.
+The [geolocation](/Geolocation) shortcode will create a map of items based on parameters it is given.
 
 The shortcode is `[geolocation]`. Without any additional parameters, it will return a map of all items that contain geolocation data, limited by the records per page as set in the Geolocation plugin configuration.
 
@@ -118,7 +118,7 @@ A shortcode that leveraged all of the possible parameters would look like
 
 ### Shortcodes Carousel
 
-Requires the [Shortcodes Carousel plugin](../Plugins/ShortcodeCarousel.md).
+Requires the [Shortcodes Carousel plugin](/ShortcodeCarousel).
 
 The plugin adds a shortcode to create a carousel of items using
 [jCarousel](http://sorgalla.com/jcarousel/)

@@ -1,9 +1,7 @@
 ---
 title: ZoomIt
 ---
-*Current version: 2.0*
-
-The ZoomIt allows you to embed an image viewer on the public and administrative items/show pagesallowing your users zoom in and around images.The plugin relies on an beta service from Microsoft, [Zoom.It](http://zoom.it/).
+The ZoomIt allows you to embed an image viewer on the public and administrative items/show pages allowing your users zoom in and around images.The plugin relies on an beta service from Microsoft, [Zoom.It](http://zoom.it/).
 
 This plugin relies on an external service and it may render or load differently in different web browsers. It also relies on the [Silverlight](http://www.silverlight.net/) browser add-on, which some of your users may need to upgrade to experience the full functionality of zooming.
 

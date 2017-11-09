@@ -1,11 +1,9 @@
 ---
 title: Posters
 ---
-*Current version: 1.0*
-
 Posters are a simple, lightweight way for users on your site to interact with your content by selecting items to gather together into a sequential presentation, with an overall description and captions for items.
 
-You must have [Guest User](../Plugins/Guest_User.md) installed to use Posters.
+You must have [Guest User](/Guest_User) installed to use Posters.
 
 
 Configure

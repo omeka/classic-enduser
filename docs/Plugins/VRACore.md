@@ -1,8 +1,6 @@
 ---
 title: VRA Core
 ---
-*Current version: 1.2*
-
 The VRA Core plugin for Omeka adds elements from the [VRA Core Metadata standard](http://core.vraweb.org/index.html) to your Omeka site, which can be used to describe items and collections on your site. It does not replace the Dublin Core metadata elements in your Omeka classic site.
 
 Configuration
@@ -31,7 +29,7 @@ Users can complete as much or as little of the VRA core as they wish. However, p
 
 Each VRA Core element has a description (from the standard) and an input field. Use the checkbox below the field to use HTML formatting in this field. Below the Element input, you can add Display Element Attributes, such as extent, href, etc. For every element there is a notes field, and field options for the subelements which VRA core offers. 
 
-![Example element showing the attribution functions](../docs_files/plugin_images/File:VracElem.png)
+![Example element showing the attribution functions](../docs_files/plugin_images/VracElem.png)
 
 The first field for each element corresponds to the `display` XML element in VRA Core. According to the VRA Core standard, there can be only one display element (this is different from the usual Dublin Core data, which can have many values.
 

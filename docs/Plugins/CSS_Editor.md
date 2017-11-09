@@ -1,8 +1,6 @@
 ---
 title: CSS Editor
 ---
-*current version: 1.0.1*
-
 The CSS Editor plugin allows users to make changes to the CSS (code which controls appearance) of their Omeka installation without going into the server-side files.
 
 This plugin will be most helpful to people with experience using CSS and designing sites.

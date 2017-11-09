@@ -1,13 +1,11 @@
 ---
 title: Item Order
 ---
-*Current version: 2.0.2*
-
 Item Order allows users to use a drag-and-drop interface change the order in which items display on the public Collection browse pages. 
 
 Order Items in a Collection
 ----------------------------------------------------------------
-Item Order does not have any configuration settings, and will be available once [installed](../Managing_Plugins.md#installing-a-plugin) and activated.
+Item Order does not have any configuration settings, and will be available once [installed](../Admin/Adding_and_Managing_Plugins) and activated.
  
 To use Item Order, go to the Collections tab in the sidebar of the admin Dashboard. Find the collection whose items you want to reorder and click on the name of the collection (note: do not click on edit).
 

@@ -1,8 +1,6 @@
 ---
 title: Dublin Core Extended
 ---
-*Current version 2.0.1*
-
 The Dublin Core Extended plugin adds the full set of Dublin Core properties to the existing Dublin Core element set, including element refinements and supplemental elements. See the Dublin Core website, under ["Properties in the terms namespace."](http://dublincore.org/documents/dcmi-terms/#H2)
 
 If you are using Omeka.net, see [instructions for the plugin in the Help section of Omeka.net](http://info.omeka.net/build-a-website/manage-themes-and-plugins/dublin-core-extended/).

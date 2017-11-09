@@ -1,7 +1,6 @@
 ---
 title: Dropbox
 ---
-*Current version: 0.7.2*
 
 **Please note that this plugin is not affiliated with the Dropbox service.**
 

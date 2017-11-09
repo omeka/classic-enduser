@@ -1,19 +1,16 @@
 ---
 title: Reports
 ----
-*Current version: 2.0.2*
-
 A report generates a named set of items in Omeka. You can create reports that encompass all items in the system, or choose to report on one specific item, or anything in between. Reports will automatically update as new items are added to Omeka.
 
 Reports and Bar Codes plugin allows users to create reports of Omeka items in an HTML list and a PDF of QR codes [QR Codes](http://en.wikipedia.org/wiki/QR_Code), (10 per page, by default) as well as other formats you can customize in the plugin files.
-
-If you are using Omeka.net, please see [instructions for this plugin](http://info.omeka.net/build-a-website/manage-themes-and-plugins/reports-and-bar-codes/) in Help pages for Omeka.net.
 
 Instructions
 ----------------------------------------------------------------
 Note that a new Reports directory will be created once the plugin is uploaded to the plugin directory on your server be saved: OmekaSitedirectory/files/reports/. This directory **must be writable** by the server for reports to be generated.
 
-After you have [installed](../Managing_Plugins.md#installing-a-plugin) the plugin, a Reports tab will appear on the left navigation of the admin Dashboard (admin/Reports)
+After you have [installed](../Admin/Adding_and_Managing_Plugins)
+ the plugin, a Reports tab will appear on the left navigation of the admin Dashboard (admin/Reports)
 2.  Click the link in the top-left of the screen that reads "Add a     Report."
 3.  On the "Add" page, choose a name and a description for the report.
 

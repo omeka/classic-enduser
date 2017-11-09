@@ -1,14 +1,12 @@
 ---
 title: User Profiles
 ---
-*Current version 1.1.1*
-
 User Profiles is designed to address many different situations in which gathering and/or displaying information about users is helpful. In many cases, these situations involve a combination of User Profiles with other plugins. Example use cases might be:
 
 -   Create structured, consistent information about the creators of the site.
 -   Give credit to researchers by having them create profiles that are automatically linked to from the items they add.
 -   If commenting is used for discussion, create profiles for the moderators.
--   If the [Guest User](../Plugins/GuestUser) plugin is installed and active, guest users who comment could also create profiles.
+-   If the [Guest User](/GuestUser) plugin is installed and active, guest users who comment could also create profiles.
 
 [There is a screencast for this plugin](https://vimeo.com/165052886)
 
@@ -17,7 +15,7 @@ Install and Configure
 
 User Profiles depends on the additional functionality provided by the Record Relations plugin. You will need to install Record Relations before installing User Profiles.
 
-After you [install](../Managing_Plugins.md#installing-a-plugin) the plugin, you will need to configure it. Initially, you will need to select whether you want Omeka to place a link from items in your archive to the person who added them. 
+After you [install](../Admin/Adding_and_Managing_Plugins) the plugin, you will need to configure it. Initially, you will need to select whether you want Omeka to place a link from items in your archive to the person who added them. 
 
 ![Configuration option for User Profiles, immediately after activating plugin](../doc_files/plugin_images/UserProfileConfig1.png)
 

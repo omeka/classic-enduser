@@ -1,8 +1,6 @@
 ---
 title: DocsViewer
 ---
-*Current version: 2.0*
-
 The Docs Viewer plugin embeds a Google document viewer into item show pages that [supports a variety of file types](http://docs.google.com/support/bin/answer.py?hl=en&answer=1189935).
 Note that some files may take a long time to load, and some may not load at all, depending on file size, connection speed, and other variables.
 

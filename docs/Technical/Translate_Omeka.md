@@ -10,17 +10,14 @@ Getting Started
 --------------------------------------------------------
 
 ### Sign up on Transifex.net
-Omeka uses [Transifex.net](http://transifex.net) to manage
-translations. To start helping to translate Omeka into other languages, you will first need to [sign up for an account](https://www.transifex.net/plans/). Transifex.net offers several
-plans, but since Omeka is an open-source project, you can use the Free plan.
+Omeka uses [Transifex.net](http://transifex.net) to manage translations. To start helping to translate Omeka into other languages, you will first need to [sign up for an account](https://www.transifex.net/plans/). Transifex.net offers several plans, but since Omeka is an open-source project, you can use the Free plan.
 
 ### Join or start a language team
 Once you have registered for an account, visit the [Omeka project page](https://www.transifex.net/projects/p/omeka) and click on the "Teams" tab. This will show you the teams working on translations of Omeka into different languages.
 
 Here, you have two options. If you want to start work on a translation into a language which is not already being worked on, click the "Request a new team" button, and select the language that you want to work on. Once that request is approved, you will be the coordinator for that language.
 
-On the other hand, if someone has already created a team for the
-language you want to work on, click the name of the language, and on the next screen click the "Join this Team" button. It will be up to the coordinator to approve your request to be a member of the team.
+On the other hand, if someone has already created a team for the language you want to work on, click the name of the language, and on the next screen click the "Join this Team" button. It will be up to the coordinator to approve your request to be a member of the team.
 
 Once a coordinator has approved you to the team, you can click on the "Omeka → core" link and begin translating.
 
