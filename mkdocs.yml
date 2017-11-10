@@ -76,7 +76,7 @@ pages:
         - 'Simple Pages': 'Plugins/SimplePages.md'
         - 'Simple Vocab': 'Plugins/SimpleVocab.md'
         - 'Social Bookmarking': 'Plugins/SocialBookmarking.md'
-        - 'Text Analysis': 'Plugins/Text_Analysis2.md'
+        - 'Text Analysis': 'Plugins/TextAnalysis.md'
         - 'Text Annotation': 'Plugins/TextAnnotation.md'
         - 'User Profiles': 'Plugins/UserProfiles.md'
         - 'VRA Core': 'Plugins/VRACore.md'
