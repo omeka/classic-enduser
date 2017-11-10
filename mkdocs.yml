@@ -29,7 +29,7 @@ pages:
     - Administration:
             - 'Working with Plugins': 'Admin/Adding_and_Managing_Plugins.md'
             - 'Plugin Shortcodes': 'Plugins/Plugin_Shortcodes.md'
-            - 'Themes': 'Admin/Appearance/themes.md'
+            - 'Themes': 'Admin/Appearance/Themes.md'
             - 'Navigation': 'Admin/Appearance/Navigation.md'
             - 'Appearance Settings': 'Admin/Appearance/Appearance_Settings.md'
             - 'Users': 'Admin/Users/Users.md'

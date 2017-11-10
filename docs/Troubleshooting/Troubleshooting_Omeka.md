@@ -14,7 +14,7 @@ If installing `mod_rewrite` does not solve the problem, check that your Apache c
 
 Getting Better Error Messages
 ---------------------------------------------------------------
-A blank or white screen is often an indication that Omeka or PHP has encountered an error. Since error messages can often contain private or technical information, Omeka hides them by default. See [retrieving error messages](/Retrieving_Error_Messages.md) for instructions on how to show these messages. The content of error messages can be extremely useful for troubleshooting, so try these steps before seeking further help.
+A blank or white screen is often an indication that Omeka or PHP has encountered an error. Since error messages can often contain private or technical information, Omeka hides them by default. See [retrieving error messages](Retrieving_Error_Messages.md) for instructions on how to show these messages. The content of error messages can be extremely useful for troubleshooting, so try these steps before seeking further help.
 
 Further Help Troubleshooting
 ----------------------------------------------------------
