@@ -47,7 +47,7 @@ If you want to use Omeka in a language other than English, you will need to conf
     -   Make sure to upload the `.htaccess` file that's in the top-level directory of the Omeka zip along with the rest of the files. This file is hidden by default in many file transfer programs; to see the `.htaccess` file, you may need to change the preferences in your file transfer program.
     -   You can rename the omeka directory either before or after you upload it to give it a URL that is relevant to your project.
 
-5.  **Make Omeka's storage directory and its sub-directories writable by the web server.** For Omeka 1.5.3, the directory is `archive`. For Omeka 2.0+, the directory is `files`. You can change the permissions yourself with an FTP or other file transfer program, or with shell commands over SSH. If you're not sure what to do, ask your host for advice, or to change the permissions for you.
+5.  **Make Omeka's storage directory and its sub-directories writable by the web server.** For Omeka 1.5.3, the directory is `archive`. For Omeka 2.0+, the directory is `files`. You can [change the permissions yourself](Setting_Directory_Permissions.md) with an FTP or other file transfer program, or with shell commands over SSH. If you're not sure what to do, ask your host for advice, or to change the permissions for you.
 6.  Open your web browser and **visit the URL** where you uploaded the omeka directory. Click "Install".
     -   If you renamed the omeka directory 'project' and put it in the top-most directory of your site, for instance, the URL to visit would be `http://mydomain.org/project`.
 
