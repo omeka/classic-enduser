@@ -23,7 +23,7 @@ If you need to upgrade your server to meet any of the Omeka system requirements,
 -----------
 Note: If you are doing a One-Click install from Dreamhost, you must edit the `db.ini` file in the Omeka directory (see 3 below).
 
-If you want to use Omeka in a language other than English, you will need to configure it in the `/application/config/config.ini` file. See [Configuring Language](/Configuring_Language) for details. The installation steps are localized, so you might want to do this before the rest of the installation steps below. It is fine to change this after your site is successfully installed.
+If you want to use Omeka in a language other than English, you will need to configure it in the `/application/config/config.ini` file. See [Configuring Language](Configuring_Language.md) for details. The installation steps are localized, so you might want to do this before the rest of the installation steps below. It is fine to change this after your site is successfully installed.
 
 1. **Create a MySQL database** on your web host, as well as a user with permissions to modify the database.
     - Make sure to take note of the database hostname, the database name, the database user's username, and the database user's password.
@@ -52,7 +52,7 @@ If you want to use Omeka in a language other than English, you will need to conf
     -   If you renamed the omeka directory 'project' and put it in the top-most directory of your site, for instance, the URL to visit would be `http://mydomain.org/project`.
 
 7.  **Complete the installation form** by filling out the required fields, including the name of your Omeka site, email address, and username/password of the super user (the super user account controls the entire website).
-    -   You can change these settings in [General Settings](../Admin/Settings/General_Settings) once the installation is complete.
+    -   You can change these settings in [General Settings](../Admin/Settings/General_Settings.md) once the installation is complete.
     -   You can leave fields that are already filled in as they are; you do not need to change the values.
 
 If the installation was **successful,** you'll see a screen with links to view the live site or to log in with the superuser's username and password to the administrative panel at `http://mydomain.org/admin`. Congratulations!
@@ -64,4 +64,4 @@ If your installation was **unsuccessful,** try these steps:
 -   If your installation is still unsuccessful, try deleting the entire omeka directory from your server and reuploading it. One or more files might have failed to upload.
 -   If the installation is apparently successful, but you are unable to upload items through the admin interface, make sure that you correctly followed the instructions in Step 4 above. Your web server *must* have write access to the 'archive' directory for you to upload files.
 -   If the installation is successful, but you are getting "File not found" errors when you navigate to addresses such as `http://mydomain.org/admin`, you probably have a conflict with another CMS such as WordPress on the same server. To fix this issue, you probably need to enable the "RewriteBase" line in your `.htaccess` file.
--   If you still have issues, please consult the [Troubleshooting Omeka](../Troubleshooting/Troubleshooting_Omeka) page or post your issue on the [forums](http://forum.omeka.org).
+-   If you still have issues, please consult the [Troubleshooting Omeka](../Troubleshooting/Troubleshooting_Omeka.md) page or post your issue on the [forums](http://forum.omeka.org).
