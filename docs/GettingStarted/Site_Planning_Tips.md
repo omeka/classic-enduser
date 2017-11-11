@@ -13,37 +13,37 @@ These questions will help with those planning steps.
 **What sections will this website include**? 
 Typical top level navigation and sections for a typical Omeka site include:  
 
-  - [Items](../Content/Items): links to a browseable list of items, sortable by type of item and tags.
-  - [Collections](../Content/Collections): groups of items, public can dig through collection to find items.
-  - [Exhibits](../Plugins/ExhibitBuilder): Exhibits contain interpretative text and rely on items/sources/objects as their building blocks.
-  - About: a [simple page](../Plugins/SimplePages) good for publishing project descriptions, credits, rights, et al
+  - [Items](../Content/Items.md): links to a browseable list of items, sortable by type of item and tags.
+  - [Collections](../Content/Collections.md): groups of items, public can dig through collection to find items.
+  - [Exhibits](../Plugins/ExhibitBuilder.md): Exhibits contain interpretative text and rely on items/sources/objects as their building blocks.
+  - About: a [simple page](../Plugins/SimplePages.md) good for publishing project descriptions, credits, rights, et al
   - Keyword Search box – option to link to advanced search page
 
-*Note: the labels for Items, Collections, Exhibits, 
+\*Note: the labels for Items, Collections, Exhibits, 
 
 **What will I do with items in this website?**
-The item is the building block of your site. First add the objects and materials you want to display in your site. Add descriptions using some or all of the 20 standard [Dublin Core](../Content/Working_with_Dublin_Core) fields, plus additional item type-specific fields. Once you have items in the Omeka archive, then you can build an exhibit with them or display categories of items organized by collections or tags.
+The item is the building block of your site. First add the objects and materials you want to display in your site. Add descriptions using some or all of the 20 standard [Dublin Core](../Content/Working_with_Dublin_Core.md) fields, plus additional item type-specific fields. Once you have items in the Omeka archive, then you can build an exhibit with them or display categories of items organized by collections or tags.
 
 - Determine the types of items/sources/objects you plan to use in this site: (ie, Document, Still Image, Moving Image, Audio, et al),
-- Do you want to modify any of the item type fields or types? See [Managing Item Types](../Content/Item_Types) for additional types and explanations.
-- Do you need additional core fields? Install the [Dublin Core Extended](../Plugins/DublinCoreExtended) plugin.
+- Do you want to modify any of the item type fields or types? See [Managing Item Types](../Content/Item_Types.md) for additional types and explanations.
+- Do you need additional core fields? Install the [Dublin Core Extended](../Plugins/DublinCoreExtended.md) plugin.
 - It is wise to determine before you start building the item archive what type of consistencies you desire in your metadata--this may be especially true for fields such as date, publisher, creator, et al.
-- Would you like to establish your own Controlled Vocabulary for specific metadata fields, to make it easier for you team to enter consistent data? Install the [Simple Vocab](../Plugins/SimpleVocab) plugin.
-- Do you need Library of Congress subject headings? Install [Library of Congress Subject Headings](../Plugins/Library_of_Congress_Suggest) plugin.
-- Do you want to establish a controlled tagging schema? You may [add tags](../Content/Tags) to individual items and exhibits. Before building your archive you may want to devise this schema to help control vocab and spelling. Tags can help you pull together different items for the purpose of arranging them on a map or creating navigational links to browse items with a specific tag.
-- Do you have materials in other databases or repositories? You may be able to batch add them into your Omeka site. Can items be exported in a Comma Separated Value format? Try the [CSV Import](../Plugins/CSV_Import) plugin.
-- Is there an OAI-PMH harvestable set? Try the [OAI-PMH Harvester](../Plugins/OaipmhHarveste) plugin.
-- Do you have hundreds of files, or large media files? Use the [Dropbox](../Plugins/Dropbox) plugin.
-- Do you want to display items on a map? Install the [Geolocation](../Plugins/Geolocation) plugin, you must geolocate each item individually.
-- Are you interested in collecting materials from your visitors through a web form, such as a story or textual reflection, photos, videos, et al. Install the [Contribution](../Plugins/Contribution) plugin to facilitate collecting.
-- Do you want to build an exhibit with your items? Install the [Exhibit Builder](../Plugins/ExhibitBuilder) plugin.
+- Would you like to establish your own Controlled Vocabulary for specific metadata fields, to make it easier for you team to enter consistent data? Install the [Simple Vocab](../Plugins/SimpleVocab.md) plugin.
+- Do you need Library of Congress subject headings? Install [Library of Congress Subject Headings](../Plugins/Library_of_Congress_Suggest.md) plugin.
+- Do you want to establish a controlled tagging schema? You may [add tags](../Content/Tags.md) to individual items and exhibits. Before building your archive you may want to devise this schema to help control vocab and spelling. Tags can help you pull together different items for the purpose of arranging them on a map or creating navigational links to browse items with a specific tag.
+- Do you have materials in other databases or repositories? You may be able to batch add them into your Omeka site. Can items be exported in a Comma Separated Value format? Try the [CSV Import](../Plugins/CSV_Import.md) plugin.
+- Is there an OAI-PMH harvestable set? Try the [OAI-PMH Harvester](../Plugins/OaipmhHarvester.md) plugin.
+- Do you have hundreds of files, or large media files? Use the [Dropbox](../Plugins/Dropbox.md) plugin.
+- Do you want to display items on a map? Install the [Geolocation](../Plugins/Geolocation.md) plugin, you must geolocate each item individually.
+- Are you interested in collecting materials from your visitors through a web form, such as a story or textual reflection, photos, videos, et al. Install the [Contribution](../Plugins/Contribution.md) plugin to facilitate collecting.
+- Do you want to build an exhibit with your items? Install the [Exhibit Builder](../Plugins/ExhibitBuilder.md) plugin.
 
 **Decisions for Displaying Items**
 - Do you want to add social bookmarking icons to the bottom of
-items/show to allow users to share links to that item w/their social networks? Install the [Social Bookmarking](../Plugins/SocialBookmarking) plugin.
-- Do you want to open commenting on items (only available at item    level, and for all items or none)? Install the [Commenting](../Plugins/Commenting) plugin.
--   Do you want to create and print QR Codes that link visitors in a physical place to individual items in your Omeka site? Install the [Bar Code and Reports](../Plugins/Reports) plugin.
--   Do you have documents that you wish users to read through on the screen rather than downloading them? Install the [DocsViewer](../Plugins/DocsViewer) plugin.
+items/show to allow users to share links to that item w/their social networks? Install the [Social Bookmarking](../Plugins/SocialBookmarking.md) plugin.
+- Do you want to open commenting on items (only available at item    level, and for all items or none)? Install the [Commenting](../Plugins/Commenting.md) plugin.
+-   Do you want to create and print QR Codes that link visitors in a physical place to individual items in your Omeka site? Install the [Bar Code and Reports](../Plugins/Reports.md) plugin.
+-   Do you have documents that you wish users to read through on the screen rather than downloading them? Install the [DocsViewer](../Plugins/DocsViewer.md) plugin.
 
 Plan an Exhibit 
 ------------------------------------------------------------
@@ -56,12 +56,12 @@ Each exhibit is comprised of sections that contains pages.
 
 Each page can contain a selection of items and some narrative text, or captions.
 
-Follow instructions for using the [Exhibit Builder](../Plugins/ExhibitBuilder) plugin.
+Follow instructions for using the [Exhibit Builder](../Plugins/ExhibitBuilder.md) plugin.
 
 Create Simple Web Pages
 ---------------------
 
-You may wish to use the [Simple Pages](../Plugins/SimplePages) plugin to create simple web pages for publishing an essay or to create an About or Credits page, or use it to link out to Teacher Resources.
+You may wish to use the [Simple Pages](../Plugins/SimplePages.md) plugin to create simple web pages for publishing an essay or to create an About or Credits page, or use it to link out to Teacher Resources.
 
 Any of those pages can become part of the main navigation for your website.
 

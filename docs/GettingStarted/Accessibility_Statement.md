@@ -28,9 +28,9 @@ The administrative dashboard of Omeka has the following features for accessibili
 -   ARIA landmarks for screen readers on the Admin Dashboard, designating the header, navigation, footer, and main body content;
 -   Semantic HTML5 markup.
 
-A VPAT (Voluntary Product Accessibility Template) is available for [download as a PDF](../doc_files/VPAT_Omeka2015.pdf).
+A VPAT (Voluntary Product Accessibility Template) is available for [download as a PDF](/doc_files/VPAT_Omeka2015.pdf).
 
 Omeka.net
 ----------------------------------------------------------
 
-We have a VPAT for Omeka.net available [on that site.](http://info.omeka.net/accessibility/)
+We have a VPAT for Omeka.net available [on that site.](http://info.omeka.net/signup/accessibility/)

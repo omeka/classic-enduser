@@ -1,6 +1,3 @@
----
-title: Dublin Core Extended
----
 The Dublin Core Extended plugin adds the full set of Dublin Core properties to the existing Dublin Core element set, including element refinements and supplemental elements. See the Dublin Core website, under ["Properties in the terms namespace."](http://dublincore.org/documents/dcmi-terms/#H2)
 
 If you are using Omeka.net, see [instructions for the plugin in the Help section of Omeka.net](http://info.omeka.net/build-a-website/manage-themes-and-plugins/dublin-core-extended/).
@@ -8,7 +5,7 @@ If you are using Omeka.net, see [instructions for the plugin in the Help section
 Elements Added to the Dublin Core Element Set 
 ---------------------------------------------------------------
 The full set of DC elements are added to item metadata below the initial 20 fields available without this plugin. To reorder the elements in this extended Dublin Core set, see
-[the documentation on element sets.](../Admin/Settings/Element_Sets)
+[the documentation on element sets.](../Admin/Settings/Element_Sets.md)
 
 -   Abstract
 -   Access Rights

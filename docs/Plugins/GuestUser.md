@@ -1,11 +1,8 @@
----
-title: GuestUser
----
 The Guest User plugin adds an additional user role to your Omeka site. The Guest role works behind the scenes with other plugins (Commenting, and User Profiles, for example), without giving the guests admin access to your Omeka site.
 
 Install and Configure
 -----------------------------------------------------------------
-After  [installing](../Admin/Adding_and_Managing_Plugins) the plugin, you should be automatically redirected to the configuration settings for the plugin. You can access these again at any time by clicking the Configure button for Guest User from the Plugins menu.
+After  [installing](../Admin/Adding_and_Managing_Plugins.md) the plugin, you should be automatically redirected to the configuration settings for the plugin. You can access these again at any time by clicking the Configure button for Guest User from the Plugins menu.
 
 You can enter text for the following fields:
 -   Registration Features: this text will appear at the top of the registration page. You can use it to explain what users are signing up to do, and what the limitations may be.
@@ -23,7 +20,7 @@ There are also two checkboxes:
 
 ![Checkboxes described above, neither checked](../doc_files/plugin_images/GUConfig2.png)
 
-If you have [ReCaptcha enabled](../Admin/Settings/ReCaptcha), you can require a ReCaptcha key for registration.
+If you have [ReCaptcha enabled](../Admin/Settings/ReCaptcha.md), you can require a ReCaptcha key for registration.
 
 Using the Plugin
 -----------------------------------------------------------------
@@ -39,9 +36,11 @@ Open the file named “GuestUser.php” using a plain text editor suitable for w
 
 Comment out lines 24 and 25 . Commenting out uses `/*` and the end result should look like this: 
 
-`protected $_filters = array(
+```
+protected $_filters = array(
        /* 'public_navigation_admin_bar',
-       'public_show_admin_bar’, */`
+       'public_show_admin_bar’, */
+```
 
 This will remove the general login/register links which are as follows:  
  

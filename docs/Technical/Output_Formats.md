@@ -1,6 +1,3 @@
----
-title: Output Formats
----
 Omeka uses Zend Framework's [ContextSwitch](http://framework.zend.com/manual/en/zend.controller.actionhelpers.html#zend.controller.actionhelpers.contextswitch) action helper to return different response formats on request. Omeka comes bundled with several response formats: omeka-xml, omeka-json, dcmes-xml, json, and rss2. See below for more information about these bundled formats.
 
 To access the response formats, simply add `output=format-name` to the URL query string. For example:

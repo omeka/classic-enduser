@@ -12,6 +12,5 @@ Using `mysqldump` to back up from the command line is simple, though you will ne
 Log in via the command line, and change directories to the directory where you want to save your database file. To create a file called `omeka_db_backup.sql` with your database, use the following.
 
 
-`{.de1} 
-mysqldump -h localhost -u username -p omeka_db_name > omeka_db_backup.sql
-` 
+ 
+    mysqldump -h localhost -u username -p omeka_db_name > omeka_db_backup.sql

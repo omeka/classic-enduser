@@ -1,6 +1,3 @@
----
-title: OAI-PMH Harvester
----
 The OAI-PMH Harvester plugin imports records from OAI-PMH data providers.
 
 Some online repositories expose their metadata through the [Open Archives Initiative Protocol for Metadata Harvesting](http://www.openarchives.org/pmh/) (OAI-PMH). This plugin makes it possible to harvest that metadata, mapping it to the Omeka data model. The plugin can be used for one-time data transfers, or to keep up-to-date with changes to an online repository.
@@ -11,9 +8,9 @@ Every OAI-PMH data provider should implement this standard. CDWA Lite is a stand
 
 Installation 
 ---------------------------------------------------------------
-Your server must have PHP-CLI 5.2+ installed.
+Your server must have PHP-CLI installed.
 
-Upload and [install](../Admin/Adding_and_Managing_Plugins) the OAI-PMH Harvester plugin. Configure the plugin in Omeka (see below)
+Upload and [install](../Admin/Adding_and_Managing_Plugins.md) the OAI-PMH Harvester plugin. Configure the plugin in Omeka (see below)
 
 Configuration 
 ----------------------------------------------------------------
@@ -56,6 +53,7 @@ However, the duplicate items, if any, can be accessed from the admin item show p
 It is possible to undo a harvest, deleting all imported items. 
 
 To do so:
+
 -   Click on the OAI-PMH Harvester in the left hand navigation of your admin dashboard. There will be a table of completed and in-progress Harvests; the far right column is Status.
 -   Click on the status (Completed) of the harvest you wish to undo. Do not click the green re-harvest button.
 -   The next page will give you a report on the harvest. Click the Delete Items button at the bottom of the table.

@@ -1,6 +1,3 @@
----
-title: Simple Vocab
----
 With the Simple Vocab plugin you can define a controlled vocabulary for any metadata elements 
 
 A [controlled vocabulary](https://en.wikipedia.org/wiki/Controlled_vocabulary) is a list of predefined terms that are predetermined by an administrator or the teach of researchers working on a project.
@@ -11,13 +8,14 @@ Configuring the Plugin
 ------------------------------------------------------------
 ![Screenshot of the plugin configuration window](../doc_files/plugin_images/Simple_Vocab.png)
 
-After [installing](../Admin/Adding_and_Managing_Plugins) the plugin from the Plugins panel, go to the Simple Vocab tab that will appear in the left-hand menu.
+After [installing](../Admin/Adding_and_Managing_Plugins.md) the plugin from the Plugins panel, go to the Simple Vocab tab that will appear in the left-hand menu.
 
 - Select the Element (all Dublin Core and item type metadata fields are available) for which you wish to offer a controlled vocabulary from the dropdown list of elements
 -   Enter the custom terms you want available when entering metadata for this element, one per line. 
 - To save your entries, click Add/Edit Vocabulary.
 
 To delete the vocabulary:
+
 - Select the element (note, it should appear with starred in the drop-down list of elements), and the terms will appear in the text box below. 
 - Remove all terms and re-sumbit this form by clickingAdd/Edit Vocabulary.
 
@@ -27,6 +25,7 @@ You may view a list of texts for any selected element that currently exists in y
 ![Arrow points to the “click here” text, and screen cap includes the table of existing input](../doc_files/plugin_images/simpleVocabDisplay.png)
 
 On click, a table will load with columns for *Count*, *Warnings*, and *Text*:
+
 - The *Count* column displays the number of items using a particular text; 
 - *Warnings* will display any possible issues translating current text to controlled vocab;
 

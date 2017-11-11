@@ -1,7 +1,3 @@
----
-title: Retrieving Error Messages
----
-
 If Omeka doesn't seem to be behaving correctly, for whatever reason, there are steps you can take to get more descriptive error messages. These are turned off by default, but can be used during the production of an Omeka site for troubleshooting.
 
 Display Error Messages

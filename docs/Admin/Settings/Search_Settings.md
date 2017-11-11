@@ -1,7 +1,4 @@
----
-title: Managing Search Settings
----
-This is information for managing search settings on Omeka Classic. See [the Searching page](../../GettingStarted/Site_Planning_Tips) for information on conducting searches.
+This is information for managing search settings on Omeka Classic. See [the Searching page](../../GettingStarted/Site_Planning_Tips.md) for information on conducting searches.
 
 The Search Settings options allow you to set which types of records are automatically searched when a user enters terms into the basic search bar on both the admin and public sides. You can also re-index your Omeka database to ensure that all selected content is searchable.
 
@@ -17,7 +14,7 @@ As an Omeka site Super administrator, you may choose which Omeka record types yo
 Using the checkboxes found to the left of each record type, choose which ones you want discoverable by the site-wide search. 
 
 The basic options are: 
-- Item
+
 - Item
 - File
 - Collection

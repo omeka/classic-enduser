@@ -1,7 +1,3 @@
----
-title: Translate Omeka
----
-
 Beginning with the 1.5 release, Omeka added internationalization support. Among other things, Omeka allows users to select the language in which the site is displayed.
 
 We need the community's help translating Omeka's English text into new languages, so users can have a variety of choices. You don't need to know how to write code to help translate Omeka, you just need to be fluent in English and another language.

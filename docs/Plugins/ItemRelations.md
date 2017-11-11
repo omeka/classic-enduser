@@ -1,23 +1,22 @@
----
-title: Item Relations
----
 The Item Relations plugin lets you define relations between items. For example, you can make one item a part of another item, where "part of" is the relation. You can also make one item a "reproduction of" or a "translation of" another item.
 
 We've bundled the plugin with common relations derived from several formal vocabularies, including:
+
 -  [Dublin Core](http://dublincore.org/documents/dcmi-terms/),
 - [FRBR](http://vocab.org/frbr/core.html),
 - [FOAF](http://xmlns.com/foaf/spec/), and
 - [BIBO](http://bibotools.googlecode.com/svn/bibo-ontology/trunk/doc/index.html).
 
-You may use these or create a custom vocabulary* with the relations needed in your site. You could, for example, define custom relations like "is parent of," "is better than," and "fits within."
+You may use these or create a custom vocabulary with the relations needed in your site. You could, for example, define custom relations like "is parent of," "is better than," and "fits within."
 
 Configuration 
 ---------------------------------------------------------------
 
-After you have [installed](../Admin/Adding_and_Managing_Plugins)
+After you have [installed](../Admin/Adding_and_Managing_Plugins.md)
  the plugin, you will need to configure the plugin, from the link on the Plugins page accessed from the top navigation of your admin dashboard.
 
 There are two configuration options:
+
 - A checkbox to *Append to Public Items Show*. If you want to display an item's relations on its public show page, check this box. 
 - A dropdown menu from which you can select the format of an item's relations as it appears on the item's show page. The options are: 
       - prefix:localPart
@@ -37,7 +36,8 @@ Relating Items
 -----------------------------------------------------------
 When adding or editing an item, click on the "Item Relations" tab, at the top of the admin/item page to relate the item to another item, or to delete existing relations.
 
-This tab has a table with columns for"
+This tab has a table with columns for
+
 - the subject of the relation (always the item being edited), 
 - the relation between items (a dropdown populated with all available vocabularies),
 - the object of the relationship (the item with which you are creating the relationship), and 

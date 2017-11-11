@@ -1,16 +1,13 @@
----
-title: Collection Tree
----
+Collection Tree plugin allows Omeka sites to have nested [collections](../Content/Collections.md). One collection can have at most one parent collection, but a collection may have zero or multiple child collections.
 
-Collection Tree plugin allows Omeka sites to have nested [collections](../Content/Collections). One collection can have at most one parent collection, but a collection may have zero or multiple child collections.
-
-Once you have [installed](../Admin/Adding_and_Managing_Plugins) collection tree, the plugin will create a tab on the left-hand navigation of the admin side of the site. This tab allows you to view your collection hierarchy. To create a child/parent relationship between collections, you must edit the collection.
+Once you have [installed](../Admin/Adding_and_Managing_Plugins.md) collection tree, the plugin will create a tab on the left-hand navigation of the admin side of the site. This tab allows you to view your collection hierarchy. To create a child/parent relationship between collections, you must edit the collection.
 
 Nesting Tree
 -------------------------------
 You can only nest collections once you have at least two collections. 
 
 To create a new child collection:
+
 1. Go to the Collections tab on the left hand navigation of the admin dashboard. 
 1. Click the *Add a Collection* button
 1. Add the metadata as needed
@@ -20,6 +17,7 @@ To create a new child collection:
 ![Collection tree parent.png](../doc_files/plugin_images/Collection_tree_parent.png)
 
 To nest an existing collection:
+
 1. Go to the Collections tab on the left hand navigation of the admin dashboard. 
 1. Click *Edit* below the title of the collection you want to edit.
 1. Go to the *Parent Collection* tab across the top of the Add Collection menu
@@ -32,7 +30,7 @@ To view your collection tree, select Collection Tree in the left Admin navigatio
 
 ![Collection tree hierarchy, seen on admin side](../doc_files/plugin_images/collectionTree_view.png)
 
-If you wish, you may make the Collection Tree's hierarchy viewable to the public, go to the Appearance tab in the top Admin navigation bar. Then, click on [Navigation](../Admin/Appearance/Navigation), and check or uncheck the Collection Page. 
+If you wish, you may make the Collection Tree's hierarchy viewable to the public, go to the Appearance tab in the top Admin navigation bar. Then, click on [Navigation](../Admin/Appearance/Navigation.md), and check or uncheck the Collection Page. 
 
 This is what a sample public page looks like:
 ![Collection tree hierarchy, seen on public side](../doc_files/plugin_images/collectionTree_pubview.png)

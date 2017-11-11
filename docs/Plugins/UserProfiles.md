@@ -1,6 +1,3 @@
----
-title: User Profiles
----
 User Profiles is designed to address many different situations in which gathering and/or displaying information about users is helpful. In many cases, these situations involve a combination of User Profiles with other plugins. Example use cases might be:
 
 -   Create structured, consistent information about the creators of the site.
@@ -15,7 +12,7 @@ Install and Configure
 
 User Profiles depends on the additional functionality provided by the Record Relations plugin. You will need to install Record Relations before installing User Profiles.
 
-After you [install](../Admin/Adding_and_Managing_Plugins) the plugin, you will need to configure it. Initially, you will need to select whether you want Omeka to place a link from items in your archive to the person who added them. 
+After you [install](../Admin/Adding_and_Managing_Plugins.md) the plugin, you will need to configure it. Initially, you will need to select whether you want Omeka to place a link from items in your archive to the person who added them. 
 
 ![Configuration option for User Profiles, immediately after activating plugin](../doc_files/plugin_images/UserProfileConfig1.png)
 
@@ -30,6 +27,7 @@ To create a new profile, click the Add a Profile Type button on the User Profile
 ![Red arrow points to the add new button](../doc_files/plugin_images/userprofiles_browsenone.png)
 
 The profile type form has two required fields:
+
 - *Label* or title.
 - *Description*
 
@@ -40,6 +38,7 @@ If you are only creating one profile, these can be brief but if you plan to crea
 Profiles need at least one element. 
 
 Every element needs an *Element Name* and a *Description* The options for Elements are:
+
 - Text boxes
 - Radio buttons
 - Check boxes

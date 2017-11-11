@@ -1,6 +1,3 @@
----
-title: Zotero Import
----
 With this plugin you can move your Zotero research into Omeka, making it possible to further organize and exhibit your Zotero library. Just sync your library to the Zotero server, tell the Zotero Import plugin what library you want to import, and it'll pull in source items, notes, files, and web snapshots.
 
 Features
@@ -17,7 +14,7 @@ Requirements
 ---------------------------------------------------------------
 
 -   **Sync Zotero library**: The Zotero library must be synced to the Zotero.org server prior to import. To import files, the Zotero client must be set to sync attachment files. You can find     instructions on how to do this at the [Zotero website](http://www.zotero.org/support/sync). 
-     - *Note: the import will not work from Zotero Standalone.*
+    - *Note: the import will not work from Zotero Standalone.*
 
 ![Zotero library on the web](../doc_files/plugin_images/Zotero_library_feed.jpg)
 
@@ -39,16 +36,15 @@ Installation and Importing
 ---------------------------------------------------------------
 If you want to import all file types, *you must disable file upload validation* in Omeka Admin &gt; Settings &gt; Security Settings before import.
 
-Once you've [installed](../Admin/Adding_and_Managing_Plugins) the plugin, go to the "Zotero Import" tab in the admin interface and fill out the form (/admin/zotero-import).
+Once you've [installed](../Admin/Adding_and_Managing_Plugins.md) the plugin, go to the "Zotero Import" tab in the admin interface and fill out the form (/admin/zotero-import).
 
 1. To fill out the form, you will need find the feed URL to the Zotero library you want to import and, if desired or necessary, a private key to access those sources. Click "Continue" to begin the importing process.
-
-![Zotero import plugin fields](../doc_files/plugin_images/Zotero_dashboard.jpg)
-
+   ![Zotero import plugin fields](../doc_files/plugin_images/Zotero_dashboard.jpg)
 1. Depending on the size of the library, the import process may take some time to complete. Because of this we suggest that you log background processes:
-     - In omeka/application/config/config.ini make sure `log.processes = true`
-     - In omeka/application/logs/ make sure a processes.log file exists and is writable. 
-     - These steps are not required but will be helpful if something goes wrong halfway through a long import. It's important to note that the import process is only as stable as the Zotero API. If you encounter errors, delete the import and try again.
+
+    - In omeka/application/config/config.ini make sure `log.processes = true`
+    - In omeka/application/logs/ make sure a processes.log file exists and is writable. 
+    - These steps are not required but will be helpful if something goes wrong halfway through a long import. It's important to note that the import process is only as stable as the Zotero API. If you encounter errors, delete the import and try again.
 
 Stopping and Deleting an Import
 ----------------------------------------------------------------

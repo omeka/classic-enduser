@@ -19,7 +19,7 @@ Appearance, plugin, user, and site settings; only available to SuperUsers. The t
 Documentation for RRCHNM produced plugins. If you cannot find documentation for a specific plugin here, please check its download page as documentation may be in a ReadMe or on a separate site. 
 
 **Troubleshooting**  
-Tips and tricks for dealing with problems with your Omeka Classic installation. Look here to learn how to [retrieve error messages](Troubleshooting/Retrieving_Error_Messages/)
+Tips and tricks for dealing with problems with your Omeka Classic installation. Look here to learn how to [retrieve error messages](Troubleshooting/Retrieving_Error_Messages.md)
 
 **Technical documentation**  
 For users who are comfortable modifying the code, this section includes instructions on backing up your Omeka database, configuring thumbnal creation, and more.

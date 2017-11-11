@@ -1,6 +1,3 @@
----
-title: Configuring Thumbnail Creation
----
 
 Choosing a Strategy
 -----------------------------------------------------------

@@ -1,7 +1,4 @@
----
-title: Shortcodes Carousel
----
-The plugin adds a [shortcode](../Content/Shortcodes) to create a carousel of items using [jCarousel](http://sorgalla.com/jcarousel/)
+The plugin adds a [shortcode](../Content/Shortcodes.md) to create a carousel of items using [jCarousel](http://sorgalla.com/jcarousel/)
 
 The basic shortcode is `[carousel]`.
 
@@ -17,7 +14,7 @@ The `carousel` shortcode uses the same options as the `items`, with the exceptio
 | `ids` | Return an item or a list of items, based on item ID numbers. | Multiple item IDs can be entered, separated by a comma without any spaces; or a range separated by a hyphen. | `[items ids=10,76,432]` `[items ids=30-55]` | 
 | `is_featured` | Specify whether to return only items that are featured or not featured | `1`: Return only items that are featured; `0`: Return only items that are not featured | `[collections is_featured=1]` | 
 | `collection` |Return items only from a specific collection, using the collection ID number. | Only one collection may be specified. | `[items collection=7]` |
-| `item_type` | Return only items of a specific [item type](../Managing_Item_Type_Elements) | | `[items item_type=“still image”]`
+| `item_type` | Return only items of a specific [item type](../Content/Item_Types.md) | | `[items item_type=“still image”]`
 | `tags` | Return only items from a specific tag. | Multiple tags can be entered,separated by a comma, without any spaces. | `[items tags=baseball,math]` |
 | `user` | Return only items added by a specific user, using the user ID number. | Only one user may be specified. | `[items user=3]` |
 | `sort` by Elements | Specify the element to sort the items by. Must use double quotes, no space after comma | The syntax is `”Element Set,Element”`| `[items sort=“Dublin Core,Title”]` |

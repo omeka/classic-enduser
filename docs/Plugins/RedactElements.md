@@ -1,6 +1,3 @@
----
-title: Redact Elements
-----
 This plug-in allows enabled users of an Omeka install to redact specific character sequences in a given element field in Omeka. For example, any instance of an email address in the Contributor or Source field could be replaced with `[Redacted].` You can select which elements have redactions applied, and which redactions to use.
 
 Text sequences to be redacted are specified using regular expressions. For more information on regular expressions, see [regularexpressions.info](http://www.regular-expressions.info). The plugin comes with regular expressions for IP addresses, email addresses, and urls; you can can add other patterns.
@@ -8,7 +5,7 @@ Text sequences to be redacted are specified using regular expressions. For more 
 Configuration
 ---------------------------------------------------
 
-Following [installation](../Admin/Adding_and_Managing_Plugins)
+Following [installation](../Admin/Adding_and_Managing_Plugins.md)
 , configure the plugin by selecting Plugins from the top navigation of your admin and clicking on the Configure button for Redact Elements 
 
 From here you can:
@@ -34,6 +31,7 @@ To Add a New Pattern, you must give the pattern a *label*, for use on the admini
 ![Add a new pattern with fields for label and expression](../doc_files/plugin_images/RedactElNewP.png)
 
 Existing patterns in the plugin are:
+
 - email address
 - URL
 - IP Address

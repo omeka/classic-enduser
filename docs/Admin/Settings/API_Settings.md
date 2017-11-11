@@ -1,7 +1,3 @@
----
-title: Managing API Settings
----
-
 Versions 2.1 and above include an API ([application programming interface](http://en.wikipedia.org/wiki/Application_programming_interface)) that gives site administrators the opportunity to make their item, collection, tags, and exhibit data visible and usable by outside applications.
 
 Some online collections are making their data available through APIs, such as the [Digital Public Library of America](http://dp.la/info/developers/codex/) and the [Brooklyn Museum](http://www.brooklynmuseum.org/opencollection/api/), among others. APIs make your collections more accessible, and also contribute to the long-term sustainability by making it easier for your Omeka data to communicate and be shared with other systems via web-based protocols.
@@ -19,8 +15,7 @@ collections, tags, etc. being available via the API, the Exhibit Builder plugin 
 
 ### API Keys and Permissions
 
-Permissions to modify any data are only given to existing users of your Omeka site who have been given a key by an administrator. See more information on users,
-[Managing_Users_2.0](../Users/Users).
+Permissions to modify any data are only given to existing users of your Omeka site who have been given a key by an administrator. See more information on users at [Users](../Users.md).
 
 The same permissions by role apply to the API, so users with the
 “researcher” role will not be able to do anything through the API that they cannot do through the regular admin interface. Users with admin or super levels can obtain keys that could allow their applications to show, browse, add, edit, and delete your site resources. Be careful when generating API keys.

@@ -1,7 +1,7 @@
 ---
 title: Plugin Shortcodes
 ---
-Several plugins also have [shortcodes](../Content/Shortcodes) available.
+Several plugins also have [shortcodes](../Content/Shortcodes.md) available.
 
 *Note: the corresponding plugin must be installed and activated to utilize any of the following shortcodes.*
 
@@ -17,7 +17,7 @@ Options specific to a short code can be found in its own section.
 | `ids` | Return an item or a list of items, based on item ID numbers. | Multiple item IDs can be entered, separated by a comma without any spaces; or a range separated by a hyphen. | `[items ids=10,76,432]` `[items ids=30-55]` | 
 | `is_featured` | Specify whether to return only items that are featured or not featured | `1`: Return only items that are featured; `0`: Return only items that are not featured | `[collections is_featured=1]` | 
 | `collection` |Return items only from a specific collection, using the collection ID number. | Only one collection may be specified. | `[items collection=7]` |
-| `item_type` | Return only items of a specific [item type](../Managing_Item_Type_Elements) | | `[items item_type=“still image”]`
+| `item_type` | Return only items of a specific [item type](../Content/Item_Types) | | `[items item_type=“still image”]`
 | `tags` | Return only items from a specific tag. | Multiple tags can be entered,separated by a comma, without any spaces. | `[items tags=baseball,math]` |
 | `user` | Return only items added by a specific user, using the user ID number. | Only one user may be specified. | `[items user=3]` |
 | `sort` by Elements | Specify the element to sort the items by. Must use double quotes, no space after comma | The syntax is `”Element Set,Element”`| `[items sort=“Dublin Core,Title”]` |
@@ -26,11 +26,11 @@ Options specific to a short code can be found in its own section.
 | `sort=random` | Randomly choose from the set of returned items, for example in conjunction with the `featured_items` shortcode | | `[items num=1 collection=3 sort=random]`|
 | `sort` option `order` | Specify the orderr of the sorting | Note: order requires a sort value to have been specified. `a`: ascending; `d`: descending | `[items num=5 sort=added order=d]` |
 
-## Plugin ShortCodes
+## Plugin Shortcodes
 Organized by the plugin with which they work.
 
 ### Exhibit Builder
-These shortcodes require the [Exhibit Builder](/ExhibitBuilder) plugin.
+These shortcodes require the [Exhibit Builder](ExhibitBuilder.md) plugin.
 
 #### Exhibits
 The exhibits shortcode will return one or multiple exhibits.
@@ -58,7 +58,7 @@ General Options:
 - `num`
 
 ### Geolocation
-The [geolocation](/Geolocation) shortcode will create a map of items based on parameters it is given.
+The [geolocation](Geolocation.md) shortcode will create a map of items based on parameters it is given.
 
 The shortcode is `[geolocation]`. Without any additional parameters, it will return a map of all items that contain geolocation data, limited by the records per page as set in the Geolocation plugin configuration.
 
@@ -118,7 +118,7 @@ A shortcode that leveraged all of the possible parameters would look like
 
 ### Shortcodes Carousel
 
-Requires the [Shortcodes Carousel plugin](/ShortcodeCarousel).
+Requires the [Shortcode Carousel plugin](ShortcodeCarousel.md).
 
 The plugin adds a shortcode to create a carousel of items using
 [jCarousel](http://sorgalla.com/jcarousel/)
@@ -128,7 +128,7 @@ The basic shortcode is `[carousel]`.
 `[recent_carousel]` and `[featured_carousel]` are shortcuts to
 creating a carousel of recent and featured items, respectively.
 
-The same options available for the [Items](url needed) shortcode are available for the carousel, with the exception that `has_image` is always assumed to be true.
+The same options available for the [Items](../Content/Shortcodes.md#items) shortcode are available for the carousel, with the exception that `has_image` is always assumed to be true.
 
 **Options**
 

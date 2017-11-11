@@ -1,6 +1,3 @@
----
-title: Text Analysis 
----
 The Text Analysis plugin connects your Omeka Classic site with [Watson Natural Language Understanding](https://www.ibm.com/watson/developercloud/natural-language-understanding.html) and [Mallet](http://mallet.cs.umass.edu/) to enable text analysis on a corpora of items created using the Ngram plugin from items on your site.
 
 In order to use Text Analysis you must have the [Ngram](/Ngram) plugin installed and activated.
@@ -23,13 +20,14 @@ Once you have an account, enter your *Bluemix Username* and *Bluemix Password* i
 To use MALLET you must first [download and install](http://mallet.cs.umass.edu/download.php) the toolkit on your web server. It may be easiest to install it at the same level as your Omeka installation (so that the mallet and omeka folders are in the same location).
 
 To find your *MALLET script directory*: go to your MALLET installation and navigate to the `/bin` folder. 
-	- If using a FTP client, copy the full path as listed in the browser bar of your client.
-	- From a ssh client, navigate to the mallet directory and type `pwd`, then copy and paste the resulting file path.
+
+- If using a FTP client, copy the full path as listed in the browser bar of your client.
+- From a ssh client, navigate to the mallet directory and type `pwd`, then copy and paste the resulting file path.
 
 ## Create a Corpus
 
 ### Create Corpus
-To create a corpus, you will need to use the [Ngram](/Ngram)  plugin (see that documentation for complete information on corpora). 
+To create a corpus, you will need to use the [Ngram](Ngram.md)  plugin (see that documentation for complete information on corpora). 
 
 A corpus is drawn from the items in your collection with content in a particular text element (which is selected on the plugin configuration page), it is further defined by a Search Query and Sequence elements (on the Add a Corpus page), producing an Item Pool. The Item Pool will be further refined by Validating the Items.
 
@@ -51,8 +49,7 @@ If you use sequence, you will select from these sequence elements when viewing y
 - **Sequence Element**: select from elements but it should be something with numeric or date input. Items without the selected element field filled in (for instance, an item without a Date will not be included in the corpus). For best results, ensure consistency of metadata, and select a meaningful field.
 - **Sequence type**: choose from Date by Year, Date by Month, Date by Day, or Numeric Sequence Range. The field will prompt you with the proper format for the sequence if you choose a Date type. If numeric, make sure the format matches the numeric sequence of the elements you’re drawing from.
 
-**Note**: 
-- Date should be entered in the YearMonthDay format and should be entered as a range. (for instance, 20010101-20160101)
+**Note**: Date should be entered in the YearMonthDay format and should be entered as a range. (for instance, 20010101-20160101)
 
 When you have completed adding your corpus, click the green Add Corpus button. 
 
@@ -68,6 +65,7 @@ This will take you to a new screen with three tabs: valid items, invalid items, 
 ![A screenshot of the Validate Corpus Items tabs described above.](../doc_files/plugin_images/ngram-val-menu.png)
 
 **Valid items** are those items with sequence text that is readable to the plugin (See Figure 1). The table on this tab gives: 
+
 - the item number (a link to the item),
 - the text in the sequence element, and
 - Sequence member, or how it will be used in sequence by the plugin (Ex. when the sequence is “Date by Year” and the Sequence. 
@@ -75,6 +73,7 @@ This will take you to a new screen with three tabs: valid items, invalid items, 
 **Invalid items** have text in the sequence element which the plugin cannot parse (See Figure 2). However, you can click on the Item ID number to go in and edit the item to correct the element text. 
 
 **Out of range items** have text in their sequence element which is outside the range you set (See Figure 3). The table on this tab gives:
+
 - the item number (a link to the item), 
 - the text in the sequence element, and 
 - Sequence member, or how it will be used in sequence by the plugin (Ex. when the sequence is “Date by Year” and the Sequence 
@@ -112,6 +111,7 @@ To analyze one of your existing corpora, click the green *Analyze a corpus* butt
 ![Blank Text Analysis analyze a corpus page with no data entered in the fields. Options are as described below](../doc_files/plugin_images/ta_analyzesettings.png)
 
 On the page which loads:
+
 1. *Corpus*: Select a corpus (generated with the Ngram plugin) to analyze from a dropdown menu of your Omeka site's existing corpora. Note that corpora cannot be analyzed until they have been validated.
 2. *Features*: Using checkboxes, select which sorts of analysis you want to run on the corpus. For NLU you can select Entities, Keywords, Categories and Concepts. MALLET has a single checkbox.
 3. *Item Cost Only?* Check this box to get an estimated cost of running NLU features on the selected corpus.
@@ -126,12 +126,13 @@ Once you have clicked the button, you will return to the main page for the Text 
 ### View analysis
 
 Once you have analyzed at least one corpus, the Text Analysis page will display a table of analyzed corpora with the following columns:  
+
 - *Name*: name of the corpus. Includes a delete button to remove this analysis.
 - *Process*: will either display as "In Progress" or "Complete"
 - *NLU Analysis*: Once the process is complete, the NLU Analysis column will display one or more of the following:
-		- the item cost; 
-		- either a dropdown to view analysis by sequence element (set in the corpus) or a link to *view* if there was no sequence element;
-		- if you selected "Item Cost Only", this column will only display the cost of the running the processes.
+    - the item cost; 
+    - either a dropdown to view analysis by sequence element (set in the corpus) or a link to *view* if there was no sequence element;
+    - if you selected "Item Cost Only", this column will only display the cost of the running the processes.
 - *MALLET Topic Model*: Once the process if complete, the MALLET Topic Model column will display either a dropdown to view topic models by sequence element (set in the corpus) or a link to *view* if there was no sequence element.
 
 ![Table of analyzed corpora with columns as described. The corpora are Doyle short stories with both NLU and Mallet analysis, Sherlock Holmes with only NLU analysis, Short Stories no year with only Mallet analysis, and Testing with only an estimate for NLU costs.](../doc_files/plugin_images/ta_table.png)

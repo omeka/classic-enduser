@@ -1,7 +1,7 @@
 ---
 title: Managing Plugins
 ---
-Plugins are tools to extend the basic functionality of Omeka. A list of plugins available for download is on the [Plugins Add-Ons Directory]( ) (Please note that not every plugin will work with every version of Omeka), and instructions are available on each plugin's documentation page.
+Plugins are tools to extend the basic functionality of Omeka. A list of plugins available for download is on the [Plugins Add-Ons Directory](http://omeka.org/classic/plugins) (Please note that not every plugin will work with every version of Omeka), and instructions are available on each plugin's documentation page.
 
 ![Plugins page](/doc_files/Plugins.png)  
 
@@ -30,9 +30,9 @@ Watch [our screencast showing these steps](https://vimeo.com/153819886). To add 
     - NB: your plugin must be inside the /plugins folder.
 7.  In a new browser window, log in to your Omeka admin panel (youromekasite.net/admin)
 8.  Navigate to the Plugins tab in the upper navigation of the admin dashboard, and scroll down to find the plugin you uploaded (note: plugins are listed alphabetically)
-    1.  If the plugin is not visible, return to step 6 and double-check
+    - If the plugin is not visible, return to step 6 and double-check
 9.  Click the ”Install" to the right of the plugin name to finish the process.
-    1.  Click “Configure” if available/needed.
+    - Click “Configure” if available/needed.
 10. Read documentation for plugin to understand configuration
 
 If you are using [Reclaim Hosting](https://reclaimhosting.com/) they have [step-by-step instructions](http://docs.reclaimhosting.com/omeka/uploading-plugins-to-omeka) for uploading plugins with specific instructions for their browser based FTP option
@@ -67,6 +67,6 @@ Pre-packaged Plugins
 --------------------
 The following plugins come prepackaged with the download of Omeka Classic: 
 
--   [Coins](../Plugins/Coins) – Adds Coins metadata to items on the admin theme and in public themes.
--   [SimplePages](../Plugins/SimplePages) – Publish static pages on your public site.
--   [Exhibit Builder](../Plugins/ExhibitBuilder): Build narratives around your collections.
+-   [Coins](../Plugins/Coins.md) – Adds Coins metadata to items on the admin theme and in public themes.
+-   [SimplePages](../Plugins/SimplePages.md) – Publish static pages on your public site.
+-   [Exhibit Builder](../Plugins/ExhibitBuilder.md) – Build narratives around your collections.

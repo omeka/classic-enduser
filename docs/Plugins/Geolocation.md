@@ -1,6 +1,3 @@
----
-title: Geolocation
----
 The Geolocation plugin allows you to assign a location to items in your Omeka site. The locations are displayed on maps on individual items page and on a browsable map of all geolocated items.
 
 There is a [screencast for Geolocation (version 2.2.4) demonstrating its basic functionality.](https://vimeo.com/156298642)
@@ -8,7 +5,7 @@ There is a [screencast for Geolocation (version 2.2.4) demonstrating its basic f
 
 Configuring
 -------------------------------------------------------------
-Once you have [installed](../Admin/Adding_and_Managing_Plugins) the Geolocation plugin, go to the Plugins tab in the top navigation of your admin dashboard. Scroll down to the listing for Geolocation and click *Configure* (if you do not see Configure you may need to click the *Install* or *Activate* buttons.
+Once you have [installed](../Admin/Adding_and_Managing_Plugins.md) the Geolocation plugin, go to the Plugins tab in the top navigation of your admin dashboard. Scroll down to the listing for Geolocation and click *Configure* (if you do not see Configure you may need to click the *Install* or *Activate* buttons.
 
 ### General Settings
 The first section for configuration are the general settings for the appearance of your map on the public and admin sides of your site.
@@ -42,7 +39,7 @@ These settings are for the map display on an item/show page.
 ![Item Map settings](../doc_files/plugin_images/geolocation_ItemMap.png)
 
 ### Map Integration
-These settings are for integration of the geolocation map into the site menu and the [contribution](/Contribution) plugin's form. 
+These settings are for integration of the geolocation map into the site menu and the [contribution](Contribution.md) plugin's form. 
 
 -   *Add link to map on Items/Browse navigation*: click to make active. 
 - *Add map to contribution form*: click to make active. Note that this will only work if you have the Contribution plugin installed and active.
@@ -92,7 +89,7 @@ From this view, you may also search mapped items using the item advanced search.
 
 Geolocation and Exhibit Builder
 --------------------------------
-If you have [Exhibit Builder](/ExhibitBuilder) (version 3.x) installed, Geolocation will add a Map block to the options when building pages. 
+If you have [Exhibit Builder](ExhibitBuilder.md) (version 3.x) installed, Geolocation will add a Map block to the options when building pages. 
 
 ![Admin item browse map with search form](../doc_files/plugin_images/geolocation_ex1.png)
 
@@ -102,7 +99,7 @@ You can add items with geolocation markers to the map block. The exhibit will di
 
 Shortcodes
 -----------------
-The geolocation [shortcode](/Plugin_Shortcodes) will create a map of items based on parameters it is given.
+The geolocation [shortcode](Plugin_Shortcodes.md) will create a map of items based on parameters it is given.
 
 The shortcode is `[geolocation]`. Without any additional parameters, it will return a map of all items that contain geolocation data, limited by the records per page as set in the Geolocation plugin configuration.
 

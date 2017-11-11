@@ -33,7 +33,7 @@ pages:
             - 'Themes': 'Admin/Appearance/Themes.md'
             - 'Navigation': 'Admin/Appearance/Navigation.md'
             - 'Appearance Settings': 'Admin/Appearance/Appearance_Settings.md'
-            - 'Users': 'Admin/Users/Users.md'
+            - 'Users': 'Admin/Users.md'
             - 'General Settings': 'Admin/Settings/General_Settings.md'
             - 'Security Settings': 'Admin/Settings/Security_Settings.md'
             - 'Search Settings': 'Admin/Settings/Search_Settings.md'

@@ -1,6 +1,3 @@
----
-title: Social Bookmarking
----
 The Social Bookmarking plugin inserts a customizable list of social networking sites below each item or collection in your Omeka database.
 
 If you are using Omeka.net, see instructions in the [help section of Omeka.net](http://info.omeka.net).
@@ -10,6 +7,7 @@ Configuration
 Once you have installed and activated the plugin, go to the Plugins browse from the top navigation of the admin dashboard, scroll to Social Bookmarking, and click Configure. 
 
 Configuration options are: 
+
 - *Add to Items* (checkbox): if checked, every public item/show page will have a social bookmarking toolbar at the bottom of the page, above the footer.
 - *Add to Collections* (checkbox): if checked, every public collection/show page will have a social bookmarking toolbar at the bottom of the page, above the footer.
 - Choose social bookmarking services: A series of checkboxes for various social bookmarking sites. Each icon will appear on the public items/show pages for each item, and allow site visitors to share items on their social networks.

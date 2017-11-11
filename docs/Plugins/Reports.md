@@ -1,6 +1,3 @@
----
-title: Reports
-----
 A report generates a named set of items in Omeka. You can create reports that encompass all items in the system, or choose to report on one specific item, or anything in between. Reports will automatically update as new items are added to Omeka.
 
 Reports and Bar Codes plugin allows users to create reports of Omeka items in an HTML list and a PDF of QR codes [QR Codes](http://en.wikipedia.org/wiki/QR_Code), (10 per page, by default) as well as other formats you can customize in the plugin files.
@@ -9,27 +6,20 @@ Instructions
 ----------------------------------------------------------------
 Note that a new Reports directory will be created once the plugin is uploaded to the plugin directory on your server be saved: OmekaSitedirectory/files/reports/. This directory **must be writable** by the server for reports to be generated.
 
-After you have [installed](../Admin/Adding_and_Managing_Plugins)
+1. After you have [installed](../Admin/Adding_and_Managing_Plugins.md)
  the plugin, a Reports tab will appear on the left navigation of the admin Dashboard (admin/Reports)
-2.  Click the link in the top-left of the screen that reads "Add a     Report."
-3.  On the "Add" page, choose a name and a description for the report.
-
-![Report add.jpg](../doc_files/plugin_images/Report_add.jpg)
-
-4.  Choose which items to include in the Report on the "Edit     Filter" page. This is essentially creating an advanced item query; you need to choose criteria to filter the items for this report. If you leave the form blank, all items in the installation will be included in the report. Click Search to create the report.
-
-![Reports filter.jpg](../doc_files/plugin_images/Reports_filter.jpg)
-
-5.  The new report now appears on the admin/reports page.
+2. Click the link in the top-left of the screen that reads "Add a     Report."
+3. On the "Add" page, choose a name and a description for the report.
+   ![Report add.jpg](../doc_files/plugin_images/Report_add.jpg)
+4. Choose which items to include in the Report on the "Edit     Filter" page. This is essentially creating an advanced item query; you need to choose criteria to filter the items for this report. If you leave the form blank, all items in the installation will be included in the report. Click Search to create the report. ![Reports filter.jpg](../doc_files/plugin_images/Reports_filter.jpg)
+5. The new report now appears on the admin/reports page.
 
 ### Generating a File
 
 Once you have created a report, you can publish report files in HTML or as QR Codes.
 
 1.  From the admin/Reports page, To generate a file, you can either click the "Generate File" button on the main Reports page, or a specific report's details page (accessible by clicking the report's name).
-
-![Cursor hovering over generate reports](../doc_files/plugin_images/Reports_generate.jpg)
-
+   ![Cursor hovering over generate reports](../doc_files/plugin_images/Reports_generate.jpg)
 1.  The drop-down menu next to the “Generate File” button allows you to select the type of report that will be generated, HTML or PDF for QR Codes.
 
 The report will be generated in the background. Refresh the report details page as the report’s status changes from “In Progress” to “Completed.”
@@ -62,7 +52,7 @@ The HTML report format is simple to edit. By default, all the elements in all el
 
 For example, this is the code that prints all elements for all sets (the default: 
 
-``` {.de1}
+```
 // Output all the metadata for all the element sets
 foreach($sets as $set) :
     $this->_outputSetElements($item, $set->name);
@@ -71,14 +61,14 @@ endforeach;
 In comparison, this would cause only Dublin Core elements to be printed:
 
 
-``` {.de1}
+```
 // Output all Dublin Core elements
 $this->_outputSetElements($item, 'Dublin Core');
 ```
 
 Finally, this would cause only Dublin Core Item elements to be printed, if any:
 
-``` {.de1}
+```
 // Output all Dublin Core Title elements
 $this->_outputSetElements($item, 'Dublin Core', array('Title'));
 ```

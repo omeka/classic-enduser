@@ -1,14 +1,10 @@
----
-title: Managing Navigation 2.0
----
-
 The Navigation section in Appearance lets you manage your Omeka's public navigation by ordering, editing, and adding navigation links, and by selecting a homepage.
 
 Access Navigation settings by clicking Appearance in the top navigation menu in the admin dashboard and then going to the Navigation tab in that section.
 
 ![Main navigation](/doc_files/navigationMain.png) 
 
-Omeka includes links to Browse Items and Browse Collections by default. If you have installed [Simple Pages](../../Plugins/SimplePages), the About page will also appear by default, and any published Simple Pages will be automatically added to the navigation. Likewise, once you have installed Exhibit Builder, Browse Exhibits will automatically appear in the navigation.
+Omeka includes links to Browse Items and Browse Collections by default. If you have installed [Simple Pages](../../Plugins/SimplePages.md), the About page will also appear by default, and any published Simple Pages will be automatically added to the navigation. Likewise, once you have installed Exhibit Builder, Browse Exhibits will automatically appear in the navigation.
 
 You may arrange navigation items in any order by dragging and dropping.
 

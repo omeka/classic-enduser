@@ -1,7 +1,3 @@
----
-title: Contribute Code to Omeka
----
-
 Omeka's development is coordinated though [GitHub](http://github.com).
 
 Core

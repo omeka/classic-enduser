@@ -7,9 +7,9 @@ Items are building blocks in Omeka. To build your digital collections website, y
 Before Adding Items 
 ---------------------------------------------------------------
 
-You may want to consult the [Site Planning Tips](/Site_Planning_Tips) page to think about how to build your site and what you want to do with your items.
+You may want to consult the [Site Planning Tips](../GettingStarted/Site_Planning_Tips.md) page to think about how to build your site and what you want to do with your items.
 
-You may also want to think about what type of information you plan to share using the [Dublin Core Metadata](http://dublincore.org/documents/usageguide/) fields before adding and describing items. You may also want to read the [Describing Items](/Describing_Items) page for a brief explanation of using metadata in Omeka Items.
+You may also want to think about what type of information you plan to share using the [Dublin Core Metadata](http://dublincore.org/documents/usageguide/) fields before adding and describing items. You may also want to read the [Working with Dublin Core](Working_with_Dublin_Core) page for a brief explanation of using metadata in Omeka Items.
 
 Add an Item 
 ---------------------------------------------------------------
@@ -24,12 +24,12 @@ This takes you to the admin/items/add page where you see a navigation bar across
     - Each field can have multiple values; Simply click the "Add Input" button beside each field title to add a new input for that field.
     - You can use HTML in these elements if you want; see below for more information. 
 2.  The **Item Type Metadata** tab lets you choose a specific item type for the object you are adding. 
-     - Once you choose the type by using the drop-down menu, relevant metadata fields appear for you to complete. 
-    - See [Managing Item Types 2.0](/Managing_Item_Types_2.0) for information about adding/editing item types.)
-3.  The **Files** tab lets you upload files to an item. 
-     - Clicking the "Add Another File" link will reveal another field for adding a file. You can associate any number of files to an item. Read more about [Managing Files 2.0](Managing_Files_2.0).
+    - Once you choose the type by using the drop-down menu, relevant metadata fields appear for you to complete. 
+    - See [Item Types](Item_Types) for information about adding/editing item types.)
+3.  The **Files** tab lets you upload files to an item.
+    - Clicking the "Add Another File" link will reveal another field for adding a file. You can associate any number of files to an item. Read more about [Files](Files).
 4.  The **Tags** tab allows you add keyword tags to your item.
-     - You must press the “Add Tags” button in order to attach tags to an item. Simple entering them in the Add Tags field will not work.
+    - You must press the “Add Tags” button in order to attach tags to an item. Simple entering them in the Add Tags field will not work.
 5.  To assign items to a collection: on the right side of the page, under the "Add Item" button is a drop-down menu where you can assign your item to a collection. Remember, items can only belong to one collection.
 6. At any time, you may check the “Public” and/or “Featured” boxes to the right of the item form, just under the button for Add Item. 
 7. Be sure to click the "Add Item" button to save your data.
@@ -37,9 +37,9 @@ This takes you to the admin/items/add page where you see a navigation bar across
 ###  Using HTML in Item Elements
 
 Each metadata field's text may be enhanced using basic HMTL tags. Check the HTML box below the text box to enable a visual HTML editor. 
-![Item element with Use HTML box ticked](doc_files/itemHTML.png)
+![Item element with Use HTML box ticked](/doc_files/itemHTML.png)
 
-For more information about working with the HTML editor, please see [Using HTML Editor-TinyMCE](/Using_HTML_Editor-TinyMCE)
+For more information about working with the HTML editor, please see [Using HTML Editor-TinyMCE](Using_HTML_Editor-TinyMCE)
 
 Properties of Items
 -------------------------------------------------------------
@@ -74,7 +74,7 @@ To search all items, click the Search Items button which takes you to an advance
 Edit an Item
 --------------------------------------------------------------
 
-[Item edit window](/doc_files/itemEdit.png)
+![Item edit window](/doc_files/itemEdit.png)
 
 You can edit any of the information you entered when creating an item, or add new information, by going to the Items tab on the left hand navigation. 
 
@@ -98,7 +98,7 @@ Batch Editing & Deleting
 -   Use the check boxes to the left of an item's title to select it for batch editing, or select the box to the left of the Title heading to select all items available on that page.
 -   Once items are checked, click the the Edit button; the items will open in an editing page where you may make changes.
 
-[![Batch Edit.png](https://omeka.org/c/images/f/f0/Batch_Edit.png)](https://omeka.org/codex/File:Batch_Edit.png)
+![Batch Edit.png](/doc_files/Batch_Edit.png)
 
 -   You may make the following changes for each batch of selected items:
     -   make public or private,
@@ -107,7 +107,7 @@ Batch Editing & Deleting
     -   switch or associate selected items with a Collection,
     -   add Tags to all selected items,
     -   delete Items,
-    -   include Item Relations, if the [Item Relations](Plugins/ItemRelations) plugin is installed.
+    -   include Item Relations, if the [Item Relations](../Plugins/ItemRelations.md) plugin is installed.
 
 -   Check the list of items to be edited or deleted in the box to the right. Un-check box to the left of items if you marked one     by mistake.
 -   Click Save Changes to edit all of the selected items.
@@ -116,5 +116,5 @@ Batch Editing & Deleting
 Output Formats 
 ---------------------------------------------------------------------
 
-Once you have items in an archive, item data may be shared in a variety of [Output Formats](../Technical/Output_Formats).
+Once you have items in an archive, item data may be shared in a variety of [Output Formats](../Technical/Output_Formats.md).
 

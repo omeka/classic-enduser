@@ -1,9 +1,6 @@
----
-title: OAI-PMH Repository
----
 This plugin implements an [Open Archives Initiative Protocol for Metadata Harvesting](http://www.openarchives.org/pmh) repository for Omeka, allowing Omeka items to be harvested by OAI-PMH harvesters. The plugin implements version 2.0 of the protocol.
 
-This plugin is the reverse of the functionality provided by the [OAI-PMH Harvester plugin](/OaipmhHarvester).
+This plugin is the reverse of the functionality provided by the [OAI-PMH Harvester plugin](OaipmhHarvester.md).
 
 Metadata Formats
 ------------------------------------------------------------
@@ -18,9 +15,9 @@ The plugin ships with several default formats. Other plugins can alter these or 
 - [METS](http://www.loc.gov/standards/mets/) (`mets`)
     - The Metadata Encoding and Transmission Standard exposes files to harvesters.
 - [RDF](https://www.w3.org/2001/sw/wiki/RDF) (`rdf`)
-		- This format exposes metadata as RDF/XML. Unlike many of the other formats, RDF allows the repository to expose metadata from different standards all in the same output. The main practical distinction from other formats currently is that the RDF output will automatically include "qualified" data from the Dublin Core Extended plugin, if it's present. 
-- Omeka XML (`omeka-xml)
-		- This output format uses an Omeka-specific XML output that includes all metadata elements without requiring crosswalking or subsetting, but is not well-supported by harvesters or other tools.
+    - This format exposes metadata as RDF/XML. Unlike many of the other formats, RDF allows the repository to expose metadata from different standards all in the same output. The main practical distinction from other formats currently is that the RDF output will automatically include "qualified" data from the Dublin Core Extended plugin, if it's present. 
+- Omeka XML (`omeka-xml`)
+    - This output format uses an Omeka-specific XML output that includes all metadata elements without requiring crosswalking or subsetting, but is not well-supported by harvesters or other tools.
 
 
 Configuration

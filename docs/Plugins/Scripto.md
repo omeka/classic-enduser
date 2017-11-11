@@ -1,6 +1,3 @@
----
-title:  Scripto
----
 The Scripto plugin allows you to crowdsource the transcription of your Omeka content. It adds a feature rich interface to the admin and public sides that includes many features from [MediaWiki](http://www.mediawiki.org/wiki/MediaWiki), the software behind [Wikipedia](http://www.wikipedia.org/). All items with files can be transcribed. For these purposes an item is a *document*, and an item's files are its *pages*.
 
 Features
@@ -18,6 +15,7 @@ With the Scripto plugin, users can:
 -   Make a custom watchlist
 
 In addition to this, administrators can:
+
 -   Protect transcriptions and discussions
 -   Edit protected transcriptions and discussions
 -   Import transcriptions from MediaWiki as item and file metadata
@@ -92,7 +90,7 @@ Advanced Usage
 Scripto does not record a client's IP address by default. All
 modifications to pages will be set to the IP address of the server running Omeka. To record a client's IP address, you'll need to add the following code to LocalSettings.php:
 
-``` {.de1}
+```
 $wgSquidServersNoPurge = array('127.0.0.1');
 ```
 
@@ -102,7 +100,7 @@ Where '127.0.0.1' is your server's IP address.
 Scripto Base64 encodes document and page numbers to prevent incompatible MediaWiki title characters. Because of this, corresponding page titles in MediaWiki will be unusually named. You may place the following code in LocalSettings.php to make page titles human readable:
 
 
-``` {.de1}
+```
 // Decode the MediaWiki title from Base64.
 // http://www.mediawiki.org/wiki/Manual:Hooks/BeforePageDisplay
 $wgHooks['BeforePageDisplay'][] = 'fnScriptoDecodePageTitle';

@@ -1,6 +1,3 @@
----
-title: CSV Import
----
 The CSV Import plugin allows users to import items from a simple CSV (comma-separated values) file, and then map the CSV column data to multiple elements, files, and/or tags. Each row in the file represents metadata for a single item.
 
 When using this plugin, if you plan to map to specific Item Type metadata fields, then you may only import one item type (document, still image, sound, et al) at a time. You may perform multiple imports.
@@ -22,7 +19,7 @@ However, if you're creating or editing your data by hand, there are a few things
 -   Check to see if any of the text contains commas, and if it does surround that segment with double-quotes. Many spreadsheet programs will do this for you automatically. If you are using a spreadsheet program, check the CSV that is exported by opening it in a plain text editor to see if the double-quotes are being added automatically.
 -   You can specify a unique delimiter for columns, files, tags, and elements. Once you do, be sure to be consistent in formatting.
 -   Remember, every row represents one item, and all items in the file must be the same item type.
--   Look over the [Dublin Core](../Content/Working_with_Dublin_Core) and [Item Type](../Content/Item_Types) metadata to be sure you can easily map the fields in your CSV file to the Omeka installation. Make any modifications in fields or types as necessary.
+-   Look over the [Dublin Core](../Content/Working_with_Dublin_Core.md) and [Item Type](../Content/Item_Types.md) metadata to be sure you can easily map the fields in your CSV file to the Omeka installation. Make any modifications in fields or types as necessary.
 -   It is possible to import files housed in a digital repository by adding the URL to that specific file in a column representing a file. You may import more than one file per item, by comma separating the urls within a cell. You must use a permanent link for this step.
 
 Importing 
@@ -36,6 +33,7 @@ If you are placing multiple values in single cells, the character you're using t
 To import, go to the CSV Import tab in the left navigation bar in the admin Dashboard.
 
 **Step 1: Select File and Item Settings**
+
 - Select a CSV file from your computer using the *Choose File* button.
 - If using an export from an Omeka CSV report, click the next checkbox, which will override all of the following options. 
 - You can use *Automap Column Names to Elements* if you have formatted your column names as follows: "ElementSetName:ElementSet", for example DublinCore:Title.
@@ -43,9 +41,9 @@ To import, go to the CSV Import tab in the left navigation bar in the admin Dash
 - You can also *Select Collection* to which to add the imported items.
 - There are two checkboxes to make all of the imported items *Public* and/or *Featured*
 
-![Basic import settings](../doc_files/plugin_images/CSV1.png)
+![Basic import settings](/doc_files/plugin_images/CSV1.png)
 
-![Alternate character settings](../doc_files/plugin_images/CSV2.png)
+![Alternate character settings](/doc_files/plugin_images/CSV2.png)
 
 - The next four fields are for those who are not using a standard csv for their data:
     - If you are not using commas to separate your columns, enter the character you are using instead in the *Choose Column Delimiter* . Note: You may not use a tab or an empty space.
@@ -61,11 +59,11 @@ On this next screen, you will see a table which includes each of the Dublin Core
 For each row in the table (which corresponds to a column in your original CSV) you have the following options: 
 -  *Map to Element*: Select an element (all of your element sets should be represented) to which to map the column.
 - Click the *Use HTML* checkbox if this data includes HTML markup.
-- Click the *Tags?* checkbox (and do not map to an element) to map this data as [tags](../Content/Tags)
-- Click the *Files?* to map this data as a [file](../Content/Files) import. 
+- Click the *Tags?* checkbox (and do not map to an element) to map this data as [tags](../Content/Tags.md)
+- Click the *Files?* to map this data as a [file](../Content/Files.md) import. 
 
  
-![Mapping elements](../doc_files/plugin_images/CSV3.png)
+![Mapping elements](/doc_files/plugin_images/CSV3.png)
 
 Click the Import CSV File button to complete the import.
 
@@ -78,7 +76,7 @@ To undo an import:
 -   Click the Status tab.
 -   Click the Undo link for the Import you want to undo. This will delete all items for this import.
 
-![CSVUndo.png](../doc_files/plugin_images/CSVUndo.png)
+![CSVUndo.png](/doc_files/plugin_images/CSVUndo.png)
 
 If your import hangs without completing for an extended period but the link to undo the import does not appear, you can enter the link directly into your browser address bar according to the following example: `http://yourinstallurl/admin/csv-import/index/undo-import/id/idnumberforimport`
 
