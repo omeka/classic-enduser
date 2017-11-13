@@ -58,6 +58,7 @@ pages:
         - 'Exhibit Image Annotation': 'Plugins/ExhibitImageAnnotation.md'
         - 'Geolocation': 'Plugins/Geolocation.md'
         - 'Guest User': 'Plugins/GuestUser.md'
+        - 'Heist': 'Plugins/Heist.md'
         - 'Item Order': 'Plugins/ItemOrder.md'
         - 'Item Relations': 'Plugins/ItemRelations.md'
         - 'Library of Congress Suggest': 'Plugins/Library_of_Congress_Suggest.md'
