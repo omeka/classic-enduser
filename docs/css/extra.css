@@ -1,0 +1,29 @@
+a {
+    color: #628C85;
+}
+
+a:hover,
+a:active {
+    color: #2f6f64;
+}
+
+a:visited {
+    color: #91a2a0;
+}
+
+.wy-side-nav-search {
+    background-color: #541D1D;
+}
+
+.wy-side-nav-search input[type=text] {
+    border-color: #541D1D;
+}
+
+.wy-side-nav-search>a, 
+.wy-side-nav-search .wy-dropdown>a {
+    color: #fff !important;
+}
+
+.wy-menu-vertical a:active {
+    background-color: #628C85;
+}
