@@ -5,7 +5,7 @@
 If you follow a link in Omeka and you get a 404 error or an error saying the URL is not valid, this is likely caused by a `mod_rewrite` problem on your server. There are two possibilities:
 
 1.  You forgot to copy the `.htaccess` file when FTPing your install. Double check that it transferred properly.
-2.  Your server may not have `mod_rewrite` installed. Create a PHP file with the following code: `<?php phpinfo(); ?>` and double check that it's currently enabled. (How? Where?) If not, contact your system administrator. `mod_rewrite` is currently a requirement for Omeka.
+2.  Your server may not have `mod_rewrite` installed. 
 
 If installing `mod_rewrite` does not solve the problem, check that your Apache configuration allows `.htaccess` overrides. You will need the `AllowOverrides All` directive in the appropriate place in `httpd.conf`.
 
@@ -15,4 +15,4 @@ A blank or white screen is often an indication that Omeka or PHP has encountered
 
 Further Help Troubleshooting
 ----------------------------------------------------------
-If you continue to have problems, please post a description of your issue along with the version of Omeka and any plugins involved on the [Omeka Forums](https://forum.omeka.org). 
+If you continue to have problems, please post a description of your issue along with the version of Omeka and any plugins involved on the [Omeka Forums](https://forum.omeka.org).

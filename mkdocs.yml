@@ -86,6 +86,7 @@ pages:
     - Troubleshooting: 
         - 'Troubleshooting': 'Troubleshooting/Troubleshooting_Omeka.md'
         - 'Retrieving Error Messages': 'Troubleshooting/Retrieving_Error_Messages.md'
+        - 'Report a Bug': 'Troubleshooting/Report-a-bug.md'
     - Technical:
         - 'Adding Lightbox to Omeka': 'Technical/Adding_LightBox_to_Omeka.md'
         - 'Backing up an Omeka database': 'Technical/Backing_up_an_Omeka_Database.md'
