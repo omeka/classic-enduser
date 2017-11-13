@@ -50,7 +50,7 @@ To configure your theme, click the "Configure Theme" button below the theme grap
 - *Homepage Recent Items.* Choose the number of recent items to be displayed on the homepage. These will appear in the order in which they were mostly recently added to the archive.
 -   *Homepage Text*. Add some text to be displayed on your homepage above the Featured Items. This is a good place to add a very short tagline or description of your site. Save longer explanations for an About page.
 
-![Homepage configuration options](/doc_files/themeHFConfig.png)
+![Homepage configuration options](/doc_files/themeHomeConfig.png)
 
 Additional Configuration Options:
 

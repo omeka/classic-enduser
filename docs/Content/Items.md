@@ -12,7 +12,7 @@ You may want to consult the [Site Planning Tips](../GettingStarted/Site_Planning
 You may also want to think about what type of information you plan to share using the [Dublin Core Metadata](http://dublincore.org/documents/usageguide/) fields before adding and describing items. You may also want to read the [Working with Dublin Core](Working_with_Dublin_Core) page for a brief explanation of using metadata in Omeka Items.
 
 Add an Item 
----------------------------------------------------------------
+-------------------------------------------------------------
 
 ![Add Item.png](/doc_files/itemAdd.png)
 
@@ -73,15 +73,21 @@ To search all items, click the Search Items button which takes you to an advance
 
 Edit an Item
 --------------------------------------------------------------
+You can edit any of the information you entered when creating an item, or add new information, by going to the Items tab on the left hand navigation. 
+
+On the admin Browse Items page, items are displayed with limited metadata, including the Title, Creator, Item Type, and Date Created. To see additional metadata associated with that item, use the Details link under the item's title. You may also use the blue Show Details tab, which will display details for every item on the page.
+
+Find the item you want to edit in the list and click the *Edit* button below its title. 
+
+![A red arrow points to the Edit link for the item L. Frank Baum](/doc_files/itemEditlink.png)
+
+This opens an expanded edit page where you may make your edits. 
+
+Editing options are the same tabs as when you added the item. You can add new text, tags, files, and mapping or change exiting content.
 
 ![Item edit window](/doc_files/itemEdit.png)
 
-You can edit any of the information you entered when creating an item, or add new information, by going to the Items tab on the left hand navigation. 
-
-Find the item you want to edit and click the 
-
-Items are displayed with limited metadata, including the Title, Creator, Item Type, and Date Created. To see additional metadata associated with that item, use the Details link under the item's title. You may also use the blue Show Details tab, which will display details for every item on the page.
-2.  Find the item you want to edit from the list of items or by searching. To edit only one item, use the Edit link beneath the title of the item. This opens an expanded edit page where you may make your edits. Make sure you click the "Save Changes" button so you don't lose your changes.
+Make sure you click the "Save Changes" button so you don't lose your changes.
 
 Delete an Item
 ----------------------------------------------------------------
