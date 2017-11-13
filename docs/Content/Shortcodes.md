@@ -161,3 +161,117 @@ To find the file id navigate to the admin page for the item it is attached to; f
 At the top of the Item page is a list of the files associated with that item. Clicking on one will bring you to the file page; for example http://youromekainstallation/omeka/admin/files/show/752. 
 
 At the top of the page is a header containing the file ID \# and file title; for example File \#752: “The File Title”. The integer following the \# sign is the ID; in this instance it would be 752. To return this file, the shortcode would be `[file id=752]`
+
+## Plugin Shortcodes
+
+### Exhibit Builder
+These shortcodes require the [Exhibit Builder](ExhibitBuilder.md) plugin.
+
+#### Exhibits
+The exhibits shortcode will return one or multiple exhibits.
+
+The shortcode is `[exhibits]`. Without additional options, it will return ten exhibits, beginning with the oldest one.
+
+General Options
+- `num`
+- `ids` 
+- `is_featured`
+- `sort` by 
+  - `title`
+  - `random`
+  - `added`
+- `order` (with sort)
+
+Exhibit IDs can be found at the end of the Edit page url for an exhibit; e.g. yoursite/admin/exhibits/edit/11 -the exhibit ID is 11.
+
+#### Featured Exhibits 
+The featured exhibits shortcode will return one or multiple exhibits that have been marked as featured.
+
+The shortcode is `[featured_exhibits]`. Without additional options, it will randomly return one exhibit from all of the ones marked as featured.
+
+General Options:
+- `num`
+
+### Geolocation
+The [geolocation](Geolocation.md) shortcode will create a map of items based on parameters it is given.
+
+The shortcode is `[geolocation]`. Without any additional parameters, it will return a map of all items that contain geolocation data, limited by the records per page as set in the Geolocation plugin configuration.
+
+**Options**
+
+`fit`
+:   specify whether to allow google map to automatically center and zoom the map to fit all of the markers. This is on by default.
+
+To manually specify the map/location zoom, use the following options. Note, to use these options, fit must be set to ‘0’ or ‘false’.
+
+`lat` 
+:   specify the latitude of the map’s initial center point, in degrees.
+:   Must be between -90 and 90.
+
+`lon` 
+:   specify the longitude of the map’s initial center point, in degrees.
+:   Must be between -180 and 180
+
+`zoom` 
+:   specify the initial zoom level of the map. 0 is the most zoomed out.
+
+If any of `lat`, `lon`, or `zoom` are not specifically set, and ‘fit’ is set to `0` or `false`, the settings from the Geolocation plugin configuration page will be used.
+
+`type` 
+:   specify the type of google map that appears. Defaults to the setting from the Geolocation plugin configuration page.
+- roadmap - displays the road map view
+- satellite - displays Google Earth satellite images
+- hybrid - displays a mixture of road map and satellite views
+- terrain - displays a physical map based on terrain information
+
+`collection` 
+:   limits the map’s items to those from a specific collection, using the collection ID number. Only one collection may be specified.
+:   For example: `[geolocation collection=5]`
+
+`tags`
+:   limits the map’s items to those from a specific tag. Multiple tags can be entered, separated by a comma, and without any spaces.
+:   For example: `[geolocation tags=baseball,math]`
+
+`height`
+:   set the map height. Can be set in pixels or percentages, but requires specification with either px or %; defaults to 436px.
+:   For example: `[geolocation height=300px]` or `[geolocation height=50%]`
+
+`width` 
+:   set the map width. Can be set in pixels or percentages, but requires specification with either px or %; defaults to 100%.
+:   For example: `[geolocation width=200px]` or `[geolocation width=75%]`
+
+#### Examples
+
+To print a map of all geotagged items, simply use: 
+:  `[geolocation]`
+
+For a map that gets all of the items from your first collection, that are also tagged ‘baseball’
+: `[geolocation collection=1 tags=baseball]`
+ 
+A shortcode that leveraged all of the possible parameters would look like
+:    `[geolocation lat=42 lon=117 zoom=7 type=hybrid collection=4 tags=baseball,math,oakland height=500px width=500px]`
+
+### Shortcodes Carousel
+
+Requires the [Shortcode Carousel plugin](ShortcodeCarousel.md).
+
+The plugin adds a shortcode to create a carousel of items using
+[jCarousel](http://sorgalla.com/jcarousel/)
+
+The basic shortcode is `[carousel]`.
+
+`[recent_carousel]` and `[featured_carousel]` are shortcuts to
+creating a carousel of recent and featured items, respectively.
+
+The same options available for the [Items](../Content/Shortcodes.md#items) shortcode are available for the carousel, with the exception that `has_image` is always assumed to be true.
+
+**Options**
+
+`speed` 
+:   sets the speed for the scrolling animation. May be “fast”, “slow”, or a time in milliseconds. Default is 400.
+:   For example: `[carousel speed=slow]` or  `carousel speed=500]`
+
+`autoscroll` 
+:   setting autoscroll=true will make the items automatically scroll interval 
+:   when autoscroll is on, interval sets the interval between scrolling in milliseconds. Default is 3000.
+:   For example: `[carousel autoscroll=true interval=700]`
