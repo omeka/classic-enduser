@@ -104,7 +104,7 @@ Batch Editing & Deleting
 -   Use the check boxes to the left of an item's title to select it for batch editing, or select the box to the left of the Title heading to select all items available on that page.
 -   Once items are checked, click the the Edit button; the items will open in an editing page where you may make changes.
 
-![Batch Edit.png](/doc_files/Batch_Edit.png)
+![Batch Edit.png](/doc_files/BatchEdit.png)
 
 -   You may make the following changes for each batch of selected items:
     -   make public or private,
