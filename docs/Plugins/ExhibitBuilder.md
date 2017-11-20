@@ -91,15 +91,23 @@ To add a content block, select the layout you want in the New Block dialog box. 
 ![Empty file block, arrow pointing to the Add Item button](/doc_files/plugin_images/eb_additem1.png)
 
 1. An items browse dialog box pops up showing all of your items.
-    - You can browse using the back and forth arrow buttons in the upper right corner of the dialog box. ![Attach an Item window with browse options](/doc_files/plugin_images/eb_additem2a.png)
-    - Clicking *Show Search Form* will take you to an advanced item search. ![Advanced search options in attach an item window](/doc_files/plugin_images/eb_additem2a.png)
+    - You can browse using the back and forth arrow buttons in the upper right corner of the dialog box. 
 
-1. To select an item, click on the bar representing it in the Attach an Item window. The right end of the bar will highlight a dark brown "Select Item" button. ![Select Item is visible.](/doc_files/plugin_images/eb_additem3.png)
+![Attach an Item window with browse options](/doc_files/plugin_images/eb_additem2a.png)
+  
+    - Clicking *Show Search Form* will take you to an advanced item search. 
+
+![Advanced search options in attach an item window](/doc_files/plugin_images/eb_additem2a.png)
+
+1. To select an item, click on the bar representing it in the Attach an Item window. The right end of the bar will highlight a dark brown "Select Item" button. 
+
+![Select Item is visible.](/doc_files/plugin_images/eb_additem3.png)
 
 1. Click Select Item to find options for selecting a file and creating a caption for the item. 
     - If you have more than one file uploaded for an item, you will be able to select which you want to use by clicking on it.
     - Add a caption in the text field. This will appear in smaller font below the file, not as part of a larger text block. Best practice is to keep it short.
-    ![Attach an item, with three file options and a caption field.](/doc_files/plugin_images/eb_additem4.png)
+   
+![Attach an item, with three file options and a caption field.](/doc_files/plugin_images/eb_additem4.png)
 
 1. Click Apply to add the item to the block.
 
@@ -112,6 +120,7 @@ To add multiple files from the same item, simply add the same item to the block,
 To delete items, click the x in the upper right hand corner of the item icon; this will gray out the icon, indicating that it will be deleted the next time you save changes. If you decide not to delete the item, you can click the curved arrow which replaced the x, but you must do so before you save your changes.
 
 In the image below, the middle item has been marked for deletion. A red arrow points to the X to delete the third item.
+
 ![Image described above](/doc_files/plugin_images/eb_delitem.png)
 
 Exhibit text can be formatted using the [text editor bar](../Content/Using_HTML_Editor-TinyMCE.md). To write your own html, or paste from somewhere else, click the blue HTML button in the formatting toolbar at the top of the text entry box. This will open up an HTML Source Editor window in which you can work.
