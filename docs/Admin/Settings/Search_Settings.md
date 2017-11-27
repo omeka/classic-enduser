@@ -3,6 +3,7 @@ This is information for managing search settings on Omeka Classic. See [the Sear
 The Search Settings options allow you to set which types of records are automatically searched when a user enters terms into the basic search bar on both the admin and public sides. You can also re-index your Omeka database to ensure that all selected content is searchable.
 
 Access the Search Settings tabs by going to the Settings tab in the top navigation (1) and then clicking over to Search (2):
+
 ![Arrows labelled as above point to the tabs](../doc_files/searchsettingsloc.png)
 
 ### Select Record Types
