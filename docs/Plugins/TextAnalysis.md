@@ -1,6 +1,6 @@
 The Text Analysis plugin connects your Omeka Classic site with [Watson Natural Language Understanding](https://www.ibm.com/watson/developercloud/natural-language-understanding.html) and [Mallet](http://mallet.cs.umass.edu/) to enable text analysis on a corpora of items created using the Ngram plugin from items on your site.
 
-In order to use Text Analysis you must have the [Ngram](/Ngram) plugin installed and activated.
+In order to use Text Analysis you must have the [Ngram](Ngram) plugin installed and activated.
 
 The Text Analysis plugin uses two services: Watson NLU and MALLET Topic Modeling. Watson NLU will return the entities, keywords, and categories of a corpus; MALLET only returns topic models. You do not have to use both services but you must enter configurations for at least one in order to use this plugin.
 
@@ -27,7 +27,7 @@ To find your *MALLET script directory*: go to your MALLET installation and navig
 ## Create a Corpus
 
 ### Create Corpus
-To create a corpus, you will need to use the [Ngram](Ngram.md)  plugin (see that documentation for complete information on corpora). 
+To create a corpus, you will need to use the [Ngram](Ngram)  plugin (see that documentation for complete information on corpora). 
 
 A corpus is drawn from the items in your collection with content in a particular text element (which is selected on the plugin configuration page), it is further defined by a Search Query and Sequence elements (on the Add a Corpus page), producing an Item Pool. The Item Pool will be further refined by Validating the Items.
 
