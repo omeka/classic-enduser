@@ -166,7 +166,7 @@ At the top of the page is a header containing the file ID \# and file title; for
 ## Plugin Shortcodes
 
 ### Exhibit Builder
-These shortcodes require the [Exhibit Builder](ExhibitBuilder.md) plugin.
+These shortcodes require the [Exhibit Builder](/Plugins/ExhibitBuilder.md) plugin.
 
 #### Exhibits
 The exhibits shortcode will return one or multiple exhibits.
