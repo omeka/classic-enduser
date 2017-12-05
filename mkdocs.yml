@@ -68,6 +68,7 @@ pages:
         - 'OAI-PMH Repository': 'Plugins/OaiPmhRepository.md'
         - 'Omeka API Import': 'Plugins/Omeka_API_Import.md'
         - 'PDF Text': 'Plugins/PdfText.md'
+        - 'Plugin Shortcodes': 'Plugins/Plugin_Shortcodes.md'
         - 'Posters': 'Plugins/Posters.md'
         - 'Record Relations': 'Plugins/RecordRelations.md'
         - 'Redact Elements': 'Plugins/RedactElements.md'
