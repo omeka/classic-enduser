@@ -31,6 +31,7 @@ To move an existing Omeka project, you need to move a) the information in the da
 5.  **Upload these files and folders to the new server,** overwriting the existing ones.
 6.  **Reactivate your plugins and your theme.**
  You may have to reset the permissions for the files folder and its subfolders, and for any plugins that require directories to be writable. See [Setting Directory Permissions](../Installation/Setting_Directory_Permissions.md) for more details.
+ * A begineer guide to [moving WordPress site to new host](https://www.wpmyweb.com/wordpress/move-wordpress-site-new-host.html) - For example, you want to migrate your WordPress site to [Omeka.net](http://omeka.net) hosting.
 
 If you have trouble, submit your question to the
 [forums](https://forum.omeka.org)
