@@ -13,3 +13,11 @@ Visitors to your site can now annotate pages by highlighting text and typing int
 Once annotations have been added, pages will display them via highlighted text which can be hovered over (hypothes.is) or clicked (annotateit.org) to reveal the notation.
 
 For more information about how the annotations will appear, and how they function, please see the website for the service which you select.
+
+More Information
+-----------------------------
+For more information on annotating in the classroom and for technical documentation, see the following readings:
+
+- Chauncey Monte-Sano, “Writing to Learn History: Annotating and Mini Writes,” TeachingHistory.org, <http://teachinghistory.org/teaching-materials/teaching-guides/23554>.
+- Jeremy Dean and Katherine Schulten, “Skills and Strategies | Annotating to Engage, Analyze, Connect and Create,” New York Times, November 12, 2015, sec. The Learning Network. <http://learning.blogs.nytimes.com/2015/11/12/skills-and-strategies-annotating-to-engage-analyze-connect-and-create/>.
+- Amanda Visconti, “Better Tech via Annotation (Using Hypothesis to Improve Your Technical Documentation, Code, and Tutorials),” Literature Geek (March 22, 2016), <http://literaturegeek.com/2016/03/22/better-tech-via-annotation-hypothesis-documentation-code-tutorials>.
