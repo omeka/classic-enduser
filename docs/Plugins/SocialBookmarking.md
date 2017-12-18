@@ -24,3 +24,7 @@ By clicking on an icon, visitors can share a link to that item or collection thr
 Social Bookmarking and Other Plugins
 -------------------------------------------------------------
 Keep in mind that if you are activating other plugins that append the items/show page for displaying content those elements may crowd the page's public display.
+
+Social Bookmarking and AdBlockers
+-----------------------------------
+If a site visitor is using ad blockers or has tracking protection turned on, the social bookmarking icons may not display.
