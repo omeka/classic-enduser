@@ -175,3 +175,9 @@ All topics load on a single page. At the top of the page is an option to navigat
 Regardless of the size of the corpus (whether your corpus has 50 or 500 items), ten topics will be generated. Topics are displayed in order of occurrence, highest first. Each topic will display with its percentage and a cluster of words found in that topic. In this instance, percentage refers to the percentage of the sequence assigned to a given topic, or how relevant each topic is to the sequence. Each topic also comes with a line graph in order to enable users to visualize the percentage for that topic. Please note that not all topics will add up to 100%, as percentages are rounded up to the nearest whole number. 
 
 ![The first three topics for an analysis of the Sherlock Holmes short stories. Because there is no sequence element, the top navigation option displays as n/a.](../doc_files/plugin_images/ta_mallet.png)
+
+## Case Studies
+The following case studies examine the Text Analysis and [Ngram](Ngram) plugins using data from the [September 11 Digital Archive](http://911digitalarchive.org/).
+
+- [Jannelle Legg, "Experiencing the September 11 Digital Archive, Using Omeka’s Ngrams and Text Analysis Plugins," December 2017](../doc_files/911-CaseStudy-1.pdf)
+- [Alyssa Fahringer, "Using Omeka’s Two Distant Reading Plugins to Explore the Language of Death and Mourning in the September 11 Digital Archive," December 2017](../doc_files/911-CaseStudy-2.pdf)

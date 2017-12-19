@@ -222,3 +222,9 @@ Once you have at least one corpus, the page at admin/ngram/corpora (the ngram ta
 - **Sequence Range**
 
 ![A screenshot of the corpus page with the features described above.](../doc_files/plugin_images/ngram-browsecorpora.png)
+
+## Case Studies
+The following case studies examine the [Text Analysis](TextAnalysis) and Ngram plugins using data from the [September 11 Digital Archive](http://911digitalarchive.org/).
+
+- [Jannelle Legg, "Experiencing the September 11 Digital Archive, Using Omeka’s Ngrams and Text Analysis Plugins," December 2017](../doc_files/911-CaseStudy-1.pdf)
+- [Alyssa Fahringer, "Using Omeka’s Two Distant Reading Plugins to Explore the Language of Death and Mourning in the September 11 Digital Archive," December 2017](../doc_files/911-CaseStudy-2.pdf)
