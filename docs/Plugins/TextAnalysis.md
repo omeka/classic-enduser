@@ -6,6 +6,9 @@ The Text Analysis plugin uses two services: Watson NLU and MALLET Topic Modeling
 
 Because using Watson NLU may incur costs, the functions of Text Analysis are restricted to users with super and admin permissions.
 
+Before installing, you may wish to watch this screencast to better understand how to configure and take advantage of the functionality of this plugin. 
+[Watch screencast](https://vimeo.com/246144850)
+
 ## Configuration
 After you have installed the plugin, go to the Plugins tab in the upper navigation, and scroll down to Text Analysis. Click the blue Configure button.
 
