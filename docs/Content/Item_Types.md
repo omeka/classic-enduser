@@ -9,22 +9,23 @@ Item types are types of objects, with associated metadata. Omeka comes with pre-
 Pre-defined Item Types
 ---------------------------------------------------------
 
--   Document: A resource containing textual data. Note that facsimiles or images of texts are still of the genre text.
--   Moving Image: A series of visual representations that, when shown in succession, impart an impression of motion.
--   Oral History:A resource containing historical information obtained in interviews with persons having firsthand knowledge.
--   Sound: A resource whose content is primarily intended to be rendered as audio.
--   Still Image: A static visual representation. Examples of still images are: paintings, drawings, graphic designs, plans and maps. Recommended best practice is to assign the type "text" to images of textual materials.
--   Website: A resource comprising of a web page or web pages and all related assets (such as images, sound and video files, etc.).
--   Event: A non-persistent, time-based occurrence. Metadata for an event provides descriptive information that is the basis for discovery of the purpose, location, duration, and responsible agents associated with an event. Examples include an exhibition, webcast, conference, workshop, open day, performance, battle, trial, wedding, tea party.
--   Email: A resource containing textual messages and binary attachments sent electronically from one person to another or one person to many people.
--   Lesson Plan: Instructional materials with fields that include duration(length of time involved), standards, objectives, materials, and lesson plan text.
+-   **Document**: A resource containing textual data. Note that facsimiles or images of texts are still of the genre text.
+-   **Moving Image**: A series of visual representations that, when shown in succession, impart an impression of motion.
+-   **Oral History**:A resource containing historical information obtained in interviews with persons having firsthand knowledge.
+-   **Sound**: A resource whose content is primarily intended to be rendered as audio.
+-   **Still Image**: A static visual representation. Examples of still images are: paintings, drawings, graphic designs, plans and maps. Recommended best practice is to assign the type "text" to images of textual materials.
+-   **Website**: A resource comprising of a web page or web pages and all related assets (such as images, sound and video files, etc.).
+-   **Event**: A non-persistent, time-based occurrence. Metadata for an event provides descriptive information that is the basis for discovery of the purpose, location, duration, and responsible agents associated with an event. Examples include an exhibition, webcast, conference, workshop, open day, performance, battle, trial, wedding, tea party.
+-   **Email**: A resource containing textual messages and binary attachments sent electronically from one person to another or one person to many people.
+-   **Lesson Plan**: Instructional materials with fields that include duration(length of time involved), standards, objectives, materials, and lesson plan text.
 -   Hyperlink: Title, URL, Description or annotation.
--   Person: An individual, biographical data, birth and death, etc.
--   Interactive Resource: A resource requiring interaction from the user to be understood, executed, or experienced. Examples include forms on Web pages, applets, multimedia learning objects, chat services, or virtual reality environments.
+-   **Person**: An individual, biographical data, birth and death, etc.
+-   **Interactive Resource**: A resource requiring interaction from the user to be understood, executed, or experienced. Examples include forms on Web pages, applets, multimedia learning objects, chat services, or virtual reality environments.
 
 Edit an Existing Item Type 
 ---------------------------------------------------------------
 You can edit existing item types to modify their metadata fields.
+
 1.  Go to Item Types page in the admin panel and click on the type you want to modify.
 2.  In the next screen, click the "edit" button. From here, you can edit or delete the current metadata fields for documents or add new ones (see below, in creating a new item type, for more information)
 3.  When finished, click "Save Changes"

@@ -42,7 +42,8 @@ Admin users can:
 
 Contributor users have control over their own content but can only view content created by others. They cannot make their own content public. 
 
-Contributor users can:  
+Contributor users can:
+  
 - add, edit, tag, and delete items which they created.
 - cannot make their own items public.
 - create their own exhibits from items that are public.

@@ -24,9 +24,13 @@ read more about associating an item with a collection.
 Note that an item may only belong to one collection a time. You may switch an item from one collection to another at any time.
 
 Items can only be added to a collection from the Item's edit page or the browse items page.
-- From the item edit page, use the dropdown menu on the right hand side, under the Save Changes button, to select a collection.
+
+From the item edit page, use the dropdown menu on the right hand side, under the Save Changes button, to select a collection.
+
 ![Dropdown menu in the item edit page is emphasized with a red arrow](/doc_files/collectionAddItem.png)
-- From the Browse Items page, you can use the batch edit option to add multiple items to a collection, again using a dropdown menu to select the existing collection.
+
+From the Browse Items page, you can use the batch edit option to add multiple items to a collection, again using a dropdown menu to select the existing collection.
+
 ![Dropdown menu in the batch item edit page is emphasized with a red arrow](/doc_files/collectionAddBatch.png)
 
 

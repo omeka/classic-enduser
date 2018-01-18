@@ -11,4 +11,4 @@ Omeka Classic has the following system requirements:
 
 ## If your server does not meet these requirements
 -   Try [Omeka.net](http://omeka.net) hosting
--   Try third-party hosting services, here are some [suggestions](../GettingStarted/Hosting_Suggestions.md).
+-   Try third-party hosting services - here are some [suggestions](../GettingStarted/Hosting_Suggestions.md).

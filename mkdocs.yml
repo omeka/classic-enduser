@@ -16,7 +16,7 @@ pages:
         - 'Searching': 'GettingStarted/Searching.md'
     - Installing:
         - 'System Requirements': 'Installation/System_Requirements.md'
-        - 'Installing': 'Installation/Installation.md'
+        - 'Installation': 'Installation/Installation.md'
         - 'Upgrading': 'Installation/Upgrading.md'
         - 'Configuring Language': 'Installation/Configuring_Language.md'
         - 'Setting Directory Permissions': 'Installation/Setting_Directory_Permissions.md'
