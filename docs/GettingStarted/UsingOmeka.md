@@ -18,8 +18,9 @@ The easiest of these is the message "Proudly Powered by Omeka" in the footer, wh
 
 Even if the site creators have changed the label for these pages in their navigation menu, the urls will generally be the same. Checking the address bar to see what function (item, collection, exhibit, etc) the site is using will help you get a sense of how the creators have structured the site.
 
-
 **Know your themes** 
+
+Familiarize yourself with the standard [themes](http://omeka.org/classic/themes/) for Omeka - where the menu is located, how the pages are laid out, and other visual markers of the theme. You will be able to identify frequently-used themes even when colors are changed.
 
 **Skim the navigation**
 
