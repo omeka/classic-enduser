@@ -57,6 +57,7 @@ Element sets for institution-specific metadata may be added.
 - Populate an Omeka site by adding items individually or batch adding with data migration and upload tools, such as the OAI-PMH harvester, dropbox plugin for files, and CSV, EAD, and Zotero importer plugins.
 
 **Internationalization of Omeka Code**
+
 - Translations available in dozens of languages and anyone may submit new translations.
 
 **Publish non-Roman characters.**
