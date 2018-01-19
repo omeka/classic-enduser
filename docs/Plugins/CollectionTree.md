@@ -1,8 +1,8 @@
 Collection Tree plugin allows Omeka sites to have nested [collections](../Content/Collections.md). One collection can have at most one parent collection, but a collection may have zero or multiple child collections.
 
-Once you have [installed](../Admin/Adding_and_Managing_Plugins.md) collection tree, the plugin will create a tab on the left-hand navigation of the admin side of the site. This tab allows you to view your collection hierarchy. To create a child/parent relationship between collections, you must edit the collection.
+Once you have [installed](../Admin/Adding_and_Managing_Plugins.md) collection tree, the plugin will create a tab on the left-hand navigation of the admin side of the site. This tab allows you to view your collection hierarchy. To create a child/parent relationship between collections (nest), you must edit the collection.
 
-Nesting Tree
+Create a Collection Tree
 -------------------------------
 You can only nest collections once you have at least two collections. 
 

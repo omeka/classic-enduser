@@ -44,7 +44,7 @@ To the right of these fields is the green *Save Changes* button.  Below it are t
 - *Order* of this page relative to other pages with the same parent.
 - *Publish this page* checkbox. Checking the box will make the page public. 
 
-![Add simple page]((../doc_files/plugin_images/simplePagesAdd.png)
+![Add simple page](../doc_files/plugin_images/simplePagesAdd.png)
 
 Be sure to Save Changes.
 

@@ -20,4 +20,4 @@ The configuration page has the following options, in two sections, one for the A
 - *Embed viewer in public item show pages*: check this box to show the viewer on public item/show pages.
 - Set the public viewer *width* and *height* in pixels.
 
-![Zoomit configuration settings](..doc_files/plugin_images/zoomitConfig)
+![Zoomit configuration settings](../doc_files/plugin_images/zoomitConfig)

@@ -57,7 +57,8 @@ Click the *Next* button once you have filled out the above options to your satis
 On this next screen, you will see a table which includes each of the Dublin Core fields in Omeka, the text from your CSV file that is designated for that field. The "Example from CSV file" column in the table shows the data from the first row of data in your CSV, after the column headings. 
 
 For each row in the table (which corresponds to a column in your original CSV) you have the following options: 
--  *Map to Element*: Select an element (all of your element sets should be represented) to which to map the column.
+
+- *Map to Element*: Select an element (all of your element sets should be represented) to which to map the column.
 - Click the *Use HTML* checkbox if this data includes HTML markup.
 - Click the *Tags?* checkbox (and do not map to an element) to map this data as [tags](../Content/Tags.md)
 - Click the *Files?* to map this data as a [file](../Content/Files.md) import. 
@@ -72,6 +73,7 @@ You may check on the progress of your import using the Status tab.
 Undo an Import
 ----------------------------------------------------------------
 To undo an import:
+
 -   Click on the CSV Import administrative tab.
 -   Click the Status tab.
 -   Click the Undo link for the Import you want to undo. This will delete all items for this import.
@@ -86,6 +88,7 @@ For example, if your Omeka instance was at the root of example.com and this was 
 Troubleshooting
 -------------------------------------
 If you are having trouble with a CSV consistently not importing, try checking for these common issues:
+
 - Are your file links readable? Try copying and pasting them into the address bar of a browser to see if the link resolves with a file. If it does not, then that may be the issue.
 - Check the encoding on your CSV file. It should be UTF-8
 - Open your CSV file with a different program than the one you created it with and make sure that every row has the same number of columns.

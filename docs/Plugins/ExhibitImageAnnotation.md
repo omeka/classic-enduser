@@ -47,4 +47,4 @@ To delete an existing annotation, hover over it and click the X button in the me
 ## Viewing Annotations
 On the public side, image annotation blocks will appear as a full-size version of the image, with the rectangular outlines of the annotations visible. When a visitor hovers over the annotation outline, the text you have entered will appear.
 
-![A section of a painting showing drapery in front of a cloudy sky in the background, and in the foreground an extended arm in black clothing with a hand, palm up. A white-edged rectangle outlines one of the clouds. A yellow-edged rectangle surrounds the hand, with a caption below it stating "Hand"](../doc_files/plugin_images/eximagenno_public.png)
+![A section of a painting showing drapery in front of a cloudy sky in the background, and in the foreground an extended arm in black clothing with a hand, palm up. A white-edged rectangle outlines one of the clouds. A yellow-edged rectangle surrounds the hand, with a caption below it stating "Hand"](../doc_files/plugin_images/eximageanno_public.png)

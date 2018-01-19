@@ -1,4 +1,6 @@
-The Contribution plugin provides a form to collect stories, images, and other files from the public and manage those contributions in your Omeka site as items. Contributors may share and upload content anonymously, and their information will only be available to site administrators. All contributions are private by default and require a site administrator to review and make them public on the Omeka site. The plugin can also automatically add a reCAPTCHA box at the bottom of each form to prevent spam-bots from spamming your website. Contribution also offers options for users to create guest accounts that make it easier for one user to submit multiple items. 
+The Contribution plugin provides a form to collect stories, images, and other files from the public and manage those contributions in your Omeka site as items. Contributors may share and upload content anonymously, and their information will only be available to site administrators. All contributions are private by default and require a site administrator to review and make them public on the Omeka site. 
+
+The plugin can also automatically add a reCAPTCHA box at the bottom of each form to prevent spam-bots from spamming your website. Contribution also offers options for users to create guest accounts that make it easier for one user to submit multiple items. 
 
 Other plugins can be integrated into the Contribution form, such as [Simple Vocab](SimpleVocab.md) for creating dropdown menu choices, and [Geolocation](Geolocation.md) for inviting users to map their submissions or locations. 
 
@@ -15,10 +17,14 @@ If you want to collect any information from your contributors, install these two
 -   [Record Relations](RecordRelations.md) (optional, only required for collecting user information)
 -   [User Profiles](UserProfiles.md) (optional, only required for collecting user information)
 
+Screencast
+--------------------
+Contribution is a somewhat complex plugin to set up. In addition to the written instructions below, please see the [screencast on this plugin and Guest User](https://vimeo.com/165200216). Note that there is also a screencast for the [User Profiles](https://vimeo.com/165052886) plugin.
+
 Installing
 ------------------------------------------------------------
 
--   Upload and [install](../Admin/Adding_and_Managing_Plugins.md) the Guest User plugin first. If you have uploaded the other plugins first, you will see in the plugin directory that you cannot install other Contribution-related plugins until Guest User is installed first.
+**Note** You must upload and [install](../Admin/Adding_and_Managing_Plugins.md) the Guest User plugin before installing and activating Contribution! If you have uploaded the other plugins first, you will see in the plugin directory that you cannot install other Contribution-related plugins until Guest User is installed first.
 
 ### Guest User Configuration
 After installing the plugin, click the Configure button. For more information go to the [Guest User documentation](GuestUser.md).

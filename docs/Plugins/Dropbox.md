@@ -14,12 +14,12 @@ Using the Dropbox plugin
 
 Batch Adding Files As Items 
 -----------------------------------------------------------------
-From the Dropbox box tab (.../admin/dropbox) you may select files to batch add as individual items (1 file creates 1 item). When selecting files, you may also add them to a collection and associate the same set of tags, make the items public or feature them.
+From the Dropbox box tab (.../admin/dropbox) you may select files to batch add as individual items - note that one file creates one item). When selecting files, you may also add them to a collection and associate the same set of tags, make the items public or feature them.
 
 Click "Upload Files as Items." Items are created from each file and titled with the file name. This can modified later if you wish to edit the item's title.
 
 Adding Files to Items 
------------------------------------------------------------------
+----------------------------------------------------------------
 To add dropbox files to items, add or edit an item(.../items/add or .../items/edit) and click on the Files tab.
 
 Check the box, or boxes, of the file(s) you wish to associate with that particular item. You may associate multiple files with that item. Click Add Item or Save Changes button to complete the file adding process.

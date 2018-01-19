@@ -54,7 +54,7 @@ Pages
 -------------------------------------------------
 Once you have created an exhibit you can add pages to it by clicking the Add Page button at the bottom of the Exhibit Metadata page.
 
-![Arrow points to the Add Page button](/doc_files/plugin_images/Ebaddpage.png)
+![Arrow points to the Add Page button](/doc_files/plugin_images/Ebaddp.png)
 
 Once on the Add Page screen, add the following:
 
@@ -86,30 +86,30 @@ The **Text** block allows you to create a section of text which spans the width 
 To add a content block, select the layout you want in the New Block dialog box. Once you have selected the kind you want, click the "Add new content block" button. You will have a new block on the page to configure your content.
 
 ### Adding Items
-1. If you have selected any block other than Text, choose an item by clicking the large plus sign button titled *Add Item* appearing in the Items area.
+- If you have selected any block other than Text, choose an item by clicking the large plus sign button titled *Add Item* appearing in the Items area.
 
 ![Empty file block, arrow pointing to the Add Item button](/doc_files/plugin_images/eb_additem1.png)
 
-1. An items browse dialog box pops up showing all of your items.
-    - You can browse using the back and forth arrow buttons in the upper right corner of the dialog box. 
+- An items browse dialog box pops up showing all of your items.
+   - You can browse using the back and forth arrow buttons in the upper right corner of the dialog box. 
 
 ![Attach an Item window with browse options](/doc_files/plugin_images/eb_additem2a.png)
   
-    - Clicking *Show Search Form* will take you to an advanced item search. 
+- Clicking *Show Search Form* will take you to an advanced item search. 
 
 ![Advanced search options in attach an item window](/doc_files/plugin_images/eb_additem2a.png)
 
-1. To select an item, click on the bar representing it in the Attach an Item window. The right end of the bar will highlight a dark brown "Select Item" button. 
+- To select an item, click on the bar representing it in the Attach an Item window. The right end of the bar will highlight a dark brown "Select Item" button. 
 
 ![Select Item is visible.](/doc_files/plugin_images/eb_additem3.png)
 
-1. Click Select Item to find options for selecting a file and creating a caption for the item. 
+- Click Select Item to find options for selecting a file and creating a caption for the item. 
     - If you have more than one file uploaded for an item, you will be able to select which you want to use by clicking on it.
     - Add a caption in the text field. This will appear in smaller font below the file, not as part of a larger text block. Best practice is to keep it short.
    
 ![Attach an item, with three file options and a caption field.](/doc_files/plugin_images/eb_additem4.png)
 
-1. Click Apply to add the item to the block.
+- Click Apply to add the item to the block.
 
 Click the X in the upper right corner of the Attach an Item window at any time to exit the process.
 
@@ -185,14 +185,14 @@ Block layout options are in *italics* for Exhibit Builder 3.0 blocks.
 | Exhibit Builder 2 Layout | Exhibit Builder 3.x Layout |
 | --- | --- |
 | Gallery-full-left ![Gallery-full-left.gif](../doc_files/plugin_images/exhibitbuilder/Gallery-full-left.gif) | One gallery block, showcase file position *left*, gallery position *right*. ![GalleryBlock](../doc_files/plugin_images/exhibitbuilder/ebblock_gallery.png)  |
-| Gallery-full-right ![Gallery-full-right.gif](../doc_files/plugin_images/exhibitbuilder/Gallery-full-right.gif) | One gallery block, showcase file position *left*, gallery position *right*. ![GalleryBlock](../doc_files/plugin_images/exhibitbuilder/ebblock_gallery.png) |
-| Gallery-thumbnails ![gallery thumbnails page](../doc_files/plugin_images/exhibitbuilder/Gallery-thumbnails.gif) |  One gallery block, no showcase file. ![GalleryBlock](../doc_files/plugin_images/exhibitbuilder/ebblock_gallery.png) |
-| Gallery-thumbnails-text-bottom ![Gallery-thumbnails-text-bottom.gif](../doc_files/plugin_images/exhibitbuilder/Gallery-thumbnails-text-bottom.gif)| One gallery block with text added, or one gallery block with no text and one text block. ![GalleryBlock](../doc_files/plugin_images/exhibitbuilder/ebblock_gallery.png) |
+| Gallery-full-right ![Gallery-full-right.gif](../doc_files/plugin_images/exhibitbuilder/Gallery-full-right.gif) | One gallery block, showcase file position *left*, gallery position *right*.  ![GalleryBlock](../doc_files/plugin_images/exhibitbuilder/ebblock_gallery.png) |
+| Gallery-thumbnails ![gallery thumbnails page](../doc_files/plugin_images/exhibitbuilder/Gallery-thumbnails.gif) |  One gallery block, no showcase file.  ![GalleryBlock](../doc_files/plugin_images/exhibitbuilder/ebblock_gallery.png) |
+| Gallery-thumbnails-text-bottom ![Gallery-thumbnails-text-bottom.gif](../doc_files/plugin_images/exhibitbuilder/Gallery-thumbnails-text-bottom.gif)| One gallery block with text added, or one gallery block with no text and one text block.  ![GalleryBlock](../doc_files/plugin_images/exhibitbuilder/ebblock_gallery.png) |
 | Gallery-thumbnails-text-top ![Gallery-thumbnails-text-top.gif](../doc_files/plugin_images/exhibitbuilder/Gallery-thumbnails-text-top.gif) | One text block above one gallery block.  ![TextBlock](../doc_files/plugin_images/exhibitbuilder/ebblock_text.png) + ![GalleryBlock](../doc_files/plugin_images/exhibitbuilder/ebblock_gallery.png) |
-| Image-list-left ![Image-list-left.gif](../doc_files/plugin_images/exhibitbuilder/Image-list-left.gif) | Series of File with Text blocks, file position *left*, files *full size* ![File w Text block](../doc_files/plugin_images/exhibitbuilder/ebblock_filewtext.png) |
-| Image-list-left-thumbnails ![Image-list-left-thumbs.gif](../doc_files/plugin_images/exhibitbuilder/Image-list-left-thumbs.gif) | Series of File with Text blocks, file position *left*, files *thumbnail* or *square thumbnail size*. ![File w Text block](../doc_files/plugin_images/exhibitbuilder/ebblock_filewtext.png) |
-| Image-list-right ![Image-list-right.gif](../doc_files/plugin_images/exhibitbuilder/Image-list-right.gif) | Series of File with Text blocks, file position *right*, files *full size*. ![File w Text block](../doc_files/plugin_images/exhibitbuilder/ebblock_filewtext.png) |
-| Image-list-right-thumbnails ![Image-list-right-thumbs.gif](../doc_files/plugin_images/exhibitbuilder/Image-list-right-thumbs.gif) | Series of File with Text blocks, file position *right*, files *thumbnail* or *square thumbnail size*. ![File w Text block](../doc_files/plugin_images/exhibitbuilder/ebblock_filewtext.png) |
-| Text ![Text.gif](../doc_files/plugin_images/exhibitbuilder/Text.gif) | One text block ![Text block](../doc_files/plugin_images/exhibitbuilder/ebblock_text.png) |
-| Text-image-left ![Text-image-left.gif](../doc_files/plugin_images/exhibitbuilder/Text-image-left.gif) | One File with Text block, file position *left*. ![File w Text block](../doc_files/plugin_images/exhibitbuilder/ebblock_filewtext.png) | 
-| Text-image-right ![Text-image-right.gif](../doc_files/plugin_images/exhibitbuilder/Text-image-right.gif) | One File with Text block, file position *right*. ![File w Text block](../doc_files/plugin_images/exhibitbuilder/ebblock_filewtext.png) |
+| Image-list-left ![Image-list-left.gif](../doc_files/plugin_images/exhibitbuilder/Image-list-left.gif) | Series of File with Text blocks, file position *left*, files *full size*   ![File w Text block](../doc_files/plugin_images/exhibitbuilder/ebblock_filewtext.png) |
+| Image-list-left-thumbnails ![Image-list-left-thumbs.gif](../doc_files/plugin_images/exhibitbuilder/Image-list-left-thumbs.gif) | Series of File with Text blocks, file position *left*, files *thumbnail* or *square thumbnail size*.  ![File w Text block](../doc_files/plugin_images/exhibitbuilder/ebblock_filewtext.png) |
+| Image-list-right ![Image-list-right.gif](../doc_files/plugin_images/exhibitbuilder/Image-list-right.gif) | Series of File with Text blocks, file position *right*, files *full size*.  ![File w Text block](../doc_files/plugin_images/exhibitbuilder/ebblock_filewtext.png) |
+| Image-list-right-thumbnails ![Image-list-right-thumbs.gif](../doc_files/plugin_images/exhibitbuilder/Image-list-right-thumbs.gif) | Series of File with Text blocks, file position *right*, files *thumbnail* or *square thumbnail size*.  ![File w Text block](../doc_files/plugin_images/exhibitbuilder/ebblock_filewtext.png) |
+| Text ![Text.gif](../doc_files/plugin_images/exhibitbuilder/Text.gif) | One text block  ![Text block](../doc_files/plugin_images/exhibitbuilder/ebblock_text.png) |
+| Text-image-left ![Text-image-left.gif](../doc_files/plugin_images/exhibitbuilder/Text-image-left.gif) | One File with Text block, file position *left*.  ![File w Text block](../doc_files/plugin_images/exhibitbuilder/ebblock_filewtext.png) | 
+| Text-image-right ![Text-image-right.gif](../doc_files/plugin_images/exhibitbuilder/Text-image-right.gif) | One File with Text block, file position *right*.  ![File w Text block](../doc_files/plugin_images/exhibitbuilder/ebblock_filewtext.png) |

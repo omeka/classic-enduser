@@ -4,11 +4,15 @@ When activated, the COinS plugin makes your items viewable to certain [online bi
 
 Using the COinS plugin, you may add individual items from any Omeka site to your Zotero library and batch process the addition of multiple items to your Zotero library.
 
-**Add Items to Zotero**
-When on an items/show page, you may add that item to your Zotero library, by clicking the Zotero icon. In Firefox, this should appear in the address bar; in Chrome it will be in the buttons to the right of the address bar.
+## Add Items to Zotero
 
-![Zotero icon for Firefox](../doc_files/plugin_images/coinsFirefox.jpg)
-![Zotero icon in Chrome](../doc_files/plugin_images/coinsChrome.png)
+When on an items/show page, you may add that item to your Zotero library, by clicking the Zotero icon. For example, in Firefox, this should appear in the address bar; in Chrome it will be in the buttons to the right of the address bar.
+
+![Zotero icon for Firefox](../doc_files/plugin_images/coinsFirefox.jpg)  
+Firefox
+
+![Zotero icon in Chrome](../doc_files/plugin_images/coinsChrome.png)  
+Chrome
 
 Click on the icon, and the item is then sent to your Zotero library. A notification at the bottom of the screen tells you the operation was successful.
 

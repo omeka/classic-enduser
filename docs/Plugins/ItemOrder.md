@@ -6,14 +6,13 @@ Item Order does not have any configuration settings, and will be available once 
  
 To use Item Order, go to the Collections tab in the sidebar of the admin Dashboard. Find the collection whose items you want to reorder and click on the name of the collection (note: do not click on edit).
 
-![Cursor hovering over collection name](../doc_files/plugin_images/Itemordern.jpg)
-
--   On the collections page (admin/collections/show/), scroll to the bottom of the page where you will find the heading Item Order. Click the link to *Order Items in this Collection*.
+On the collections page (admin/collections/show/), scroll to the bottom of the page where you will find the heading Item Order. Click the link to *Order Items in this Collection*.
 
 ![Collection management page with the Item Order section called out in a blue box. Arrow points to the link for Order Items in this Collection.](../doc_files/plugin_images/Itemorder1.png)
 
--   A complete list of all items in that collection will appear on the page. Drag and drop the items into the preferred order. Changes are saved automatically.
-    -   Dragging automatically reorders the items for the public collection browse page. To see the public page, either click the link that states *click here to return to the collection show page* and then click on "View Public Page", or navigate to yoursite.org/items/browse?collection=1 (where 1 equals the number of the collection you modified).
+A complete list of all items in that collection will appear on the page. Drag and drop the items into the preferred order. Changes are saved automatically.
+
+-   Dragging automatically reorders the items for the public collection browse page. To see the public page, either click the link that states *click here to return to the collection show page* and then click on "View Public Page", or navigate to yoursite.org/items/browse?collection=1 (where 1 equals the number of the collection you modified).
 
 ![mouse hovering over the Click Here To Return button](../doc_files/plugin_images/Itemorderc.jpg)
 

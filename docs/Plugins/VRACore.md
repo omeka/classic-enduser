@@ -20,13 +20,13 @@ For guidance on using the VRA Core metadata standard, please see [the VRA Core w
 
 Once the plugin is installed, VRA Core elements are available in their own tab when a user is either Adding or Editing an Item (on the same level as Item Type, File, Tags, and other metadata tabs).
 
-![Edit item with VRA Core tab highlighted](../doc_files/plugin_images/VRAdd2.png)
+![Edit item with VRA Core tab highlighted](../doc_files/plugin_images/VracAdd2.png)
 
 Users can complete as much or as little of the VRA core as they wish. However, please note that if you do not provide a title in the Dublin Core Title element, the item will show up as `[Untitled]` throughout your site, even if the title display field in VRA Core is filled.
 
 Each VRA Core element has a description (from the standard) and an input field. Use the checkbox below the field to use HTML formatting in this field. Below the Element input, you can add Display Element Attributes, such as extent, href, etc. For every element there is a notes field, and field options for the subelements which VRA core offers. 
 
-![Example element showing the attribution functions](../docs_files/plugin_images/VracElem.png)
+![Example element showing the attribution functions](../doc_files/plugin_images/VracElem.png)
 
 The first field for each element corresponds to the `display` XML element in VRA Core. According to the VRA Core standard, there can be only one display element (this is different from the usual Dublin Core data, which can have many values.
 

@@ -5,6 +5,7 @@ Install and Configure
 After  [installing](../Admin/Adding_and_Managing_Plugins.md) the plugin, you should be automatically redirected to the configuration settings for the plugin. You can access these again at any time by clicking the Configure button for Guest User from the Plugins menu.
 
 You can enter text for the following fields:
+
 -   Registration Features: this text will appear at the top of the registration page. You can use it to explain what users are signing up to do, and what the limitations may be.
 -   Short Registration Features: brief text appearing as a dropdown from the user bar.
 -   Dashboard Label: By default, this is "My Account" and will appear when the user is logged in.

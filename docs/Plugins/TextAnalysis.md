@@ -156,7 +156,7 @@ Viewing the NLU Analysis will present you with the following tabs, most of which
 
 *Keywords* displays keywords in a table with columns for the word or phrase, associated emotions, sentiment score, and keyword relevance score. keywords based on context and relevance in the overall text sample. A glossary above the table defines each column.
 
-![Keywords](../doc_files/plugin_images/ta_kewyords.png)
+![Keywords](../doc_files/plugin_images/ta_keywords.png)
 
 *Categories* applies the NLU [categories](https://www.ibm.com/watson/developercloud/doc/natural-language-understanding/categories.html) to your content. The table shows the label for the categories identified and the confidence score for that category.
 
