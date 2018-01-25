@@ -36,7 +36,7 @@ To import, go to the CSV Import tab in the left navigation bar in the admin Dash
 
 - Select a CSV file from your computer using the *Choose File* button.
 - If using an export from an Omeka CSV report, click the next checkbox, which will override all of the following options. 
-- You can use *Automap Column Names to Elements* if you have formatted your column names as follows: "ElementSetName:ElementSet", for example DublinCore:Title.
+- You can use *Automap Column Names to Elements* if you have formatted your column names as follows: "Element Set Name:Element Name", for example `Dublin Core:Title`.
 - *Select Item Type* of the sheet to be imported. NB you can only import one item type at a time. 
 - You can also *Select Collection* to which to add the imported items.
 - There are two checkboxes to make all of the imported items *Public* and/or *Featured*
