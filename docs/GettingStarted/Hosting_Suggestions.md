@@ -12,7 +12,6 @@ Others follow in alphabetical order:
 
 -   Academic AMIs on Amazon: <http://academicami.org/>
 -   AcuGIS: <http://www.acugis.com/>
--   BlueHost: <http://bluehost.com/> offers free and discounted web hosting for faculty and students at <https://www.bluehost.com/spoke>
 -   Cultural Hosting: <https://culturalhosting.com> a bilingual (Spanish and English) hosting company for cultural heritage organizations, based in Spain.
 -   Dotblock: <http://www.dotblock.com/>
 -   DreamHost: <http://dreamhost.com/> one-click install. Dreamhost also has a free web hosting plan for US-based 501(c)(3) organizations. See <http://wiki.dreamhost.com/index.php/Non-profit_Discount>
