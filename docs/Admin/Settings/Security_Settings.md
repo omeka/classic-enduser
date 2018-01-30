@@ -32,19 +32,16 @@ The **Allowed File Types** list contains common Mime Types associated with diffe
 
 Remember to *Save Changes*
 
-Captcha
+reCAPTCHA
 -----------------------------------------------------
-Captcha is an option to reduce spam on your site if you are using a plugins requiring public forms on your Omeka site such as the Contribution plugin and Simple Contact. 
+reCAPTCHA is an option to reduce spam on your site if you are using a plugins requiring public forms on your Omeka site such as the Contribution plugin and Simple Contact. 
 
 ![Example of a public side captcha in action](/doc_files/Captcha.png)
 
-In order to use Captcha, you will need to [sign up for Captcha key](http://www.google.com/recaptcha) to reduce spam on your site. Captcha requires users who fill in public forms to repeat letters or digits in a distorted image in order to post content.
+In order to use reCAPTCHA, you will need to [sign up for Captcha key](http://www.google.com/recaptcha) to reduce spam on your site. Once you sign up, you can enter your site and secret keys in their respective fields. 
 
-Once you have signed up for Captcha, you will need to add the generated output from Captcha in the Public Key and Private key fields in your Omeka site. Captcha forms will automatically appear with public forms on your site.
+The [reCAPTCHA page](reCAPTCHA) has more detailed instructions for implementing reCAPTCHA.
 
-![Captcha settings on the Security Settings page](/doc_files/securityCaptcha.png)
-
-Remember to *Save Changes*
 
 HTML Filtering
 ---------------------------------------------------------------
