@@ -10,7 +10,7 @@ To manage your tags, sign into the Omeka admin panel and select Tags from the le
 
 Edit Tags Page
 ---------------
-On the Edit Tags page, all tags used in your installation appear on the right side of the page, while on the left, next the navigation, are options for search and an explanation of the tag display.
+On the Edit Tags page, all tags used in your installation appear on the right side of the page, while on the left, next to the navigation, are options for search and an explanation of the tag display.
 
 Each tag used on your site appears as a unit which gives you the following (per the number labels in the above image): 1. the number of items with that tag; 2. the name of the tag; 3. the option to delete the tag.
 
