@@ -4,28 +4,49 @@ title: Managing Tags
 
 Tags are keywords or phrases that describe a piece of data. They are non-hierarchical labels that classify your content so that it is easily found. You can add tags to [Items](Items) and [Exhibits](../Plugins/ExhibitBuilder).
 
-To manage your tags, sign into the Omeka admin panel and select Tags from the left-hand navigation bar. This displays all the tags associated with records in your Omeka instllation. You may edit and delete tags, sort tags, and view items associated with individual tag.
+To manage your tags, sign into the Omeka admin panel and select Tags from the left-hand navigation bar. This displays all the tags associated with records in your Omeka installation. You may edit and delete tags, sort tags, and view items associated with individual tag.
 
 ![Tags in left nav](/doc_files/Tagsnav.png)
 
-Edit Tags Page
+Browse Tags Page
 ---------------
-On the Edit Tags page, all tags used in your installation appear on the right side of the page, while on the left, next to the navigation, are options for search and an explanation of the tag display.
+On the Browse Tags page, all tags used in your installation appear on the right side of the page, while on the left, next to the navigation, are options for search and an explanation of the tag display.
+
+![Browse tags page](/doc_files/tags.png)
 
 Each tag used on your site appears as a unit which gives you the following (per the number labels in the above image): 1. the number of items with that tag; 2. the name of the tag; 3. the option to delete the tag.
 
 ![A tag labeled with sections labelled with 1, 2, and 3.](/doc_files/Tagsample.png)
 
 ### Sort Tags
-Above the cluster of tags are four button options for sorting the tags. From left to right, they are:
+Above the cluster of tags are four button options for sorting the tags. 
 
+![Close up of the sort buttons labelled Name, Count, and Date Created. Name is highlighted a slightly darker color than the others and a triangle pointing up indicates the sort is ascending.](/doc_files/tags-sort.png)
+
+From left to right, they are:
+
+- **Name:** The default sort for tags; sorts in alphabetical order by tag name. Click again to sort in reverse alphabetical order (arrow will point down).
 - **Count:** Initially sorts tags by number of associated records with the largest number first. Click again, so that the arrow which appears next to it points up, to sort with the smallest number occurrences first. 
-- **Alphabetical:** The default sort for tags; sorts in alphabetical order. Click again to sort in reverse alphabetical order (arrow will point down).
-- **Time:** Sorts records by date created. Default is oldest tags first.
+- **Date Created:** Sorts records by date created. Default is oldest tags first.
 
-- **Record Types:** If you have tags on exhibits as well as items, you can narrow down the tags displayed to show only those associated with items or those associated with exhibits.
-	- From the Record Types dropdown, select from the following options: All (View all), Items, Exhibits.
-	- Note that if you do not have any exhibits tagged, 
+An upward pointing triangle indicates an ascending sort. A downwards pointing triangle indicates a descending sort. 
+
+In addition, there is a drop-down menu to the right of the sort options to limit the tags displayed by **Record Types**
+
+![Close up of the record types selector, showing the options for All, Exhibit, and Item](/doc_files/tags-recordtypes.png)
+
+If you have tags on your [exhibits](../Plugins/ExhibitBuilder) as well as items, you can narrow down the tags displayed to show only those associated with items or those associated with exhibits.
+
+From the Record Types dropdown, select from the following options:   
+- All
+- Exhibit
+- Item
+
+Note that if you do not have any exhibits tagged, you will still see the dropdown for Record Types - your options will be All and Items.
+
+When you have restricted display by record type, it will not show up in the dropdown but will display near the top of the page. To reset, either select "all" from the dropdown or click the blue "reset" button next to the Record Type message.
+
+![Shows the browse tags page including search, tag info display, and tags. A red arrow points to a message stating "Record Type: Exhibit" next to the search bar](/doc_files/tagsrecorddisplay.png)
 
 ### View Tagged Items
 To view items associated with an individual tag, you need to be viewing *only* tags associated with Item record types. 
@@ -60,11 +81,3 @@ To delete a tag:
 -   Select the X to the right of the tag.
 -   A window will open with the question, "Are you sure?" 
 -   Click Delete, and that tag is permanently deleted across your Omeka items. (If you change your mind, close the query window by clicking on the X in the upper right hand corner.)
-
-Sort Tags
------------------------------------------------------------
-The menu above your tags display allows you to sort all of your tags.
-
-![Tagssort.png](/doc_files/Tagssort.png)
-
-The browse tags panel displays all the tags associated with items in your archive, weighted by frequency used. You may sort and view all your tags by *most* frequently used, by *least* frequently used, *alphabetically*, or by most *recent* tags.
