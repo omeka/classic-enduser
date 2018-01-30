@@ -31,8 +31,8 @@ Above the cluster of tags are four button options for sorting the tags. From lef
 To view items associated with an individual tag, you need to be viewing *only* tags associated with Item record types. 
 
 1. From the Record Type filter, choose Items.
-2. Find the tag whose items you want to view
-2. Click on the number to the left of the name of your tag
+2. Find the tag whose items you want to view.
+2. Click on the number to the left of the name of your tag.
 3. A browse page opens displaying only items tagged with the tag you clicked.
 
 ## Edit a Tag 
@@ -56,7 +56,7 @@ Deleting a tag removes all occurrences of that tag across all items.
 
 To delete a tag:
 
--   Choose the tag you wish to delete from the select menu
+-   Choose the tag you wish to delete from the select menu.
 -   Select the X to the right of the tag.
 -   A window will open with the question, "Are you sure?" 
 -   Click Delete, and that tag is permanently deleted across your Omeka items. (If you change your mind, close the query window by clicking on the X in the upper right hand corner.)
