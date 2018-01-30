@@ -20,7 +20,7 @@ Each tag used on your site appears as a unit which gives you the following (per 
 Above the cluster of tags are four button options for sorting the tags. From left to right, they are:
 
 - **Count:** Initially sorts tags by number of associated records with the largest number first. Click again, so that the arrow which appears next to it points up, to sort with the smallest number occurrences first. 
-- **Alphabetical:** The default sort for tags, sorts in alphabetical order. Click again to sort in reverse alphabetical order (arrow will point down)
+- **Alphabetical:** The default sort for tags; sorts in alphabetical order. Click again to sort in reverse alphabetical order (arrow will point down).
 - **Time:** Sorts records by date created. Default is oldest tags first.
 
 - **Record Types:** If you have tags on exhibits as well as items, you can narrow down the tags displayed to show only those associated with items or those associated with exhibits.
