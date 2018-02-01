@@ -7,7 +7,7 @@ If you follow a link in Omeka and you get a 404 error or an error saying the URL
 1.  You forgot to copy the `.htaccess` file when FTPing your install. Double check that it transferred properly.
 2.  Your server may not have `mod_rewrite` installed. 
 
-If installing `mod_rewrite` does not solve the problem, check that your Apache configuration allows `.htaccess` overrides. You will need the `AllowOverrides All` directive in the appropriate place in `httpd.conf`.
+If installing `mod_rewrite` does not solve the problem, check that your Apache configuration allows `.htaccess` overrides. You will need the `AllowOverride All` directive in the appropriate place in `httpd.conf`.
 
 File Upload Errors
 -----------------------------
