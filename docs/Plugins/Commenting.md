@@ -21,6 +21,12 @@ moderate, add, and view comments. Each function allows you to choose one or more
 
 ![Configuration settings](/doc_files/plugin_images/commenting_config.png)
 
+Commenting
+--------------------------
+On most themes, the fields for leaving a comment will appear below item metadata. 
+
+![Empty comment on the public side. Fields for Name, Website, and Email appear above a large text box for the visitor to leave a comment. Below the comment field is a reCAPTCHA "please verify you're human" checkbox" and the submit button](/doc_files/plugin_images/commenting-public.png)
+
 Moderating Comments
 ------------------------------------------------------
 
@@ -44,11 +50,11 @@ Administrators may delete offensive or unwanted comments from the newly-added Co
 User Flagging 
 -------------------------------------------------------
 
-Public users may flag any comments they feel are inappropriate or may be spam. To do that, users should click the 'Flag Inappropriate" link for the comment in question:
+Logged-in users may flag any comments they feel are inappropriate or may be spam. To do that, logged-in users should click the 'Flag Inappropriate" link for the comment in question:
 
-![A spam comment](/doc_files/plugin_images/PublicSpam.png)
+![A spam comment reading "I've got a bridge to sell you"](/doc_files/plugin_images/commenting-spam.png)
 
-![Flagged comment](/doc_files/plugin_images/PublicFlag.png)
+![The same comment as above, now highlighted in red and marked as flagged](/doc_files/plugin_images/commenting-flagged.png)
 
 That comment will be flagged as potential spam and/or inappropriate. It will only be visible to users with permission to manage comments. From the public interface, users with permission to manage comments can simply unflag the comment if it is not acceptable. If further action is needed, those users can go to the admin interface to unapprove or delete the comment if it is indeed inappropriate, report it as spam, or unflag it if it not spam or inappropriate.
 
