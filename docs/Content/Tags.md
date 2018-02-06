@@ -48,6 +48,23 @@ When you have restricted display by record type, it will not show up in the drop
 
 ![Shows the browse tags page including search, tag info display, and tags. A red arrow points to a message stating "Record Type: Exhibit" next to the search bar](/doc_files/tagsrecorddisplay.png)
 
+### Search Tags
+In addition to the site-wide content [search]( ), you can search just tags using the "Search tags" field in the upper left of the browse tags page, near the left-hand navigation bar.
+
+![Closeup of the browse tags page, showing the page header. Immediately below it is an empty text field with a green Search tags button attached. A red arrow points to the text field.](/doc_files/tagsearchbox.png)
+
+Enter your search terms in this box. Note that this is broad search is for tags containing the search term: a search for "century" will return both "19th century" and "twentieth century."
+
+Once your search is complete, the search box will appear empty. Your search term is displayed above the tag browse, to the right of the tag search. 
+
+![Browse tags page showing the results of a search for the word "century". Two tags are displayed - 19th century and 20th century, and above them is an icon of a magnifying glass with the text "Name contains: century"](/doc_files/tagsearchresults.png)
+
+Clear your search terms and return to regular tag browse by clicking the "Reset search" button. 
+
+![Same image as above with a red arrow pointing to a blue button beside the Name Contains message. The button reads "reset results"](/doc_files/tagsearchreset.png)
+
+If you have restricted record types to Exhibit or Item tags, the search will return results for those record types only. 
+
 ### View Tagged Items
 To view items associated with an individual tag, you need to be viewing *only* tags associated with Item record types. 
 
