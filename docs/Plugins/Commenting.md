@@ -8,18 +8,25 @@ Configuring
 Before you can use the Commenting plugin, you must activate and
 configure it from the Browse Plugins page. To configure, click the blue “Configure” button beside the plugin on the Browse Plugin page. You will be prompted to select your security, moderation, and commenting preferences.
 
-**Threaded Comments**: Check to allow threaded comments, or comments that allow users to respond to another user by replying with additional comments. If you wish to use a label other than “Comments,” you may enter the text here.
-
-**Permissions**: Here you will select the roles that are able to
-moderate, add, and view comments. Each function allows you to choose one or more roles with permission to perform that function.
-
-*NOTE: Allowing public commenting will override the permissions set for adding and viewing comments -- they will be open to all.*
-
-**ReCaptcha Keys**: Adding ReCaptcha helps prevent automated spam from being posted as comments to your site. Public and private ReCaptcha keys duplicate the fields found in the Omeka Security settings, so if you have already entered keys in those settings, you do not need to re-enter. If you do not have one, go to [ReCapcha](http://www.ReCaptcha.net/) to sign up for a free account.
-
-**Akismet API key**: If you are allowing public, unmoderated commenting, we recommend you obtain an [Akismet](http://akismet.com/) API key for spam management. You may use a key you are currently implementing on a blog or another site that collects public feedback, provided that that key is not site-specific in the key settings on the Akismet site.
-
 ![Configuration settings](/doc_files/plugin_images/commenting_config.png)
+
+The configuration options are:
+
+**Use Threaded Comments?**: Check to allow threaded comments, or comments that allow users to respond to another user by replying with additional comments. 
+
+**Text for comments label**: If you wish to use a label other than “Comments,” you may enter the text here. If the field is empty, the section on the page will simply be called "Comments."
+
+**Allow public commenting**: Check this box to allow anyone, including non-registered users, to make comments. 
+
+**Require moderation for all public comments**: Check this to hide public comments until they have been reviewed by a moderator (see below). If unchecked, comments appear immediately (but moderators can still delete).
+
+**User roles that can moderate comments**: Select at least one user role to moderate comments. The list will include all possible user roles, from admin to guest.
+
+**WordPress API key for Akismet**: If you are allowing public, unmoderated commenting and you have a WordPress account, you can use your [Akismet](http://akismet.com/) API key for spam management. You may use a key you are currently implementing on a blog or another site that collects public feedback, provided that that key is not site-specific in the key settings on the Akismet site. 
+
+In addition to Akistmet, you may want to set up [reCAPTCHA](/Admin/Settings/ReCaptcha) for your Omeka site, found in the [Security Settings](Admin/Settings/Security_Settings). 
+
+**New comment notification emails**: Use this field to enter the emails to which a notification of new comments should be sent. Enter one email per line. 
 
 Commenting
 --------------------------
