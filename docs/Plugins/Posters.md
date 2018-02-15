@@ -5,6 +5,10 @@ You must have [Guest User](GuestUser.md) installed to use Posters.
 
 Configure
 -----------------------------------------------------------
+To configure Posters, go to the Plugins button in the top navigation. Scroll down to Posters and click the blue "Configure" button. The page should load with the following options: 
+
+![Configuration options for Poster Builder, as described below](../doc_files/plugin_images/posters-config.png)
+
 
 **Poster Page Title:** Change the title of the posters page and how it is populated in the public navigation
 
@@ -14,7 +18,7 @@ Configure
 
 **Poster Page Help:** Edit, replace, or remove the default text for posters/help, accessible to users when they are creating or editing a poster.
 
-**Poster File Size:** Use these drop-down menus to indicate the image size (fullsize or thumbnail) for display on the public page and when printing posters.
+**Poster File Size:** Use these two drop-down menus to indicate the image size (fullsize or thumbnail) for display on the public page and when printing posters.
 
 **Poster Display Show:** Page From this drop-down, you can choose whether posters display online as a static list of items or a carousel slide show. Note that the carousel display is designed for shorter descriptions and posters of at least two items.
 
@@ -23,10 +27,12 @@ Configure
 If you replace the default texts and later want to restore them, they are as follows:
 
 **Poster Page Disclaimer** 
-This page contains user-generated content and does not necessarily reflect the opinions of this website. For more information, please refer to our terms of service and conditions. If you would like to report the content of this as objectionable, please contact us.
 
-**Poster Page Help** 
-`<h2>Your Posters</h2>` To build a poster, you may use any public item in in this website and add a caption. `<p>`Click the button that says "New Poster." Assign a title to your poster, add a short description. Click the tab that says "Add an Item" and select any item that you wish to include in your poster. Continue adding items and captions.`</p> <p>` Be sure to save your poster. You may return to edit your poster at any time.`</p> <p>`You may print this poster, or share it by email.`</p>`
+`This page contains user-generated content and does not necessarily reflect the opinions of this website. For more information, please refer to our terms of service and conditions. If you would like to report the content of this as objectionable, please contact us.`
+
+**Poster Page Help**  
+
+`<h2>Your Posters</h2> To build a poster, you may use any public item in in this website and add a caption.  <p>Click the button that says "New Poster." Assign a title to your poster, add a short description. Click the tab that says "Add an Item" and select any item that you wish to include in your poster. Continue adding items and captions. </p> <p> Be sure to save your poster. You may return to edit your poster at any time. </p> <p>You may print this poster, or share it by email.</p>`
 
 Posters
 -------------------------------------------------------
@@ -42,7 +48,7 @@ Enter the title of the poster. The title will display on the posters page as wel
 
 Add a description. The first 200 characters will appear on the Posters page. To add items, click the Add an Item button. This will open a pop-up window which allows you to browse or search your items in order to add them. Click on an item and then click the brown Select Item button to add it to your poster.
 
-![Edit poster on the public side, seasons theme](../doc_files/plugin_images/posterpublic.jpg)
+![Edit poster on the public side, seasons theme](../doc_files/plugin_images/posterpublic.png)
 
 Every item you add will have a caption field. Bear in mind that in carousel view text does not wrap, so your caption will need to be concise.
 

@@ -166,11 +166,16 @@ Vetting and Managing Contributions
 
 All new contributions will be private, and by default will be marked as “Needs Review.”
 
-1. To review, go to the **Contributed Items** tab in the left navigation (once you start collecting, this tab changes name from Contribution to Contributed Items).
-1. Go to the **Contributions** tab and browse contributions.
-1. You may filter by status to see what Needs Review. Any item you wish to approve, you must make public and save changes.
-    - Users have the option to contribute an item that they do not wish to be made public. You will not be able to override this request from the user, so you cannot make those items "public."
-    - Contributors can also make their contributions anonymously. In that case, contributor information is only visible to site administrators.
+To review, go to the **Contributed Items** tab in the left navigation (once you start collecting, this tab changes name from Contribution to Contributed Items).
+
+Go to the **Contributions** tab and browse contributions.
+
+You may filter by status to see what Needs Review. Any item you wish to approve, you must make public and save changes.
+
+* Users have the option to contribute an item that they do not wish to be made public. You will not be able to override this request from the user, so you cannot make those items "public." These items will have the phrase "private contribution" instead of a checkbox in the first column of the contributed items table.
+* Contributors can also make their contributions anonymously. In that case, contributor information is only visible to site administrators.
+
+![A page of contributed items, with the first three items are Private contributions and the fourth is Anonymous.](../doc_files/plugin_images/contributed-items.png)
 
 Upgrading from 1.x to 2.x 
 ---------------------------------

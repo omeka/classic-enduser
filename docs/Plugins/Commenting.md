@@ -8,18 +8,31 @@ Configuring
 Before you can use the Commenting plugin, you must activate and
 configure it from the Browse Plugins page. To configure, click the blue “Configure” button beside the plugin on the Browse Plugin page. You will be prompted to select your security, moderation, and commenting preferences.
 
-**Threaded Comments**: Check to allow threaded comments, or comments that allow users to respond to another user by replying with additional comments. If you wish to use a label other than “Comments,” you may enter the text here.
-
-**Permissions**: Here you will select the roles that are able to
-moderate, add, and view comments. Each function allows you to choose one or more roles with permission to perform that function.
-
-*NOTE: Allowing public commenting will override the permissions set for adding and viewing comments -- they will be open to all.*
-
-**ReCaptcha Keys**: Adding ReCaptcha helps prevent automated spam from being posted as comments to your site. Public and private ReCaptcha keys duplicate the fields found in the Omeka Security settings, so if you have already entered keys in those settings, you do not need to re-enter. If you do not have one, go to [ReCapcha](http://www.ReCaptcha.net/) to sign up for a free account.
-
-**Akismet API key**: If you are allowing public, unmoderated commenting, we recommend you obtain an [Akismet](http://akismet.com/) API key for spam management. You may use a key you are currently implementing on a blog or another site that collects public feedback, provided that that key is not site-specific in the key settings on the Akismet site.
-
 ![Configuration settings](/doc_files/plugin_images/commenting_config.png)
+
+The configuration options are:
+
+**Use Threaded Comments?**: Check to allow threaded comments, or comments that allow users to respond to another user by replying with additional comments. 
+
+**Text for comments label**: If you wish to use a label other than “Comments,” you may enter the text here. If the field is empty, the section on the page will simply be called "Comments."
+
+**Allow public commenting**: Check this box to allow anyone, including non-registered users, to make comments. 
+
+**Require moderation for all public comments**: Check this to hide public comments until they have been reviewed by a moderator (see below). If unchecked, comments appear immediately (but moderators can still delete).
+
+**User roles that can moderate comments**: Select at least one user role to moderate comments. The list will include all possible user roles, from admin to guest.
+
+**WordPress API key for Akismet**: If you are allowing public, unmoderated commenting and you have a WordPress account, you can use your [Akismet](http://akismet.com/) API key for spam management. You may use a key you are currently implementing on a blog or another site that collects public feedback, provided that that key is not site-specific in the key settings on the Akismet site. 
+
+In addition to Akistmet, you may want to set up [reCAPTCHA](/Admin/Settings/ReCaptcha) for your Omeka site, found in the [Security Settings](Admin/Settings/Security_Settings). 
+
+**New comment notification emails**: Use this field to enter the emails to which a notification of new comments should be sent. Enter one email per line. 
+
+Commenting
+--------------------------
+On most themes, the fields for leaving a comment will appear below item metadata. 
+
+![Empty comment on the public side. Fields for Name, Website, and Email appear above a large text box for the visitor to leave a comment. Below the comment field is a reCAPTCHA "please verify you're human" checkbox" and the submit button](/doc_files/plugin_images/commenting-public.png)
 
 Moderating Comments
 ------------------------------------------------------
@@ -44,11 +57,11 @@ Administrators may delete offensive or unwanted comments from the newly-added Co
 User Flagging 
 -------------------------------------------------------
 
-Public users may flag any comments they feel are inappropriate or may be spam. To do that, users should click the 'Flag Inappropriate" link for the comment in question:
+Logged-in users may flag any comments they feel are inappropriate or may be spam. To do that, logged-in users should click the 'Flag Inappropriate" link for the comment in question:
 
-![A spam comment](/doc_files/plugin_images/PublicSpam.png)
+![A spam comment reading "I've got a bridge to sell you"](/doc_files/plugin_images/commenting-spam.png)
 
-![Flagged comment](/doc_files/plugin_images/PublicFlag.png)
+![The same comment as above, now highlighted in red and marked as flagged](/doc_files/plugin_images/commenting-flagged.png)
 
 That comment will be flagged as potential spam and/or inappropriate. It will only be visible to users with permission to manage comments. From the public interface, users with permission to manage comments can simply unflag the comment if it is not acceptable. If further action is needed, those users can go to the admin interface to unapprove or delete the comment if it is indeed inappropriate, report it as spam, or unflag it if it not spam or inappropriate.
 
