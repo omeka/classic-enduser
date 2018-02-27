@@ -5,69 +5,67 @@ Open the config.ini file found in the folder '{omeka-root}/application/config' i
 
 Look for the "Localization" section (it's right at the top), and the line in it that reads: `locale = "" `
 
-Fill in the two or four letter code for the language you wish to use (see the list above). It is case-sensitive and must match one of the codes exactly.
+Fill in the two or four letter code for the language you wish to use (see below). This information is case-sensitive and must match exactly.
 
+Omeka is [translated](../Technical/Translate_Omeka) collaboratively using [Transifex](https://www.transifex.com). You can see the progress of available languages by visiting the [Omeka project dashboard on Transifex](https://www.transifex.com/omeka/omeka/); the list displays with the most complete languages at the top. 
 
-Available languages and codes
----------------------------------------------------------------
-
+## Available languages and codes 
 Below are listed the languages in which Omeka is available, along with the two or four letter codes that you will need to configure Omeka to use your language.
 
-A translation is considered "Complete" at 100%. Languages listed as "Nearly Complete" are between 90 and 99% translated. Languages listed as "Started" are less then 25% complete.
+*Last updated: February 27, 2018*
 
-The statuses listed in the table are for the core Omeka code; coverage varies for plugins. To help [translate Omeka](../Technical/Translate_Omeka.md), sign up for an account at [Transifex](https://www.transifex.com) and join our project (an account is required to view progress or contribute).
-
-Language | Code | Status
----|---|---
-Albanian (Albania)| `sq_AL` | Partial
-Arabic | `ar` | Partial
-Basque | `eu` | Started
-Belarusian (Belarus) | `be_BY` | Nearly Complete
-Bengali (Bangladesh)| `bn_BD` | Started
-Bulgarian (Bulgaria)| `bg_BG` | Nearly Complete
-Catalan (Spain)| `ca_ES` | Complete
-Chinese (China)| `zh_CN` | Nearly Complete
-Chinese (Taiwan)| `zn_TW` |Nearly Complete
-Croatian | `hr` | Nearly Complete
-Czech | `cs` | Nearly Complete
-Danish (Denmark) | `da_DK` | Partial
-Dutch (Belgium) | `nl_BE` | Nearly Complete
-Dutch (Netherlands) | `nl_NL` | Nearly Complete
-Estonian | `et` | Nearly Complete
-Finnish (Finland) | `fi_FI` | Nearly Complete
-French | `fr` | Complete
-Galician | `gl` | Partial
-German (Germany) | `de_DE` | Complete
-Greek (Greece) | `el_GR` | Nearly Complete
-Hebrew | `he` | Nearly Complete
-Hungarian (Hungary) | `hu_HU` | Partial
-Icelandic | `is` | Partial
-Indonesian | `id` | Nearly Complete
-Inuktitut | `iu` | Started
-Italian | `it` | Nearly Complete
-Japanese | `ja` | Partial
-Korean (Korea) | `ko_KR` | Nearly Complete
-Latvian (Latvia) | `lv_LV` | Partial
-Lithuanian | `lt` | Partial
-Macedonian (Macedonia) | `mk_MK` | Partial
-Malay (Malaysia) | `ms_MY` | Started
-Mongolian | `mn` | Complete
-Norwegian Bokmal | `nb` | Nearly Complete
-Occitan (post 1500) | `oc` | Complete
-Polish | `pl` | Nearly Complete
-Portuguese (Brazil) | `pt_BR` | Complete
-Portuguese (Portugal) | `pt_PT` | Complete
-Romanian | `ro` | Nearly Complete
-Russian | `ru` | Nearly Complete
-Serbian (Serbia) | `sr_RS` | Complete
-Slovenian (Slovenia) | `sl_Sl` | Started
-Spanish | `es` | Complete
-Spanish (Colombia) | `es_CO` | Nearly Complete
-Swedish (Sweden) | `sv_SE` | Complete
-Tamil | `ta` | Started
-Thai | `th` | Partial
-Turkish (Turkey) | `tr_TR` | Nearly Complete
-Ukrainian | uk | Partial
-Uzbek (Latin) | `uz@Ltn` | Started
-Welsh (United Kingdom) | `cy_GB` | Nearly Complete
-
+Language | Code
+---|---
+Albanian (Albania)| `sq_AL` 
+Arabic | `ar` 
+Basque | `eu` 
+Belarusian (Belarus) | `be_BY`
+Bengali (Bangladesh)| `bn_BD` 
+Bulgarian (Bulgaria)| `bg_BG` 
+Catalan (Spain)| `ca_ES` 
+Chinese (China)| `zh_CN` 
+Chinese (Taiwan)| `zn_TW` 
+Croatian | `hr` 
+Czech | `cs` 
+Danish (Denmark) | `da_DK`
+Dutch (Belgium) | `nl_BE` 
+Dutch (Netherlands) | `nl_NL`
+Estonian | `et` 
+Finnish (Finland) | `fi_FI`
+French | `fr` 
+Galician | `gl` 
+Georgian | `ka`
+German (Germany) | `de_DE` 
+Greek (Greece) | `el_GR`
+Hebrew | `he` 
+Hungarian (Hungary) | `hu_HU` 
+Icelandic | `is` 
+Indonesian | `id` 
+Inuktitut | `iu` 
+Italian | `it` 
+Japanese | `ja`
+Korean (Korea) | `ko_KR`
+Latvian (Latvia) | `lv_LV` 
+Lithuanian | `lt`
+Macedonian (Macedonia) | `mk_MK`
+Malay (Malaysia) | `ms_MY` 
+Mongolian | `mn` 
+Norwegian Bokmal | `nb` 
+Occitan (post 1500) | `oc` 
+Polish | `pl`
+Portuguese (Brazil) | `pt_BR` 
+Portuguese (Portugal) | `pt_PT` 
+Romanian | `ro` 
+Russian | `ru`
+Serbian (Serbia) | `sr_RS` 
+Slovak | `sk`
+Slovenian (Slovenia) | `sl_Sl` 
+Spanish | `es` 
+Spanish (Colombia) | `es_CO` 
+Swedish (Sweden) | `sv_SE` 
+Tamil | `ta` 
+Thai | `th` 
+Turkish (Turkey) | `tr_TR`
+Ukrainian | uk 
+Uzbek (Latin) | `uz@Ltn`
+Welsh (United Kingdom) | `cy_GB` 
