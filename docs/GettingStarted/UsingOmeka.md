@@ -67,3 +67,19 @@ Familiarize yourself with the standard [themes](http://omeka.org/classic/themes/
 - Use Omeka to share you personal research or collections with the world, build exhibits and write essays that showcase your expertise.
 - Features you might like: design themes, Exhibit Builder plugin, Contribution plugin, tagging, social bookmarking plugin.
 - Examples: [A Shoebox of Norwegian Letters](http://huginn.net/shoebox/letters/); [Square Dance History Project](https://squaredancehistory.org/). 
+
+## Teaching with Omeka 
+Omeka has been used in classes at the undergraduate and graduate level, as well as by high school students. In addition to the information in the Educator use case (above), the following resources may prove helpful for those wanting to use Omeka in their classroom:
+
+**Blog posts and articles:**
+
+- Amanda Visconti, [Teaching with Omeka DH Consultation Notes](http://literaturegeek.com/2016/08/19/DH-consultation-notes-teaching-omeka), *Literature Geek*, August 19, 2016.
+- Alston Cobourn, [Spreading Awareness of Digital Preservation and Copyright via Omeka-based Projects](http://jitp.commons.gc.cuny.edu/spreading-awareness-of-digital-preservation-and-copyright-via-omeka-based-projects/), *The Journal of Interactive Technology and Pedagogy*, March 28, 2016.
+- Jeffrey McClurken (Associate Professor and Chair of History and American Studies at the University of Mary Washington), “Teaching and Learning with Omeka: Discomfort, Play, and Creating Public, Online, Digital Collections," *Learning Through Digital Media Experiments in Technology and Pedagogy*, 2011.
+- Jeffrey McClurken (Associate Professor and Chair of History and American Studies at the University of Mary Washington). [“Teaching with Omeka"](http://chronicle.com/blogs/profhacker/teaching-with-omeka/26078). ProfHacker blog, *Chronicle of Higher Education*, August 9, 2010.
+
+**Additional Resources**
+
+[Omeka Gym](https://omekagym.omeka.net/about): a collection of resources for teaching with Omeka, including tutorials, exercises, assignments, and examples. Created by [Alexandra Bolintineanu](https://alexandrabolintineanu.wordpress.com/).
+
+Amanda French, [Introduction to Omeka Lesson Plan](http://amandafrench.net/2013/11/12/introduction-to-omeka-lesson-plan/), November 12, 2013.
