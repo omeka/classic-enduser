@@ -50,7 +50,7 @@ By choosing from a few well-supported formats for audio and video files, you can
 #### MP4
 The MP4 container (.mp4 or .m4v) is the best-supported video format across browsers and platforms. By far the best choice for video that will work well across different browsers is a .mp4 file, with H.264 video and AAC audio.
 
-.mp4 files can contain other types of video (or audio), including newer ones like H.265, and older ones like MPEG-4 Visual. Any video codec other than H.264 has ‘’’much’’’ worse browser support.
+.mp4 files can contain other types of video (or audio), including newer ones like H.265, and older ones like MPEG-4 Visual. Any video codec other than H.264 has *much* worse browser support.
 
 #### Other Formats
 The WebM (.webm) container with VP8 or VP9 video is supported by several browsers, but Internet Explorer and Safari are notable and significant exceptions.
