@@ -93,6 +93,7 @@ pages:
     - Technical:
         - 'Adding Lightbox to Omeka': 'Technical/Adding_LightBox_to_Omeka.md'
         - 'Backing up an Omeka database': 'Technical/Backing_up_an_Omeka_Database.md'
+        - 'Configuring File Storage': 'Technical/Configuring_File_Storage.md'
         - 'Configuring Thumbnail Creation': 'Technical/ConfiguringThumbnailCreation.md'
         - 'Contribute Code to Omeka': 'Technical/Contribute_Code_to_Omeka.md'
         - 'Legacy Documentation': 'Technical/Legacy_documentation.md'
