@@ -34,6 +34,7 @@ If you want to use Omeka in a language other than English, you will need to conf
 1. In the resulting directory, find and open your database configuration file, which is named `db.ini`. **Replace the 'XXXXX' values in the db.ini file** with your database host, username, password, and database name.
     -   You can edit the `db.ini` file with a text editor such as Notepad for Windows or TextEdit for Mac. Be sure to save the file as plain text and keep the name `db.ini`.
     -   You do not need to change values for `prefix` and `port` in the db.ini file.
+    -   See the page for the [Database Configuration File](/Technical/DatabaseConfigurationFile) for an explanation of each element in the `db.ini` file.
 
 4.  **Upload the directory** and all of its contents, including the
     updated `db.ini` file, to your server.

@@ -96,6 +96,7 @@ pages:
         - 'Configuring File Storage': 'Technical/Configuring_File_Storage.md'
         - 'Configuring Thumbnail Creation': 'Technical/ConfiguringThumbnailCreation.md'
         - 'Contribute Code to Omeka': 'Technical/Contribute_Code_to_Omeka.md'
+        - 'Database Configuration File' : Technical/DatabaseConfigurationFile.md
         - 'Legacy Documentation': 'Technical/Legacy_documentation.md'
         - 'Moving to Another Server': 'Technical/Moving_to_Another_Server.md'
         - 'Output Formats': 'Technical/Output_Formats.md'
