@@ -39,13 +39,10 @@ If you are using [Reclaim Hosting](https://reclaimhosting.com/) they have [step-
 
 Upgrading Plugins
 -----------------
-In order to upgrade a plugin, you will need to deactivate (but not uninstall) the plugin from the Admin Dashboard, and then use your FTP client to replace the old plugin folder with the new one. 
+In order to upgrade a plugin, you will need to use your FTP client to replace the old plugin folder with the new one. 
 
 The following are detailed instructions for upgrading a plugin. 
 
-1. Navigate to the Plugins tab on the top navigation 
-1. Scroll down to find the plugin you want to update.
-1. Click the “Deactivate” button. *Do not click the uninstall button - you will lose all your data and settings*
 1. Download the new version of the plugin, and unzip it on you computer. 
 1. Open your FTP client. 
 1. Use your FTP login info to access your site.
