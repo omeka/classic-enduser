@@ -7,9 +7,9 @@ Why Dublin Core?
 
 The Omeka team decided that we wanted to contribute to a movement that is helping to standardize data about digital objects. While there are different standards available, the Dublin Core Metadata Initiative is the most widely adopted and offers users the greatest flexibility.
 
--   [Learn more about the Dublin Core Metadata Initiative](http://dublincore.org/documents/usageguide/)
-
--   [Historical overview and bibliography of Dublin Core resources](http://www.oclc.org/research/activities/past/orprojects/dublincore/default.htm).
+- [Learn more about the Dublin Core Metadata Initiative](http://dublincore.org/about/)
+- [Dublin Core Metadata Element Set, Version 1.1: Reference Description](http://dublincore.org/documents/dces/)
+- [Historical overview and bibliography of Dublin Core resources (2010](http://www.oclc.org/research/activities/past/orprojects/dublincore/default.htm).
 
 Interpreting Dublin Core Fields in Omeka 
 --------------------------------------------------------
