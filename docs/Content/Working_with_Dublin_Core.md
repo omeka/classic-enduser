@@ -18,31 +18,31 @@ The following Dublin Core fields are available in Omeka, together with some sugg
 
 Read one example of Dublin Core interpretations from the [North Carolina Exploring Culture and Heritage Online](http://www.digitalnc.org/about/participate/describe/) project.
 
-## Title
+### Title
 
 A name given to the resource.
 
 Examples: title of a painting, photo, document; the name of a person when using the "person" item type; the name of a lesson plan
 
-## Subject
+### Subject
 
 The topic of the resource.
 
 Typically, the topic will be represented using keywords, key phrases, or classification codes. Recommended best practice is to use a controlled vocabulary. To describe the spatial or temporal topic of the resource, use the Coverage element. Examples: Library of Congress subject headings; subject-specific nomenclature.
 
-## Description
+### Description
 
 An account of the resource.
 
 Description may include but is not limited to: an abstract, a table of contents, a graphical representation, or a free-text account of the resource. 
 
-## Creator
+### Creator
 
 An entity primarily responsible for making the resource.
 
 Examples: author; artist; photographer; institutional author or producer, such as university or federal agency
 
-## Source
+### Source
 
 The resource from which the described resource is derived.
 
@@ -50,13 +50,13 @@ The described resource may be derived from the related resource in whole or in p
 
 For some examples se the Identifier field.
 
-## Publisher
+### Publisher
 
 An entity responsible for making the resource available.
 
 Examples: actual publisher, if there is one; entity or consortium publishing digital materials
 
-## Date
+### Date
 
 A point or period of time associated with an event in the lifecycle of the resource.
 
@@ -64,13 +64,13 @@ Date may be used to express temporal information at any level of granularity. Re
 
 Date can be one of the trickiest fields to fill. You will want to decide how best to use it for your project for consistency. Where possible, a structured date such as YYYY-MM-DD for a specific day or YYYY for a specific year is preferred, but other formats or levels of specificity can be used (such as "circa 1940").
 
-## Contributor
+### Contributor
 
 An entity responsible for making contributions to the resource.
 
 Entries here should be akin to the Creator field, but for entities that made a less significant or unknown contribution.
 
-## Rights
+### Rights
 
 Information about rights held in and over the resource.
 
@@ -78,7 +78,7 @@ Typically, rights information includes a statement about various property rights
 
 Examples: spell out conditions of use for specific items here; Creative Commons or other specific license; Public Domain.
 
-## Relation
+### Relation
 
 A related resource.
 
@@ -86,25 +86,25 @@ Recommended best practice is to identify the related resource by means of a stri
 
 Examples: a still image of a person entered as a "person" type.
 
-## Format
+### Format
 
 The file format, physical medium, or dimensions of a resource.
 
 Examples: the [Internet media type](https://www.iana.org/assignments/media-types/media-types.xhtml) of a digital file; the physical size of an object; the duration of a film or audio clip; or the medium of a work of art
 
-## Language
+### Language
 
 A language of the resource.
 
 [BCP 47](https://www.w3.org/International/articles/language-tags/) language tags are the suggested standard.
 
-## Type
+### Type
 
 The nature or genre of the resource.
 
 Recommended best practice is to use a controlled vocabulary such as the [DCMI Type Vocabulary](http://dublincore.org/documents/dcmi-terms/#section-7). To describe the file format, physical medium, or dimensions of the resource, use the Format element.
 
-## Identifier
+### Identifier
 
 An unambiguous reference to the resource within a given context.
 
@@ -112,7 +112,7 @@ Recommended best practice is to identify the resource by means of a string confo
 
 Examples: a URL, an ISBN, a catalog number
 
-## Coverage
+### Coverage
 
 The spatial or temporal topic of the resource, the spatial applicability of the resource, or the jurisdiction under which the resource is relevant.
 
