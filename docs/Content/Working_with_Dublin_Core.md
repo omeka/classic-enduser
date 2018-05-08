@@ -27,9 +27,10 @@ Read one example of Dublin Core interpretations from the [North Carolina Explori
 **Creator:** An entity primarily responsible for making the resource. Examples: Author/authors; artists; photographers; institutional authors or producers, such as university or federal agency.
 
 **Source:** The resource from which the described resource is derived. The described resource may be derived from the related resource in whole or in part. Recommended best practice is to identify the related resource by means of a string conforming to a formal identification system. 
+
 **Publisher:** An entity responsible for making the resource available. Examples: actual publisher, if there is one; entity or consortium publishing digital materials.
 
-**Date:** A point or period of time associated with an event in the lifecycle of the resource. Date may be used to express temporal information at any level of granularity. Recommended best practice is to use an encoding scheme, such as the W3CDTF profile of [ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html) (W3CDTF). Date is one of the trickiest fields to fill. You will want to decide how best to use it for your project for consistency. There is an open text field for date so that you can reflect the type of date information you have whether it is a very specific date YYYY/MM/DD or if it is "circa 1940".
+**Date:** A point or period of time associated with an event in the lifecycle of the resource. Date may be used to express temporal information at any level of granularity. Recommended best practice is to use an encoding scheme, such as the W3CDTF profile of [ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html). Date is one of the trickiest fields to fill. You will want to decide how best to use it for your project for consistency. There is an open text field for date so that you can reflect the type of date information you have whether it is a very specific date YYYY/MM/DD or if it is "circa 1940".
 
 **Contributor** An entity responsible for making contributions to the resource. Examples: person who contributed a story or file for an Omeka collecting project; owner or donor of collected objects.
 
@@ -39,10 +40,10 @@ Read one example of Dublin Core interpretations from the [North Carolina Explori
 
 **Format** The file format, physical medium, or dimensions of a resource. Examples include size and duration. Recommended best practice is to use a controlled vocabulary such as the Internet Media Types (MIME).
 
-**Language** A language of the resource. 
+**Language** A language of the resource.
 
 **Type** The nature or genre of the resource. Recommended best practice is to use a controlled vocabulary such as the DCMI Type Vocabulary (DCMITYPE). To describe the file format, physical medium, or dimensions of the resource, use the Format element. Examples: For consistency, use item type controlled vocabulary provided by Omeka: Document, Moving Image, Oral History, Sound, Still Image, Website, Event, Email, Lesson Plan, Hyperlink, Person, or Interactive Resource.
 
-**Identifier**: An unambiguous reference to the resource within a given context. Recommended best practice is to identify the resource by means of a string conforming to a formal identification system.
+**Identifier**: An unambiguous reference to the resource within a given context. Recommended best practice is to identify the resource by means of a string conforming to a formal identification system. Example: the idenfitier 
 
 **Coverage** : The spatial or temporal topic of the resource, the spatial applicability of the resource, or the jurisdiction under which the resource is relevant. Spatial topic and spatial applicability may be a named place or a location specified by its geographic coordinates. Temporal topic may be a named period, date, or date range. A jurisdiction may be a named administrative entity or a geographic place to which the resource applies. Recommended best practice is to use a controlled vocabulary such as the Thesaurus of Geographic Names (TGN). Where appropriate, named places or time periods can be used in preference to numeric identifiers such as sets of coordinates or date ranges.
