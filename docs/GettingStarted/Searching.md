@@ -20,7 +20,7 @@ The first set of options allows you to select a query type:
 - Boolean, in which you can add boolean operators like AND and NOT
 - Exact match, which will only find exact matches to the word or phrase you enter.
 
-The second set of options are a series of checkboxes for content to include in the search. The checkboxes populate based on the [search settings](../Admin/Settings/Search_Settings.md) and can include:
+The second set of options are a series of checkboxes for content to include in the search. The checkboxes populate based on the [search settings](../Admin/Settings/Search_Settings) and can include:
 
 - Item
 - File
@@ -34,7 +34,7 @@ as well as options provided by plugins, such as:
 
 Advanced Search
 ----------------
-Advanced Search, which will only search the items in your Omeka installation, is available on the admin sides, and on the public side if the *Use Advanced Site-Wide Search* option is checked in the [theme settings](../Admin/Appearance/Themes.md) 
+Advanced Search, which will only search the items in your Omeka installation, is available on the admin sides, and on the public side if the *Use Advanced Site-Wide Search* option is checked in the [theme settings](../Admin/Appearance/Themes) 
 
 ![Search options, with the ellipses expanded. There is a red 1 just under the ellipses. At the bottom of the window, below the options for search query type and record types, a red 2 is next to the "Advanced Search" link](/doc_files/searchExpanded.png)
 
