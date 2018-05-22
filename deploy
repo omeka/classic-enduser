@@ -1,2 +1,2 @@
 mkdocs build
-rsync -rv --delete html/ preview.omeka.org:/websites/omekaorg/www/classic/docs/
+rsync -rv --delete html/ /websites/omekaorg/www/classic/docs/
