@@ -9,3 +9,24 @@ This plugin is only useful for organizations and individuals running Omeka Every
 ## Activation
 
 Heist has no configuration options. Simply install and activate. You can install Heist before or after setting up your Omeka Everywhere Collection Viewer and/or Mobile App instances. 
+
+## Using Heist
+In order to use Heist, you must have a mobile device with the Omeka Everywhere app installed (iOS, Android) and access to a touch-enabled device running Omeka Everywhere Collection Viewer. 
+
+From the Collection Viewer, visitors click the Send to Mobile button on their dock. This will open up a side window with a QR code.
+
+![Zoomed in on a Collection Viewer dock, we see the upper right corner of the dock and a button reading Send to Mobile](../doc_files/plugin_images/heist-sendmobile.png)
+
+![The same dock as before, now with a new window to the right of it displaying a QR code](../doc_files/plugin_images/heist-sendmobile2.png)
+
+Next, the visitor opens the app on their phone and clicks the gear in the upper right corner of the home screen to open the Settings. 
+
+![A red arrow points to the gear icon above the Omeka logo in the mobile app home screen](../doc_files/plugin_images/heist-mobile1.png)
+
+From there they select the Pair with Collection Viewer Table button.
+
+![The settings screen of the mobile app, consisting of six white buttons on a gray background. The third button from the top has a red arrow pointing to it.](../doc_files/plugin_images/heist-mobile2.png)
+
+At this point they may need to give the app permission to use the camera. The app will open a camera view through which they can scan the QR code on the table, which should complete the pairing.
+
+Once paired, visitors can save items from the Collection Viewer to their app by dragging and dropping the item from the active area of the table to the pairing point in their dock on the table. 
