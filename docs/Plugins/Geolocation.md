@@ -10,14 +10,17 @@ Once you have [installed](../Admin/Adding_and_Managing_Plugins.md) the Geolocati
 ### General Settings
 The first section for configuration are the general settings for the appearance of your map on the public and admin sides of your site.
 
-- *API Key*: enter your GoogleMaps API key here. To get a key, click the "Get a Key" button on the [GoogleMaps APIs webpage](https://developers.google.com/maps/web/).
 - *Default latitude*: set the center point of the map's latitude (North/South value), in degrees. Using numbers after the decimal point will pinpoint the location more precisely.
 - *Default longitude*: set the center point of the map's longitude (East/West), in degrees. Using numbers after the decimal point will pinpoint the location more precisely.
-Default latitude and longitude of the point on which your map will center.
 - *Default Zoom Level*: Use a whole number of 0 of greater. 0 is the most zoomed out. A value of 15 will result in a map showing roughly one square mile
--   *Map Type*: Roadmap, Satellite, Hybrid (roadmap overlaid on satellite) or Terrain.
+- *Base Map*: select a map from the dropdown to serve as the base map in the display. All base maps except those served by MapBox can be [previewed courtesy of Leaflet](http://leaflet-extras.github.io/leaflet-providers/preview/). 
 
 ![General settings for geolocation](../doc_files/plugin_images/geolocation_genset.png)
+
+If you select MapBox from the dropdown for Base Map, two additional fields will appear under general settings. 
+
+- *MapBox Access Token*: in order to use MapBox, you need to sign up for their service. Once you have done so, you can go to your [account page](https://www.mapbox.com/account/) and copy your access token to paste into this field. 
+- Either enter the ID for your own map (see the [MapBox documentation](https://www.mapbox.com/api-documentation/#introduction)) or one of the [generally available map ids](https://www.mapbox.com/api-documentation/#maps)
 
 ### Browse Map Settings
 These settings are for the map through which users can browse all geolocated items, and for the "Search by Address function" that Geolocation enables in advanced item search. 
