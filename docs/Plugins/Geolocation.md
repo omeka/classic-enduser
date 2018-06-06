@@ -13,7 +13,7 @@ The first section for configuration are the general settings for the appearance 
 - *Default latitude*: set the center point of the map's latitude (North/South value), in degrees. Using numbers after the decimal point will pinpoint the location more precisely.
 - *Default longitude*: set the center point of the map's longitude (East/West), in degrees. Using numbers after the decimal point will pinpoint the location more precisely.
 - *Default Zoom Level*: Use a whole number of 0 of greater. 0 is the most zoomed out. A value of 15 will result in a map showing roughly one square mile
-- *Base Map*: select a map from the dropdown to serve as the base map in the display. All base maps except those served by MapBox can be [previewed courtesy of Leaflet](http://leaflet-extras.github.io/leaflet-providers/preview/). 
+- *Base Map*: select a map from the dropdown to serve as the base map in the display. All base maps except those served by MapBox can be [previewed courtesy of Leaflet](http://leaflet-extras.github.io/leaflet-providers/preview/). By default, this is set to OpenStreetMap-Standard.
 
 ![General settings for geolocation](../doc_files/plugin_images/geolocation_genset.png)
 
@@ -21,6 +21,8 @@ If you select MapBox from the dropdown for Base Map, two additional fields will 
 
 - *MapBox Access Token*: in order to use MapBox, you need to sign up for their service. Once you have done so, you can go to your [account page](https://www.mapbox.com/account/) and copy your access token to paste into this field. 
 - Either enter the ID for your own map (see the [MapBox documentation](https://www.mapbox.com/api-documentation/#introduction)) or one of the [generally available map ids](https://www.mapbox.com/api-documentation/#maps)
+
+![The dropdown for Base Map with MapBox selected is at the top, with the two fields described following. Both fields are empty.](../doc_files/plugin_images/geolocation-mapbox.png)
 
 ### Browse Map Settings
 These settings are for the map through which users can browse all geolocated items, and for the "Search by Address function" that Geolocation enables in advanced item search. 
@@ -92,13 +94,17 @@ From this view, you may also search mapped items using the item advanced search.
 
 Geolocation and Exhibit Builder
 --------------------------------
-If you have [Exhibit Builder](ExhibitBuilder.md) (version 3.x) installed, Geolocation will add a Map block to the options when building pages. 
+If you have [Exhibit Builder](ExhibitBuilder) (version 3.x) installed, Geolocation will add a Map block to the options when building pages. 
 
 ![Admin item browse map with search form](../doc_files/plugin_images/geolocation_ex1.png)
 
-You can add items with geolocation markers to the map block. The exhibit will display a single map with the markers for those specific items. 
+You can add items with geolocation markers to the map block by [adding items](ExhibitBuilder/#adding-items) as you would with any other Exhibit Builder block. Only items to which you have added a location will show up on the map; the map will ignore items without a location.
 
-![Public view of exhibit map block](../doc_files/plugin_images/geolocation_ex2.png)
+![Geolocation block in Exhibit Builder, which has no layout options. It has four items added and the option to add another item.](../doc_files/plugin_images/geolocation_ex2.png)
+
+The exhibit will display a single map with the markers for those specific items, centered to display all the items within the map view.
+
+![Public view of exhibit map block](../doc_files/plugin_images/geolocation_ex3.png)
 
 Shortcodes
 -----------------
