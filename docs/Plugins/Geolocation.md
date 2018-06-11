@@ -22,6 +22,8 @@ If you select MapBox from the dropdown for Base Map, two additional fields will 
 - *MapBox Access Token*: in order to use MapBox, you need to sign up for their service. Once you have done so, you can go to your [account page](https://www.mapbox.com/account/) and copy your access token to paste into this field. 
 - Either enter the ID for your own map (see the [MapBox documentation](https://www.mapbox.com/api-documentation/#introduction)) or one of the [generally available map ids](https://www.mapbox.com/api-documentation/#maps)
 
+You can use MapBox to create your own map tiles, for example a historic map layer. Please refer to the [MapBox documentation](https://www.mapbox.com/api-documentation/#introduction) for more information.
+
 ![The dropdown for Base Map with MapBox selected is at the top, with the two fields described following. Both fields are empty.](../doc_files/plugin_images/geolocation-mapbox.png)
 
 ### Browse Map Settings
