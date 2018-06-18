@@ -10,12 +10,12 @@ Once you have [installed](../Admin/Adding_and_Managing_Plugins.md) the Geolocati
 ### General Settings
 The first section for configuration are the general settings for the appearance of your map on the public and admin sides of your site.
 
+![General settings for geolocation](../doc_files/plugin_images/geolocation_genset.png)
+
 - *Default latitude*: set the center point of the map's latitude (North/South value), in degrees. Using numbers after the decimal point will pinpoint the location more precisely.
 - *Default longitude*: set the center point of the map's longitude (East/West), in degrees. Using numbers after the decimal point will pinpoint the location more precisely.
 - *Default Zoom Level*: Use a whole number of 0 of greater. 0 is the most zoomed out. A value of 15 will result in a map showing roughly one square mile
 - *Base Map*: select a map from the dropdown to serve as the base map in the display. All base maps except those served by MapBox can be [previewed courtesy of Leaflet](http://leaflet-extras.github.io/leaflet-providers/preview/). By default, this is set to OpenStreetMap-Standard.
-
-![General settings for geolocation](../doc_files/plugin_images/geolocation_genset.png)
 
 If you select MapBox from the dropdown for Base Map, two additional fields will appear under general settings. 
 
@@ -29,29 +29,35 @@ You can use MapBox to create your own map tiles, for example a historic map laye
 ### Browse Map Settings
 These settings are for the map through which users can browse all geolocated items, and for the "Search by Address function" that Geolocation enables in advanced item search. 
 
+![Browse map settings for geolocation](../doc_files/plugin_images/geolocation_brset.png)
+
 -   *Number of Locations Per Page*: The browsable map has pagination; set the number of items per map page with a whole number.
 -   *Auto-fit to Locations*: If checked, the browse map will ignore default location and zoom settings designated in General Settings and instead auto fit to the locations of the items displayed (on that page)
 -   *Default Radius*: for the Search By Address function in the advanced items search.
 -   A checkbox to *Use metric distances* for radius search, rather than miles.
+-   A checkbox to *Enable marker clusters*. When checked, markers that are very close to each other will cluster together and be represented by a number (indicating the number of markers)
 
-![Browse map settings for geolocation](../doc_files/plugin_images/geolocation_brset.png)
+A map with Enable marker clusters unchecked:  
+![A low-detail map showing the British Isles, with a number of blue map markers throughout England](../doc_files/plugin_images/geolocation-nocluster.png)
 
+The same map with Enable marker clusters checked:   
+![A low-detail map of the British Isles, with one blue map marker in southwest England and a yellow circle with the label 17 roughly over London](../doc_files/plugin_images/geolocation-cluster.png)
 
 ### Item Map Settings
 These settings are for the map display on an item/show page.
 
+![Item Map settings](../doc_files/plugin_images/geolocation_ItemMap.png)
+
 - *Width for Item Map*: set in percent, defaults to 100% if left blank.
 - *Height for Item Map*: set in pixels defaults to 300px if left blank. 
-
-![Item Map settings](../doc_files/plugin_images/geolocation_ItemMap.png)
 
 ### Map Integration
 These settings are for integration of the geolocation map into the site menu and the [contribution](Contribution.md) plugin's form. 
 
--   *Add link to map on Items/Browse navigation*: click to make active. 
-- *Add map to contribution form*: click to make active. Note that this will only work if you have the Contribution plugin installed and active.
-
 ![Map Integration settings](../doc_files/plugin_images/geolocation_Mapint.png)
+
+- *Add link to map on Items/Browse navigation*: click to make active. 
+- *Add map to contribution form*: click to make active. Note that this will only work if you have the Contribution plugin installed and active.
 
 Getting Started
 ----------------------------------------------------------------
