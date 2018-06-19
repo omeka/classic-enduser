@@ -10,14 +10,7 @@ Installation
 ---------------------------------------------------------------
 Your server must have PHP-CLI installed.
 
-Upload and [install](../Admin/Adding_and_Managing_Plugins.md) the OAI-PMH Harvester plugin. Configure the plugin in Omeka (see below)
-
-Configuration 
-----------------------------------------------------------------
-The plugin is configured from the Plugins tab on the top navigation of the admin dashboard of your site. The plugin has the following configuration options: 
-
--   **Path to PHP-CLI**: Path to your server's PHP-CLI command. The PHP version must correspond to normal Omeka requirements. Some web hosts use PHP 4.x for their default PHP-CLI, but many provide an alternative path to a PHP-CLI 5 binary. Check with your web host for more information.
--   **Memory Limit**: Set a memory limit to avoid memory allocation  errors during harvesting. We recommend that you choose a high memory limit. Examples include 128M, 1G, and -1. The available options are K (for Kilobytes), M (for Megabytes) and G (for Gigabytes). Anything else assumes bytes. Set to -1 for an infinite limit. Be advised that many web hosts set a maximum memory limit, so this setting may be ignored if it exceeds the maximum allowable limit. Check with your web host for more information.
+Upload and [install](../Admin/Adding_and_Managing_Plugins.md) the OAI-PMH Harvester plugin.
 
 Instructions
 -----------------------------------------------------------------
