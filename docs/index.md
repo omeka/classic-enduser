@@ -4,7 +4,7 @@ title: Omeka Classic User Manual
 This user manual is for the current version of Omeka Classic. 
 
 **Getting Started**  
-[Planning your Omeka site](GettingStarted/Site_Planning_Tip/), [examples and case studies](GettingStarted/UsingOmeka), [hosting suggestions](GettingStarted/Hosting_Suggestions), and our [Accessibility Statement](GettingStarted/Accessibility_Statement). 
+[Planning your Omeka site](GettingStarted/Site_Planning_Tips/), [examples and case studies](GettingStarted/UsingOmeka), [hosting suggestions](GettingStarted/Hosting_Suggestions), and our [Accessibility Statement](GettingStarted/Accessibility_Statement). 
 
 **Installing**  
 Information for [installing](Installation/Installation) and [upgrading](Installation/Upgrading) an Omeka Classic installation.
