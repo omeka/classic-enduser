@@ -43,6 +43,8 @@ In order to upgrade a plugin, you will need to use your FTP client to replace th
 
 The following are detailed instructions for upgrading a plugin. 
 
+1. Go to the Admin dashboard of your Omeka site, navigate to the Plugins tab on the top navigation menu.
+1. Deactivate the plugin you would like to upgrade. WARNING: Do not uninstall, or you may delete any data created with the plugin.
 1. Download the new version of the plugin, and unzip it on you computer. 
 1. Open your FTP client. 
 1. Use your FTP login info to access your site.
