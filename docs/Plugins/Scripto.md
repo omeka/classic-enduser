@@ -30,7 +30,7 @@ Configuring Scripto
 ------------------------------------------------------------
 -   **MediaWiki API URL:** URL to your [MediaWiki installation API](http://www.mediawiki.org/wiki/API:Quick_start_guide#What_you_need_to_access_the_API).
 -   **MediaWiki cookie prefix:** the cookie prefix, most likely your database name.
-	- `<dbname>_` if a table prefix is not used, -or-
+	- `<dbname>` if a table prefix is not used, -or-
 	- `<dbname>_<tableprefix>_` if a table prefix is used (the trailing underscore is *required* for the cookie to work)  
 	NB: you can find these by looking in the LocalSettings file in the root of the server directory for your MediaWiki installation. You want the values of `$wgDBname` and `$wgDBprefix` (if it exists)
 -   **Image viewer:** Select an image viewer to use when transcribing image files. [OpenLayers](http://openlayers.org/) and [Zoom.it](http://zoom.it/) can display JPEG, PNG, GIF, and BMP formats. Zoom.it can also display TIFF and ICO formats. By using Zoom.it you acknowledge that you have read and agreed to the [Microsoft Zoom.it Terms of Service](http://zoom.it/pages/terms/).
