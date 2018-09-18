@@ -39,11 +39,12 @@ The item is the building block of your site. First add the objects and materials
 - Do you want to build an exhibit with your items? Install the [Exhibit Builder](../Plugins/ExhibitBuilder.md) plugin.
 
 **Decisions for Displaying Items**
+
 - Do you want to add social bookmarking icons to the bottom of
 items/show to allow users to share links to that item w/their social networks? Install the [Social Bookmarking](../Plugins/SocialBookmarking.md) plugin.
-- Do you want to open commenting on items (only available at item    level, and for all items or none)? Install the [Commenting](../Plugins/Commenting.md) plugin.
+- Do you want to open commenting on items (only available at item level, and for all items or none)? Install the [Commenting](../Plugins/Commenting.md) plugin.
 -   Do you want to create and print QR Codes that link visitors in a physical place to individual items in your Omeka site? Install the [Bar Code and Reports](../Plugins/Reports.md) plugin.
--   Do you have documents that you wish users to read through on the screen rather than downloading them? Install the [DocsViewer](../Plugins/DocsViewer.md) plugin.
+-   Do you have documents that you wish users to read through on the screen rather than downloading them? Install the [DocsViewer](../Plugins/DocsViewer) plugin.
 
 Plan an Exhibit 
 ------------------------------------------------------------
