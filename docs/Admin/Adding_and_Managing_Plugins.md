@@ -29,7 +29,7 @@ Watch [our screencast showing these steps](https://vimeo.com/153819886). To add 
     - Sometimes the unpacked plugin is inside a folder of the same name so make sure you are uploading the correct directory. 
     - NB: your plugin must be inside the /plugins folder.
     - You can also upload the zipped file and unzip it here, if your FTP client allows
-7.  Rename the folder to remove the `-plugin` from the folder name. If you do not do this, the plugin will display as invalid on your Omeka dashboard.
+7.  Rename the folder to remove the `plugin-` from the folder name. If you do not do this, the plugin will display as invalid on your Omeka dashboard.
 7.  In a new browser window, log in to your Omeka admin panel (youromekasite.net/admin)
 8.  Navigate to the Plugins tab in the upper navigation of the admin dashboard, and scroll down to find the plugin you uploaded (note: plugins are listed alphabetically)
     - If the plugin is not visible, return to step 6 and double-check
