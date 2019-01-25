@@ -54,7 +54,7 @@ Familiarize yourself with the standard [themes](http://omeka.org/classic/themes/
 
 - Use Omeka to share your collections, display documents and oral histories, or create digital archives with user-generated content.
 - Features and plugins you might like: Dublin Core metadata standards, W3C and 508 compliant, Exhibit Builder, extensible and customizable item fields, Dublin Core Extended, Docs Viewer plugin, tagging, CSV Import, OAI-PMH Repository, and Omeka API Import.
-- Examples: [Florida Memory](https://www.floridamemory.com/); [Digital History Archive of São Roque](http://www.arquivosaoroque.com.br/acervo/) (in Portugese); [Saint John's College Digital Archives](http://www.digitalarchives.sjc.edu/). 
+- Examples: [Florida Memory](https://www.floridamemory.com/); [Digital History Archive of São Roque](http://www.arquivosaoroque.com.br/acervo/) (in Portugese); [Saint John's College Digital Archives](http://digitalarchives.sjc.edu/). 
 
 **Educators:**
 
