@@ -39,7 +39,6 @@ Configuring Scripto
 -   **Home page text:** Enter text that will appear on the Scripto home page. Use this to display custom messages to your users, such as instructions on how to use Scripto and how to register for a MediaWiki account. Default text will appear if nothing is entered. You may use HTML. (Wrapping paragraph tags recommended.)
 
 ![Scripto1.png](../doc_files/plugin_images/Scripto1.png)
-![Scripto2.png](../doc_files/plugin_images/Scripto2.png)
 
 Quick Start
 ---------------------------------------------------------------
