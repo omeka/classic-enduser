@@ -24,7 +24,7 @@ If you want to use Omeka in a language other than English, you will need to conf
     - Make sure to take note of the database hostname, the database name, the database user's username, and the database user's password.
     - Make sure the collation of your database is set to 'utf8_unicode_ci' and that the charset is 'utf8'.
 
-1. **Download the latest version of Omeka** and uncompress the .zip file.
+1. **[Download](https://omeka.org/classic/download/) the latest version of Omeka** and uncompress the .zip file.
     -   The .zip file will have a name similar to 'omeka.zip' that includes the version number.
     -   Save the .zip file somewhere you can find it again, such as your Download folder. Double-click the .zip file to extract the files in the .zip archive, and make sure to note where the files are extracted.
     -   If you are unable to extract the files, you might need to download an uncompression program such as WinZip or WinRAR (for Windows)or Stuffit Expander (for Mac).
