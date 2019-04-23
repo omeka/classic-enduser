@@ -11,7 +11,7 @@ The error display settings are different between Omeka 2.0 and older versions of
 
 ### Omeka 2.0 and newer 
 
-1.  Open the `.htaccess` file in the root of your Omeka installation, find the following line, and uncomment it (that is, remove the `#` sign):  `#SetEnv APPLICATION_ENV development`
+1.  Open the `.htaccess` file in the root of your Omeka installation, find the following line, and uncomment it (that is, remove the `#` sign):  `#SetEnv APPLICATION_ENV development`. Note: if you cannot see the `.htaccess` file, make sure that you can view hidden (dot) files in your ftp or ssh client. 
 2.  (Optional) If you're trying to debug a 404 ("Not Found") or 403 ("Forbidden") error, open `application/config/config.ini`, and change the value of `debug.exceptions` to `true`.
 
 ### Omeka 1.5 and older 
