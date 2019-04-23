@@ -2,7 +2,7 @@
 title: Hosting Suggestions
 ---
 
-If you lack access to a server that meets Omeka's [basic requirements](/Preparing_to_Instal), try our [Omeka.net](http://omeka.net) hosted service.
+If you lack access to a server that meets Omeka's [basic requirements](../Installation/System_Requirements/), try our [Omeka.net](http://omeka.net) hosted service.
 
 Below are also a few suggestions for low-cost shared web hosts that offer the server environment required for Omeka.
 
