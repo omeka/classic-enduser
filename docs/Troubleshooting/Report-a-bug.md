@@ -1,4 +1,4 @@
-Bugs are errors in the system. If you find a bug in your Omeka installation, please let us know.
+Bugs are errors in the system. If you find a bug in your Omeka Classic installation, please let us know.
 
 ## Before Reporting a Bug
 Always check to see if it has already been reported. You can search the [forum](http://forum.omeka.org) and our [github repositories](https://github.com/omeka) to see if the bug you have found has been identified.

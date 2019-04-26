@@ -1,4 +1,4 @@
-This plugin adds an auto-complete feature to almost any metadata field in your Omeka site by pulling results from Library of Congress's list of authorities and controlled vocabularies. This functionality helps those building an Omeka site to enforce consistent metadata input and data compatibility with other databases of records.
+This plugin adds an auto-complete feature to almost any metadata field in your Omeka Classic site by pulling results from Library of Congress's list of authorities and controlled vocabularies. This functionality helps those building an Omeka site to enforce consistent metadata input and data compatibility with other databases of records.
 
 The plugin does not require configuration. After [installing](../Admin/Adding_and_Managing_Plugins.md) the plugin, there should be a LC Suggest tab on the left hand navigation of your admin dashboard.
 

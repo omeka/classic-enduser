@@ -3,7 +3,7 @@ Omeka's development is coordinated though [GitHub](http://github.com).
 Core
 -------------------------------------------------
 
-The core code of Omeka is available in a [public GitHub repository](http://github.com/omeka/Omeka). Please feel free to fork the code, issue pull requests, and submit issues there.
+The core code of Omeka Classic is available in a [public GitHub repository](http://github.com/omeka/Omeka). Please feel free to fork the code, issue pull requests, and submit issues there.
 
 Add-Ons
 -------------------------------------------------------

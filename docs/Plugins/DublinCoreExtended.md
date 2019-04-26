@@ -1,4 +1,4 @@
-The Dublin Core Extended plugin adds the full set of Dublin Core properties to the existing Dublin Core element set, including element refinements and supplemental elements. See the Dublin Core website, under ["Properties in the terms namespace."](http://dublincore.org/documents/dcmi-terms/#H2)
+The Dublin Core Extended plugin adds the full set of Dublin Core properties to the existing Dublin Core element set in an Omeka Classic site. This includes element refinements and supplemental elements. See the Dublin Core website, under ["Properties in the terms namespace."](http://dublincore.org/documents/dcmi-terms/#H2)
 
 If you are using Omeka.net, see [instructions for the plugin in the Help section of Omeka.net](http://info.omeka.net/build-a-website/manage-themes-and-plugins/dublin-core-extended/).
 
@@ -56,4 +56,4 @@ After installing, if you wish to deactivate the plugin so that the extended DC f
 
 The dc-rdf Output Format 
 ---------------------------------------------------------------
-The plugin also introduces the [dc-rdf](http://dublincore.org/documents/dc-rdf/) output format for expressing Dublin Core metadata using the Resource Description Framework. Omeka already comes with the [dcmes-xml](http://dublincore.org/documents/dcmes-xml/) output format, which dc-rdf supersedes. To view this output, simply add `?output=dc-rdf` to the end of the URL on the items browse and show pages.
+The plugin also introduces the [dc-rdf](http://dublincore.org/documents/dc-rdf/) output format for expressing Dublin Core metadata using the Resource Description Framework. Omeka Classic already comes with the [dcmes-xml](http://dublincore.org/documents/dcmes-xml/) output format, which dc-rdf supersedes. To view this output, simply add `?output=dc-rdf` to the end of the URL on the items browse and show pages.

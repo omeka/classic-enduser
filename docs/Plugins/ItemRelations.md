@@ -1,4 +1,4 @@
-The Item Relations plugin lets you define relations between items. For example, you can make one item a part of another item, where "part of" is the relation. You can also make one item a "reproduction of" or a "translation of" another item.
+The Item Relations plugin lets you define relations between items in your Omeka Classic site. For example, you can make one item a part of another item, where "part of" is the relation. You can also make one item a "reproduction of" or a "translation of" another item.
 
 We've bundled the plugin with common relations derived from several formal vocabularies, including:
 

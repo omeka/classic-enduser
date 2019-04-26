@@ -1,11 +1,11 @@
-Omeka uses Zend Framework's [ContextSwitch](http://framework.zend.com/manual/en/zend.controller.actionhelpers.html#zend.controller.actionhelpers.contextswitch) action helper to return different response formats on request. Omeka comes bundled with several response formats: omeka-xml, omeka-json, dcmes-xml, json, and rss2. See below for more information about these bundled formats.
+Omeka Classic uses Zend Framework's [ContextSwitch](http://framework.zend.com/manual/en/zend.controller.actionhelpers.html#zend.controller.actionhelpers.contextswitch) action helper to return different response formats on request. Omeka Classic comes bundled with several response formats: omeka-xml, omeka-json, dcmes-xml, json, and rss2. See below for more information about these bundled formats.
 
 To access the response formats, simply add `output=format-name` to the URL query string. For example:
 ` <http://www.example.com/items/show?output=omeka-xml> `
 
 omeka-xml
 -----------------------------------------------------------
-The *omeka-xml* response format is an XML instance of the official Omeka omeka-xml schema. It is currently available on the following pages:
+The *omeka-xml* response format is an XML instance of the official Omeka Classic omeka-xml schema. It is currently available on the following pages:
 
 -   items/browse
 -   items/show

@@ -6,7 +6,7 @@ Editorial User Role
 -----------------------
 The plugin creates a new [role](../Admin/Users.md#user-levels-and-access), Exhibit-contributor, which largely functions like the Contributor role but can also edit Exhibits when added in the Editorial blocks (see below for more information)
 
-An Exhibit-contributor can view, edit, add, and delete content in any exhibit to which they are added. This includes adding new exhibits, creating new pages, adding blocks to pages, and adding items to existing pages. Note: they will have access to all items in your Omeka collection.
+An Exhibit-contributor can view, edit, add, and delete content in any exhibit to which they are added. This includes adding new exhibits, creating new pages, adding blocks to pages, and adding items to existing pages. Note: they will have access to all items in your Omeka Classic collection.
 
 Users with the Exhibit-contributor role cannot view the backend of exhibits to which they have not been added. They are also prohibited from editing items. 
 

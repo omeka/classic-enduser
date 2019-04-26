@@ -1,4 +1,4 @@
-With the Simple Vocab plugin you can define a controlled vocabulary for any metadata elements 
+With the Simple Vocab plugin you can define a controlled vocabulary for any metadata elements on your Omeka Classic site.
 
 A [controlled vocabulary](https://en.wikipedia.org/wiki/Controlled_vocabulary) is a list of predefined terms that are predetermined by an administrator or the teach of researchers working on a project.
 

@@ -1,51 +1,23 @@
-Omeka allows administrators to configure how files are stored (both original
-files uploaded to Omeka and the derivative images Omeka creates itself). For
-typical users, the default settings are sufficient: files are simply stored
-the `files` subdirectory of the Omeka installation and served from there by
-the web server, just like any other file in Omeka.
+Omeka Classic allows administrators to configure how files are stored (both original files uploaded to Omeka Classic and the derivative images Omeka creates itself). For typical users, the default settings are sufficient: files are simply stored the `files` subdirectory of the Omeka installation and served from there by the web server, just like any other file in Omeka.
 
-However, if you want or need to store files in a different location, on a
-different drive, or even a different server or service, you'll need to do
-some configuration. The storage system is configured through the Omeka
-configuration file, `application/config/config.ini`.
+However, if you want or need to store files in a different location, on a different drive, or even a different server or service, you'll need to do some configuration. The storage system is configured through the Omeka configuration file, `application/config/config.ini`.
 
-Note: storage changes in the configuration get applied immediately, and will
-affect all operations involving files. If you change storage methods or
-locations after already working on an Omeka installation for some time, you'll
-have to take care of moving or copying any pre-existing files to the new
-location yourself. If you're thinking about using non-standard storage
-settings, it's often easiest to make that decision up front, before you
-upload anything.
+Note: storage changes in the configuration get applied immediately, and will affect all operations involving files. If you change storage methods or locations after already working on an Omeka installation for some time, you'll
+have to take care of moving or copying any pre-existing files to the new location yourself. If you're thinking about using non-standard storage settings, it's often easiest to make that decision up front, before you upload anything.
 
 Storage Adapters
 ----------------
 
-Omeka's storage system is based on "adapters." An adapter is simply a method
-for storing and accessing files, and Omeka ships with two adapters out of the
-box.
+Omeka's storage system is based on "adapters." An adapter is simply a method for storing and accessing files, and Omeka ships with two adapters out of the box.
 
-The default adapter is the Fileystem adapter, and it just stores files on the
-local server. If you haven't explicitly chosen an adapter to use, you're using
-this one, and it's the right choice for most users, especially if you're not
-sure which you want to use.
+The default adapter is the Fileystem adapter, and it just stores files on the local server. If you haven't explicitly chosen an adapter to use, you're using this one, and it's the right choice for most users, especially if you're not sure which you want to use.
 
-The second adapter included with Omeka is the ZendS3 adapter, which uses Zend
-Framework code for storing files on Amazon's S3 storage service. This is a
-more complex adapter, and it requires you to sign up for S3, but it can be the
-right choice if you have constrained local storage and a large set of files to
-deal with, or just want to store files remotely for whatever reason.
+The second adapter included with Omeka is the ZendS3 adapter, which uses Zend Framework code for storing files on Amazon's S3 storage service. This is a more complex adapter, and it requires you to sign up for S3, but it can be the right choice if you have constrained local storage and a large set of files to deal with, or just want to store files remotely for whatever reason.
 
-You set the adapter with a line `storage.adapter` in the configuration file.
-This configuration option accepts the name of an adapter class. For the
-built-in adapters, the class name will start with `Omeka_Storage_Adapter`,
-so the Filesystem adapter would be `Omeka_Storage_Adapter_Filesystem`, and the
-ZendS3 adapter would be `Omeka_Storage_Adapter_ZendS3`. Plugins can add their
-own adapters too, and the plugin should document for you how it needs to be
-configured.
+You set the adapter with a line `storage.adapter` in the configuration file. This configuration option accepts the name of an adapter class. For the built-in adapters, the class name will start with `Omeka_Storage_Adapter`, so the Filesystem adapter would be `Omeka_Storage_Adapter_Filesystem`, and the
+ZendS3 adapter would be `Omeka_Storage_Adapter_ZendS3`. Plugins can add their own adapters too, and the plugin should document for you how it needs to be configured.
 
-Remember, if you don't explicitly choose an adapter (in other words, if you
-don't have a `storage.adapter` line in your configuration file) then Omeka
-will use the Filesystem adapter.
+Remember, if you don't explicitly choose an adapter (in other words, if you don't have a `storage.adapter` line in your configuration file) then Omeka will use the Filesystem adapter.
 
 Adapter Options
 ---------------

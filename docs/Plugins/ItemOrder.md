@@ -1,4 +1,4 @@
-Item Order allows users to use a drag-and-drop interface change the order in which items display on the public Collection browse pages. 
+Item Order allows users to use a drag-and-drop interface change the order in which items display on the public Collection browse pages of your Omeka Classic site.
 
 Order Items in a Collection
 ----------------------------------------------------------------

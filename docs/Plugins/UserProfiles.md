@@ -1,4 +1,4 @@
-User Profiles is designed to address many different situations in which gathering and/or displaying information about users is helpful. In many cases, these situations involve a combination of User Profiles with other plugins. Example use cases might be:
+User Profiles is designed to address many different situations in which gathering and/or displaying information about users is helpful on an Omeka Classic site. In many cases, these situations involve a combination of User Profiles with other plugins. Example use cases might be:
 
 -   Create structured, consistent information about the creators of the site.
 -   Give credit to researchers by having them create profiles that are automatically linked to from the items they add.

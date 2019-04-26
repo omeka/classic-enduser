@@ -2,7 +2,7 @@
 Choosing a Strategy
 -----------------------------------------------------------
 
-Omeka uses the command-line tool `convert` from ImageMagick by default to create thumbnail images for uploaded files. Instead, you can choose to use the PECL ext/imagick extension (Omeka 2.2 and above) or the PHP GD extension (Omeka 2.3 and above).
+Omeka Classic uses the command-line tool `convert` from ImageMagick by default to create thumbnail images for uploaded files. Instead, you can choose to use the PECL ext/imagick extension (Omeka 2.2 and above) or the PHP GD extension (Omeka 2.3 and above).
 
 The Imagick and GD options both avoid the need to call out to a command-line. PHP's GD extension is less advanced than ImageMagick but is more widely available.
 

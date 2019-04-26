@@ -1,4 +1,4 @@
-The Simple Contact Form allows you to create a contact form on your site through which visitors can send comments, suggestions, and other feedback. By default, the plugin adds "Contact Us" to your site's main navigation.
+The Simple Contact Form allows you to create a contact form on your Omeka Classic site through which visitors can send comments, suggestions, and other feedback. By default, the plugin adds "Contact Us" to your site's main navigation.
 
 Configuration
 ---------------------------------------------------------------

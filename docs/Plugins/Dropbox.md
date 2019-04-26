@@ -1,6 +1,6 @@
 **Please note that this plugin is not affiliated with the Dropbox service.**
 
-The Dropbox allows Omeka users to batch upload a large quantity of files at one time, and may allow you to circumvent file size restrictions imposed by your server administrator. Once installed, you may create unique items from each file, and you may associate numerous files with pre-existing items.
+The Dropbox allows Omeka Classic users to batch upload a large quantity of files at one time, and may allow you to circumvent file size restrictions imposed by your server administrator. Once installed, you may create unique items from each file, and you may associate numerous files with pre-existing items.
 
 Using the Dropbox plugin
 -----------------------

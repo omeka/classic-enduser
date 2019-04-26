@@ -1,4 +1,4 @@
-The Text Annotation plugin allows users to annotate HTML text on Omeka sites using either the [hypothes.is](https://hypothes.is/) or [annotateit.org](http://annotateit.org/) webservices. 
+The Text Annotation plugin allows users to annotate HTML text on Omeka Classic sites using either the [hypothes.is](https://hypothes.is/) or [annotateit.org](http://annotateit.org/) webservices. 
 
 *Please note* that as of March 2017, annotateit is not longer taking new accounts; if you are installing Text Annotation, please use hypothesis.
 

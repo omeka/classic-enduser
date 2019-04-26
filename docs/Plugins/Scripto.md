@@ -1,4 +1,4 @@
-The Scripto plugin allows you to crowdsource the transcription of your Omeka content. It adds a feature rich interface to the admin and public sides that includes many features from [MediaWiki](http://www.mediawiki.org/wiki/MediaWiki), the software behind [Wikipedia](http://www.wikipedia.org/). All items with files can be transcribed. For these purposes an item is a *document*, and an item's files are its *pages*.
+The Scripto plugin allows you to crowdsource the transcription of your Omeka Classic content. It adds a feature rich interface to the admin and public sides that includes many features from [MediaWiki](http://www.mediawiki.org/wiki/MediaWiki), the software behind [Wikipedia](http://www.wikipedia.org/). All items with files can be transcribed. For these purposes an item is a *document*, and an item's files are its *pages*.
 
 Features
 ---------------------------------------------------------

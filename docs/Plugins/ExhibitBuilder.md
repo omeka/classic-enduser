@@ -1,6 +1,6 @@
-The Exhibit Builder plugin allows you to develop online exhibits, or special web pages, that combine items from your Omeka archive and may include narrative text.
+The Exhibit Builder plugin allows you to develop online exhibits, or special web pages, that combine items from your Omeka Classic site and may include narrative text.
 
-Exhibits are composed of pages, generally an initial page that introduces your exhibit and subsequent pages composed of the items from your Omeka database that you wish to highlight and/or relate to each other. Exhibit Builder exhibits may be as short as one page or consist of multiple pages. You can make the pages of an exhibit hierarchical.
+Exhibits are composed of pages, generally an initial page that introduces your exhibit and subsequent pages composed of the items from your Omeka Classic database that you wish to highlight and/or relate to each other. Exhibit Builder exhibits may be as short as one page or consist of multiple pages. You can make the pages of an exhibit hierarchical.
 
 The layout of exhibits in Exhibit Builder 3.x is highly customizable, with the pages composed of smaller units called blocks. There are three content block types which come with Exhibit Builder 3.x: file with text, gallery, and text block.
 
@@ -8,7 +8,7 @@ Other plugins may include their own Exhibit Builder block layouts, if the develo
 
 Configuring
 --------------------------------------------------------------
-This plugin is included in your downloaded Omeka installation and does not require a separate download. Select Plugins in the top navigation of your admin. Activate your plugin and select Configure to choose the sequence in which your exhibits appear. Exhibits may be ordered by date added, alphabetically by name, or most recent.
+This plugin is included in your downloaded Omeka Classic installation and does not require a separate download. Select Plugins in the top navigation of your admin. Activate your plugin and select Configure to choose the sequence in which your exhibits appear. Exhibits may be ordered by date added, alphabetically by name, or most recent.
 
 ![Configuration drop down open to show all options](/doc_files/plugin_images/Eb3config.jpg)
 
@@ -65,7 +65,7 @@ To save the page information and continue editing that page, click the Save Chan
 
 ### Organizing Pages
 
-An exhibit in Omeka can have multiple pages. You can reorder these pages by dragging and dropping, and you can use drag and drop to set up an exhibit page hierarchy. Note that these hierarchies cannot be more than three levels deep.
+An exhibit in Omeka Classic can have multiple pages. You can reorder these pages by dragging and dropping, and you can use drag and drop to set up an exhibit page hierarchy. Note that these hierarchies cannot be more than three levels deep.
 
 You can also delete pages from the Exhibit Metadata page through a two-step process. First, click the large black X on the display bar of the page you wish to delete. Once you click the X, the bar will turn red (see the bar for the page Edward in the image below). Clicking the arrow will undo the delete action. To confirm deleting a page, you must click the Save Changes button. Once pages have been deleted, they cannot be restored.
 

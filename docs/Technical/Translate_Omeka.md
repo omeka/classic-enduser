@@ -1,6 +1,6 @@
-Beginning with the 1.5 release, Omeka added internationalization support. Among other things, Omeka allows users to select the language in which the site is displayed.
+Beginning with the 1.5 release, Omeka Classic added internationalization support. Among other things, Omeka Classic allows users to select the language in which the site is displayed.
 
-We need the community's help translating Omeka's English text into new languages, so users can have a variety of choices. You don't need to know how to write code to help translate Omeka, you just need to be fluent in English and another language.
+We need the community's help translating Omeka Classic's English text into new languages, so users can have a variety of choices. You don't need to know how to write code to help translate Omeka, you just need to be fluent in English and another language.
 
 Getting Started
 --------------------------------------------------------
@@ -23,7 +23,7 @@ For Transifex-specific issues, please see their [documentation](http://docs.tran
 
 Translation Guidelines 
 --------------------------------------------------------------
-Most of the strings to be translated in Omeka are straightforward and can be translated directly. However, there are a few special cases that need to be treated with care.
+Most of the strings to be translated in Omeka Classic are straightforward and can be translated directly. However, there are a few special cases that need to be treated with care.
 
 ### Placeholders
 Some strings contain text that looks like `%s` or `%1$s`. These odd-looking bits of text are called **placeholders**. Placeholders are used to allow Omeka to insert some changing piece of information, like the number of items in an Omeka site, into a translated string.

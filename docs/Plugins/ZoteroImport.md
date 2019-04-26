@@ -1,4 +1,4 @@
-With this plugin you can move your Zotero research into Omeka, making it possible to further organize and exhibit your Zotero library. Just sync your library to the Zotero server, tell the Zotero Import plugin what library you want to import, and it'll pull in source items, notes, files, and web snapshots.
+With this plugin you can move your Zotero research into Omeka Classic, making it possible to further organize and exhibit your Zotero library. Just sync your library to the Zotero server, tell the Zotero Import plugin what library you want to import, and it'll pull in source items, notes, files, and web snapshots.
 
 Features
 -------------------------------------------------------

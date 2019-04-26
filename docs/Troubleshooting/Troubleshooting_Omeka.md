@@ -2,7 +2,7 @@
 404 and Not Found
 -------------------------------------------------------------
 
-If you follow a link in Omeka and you get a 404 error, page not found, or an error saying the URL is not valid, this is likely caused by a `mod_rewrite` problem on your server. 
+If you follow a link in Omeka Classic and you get a 404 error, page not found, or an error saying the URL is not valid, this is likely caused by a `mod_rewrite` problem on your server. 
 
 ![screenshot of a webpage displaying the message "Not Found. The requested URL was not found on this server" ](/doc_files/htaccess_error.png)
 
@@ -21,7 +21,7 @@ If you are receiving errors related to file size uploads, you will need to look 
 2. The php.ini setting `upload_max_filesize` is a limit set by PHP that constrains the maximum size of any one file. If this is smaller than a file you want to upload, you need to increase it.
 3. The php.ini setting `post_max_size` is a limit set by PHP that constrains the maximum total amount of data that can be sent in any one request. This includes uploaded files as well as any regular form data (the contents of text inputs and textareas, for example). This setting must be at least as large as `upload_max_filesize` for that setting to have any effect, and generally should be larger, to allow for some data to be sent alongside a large file and/or to allow multiple large files to be uploaded at once.
 
-Omeka will read all three of these settings and display the largest file upload size in the "Add New Files" block on the the Files tab when adding or editing an item.
+Omeka Classic will read all three of these settings and display the largest file upload size in the "Add New Files" block on the the Files tab when adding or editing an item.
 
 ![A close up of the Files tab, showing only the Add New Files block. A red arrow points to a message reading "the maximum file size is 16MB," located just before the option to select a file](../doc_files/troubleshooting_filesize.png)
 

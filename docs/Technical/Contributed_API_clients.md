@@ -2,7 +2,7 @@
 title: Contributed API clients
 ---
 
-For sites running Omeka 2.1 Release Candidate or higher, these clients show some examples of using Omeka's API
+For sites running Omeka Classic 2.1 Release Candidate or higher, these clients show some examples of using Omeka's API
 
 PHP 
 -----------------------------------------------

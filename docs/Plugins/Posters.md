@@ -1,4 +1,4 @@
-Posters are a simple, lightweight way for users on your site to interact with your content by selecting items to gather together into a sequential presentation, with an overall description and captions for items.
+Posters are a simple, lightweight way for users on your Omeka Classic site to interact with your content by selecting items to gather together into a sequential presentation, with an overall description and captions for items.
 
 You must have [Guest User](GuestUser.md) installed to use Posters.
 
