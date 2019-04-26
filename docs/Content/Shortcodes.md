@@ -2,7 +2,7 @@
 title: Shortcodes 
 ---
 
-Starting with Omeka 2.2, some text fields (like the page content field in Simple Pages) support **shortcodes.**
+Starting with Omeka Classic 2.2, some text fields (like the page content field in Simple Pages) support **shortcodes.**
 
 *Note:* This page is a user’s guide to shortcodes. For developer documentation, see [Working with Shortcodes](http://omeka.readthedocs.org/en/latest/Tutorials/shortcodes.html) on Omeka’s Read the Docs site.
 

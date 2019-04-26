@@ -8,7 +8,7 @@ Access the Search Settings tabs by going to the Settings tab in the top navigati
 
 ### Select Record Types
 
-As an Omeka site Super administrator, you may choose which Omeka record types you wish to be searchable: items, collections, files. 
+As an Omeka Classic site Super administrator, you may choose which record types you wish to be searchable: items, collections, files. 
 
 ![Search settings page, with Item, File, and Collection checkboxes active](/doc_files/Searchsettings.png)
 
@@ -32,7 +32,7 @@ Once records types are selected, searchers use the ellipses button to choose fro
 
 ### Indexing 
 
-Indexing means to collect, parse, and store data to facilitate fast and accurate searches. Omeka will automatically index individual records as they are created and saved. Re-indexing is necessary when updating from an earlier version of Omeka or after you customize which records will be searchable.
+Indexing means to collect, parse, and store data to facilitate fast and accurate searches. Omeka Classic will automatically index individual records as they are created and saved. Re-indexing is necessary when updating from an earlier version of Omeka or after you customize which records will be searchable.
 
 Click on the "Index Records" button to re-index your records.
 

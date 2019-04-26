@@ -3,7 +3,7 @@ title: Installation
 ---
 
 ## Preparing to Install
-Before installing Omeka, make sure your web server meets our basic [system requirements](System_Requirements.md). These are standard requirements that are available by most web hosting services. Once these system requirements are met, all you need to do is install the Omeka software:
+Before installing Omeka Classic, make sure your web server meets our basic [system requirements](System_Requirements.md). These are standard requirements that are available by most web hosting services. Once these system requirements are met, all you need to do is install the Omeka software:
 
 ### Upgrading Your System
 
@@ -18,7 +18,7 @@ If you need to upgrade your server to meet any of the Omeka system requirements,
 -----------
 Note: If you are doing a One-Click install from Dreamhost, you must edit the `db.ini` file in the Omeka directory (see 3 below).
 
-If you want to use Omeka in a language other than English, you will need to configure it in the `/application/config/config.ini` file. See [Configuring Language](Configuring_Language.md) for details. The installation steps are localized, so you might want to do this before the rest of the installation steps below. It is fine to change this after your site is successfully installed.
+If you want to use Omeka Classic in a language other than English, you will need to configure it in the `/application/config/config.ini` file. See [Configuring Language](Configuring_Language.md) for details. The installation steps are localized, so you might want to do this before the rest of the installation steps below. It is fine to change this after your site is successfully installed.
 
 1. **Create a MySQL database** on your web host, as well as a user with permissions to modify the database.
     - Make sure to take note of the database hostname, the database name, the database user's username, and the database user's password.

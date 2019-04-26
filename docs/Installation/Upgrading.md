@@ -6,7 +6,7 @@ title: Upgrading
 2.  **Deactivate your plugins** in Settings &gt; Plugins of the administrative panel.
     - Be careful not to *uninstall* the plugins, because you may lose data. See the instructions for [upgrading plugins](../Admin/Adding_and_Managing_Plugins.md) for more information.
     - Check to make sure your plugins are compatible with the version of Omeka you're upgrading to. Especially when moving from 1.x to 2.x, you may need to use updated versions of plugins instead of the old ones.
-3.  **Move your old Omeka installation** out of the way, either to somewhere else on your server or transfer the files to your local computer.
+3.  **Move your old Omeka Classic installation** out of the way, either to somewhere else on your server or transfer the files to your local computer.
 4.  **Download and unzip** the latest version of Omeka into the empty directory where your previous install of Omeka was located.
      - If you download to the your computer and then upload to the server, either see if you can unzip the folder on the server *or* make sure that hidden files are visible on your computer to ensure that all files are transferred.
 5.  **Move or copy the following files and directories** from your old Omeka folder to the corresponding location in your new Omeka installation (if copying, make sure you keep all permissions the same as they were before):

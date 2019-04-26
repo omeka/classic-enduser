@@ -34,7 +34,7 @@ as well as options provided by plugins, such as:
 
 Advanced Search
 ----------------
-Advanced Search, which will only search the items in your Omeka installation, is available on the admin sides, and on the public side if the *Use Advanced Site-Wide Search* option is checked in the [theme settings](../Admin/Appearance/Themes) 
+Advanced Search, which will only search the items in your Omeka Classic installation, is available on the admin sides, and on the public side if the *Use Advanced Site-Wide Search* option is checked in the [theme settings](../Admin/Appearance/Themes) 
 
 ![Search options, with the ellipses expanded. There is a red 1 just under the ellipses. At the bottom of the window, below the options for search query type and record types, a red 2 is next to the "Advanced Search" link](/doc_files/searchExpanded.png)
 
@@ -80,7 +80,7 @@ If you have [the Exhibit Builder plugin](../Plugins/ExhibitBuilder.md) installed
 Troubleshooting
 ---------------------------------------------------
 **Seeing unpublished items when searching on the public side**:
-If you are still logged in to your Omeka installation, you will see all items on the public and admin side. Try logging out or visiting the site in a different browser (where you are not logged in).
+If you are still logged in to your Omeka Classic installation, you will see all items on the public and admin side. Try logging out or visiting the site in a different browser (where you are not logged in).
 
 **If you are having trouble finding words you know are in your install, the following may be part of the problem:**
 

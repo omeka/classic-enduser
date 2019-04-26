@@ -1,5 +1,4 @@
-Item Type Elements enables you to manage all the metadata fields
-associated with each [item type](../../Content/Item_Types.md) available in your site, e.g. Still Image, Oral History, Document.
+Item Type Elements enables you to manage all the metadata fields associated with each [item type](../../Content/Item_Types.md) available in your site, e.g. Still Image, Oral History, Document.
 
 You can add new item type elements or change the description of existing elements
 

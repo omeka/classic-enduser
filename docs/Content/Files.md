@@ -9,7 +9,7 @@ When adding [items](Items.md) to your archive, often you will upload one or more
 File Types
 -------------------------------------------------------------
 
-Omeka accepts most files and file types. If you are having difficulty or receiving MIME Type errors, please see more information about adjusting the MIME Types or Accepted File Extensions in the section on [managing security settings](../Admin/Settings/Security_Settings.md).
+Omeka Classic accepts most files and file types. If you are having difficulty or receiving MIME Type errors, please see more information about adjusting the MIME Types or Accepted File Extensions in the section on [managing security settings](../Admin/Settings/Security_Settings.md).
 
 File Display Order
 ---------------------------------------------------------------

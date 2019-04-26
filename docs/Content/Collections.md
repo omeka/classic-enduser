@@ -1,7 +1,7 @@
 
 Collections may be used in a variety of contexts that make the most sense for your archive.
 
-In Omeka, an item can only belong to one collection. Collections can, of course, have multiple items. The concept of Omeka collections originates from museum and archives collections; one cannot put a document into more than one box. It is not necessary to follow a traditional interpretation of a collection, say by owner or donor. In Omeka, you can also use [tags](Tags.md) to organize similar items into categories.
+In Omeka Classic, an item can only belong to one collection. Collections can, of course, have multiple items. The concept of Omeka collections originates from museum and archives collections; one cannot put a document into more than one box. It is not necessary to follow a traditional interpretation of a collection, say by owner or donor. In Omeka, you can also use [tags](Tags.md) to organize similar items into categories.
 
 Create a Collection
 -----------------------------------------------------------

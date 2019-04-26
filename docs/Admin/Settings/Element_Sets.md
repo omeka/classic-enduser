@@ -1,11 +1,10 @@
-Element Sets are standardized metadata categories that enable you to consistently classify, identify, and sort the digital resources in your Omeka database. Element Sets utilize standardized Dublin Core metadata fields enabling you to classify the items in your database by content, format, and administrative details surrounding stewardship such as rights and preservation.
+Element Sets are standardized metadata categories that enable you to consistently classify, identify, and sort the digital resources in your Omeka Classic database. Element Sets utilize standardized Dublin Core metadata fields enabling you to classify the items in your database by content, format, and administrative details surrounding stewardship such as rights and preservation.
 
 ![Admin top nav with an arrow pointing to Settings and then to Element Sets](/doc_files/Elementsetnav.png)
 
-To manage your Element Sets in Omeka, select Settings in the top
-navigation bar. In the Settings screen, choose Element Sets.
+To manage your Element Sets in Omeka, select Settings in the top navigation bar. In the Settings screen, choose Element Sets.
 
-You should see a table with the installed element sets on your Omeka installation. Each row of the table will show the Name and Description for the element set. To edit an element set, click the *edit* button under the element set name. To delete an element set, click the *delete* button (note that you cannot delete the Dublin Core element set).
+You should see a table with the installed element sets on your Omeka Classic installation. Each row of the table will show the Name and Description for the element set. To edit an element set, click the *edit* button under the element set name. To delete an element set, click the *delete* button (note that you cannot delete the Dublin Core element set).
 
 ![First row of table of element sets, showing Dublin Core with edit button but no delete button](/doc_files/elementEdit.png)
 

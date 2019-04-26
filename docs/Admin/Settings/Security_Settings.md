@@ -7,13 +7,13 @@ In the Settings section, choose Security. Only Super users may edit these settin
 
 ![Arrow pointing to Security sub tab in Settings](/doc_files/Securitynav2.png)
 
-Security settings enable you to determine the file formats and html markup allowed on your Omeka site and to set Captcha controls to protect your site from automated spam.
+Security settings enable you to determine the file formats and html markup allowed on your Omeka Classic site and to set Captcha controls to protect your site from automated spam.
 
 The Security Settings page is divided into three sections: File Validation, Captcha, and HTML Filtering.
 
 File Validation
 -------------------------------
-This section sets the rules for the files which can be uploaded to the Omeka site. 
+This section sets the rules for the files which can be uploaded to the Omeka Classic site. 
 
 ![File validation section, all fields](/doc_files/securityFile.png)
 
@@ -48,7 +48,7 @@ HTML Filtering
 
 You may choose whether to filter HTML elements and attributes utilized as you fill in forms and metadata fields on your Omeka site.
 
-By default, all HTML elements and attributes are allowed in Omeka when the box **Enable HTML Filtering** is unchecked.
+By default, all HTML elements and attributes are allowed in Omeka Classic when the box **Enable HTML Filtering** is unchecked.
 
 If you would like to limit the use of html, place a check in that box. When you enable HTML filtering, only elements listed in the Allowed HTML Elements and the Allowed HTML Attributes fields will function on your site.
 

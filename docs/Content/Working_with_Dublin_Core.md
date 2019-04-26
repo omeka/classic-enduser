@@ -11,7 +11,7 @@ The Omeka team decided that we wanted to contribute to a movement that is helpin
 - [Dublin Core Metadata Element Set, Version 1.1: Reference Description](http://dublincore.org/documents/dces/)
 - [Historical overview and bibliography of Dublin Core resources (2010](http://www.oclc.org/research/activities/past/orprojects/dublincore/default.htm).
 
-Interpreting Dublin Core Fields in Omeka 
+Interpreting Dublin Core Fields in Omeka Classic 
 --------------------------------------------------------
 
 The following Dublin Core fields are available in Omeka, together with some suggestions on interpreting the fields. The fields are vague by design so please consult with the [DCMI element descriptions](http://dublincore.org/documents/usageguide/elements.shtml) to be sure you are fulfilling the demands of your project. You may also want to review the detailed breakdown of [item types](/Content/Item_Types/) with examples and a list of their item type metadata elements.

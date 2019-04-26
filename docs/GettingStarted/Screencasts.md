@@ -4,7 +4,7 @@ title: Screencasts
 
 General:
 
-- [Introduction to Omeka 2.0](https://vimeo.com/55973380)
+- [Introduction to Omeka Classic 2.0](https://vimeo.com/55973380)
 - [Modifying Item Types](https://vimeo.com/102038884)
 - [Managing Collections and Tags](https://vimeo.com/102040465)
 - [Managing Items](https://vimeo.com/102040466)

@@ -4,7 +4,7 @@ title: Managing Tags
 
 Tags are keywords or phrases that describe a piece of data. They are non-hierarchical labels that classify your content so that it is easily found. You can add tags to [Items](Items) and [Exhibits](../Plugins/ExhibitBuilder).
 
-To manage your tags, sign into the Omeka admin panel and select Tags from the left-hand navigation bar. This displays all the tags associated with records in your Omeka installation. You may edit and delete tags, sort tags, and view items associated with individual tag.
+To manage your tags, sign into the Omeka Classic admin panel and select Tags from the left-hand navigation bar. This displays all the tags associated with records in your Omeka Classic installation. You may edit and delete tags, sort tags, and view items associated with individual tag.
 
 ![Tags in left nav](/doc_files/Tagsnav.png)
 

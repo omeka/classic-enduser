@@ -1,4 +1,4 @@
-The Users section allows the site Administrator to control who may access the admin section of the site and what they can do. You may add, delete, and assign categories of use.
+The Users section allows the Site Administrator to control who may access the admin section of the site and what they can do. You may add, delete, and assign categories of use.
 
 ![Arrow points to ](/doc_files/Usersnav.png)
 
@@ -15,7 +15,7 @@ You can search users by username, real name, or email address. Username and real
 User Levels and Access
 ------------------------------------------------------------
 
-Omeka allows you to give different backend users different levels of access to your archive. Read through the following list of actions available to users to determine what works best for your project team members.
+Omeka Classic allows you to give different backend users different levels of access to your archive. Read through the following list of actions available to users to determine what works best for your project team members.
 
 All logged in site Super, Admin, Contributor, and Researcher users can view non-public content (items, collections, Simple Pages, Exhibits, etc) on the site.
 
