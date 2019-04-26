@@ -42,3 +42,13 @@ When the visitor clicks the submit button on the contact page form, they are red
 Remember to save your changes by clicking the green Save Changes button on the right side of the window. 
 
 You can enable [ReCaptcha](../Admin/Settings/ReCaptcha.md) on your site to reduce spammer submissions through the Contact Form.
+
+## Public view
+When a site visitor clicks the link for the contact page in the navigation, they will see a contact form with fields for Name, Email, and Message, and a recaptcha checkbox. The image here is of the contact form in the default Omeka Classic theme, Thanks Roy. 
+
+![Contact Us page. The navigation menu for the site is on the left side of the page. In the main content area are two small fields for Name and Email entry, and a large text area for entering a message.](../doc_files/plugin_images/simplecontact_public.png)
+
+## Receiving and replying to comment
+When a site visitor submits a message via the form, it will appear in the inbox of the Forward-to email address. The message will have as sender the Name entered by the person who filled out the contact form, and will look as though it came from their email account.
+
+To reply to the message, simply reply to the email. 
