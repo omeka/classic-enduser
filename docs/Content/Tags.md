@@ -98,3 +98,15 @@ To delete a tag:
 -   Select the X to the right of the tag.
 -   A window will open with the question, "Are you sure?" 
 -   Click Delete, and that tag is permanently deleted across your Omeka items. (If you change your mind, close the query window by clicking on the X in the upper right hand corner.)
+
+Public View
+--------------------
+Visitors to your site can browse tags by going to Browse Items and selecting the "Browse by Tag" option. The url for this page is `<your omeka site>/items/tags`. Depending on the theme, the tags may appear as a cluster or a group, and may be scaled according to use.
+
+For example, in Thanks, Roy, the default theme, the most frequently used tags are in a larger font:
+
+![Browse by tag with a cloud of tags displayed in various font sizes. Some of the words overlap.](/doc_files/browsetagsP-default.png)
+
+Whereas in Center Row, the tags simply display in a list:
+
+![The same page in Center Row, with the tags as a list of words](/doc_files/browsetagsP-center.png)
