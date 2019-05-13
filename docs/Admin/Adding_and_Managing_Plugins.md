@@ -41,6 +41,10 @@ If you are using [Reclaim Hosting](https://reclaimhosting.com/) they have [step-
 
 Upgrading Plugins
 -----------------
+When your plugin is out of date, a notification will appear at the bottom of the plugin's entry on your Plugins page. The notification reads "A new version of this plugin is available. Get the new version." Clicking the phrase "get the new version" will take you to a page where you can download the latest version of the plugin. 
+
+![Entry for the plugin COinS, display the out of date notification below the usual information for the plugin](/doc_files/plugin_updatenotice.png)
+
 In order to upgrade a plugin, you will need to use your FTP client to replace the old plugin folder with the new one. 
 
 The following are detailed instructions for upgrading a plugin. 
