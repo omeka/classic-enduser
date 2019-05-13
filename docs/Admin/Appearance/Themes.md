@@ -22,10 +22,28 @@ To add and activate a new plugin for your Omeka installation, follow these steps
 9.  Click "Use This Theme" to finish the process.
     - Click “Configure Theme” if desired.
 
+Selecting a Theme
+-------------------------------------------------------------
+You can browse the themes you have installed for your Omeka Classic site by going to the Appearance tab in the upper admin navigation. The Themes tab in the Appearance section will be the first which loads. 
+
+This page displays your active theme at top, with all available themes in a grid below.
+
+![Appearance Theme tab. The active theme is Center Row. Also visible are Santa Fe, Rhythm, and Minimalist in a row with smaller thumbnails.](/doc_files/browse_themes.png)
+
+The active theme is displayed at top, with a preview of the the theme's appearance, a summary of its features, and a button to configure the theme (see below). 
+
+If the active theme is out of date, you will see a message under the active theme summary stating "A new version of this theme is available. Get the new version." The phrase "get the new version" is a link to the page where you can download the latest version of your theme. To update, simply follow the installation instructions above, replacing the outdated theme folder with the new one.
+
+![Active theme Emiglio showing the needs update message as described above.](/doc_files/theme-needsupdate.png)
+
+To select a new theme, find the theme you want among those installed on your Omeka Classic site, and click the green "Use this theme" button displayed between the theme's thumbnail and its title. In the image below, the arrow is pointing at the button to activate Rhythm as the site's theme.
+
+![a row of three themes - Santa Fe, Center Row, and Rhythm. A red arrow points at the "Use this theme" button for Rhythm.](/doc_files/theme_activate.png)
+
+
 Configuring a Theme
 ----------------------------------------------------------------
-Configurations let you make choices about the look of your site,
-including adding a logo and homepage text, managing featured elements, and adding footer text. 
+Configurations let you make choices about the look of your site, including adding a logo and homepage text, managing featured elements, and adding footer text. 
 
 The configuration settings you make are unique to each theme and will be saved with that theme. Not all themes have the same configuration settings. 
 
