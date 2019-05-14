@@ -10,7 +10,7 @@ Storage Adapters
 
 Omeka's storage system is based on "adapters." An adapter is simply a method for storing and accessing files, and Omeka ships with two adapters out of the box.
 
-The default adapter is the Fileystem adapter, and it just stores files on the local server. If you haven't explicitly chosen an adapter to use, you're using this one, and it's the right choice for most users, especially if you're not sure which you want to use.
+The default adapter is the Filesystem adapter, and it just stores files on the local server. If you haven't explicitly chosen an adapter to use, you're using this one, and it's the right choice for most users, especially if you're not sure which you want to use.
 
 The second adapter included with Omeka is the ZendS3 adapter, which uses Zend Framework code for storing files on Amazon's S3 storage service. This is a more complex adapter, and it requires you to sign up for S3, but it can be the right choice if you have constrained local storage and a large set of files to deal with, or just want to store files remotely for whatever reason.
 
@@ -75,6 +75,8 @@ set at least some settings.
 
 The ZendS3 adapter requires you to have an [Amazon S3][3] bucket set up.
 
+
+
 #### `accessKeyId`
 
 Your AWS access key ID. If you are unsure about what this is or how to get it,
@@ -118,6 +120,10 @@ here. Amazon's documentation lists the [S3 endpoints for different regions][2].
 
 **Note:** The ZendS3 adapter only supports "Version 2" authentication. Regions listed
 as "Version 4 only" in the linked table cannot be used with the ZendS3 adapter.
+
+### `forceSSL`
+
+This setting will use HTTPS urls for files stored in S3. It is useful to prevent mixed content errors/warnings when the Omeka site is accessed via HTTPS.
 
 Setting the Temporary Directory
 -------------------------------
