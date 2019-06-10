@@ -8,6 +8,8 @@ Omeka API Import requires Omeka Classic 2.0 or higher for the target site. The o
 
 The origin Omeka Classic installation does not need to have the Omeka API Import plugin installed, but it does need to have [the API activated](../Admin/Settings/API_Settings.md). To do this, the owner of the origin Omeka Classic installation should go to the API tab under Settings, accessed via the top navigation bar on the administrative dashboard. Ensure that the “Enable API” box is checked.
 
+To find the API url of the origin Omeka Classic installation, go to the home page of that installation. Add `/api` to the end of the url. You should see a page with the message "This is the endpoint URL for [name of origin site]" and links to the site information and available API resources. To confirm that the API is enabled, click on the link for available API resources; if you see `{"message":"API is disabled"}`, then you will not be able to import from this site.
+
 Installation 
 ---------------------------------------------------------------
 You can download the latest version of Omeka API Import from the Omeka Classic Plugin Directory. To add the plugin to your Omeka site, follow the [plugin installation instructions](../Admin/Adding_and_Managing_Plugins.md) page.
@@ -22,7 +24,7 @@ Importing
 Without a key from the origin site, you can import all public items and collections, including their files.
 
 1.  From the target Omeka Classic installation, where the plugin has been installed, go to the Omeka API Import tab on the left hand navigation of your administrator dashboard.
-2.  Enter the API url of the origin Omeka installation (the base url with “/api” at the end, for example `http://originomeka.org/api`). You must include the http://
+2.  Enter the API url of the origin Omeka installation (the base url with “/api” at the end, for example `http://originomeka.org/api`). You must include the http://. See the Requirements section above for more information on finding the correct API url. 
 3.  Ignore the API Key field, since you are not using it.
 4.  If you want to import annotations and changes to the element set on the target installation, check the Override Element set data checkbox. Note: this will overwrite all existing Element Set annotations and changes.
 5.  Click Submit.
