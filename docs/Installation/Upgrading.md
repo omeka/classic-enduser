@@ -2,7 +2,7 @@
 title: Upgrading
 ---
 
-Please note that in order to update from a pre-2.0 version of Omeka Classic, you must be running at least 1.2.1. If you are running an earlier version of Omeka Classic, please first upgrade to 1.2.1 (link). You can then upgrade directly to the latest version of Omeka Classic.
+Please note that in order to update from a pre-2.0 version of Omeka Classic, you must be running at least 1.2.1. If you are running an earlier version of Omeka Classic, please first upgrade to [1.2.1](https://github.com/omeka/Omeka/tree/1.2.1). You can then upgrade directly to the latest version of Omeka Classic.
 
 1.  Always **back up your database** in case something goes wrong during the upgrade. For instructions, see [Backing up an Omeka Database](../Technical/Backing_up_an_Omeka_Database.md).
 2.  **Deactivate your plugins** in Settings &gt; Plugins of the administrative panel.
