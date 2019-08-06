@@ -2,7 +2,7 @@ The Exhibit Builder plugin allows you to develop online exhibits, or special web
 
 Exhibits are composed of pages, generally an initial page that introduces your exhibit and subsequent pages composed of the items from your Omeka Classic database that you wish to highlight and/or relate to each other. Exhibit Builder exhibits may be as short as one page or consist of multiple pages. You can make the pages of an exhibit hierarchical.
 
-The layout of exhibits in Exhibit Builder 3.x is highly customizable, with the pages composed of smaller units called blocks. There are three content block types which come with Exhibit Builder 3.x: file with text, gallery, and text block.
+The layout of exhibits in Exhibit Builder is highly customizable, with the pages composed of smaller units called blocks. There are four basic content block types which come with Exhibit Builder: file with text, gallery, text, and file.
 
 Other plugins may include their own Exhibit Builder block layouts, if the developer has created them.
 
@@ -54,7 +54,7 @@ Pages
 -------------------------------------------------
 Once you have created an exhibit you can add pages to it by clicking the Add Page button at the bottom of the Exhibit Metadata page.
 
-![Arrow points to the Add Page button](/doc_files/plugin_images/Ebaddp.png)
+![Arrow points to the Add Page button](/doc_files/plugin_images/Ebaddp.jpg)
 
 Once on the Add Page screen, add the following:
 
@@ -73,7 +73,7 @@ You can also delete pages from the Exhibit Metadata page through a two-step proc
 
 Content
 -----------------------------------------------------
-Pages are made up of combinations of smaller content units called 'blocks.' There are four basic kinds of blocks: item(s) with text, an item gallery, text only, or a geolocation map (if you have installed the Geolocation plugin). Each page can have one or more content blocks.
+Pages are made up of combinations of smaller content units called 'blocks.' There are four basic kinds of blocks: item(s) with text, an item gallery, text only, and file only. Each page can have one or more content blocks.
 
 The **File with Text** block allows you to pair fullsize or thumbnail files of your items with a block of text. The item files will all be the same size. Text will appear either to the right or left of the item(s). You can use a single item file paired with text, or have multiple item files to the right or left of a block of text.
 
@@ -81,9 +81,13 @@ The **Gallery** block creates a gallery of item files, generally large square th
 
 The **Text** block allows you to create a section of text which spans the width of the entire page.
 
+The **File** block allows you to add larger files as a separate block.
+
 ![Select block dialog with options as described above](/doc_files/plugin_images/eb_selectblock.jpg)
 
 To add a content block, select the layout you want in the New Block dialog box. Once you have selected the kind you want, click the "Add new content block" button. You will have a new block on the page to configure your content.
+
+Some plugins, such as [Geolocation](Geolocation.md) and [Exhibit Image Annotation](ExhibitImageAnnotation) will create additional block types which you can select when building a page.
 
 ### Adding Items
 - If you have selected any block other than Text, choose an item by clicking the large plus sign button titled *Add Item* appearing in the Items area.
