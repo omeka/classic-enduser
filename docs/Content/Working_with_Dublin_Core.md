@@ -16,7 +16,7 @@ Interpreting Dublin Core Fields in Omeka Classic
 
 The following Dublin Core fields are available in Omeka, together with some suggestions on interpreting the fields. The fields are vague by design so please consult with the [DCMI element descriptions](http://dublincore.org/documents/usageguide/elements.shtml) to be sure you are fulfilling the demands of your project. You may also want to review the detailed breakdown of [item types](/Content/Item_Types/) with examples and a list of their item type metadata elements.
 
-Read one example of Dublin Core interpretations from the [North Carolina Exploring Culture and Heritage Online](http://www.digitalnc.org/about/participate/describe/) project.
+Read one example of Dublin Core interpretations from the [North Carolina Exploring Culture and Heritage Online](https://www.digitalnc.org/partners/describing-your-materials/) project.
 
 ### Title
 
