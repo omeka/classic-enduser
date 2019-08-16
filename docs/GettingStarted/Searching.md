@@ -38,7 +38,7 @@ Advanced Search, which will only search the items in your Omeka Classic installa
 
 ![Search options, with the ellipses expanded. There is a red 1 just under the ellipses. At the bottom of the window, below the options for search query type and record types, a red 2 is next to the "Advanced Search" link](/doc_files/searchExpanded.png)
 
-To access the advanced search, click on the ellipses (…) button to the right of the basic search bar (1) and then click the link to “Advanced Search (Items Only)” (2)
+To access the advanced search, click on the ellipses (…) button to the right of the basic search bar and then click the link to “Advanced Search (Items Only)”.
 
 The “Search Items” page will load. It presents a variety of options for advanced searching across all items. You do not need to complete all fields, only as many as you want.
 
@@ -70,11 +70,13 @@ Advanced Search options are:
 - **Public/Non-Public**: dropdown with options for each
 - **Featured/Non Featured**: dropdown with binary options
 
-If you have [the Geolocation plugin](../Plugins/Geolocation.md) installed, Advanced Search will also include the following options:  
+If you have [the Geolocation plugin](../Plugins/Geolocation.md) installed, Advanced Search will also include the following options:
+
 - **Geographic Address**: search for items at an address (text field)
 - **Geographic Radius**: proximity to the address given above, in miles. 
 
-If you have [the Exhibit Builder plugin](../Plugins/ExhibitBuilder.md) installed, advanced search will include the following option:  
+If you have [the Exhibit Builder plugin](../Plugins/ExhibitBuilder.md) installed, advanced search will include the following option:
+
 - **Search by Exhibit**: a dropdown of exhibits. This will find all items used in the specified exhibit.
 
 Troubleshooting
