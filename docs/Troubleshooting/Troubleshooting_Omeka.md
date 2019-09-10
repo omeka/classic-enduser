@@ -4,7 +4,7 @@
 
 If you follow a link in Omeka Classic and you get a 404 error, page not found, or an error saying the URL is not valid, this is likely caused by a `mod_rewrite` problem on your server. 
 
-![screenshot of a webpage displaying the message "Not Found. The requested URL was not found on this server" ](/doc_files/htaccess_error.png)
+![screenshot of a webpage displaying the message "Not Found. The requested URL was not found on this server" ](../doc_files/htaccess_error.png)
 
 There are two possibilities:
 

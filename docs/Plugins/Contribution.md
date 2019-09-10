@@ -40,7 +40,7 @@ Contribution is managed from the plugin's tab on the left-hand navigation of the
 
 The Contribution section has four tabs: Getting Started, Contribution Types, Submission Settings, and Contributions. 
 
-![Contribution tab, open to Getting Started](/doc_files/plugin_images/contribution_main.png)
+![Contribution tab, open to Getting Started](../doc_files/plugin_images/contribution_main.png)
 
 ### Getting Started
 The *Getting Started* tab offers instructions for setting up for the form and submission settings.
@@ -54,13 +54,13 @@ The Contribution Types section is where you choose what type of items users can 
 - whether *File Upload* is allowed, disallowed, or required; and
 - an *Edit* button. 
 
-![Contribution Types table](/doc_files/plugin_images/contribution_types1.png)
+![Contribution Types table](../doc_files/plugin_images/contribution_types1.png)
 
 Click *Edit* to add or change data collection for a specific type. Click *Add* to create a new type to collect. 
 
 On the Add/Edit screen for Contribution Types, there are fields for the display name and form upload, and a series of element inputs for the data you will collect from contributors. 
 
-![Contribution type Story edit page](/doc_files/plugin_images/contribution_story.png)
+![Contribution type Story edit page](../doc_files/plugin_images/contribution_story.png)
 
 Options are:
 
@@ -83,7 +83,7 @@ You can edit any element's prompt or multiple row setting at any time.
 
 To delete an element, click the X button in the right corner of the block and save changes. If you accidentally click the delete button, you can click again (the X changes to an undo arrow) to restore the block.
 
-![two blocks](/doc_files/plugin_images/contribution_addEl.png)
+![two blocks](../doc_files/plugin_images/contribution_addEl.png)
 
 In the above image, the upper block has marked for deletion - note that the header for the block is highlighted in red. The lower block is the add element block option with the dropdown open.
 
@@ -103,7 +103,7 @@ In this section, you set the contribution options for your form, including an op
 
 **Terms of Service**
 
-- *Terms of service*: paste in text of language of consent for anyone contributing to the site, or make a short statement linking to a [Simple Page](/SimplePages) with a longer terms of service statement. 
+- *Terms of service*: paste in text of language of consent for anyone contributing to the site, or make a short statement linking to a [Simple Page](SimplePages.md) with a longer terms of service statement. 
 
 **Contributor anonymity settings**
 Two checkboxes allow an Administrator to set the user requirements for submitting contributions. 
@@ -129,7 +129,7 @@ The boxes work together as follows:
 
 **If User Profiles is installed**
 
-- If you’re collecting user data with the [User Profiles](/UserProfiles) plugin, you must select which profile to make available for your contribution users. See below for more information about creating a user profile.
+- If you’re collecting user data with the [User Profiles](UserProfiles.md) plugin, you must select which profile to make available for your contribution users. See below for more information about creating a user profile.
 
 Remember to save changes. 
 

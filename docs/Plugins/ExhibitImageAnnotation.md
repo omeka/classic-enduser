@@ -12,7 +12,7 @@ First, add an image annotation block:
 1. In the New Block selection, click Image Annotation and click "Add new content block."
 2. This will add a new block with the label *Image Annotation* 
 
-![a red arrow points to the Image Annotation block in a set of five beige blocks at the bottom of an Omeka Exhibit page](/doc_files/plugin_images/eximageanno_addblock.png)
+![a red arrow points to the Image Annotation block in a set of five beige blocks at the bottom of an Omeka Exhibit page](../doc_files/plugin_images/eximageanno_addblock.png)
 
 Next, add an image to the block by clicking the Add Item button. Select from the image files in your site, just as you would adding content to any exhibit page block.  
 

@@ -41,9 +41,9 @@ To import, go to the CSV Import tab in the left navigation bar in the admin Dash
 - You can also *Select Collection* to which to add the imported items.
 - There are two checkboxes to make all of the imported items *Public* and/or *Featured*
 
-![Basic import settings](/doc_files/plugin_images/CSV1.png)
+![Basic import settings](../doc_files/plugin_images/CSV1.png)
 
-![Alternate character settings](/doc_files/plugin_images/CSV2.png)
+![Alternate character settings](../doc_files/plugin_images/CSV2.png)
 
 - The next four fields are for those who are not using a standard csv for their data:
     - If you are not using commas to separate your columns, enter the character you are using instead in the *Choose Column Delimiter* . Note: You may not use a tab or an empty space.
@@ -64,7 +64,7 @@ For each row in the table (which corresponds to a column in your original CSV) y
 - Click the *Files?* to map this data as a [file](../Content/Files.md) import. 
 
  
-![Mapping elements](/doc_files/plugin_images/CSV3.png)
+![Mapping elements](../doc_files/plugin_images/CSV3.png)
 
 Click the Import CSV File button to complete the import.
 
@@ -78,7 +78,7 @@ To undo an import:
 -   Click the Status tab.
 -   Click the Undo link for the Import you want to undo. This will delete all items for this import.
 
-![CSVUndo.png](/doc_files/plugin_images/CSVUndo.png)
+![CSVUndo.png](../doc_files/plugin_images/CSVUndo.png)
 
 If your import hangs without completing for an extended period but the link to undo the import does not appear, you can enter the link directly into your browser address bar according to the following example: `http://yourinstallurl/admin/csv-import/index/undo-import/id/idnumberforimport`
 

@@ -3,7 +3,7 @@ User Profiles is designed to address many different situations in which gatherin
 -   Create structured, consistent information about the creators of the site.
 -   Give credit to researchers by having them create profiles that are automatically linked to from the items they add.
 -   If commenting is used for discussion, create profiles for the moderators.
--   If the [Guest User](/GuestUser) plugin is installed and active, guest users who comment could also create profiles.
+-   If the [Guest User](GuestUser.md) plugin is installed and active, guest users who comment could also create profiles.
 
 [There is a screencast for this plugin](https://vimeo.com/165052886)
 

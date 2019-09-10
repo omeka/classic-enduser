@@ -7,7 +7,7 @@ Configuring
 ---------------------------------------------------------------
 Once you have [installed](../Admin/Adding_and_Managing_Plugins.md) the Docs Viewer plugin, select Plugins in the top navigation of your admin. Activate your plugin and select Configure.
 
-![DocsViewer configuration options](/doc_files/plugin_images/Docvoptions.png)
+![DocsViewer configuration options](../doc_files/plugin_images/Docvoptions.png)
 
 The configuration page gives you options for where you'd like the Docs Viewer plugin to appear on either or both the Admin or the public views of your site.
 

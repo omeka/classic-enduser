@@ -1,6 +1,6 @@
 The Settings sub-tab in the Appearance section help you to manage derivative image sizes and adjust some of the display settings for items on the public and admin sides. It is divided into two sections: *Derivative Size Constraints* and *Display Settings*
 
-![All appearance settings, screen cap.](/doc_files/appearSettings.png)
+![All appearance settings, screen cap.](../../doc_files/appearSettings.png)
 
 Derivative Size Constraints
 ----------------------------------------------------------------
@@ -34,8 +34,8 @@ These settings relate to the display of results on the public and admin sides an
 
 **Show Empty Elements** determines whether you want to show empty metadata fields on the public pages. The default setting is unchecked. If you wish show all metadata (empty and filled) fields, check this box. The image below shows how empty elements display on a public item show page.
 
-![Item show page with empty elements displayed. Each empty element has “no text” where the input would be](/doc_files/showEmptyElm.png)
+![Item show page with empty elements displayed. Each empty element has “no text” where the input would be](../../doc_files/showEmptyElm.png)
 
 **Show Element Set Headings** Unchecking this box will remove the element set headings (e.g. "Dublin Core," "Person Item Type Metadata") from display on the public pages of the site, uncheck this box. The default setting is checked. The image below shows the Dublin Core heading on a public item show page.
 
-![Item show page with heading Dublin Core above item title](/doc_files/showElmSet.png)
+![Item show page with heading Dublin Core above item title](../../doc_files/showElmSet.png)

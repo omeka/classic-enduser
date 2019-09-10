@@ -7,7 +7,7 @@ Configuring
 ---------------------------------------------------------------
 Before you can use the Commenting plugin, you must activate and configure it from the Browse Plugins page. To configure, click the blue “Configure” button beside the plugin on the Browse Plugin page. You will be prompted to select your security, moderation, and commenting preferences.
 
-![Configuration settings](/doc_files/plugin_images/commenting_config.png)
+![Configuration settings](../doc_files/plugin_images/commenting_config.png)
 
 The configuration options are:
 
@@ -23,7 +23,7 @@ The configuration options are:
 
 **WordPress API key for Akismet**: If you are allowing public, unmoderated commenting and you have a WordPress account, you can use your [Akismet](http://akismet.com/) API key for spam management. You may use a key you are currently implementing on a blog or another site that collects public feedback, provided that that key is not site-specific in the key settings on the Akismet site. 
 
-In addition to Akistmet, you may want to set up [reCAPTCHA](/Admin/Settings/ReCaptcha) for your Omeka site, found in the [Security Settings](Admin/Settings/Security_Settings). 
+In addition to Akistmet, you may want to set up [reCAPTCHA](../Admin/Settings/ReCaptcha) for your Omeka site, found in the [Security Settings](../Admin/Settings/Security_Settings). 
 
 **New comment notification emails**: Use this field to enter the emails to which a notification of new comments should be sent. Enter one email per line. 
 
@@ -31,7 +31,7 @@ Commenting
 --------------------------
 On most themes, the fields for leaving a comment will appear below item metadata. 
 
-![Empty comment on the public side. Fields for Name, Website, and Email appear above a large text box for the visitor to leave a comment. Below the comment field is a reCAPTCHA "please verify you're human" checkbox" and the submit button](/doc_files/plugin_images/commenting-public.png)
+![Empty comment on the public side. Fields for Name, Website, and Email appear above a large text box for the visitor to leave a comment. Below the comment field is a reCAPTCHA "please verify you're human" checkbox" and the submit button](../doc_files/plugin_images/commenting-public.png)
 
 Moderating Comments
 ------------------------------------------------------
@@ -51,16 +51,16 @@ Administrators may delete offensive or unwanted comments from the newly-added Co
 -   Then select the appropriate status you wish to assign to all of the comments.
 -   These changes will be automatically saved, and may be changed at any time
 
-![Approving comments](/doc_files/plugin_images/CommentingApprove.png)
+![Approving comments](../doc_files/plugin_images/CommentingApprove.png)
 
 User Flagging 
 -------------------------------------------------------
 
 Logged-in users may flag any comments they feel are inappropriate or may be spam. To do that, logged-in users should click the 'Flag Inappropriate" link for the comment in question:
 
-![A spam comment reading "I've got a bridge to sell you"](/doc_files/plugin_images/commenting-spam.png)
+![A spam comment reading "I've got a bridge to sell you"](../doc_files/plugin_images/commenting-spam.png)
 
-![The same comment as above, now highlighted in red and marked as flagged](/doc_files/plugin_images/commenting-flagged.png)
+![The same comment as above, now highlighted in red and marked as flagged](../doc_files/plugin_images/commenting-flagged.png)
 
 That comment will be flagged as potential spam and/or inappropriate. It will only be visible to users with permission to manage comments. From the public interface, users with permission to manage comments can simply unflag the comment if it is not acceptable. If further action is needed, those users can go to the admin interface to unapprove or delete the comment if it is indeed inappropriate, report it as spam, or unflag it if it not spam or inappropriate.
 

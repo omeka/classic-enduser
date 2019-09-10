@@ -166,7 +166,7 @@ At the top of the page is a header containing the file ID \# and file title; for
 ## Plugin Shortcodes
 
 ### Exhibit Builder
-These shortcodes require the [Exhibit Builder](/Plugins/ExhibitBuilder.md) plugin.
+These shortcodes require the [Exhibit Builder](../Plugins/ExhibitBuilder.md) plugin.
 
 #### Exhibits
 The exhibits shortcode will return one or multiple exhibits.
@@ -195,7 +195,7 @@ General Options:
 - `num`
 
 ### Geolocation
-The [geolocation](../Plugins/Geolocation) shortcode will create a map of items based on parameters it is given.
+The [geolocation](../Plugins/Geolocation.md) shortcode will create a map of items based on parameters it is given.
 
 The shortcode is `[geolocation]`. Without any additional parameters, it will return a map of all items that contain geolocation data, limited by the records per page as set in the Geolocation plugin configuration.
 
@@ -240,7 +240,7 @@ A shortcode that leveraged all of the possible parameters would look like `[geol
 
 ### Shortcodes Carousel
 
-Requires the [Shortcode Carousel plugin](../Plugins/ShortcodeCarousel).
+Requires the [Shortcode Carousel plugin](../Plugins/ShortcodeCarousel.md).
 
 The plugin adds a shortcode to create a carousel of items using [jCarousel](http://sorgalla.com/jcarousel/)
 
@@ -249,7 +249,7 @@ The basic shortcode is `[carousel]`.
 `[recent_carousel]` and `[featured_carousel]` are shortcuts to
 creating a carousel of recent and featured items, respectively.
 
-The same options available for the [Items](../Content/Shortcodes#items) shortcode are available for the carousel, with the exception that `has_image` is always assumed to be true.
+The same options available for the [Items](#items) shortcode are available for the carousel, with the exception that `has_image` is always assumed to be true.
 
 **Options**
 

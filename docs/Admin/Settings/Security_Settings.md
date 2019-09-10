@@ -5,7 +5,7 @@ To manage Security Settings, select Settings in the top navigation bar.
 
 In the Settings section, choose Security. Only Super users may edit these settings.
 
-![Arrow pointing to Security sub tab in Settings](/doc_files/Securitynav2.png)
+![Arrow pointing to Security sub tab in Settings](../../doc_files/Securitynav2.png)
 
 Security settings enable you to determine the file formats and html markup allowed on your Omeka Classic site and to set Captcha controls to protect your site from automated spam.
 
@@ -15,7 +15,7 @@ File Validation
 -------------------------------
 This section sets the rules for the files which can be uploaded to the Omeka Classic site. 
 
-![File validation section, all fields](/doc_files/securityFile.png)
+![File validation section, all fields](../../doc_files/securityFile.png)
 
 The **Disable File Upload Validation** box is unchecked by default. Leaving the box unchecked allows you to limit file uploads to specific extensions and MimeTypes.
 
@@ -36,7 +36,7 @@ reCAPTCHA
 -----------------------------------------------------
 reCAPTCHA is an option to reduce spam on your site if you are using a plugins requiring public forms on your Omeka site such as the Contribution plugin and Simple Contact. 
 
-![Example of a public side captcha in action](/doc_files/Captcha.png)
+![Example of a public side captcha in action](../../doc_files/Captcha.png)
 
 In order to use reCAPTCHA, you will need to [sign up for Captcha key](http://www.google.com/recaptcha) to reduce spam on your site. Once you sign up, you can enter your site and secret keys in their respective fields. 
 
@@ -52,7 +52,7 @@ By default, all HTML elements and attributes are allowed in Omeka Classic when t
 
 If you would like to limit the use of html, place a check in that box. When you enable HTML filtering, only elements listed in the Allowed HTML Elements and the Allowed HTML Attributes fields will function on your site.
 
-![Filtering checkbox and Elements text field](/doc_files/Securityallelements.png)
+![Filtering checkbox and Elements text field](../../doc_files/Securityallelements.png)
 
 You may add or delete HTML elements and attributes in the **Allowed HTML Elements** field (in the image above, the paragraph element is deleted from the list of Allowed HTML Elements).
 Selecting Restore default buttons returns your allowed elements or attributes to the original listing. To revert to your edited selections, click the Undo button.

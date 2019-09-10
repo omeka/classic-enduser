@@ -28,17 +28,17 @@ You can browse the themes you have installed for your Omeka Classic site by goin
 
 This page displays your active theme at top, with all available themes in a grid below.
 
-![Appearance Theme tab. The active theme is Center Row. Also visible are Santa Fe, Rhythm, and Minimalist in a row with smaller thumbnails.](/doc_files/browse_themes.png)
+![Appearance Theme tab. The active theme is Center Row. Also visible are Santa Fe, Rhythm, and Minimalist in a row with smaller thumbnails.](../../doc_files/browse_themes.png)
 
 The active theme is displayed at top, with a preview of the the theme's appearance, a summary of its features, and a button to configure the theme (see below). 
 
 If the active theme is out of date, you will see a message under the active theme summary stating "A new version of this theme is available. Get the new version." The phrase "get the new version" is a link to the page where you can download the latest version of your theme. To update, simply follow the installation instructions above, replacing the outdated theme folder with the new one.
 
-![Active theme Emiglio showing the needs update message as described above.](/doc_files/theme-needsupdate.png)
+![Active theme Emiglio showing the needs update message as described above.](../../doc_files/theme-needsupdate.png)
 
 To select a new theme, find the theme you want among those installed on your Omeka Classic site, and click the green "Use this theme" button displayed between the theme's thumbnail and its title. In the image below, the arrow is pointing at the button to activate Rhythm as the site's theme.
 
-![a row of three themes - Santa Fe, Center Row, and Rhythm. A red arrow points at the "Use this theme" button for Rhythm.](/doc_files/theme_activate.png)
+![a row of three themes - Santa Fe, Center Row, and Rhythm. A red arrow points at the "Use this theme" button for Rhythm.](../../doc_files/theme_activate.png)
 
 
 Configuring a Theme
@@ -47,7 +47,7 @@ Configurations let you make choices about the look of your site, including addin
 
 The configuration settings you make are unique to each theme and will be saved with that theme. Not all themes have the same configuration settings. 
 
-![In image, mouse is hovering over the configure button for a theme](/doc_files/Themeconfigureclick.png)
+![In image, mouse is hovering over the configure button for a theme](../../doc_files/Themeconfigureclick.png)
 
 To configure your theme, click the "Configure Theme" button below the theme graphic to customize your site. While not all themes have the same configuration settings, most will have the following two sections: 
 
@@ -58,7 +58,7 @@ To configure your theme, click the "Configure Theme" button below the theme grap
 - *Footer text.* An HTML-enabled text box where you can enter text for a site footer to appear on every page. 
 - *Display copyright in footer.*  Check this box if you wish to display your site’s copyright information in the footer. Site copyright information is found in the [General Settings](../Settings/General_Settings.md) section.
 - *Use Advanced Site-wide search.* Check this box to allow public-side site visitors to search the whole site, including items, collections, and files, and to use boolean methods when searching.
-![Header and footer configuration options](/doc_files/themeHFConfig.png)
+![Header and footer configuration options](../../doc_files/themeHFConfig.png)
 
 *Homepage* configuration options:
 
@@ -68,7 +68,7 @@ To configure your theme, click the "Configure Theme" button below the theme grap
 - *Homepage Recent Items.* Choose the number of recent items to be displayed on the homepage. These will appear in the order in which they were mostly recently added to the archive.
 -   *Homepage Text*. Add some text to be displayed on your homepage above the Featured Items. This is a good place to add a very short tagline or description of your site. Save longer explanations for an About page.
 
-![Homepage configuration options](/doc_files/themeHomeConfig.png)
+![Homepage configuration options](../../doc_files/themeHomeConfig.png)
 
 Additional Configuration Options:
 

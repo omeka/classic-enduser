@@ -10,7 +10,7 @@ Using the Dropbox plugin
 3.  Once activated, the Dropbox plugin creates a tab found on the left side menu under Dashboard in admin.
 4.  FTP files you wish to upload to the /files folder located on the server (/plugins/Dropbox/files/). The list of files will appear in files tab when adding or editing items,and under the Dropbox tab available from the /admin screen (.../admin/dropbox).
 
-![Files available via the dropbox plugin ](/doc_files/plugin_images/Dropbox.jpg)
+![Files available via the dropbox plugin ](../doc_files/plugin_images/Dropbox.jpg)
 
 Batch Adding Files As Items 
 -----------------------------------------------------------------
@@ -24,7 +24,7 @@ To add dropbox files to items, add or edit an item(.../items/add or .../items/ed
 
 Check the box, or boxes, of the file(s) you wish to associate with that particular item. You may associate multiple files with that item. Click Add Item or Save Changes button to complete the file adding process.
 
-![Adding an item via the Files tab in item/edit](/doc_files/plugin_images/Dropboxitem.png)
+![Adding an item via the Files tab in item/edit](../doc_files/plugin_images/Dropboxitem.png)
 
 You may add files from the dropbox at any point during the adding or editing process.
 

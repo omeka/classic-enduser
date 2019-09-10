@@ -8,7 +8,7 @@ Superusers can choose whether to enable the API in the API tab under Settings in
 -   By default the API will be enabled, but you can un-check the box if you wish to disable the API.
 -   Super users may also adjust the number of results per page (default: 50).
 
-![Configure API with mouse over the “Enable API” checkbox](/doc_files/Api_settings.jpg)
+![Configure API with mouse over the “Enable API” checkbox](../../doc_files/Api_settings.jpg)
 
 Plugins can also make their data available via the API. The chart shows what resources and actions can be performed via the API. In the screenshot, you can see that in addition to data about items,
 collections, tags, etc. being available via the API, the Exhibit Builder plugin is also installed, and that information about exhibits and individual exhibit pages is exposed through the API.
@@ -25,5 +25,5 @@ The chart shows only what is possible via the API. So, for example, it shows tha
 - Find the user, and click on *edit* for their profile.
 - Click "API Keys" in the tabs at the top of the page.
 - Give the new key a label (best practices are to describe how it will be used). Then click the green *Update API Keys* button.
-![API Key dialog](/doc_files/Api_key_2.jpg)
+![API Key dialog](../../doc_files/Api_key_2.jpg)
 - The page should reload with an API key generated.

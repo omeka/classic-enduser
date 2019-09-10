@@ -3,7 +3,7 @@ title: Managing Plugins
 ---
 Plugins are tools to extend the basic functionality of Omeka Classic. A list of plugins available for download is on the [Plugins Add-Ons Directory](http://omeka.org/classic/plugins) (Please note that not every plugin will work with every version of Omeka), and instructions are available on each plugin's documentation page.
 
-![Plugins page](/doc_files/Plugins.png)  
+![Plugins page](../doc_files/Plugins.png)  
 
 Manage plugins from the Plugins page found at the top of your Dashboard. Plugins will be listed alphabetically.  Each plugin listed will have links to perform various actions:
 
@@ -43,7 +43,7 @@ Upgrading Plugins
 -----------------
 When your plugin is out of date, a notification will appear at the bottom of the plugin's entry on your Plugins page. The notification reads "A new version of this plugin is available. Get the new version." Clicking the phrase "get the new version" will take you to a page where you can download the latest version of the plugin. 
 
-![Entry for the plugin COinS, display the out of date notification below the usual information for the plugin](/doc_files/plugin_updatenotice.png)
+![Entry for the plugin COinS, display the out of date notification below the usual information for the plugin](../doc_files/plugin_updatenotice.png)
 
 In order to upgrade a plugin, you will need to use your FTP client to replace the old plugin folder with the new one. 
 
@@ -66,7 +66,7 @@ Required Plugins
 ----------------
 Some plugins are designed to provide basic functionality that is useful for many other plugins. Such plugins are required to be installed and active for other plugins that depend on them to work. If you upload a plugin to your site but cannot activate it due to a message like this, simply install the required plugin following the usual steps above.
 
-![Example of a plugin which requires another plugin to be installed before it can be activated](/doc_files/pluginRequired.png) 
+![Example of a plugin which requires another plugin to be installed before it can be activated](../doc_files/pluginRequired.png) 
 
 Pre-packaged Plugins
 --------------------

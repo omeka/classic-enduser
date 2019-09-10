@@ -12,7 +12,7 @@ To perform a basic search, type the keyword you want to search for in the field 
 ### Search options
 To access the options for the basic search, click on the ellipses (...) button to the right of the search bar, next to the search (magnifying glass) button.
 
-![Search options, as seen on the public side](/doc_files/searchExpanded.png)
+![Search options, as seen on the public side](../doc_files/searchExpanded.png)
 
 The first set of options allows you to select a query type:
 
@@ -36,13 +36,13 @@ Advanced Search
 ----------------
 Advanced Search, which will only search the items in your Omeka Classic installation, is available on the admin sides, and on the public side if the *Use Advanced Site-Wide Search* option is checked in the [theme settings](../Admin/Appearance/Themes) 
 
-![Search options, with the ellipses expanded. There is a red 1 just under the ellipses. At the bottom of the window, below the options for search query type and record types, a red 2 is next to the "Advanced Search" link](/doc_files/searchExpanded.png)
+![Search options, with the ellipses expanded. There is a red 1 just under the ellipses. At the bottom of the window, below the options for search query type and record types, a red 2 is next to the "Advanced Search" link](../doc_files/searchExpanded.png)
 
 To access the advanced search, click on the ellipses (…) button to the right of the basic search bar and then click the link to “Advanced Search (Items Only)”.
 
 The “Search Items” page will load. It presents a variety of options for advanced searching across all items. You do not need to complete all fields, only as many as you want.
 
-![Public view of the advanced search options, as described in the list below. Text is all black, on a white background.](/doc_files/searchAdvancedP.png)
+![Public view of the advanced search options, as described in the list below. Text is all black, on a white background.](../doc_files/searchAdvancedP.png)
 
 Advanced Search options are:
 

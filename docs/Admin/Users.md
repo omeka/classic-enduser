@@ -1,10 +1,10 @@
 The Users section allows the Site Administrator to control who may access the admin section of the site and what they can do. You may add, delete, and assign categories of use.
 
-![Arrow points to ](/doc_files/Usersnav.png)
+![Arrow points to ](../doc_files/Usersnav.png)
 
 Manage users by clicking on the Users tab in the top navigation of your admin dashboard.
 
-![Browse users](/doc_files/Usersbrowse.png)
+![Browse users](../doc_files/Usersbrowse.png)
 
 The Browse Users screen shows the number of users, as well as the username, display name, email, and role for each user. The table displaying users can be sorted by any of those values. From this page, you may edit user information, delete users, or search existing users.
 
@@ -68,13 +68,13 @@ Edit Users
 ----------------------------------------------------------------
 To edit a user, click on the word Edit beneath the username in the Browse Users page. This will direct you to a new page with tab options labelled General, Change Password, and API Keys.
 
-![Edit User form](/doc_files/UserEdit.png)
+![Edit User form](../doc_files/UserEdit.png)
 
 On the General tab you can edit the username, display name, email, and role of the user. You can also toggle whether a user is active or inactive. Inactive users are not deleted, so the items, collections, and tags created by that user remain associated with their account, but the individual can not longer log into the site to make changes or create new data.
 
 The Change Password tab requires you to enter a new password twice, but does not require the user’s original password.
 
-![User API form](/doc_files/Usapi.png)
+![User API form](../doc_files/Usapi.png)
 
 To add an API key for a user, enter text for a label for the key in the field provided and then click “Update API Keys.” An API key will be generated and added to the page. To remove a key, click the checkbox in the Rescind column of keys.
 

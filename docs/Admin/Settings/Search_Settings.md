@@ -4,13 +4,13 @@ The Search Settings options allow you to set which types of records are automati
 
 Access the Search Settings tabs by going to the Settings tab in the top navigation (1) and then clicking over to Search (2):
 
-![Arrows labelled as above point to the tabs](/doc_files/searchsettingsloc.png)
+![Arrows labelled as above point to the tabs](../../doc_files/searchsettingsloc.png)
 
 ### Select Record Types
 
 As an Omeka Classic site Super administrator, you may choose which record types you wish to be searchable: items, collections, files. 
 
-![Search settings page, with Item, File, and Collection checkboxes active](/doc_files/Searchsettings.png)
+![Search settings page, with Item, File, and Collection checkboxes active](../../doc_files/Searchsettings.png)
 
 Using the checkboxes found to the left of each record type, choose which ones you want discoverable by the site-wide search. 
 
@@ -28,7 +28,7 @@ Be sure to save changes if you check or uncheck boxes.
 
 Once records types are selected, searchers use the ellipses button to choose from the options you have provided, in both admin and public site-wide searches.
 
-![Expanded search options](/doc_files/searchExpanded.png)
+![Expanded search options](../../doc_files/searchExpanded.png)
 
 ### Indexing 
 

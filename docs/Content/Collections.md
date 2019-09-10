@@ -13,7 +13,7 @@ Create a Collection
 
 Now that you have created a  you may associate an item with this collection, from the items/add or items/edit pages. Read more below.
 
-![New collection page, no metadata entered.png](/doc_files/collectionAdd.png)
+![New collection page, no metadata entered.png](../doc_files/collectionAdd.png)
 
 Adding Items to Collections
 -------------------------------------------------------------
@@ -27,11 +27,11 @@ Items can only be added to a collection from the Item's edit page or the browse 
 
 From the item edit page, use the dropdown menu on the right hand side, under the Save Changes button, to select a collection.
 
-![Dropdown menu in the item edit page is emphasized with a red arrow](/doc_files/collectionAddItem.png)
+![Dropdown menu in the item edit page is emphasized with a red arrow](../doc_files/collectionAddItem.png)
 
 From the Browse Items page, you can use the batch edit option to add multiple items to a collection, again using a dropdown menu to select the existing collection.
 
-![Dropdown menu in the batch item edit page is emphasized with a red arrow](/doc_files/collectionAddBatch.png)
+![Dropdown menu in the batch item edit page is emphasized with a red arrow](../doc_files/collectionAddBatch.png)
 
 
 Edit a Collection

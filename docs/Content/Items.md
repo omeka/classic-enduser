@@ -14,7 +14,7 @@ You may also want to think about what type of information you plan to share usin
 Add an Item 
 -------------------------------------------------------------
 
-![Add Item.png](/doc_files/itemAdd.png)
+![Add Item.png](../doc_files/itemAdd.png)
 
 From your items page (`mywebsite.org/admin/items`) click the "Add an Item" button.
 
@@ -37,7 +37,7 @@ This takes you to the admin/items/add page where you see a navigation bar across
 ###  Using HTML in Item Elements
 
 Each metadata field's text may be enhanced using basic HMTL tags. Check the HTML box below the text box to enable a visual HTML editor. 
-![Item element with Use HTML box ticked](/doc_files/itemHTML.png)
+![Item element with Use HTML box ticked](../doc_files/itemHTML.png)
 
 For more information about working with the HTML editor, please see [Using HTML Editor-TinyMCE](Using_HTML_Editor-TinyMCE)
 
@@ -53,7 +53,7 @@ Browse Items in Admin
 -------------------------------------------------------------
 Clicking on the Items tab from the Dashboard or /admin page takes you to a list of items. By default, these are sorted with most-recently added at the top.
 
-![Browse items view](/doc_files/itemBrowse.png)
+![Browse items view](../doc_files/itemBrowse.png)
 
 The browse items view displays items in a table. Each row is an item. There are columns for a checkbox (to select items for bulk actions), the item title, item creator, item type, and the date added. 
 
@@ -61,13 +61,13 @@ Click the paired up-down arrows next to the Title, Creator, and Date Added heade
 
 Note that Items that are not public will display (Private) next to the title, Items that are featured have a star inside the item’s title. The image below shows first a featured item (note the star), then a general public item, then a private item.
 
-![items browse view](/doc_files/itemsBrowsePF.png)
+![items browse view](../doc_files/itemsBrowsePF.png)
 
 Each item has buttons to view Details, Edit, or Delete just below its title. 
 
 To view the details of all items, click the Show Details button above the table of items. This will show the first few lines of the item’s Description as well as any associated tags.
 
-![Browse items with details shown](/doc_files/itemBrowseDet.png)
+![Browse items with details shown](../doc_files/itemBrowseDet.png)
 
 To search all items, click the Search Items button which takes you to an advanced item search page.
 
@@ -79,13 +79,13 @@ On the admin Browse Items page, items are displayed with limited metadata, inclu
 
 Find the item you want to edit in the list and click the *Edit* button below its title. 
 
-![A red arrow points to the Edit link for the item L. Frank Baum](/doc_files/itemEditlink.png)
+![A red arrow points to the Edit link for the item L. Frank Baum](../doc_files/itemEditlink.png)
 
 This opens an expanded edit page where you may make your edits. 
 
 Editing options are the same tabs as when you added the item. You can add new text, tags, files, and mapping or change exiting content.
 
-![Item edit window](/doc_files/itemEdit.png)
+![Item edit window](../doc_files/itemEdit.png)
 
 Make sure you click the "Save Changes" button so you don't lose your changes.
 
@@ -104,7 +104,7 @@ Batch Editing & Deleting
 -   Use the check boxes to the left of an item's title to select it for batch editing, or select the box to the left of the Title heading to select all items available on that page.
 -   Once items are checked, click the the Edit button; the items will open in an editing page where you may make changes.
 
-![Batch Edit.png](/doc_files/BatchEdit.png)
+![Batch Edit.png](../doc_files/BatchEdit.png)
 
 -   You may make the following changes for each batch of selected items:
     -   make public or private,

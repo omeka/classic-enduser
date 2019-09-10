@@ -2,7 +2,7 @@
 title: ExhibitBuilder 2.0
 ---
 
-**Note** This is an older version of Exhibit Builder and is no longer being updated. The current version of [Exhibit Builder is 3](/ExhibitBuilder)
+**Note** This is an older version of Exhibit Builder and is no longer being updated. The current version of [Exhibit Builder is 3](ExhibitBuilder.md)
 
 The Exhibit Builder plugin allows you to develop online exhibits, or special web pages, that combine items from your Omeka archive with narrative text.
 
@@ -79,7 +79,7 @@ Each page layout template offers a unique configuration for adding content to yo
 
 -   Select Attach an Item
 
-![Ebaddpopup.png](../doc_files/plugin_images/exhibitbuilder/Ebaddpopup.png)
+![Ebaddpopup.png](../doc_files/plugin_images/Ebaddpopup.png)
 
 -   A lightbox opens with a list of items from the archive for you to browse or to search.
 -   To add an item to the page, select the title, then select Attach Selected Item button in the bottom right of the lightbox. If the item you select includes multiple files, you will be asked to select the file you wish to attach to your exhibit page.

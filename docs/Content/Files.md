@@ -4,7 +4,7 @@ title: Managing Files 2.0
 
 When adding [items](Items.md) to your archive, often you will upload one or more files (images, documents, et al) associated with that item.
 
-![Files tab of the Add an Item ](/doc_files/filesAdd.png)
+![Files tab of the Add an Item ](../doc_files/filesAdd.png)
 
 File Types
 -------------------------------------------------------------
@@ -36,7 +36,7 @@ You may add full Dublin Core metadata for every file uploaded.
 
 To add metadata, click the Edit button found to the right of the file name in admin/items/edit. You also may view or edit file metadata from the admin/items/show by clicking the file name under the heading "File Metadata."
 
-![arrow points to the File Metadata box](/doc_files/filesMetadata.png)
+![arrow points to the File Metadata box](../doc_files/filesMetadata.png)
 
 Media Files
 ------------------------

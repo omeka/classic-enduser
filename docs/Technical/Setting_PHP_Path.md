@@ -4,7 +4,7 @@ title: Setting the PHP Path
 
 An invalid php path can cause a number of problems for your Omeka Classic installation. You need a valid php path to run plugins like CSV import and Neatline.
 
-By default, Omeka Classic tries to autodetect the php path for your server. However, if you have turned on [error messages](../Troubleshooting/Retrieving_Error_Messages) and the message starts with a phrase such as `The configured PHP path (/bin/php) is invalid`, then you need to set the path manually.
+By default, Omeka Classic tries to autodetect the php path for your server. However, if you have turned on [error messages](../Troubleshooting/Retrieving_Error_Messages.md) and the message starts with a phrase such as `The configured PHP path (/bin/php) is invalid`, then you need to set the path manually.
 
 To set your php path:
 
