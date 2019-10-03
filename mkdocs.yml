@@ -67,6 +67,7 @@ pages:
         - 'OAI-PMH Harvester': 'Plugins/OaipmhHarvester.md'
         - 'OAI-PMH Repository': 'Plugins/OaiPmhRepository.md'
         - 'Omeka API Import': 'Plugins/Omeka_API_Import.md'
+        - 'PB Core': 'Plugins/PBCore.md'
         - 'PDF Text': 'Plugins/PdfText.md'
         - 'Plugin Shortcodes': 'Plugins/Plugin_Shortcodes.md'
         - 'Posters': 'Plugins/Posters.md'
