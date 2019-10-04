@@ -14,7 +14,7 @@ Once the plugin is installed, PB Core elements are available in their own tab wh
 
 Users can complete as much or as little of the PB core as they wish. However, please note that if you do not provide a title in the Dublin Core Title element, the item will show up as `[Untitled]` throughout your site, even if the title display field in PB Core is filled.
 
-Each PB Core element has a description (from the standard) and an input field. Use the checkbox below the field to use HTML formatting in this field. For elements with multiple values, use the `Add Input` button on the left to create additional fields.  
+Each PB Core element has a description of the element (from the metadata standard) and an input field below. Use the checkbox below the field to use HTML formatting in this field. For elements with multiple values, use the `Add Input` button on the left to create additional fields.  
 
 One of the features of PBCore is the use of related sub-elements, such as `Contributor` and `Contributor Role`. If you have more than one value to add to an element that has a related sub-element, use the `Add Input` button to create a field for each value and be sure to enter the values in a consistent order so that they are properly associated. 
 
@@ -26,7 +26,7 @@ The nested elements will be captured in the PBCore XML output from Omeka. Howeve
 
 ### Adding Item File Metadata
 
-In addition to the item metadata, PBCore offers additional instantiation metdata fields for the item files.
+In addition to the item metadata, PBCore offers additional instantiation metadata fields for the item files.
 
 To access the instantiation fields, first add your file to the item and save. Once your file is attached to an item, you can edit the file metadata by clicking on "Files" from the top item menu and then "Edit" to the right of the desired file.
 
