@@ -34,6 +34,10 @@ To access the instantiation fields, first add your file to the item and save. On
 
 ![Edit view for the file showing the PBCore Instantiation metadata fields](../doc_files/plugin_images/pbCoreFileEdit.png)
 
+To assure that visitors can access the instantiation metadata that is connected to the files, go to the sitewide Appearances page and then to the Settings tab. Under settings check the box under "Display Settings" for "Link to File Metadata."
+
+![Settings view for sitewide appearances showing link to file metadata check box](..doc_files/plugin_images/linkfilemetadata.png)
+
 ## Uninstalling
 
 While you can uninstall PB Core just like any other plugin, doing so will not remove the PB Core elements from your Omeka site. 
