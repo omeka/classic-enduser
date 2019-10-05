@@ -26,9 +26,9 @@ The nested elements will be captured in the PBCore XML output from Omeka. Howeve
 
 ### Adding Item File Metadata
 
-In addition to the item metadata, PBCore offers additional instantiation metadata fields for the item files.
+In addition to the item metadata, PBCore offers additional instantiation metadata fields for the item files. Instantiation metadata can only be added if there is a file uploaded to the Omeka system. YouTube and Vimeo importers create an embed of the video file without actually importing the file. As a result, there is no way to add instantiation metadata about those resources.
 
-To access the instantiation fields, first add your file to the item and save. Once your file is attached to an item, you can edit the file metadata by clicking on "Files" from the top item menu and then "Edit" to the right of the desired file.
+To access the instantiation fields, first add your file to the item and save. Once your file is attached to an item, you can edit the file metadata by clicking on "Files" from the top item menu and then "Edit" to the right of the desired file. Additionally, if you are returning to add instantiation metadata to an item with attached files, the links to the file metadata appear in the right hand detail column of each item page.
 
 !["Files" view with the "Edit" button to the right of the image highlighted](../doc_files/plugin_images/pbCoreFile.png)
 
