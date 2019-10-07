@@ -57,8 +57,7 @@ To undo an import, find the url of the import that you wish to undo, check the b
 
 Known Plugin Conflicts
 --------------------------------------------------------------
-**Collection Tree**
-[Collection Tree](CollectionTree.md) (on the target site) and Omeka API Import create a conflict that makes the import fail. The workaround is to simply deactivate Collection Tree while you do the import, and reactivate it after the import succeeds.
+**[Collection Tree](CollectionTree.md)** (on the target site) and Omeka API Import create a conflict that makes the import fail. The workaround is to simply deactivate Collection Tree while you do the import, and reactivate it after the import succeeds.
 
 Compatible Plugins
 -------------------------------------------------------
