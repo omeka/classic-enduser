@@ -36,7 +36,7 @@ To access the instantiation fields, first add your file to the item and save. On
 
 To assure that visitors can access the instantiation metadata that is connected to the files, go to the site-wide Appearances page and then to the Settings tab. Under settings check the box under "Display Settings" for "Link to File Metadata."
 
-![Settings view for site-wide appearances showing link to file metadata check box](..doc_files/plugin_images/linkfilemetadata.png)
+![Settings view for site-wide appearances showing link to file metadata check box](../doc_files/plugin_images/linkfilemetadata.png)
 
 ## Uninstalling
 
