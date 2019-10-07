@@ -2,7 +2,7 @@
 title: Managing Item Types 2.0
 ---
 
-Item types are types of objects, with associated metadata. Omeka comes with pre-defined item types with fields, but you can easily edit these types, or add your own types.
+Item types are types of objects, with associated metadata. Omeka comes with the [Dublin Core item types](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#section-7), but you can easily edit these, or add your own.
 
 ![Item types browse view](../doc_files/itemTypeBrowse.png)
 
