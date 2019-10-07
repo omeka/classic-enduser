@@ -100,5 +100,6 @@ pages:
         - 'Legacy Documentation': 'Technical/Legacy_documentation.md'
         - 'Moving to Another Server': 'Technical/Moving_to_Another_Server.md'
         - 'Output Formats': 'Technical/Output_Formats.md'
+        - 'Setting the PHP Path': 'Technical/Setting_PHP_Path.md'
         - 'Translate Omeka': 'Technical/Translate_Omeka.md'
         - 'Using Omeka with other tools and platforms': 'Technical/Using_Omeka_with_Other_Tools_and_Platforms.md'
