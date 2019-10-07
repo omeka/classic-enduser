@@ -2,17 +2,17 @@ The PBCore plugin for Omeka Classic adds elements from the [PBCore Metadata stan
 
 ## Configuration
 
-No additional configuration is required for this plugin.
+No additional configuration is required for this plugin. However, you may want to use the [Hide Elements plugin](https://omeka.org/classic/plugins/HideElements/) to manage the possible duplication of fields between the PBCore element set and the Dublin Core element set. Duplicate fields can be hidden on the Add Item form, the administrative view, the public view, and the search. 
 
 ## Adding an Item
 
-For guidance on using the PBCore metadata standard, please see [the PB Core website](https://pbcore.org/tutorials).
+For guidance on using the PBCore metadata standard, please see the [PB Core website](https://pbcore.org/tutorials).
 
 Once the plugin is installed, PB Core elements are available in their own tab when a user is either Adding or Editing an Item (on the same level as Item Type, File, Tags, and other metadata tabs).
 
 ![Edit item with PBCore tab highlighted](../doc_files/plugin_images/pbCoreAdd.png)
 
-Users can complete as much or as little of the PBCore as they wish. However, please note that if you do not provide a title in the Dublin Core Title element, the item will show up as `[Untitled]` throughout your site, even if the title display field in PB Core is filled.
+Users can complete as much or as little of the PBCore as they wish. If you input a Title and a Creator in the PBCore element set, those fields will be copied over the DC metadata to facilitate browsing and sorting. You may want to hide the DC fields using the Hide Elements Plugin.
 
 Each PB Core element has a description of the element (from the metadata standard) and an input field below. Use the checkbox below the field to use HTML formatting in this field. For elements with multiple values, use the `Add Input` button on the left to create additional fields.  
 
@@ -26,7 +26,7 @@ The nested elements will be captured in the PBCore XML output from Omeka. Howeve
 
 ### Adding Item File Metadata
 
-In addition to the item metadata, PBCore offers additional instantiation metadata fields for the item files. Instantiation metadata can only be added if there is a file uploaded to the Omeka system. YouTube and Vimeo importers create an embed of the video file without actually importing the file. As a result, there is no way to add instantiation metadata about those resources. For files that exceed the size of the web interface upload limit, or to add many files at once, users can install and make use of the [Dropbox plugin](https://omeka.org/classic/plugins/Dropbox/).
+In addition to the item metadata, PBCore offers additional instantiation metadata fields for the item files. Instantiation metadata can only be added if there is a file uploaded to the Omeka system. For files that exceed the size of the web interface upload limit, or to add many files at once, users can install and make use of the [Dropbox plugin](Dropbox.md). [YouTube Import](https://omeka.org/classic/plugins/YouTubeImport/) and [Vimeo Import](https://omeka.org/classic/plugins/VimeoImport/) plugins create an embed of the video file without actually importing the file. The importers spoof the creation of a file so that you can add instantiation metadata to the import. 
 
 To access the instantiation fields, first add your file to the item and save. Once your file is attached to an item, you can edit the file metadata by clicking on "Files" from the top item menu and then "Edit" to the right of the desired file. Additionally, if you are returning to add instantiation metadata to an item with attached files, the links to the file metadata appear in the right hand detail column of each item page.
 
