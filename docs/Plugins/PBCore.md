@@ -1,4 +1,4 @@
-The PB Core plugin for Omeka Classic adds elements from the [PB Core Metadata standard](https://pbcore.org/) to your Omeka site. This metadata standard, developed for audiovisual content, can be used to describe items and files. It does not replace the Dublin Core metadata elements in your Omeka Classic site.
+The PBCore plugin for Omeka Classic adds elements from the [PBCore Metadata standard](https://pbcore.org/) to your Omeka site. This metadata standard, developed for audiovisual content, can be used to describe items and files. It does not replace the Dublin Core metadata elements in your Omeka Classic site.
 
 ## Configuration
 
@@ -6,13 +6,13 @@ No additional configuration is required for this plugin.
 
 ## Adding an Item
 
-For guidance on using the PB Core metadata standard, please see [the PB Core website](https://pbcore.org/tutorials).
+For guidance on using the PBCore metadata standard, please see [the PB Core website](https://pbcore.org/tutorials).
 
 Once the plugin is installed, PB Core elements are available in their own tab when a user is either Adding or Editing an Item (on the same level as Item Type, File, Tags, and other metadata tabs).
 
-![Edit item with PB Core tab highlighted](../doc_files/plugin_images/pbCoreAdd.png)
+![Edit item with PBCore tab highlighted](../doc_files/plugin_images/pbCoreAdd.png)
 
-Users can complete as much or as little of the PB core as they wish. However, please note that if you do not provide a title in the Dublin Core Title element, the item will show up as `[Untitled]` throughout your site, even if the title display field in PB Core is filled.
+Users can complete as much or as little of the PBCore as they wish. However, please note that if you do not provide a title in the Dublin Core Title element, the item will show up as `[Untitled]` throughout your site, even if the title display field in PB Core is filled.
 
 Each PB Core element has a description of the element (from the metadata standard) and an input field below. Use the checkbox below the field to use HTML formatting in this field. For elements with multiple values, use the `Add Input` button on the left to create additional fields.  
 
@@ -26,7 +26,7 @@ The nested elements will be captured in the PBCore XML output from Omeka. Howeve
 
 ### Adding Item File Metadata
 
-In addition to the item metadata, PBCore offers additional instantiation metadata fields for the item files. Instantiation metadata can only be added if there is a file uploaded to the Omeka system. YouTube and Vimeo importers create an embed of the video file without actually importing the file. As a result, there is no way to add instantiation metadata about those resources.
+In addition to the item metadata, PBCore offers additional instantiation metadata fields for the item files. Instantiation metadata can only be added if there is a file uploaded to the Omeka system. YouTube and Vimeo importers create an embed of the video file without actually importing the file. As a result, there is no way to add instantiation metadata about those resources. For files that exceed the size of the web interface upload limit, or to add many files at once, users can install and make use of the [Dropbox plugin](https://omeka.org/classic/plugins/Dropbox/).
 
 To access the instantiation fields, first add your file to the item and save. Once your file is attached to an item, you can edit the file metadata by clicking on "Files" from the top item menu and then "Edit" to the right of the desired file. Additionally, if you are returning to add instantiation metadata to an item with attached files, the links to the file metadata appear in the right hand detail column of each item page.
 
@@ -34,13 +34,13 @@ To access the instantiation fields, first add your file to the item and save. On
 
 ![Edit view for the file showing the PBCore Instantiation metadata fields](../doc_files/plugin_images/pbCoreFileEdit.png)
 
-To assure that visitors can access the instantiation metadata that is connected to the files, go to the sitewide Appearances page and then to the Settings tab. Under settings check the box under "Display Settings" for "Link to File Metadata."
+To assure that visitors can access the instantiation metadata that is connected to the files, go to the site-wide Appearances page and then to the Settings tab. Under settings check the box under "Display Settings" for "Link to File Metadata."
 
-![Settings view for sitewide appearances showing link to file metadata check box](..doc_files/plugin_images/linkfilemetadata.png)
+![Settings view for site-wide appearances showing link to file metadata check box](..doc_files/plugin_images/linkfilemetadata.png)
 
 ## Uninstalling
 
-While you can uninstall PB Core just like any other plugin, doing so will not remove the PB Core elements from your Omeka site. 
+While you can uninstall PBCore just like any other plugin, doing so will not remove the PB Core elements from your Omeka site. 
 
 **Proceed with caution:** only uninstall if you are sure that you no longer need the element sets and the associated data. 
 
