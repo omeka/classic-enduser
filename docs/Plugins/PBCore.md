@@ -2,7 +2,7 @@ The PBCore plugin for Omeka Classic adds elements from the [PBCore Metadata stan
 
 ## Configuration
 
-No additional configuration is required for this plugin. However, you may want to use the [Hide Elements plugin](https://omeka.org/classic/plugins/HideElements/) to manage the possible duplication of fields between the PBCore element set and the Dublin Core element set. Duplicate fields can be hidden on the Add Item form, the administrative view, the public view, and the search. 
+No additional configuration is required for this plugin.
 
 ## Adding an Item
 
@@ -12,7 +12,7 @@ Once the plugin is installed, PB Core elements are available in their own tab wh
 
 ![Edit item with PBCore tab highlighted](../doc_files/plugin_images/pbCoreAdd.png)
 
-Users can complete as much or as little of the PBCore as they wish. If you input a Title and a Creator in the PBCore element set, those fields will be copied over the DC metadata to facilitate browsing and sorting. You may want to hide the DC fields using the Hide Elements Plugin.
+Users can complete as much or as little of the PBCore as they wish. If you input a Title and a Creator in the PBCore element set, those fields will be copied over the DC metadata to facilitate browsing and sorting.
 
 Each PB Core element has a description of the element (from the metadata standard) and an input field below. Use the checkbox below the field to use HTML formatting in this field. For elements with multiple values, use the `Add Input` button on the left to create additional fields.  
 
@@ -24,9 +24,21 @@ The nested elements will be captured in the PBCore XML output from Omeka. Howeve
 
 ![Generated XML from the PBCore metadata. Shows container element "Contributor" with sub-elements "contributor" and "contributorRole" containing the values "Contributor 1" and "Role of Contributor 1"](../doc_files/plugin_images/pbCoreNestedElementsXML.png)
 
+### Controlling Displayed Metadata with Hide Elements Plugin
+
+You may want to use the [Hide Elements plugin](https://omeka.org/classic/plugins/HideElements/) along with PB Core in order to manage the possible duplication of the Title and Creator fields between the PBCore element set and the Dublin Core element set.
+
+![](../doc_files/plugin_images/pbCoreDuplicateFields.png)
+
+When configuring the Hide Elements plugin, duplicate fields can be hidden on the Add Item form, the administrative view, the public view, and the search. Using the configuration form, you can customize where and who sees both the Dublin Core and PB Core elements.
+
+![](../doc_files/plugin_images/pbCoreHideElements.png)
+
 ### Adding Item File Metadata
 
-In addition to the item metadata, PBCore offers additional instantiation metadata fields for the item files. Instantiation metadata can only be added if there is a file uploaded to the Omeka system. For files that exceed the size of the web interface upload limit, or to add many files at once, users can install and make use of the [Dropbox plugin](Dropbox.md). [YouTube Import](https://omeka.org/classic/plugins/YouTubeImport/) and [Vimeo Import](https://omeka.org/classic/plugins/VimeoImport/) plugins create an embed of the video file without actually importing the file. The importers spoof the creation of a file so that you can add instantiation metadata to the import. 
+In addition to the item metadata, PBCore offers instantiation metadata fields for the item files. Instantiation metadata can only be added if there is a file uploaded to the Omeka system. For files that exceed the size of the web interface upload limit, or to add many files at once, users can install and make use of the [Dropbox plugin](Dropbox.md). 
+
+[YouTube Import](https://omeka.org/classic/plugins/YouTubeImport/) and [Vimeo Import](https://omeka.org/classic/plugins/VimeoImport/) plugins create an embed of the video file without actually importing the file. The importers spoof the creation of a file so that you can add instantiation metadata to the import. 
 
 To access the instantiation fields, first add your file to the item and save. Once your file is attached to an item, you can edit the file metadata by clicking on "Files" from the top item menu and then "Edit" to the right of the desired file. Additionally, if you are returning to add instantiation metadata to an item with attached files, the links to the file metadata appear in the right hand detail column of each item page.
 
@@ -36,7 +48,7 @@ To access the instantiation fields, first add your file to the item and save. On
 
 To assure that visitors can access the instantiation metadata that is connected to the files, go to the site-wide Appearances page and then to the Settings tab. Under settings check the box under "Display Settings" for "Link to File Metadata."
 
-![Settings view for site-wide appearances showing link to file metadata check box](../doc_files/plugin_images/linkfilemetadata.png)
+![Settings view for site-wide appearances showing link to file metadata check box](../doc_files/plugin_images/pbCoreLinkFileMetadata.png)
 
 ## Uninstalling
 
