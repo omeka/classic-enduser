@@ -44,6 +44,8 @@ To access the instantiation fields, first add your file to the item and save. On
 
 !["Files" view with the "Edit" button to the right of the image highlighted](../doc_files/plugin_images/pbCoreFile.png)
 
+!["Item" view with the link to the file highlighted](../doc_files/plugin_images/pbCoreEditFileMetadata.png)
+
 ![Edit view for the file showing the PBCore Instantiation metadata fields](../doc_files/plugin_images/pbCoreFileEdit.png)
 
 To assure that visitors can access the instantiation metadata that is connected to the files, go to the site-wide Appearances page and then to the Settings tab. Under settings check the box under "Display Settings" for "Link to File Metadata."
