@@ -6,15 +6,15 @@ No additional configuration is required for this plugin.
 
 ## Adding an Item
 
-For guidance on using the PBCore metadata standard, please see the [PB Core website](https://pbcore.org/tutorials).
+For guidance on using the PBCore metadata standard, please see the [PBCore website](https://pbcore.org/tutorials).
 
-Once the plugin is installed, PB Core elements are available in their own tab when a user is either Adding or Editing an Item (on the same level as Item Type, File, Tags, and other metadata tabs).
+Once the plugin is installed, PBCore elements are available in their own tab when a user is either Adding or Editing an Item (on the same level as Item Type, File, Tags, and other metadata tabs).
 
 ![Edit item with PBCore tab highlighted](../doc_files/plugin_images/pbCoreAdd.png)
 
 Users can complete as much or as little of the PBCore as they wish. If you input a Title and a Creator in the PBCore element set, those fields will be copied over the DC metadata to facilitate browsing and sorting.
 
-Each PB Core element has a description of the element (from the metadata standard) and an input field below. Use the checkbox below the field to use HTML formatting in this field. For elements with multiple values, use the `Add Input` button on the left to create additional fields.  
+Each PBCore element has a description of the element (from the metadata standard) and an input field below. Use the checkbox below the field to use HTML formatting in this field. For elements with multiple values, use the `Add Input` button on the left to create additional fields.  
 
 One of the features of PBCore is the use of related sub-elements, such as `Contributor` and `Contributor Role`. If you have more than one value to add to an element that has a related sub-element, use the `Add Input` button to create a field for each value and be sure to enter the values in a consistent order so that they are properly associated. 
 
@@ -26,11 +26,11 @@ The nested elements will be captured in the PBCore XML output from Omeka. Howeve
 
 ### Controlling Displayed Metadata with Hide Elements Plugin
 
-You may want to use the [Hide Elements plugin](https://omeka.org/classic/plugins/HideElements/) along with PB Core in order to manage the possible duplication of the Title and Creator fields between the PBCore element set and the Dublin Core element set.
+You may want to use the [Hide Elements plugin](https://omeka.org/classic/plugins/HideElements/) along with PBCore in order to manage the possible duplication of the Title and Creator fields between the PBCore element set and the Dublin Core element set.
 
 ![](../doc_files/plugin_images/pbCoreDuplicateFields.png)
 
-When configuring the Hide Elements plugin, duplicate fields can be hidden on the Add Item form, the administrative view, the public view, and the search. Using the configuration form, you can customize where and who sees both the Dublin Core and PB Core elements.
+When configuring the Hide Elements plugin, duplicate fields can be hidden on the Add Item form, the administrative view, the public view, and the search. Using the configuration form, you can customize where and who sees both the Dublin Core and PBCore elements.
 
 ![](../doc_files/plugin_images/pbCoreHideElements.png)
 
@@ -54,12 +54,12 @@ To assure that visitors can access the instantiation metadata that is connected 
 
 ## Uninstalling
 
-While you can uninstall PBCore just like any other plugin, doing so will not remove the PB Core elements from your Omeka site. 
+While you can uninstall PBCore just like any other plugin, doing so will not remove the PBCore elements from your Omeka site. 
 
 **Proceed with caution:** only uninstall if you are sure that you no longer need the element sets and the associated data. 
 
 You will need to remove the element sets manually to clear the data from the site. You will also need to delete the element sets prior to reinstalling the plugin.
 
-To remove the element sets, go to Settings in the upper navigation of the admin dashboard (this area is only available to Super Users). Click on the Element Sets tab. You can then Delete the PB Core and the PB Core Instantiation Element Sets. 
+To remove the element sets, go to Settings in the upper navigation of the admin dashboard (this area is only available to Super Users). Click on the Element Sets tab. You can then Delete the PBCore and the PBCore Instantiation Element Sets. 
 
 ![Element Sets view in "Settings" that shows installed metadata schemes, in this case Dublin Core, PBCore, and PBCore Instantiation.](../doc_files/plugin_images/pbCoreDelete.png)
