@@ -12,7 +12,7 @@ Once the plugin is installed, PBCore elements are available in their own tab whe
 
 ![Edit item with PBCore tab highlighted](../doc_files/plugin_images/pbCoreAdd.png)
 
-Users can complete as much or as little of the PBCore as they wish. If you input a Title and a Creator in the PBCore element set, those fields will be copied over the DC metadata to facilitate browsing and sorting.
+Users can complete as much or as little of the PBCore as they wish. If you input a Title and a Creator in the PBCore element set, those fields will *overwrite any existing data in the DC metadata* to facilitate browsing and sorting.
 
 Each PBCore element has a description of the element (from the metadata standard) and an input field below. Use the checkbox below the field to use HTML formatting in this field. For elements with multiple values, use the `Add Input` button on the left to create additional fields.  
 
