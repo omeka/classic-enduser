@@ -59,23 +59,25 @@ These settings are for integration of the geolocation map into the site menu and
 - *Add link to map on Items/Browse navigation*: click to make active. 
 - *Add map to contribution form*: click to make active. Note that this will only work if you have the Contribution plugin installed and active.
 
-Getting Started
+Adding Location to an Item
 ----------------------------------------------------------------
-After you have activated and configured the Geolocation plugin, it is time to geolocate some items.
+After you have activated and configured the Geolocation plugin, you can add a location marker to your items. Note: an item can only have a single location marker; you cannot have an item associated with more than one location at a time.
 
-Geolocation adds a Map tab to the options for \ adding or editing an item (admin/item/edit and admin/item/add pages).  When adding metadata for an item, click on the Map tab to add a location.
+Geolocation adds a Map tab to the options for adding or editing an item (`admin/item/edit` and `admin/item/add` pages).  When adding metadata for an item, click on the Map tab to add a location.
 
 ![Arrow points to the Map tab](../doc_files/plugin_images/geolocation_set1.png)
 
 On the tab there is a field for you to *find a location by address* and a map which you can drag to move around, zoom in and out with the plus and minus options (or the scroll wheel on a mouse), and toggle between road and satellite maps. 
 
-Enter the address where you want the marker for the item to be placed. The plugin will automatically add a marker at that location. 
+To find the location you want to assign to the item, you can:
 
-You can also click directly on the spot on the map where you want to place the marker. A marker automatically maps the selected site.
+- Enter the address where you want the marker for the item to be placed. The plugin will automatically add a marker at that location. You can use a street address (ex `100 First St SE, Washington, DC 20543`) or geocordinates in decimal form (ex `38.888611, -77.004722`).
+- Zoom and scroll to navigate to where you want to place the marker, then click directly on the spot on the map where you want to place the marker. 
 
 To change the location of an item, type in the new address or click on the new location. You'll be asked if you are sure you would like to change the item location. Select OK or Cancel.
 
 To remove geolocation from an item, click directly on the marker. A dialog box will ask you to confirm that you want to delete the location assignment. 
+
 Don't forget to save your changes.
 
 Viewing Items on the Public Map 
