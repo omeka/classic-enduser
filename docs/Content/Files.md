@@ -38,6 +38,10 @@ To add metadata, click the Edit button found to the right of the file name in ad
 
 ![arrow points to the File Metadata box](../doc_files/filesMetadata.png)
 
+Alt Text
+----------------------
+If a file does not have any metadata (see above), Omeka uses the filename as alt text. If the file has data in its Title property, that text will be displayed as the alt text for that file whereever it appears on the site. 
+
 Media Files
 ------------------------
 To keep up with the changing browser support landscape, as of version 2.4 Omeka uses HTML 5 audio and video tags when embedding audio and video, instead of the object and embed tags used by previous versions.
