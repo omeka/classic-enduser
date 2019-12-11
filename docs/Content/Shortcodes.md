@@ -15,6 +15,8 @@ Shortcodes can be added into Simple Page text fields. The general syntax is
 
 Values can be wrapped in single or double quotes, making the following variations valid as well: `[shortcode key=‘value’]` or `[shortcode key=“value”]`
 
+If the shortcode results in an image display (from an item or file), the shortcode will use the Omeka default of displaying the filename or Dublin Core title as alt-text. 
+
 ### General Shortcode Options
 Most shortcodes have options which can modify the content they return. The following table explains some of the options which are shared across multiple shortcodes. 
 
