@@ -9,7 +9,7 @@ Before Adding Items
 
 You may want to consult the [Site Planning Tips](../GettingStarted/Site_Planning_Tips.md) page to think about how to build your site and what you want to do with your items.
 
-You may also want to think about what type of information you plan to share using the [Dublin Core Metadata](http://dublincore.org/documents/usageguide/) fields before adding and describing items. You may also want to read the [Working with Dublin Core](Working_with_Dublin_Core) page for a brief explanation of using metadata in Omeka Items.
+You may also want to think about what type of information you plan to share using the [Dublin Core Metadata](http://dublincore.org/documents/usageguide/) fields before adding and describing items. You may also want to read the [Working with Dublin Core](..//Content/Working_with_Dublin_Core) page for a brief explanation of using metadata in Omeka Items.
 
 Add an Item 
 -------------------------------------------------------------
