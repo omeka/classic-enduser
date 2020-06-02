@@ -46,7 +46,7 @@ The Contribution section has four tabs: Getting Started, Contribution Types, Sub
 The *Getting Started* tab offers instructions for setting up for the form and submission settings.
 
 ### Contribution Types
-The Contribution Types section is where you choose what type of items users can share through this form (still image, audio, video, document/story), and where you ask questions about what users are sharing. The tab has a table with a row for each type. Every row shows:
+The *Contribution Types* tab is where you choose what type of items users can share through this form (still image, audio, video, document/story, etc), and what information you want to capture about these items. The tab has a table with a row for each type. Every row shows:
 
 - the type's *name* (the label you give it); 
 - its *type* (corresponding Item Type from your Omeka install);
@@ -65,19 +65,19 @@ On the Add/Edit screen for Contribution Types, there are fields for the display 
 Options are:
 
 - *Display Name* is the label for the contribution type - how it will appear on the public side. If left blank, the form will use the Item Type name.
-- *Allow File Upload Via Form*: you can choose to allow, require, or disallow. If this is set to "required," users will not be able to submit the contribution form without attaching a file. 
-- *Elements*: each element appears as a block. 
+- *Allow File Upload Via Form* lets you decide whether to allow, require, or disallow file upload. If this is set to "required," users will not be able to submit the contribution form without attaching a file. 
+- *Elements:* each element appears as a block. 
     - The block is labeled with the Dublin Core field name
     - *Prompt* is what appears on the form. Use this field to ask question or describe what you seek from users, ie, "Share your story" or "When did you take this photograph?"  
     - The *Multiple Rows* checkbox sets whether the entry field on the form has a single row (indicating a short answer) or allows for multiple rows (making it easier for contributors to write paragraphs of text).
 
 To add an element (question) to the contribution form:
 
-- Go "Add Element".
-- Select an element from the dropdown list (this includes all the Dublin Core fields as well as all Item Type elements.)
-- Type a prompt or question in the Prompt field.
-- If you want contributors to be able to enter longer blocks of text, click the *Multiple rows* checkbox. 
-- Save changes.
+1. Go "Add Element".
+2. Select an element from the dropdown list (this includes all the Dublin Core fields as well as all Item Type elements.)
+3. Type a prompt or question in the Prompt field.
+4. If you want contributors to be able to enter longer blocks of text, click the *Multiple rows* checkbox. 
+5. Save changes.
 
 You can edit any element's prompt or multiple row setting at any time.
 
@@ -92,21 +92,24 @@ If you want users to select from a drop-down instead of entering text, use [Simp
 If you want users to be able to assign a location to their contributions, use the [Geolocation](Geolocation.md) plugin and check the *add map to contribution form* in its configuration settings.
 
 ### Submission Settings
-In this section, you set the contribution options for your form, including an option for user anonymity, and provide the text for the email confirmations sent to contributors. 
+This tab is where you set the contribution options for your form, including an option for user anonymity, and provide the text for the email confirmations sent to contributors. 
 
-- *Contribution Slug*: customize the end of the url for the contribution form (youromekasite.net/slug). If you leave this blank, the url for the contribution form will be youromekasite.net/contribution
+![The submission settings page showing the first few fields, all blank](../doc_files/plugin_images/contribution_SubmissionSettings1.png)
+
+- *Contribution Slug:* customize the end of the url for the contribution form (`youromekasite.net/slug`). If you leave this blank, the url for the contribution form will be `youromekasite.net/contribution`
 
 **Email settings**
 
-- *Contribution Confirmation Email* : An email message will be sent to each contributor from this address confirming that they submitted a contribution to this website. Leave blank if you do not want an email sent.
-- *New Contribution Notification Emails*: Add emails to which you want a notification sent when new contributions are received. You can enter multiple email addresses, separated by a comma.
+- *Contribution Confirmation Email:* An email message will be sent to each contributor from this address confirming that they submitted a contribution to this website. Leave blank if you do not want an email sent.
+- *New Contribution Notification Emails:* Add emails to which you want a notification sent when new contributions are received. You can enter multiple email addresses, separated by a comma.
 
-**Terms of Service**
+**Terms of Service field**  
+Paste in text of language of consent for anyone contributing to the site, or make a short statement linking to a [Simple Page](SimplePages.md) with a longer terms of service statement. Note that this field allows for text formatting, including basic html and lists. 
 
-- *Terms of service*: paste in text of language of consent for anyone contributing to the site, or make a short statement linking to a [Simple Page](SimplePages.md) with a longer terms of service statement. 
+![Terms of service field with lorem ipsum, some of which has been formatted into a bulleted list](../doc_files/plugin_images/contribution_TOS.png)
 
-**Contributor anonymity settings**
-Two checkboxes allow an Administrator to set the user requirements for submitting contributions. 
+**Contributor anonymity settings**  
+These two checkboxes allow an Administrator to set the user requirements for submitting contributions. 
 
 These settings work together to permit varying levels of anonymity for your contributors. For instance, you may require users to sign up and have an approved account before contributing, or you may require them to provide an email before contributing, or you may permit completely anonymous contributions.
 

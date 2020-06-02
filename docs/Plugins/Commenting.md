@@ -36,22 +36,44 @@ On most themes, the fields for leaving a comment will appear below item metadata
 Moderating Comments
 ------------------------------------------------------
 
-Administrators may delete offensive or unwanted comments from the newly-added Comments tab. Find all comments posted to your site on this Comments browse page where you may filter them by Approved and Needs Approval for ease of moderation.
+Administrators can moderate comments from the Comments tab on the left-hand menu of the admin view. 
 
-**Comment Actions**: Users with permission to moderate comments may approve, unapprove, flag or unflag comments as spam, and flag or unflag comments as inappropriate.
+Users with permission to moderate comments may:
+
+- approve and unapprove, and
+- flag or unflag as inappropriate.
+
+![example of a single comment](../doc_files/plugin_images/commenting_exComment.png)
+
+Comments display with the name of the user in bold at the top left of the comment. Just below that is the item on which the comment was left, which functions as a link to that item's public page, and the timestamp for the comment. The text of the comment displays on its own as a block. 
+
+To the right of comment are flags for its current status, and buttons which can be used to change the status or delete the comment. 
 
 **Moderate Single Comment**:
+Use the buttons to the right of the comment, click as needed to approve, flag, or delete the comment. 
 
--   Select the checkbox to the left of the comment you wish to moderate.
--   Find the action you wish to complete by clicking on its term, Approve or Unapprove, Report Spam, Flag Inappropriate.
+**Batch Moderating**: You may also batch approve or unapprove and flag submissions.
 
-**Batch Moderating**: You may also batch approve or unapprove and flag submissions as spam.
+1. Check the "Select All" box found just below the Comments heading, or select multiple comments from the list. using the checkboxes to the left of the comment. 
+2. Then select the appropriate status you wish to assign to all of the comments.
+3. These changes will be automatically saved
 
--   Check the "Select All" box found just below the Comments heading, or select multiple comments from the list.
--   Then select the appropriate status you wish to assign to all of the comments.
--   These changes will be automatically saved, and may be changed at any time
+![Three comments, two of which have been checked for batch editing](../doc_files/plugin_images/CommentingApprove.png)
 
-![Approving comments](../doc_files/plugin_images/CommentingApprove.png)
+### Filtering Comments
+Use the dropdown at the top of the Comments page, next to the Flag buttons, to filter which comments display.
+
+You can filter by:  
+- View all
+- Approved
+- Needs approval
+- Spam
+- Not spam
+- Flagged
+- Not flagged
+
+This is a quick way to find comments which have been flagged by users (see below) or those which need approval. 
+Note that the Spam flag is set by Akismet.
 
 User Flagging 
 -------------------------------------------------------
