@@ -1,5 +1,7 @@
 site_name: 'Omeka Classic User Manual'
-theme: 'readthedocs'
+theme: 
+    name: 'readthedocs'
+    custom_dir: 'omeka/'
 site_dir: 'html'
 repo_url: 'http://github.com/omeka/classic-enduser'
 extra_css: 
