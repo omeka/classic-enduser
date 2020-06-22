@@ -15,12 +15,14 @@ The first section for configuration are the general settings for the appearance 
 - *Default latitude*: set the center point of the map's latitude (North/South value), in degrees. Using numbers after the decimal point will pinpoint the location more precisely.
 - *Default longitude*: set the center point of the map's longitude (East/West), in degrees. Using numbers after the decimal point will pinpoint the location more precisely.
 - *Default Zoom Level*: Use a whole number of 0 of greater. 0 is the most zoomed out. A value of 15 will result in a map showing roughly one square mile
-- *Base Map*: select a map from the dropdown to serve as the base map in the display. All base maps except those served by MapBox can be [previewed courtesy of Leaflet](http://leaflet-extras.github.io/leaflet-providers/preview/). By default, this is set to OpenStreetMap-Standard.
+- *Base Map*: select a map from the dropdown to serve as the base map in the display. All base maps except those served by Mapbox can be [previewed courtesy of Leaflet](http://leaflet-extras.github.io/leaflet-providers/preview/).
 
-If you select MapBox from the dropdown for Base Map, two additional fields will appear under general settings. 
+If you select Mapbox from the dropdown for Base Map, two additional fields will appear under general settings. 
 
-- *MapBox Access Token*: in order to use MapBox, you need to sign up for their service. Once you have done so, you can go to your [account page](https://www.mapbox.com/account/) and copy your access token to paste into this field. 
-- Either enter the ID for your own map (see the [MapBox documentation](https://www.mapbox.com/api-documentation/#introduction)) or one of the [generally available map ids](https://www.mapbox.com/api-documentation/#maps)
+- *Mapbox Access Token*: in order to use Mapbox, you need to sign up for their service. Once you have done so, you can go to your [account page](https://www.mapbox.com/account/) and copy your access token to paste into this field. 
+- *Mapbox Map ID*: The "map ID" that goes here is the part of a Mapbox "Style URL" that comes after "mapbox://styles/". You can use your own maps or one of the [globally available styles](https://docs.mapbox.com/api/maps/#mapbox-styles). Leaving this input blank will use the default Mapbox street map.
+
+  As of June 1, 2020, Mapbox has deprecated older-style maps. Geolocation 3.2 and up support the newer Mapbox API, and the plugin will automatically update your selected Map ID if you were using one of the "standard" map types. If you had specified a custom map ID, you may need to update it after upgrading Geolocation.
 
 You can use MapBox to create your own map tiles, for example a historic map layer. Please refer to the [MapBox documentation](https://www.mapbox.com/api-documentation/#introduction) for more information.
 
