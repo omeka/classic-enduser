@@ -14,7 +14,7 @@ To add and activate a new plugin for your Omeka installation, follow these steps
 4.  Navigate to your Omeka folder. It should have the same name as your Omeka install, and may be located in the 'public_html' folder. Open the folder
 5.  Open the '/themes' folder
 6.  Upload your new theme folder into your Omeka website's '/themes' folder. Sometimes the unpacked theme is inside a folder of the same name so make sure you are uploading the correct directory.
-    - NB: your plugin must be inside the /themes folder.
+    - NB: your theme must be inside the '/themes' folder.
     - If the folder's name includes 'theme-' you will need to delete that prefix in order for the theme to work.
 7.  Log in to your Omeka admin panel
 8.  Navigate to Appearance in the top nav bar. You should immediately be in the Themes section.
