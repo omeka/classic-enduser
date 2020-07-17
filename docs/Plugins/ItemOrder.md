@@ -8,7 +8,7 @@ To use Item Order, go to the Collections tab in the sidebar of the admin Dashboa
 
 On the collections page (admin/collections/show/), scroll to the bottom of the page where you will find the heading Item Order. Click the link to *Order Items in this Collection*.
 
-![Collection management page with the Item Order section called out in a blue box. Arrow points to the link for Order Items in this Collection.](../doc_files/plugin_images/Itemorder_1.png)
+![Collection management page with the Item Order section called out in a blue box. Arrow points to the link for Order Items in this Collection.](../doc_files/plugin_images/itemorder_1.png)
 
 A complete list of all items in that collection will appear on the page. Drag and drop the items into the preferred order. Changes are saved automatically.
 

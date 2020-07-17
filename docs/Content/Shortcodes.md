@@ -2,7 +2,7 @@
 title: Shortcodes 
 ---
 
-Starting with Omeka Classic 2.2, some text fields (like the page content field in Simple Pages) support **shortcodes.**
+Shortcodes work in text fields in specific places on Omeka Classic sites: on [Simple Pages](../Plugins/SimplePages), and in the text fields of [Exhibit Builder](../Plugins/ExhibitBuilder)Exhibit Page blocks.
 
 *Note:* This page is a user’s guide to shortcodes. For developer documentation, see [Working with Shortcodes](http://omeka.readthedocs.org/en/latest/Tutorials/shortcodes.html) on Omeka’s Read the Docs site.
 
@@ -10,12 +10,20 @@ For shortcodes for Plugins, see the [Plugin Shortcodes](../Plugins/Plugin_Shortc
 
 General
 --------
-Shortcodes can be added into Simple Page text fields. The general syntax is
+Shortcodes can be added into html text fields. The general syntax is
    `[shortcode key=value]`
 
 Values can be wrapped in single or double quotes, making the following variations valid as well: `[shortcode key=‘value’]` or `[shortcode key=“value”]`
 
 If the shortcode results in an image display (from an item or file), the shortcode will use the Omeka default of displaying the filename or Dublin Core title as alt-text. 
+
+When using shortcodes on a SimplePage, you should not use the "HTML editor" option. Put the shortcode in the basic text field:
+
+![A Simple Page text field with lorem ipsum and a featured carousel shortcode](../doc_files/shortcodeSimplePage.png)
+
+When using a shortcode in an Exhibit Builder block, place the code directly into the text editor:
+
+![An exhibit page text block with a file shortcode plugin.](../doc_files/shortcodeExhibitBlock.png)
 
 ### General Shortcode Options
 Most shortcodes have options which can modify the content they return. The following table explains some of the options which are shared across multiple shortcodes. 
