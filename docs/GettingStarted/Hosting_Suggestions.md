@@ -2,7 +2,7 @@
 title: Hosting Suggestions
 ---
 
-If you lack access to a server that meets Omeka's [basic requirements](../Installation/System_Requirements/), try our [Omeka.net](http://omeka.net) hosted service.
+If you lack access to a server that meets Omeka's [basic requirements](https://omeka.org/classic/docs/Installation/System_Requirements/), try our [Omeka.net](http://omeka.net) hosted service.
 
 Hosting companies which use [Installatron](https://installatron.com/) should offer a one-click install of Omeka Classic.
 
