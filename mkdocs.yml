@@ -6,7 +6,7 @@ site_dir: 'html'
 repo_url: 'http://github.com/omeka/classic-enduser'
 extra_css: 
     - css/extra.css
-pages:
+nav:
     - Home: index.md
     - Getting Started:
         - 'Site Planning Tips': 'GettingStarted/Site_Planning_Tips.md'
