@@ -13,7 +13,7 @@ General
 Shortcodes can be added into html text fields. The general syntax is
    `[shortcode key=value]`
 
-Values can be wrapped in single or double quotes, making the following variations valid as well: `[shortcode key=‘value’]` or `[shortcode key=“value”]`
+Values can be wrapped in single or double quotes, making the following variations valid as well: `[shortcode key='value']` or `[shortcode key="value"]` **Please note** that shortcodes will not work with smart quotes. 
 
 If the shortcode results in an image display (from an item or file), the shortcode will use the Omeka default of displaying the filename or Dublin Core title as alt-text. 
 
@@ -37,10 +37,10 @@ Options specific to a shortcode can be found in its own section.
 | `ids` | Return an item or a list of items, based on item ID numbers. | Multiple item IDs can be entered, separated by a comma without any spaces; or a range separated by a hyphen. | `[items ids=10,76,432]` `[items ids=30-55]` | 
 | `is_featured` | Specify whether to return only items that are featured or not featured | `1`: Return only items that are featured; `0`: Return only items that are not featured | `[collections is_featured=1]` | 
 | `collection` |Return items only from a specific collection, using the collection ID number. | Only one collection may be specified. | `[items collection=7]` |
-| `item_type` | Return only items of a specific [item type](Item_Types.md) | | `[items item_type=“still image”]`
+| `item_type` | Return only items of a specific [item type](Item_Types.md) | | `[items item_type="still image"]`
 | `tags` | Return only items from a specific tag. | Multiple tags can be entered,separated by a comma, without any spaces. | `[items tags=baseball,math]` |
 | `user` | Return only items added by a specific user, using the user ID number. | Only one user may be specified. | `[items user=3]` |
-| `sort` by Elements | Specify the element to sort the items by. Must use double quotes, no space after comma | The syntax is `”Element Set,Element”`| `[items sort=“Dublin Core,Title”]` |
+| `sort` by Elements | Specify the element to sort the items by. Must use double quotes, no space after comma | The syntax is `"Element Set,Element"`| `[items sort="Dublin Core,Title"]` |
 | `sort=added` | Sort by date added | | `[items sort=added]`|
 | `sort=modifed` | Sort by date modified | | `[items sort=modifed]`|
 | `sort=random` | Randomly choose from the set of returned items, for example in conjunction with the `featured_items` shortcode | | `[items num=1 collection=3 sort=random]`|
@@ -85,11 +85,11 @@ General Options:
 - `sort` with all variations of sort
 
 #### Examples
-To return a single, random item from a set of items tagged “baseball”. Ex. `[items num=1 tags=baseball sort=random]`
+To return a single, random item from a set of items tagged "baseball". Ex. `[items num=1 tags=baseball sort=random]`
 
 To return a list of five most recent items added by the user with the id 3. Ex. `[items num=5 user=3 sort=added order=d]`
 
-To return all of the items tagged baseball from the collection with the id 5, sorted by title (ascending). Ex. `[items num=0 collection=5 tags=baseball sort=“Dublin Core,Title” order=a]`
+To return all of the items tagged baseball from the collection with the id 5, sorted by title (ascending). Ex. `[items num=0 collection=5 tags=baseball sort="Dublin Core,Title" order=a]`
 
 To return all of the featured items from the collection with the id 7, sorted by date modified, oldest first. Ex. `[items num=0 collection=7 sort=modified order=a]`
 
@@ -141,7 +141,7 @@ Options:
 - `square_thumbnail` - a squared and centered thumbnail of the image
 -  `fullsize` - the fullsize version of the image
 
-`link_file`  specify whether to link the file to it’s file show page; default is ‘1’
+`link_file`  specify whether to link the file to it’s file show page; default is ‘1'
 
 *Options:*
 
@@ -171,7 +171,7 @@ To find the file id navigate to the admin page for the item it is attached to; f
 
 At the top of the Item page is a list of the files associated with that item. Clicking on one will bring you to the file page; for example http://youromekainstallation/omeka/admin/files/show/752. 
 
-At the top of the page is a header containing the file ID \# and file title; for example File \#752: “The File Title”. The integer following the \# sign is the ID; in this instance it would be 752. To return this file, the shortcode would be `[file id=752]`
+At the top of the page is a header containing the file ID \# and file title; for example File \#752: "The File Title". The integer following the \# sign is the ID; in this instance it would be 752. To return this file, the shortcode would be `[file id=752]`
 
 ## Plugin Shortcodes
 
@@ -213,7 +213,7 @@ The shortcode is `[geolocation]`. Without any additional parameters, it will ret
 
 `fit`: specify whether to allow google map to automatically center and zoom the map to fit all of the markers. This is on by default.
 
-To manually specify the map/location zoom, use the following options. Note, to use these options, fit must be set to ‘0’ or ‘false’.
+To manually specify the map/location zoom, use the following options. Note, to use these options, fit must be set to ‘0' or ‘false'.
 
 `lat`:  specify the latitude of the map’s initial center point, in degrees. Must be between -90 and 90.
 
@@ -221,7 +221,7 @@ To manually specify the map/location zoom, use the following options. Note, to u
 
 `zoom`: specify the initial zoom level of the map. 0 is the most zoomed out.
 
-If any of `lat`, `lon`, or `zoom` are not specifically set, and ‘fit’ is set to `0` or `false`, the settings from the Geolocation plugin configuration page will be used.
+If any of `lat`, `lon`, or `zoom` are not specifically set, and ‘fit' is set to `0` or `false`, the settings from the Geolocation plugin configuration page will be used.
 
 `type`: specify the type of google map that appears. Defaults to the setting from the Geolocation plugin configuration page.
 
@@ -244,7 +244,7 @@ If any of `lat`, `lon`, or `zoom` are not specifically set, and ‘fit’ is set
 
 To print a map of all geotagged items, simply use: `[geolocation]`
 
-For a map that gets all of the items from your first collection, that are also tagged ‘baseball’. Ex. `[geolocation collection=1 tags=baseball]`
+For a map that gets all of the items from your first collection, that are also tagged ‘baseball'. Ex. `[geolocation collection=1 tags=baseball]`
  
 A shortcode that leveraged all of the possible parameters would look like `[geolocation lat=42 lon=117 zoom=7 type=hybrid collection=4 tags=baseball,math,oakland height=500px width=500px]`
 
@@ -263,6 +263,6 @@ The same options available for the [Items](#items) shortcode are available for t
 
 **Options**
 
-`speed` sets the speed for the scrolling animation. May be “fast”, “slow”, or a time in milliseconds. Default is 400. For example: `[carousel speed=slow]` or  `carousel speed=500]`
+`speed` sets the speed for the scrolling animation. May be "fast", "slow", or a time in milliseconds. Default is 400. For example: `[carousel speed=slow]` or  `carousel speed=500]`
 
 `autoscroll`: setting autoscroll=true will make the items automatically scroll interval. When autoscroll is on, interval sets the interval between scrolling in milliseconds. Default is 3000. For example: `[carousel autoscroll=true interval=700]`
