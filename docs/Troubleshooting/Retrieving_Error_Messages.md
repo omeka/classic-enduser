@@ -13,10 +13,12 @@ The error display settings are different between Omeka 2.0 and older versions of
 
 To turn on robust error messages, take the following steps:
 
-1. Open the `.htaccess` file in the root of your Omeka installation. If you are unable to edit in your file manager, you may need to download the file.
-2. Find the following line, and uncomment it (that is, remove the `#` sign):  `#SetEnv APPLICATION_ENV development`. When you are done, it should read `SetEnv APPLICATION_ENV development`. If you had to download the file to edit it, be sure to upload it and replace the older version.
-
-Note: if you cannot see the `.htaccess` file, make sure that you can view hidden (dot) files in your ftp or ssh client. 
+1. Go into the files for your Omeka installation on your server. You might do this using a FileManager from your hosting service, or SSH. 
+1. Open the `.htaccess` file in the root directory of your Omeka installation. The root is the main directory, where you'll also find the `plugins` and `themes` folders.
+     -  You might need to turn on "see hidden files" in order to see the `.htaccess` file. If you're not sure how to do this, look in the directions for your file manager.
+2. Find the following line, and uncomment it (that is, remove the `#` sign):  `#SetEnv APPLICATION_ENV development`. When you are done, it should read `SetEnv APPLICATION_ENV development`. 
+     - You might need to download the file in order to edit it. Be sure to upload the edited version and replace the older version.
+  
 
 If you're trying to debug a 404 ("Not Found") or 403 ("Forbidden") error, open `application/config/config.ini`, and change the value of `debug.exceptions` to `true`.
 
