@@ -6,7 +6,7 @@ Getting Started
 --------------------------------------------------------
 
 ### Sign up on Transifex.com
-Omeka uses [Transifex.com](http://transifex.net) to manage translations. To start helping to translate Omeka into other languages, you will first need to [sign up for an account](https://www.transifex.com/signup/). Transifex.net offers several plans, but since Omeka is an open-source project, you can use the Free plan.
+Omeka uses [Transifex.com](https://www.transifex.com) to manage translations. To start helping to translate Omeka into other languages, you will first need to [sign up for an account](https://www.transifex.com/signup/). Transifex.net offers several plans, but since Omeka is an open-source project, you can use the Free plan.
 
 ### Join or start a language team
 Once you have registered for an account, visit the [Omeka project page](https://www.transifex.com/omeka/omeka/) and click on the "Help Translate Omeka" or "Join Team" button.
