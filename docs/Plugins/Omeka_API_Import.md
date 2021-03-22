@@ -49,6 +49,8 @@ To import using an API Key:
 4.  If you want to import annotations and changes to the element set on the target installation, check the Override Element set data checkbox. Note: this will overwrite all existing Element Set annotations and changes.
 5.  Click Submit.
 
+- Are your jobs starting and not completing? You might need to [set the path for PHP](../Content/Technical/Setting_PHP_Path.md) so that your system can perform the background process to make the items.
+
 Undoing an Import
 ---------------------------------------------------------------
 Once you have completed an import, there will be an option to Undo Imports on the Omeka API Import tab on the left navigation in the admin dashboard.
