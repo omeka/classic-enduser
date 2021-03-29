@@ -18,6 +18,8 @@ From the Dropbox box tab (.../admin/dropbox) you may select files to batch add a
 
 Click "Upload Files as Items." Items are created from each file and titled with the file name. This can modified later if you wish to edit the item's title.
 
+- Are your jobs starting and not completing? You might need to [set the path for PHP](../Content/Technical/Setting_PHP_Path.md) so that your system can perform the background process to make the items.
+
 Adding Files to Items 
 ----------------------------------------------------------------
 To add dropbox files to items, add or edit an item(.../items/add or .../items/edit) and click on the Files tab.
