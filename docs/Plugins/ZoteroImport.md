@@ -47,7 +47,7 @@ Once you've [installed](../Admin/Adding_and_Managing_Plugins.md) the plugin, go 
     - In omeka/application/logs/ make sure a processes.log file exists and is writable. 
     - These steps are not required but will be helpful if something goes wrong halfway through a long import. It's important to note that the import process is only as stable as the Zotero API. If you encounter errors, delete the import and try again.
 
-- Are your jobs starting and not completing? You might need to [set the path for PHP](../Content/Setting_PHP_Path.md) so that your system can perform the background process to make the items.
+- Are your jobs starting and not completing? You might need to [set the path for PHP](../Technical/Setting_PHP_Path.md) so that your system can perform the background process to make the items.
 
 ## Stopping and Deleting an Import
 

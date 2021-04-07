@@ -91,7 +91,7 @@ For example, if your Omeka instance was at the root of example.com and this was 
 
 If you are having trouble with a CSV consistently not importing, try checking for these common issues:
 
-- Are your jobs starting and not completing? You might need to [set the path for PHP](../Content/Technical/Setting_PHP_Path.md) so that your system can perform the background process to make the items.
+- Are your jobs starting and not completing? You might need to [set the path for PHP](../Technical/Setting_PHP_Path.md) so that your system can perform the background process to make the items.
 - Are your file links readable? Try copying and pasting them into the address bar of a browser to see if the link resolves with a file. If it does not, then that may be the issue.
 - Check the encoding on your CSV file. It should be UTF-8
 - Open your CSV file with a different program than the one you created it with and make sure that every row has the same number of columns.
