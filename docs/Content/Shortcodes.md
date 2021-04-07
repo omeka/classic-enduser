@@ -1,6 +1,4 @@
----
-title: Shortcodes 
----
+# Shortcodes
 
 Shortcodes work in text fields in specific places on Omeka Classic sites: on [Simple Pages](../Plugins/SimplePages), and in the text fields of [Exhibit Builder](../Plugins/ExhibitBuilder)Exhibit Page blocks.
 

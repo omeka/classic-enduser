@@ -1,3 +1,5 @@
+# Report a Bug
+
 Bugs are errors in the system. If you find a bug in your Omeka Classic installation, please let us know.
 
 ## Before Reporting a Bug

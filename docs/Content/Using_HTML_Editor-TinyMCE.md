@@ -1,6 +1,5 @@
----
-title: Using the HTML Editor
-----
+# Using the HTML Editor
+
 Users working in the admin side of Omeka Classic sites can use a HTML editor, powered by TinyMCE, to style and format text, to add links, and to embed multimedia.
 
 Use the Editor

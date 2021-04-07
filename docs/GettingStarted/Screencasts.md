@@ -1,6 +1,4 @@
----
-title: Screencasts
----
+# Screencasts
 
 General:
 

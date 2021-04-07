@@ -1,3 +1,5 @@
+# Users
+
 The Users section allows the Site Administrator to control who may access the admin section of the site and what they can do. You may add, delete, and assign categories of use.
 
 ![Arrow points to ](../doc_files/Usersnav.png)

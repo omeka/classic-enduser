@@ -1,6 +1,7 @@
+# Configuring Thumbnail Creation
 
-Choosing a Strategy
------------------------------------------------------------
+
+## Choosing a Strategy
 
 Omeka Classic uses the command-line tool `convert` from ImageMagick by default to create thumbnail images for uploaded files. Instead, you can choose to use the PECL ext/imagick extension (Omeka 2.2 and above) or the PHP GD extension (Omeka 2.3 and above).
 
@@ -18,8 +19,7 @@ To use the IMagick strategy, use the following line:
 
 The new strategy will only apply to files added to Omeka after the configuration is changed.
 
-Changing Options
----------------------------------------------------------------
+## Changing Options
 
 In addition to the entire strategy used to create the thumbnails, more fine-grained options are also configurable in application/config/config.ini.
 

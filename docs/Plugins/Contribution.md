@@ -1,3 +1,5 @@
+# Contribution
+
 The Contribution plugin provides a form to collect stories, images, and other files from the public and manage those contributions in your Omeka Classic site as items. Contributors may share and upload content anonymously, and their information will only be available to site administrators. All contributions are private by default and require a site administrator to review and make them public on the Omeka site. 
 
 The plugin can also automatically add a reCAPTCHA box at the bottom of each form to prevent spam-bots from spamming your website. Contribution also offers options for users to create guest accounts that make it easier for one user to submit multiple items. 
@@ -17,12 +19,11 @@ If you want to collect any information from your contributors, install these two
 -   [Record Relations](RecordRelations.md) (optional, only required for collecting user information)
 -   [User Profiles](UserProfiles.md) (optional, only required for collecting user information)
 
-Screencast
---------------------
+## Screencast
+
 Contribution is a somewhat complex plugin to set up. In addition to the written instructions below, please see the [screencast on this plugin and Guest User](https://vimeo.com/165200216). Note that there is also a screencast for the [User Profiles](https://vimeo.com/165052886) plugin.
 
-Installing
-------------------------------------------------------------
+## Installing
 
 **Note** You must upload and [install](../Admin/Adding_and_Managing_Plugins.md) the Guest User plugin before installing and activating Contribution! If you have uploaded the other plugins first, you will see in the plugin directory that you cannot install other Contribution-related plugins until Guest User is installed first.
 
@@ -156,16 +157,13 @@ To ask for additional information about your contributors, you will need to inst
 1. Upload and install the [Record Relations plugin](RecordRelations.md)
 2. Upload and install the [User Profiles plugin](UserProfiles.md). Once Record Relations is installed, the User Profiles plugin will become available to install. Follow directions for creating user profiles in that plugin's documentation.
 
-Adding Contribution link to Site Navigation
-----------------------------------------------------------
+## Adding Contribution link to Site Navigation
 
 - A link to the contribution form is automatically added to the main site navigation.
     - Go to the site’s Appearance tab at the top of the Dashboard and click on Navigation. You may rename the public link to the Contribution form, the default label is “Contribute an Item.”
 -   Drag and drop the links if you wish to re-order the navigational elements of your site.
 
-
-Vetting and Managing Contributions
------------------------------------------------------------
+## Vetting and Managing Contributions
 
 All new contributions will be private, and by default will be marked as “Needs Review.”
 

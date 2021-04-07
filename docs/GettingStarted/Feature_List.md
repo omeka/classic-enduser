@@ -1,6 +1,5 @@
----
-title: Omeka Classic Feature List
----
+# Feature List
+
 Click [here](../doc_files/featurelist_2-x.pdf) for a PDF version of this page.
 
 ## Omeka Classic 2.6.1 Feature List

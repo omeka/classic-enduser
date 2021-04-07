@@ -1,6 +1,5 @@
----
-title: Configuring Language
----
+# Configuring Language
+
 Open the config.ini file found in the folder '{omeka-root}/application/config' in a text editor
 
 Look for the "Localization" section (it's right at the top), and the line in it that reads: `locale.name = "" `

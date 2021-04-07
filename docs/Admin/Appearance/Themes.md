@@ -1,3 +1,5 @@
+# Themes
+
 Themes determine the the look and feel of the public side of your Omeka site.
 
 Most themes have a number of settings which can be customized in the admin dashboard by superusers of the site. If you want to further customize a theme, or create your own, you can do so by editing the [files on the server side](https://omeka.readthedocs.io/en/latest/Tutorials/index.html#public-themes)

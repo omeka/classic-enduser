@@ -1,13 +1,15 @@
+# ZoomIt
+
 The ZoomIt allows you to embed an image viewer on the public and administrative items/show pages of your Omeka Classic site, allowing your users zoom in and around images.The plugin relies on an beta service from Microsoft, [Zoom.It](http://zoom.it/).
 
 This plugin relies on an external service and it may render or load differently in different web browsers. It also relies on the [Silverlight](http://www.silverlight.net/) browser add-on, which some of your users may need to upgrade to experience the full functionality of zooming.
 
-Supported File Types
--------------------------------------------------------
+## Supported File Types
+
 JPG, PNG, TIFF, GIF, BMP, SVG.
 
-Configuration
-----------------------------------------------------------
+## Configuration
+
 The configuration page has the following options, in two sections, one for the Admin side and one for the Public side.
 
 **Admin Theme settings**

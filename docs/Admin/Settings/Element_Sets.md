@@ -1,3 +1,5 @@
+# Element Sets
+
 Element Sets are standardized metadata categories that enable you to consistently classify, identify, and sort the digital resources in your Omeka Classic database. Element Sets utilize standardized Dublin Core metadata fields enabling you to classify the items in your database by content, format, and administrative details surrounding stewardship such as rights and preservation.
 
 ![Admin top nav with an arrow pointing to Settings and then to Element Sets](../../doc_files/Elementsetnav.png)

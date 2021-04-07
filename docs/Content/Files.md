@@ -1,6 +1,4 @@
----
-title: Managing Files 2.0
----
+# Files
 
 When adding [items](Items.md) to your archive, often you will upload one or more files (images, documents, et al) associated with that item.
 

@@ -1,6 +1,4 @@
----
-title: Setting the PHP Path
----
+# Setting the PHP Path
 
 An invalid php path can cause a number of problems for your Omeka Classic installation. You need a valid php path to run plugins like CSV import and Neatline.
 

@@ -1,11 +1,13 @@
+# Simple Vocab
+
 With the Simple Vocab plugin you can define a controlled vocabulary for any metadata elements on your Omeka Classic site.
 
 A [controlled vocabulary](https://en.wikipedia.org/wiki/Controlled_vocabulary) is a list of predefined terms that are predetermined by an administrator or the teach of researchers working on a project.
 
 Using Simple Vocab, you enter the controlled vocabulary for an element as a list in the Configuration setting; when editing an item, this list appears as a drop-down menu replacing the usual text entry box for the element. From the Simple Vocab tab, you can view entered data for specific elements, in order to easily incorporate them into the list.
 
-Configuring the Plugin
-------------------------------------------------------------
+## Configuring the Plugin
+
 ![Screenshot of the plugin configuration window](../doc_files/plugin_images/Simple_Vocab.png)
 
 After [installing](../Admin/Adding_and_Managing_Plugins.md) the plugin from the Plugins panel, go to the Simple Vocab tab that will appear in the left-hand menu.
@@ -36,8 +38,8 @@ This list may be a useful reference for building controlled vocabulary, but be a
 -   Vocabulary terms must be identical to their corresponding texts.
 -   Existing texts that are not in the vocabulary will be preserved however, they cannot be selected in the item edit page, and will be deleted once you save the item.
 
-Simple Vocab in Action
-------------------------------------------------------------
+## Simple Vocab in Action
+
 Once saved, the controlled vocabulary terms will appear in a drop-down menu on item pages to assist with the process of adding metadata.
 
 ![Dropdown selector for the Rights element with options for Copyright, Creative Commons, and Public Domain](../doc_files/plugin_images/simpleVocabSelect.png)

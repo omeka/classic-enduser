@@ -1,3 +1,5 @@
+# Site Planning Tips
+
 Before you start building an Omeka Classic site, it is useful to sketch out wireframes of your new site to help to plan the content of your site, and to determine how you want your audiences to access and use that content in the website.
 
 Planning for the content first will help you think about the ways that Omeka Classic can work best for you throughout different stages of the project. 

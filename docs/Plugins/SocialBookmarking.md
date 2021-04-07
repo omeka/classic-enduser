@@ -1,9 +1,11 @@
+# Social Bookmarking
+
 The Social Bookmarking plugin inserts a customizable list of social networking sites below each item or collection in your Omeka Classic database.
 
 If you are using Omeka.net, see instructions in the [help section of Omeka.net](http://info.omeka.net).
 
-Configuration
-------------------------------------------------------
+## Configuration
+
 Once you have installed and activated the plugin, go to the Plugins browse from the top navigation of the admin dashboard, scroll to Social Bookmarking, and click Configure. 
 
 Configuration options are: 
@@ -21,10 +23,10 @@ By clicking on an icon, visitors can share a link to that item or collection thr
 
 ![SocialBookmarking public view](../doc_files/plugin_images/SocialBookmarkingPublic.png)
 
-Social Bookmarking and Other Plugins
--------------------------------------------------------------
+## Social Bookmarking and Other Plugins
+
 Keep in mind that if you are activating other plugins that append the items/show page for displaying content those elements may crowd the page's public display.
 
-Social Bookmarking and AdBlockers
------------------------------------
+## Social Bookmarking and AdBlockers
+
 If a site visitor is using ad blockers or has tracking protection turned on, the social bookmarking icons may not display.

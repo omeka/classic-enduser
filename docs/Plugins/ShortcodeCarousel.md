@@ -1,15 +1,17 @@
+# Shortcode Carousel
+
 The plugin adds a [shortcode](../Content/Shortcodes.md) to create a carousel of items using [jCarousel](http://sorgalla.com/jcarousel/)
 
 The basic shortcode is `[carousel]`.
 
 The shortcode `[recent_carousel]` and `[featured_carousel]` are shortcuts to creating a carousel of recent and featured items, respectively
 
-General Options
----------
+## General Options
+
 The `carousel` shortcode uses the same options as the [item](../Content/Shortcodes/#items), with the exception that `has_image` is always assumed to be true.
 
-Plugin-specific options
-------------------------
+## Plugin-specific options
+
 **speed**: sets the speed for the scrolling animation. May be "fast", "slow", or a time in milliseconds. Default is 400. For example: `[carousel speed=slow]` or `[carousel speed=500]`
 
 **autoscroll**: setting `autoscroll=true` will make the items automatically scroll

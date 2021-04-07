@@ -1,3 +1,5 @@
+# Navigation
+
 The Navigation section in Appearance lets you manage your Omeka's public navigation by ordering, editing, and adding navigation links, and by selecting a homepage.
 
 Access Navigation settings by clicking Appearance in the top navigation menu in the admin dashboard and then going to the Navigation tab in that section.

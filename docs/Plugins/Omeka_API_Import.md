@@ -1,21 +1,22 @@
+# Omeka API Import
+
 The Omeka API Import plugin allows users to import item data and users from an existing Omeka Classic installation (origin) via an API into the user’s Omeka Classic installation (target). 
 
 Multiple imports from the same origin site will update the data, not create new items.
 
-Requirements 
----------------------------------------------------------------
+## Requirements 
+
 Omeka API Import requires Omeka Classic 2.0 or higher for the target site. The origin site must have Omeka Classic 2.1 or higher.
 
 The origin Omeka Classic installation does not need to have the Omeka API Import plugin installed, but it does need to have [the API activated](../Admin/Settings/API_Settings.md). To do this, the owner of the origin Omeka Classic installation should go to the API tab under Settings, accessed via the top navigation bar on the administrative dashboard. Ensure that the “Enable API” box is checked.
 
 To find the API url of the origin Omeka Classic installation, go to the home page of that installation. Add `/api` to the end of the url. You should see a page with the message "This is the endpoint URL for [name of origin site]" and links to the site information and available API resources. To confirm that the API is enabled, click on the link for available API resources; if you see `{"message":"API is disabled"}`, then you will not be able to import from this site.
 
-Installation 
----------------------------------------------------------------
+## Installation 
+
 You can download the latest version of Omeka API Import from the Omeka Classic Plugin Directory. To add the plugin to your Omeka site, follow the [plugin installation instructions](../Admin/Adding_and_Managing_Plugins.md) page.
 
-Importing 
------------------------------------------------------------
+## Importing 
 
 ![Beginning page for the importer](../doc_files/plugin_images/OApiImport.jpg)
 
@@ -51,18 +52,17 @@ To import using an API Key:
 
 - Are your jobs starting and not completing? You might need to [set the path for PHP](../Content/Technical/Setting_PHP_Path.md) so that your system can perform the background process to make the items.
 
-Undoing an Import
----------------------------------------------------------------
+## Undoing an Import
+
 Once you have completed an import, there will be an option to Undo Imports on the Omeka API Import tab on the left navigation in the admin dashboard.
 
 To undo an import, find the url of the import that you wish to undo, check the box next to the url, and click Submit.
 
-Known Plugin Conflicts
---------------------------------------------------------------
+## Known Plugin Conflicts
+
 **[Collection Tree](CollectionTree.md)** (on the target site) and Omeka API Import create a conflict that makes the import fail. The workaround is to simply deactivate Collection Tree while you do the import, and reactivate it after the import succeeds.
 
-Compatible Plugins
--------------------------------------------------------
+## Compatible Plugins
 
 If [Geolocation](Geolocation.md) (v2.2.1 or higher) or [ExhibitBuilder](ExhibitBuilder.md) (v3.1.1 or higher) plugins are installed and active on both sites, data from those plugins will be imported.
 

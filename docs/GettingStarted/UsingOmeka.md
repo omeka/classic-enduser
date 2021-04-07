@@ -1,3 +1,5 @@
+# Examples and Case Studies
+
 The following page is meant to help people new to Omeka get a sense of how others have used Omeka Classic for projects, and inform you how to read a site using Omeka Classic to understand what choices the site builders made.
 
 ## Case Study

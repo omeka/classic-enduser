@@ -1,6 +1,4 @@
----
-title: Adding LightBox to Omeka Classic
----
+# Adding Lightbox to Omeka
 
 **Step One: Get the Lightbox Package**
 

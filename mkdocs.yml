@@ -2,107 +2,111 @@ site_name: 'Omeka Classic User Manual'
 theme: 
     name: 'readthedocs'
     custom_dir: 'omeka/'
+    include_homepage_in_sidebar: false
 site_dir: 'html'
-repo_url: 'http://github.com/omeka/classic-enduser'
+repo_url: 'https://github.com/omeka/classic-enduser'
 extra_css: 
     - css/extra.css
+markdown_extensions:
+    - toc:
+        permalink: 
 nav:
     - Home: index.md
     - Getting Started:
-        - 'Site Planning Tips': 'GettingStarted/Site_Planning_Tips.md'
-        - 'Examples and Case Studies': 'GettingStarted/UsingOmeka.md'
-        - 'Hosting Suggestions': 'GettingStarted/Hosting_Suggestions.md'
-        - 'Feature List': 'GettingStarted/Feature_List.md'
-        - 'Accessibility Statement': 'GettingStarted/Accessibility_Statement.md'
-        - 'Screencasts': 'GettingStarted/Screencasts.md'
-        - 'Searching': 'GettingStarted/Searching.md'
+        - GettingStarted/Site_Planning_Tips.md
+        - GettingStarted/UsingOmeka.md
+        - GettingStarted/Hosting_Suggestions.md
+        - GettingStarted/Feature_List.md
+        - GettingStarted/Accessibility_Statement.md
+        - GettingStarted/Screencasts.md
+        - GettingStarted/Searching.md
     - Installing:
-        - 'System Requirements': 'Installation/System_Requirements.md'
-        - 'Installation': 'Installation/Installation.md'
-        - 'Upgrading': 'Installation/Upgrading.md'
-        - 'Configuring Language': 'Installation/Configuring_Language.md'
-        - 'Setting Directory Permissions': 'Installation/Setting_Directory_Permissions.md'
+        - Installation/System_Requirements.md
+        - Installation/Installation.md
+        - Installation/Upgrading.md
+        - Installation/Configuring_Language.md
+        - Installation/Setting_Directory_Permissions.md
     - Content:
-        - 'Items': 'Content/Items.md' 
-        - 'Files': 'Content/Files.md'
-        - 'Working with Dublin Core': 'Content/Working_with_Dublin_Core.md'
-        - 'Using the HTML editor': 'Content/Using_HTML_Editor-TinyMCE.md'
-        - 'Item Types': 'Content/Item_Types.md'
-        - 'Collections': 'Content/Collections.md'
-        - 'Tags': 'Content/Tags.md'
-        - 'Shortcodes': 'Content/Shortcodes.md'
+        - Content/Items.md
+        - Content/Files.md
+        - Content/Working_with_Dublin_Core.md
+        - Content/Using_HTML_Editor-TinyMCE.md
+        - Content/Item_Types.md
+        - Content/Collections.md
+        - Content/Tags.md
+        - Content/Shortcodes.md
     - Administration:
-            - 'Working with Plugins': 'Admin/Adding_and_Managing_Plugins.md'
-            - 'Themes': 'Admin/Appearance/Themes.md'
-            - 'Navigation': 'Admin/Appearance/Navigation.md'
-            - 'Appearance Settings': 'Admin/Appearance/Appearance_Settings.md'
-            - 'Users': 'Admin/Users.md'
-            - 'General Settings': 'Admin/Settings/General_Settings.md'
-            - 'Security Settings': 'Admin/Settings/Security_Settings.md'
-            - 'Search Settings': 'Admin/Settings/Search_Settings.md'
-            - 'Element Sets': 'Admin/Settings/Element_Sets.md'
-            - 'Item Type Elements': 'Admin/Settings/Item_Type_Elements.md'
-            - 'API Settings': 'Admin/Settings/API_Settings.md'
-            - 'ReCaptcha': 'Admin/Settings/ReCaptcha.md'
+        - Admin/Adding_and_Managing_Plugins.md
+        - Admin/Appearance/Themes.md
+        - Admin/Appearance/Navigation.md
+        - Admin/Appearance/Appearance_Settings.md
+        - Admin/Users.md
+        - Admin/Settings/General_Settings.md
+        - Admin/Settings/Security_Settings.md
+        - Admin/Settings/Search_Settings.md
+        - Admin/Settings/Element_Sets.md
+        - Admin/Settings/Item_Type_Elements.md
+        - Admin/Settings/API_Settings.md
+        - Admin/Settings/ReCaptcha.md
     - Plugins:
-        - 'Coins': 'Plugins/Coins.md'
-        - 'Collection Tree': 'Plugins/CollectionTree.md'
-        - 'Commenting': 'Plugins/Commenting.md'
-        - 'Contribution': 'Plugins/Contribution.md'
-        - 'CSS Editor': 'Plugins/CSS_Editor.md'
-        - 'CSV Import': 'Plugins/CSV_Import.md'
-        - 'Derivative Images': 'Plugins/DerivativeImages.md'
-        - 'DocsViewer': 'Plugins/DocsViewer.md'
-        - 'Dropbox': 'Plugins/Dropbox.md'
-        - 'Dublin Core Extended': 'Plugins/DublinCoreExtended.md'
-        - 'Editorial': 'Plugins/Editorial.md'
-        - 'Embed Codes': 'Plugins/EmbedCodes.md'
-        - 'Exhibit Builder': 'Plugins/ExhibitBuilder.md'
-        - 'Exhibit Image Annotation': 'Plugins/ExhibitImageAnnotation.md'
-        - 'Geolocation': 'Plugins/Geolocation.md'
-        - 'Guest User': 'Plugins/GuestUser.md'
-        - 'Heist': 'Plugins/Heist.md'
-        - 'Item Order': 'Plugins/ItemOrder.md'
-        - 'Item Relations': 'Plugins/ItemRelations.md'
-        - 'Library of Congress Suggest': 'Plugins/Library_of_Congress_Suggest.md'
-        - 'Ngram': 'Plugins/Ngram.md'
-        - 'OAI-PMH Harvester': 'Plugins/OaipmhHarvester.md'
-        - 'OAI-PMH Repository': 'Plugins/OaiPmhRepository.md'
-        - 'Omeka API Import': 'Plugins/Omeka_API_Import.md'
-        - 'PB Core': 'Plugins/PBCore.md'
-        - 'PDF Text': 'Plugins/PdfText.md'
-        - 'Plugin Shortcodes': 'Plugins/Plugin_Shortcodes.md'
-        - 'Posters': 'Plugins/Posters.md'
-        - 'Record Relations': 'Plugins/RecordRelations.md'
-        - 'Redact Elements': 'Plugins/RedactElements.md'
-        - 'Reports': 'Plugins/Reports.md'
-        - 'Scripto': 'Plugins/Scripto.md'
-        - 'Search by Metadata': 'Plugins/SearchByMetadata.md'
-        - 'Shortcode Carousel': 'Plugins/ShortcodeCarousel.md'
-        - 'Simple Contact Form': 'Plugins/SimpleContactForm.md'
-        - 'Simple Pages': 'Plugins/SimplePages.md'
-        - 'Simple Vocab': 'Plugins/SimpleVocab.md'
-        - 'Social Bookmarking': 'Plugins/SocialBookmarking.md'
-        - 'Text Analysis': 'Plugins/TextAnalysis.md'
-        - 'Text Annotation': 'Plugins/TextAnnotation.md'
-        - 'User Profiles': 'Plugins/UserProfiles.md'
-        - 'VRA Core': 'Plugins/VRACore.md'
-        - 'Zoom It': 'Plugins/ZoomIt.md'
-        - 'Zotero Import': 'Plugins/ZoteroImport.md'
+        - Plugins/Coins.md
+        - Plugins/CollectionTree.md
+        - Plugins/Commenting.md
+        - Plugins/Contribution.md
+        - Plugins/CSS_Editor.md
+        - Plugins/CSV_Import.md
+        - Plugins/DerivativeImages.md
+        - Plugins/DocsViewer.md
+        - Plugins/Dropbox.md
+        - Plugins/DublinCoreExtended.md
+        - Plugins/Editorial.md
+        - Plugins/EmbedCodes.md
+        - Plugins/ExhibitBuilder.md
+        - Plugins/ExhibitImageAnnotation.md
+        - Plugins/Geolocation.md
+        - Plugins/GuestUser.md
+        - Plugins/Heist.md
+        - Plugins/ItemOrder.md
+        - Plugins/ItemRelations.md
+        - Plugins/Library_of_Congress_Suggest.md
+        - Plugins/Ngram.md
+        - Plugins/OaipmhHarvester.md
+        - Plugins/OaiPmhRepository.md
+        - Plugins/Omeka_API_Import.md
+        - Plugins/PBCore.md
+        - Plugins/PdfText.md
+        - Plugins/Plugin_Shortcodes.md
+        - Plugins/Posters.md
+        - Plugins/RecordRelations.md
+        - Plugins/RedactElements.md
+        - Plugins/Reports.md
+        - Plugins/Scripto.md
+        - Plugins/SearchByMetadata.md
+        - Plugins/ShortcodeCarousel.md
+        - Plugins/SimpleContactForm.md
+        - Plugins/SimplePages.md
+        - Plugins/SimpleVocab.md
+        - Plugins/SocialBookmarking.md
+        - Plugins/TextAnalysis.md
+        - Plugins/TextAnnotation.md
+        - Plugins/UserProfiles.md
+        - Plugins/VRACore.md
+        - Plugins/ZoomIt.md
+        - Plugins/ZoteroImport.md
     - Troubleshooting: 
-        - 'Troubleshooting': 'Troubleshooting/Troubleshooting_Omeka.md'
-        - 'Retrieving Error Messages': 'Troubleshooting/Retrieving_Error_Messages.md'
-        - 'Report a Bug': 'Troubleshooting/Report-a-bug.md'
+        - Troubleshooting/Troubleshooting_Omeka.md
+        - Troubleshooting/Retrieving_Error_Messages.md
+        - Troubleshooting/Report-a-bug.md
     - Technical:
-        - 'Adding Lightbox to Omeka': 'Technical/Adding_LightBox_to_Omeka.md'
-        - 'Backing up an Omeka database': 'Technical/Backing_up_an_Omeka_Database.md'
-        - 'Configuring File Storage': 'Technical/Configuring_File_Storage.md'
-        - 'Configuring Thumbnail Creation': 'Technical/ConfiguringThumbnailCreation.md'
-        - 'Contribute Code to Omeka': 'Technical/Contribute_Code_to_Omeka.md'
-        - 'Database Configuration File' : Technical/DatabaseConfigurationFile.md
-        - 'Legacy Documentation': 'Technical/Legacy_documentation.md'
-        - 'Moving to Another Server': 'Technical/Moving_to_Another_Server.md'
-        - 'Output Formats': 'Technical/Output_Formats.md'
-        - 'Setting the PHP Path': 'Technical/Setting_PHP_Path.md'
-        - 'Translate Omeka': 'Technical/Translate_Omeka.md'
-        - 'Using Omeka with other tools and platforms': 'Technical/Using_Omeka_with_Other_Tools_and_Platforms.md'
+        - Technical/Adding_LightBox_to_Omeka.md
+        - Technical/Backing_up_an_Omeka_Database.md
+        - Technical/Configuring_File_Storage.md
+        - Technical/ConfiguringThumbnailCreation.md
+        - Technical/Contribute_Code_to_Omeka.md
+        - Technical/DatabaseConfigurationFile.md
+        - Technical/Legacy_documentation.md
+        - Technical/Moving_to_Another_Server.md
+        - Technical/Output_Formats.md
+        - Technical/Setting_PHP_Path.md
+        - Technical/Translate_Omeka.md
+        - Technical/Using_Omeka_with_Other_Tools_and_Platforms.md

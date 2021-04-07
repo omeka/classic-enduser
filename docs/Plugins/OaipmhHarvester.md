@@ -1,3 +1,5 @@
+# OAI-PMH Harvester
+
 The OAI-PMH Harvester plugin imports records from OAI-PMH data providers.
 
 Some online repositories expose their metadata through the [Open Archives Initiative Protocol for Metadata Harvesting](http://www.openarchives.org/pmh/) (OAI-PMH). This plugin makes it possible to harvest that metadata, mapping it to the Omeka data model. The plugin can be used for one-time data transfers, or to keep up-to-date with changes to an online repository.
@@ -6,14 +8,13 @@ Currently the plugin is able to import [Dublin Core](http://dublincore.org/docum
 
 Every OAI-PMH data provider should implement this standard. CDWA Lite is a standard for describing works of art and material culture. Very few repositories expose CDWA Lite, but the standard is getting more and more popular. METS is developed as an initiative of the Digital Library Federation and maintained in the Network Development and MARC Standards Office of the Library of Congress.
 
-Installation 
----------------------------------------------------------------
+## Installation 
+
 Your server must have PHP-CLI installed.
 
 Upload and [install](../Admin/Adding_and_Managing_Plugins.md) the OAI-PMH Harvester plugin.
 
-Instructions
------------------------------------------------------------------
+## Instructions
 
 ### Performing a harvest 
 To perform a harvest, go to the OAI-PMH Harvester tab in the left-hand navigation bar.
@@ -53,8 +54,7 @@ To do so:
 
 The plugin will return you to the OAI-PMH Harvester tab. The displayed status of the harvest will not change until all harvested items are complete, at which point status will be “Deleted.” Deleted harvests do not have a green Re-Harvest button.
 
-Upgrading from Omeka Classic 1.x
------------------------------------------------------------
+## Upgrading from Omeka Classic 1.x
 
 The data stored by the harvester plugin has changed between versions, so when upgrading, it is necessary to uninstall the old version of the plugin first. This will remove data stored by the harvester, but the harvested items themselves will remain.
 

@@ -1,6 +1,6 @@
+# Troubleshooting 
 
-404 and Not Found
--------------------------------------------------------------
+## 404 and Not Found
 
 If you follow a link in Omeka Classic and you get a 404 error, page not found, or an error saying the URL is not valid, this is likely caused by a `mod_rewrite` problem on your server. 
 
@@ -13,8 +13,8 @@ There are two possibilities:
 
 If installing `mod_rewrite` does not solve the problem, check that your Apache configuration allows `.htaccess` overrides. You will need the `AllowOverride All` directive in the appropriate place in `httpd.conf`.
 
-File Upload Errors
------------------------------
+## File Upload Errors
+
 If you are receiving errors related to file size uploads, you will need to look at your PHP settings and possibly contact your server administrator.
 
 1. The upload.maxFileSize limit in Omeka’s `application/config/config.ini` is only useful for decreasing the limit, not for increasing it. It is there to restrict uploads in Omeka more narrowly than your PHP settings already mandate. It is not set by default and plays no role in increasing the upload maximum size.
@@ -27,11 +27,10 @@ Omeka Classic will read all three of these settings and display the largest file
 
 Of these three, it’s most often `post_max_size` that’s the problem, as PHP has some odd behaviors when you exceed that limit which can make the cause of the error a little less obvious. The others tend to give you fairly clear error messages.
 
+## Getting Better Error Messages
 
-Getting Better Error Messages
----------------------------------------------------------------
 A blank or white screen is often an indication that Omeka or PHP has encountered an error. Since error messages can often contain private or technical information, Omeka hides them by default. See [Retrieving Error Messages](Retrieving_Error_Messages.md) for instructions on how to show these messages. The content of error messages can be extremely useful for troubleshooting, so try these steps before seeking further help.
 
-Further Help Troubleshooting
-----------------------------------------------------------
+## Further Help Troubleshooting
+
 If you continue to have problems, please post a description of your issue along with the version of Omeka and any plugins involved on the [Omeka Forums](https://forum.omeka.org).

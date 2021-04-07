@@ -1,7 +1,8 @@
+# Retreiving Error Messages
+
 If Omeka Classic doesn't seem to be behaving correctly, for whatever reason, there are steps you can take to get more descriptive error messages. These are turned off by default, but can be used during the production of an Omeka site for troubleshooting.
 
-Display Error Messages
---------------------------------------------------------------
+## Display Error Messages
 
 You can change some configuration settings in Omeka to display error messages directly on the screen.
 
@@ -27,8 +28,8 @@ If you're trying to debug a 404 ("Not Found") or 403 ("Forbidden") error, open `
 1.  Open the .htaccess file in the root of your Omeka installation, and change the value of `php_value display_errors` to `1`.
 2.  Open 'application/config/config.ini', and change the value of `debug.exceptions`  to `true`.
 
-Activate Error Logging
---------------------------------------------------------------
+## Activate Error Logging
+
 If you'd prefer to not have your error messages publicly displayed on your site, you can instead activate error logging. Activating error logging will log any errors encountered by Omeka to a file in `application/log` directory of Omeka. You can then post to the forum or email directly to us.
 
 1.  Change permissions on your installation so that the following file is writable by your server: `application/logs/errors.log`

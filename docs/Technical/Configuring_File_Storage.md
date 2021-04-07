@@ -1,3 +1,5 @@
+# Configuring File Storage
+
 Omeka Classic allows administrators to configure how files are stored (both original files uploaded to Omeka Classic and the derivative images Omeka creates itself). For typical users, the default settings are sufficient: files are simply stored the `files` subdirectory of the Omeka installation and served from there by the web server, just like any other file in Omeka.
 
 However, if you want or need to store files in a different location, on a different drive, or even a different server or service, you'll need to do some configuration. The storage system is configured through the Omeka configuration file, `application/config/config.ini`.
@@ -5,8 +7,7 @@ However, if you want or need to store files in a different location, on a differ
 Note: storage changes in the configuration get applied immediately, and will affect all operations involving files. If you change storage methods or locations after already working on an Omeka installation for some time, you'll
 have to take care of moving or copying any pre-existing files to the new location yourself. If you're thinking about using non-standard storage settings, it's often easiest to make that decision up front, before you upload anything.
 
-Storage Adapters
-----------------
+## Storage Adapters
 
 Omeka's storage system is based on "adapters." An adapter is simply a method for storing and accessing files, and Omeka ships with two adapters out of the box.
 
@@ -19,8 +20,7 @@ ZendS3 adapter would be `Omeka_Storage_Adapter_ZendS3`. Plugins can add their ow
 
 Remember, if you don't explicitly choose an adapter (in other words, if you don't have a `storage.adapter` line in your configuration file) then Omeka will use the Filesystem adapter.
 
-Adapter Options
----------------
+## Adapter Options
 
 Each adapter has some options that can be set to change its behavior. These
 options differ from adapter to adapter. Adapter options are set with
@@ -75,8 +75,6 @@ set at least some settings.
 
 The ZendS3 adapter requires you to have an [Amazon S3][3] bucket set up.
 
-
-
 #### `accessKeyId`
 
 Your AWS access key ID. If you are unsure about what this is or how to get it,
@@ -125,8 +123,7 @@ as "Version 4 only" in the linked table cannot be used with the ZendS3 adapter.
 
 This setting will use HTTPS urls for files stored in S3. It is useful to prevent mixed content errors/warnings when the Omeka site is accessed via HTTPS.
 
-Setting the Temporary Directory
--------------------------------
+## Setting the Temporary Directory
 
 There is one storage option that is used regardless of the configured adapter:
 `storage.tempDir`.

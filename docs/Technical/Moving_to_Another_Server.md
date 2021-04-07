@@ -1,13 +1,10 @@
----
-title: Moving to Another Server
----
+# Moving to Another Server
 
 The most straightforward way to move an Omeka Classic project between servers is to set up a new install on the new server with matching plugins and use the [Omeka API Importer plugin](../Plugins/Omeka_API_Import.md) to transfer items, files, collections, simple pages, exhibits, etc.
 
 If this is not an option (the original site is no longer online or is on an internal network, follow the legacy instructions below.
 
-Legacy Instructions
--------------------
+## Legacy Instructions
 
 Before moving an existing Omeka project from one server to another, you should [upgrade](../Installation/Upgrading.md) your existing installation to the latest version.
 

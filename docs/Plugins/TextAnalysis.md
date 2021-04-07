@@ -1,3 +1,5 @@
+# Text Analysis
+
 The Text Analysis plugin connects your Omeka Classic site with [Watson Natural Language Understanding](https://www.ibm.com/watson/developercloud/natural-language-understanding.html) and [Mallet](http://mallet.cs.umass.edu/) to enable text analysis on a corpora of items created using the Ngram plugin from items on your site.
 
 In order to use Text Analysis you must have the [Ngram](Ngram) plugin installed and activated.

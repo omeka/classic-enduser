@@ -1,9 +1,11 @@
+# OAI-PMH Repository
+
 This plugin implements an [Open Archives Initiative Protocol for Metadata Harvesting](http://www.openarchives.org/pmh) repository for Omeka Classic, allowing Omeka items to be harvested by OAI-PMH harvesters. The plugin implements version 2.0 of the protocol.
 
 This plugin is the reverse of the functionality provided by the [OAI-PMH Harvester plugin](OaipmhHarvester.md).
 
-Metadata Formats
-------------------------------------------------------------
+## Metadata Formats
+
 The plugin ships with several default formats. Other plugins can alter these or add their own (see Extending below)
 
 - [Dublin Core](http://dublincore.org) (`oai_dc`) 
@@ -20,8 +22,8 @@ The plugin ships with several default formats. Other plugins can alter these or 
     - This output format uses an Omeka-specific XML output that includes all metadata elements without requiring crosswalking or subsetting, but is not well-supported by harvesters or other tools.
 
 
-Configuration
--------------------------------------------------------------
+## Configuration
+
 When you install the plugin, you will be automatically directed to the plugin configuration page. You can access these again at any time by going to the Plugins tab of the top navigation, scrolling down to the OAI-PMH Repository plugin in the list and clicking the blue "Configure" button.
 
 At the top of the configuration page, the plugin displays the address for your OAH-PMH repository. 
@@ -50,8 +52,8 @@ The plugin also allows you to configure some more options about how the reposito
 
 **List expiration time**: The amount of time, in minutes, a resumptionToken is valid for. The specification suggests a number in the tens of minutes. This boils down to the length of time a harvester has to request the next part of an incomplete list request. Default is 10 (minutes)
 
-Extending 
------------------------------------------------------------
+## Extending 
+
 The plugin provides a filter that other plugins can use to add new metadata formats or replace the existing ones with new
 implementations. As of version 2.1, it's no longer necessary to add or change files within the plugin itself to change the
 available formats.

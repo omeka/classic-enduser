@@ -1,6 +1,5 @@
----
-title: Searching
----
+# Searching
+
 This page explains the search functions in Omeka Classic on the public and admin side, and how to use them. If you are looking for information on how to [manage search settings, please see that documentation](../Admin/Settings/Search_Settings.md).
 
 Basic Search

@@ -1,6 +1,4 @@
----
-title: Managing Items 2.0
----
+# Items
 
 Items are building blocks in Omeka Classic. To build your digital collections website, you must first add items.
 

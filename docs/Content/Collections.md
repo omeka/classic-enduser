@@ -1,3 +1,4 @@
+# Collections
 
 Collections may be used in a variety of contexts that make the most sense for your archive.
 

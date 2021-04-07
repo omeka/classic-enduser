@@ -1,10 +1,12 @@
+# Posters
+
 Posters are a simple, lightweight way for users on your Omeka Classic site to interact with your content by selecting items to gather together into a sequential presentation, with an overall description and captions for items.
 
 You must have [Guest User](GuestUser.md) installed to use Posters.
 
 
-Configure
------------------------------------------------------------
+## Configure
+
 To configure Posters, go to the Plugins button in the top navigation. Scroll down to Posters and click the blue "Configure" button. The page should load with the following options: 
 
 ![Configuration options for Poster Builder, as described below](../doc_files/plugin_images/posters-config.png)
@@ -34,8 +36,7 @@ If you replace the default texts and later want to restore them, they are as fol
 
 `<h2>Your Posters</h2> To build a poster, you may use any public item in in this website and add a caption.  <p>Click the button that says "New Poster." Assign a title to your poster, add a short description. Click the tab that says "Add an Item" and select any item that you wish to include in your poster. Continue adding items and captions. </p> <p> Be sure to save your poster. You may return to edit your poster at any time. </p> <p>You may print this poster, or share it by email.</p>`
 
-Posters
--------------------------------------------------------
+## Working with Posters
 
 Users add, edit, share, print, and delete posters from the public side of your Omeka installation. Once the plugin has been installed, there should be link in your main navigation menu on the public side called “Posters” (or the text you entered in the Poster Page Title field when configuring the plugin.
 

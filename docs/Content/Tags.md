@@ -1,6 +1,4 @@
----
-title: Managing Tags
----
+# Tags
 
 Tags are keywords or phrases that describe a piece of data. They are non-hierarchical labels that classify your content so that it is easily found. You can add tags to [Items](Items) and [Exhibits](../Plugins/ExhibitBuilder).
 

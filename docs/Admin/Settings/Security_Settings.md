@@ -1,6 +1,5 @@
----
-title: Managing Security Settings 2.0
----
+# Security Settings
+
 To manage Security Settings, select Settings in the top navigation bar.
 
 In the Settings section, choose Security. Only Super users may edit these settings.

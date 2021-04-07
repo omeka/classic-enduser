@@ -1,3 +1,5 @@
+# Exhibit Builder
+
 The Exhibit Builder plugin allows you to develop online exhibits, or special web pages, that combine items from your Omeka Classic site and may include narrative text.
 
 Exhibits are composed of pages, generally an initial page that introduces your exhibit and subsequent pages composed of the items from your Omeka Classic database that you wish to highlight and/or relate to each other. Exhibit Builder exhibits may be as short as one page or consist of multiple pages. You can make the pages of an exhibit hierarchical.
@@ -6,8 +8,8 @@ The layout of exhibits in Exhibit Builder is highly customizable, with the pages
 
 Other plugins may include their own Exhibit Builder block layouts, if the developer has created them.
 
-Configuring
---------------------------------------------------------------
+## Configuring
+
 This plugin is included in your downloaded Omeka Classic installation and does not require a separate download. Select Plugins in the top navigation of your admin. Activate your plugin and select Configure to choose the sequence in which your exhibits appear. Exhibits may be ordered by date added, alphabetically by name, or most recent.
 
 ![Configuration drop down open to show all options](../doc_files/plugin_images/Eb3config.jpg)
@@ -15,8 +17,8 @@ This plugin is included in your downloaded Omeka Classic installation and does n
 -   Choose the order of your Browse Page Exhibit display from the dropdown menu. 
 -   Don't forget to save your changes.
 
-Getting Started
-----------------------------------------------------------------
+## Getting Started
+
 Once you have activated and configured the Exhibit Builder plugin, Exhibits should appear in the left navigation bar. Clicking on it will take you to the Browse Exhibits page (admin/exhibits in your installation).
 
 To create an exhibit, go to the Exhibits tab and click the green button labeled "Add an Exhibit". 
@@ -50,8 +52,8 @@ After selecting a specific theme for exhibit, you can configure that theme by ad
 
 Note that if you change the theme, you must click Save Changes before you configure the theme. So if you have been using Berlin and you want to change to the Winter version of Seasons, you will have to click Save Changes after switching from Berlin to Seasons in the Theme dropdown before you can configure the Seasons theme.
 
-Pages
--------------------------------------------------
+## Pages
+
 Once you have created an exhibit you can add pages to it by clicking the Add Page button at the bottom of the Exhibit Metadata page.
 
 ![Arrow points to the Add Page button](../doc_files/plugin_images/Ebaddp.jpg)
@@ -71,8 +73,8 @@ You can also delete pages from the Exhibit Metadata page through a two-step proc
 
 ![Pages in a hierarchy](../doc_files/plugin_images/ebpages.png)
 
-Content
------------------------------------------------------
+## Content
+
 Pages are made up of combinations of smaller content units called 'blocks.' There are four basic kinds of blocks: item(s) with text, an item gallery, text only, and file only. Each page can have one or more content blocks.
 
 The **File with Text** block allows you to pair fullsize or thumbnail files of your items with a block of text. The item files will all be the same size. Text will appear either to the right or left of the item(s). You can use a single item file paired with text, or have multiple item files to the right or left of a block of text.
@@ -172,8 +174,8 @@ This image shows a Geolocation block with items added:
 And this is how the map looks on the public view of the exhibit page:
 ![Geolocation block public view](../doc_files/plugin_images/eb_geolocationPublic.png)
 
-Shortcodes
---------------------
+## Shortcodes
+
 Exhibit Builder adds specific [shortcodes](../Content/Shortcodes.md) to your instal which allow you to call specific exhibits or featured exhibits. See the [plugin shortcodes documentation](Plugin_Shortcodes.md) for more information.
 
 ### Previous Exhibit Builder Layouts

@@ -1,6 +1,4 @@
----
-title: Database Configuration File
----
+# Database Configuration File
 
 Before installing Omeka Classic, users must edit their database configuration in the db.ini file. Replace the X's in the document with your MySQL database-specific information. You must have MySQL5 installed to use Omeka. 
 

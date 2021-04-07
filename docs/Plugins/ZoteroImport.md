@@ -1,7 +1,9 @@
+# Zotero Import
+
 With this plugin you can move your Zotero research into Omeka Classic, making it possible to further organize and exhibit your Zotero library. Just sync your library to the Zotero server, tell the Zotero Import plugin what library you want to import, and it'll pull in source items, notes, files, and web snapshots.
 
-Features
--------------------------------------------------------
+## Features
+
 The plugin imports Zotero libraries and collections, including source items, notes, files, and web snapshots. Web snapshots are zipped up directories containing the files needed to render the web snapshot.
 
 To minimize data loss that often occurs when migrating between systems, the plugin adds a new element set to your Omeka install which contains elements identical to the fields used by Zotero.
@@ -10,8 +12,7 @@ In addition to mapping data to the Zotero element set, the plugin maps data to t
 
 The plugin also adds a field to the advanced search page that narrows search results by Zotero item type. Every Zotero item has an item type, so it's a helpful way to sort through your items.
 
-Requirements
----------------------------------------------------------------
+## Requirements
 
 -   **Sync Zotero library**: The Zotero library must be synced to the Zotero.org server prior to import. To import files, the Zotero client must be set to sync attachment files. You can find     instructions on how to do this at the [Zotero website](http://www.zotero.org/support/sync). 
     - *Note: the import will not work from Zotero Standalone.*
@@ -32,8 +33,8 @@ collectionID.
 **PHP Zip extension**: Zotero stores web snapshots in ZIP files
 containing files with [Base64](http://en.wikipedia.org/wiki/Base64) encoded filenames. The import plugin attempts to decode the filenames using [PHP's Zip extension](http://www.php.net/manual/en/book.zip.php). If your server does not have this extension installed, the plugin does not decode the filenames. The import will still save web snapshots, but the filenames will be obfuscated, making access near-worthless.
 
-Installation and Importing
----------------------------------------------------------------
+## Installation and Importing
+
 If you want to import all file types, *you must disable file upload validation* in Omeka Admin &gt; Settings &gt; Security Settings before import.
 
 Once you've [installed](../Admin/Adding_and_Managing_Plugins.md) the plugin, go to the "Zotero Import" tab in the admin interface and fill out the form (/admin/zotero-import).
@@ -48,6 +49,6 @@ Once you've [installed](../Admin/Adding_and_Managing_Plugins.md) the plugin, go 
 
 - Are your jobs starting and not completing? You might need to [set the path for PHP](../Content/Setting_PHP_Path.md) so that your system can perform the background process to make the items.
 
-Stopping and Deleting an Import
-----------------------------------------------------------------
+## Stopping and Deleting an Import
+
 If you make a mistake, you may stop an import at any time by clicking "Stop Import" in the Zotero Import admin panel. You may also delete the items from an import after the process finishes, by clicking "Delete Import." Deleting imports will delete all imported items and files.

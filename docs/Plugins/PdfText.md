@@ -1,3 +1,5 @@
+# PDF Text
+
 PdfText enables searching on PDF files uploaded to an Omeka Classic item by extracting their texts and saving them to their file records. PdfText strips out images and layout in the original file, leaving only searchable text which is viewable from site admin.
 
 ### Configure

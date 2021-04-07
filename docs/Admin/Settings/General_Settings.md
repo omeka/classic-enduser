@@ -1,3 +1,5 @@
+# General Settings
+
 Find the general site settings by clicking on the Settings button in the top navigation bar of the admin view. Settings are only accessible by Super Users.
 
 

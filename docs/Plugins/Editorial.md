@@ -1,3 +1,5 @@
+# Editorial
+
 The Editorial Plugin adds a block to [Exhibit Builder](ExhibitBuilder.md) pages which allows users to add comments on and discuss in-progress exhibits. These comments are only visible to logged-in users of the site.
 
 You must be using Exhibit Builder version 3.3.3 (not yet released, but is included in the master branch on GitHub) or higher for Editorial to work.

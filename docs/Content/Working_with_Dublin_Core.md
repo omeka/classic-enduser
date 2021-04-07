@@ -1,6 +1,4 @@
----
-title: Working with Dublin Core
----
+# Working with Dublin Core
 
 Why Dublin Core?
 ----------

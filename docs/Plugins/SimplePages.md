@@ -1,17 +1,19 @@
+# Simple Pages
+
 The Simple Pages plugin allows you to create text rich pages, for example an "About" page. It is one of the plugins which comes bundled with downloads of Omeka.
 
 Simple Pages can be written in plain text or using HTML. You can insert items, exhibits, and files into Simple Pages by using the [Shortcodes](../Content/Shortcodes.md) available on Omeka Classic. 
 
-Configuration
--------------------------
+## Configuration
+
 To configure the Simple Pages plugin, go to the Plugins tab in the top admin nav, and scroll to Simple Pages. Click the blue *Configure* button. 
 
 Simple Pages has a single configuration setting, a checkbox to *Filter User Input for Page Content.* If checked, the plugin will filter any user-entered text in a Simple Page against the HTML filters in the [security settings](../Admin/Settings/Security_Settings.md), removing any disallowed HTML tags. 
 
 ![Simple Pages configuration setting](../doc_files/plugin_images/simplePagsConfig.png)
 
-Managing Simple Pages
-------------------------------------------------------
+## Managing Simple Pages
+
 Add, edit, and delete Simple Pages from the tab on the left-hand navigation on the admin dashbaord.
 
 ![Left nav with the SimplePages tab indicated with a red frame](../doc_files/plugin_images/simplePagesTab.png)
@@ -57,7 +59,3 @@ When you view the details of a page which has already been created, there are ad
 - Click the red *Delete* button to delete the page. A dialog box will pop up to ask you to confirm the deletion.
 
 ![Editing a Simple Page](../doc_files/plugin_images/simplePagesEdit.png)
-
-Advanced Users
--------------------------------------------------------
-For advanced users, Simple Pages can accept nested slugs and PHP code.

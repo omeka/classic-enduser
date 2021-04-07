@@ -1,7 +1,9 @@
+# Item Order
+
 Item Order allows users to use a drag-and-drop interface change the order in which items display on the public Collection browse pages of your Omeka Classic site.
 
-Order Items in a Collection
-----------------------------------------------------------------
+## Order Items in a Collection
+
 Item Order does not have any configuration settings, and will be available once [installed](../Admin/Adding_and_Managing_Plugins.md) and activated.
  
 To use Item Order, go to the Collections tab in the sidebar of the admin Dashboard. Find the collection whose items you want to reorder and click on the name of the collection (note: do not click on edit).
@@ -16,8 +18,8 @@ A complete list of all items in that collection will appear on the page. Drag an
 
 ![mouse hovering over the Click Here To Return button](../doc_files/plugin_images/Itemorderc.jpg)
 
-Restore Original Order
-----------------------------------------------------------------
+## Restore Original Order
+
 Click the Collections tab in the sidebar of the admin Dashboard, find the collection you want to order and click on the name of the collection (note: do not edit the collection).
 
 -   Scroll to the bottom of the page to the heading Item Order and click the green *Reset Items to their Default Order* button

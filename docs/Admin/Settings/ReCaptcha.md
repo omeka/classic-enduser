@@ -1,3 +1,5 @@
+# ReCaptcha
+
 A captcha is a program that can help ensure that only actual people, not spammers or robots, are using particular parts of your site. [reCAPTCHA](http://recaptcha.net) displays an image of two words and asks the user to type them in before continuing.
 
 Omeka Classic versions 1.3 and higher have built-in support for reCAPTCHA, a free captcha service from Google. Several Omeka plugins that used to handle captchas individually now all use Omeka's built-in support.

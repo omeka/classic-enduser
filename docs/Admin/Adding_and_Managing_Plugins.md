@@ -1,6 +1,5 @@
----
-title: Managing Plugins
----
+# Working with Plugins
+
 Plugins are tools to extend the basic functionality of Omeka Classic. A list of plugins available for download is on the [Plugins Add-Ons Directory](http://omeka.org/classic/plugins) (Please note that not every plugin will work with every version of Omeka), and instructions are available on each plugin's documentation page.
 
 ![Plugins page](../doc_files/Plugins.png)  

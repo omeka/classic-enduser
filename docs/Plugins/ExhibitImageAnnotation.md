@@ -1,3 +1,5 @@
+# Exhibit Image Annotation
+
 This plugin adds a content block type to Exhibit Builder which allows you to create annotations on an image file. The annotation will be visible on both the public and admin views of the exhibit.
 
 Content blocks are the pieces which are used to create exhibit pages. If you have used Exhibit Builder, you have already worked with the following block types: file with text, gallery, text, and file.

@@ -1,6 +1,4 @@
----
-title: Setting Directory Permissions
----
+# Setting Directory Permissions
 
 One of the steps in Omeka's [installation](../Installation/Installation.md) process is setting the correct permissions on the `files` directory (`archive` in older versions of Omeka). The necessary process for setting permissions can differ significantly between different servers,
 so it's often best to get specific advice from your hosting provider. This page tries to provide some more general guidance.

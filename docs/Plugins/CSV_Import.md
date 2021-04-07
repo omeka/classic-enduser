@@ -1,3 +1,5 @@
+# CSV Import
+
 The CSV Import plugin allows users to import items from a simple CSV (comma-separated values) file, and then map the CSV column data to multiple elements, files, and/or tags. Each row in the file represents metadata for a single item.
 
 When using this plugin, if you plan to map to specific Item Type metadata fields, then you may only import one item type (document, still image, sound, et al) at a time. You may perform multiple imports.
@@ -9,8 +11,8 @@ The plugin has the following features:
 -   Undo Imports: The Undo option lets you delete all the files added in an import.
 -   Set custom delimiters: you now have the option to set separate delimiters for columns, files, tags, and elements.
 
-Preparing for CSV Import 
----------------------------
+## Preparing for CSV Import
+
 The best option is usually to use spreadsheet software (Excel, Google Sheets, Numbers) to create and organize your data. Both of these programs can export a spreadsheet into CSV format, and will handle all the necessary escaping and quoting for you.
 
 However, if you're creating or editing your data by hand, there are a few things to keep in mind:
@@ -22,8 +24,8 @@ However, if you're creating or editing your data by hand, there are a few things
 -   Look over the [Dublin Core](../Content/Working_with_Dublin_Core.md) and [Item Type](../Content/Item_Types.md) metadata to be sure you can easily map the fields in your CSV file to the Omeka installation. Make any modifications in fields or types as necessary.
 -   It is possible to import files housed in a digital repository by adding the URL to that specific file in a column representing a file. You may import more than one file per item, by comma separating the urls within a cell. You must use a permanent link for this step.
 
-Importing 
------------------------------------------------------------
+## Importing
+
 A quick note about CSV formats and importing: The column delimiter is the basic building block of the CSV file, and it is a comma by default.
 
 Each of the remaining delimiter inputs simply accepts a character that's used to separate multiple values within one "cell" of the CSV.
@@ -85,8 +87,8 @@ If your import hangs without completing for an extended period but the link to u
 For example, if your Omeka instance was at the root of example.com and this was your 3rd CSV import, you would use
 `http://example.com/admin/csv-import/index/undo-import/id/3`. You can hover over the links for previous or subsequent imports to deduce the Import ID.
 
-Troubleshooting
--------------------------------------
+## Troubleshooting
+
 If you are having trouble with a CSV consistently not importing, try checking for these common issues:
 
 - Are your jobs starting and not completing? You might need to [set the path for PHP](../Content/Technical/Setting_PHP_Path.md) so that your system can perform the background process to make the items.

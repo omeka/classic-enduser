@@ -1,7 +1,9 @@
+# Simple Contact Form
+
 The Simple Contact Form allows you to create a contact form on your Omeka Classic site through which visitors can send comments, suggestions, and other feedback. By default, the plugin adds "Contact Us" to your site's main navigation.
 
-Configuration
----------------------------------------------------------------
+## Configuration
+
 Once you have [installed](../Admin/Adding_and_Managing_Plugins.md)
  Simple Contact, you will need to configure it. You should be automatically redirected to the plugin when you activate it from the admin Plugins page. If you are not, go to the top navigation on the admin dashboard and click Plugins, then scroll to Simple Contact (plugins are arranged alphabetically) and click the blue *Configure* button.
 

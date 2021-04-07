@@ -1,3 +1,5 @@
+# User Profiles
+
 User Profiles is designed to address many different situations in which gathering and/or displaying information about users is helpful on an Omeka Classic site. In many cases, these situations involve a combination of User Profiles with other plugins. Example use cases might be:
 
 -   Create structured, consistent information about the creators of the site.
@@ -7,8 +9,7 @@ User Profiles is designed to address many different situations in which gatherin
 
 [There is a screencast for this plugin](https://vimeo.com/165052886)
 
-Install and Configure
--------------------------------------------------------------
+## Install and Configure
 
 User Profiles depends on the additional functionality provided by the Record Relations plugin. You will need to install Record Relations before installing User Profiles.
 
@@ -20,8 +21,8 @@ Then, under the User Profiles tab on the left of your screen, you may further co
 
 ![User profiles tab with not profiles yet created](../doc_files/plugin_images/userprofiles_browsenone.png)
 
-Manage Profile Types
-----------------------
+## Manage Profile Types
+
 To create a new profile, click the Add a Profile Type button on the User Profiles tab.
 
 ![Red arrow points to the add new button](../doc_files/plugin_images/userprofiles_browsenone.png)
@@ -61,12 +62,12 @@ You may edit a profile at any time by going to the User Profiles tab and clickin
 
 To delete a profile, click the delete link under the profile type's name in the table of profile types. 
 
-Filling out a Profile on the Admin Side
------------------------
+## Filling out a Profile on the Admin Side
+
 To enter information for yourself in a user profile, go to the User Profiles tab on the left-hand navigation. Click the "Add" link for the profile you want to complete. 
 
 ![Red arrow points to the Add link](../doc_files/plugin_images/userprofiles_complete.png)
 
-Public User Profiles
--------------------------------------------------------------
+## Public User Profiles
+
 Non-admin-side Omeka users (i.e., Guest Users) who have profiles may view or edit their profiles by signing in. After sign in, they click the My Profiles link.

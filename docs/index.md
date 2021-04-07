@@ -1,6 +1,5 @@
----
-title: Omeka Classic User Manual
----
+# Omeka Classic User Manual
+
 This user manual is for the current version of Omeka Classic. 
 
 **Getting Started**  

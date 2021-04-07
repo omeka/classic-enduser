@@ -1,6 +1,5 @@
----
-title: System Requirements
----
+# System Requirements
+
 Omeka Classic has the following system requirements:
 
 -   Linux operating system

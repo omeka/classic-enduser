@@ -1,3 +1,5 @@
+# PBCore
+
 The PBCore plugin for Omeka Classic adds elements from the [PBCore Metadata standard](https://pbcore.org/) to your Omeka site. This metadata standard, developed for audiovisual content, can be used to describe items and files. It does not replace the Dublin Core metadata elements in your Omeka Classic site.
 
 ## Configuration

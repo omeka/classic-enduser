@@ -1,3 +1,5 @@
+# Using Omeka with Other Tools and Platforms
+
 This list links out to information about digital tools and platforms which can be used with Omeka Classic.
 
 **Omeka Classic + Curatescape:** Mobile app framework to curate the landscape. [Code on Github](https://github.com/CPHDH/Curatescape); [Website](http://curatescape.org/).

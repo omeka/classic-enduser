@@ -1,3 +1,5 @@
+# Legacy Documentation
+
 Documentation for versions of Omeka up to 1.5 is available for download as a [zipped archive of html files](http://omeka.org/files/1xDocumentation.zip)
 
 ## Legacy Add-ons

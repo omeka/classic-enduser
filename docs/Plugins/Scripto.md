@@ -1,7 +1,9 @@
+# Scripto
+
 The Scripto plugin allows you to crowdsource the transcription of your Omeka Classic content. It adds a feature rich interface to the admin and public sides that includes many features from [MediaWiki](http://www.mediawiki.org/wiki/MediaWiki), the software behind [Wikipedia](http://www.wikipedia.org/). All items with files can be transcribed. For these purposes an item is a *document*, and an item's files are its *pages*.
 
-Features
----------------------------------------------------------
+## Features
+
 With the Scripto plugin, users can:
 
 -   Transcribe document pages
@@ -22,12 +24,12 @@ In addition to this, administrators can:
 -   View corresponding MediaWiki pages
 
 
-Installing MediaWiki
------------------------------------------------------------
+## Installing MediaWiki
+
 This plugin requires you or your system administrator to [download](http://www.mediawiki.org/wiki/Download) and [install](http://www.mediawiki.org/wiki/Installation) MediaWiki, a popular free web-based wiki software application that Scripto uses to manage user and transcription data. You should install MediaWiki in a separate directory from Omeka. It can be installed on another server and it must be accessible to the Web.
 
-Configuring Scripto
-------------------------------------------------------------
+## Configuring Scripto
+
 -   **MediaWiki API URL:** URL to your [MediaWiki installation API](http://www.mediawiki.org/wiki/API:Quick_start_guide#What_you_need_to_access_the_API).
 -   **MediaWiki cookie prefix:** the cookie prefix, most likely your database name.
 	- `<dbname>` if a table prefix is not used, -or-
@@ -40,8 +42,8 @@ Configuring Scripto
 
 ![Scripto1.png](../doc_files/plugin_images/Scripto1.png)
 
-Quick Start
----------------------------------------------------------------
+## Quick Start
+
 Once you've installed MediaWiki and the Scripto plugin you can begin transcribing document pages:
 
 1.  Open an item page as normal (the item must have at least one file);
@@ -49,15 +51,13 @@ Once you've installed MediaWiki and the Scripto plugin you can begin transcribin
 3.  Click "\[edit\]" beside "Current Page Transcription", an edit form will open;
 4.  Transcribe the page and click "Edit transcription";
 
-Restricting Access
------------------------------------------------------------
+## Restricting Access
 
 The Scripto interface is available to all users, but as a MediaWiki administrator you can restrict access to certain actions. By default, anonymous users can edit and revert pages. If you want to restrict these actions, you must [follow these
 directions](http://www.mediawiki.org/wiki/Manual:Preventing_access#Restrict_editing_of_all_pages),
 and your users must create MediaWiki user accounts (see below).
 
-Creating Accounts
-----------------------------------------------------------
+## Creating Accounts
 
 Scripto uses a separate login procedure from Omeka, so non-anonymous users must have a MediaWiki account and administrators must manage them via MediaWiki. (We recognize that this is not ideal, but the [MediaWiki API](http://www.mediawiki.org/wiki/API:Main_page) does not provide the means to create accounts.) To create an account, users must:
 
@@ -76,14 +76,13 @@ If you do not want to allow anonymous account creation, you must [follow these d
     1.  Fill in a password and click "Create account"
     2.  Fill in an email and click "By e-mail" (The user will receive an email with instructions on how to complete their account creation. You can modify the account creation email by editing the MediaWiki:Createaccount-text page.)
 
-Importing
-------------------------------------------------
+## Importing
+
 Once a document or page is transcribed, you may import the transcription from MediaWiki into Omeka. *Importing a document* stitches together all its page transcriptions and imports the result to the corresponding item. *Importing a page* imports to the corresponding file. All transcriptions are imported to the "Transcription" element in the "Scripto" element set.
 
 Import is only available to MediaWiki administrators. After logging into Scripto via the Omeka interface, two buttons will appear on the transcription page: "Import Document" and "Import Page." Just click these buttons to import the transcription from MediaWiki to Omeka.
 
-Advanced Usage
--------------------------------------------------------
+## Advanced Usage
 
 ### Record Client IP Address
 
