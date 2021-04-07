@@ -11,7 +11,7 @@ markdown_extensions:
     - toc:
         permalink: 
 nav:
-    - Home: index.md
+    - index.md
     - Getting Started:
         - GettingStarted/Site_Planning_Tips.md
         - GettingStarted/UsingOmeka.md
