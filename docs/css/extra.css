@@ -28,6 +28,14 @@ a:visited {
     background-color: #628C85;
 }
 
+.wy-menu-vertical a:hover {
+    color: #d9d9d9;
+}
+
+.wy-menu-vertical p.caption {
+    color: white;
+}
+
 /* Workaround for mkdocs RTD theme bug: apply theme styles */
 .rst-content table {
     width: 100%;
