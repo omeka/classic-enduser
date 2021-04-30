@@ -2,6 +2,8 @@
 
 If you lack access to a server that meets Omeka's [basic requirements](../Installation/System_Requirements.md), try our [Omeka.net](http://omeka.net) hosted service.
 
+The Omeka Team offers fully managed, [isolated hosting](http://omeka.org/about/services/), which includes installation and updating of the core software and any themes or plugins developed by the Omeka Team, and direct technical support.
+
 Hosting companies which use [Installatron](https://installatron.com/) should offer a one-click install of Omeka Classic.
 
 Below are also a few suggestions for low-cost shared web hosts that offer the server environment required for Omeka.
