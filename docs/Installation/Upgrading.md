@@ -11,6 +11,7 @@ Please note that in order to update from a pre-2.0 version of Omeka Classic, you
      - If you download to the your computer and then upload to the server, either see if you can unzip the folder on the server *or* make sure that hidden files are visible on your computer to ensure that all files are transferred.
 5.  **Move or copy the following files and directories** from your old Omeka folder to the corresponding location in your new Omeka installation (if copying, make sure you keep all permissions the same as they were before):
     - `db.ini` (in version 0.9, this was located in application/config/db.ini; since version 0.10 this has been relocated to the root of your installation.)
+    - `config.ini` (located in application/config/config.ini)
     - `files/` (for versions below 2.0, the folder is instead named `archive/`)
       - **If you are upgrading from 1.x to 2.x** rename `archive` to `files`, and rename the `files/files` in the directory you just renamed to `files/original`
     - Any themes or plugins you had installed. The bundled themes and plugins (currently Coins, Exhibit Builder, and Simple Pages) will already have been updated with Omeka, so you don't have to move them back over. 
