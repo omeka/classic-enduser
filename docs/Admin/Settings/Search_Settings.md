@@ -8,9 +8,14 @@ Access the Search Settings tabs by going to the Settings tab in the top navigati
 
 ![Arrows labelled as above point to the tabs](../../doc_files/searchsettingsloc.png)
 
+## Search Query Type
+As an Omeka Classic site Super Administrator, you may specify the type of search query that runs when users interact with the simple search: Keyword, Boolean, or Exact match.
+
+![Search settings page, with Search Query Type selection active for Keyword(../../doc_files/SearchQueryType.png)]
+
 ## Select Record Types
 
-As an Omeka Classic site Super administrator, you may choose which record types you wish to be searchable: items, collections, files. 
+Also, you may choose which record types you wish to be searchable: items, collections, files. 
 
 ![Search settings page, with Item, File, and Collection checkboxes active](../../doc_files/Searchsettings.png)
 
