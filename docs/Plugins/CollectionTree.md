@@ -4,6 +4,15 @@ Collection Tree plugin allows Omeka Classic sites to have nested [collections](.
 
 Once you have [installed](../Admin/Adding_and_Managing_Plugins.md) collection tree, the plugin will create a tab on the left-hand navigation of the admin side of the site. This tab allows you to view your collection hierarchy. To create a child/parent relationship between collections (nest), you must edit the collection.
 
+You can configure the plugin to adjust the display by checking the following options:
+
+- Order alphabeitcally: This setting orders the Collection Tree alphabetically, but does not affect the order of the collections browse page.
+- Browse root-level collections only: This setting limites the public collections browse page so it only includes root collections and does not show subcollections.
+- Show subcollections items: This setting includes all of the items from the subcollections in the list of items on the root collections' show page.
+- Expand search to include subcollection items by default: This setting expands the universe for a collection search to include the content of the subcollections.
+
+![Configuration page for the Collection Tree plugin with none of the options selected](../doc_files/plugin_images/collectionTree_config.png)
+
 ## Create a Collection Tree
 
 You can only nest collections once you have at least two collections. 
