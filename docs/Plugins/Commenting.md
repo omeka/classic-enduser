@@ -19,9 +19,15 @@ The configuration options are:
 
 **Allow public commenting**: Check this box to allow anyone, including non-registered users, to make comments. 
 
-**Require moderation for all public comments**: Check this to hide public comments until they have been reviewed by a moderator (see below). If unchecked, comments appear immediately (but moderators can still delete).
-
 **User roles that can moderate comments**: Select at least one user role to moderate comments. The list will include all possible user roles, from admin to guest.
+
+**User roles that can comment**: Select the user roles that can leave comments. The list will inlcude all possible user roles, from admin to guest, including all roles added by other plugins.
+
+**User roles that require moderation before publishing**: Select the user roles that will require moderation before publication. If that role is selected as one that can moderate comments, the moderation permissions will override this setting.
+
+**Allow the public to view comments?** Unless this box is checked, comments will not be visible on public views. 
+
+**User roles that can view comments** This selection restricts the visibility of comments to designated roles.
 
 **WordPress API key for Akismet**: If you are allowing public, unmoderated commenting and you have a WordPress account, you can use your [Akismet](http://akismet.com/) API key for spam management. You may use a key you are currently implementing on a blog or another site that collects public feedback, provided that that key is not site-specific in the key settings on the Akismet site. 
 
