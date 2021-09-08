@@ -11,7 +11,7 @@ Access the Search Settings tabs by going to the Settings tab in the top navigati
 ## Search Query Type
 As an Omeka Classic site Super Administrator, you may specify the type of search query that runs when users interact with the simple search: Keyword, Boolean, or Exact match.
 
-![Search settings page, with Search Query Type selection active for Keyword(../../doc_files/SearchQueryType.png)]
+![Search settings page, with Search Query Type selection active for Keyword](../../doc_files/SearchQueryType.png)
 
 ## Select Record Types
 
