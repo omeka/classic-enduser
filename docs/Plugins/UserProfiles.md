@@ -19,13 +19,11 @@ After you [install](../Admin/Adding_and_Managing_Plugins.md) the plugin, you wil
 
 Then, under the User Profiles tab on the left of your screen, you may further configure your plugin.
 
-![User profiles tab with not profiles yet created](../doc_files/plugin_images/userprofiles_browsenone.png)
-
 ## Manage Profile Types
 
 To create a new profile, click the Add a Profile Type button on the User Profiles tab.
 
-![Red arrow points to the add new button](../doc_files/plugin_images/userprofiles_browsenone.png)
+![Arrow points to the add new button](../doc_files/plugin_images/userprofiles_browsenone.png)
 
 The profile type form has two required fields:
 
@@ -58,7 +56,7 @@ If the profile is made required, users will be notified that they need to fill o
 
 You may edit a profile at any time by going to the User Profiles tab and clicking the Edit button under the profile type's label in the table of profile types.
 
-![red arrow points to the edit button](../doc_files/plugin_images/userprofiles_edit.png)
+![Arrow points to the edit button](../doc_files/plugin_images/userprofiles_edit.png)
 
 To delete a profile, click the delete link under the profile type's name in the table of profile types. 
 
@@ -66,7 +64,7 @@ To delete a profile, click the delete link under the profile type's name in the 
 
 To enter information for yourself in a user profile, go to the User Profiles tab on the left-hand navigation. Click the "Add" link for the profile you want to complete. 
 
-![Red arrow points to the Add link](../doc_files/plugin_images/userprofiles_complete.png)
+![Arrow points to the My Profile section](../doc_files/plugin_images/userprofiles_complete.png)
 
 ## Public User Profiles
 

@@ -7,26 +7,13 @@ The Simple Contact Form allows you to create a contact form on your Omeka Classi
 Once you have [installed](../Admin/Adding_and_Managing_Plugins.md)
  Simple Contact, you will need to configure it. You should be automatically redirected to the plugin when you activate it from the admin Plugins page. If you are not, go to the top navigation on the admin dashboard and click Plugins, then scroll to Simple Contact (plugins are arranged alphabetically) and click the blue *Configure* button.
 
-The configuration settings have a number of fields, almost all of which relate to setting up the various email addresses and messages needed for a contact form.
+The configuration settings allow you to designate a 
 
-The fields are as follows:
-
-- *Reply-From email*: if this field is filled, this is the reply-to and sent-from email address of the message sent to visitors letting them know their message has been sent (see the Public Notification options below).
 - *Forward-To Email*, enter the email address to which you want notifications to go when a user submits a message via the form.  If this field is blank, you will not receive user messages sent from the contact form.
 
 ![reply-from and forward-to fields](../doc_files/plugin_images/simplecontact1.png)
 
-- *Email Subject (Admin Notification)*: subject line for emails sent by the system to an administrator at the *Forward-To Email* address entered above. By default, this is "A User Has Contacted  You."
-- *Email Message (Admin Notification)* is the beginning of the message sent to the *Forward-to email* address; the visitor's message is added below this introduction. 
-
-![admin notification email settings](../doc_files/plugin_images/simplecontact2.png)
-
-- *Email Subject (Public Notification)*: subject line for emails sent by the system to visitors who post a message through the form. 
-- *Email Message (Public Notification)* is the beginning of the message sent to the visitor, and is followed by the text of the message they sent.
-
-![public notification email settings](../doc_files/plugin_images/simplecontact3.png)
-
-Configure the page on which the form appears with these settings: 
+Then, you can configure the page on which the form appears with these settings: 
 
 - *Contact Page Title*: the title of the page 
 - *Instructions for Contact Page*: allows you to add instructions or other information to the page.
