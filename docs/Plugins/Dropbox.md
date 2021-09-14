@@ -11,7 +11,7 @@ The Dropbox allows Omeka Classic users to batch upload a large quantity of files
 3.  Once activated, the Dropbox plugin creates a tab found on the left side menu under Dashboard in admin.
 4.  FTP files you wish to upload to the /files folder located on the server (/plugins/Dropbox/files/). The list of files will appear in files tab when adding or editing items,and under the Dropbox tab available from the /admin screen (.../admin/dropbox).
 
-![Files available via the dropbox plugin ](../doc_files/plugin_images/Dropbox.jpg)
+![Files available via the dropbox plugin ](../doc_files/plugin_images/Dropbox.png)
 
 ## Batch Adding Files As Items 
 
