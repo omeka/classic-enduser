@@ -40,7 +40,7 @@ If you want to import all file types, *you must disable file upload validation* 
 Once you've [installed](../Admin/Adding_and_Managing_Plugins.md) the plugin, go to the "Zotero Import" tab in the admin interface and fill out the form (/admin/zotero-import).
 
 1. To fill out the form, you will need find the feed URL to the Zotero library you want to import and, if desired or necessary, a private key to access those sources. Click "Continue" to begin the importing process.
-   ![Zotero import plugin fields](../doc_files/plugin_images/Zotero_dashboard.jpg)
+   ![Zotero import plugin fields](../doc_files/plugin_images/Zotero_dashboard.png)
 1. Depending on the size of the library, the import process may take some time to complete. Because of this we suggest that you log background processes:
 
     - In omeka/application/config/config.ini make sure `log.processes = true`
