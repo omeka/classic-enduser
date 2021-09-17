@@ -12,8 +12,8 @@ Note that a new Reports directory will be created once the plugin is uploaded to
  the plugin, a Reports tab will appear on the left navigation of the admin Dashboard (admin/Reports)
 2. Click the link in the top-left of the screen that reads "Add a     Report."
 3. On the "Add" page, choose a name and a description for the report.
-   ![Report add.jpg](../doc_files/plugin_images/Report_add.jpg)
-4. Choose which items to include in the Report on the "Edit     Filter" page. This is essentially creating an advanced item query; you need to choose criteria to filter the items for this report. If you leave the form blank, all items in the installation will be included in the report. Click Search to create the report. ![Reports filter.jpg](../doc_files/plugin_images/Reports_filter.jpg)
+   ![Report add.jpg](../doc_files/plugin_images/Reports_add.png)
+4. Choose which items to include in the Report on the "Edit     Filter" page. This is essentially creating an advanced item query; you need to choose criteria to filter the items for this report. If you leave the form blank, all items in the installation will be included in the report. Click Search to create the report. ![Reports filter.jpg](../doc_files/plugin_images/Reports_filter.png)
 5. The new report now appears on the admin/reports page.
 
 ### Generating a File
@@ -21,7 +21,7 @@ Note that a new Reports directory will be created once the plugin is uploaded to
 Once you have created a report, you can publish report files in HTML or as QR Codes.
 
 1.  From the admin/Reports page, To generate a file, you can either click the "Generate File" button on the main Reports page, or a specific report's details page (accessible by clicking the report's name).
-   ![Cursor hovering over generate reports](../doc_files/plugin_images/Reports_generate.jpg)
+   ![Cursor hovering over generate reports](../doc_files/plugin_images/Reports_generate.png)
 1.  The drop-down menu next to the “Generate File” button allows you to select the type of report that will be generated, HTML or PDF for QR Codes.
 
 The report will be generated in the background. Refresh the report details page as the report’s status changes from “In Progress” to “Completed.”
@@ -30,7 +30,7 @@ The report will be generated in the background. Refresh the report details page 
 
 All report files with a status of "Completed" on the report details page have two links, allowing you to view or delete the file.
 
-![Table of reports with options to download](../doc_files/plugin_images/Reports_download.jpg)
+![Table of reports with options to download](../doc_files/plugin_images/Reports_download.png)
 
 *View file* allows you to view the generated file in your browser. You can then save the file to your local machine, and/or leave it on your Omeka server.
 

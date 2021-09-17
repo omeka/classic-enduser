@@ -12,7 +12,7 @@ Other plugins may include their own Exhibit Builder block layouts, if the develo
 
 This plugin is included in your downloaded Omeka Classic installation and does not require a separate download. Select Plugins in the top navigation of your admin. Activate your plugin and select Configure to choose the sequence in which your exhibits appear. Exhibits may be ordered by date added, alphabetically by name, or most recent.
 
-![Configuration drop down open to show all options](../doc_files/plugin_images/Eb3config.jpg)
+![Configuration drop down open to show all options](../doc_files/plugin_images/Eb3config.png)
 
 -   Choose the order of your Browse Page Exhibit display from the dropdown menu. 
 -   Don't forget to save your changes.
@@ -56,7 +56,7 @@ Note that if you change the theme, you must click Save Changes before you config
 
 Once you have created an exhibit you can add pages to it by clicking the Add Page button at the bottom of the Exhibit Metadata page.
 
-![Arrow points to the Add Page button](../doc_files/plugin_images/Ebaddp.jpg)
+![Arrow points to the Add Page button](../doc_files/plugin_images/Ebaddp.png)
 
 Once on the Add Page screen, add the following:
 
@@ -85,7 +85,7 @@ The **Text** block allows you to create a section of text which spans the width 
 
 The **File** block allows you to add larger files as a separate block.
 
-![Select block dialog with options as described above](../doc_files/plugin_images/eb_selectblock.jpg)
+![Select block dialog with options as described above](../doc_files/plugin_images/eb_selectblock.png)
 
 To add a content block, select the layout you want in the New Block dialog box. Once you have selected the kind you want, click the "Add new content block" button. You will have a new block on the page to configure your content.
 

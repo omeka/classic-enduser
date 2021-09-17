@@ -18,7 +18,7 @@ You can download the latest version of Omeka API Import from the Omeka Classic P
 
 ## Importing 
 
-![Beginning page for the importer](../doc_files/plugin_images/OApiImport.jpg)
+![Beginning page for the importer](../doc_files/plugin_images/OApiImport.png)
 
 ### Without an API Key 
 
