@@ -16,7 +16,7 @@ A complete list of all items in that collection will appear on the page. Drag an
 
 -   Dragging automatically reorders the items for the public collection browse page. To see the public page, either click the link that states *click here to return to the collection show page* and then click on "View Public Page", or navigate to yoursite.org/items/browse?collection=1 (where 1 equals the number of the collection you modified).
 
-![mouse hovering over the Click Here To Return button](../doc_files/plugin_images/itemorderc.png)
+![mouse hovering over the Click Here To Return button](../doc_files/plugin_images/Itemorderc.png)
 
 ## Restore Original Order
 
@@ -24,4 +24,4 @@ Click the Collections tab in the sidebar of the admin Dashboard, find the collec
 
 -   Scroll to the bottom of the page to the heading Item Order and click the green *Reset Items to their Default Order* button
 
-![Cursor hovers over the green Reset button](../doc_files/plugin_images/itemorderreset.png)
+![Cursor hovers over the green Reset button](../doc_files/plugin_images/Itemorderreset.png)
