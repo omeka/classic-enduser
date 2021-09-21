@@ -6,7 +6,7 @@ Once you have [installed](../Admin/Adding_and_Managing_Plugins.md) collection tr
 
 You can configure the plugin to adjust the display by checking the following options:
 
-- Order alphabeitcally: This setting orders the Collection Tree alphabetically, but does not affect the order of the collections browse page.
+- Order alphabetically: This setting orders the Collection Tree alphabetically, but does not affect the order of the collections browse page.
 - Browse root-level collections only: This setting limites the public collections browse page so it only includes root collections and does not show subcollections.
 - Show subcollections items: This setting includes all of the items from the subcollections in the list of items on the root collections' show page.
 - Expand search to include subcollection items by default: This setting expands the universe for a collection search to include the content of the subcollections.
