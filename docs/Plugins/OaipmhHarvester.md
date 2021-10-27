@@ -4,7 +4,7 @@ The OAI-PMH Harvester plugin imports records from OAI-PMH data providers.
 
 Some online repositories expose their metadata through the [Open Archives Initiative Protocol for Metadata Harvesting](http://www.openarchives.org/pmh/) (OAI-PMH). This plugin makes it possible to harvest that metadata, mapping it to the Omeka data model. The plugin can be used for one-time data transfers, or to keep up-to-date with changes to an online repository.
 
-Currently the plugin is able to import [Dublin Core](http://dublincore.org/documents/dces/), [CDWA Lite](http://www.getty.edu/research/conducting_research/standards/cdwa/cdwalite.html) metadata, and [METS](http://www.loc.gov/standards/mets/). Dublin Core is an internationally recognized standard for describing any resource. 
+Currently the plugin is able to import [Dublin Core](http://dublincore.org/documents/dces/), [CDWA Lite](https://www.getty.edu/research/publications/electronic_publications/cdwa/cdwalite.html) metadata, and [METS](http://www.loc.gov/standards/mets/). Dublin Core is an internationally recognized standard for describing any resource. 
 
 Every OAI-PMH data provider should implement this standard. CDWA Lite is a standard for describing works of art and material culture. Very few repositories expose CDWA Lite, but the standard is getting more and more popular. METS is developed as an initiative of the Digital Library Federation and maintained in the Network Development and MARC Standards Office of the Library of Congress.
 
