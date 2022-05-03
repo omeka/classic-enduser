@@ -14,7 +14,7 @@ If you need to upgrade your server to meet any of the Omeka system requirements,
 
 7 Easy Steps for Installing with LAMP server setup 
 -----------
-Note: If you are doing a One-Click install from Dreamhost, you must edit the `db.ini` file in the Omeka directory (see 3 below).
+Note: If you are performing a [one-click install through a software management service](../GettingStarted/Hosting_Suggestions.md), you may need to edit the `db.ini` file in the Omeka directory (see 3 below).
 
 If you want to use Omeka Classic in a language other than English, you will need to configure it in the `/application/config/config.ini` file. See [Configuring Language](Configuring_Language.md) for details. The installation steps are localized, so you might want to do this before the rest of the installation steps below. It is fine to change this after your site is successfully installed.
 

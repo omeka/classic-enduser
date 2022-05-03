@@ -4,11 +4,11 @@ If you lack access to a server that meets Omeka's [basic requirements](../Instal
 
 The Omeka Team offers fully managed, [isolated hosting](http://omeka.org/about/services/), which includes installation and updating of the core software and any themes or plugins developed by the Omeka Team, and direct technical support.
 
-Hosting companies which use [Installatron](https://installatron.com/) should offer a one-click install of Omeka Classic.
+Hosting companies that use [Installatron](https://installatron.com/) should offer a one-click install of [Omeka Classic](https://installatron.com/omeka). Hosting companies that use [Softaculous](https://softaculous.com/) should offer a one-click install of [Omeka Classic](https://www.softaculous.com/softaculous/apps/educational/Omeka) and [Omeka S](https://www.softaculous.com/softaculous/apps/others/Omeka_S).
 
 Below are also a few suggestions for low-cost shared web hosts that offer the server environment required for Omeka.
 
--   Reclaim Hosting: <https://reclaimhosting.com/> offers one-click Omeka and Omeka S installations, with support for other open-source software platforms.
+-   Reclaim Hosting: <https://reclaimhosting.com/> - offers one-click Omeka and Omeka S installations, with support for other open-source software platforms.
 
 Others follow in alphabetical order:
 
@@ -16,7 +16,6 @@ Others follow in alphabetical order:
 -   AcuGIS: <http://www.acugis.com/>
 -   Cultural Hosting: <https://culturalhosting.com> a bilingual (Spanish and English) hosting company for cultural heritage organizations, based in Spain.
 -   Dotblock: <http://www.dotblock.com/>
--   DreamHost: <http://dreamhost.com/> 
 -   HostGator: <http://hostgator.com> 
 -   Jumpbox: <http://www.jumpbox.com/app/omeka> 
 -   Reclaim Hosting: <https://reclaimhosting.com> 
@@ -27,5 +26,6 @@ Others follow in alphabetical order:
 -   Webuzo <http://webuzo.com/apps/educational/Omeka> has a virtual appliance to run Omeka.
 
 Users have reported difficulty with the following shared web hosts:
--   1and1 [http://1and1.com](http://www.1and1.com)
+
+-   1and1 <http://www.1and1.com>
 -   Siteground <http://www.siteground.com/>
