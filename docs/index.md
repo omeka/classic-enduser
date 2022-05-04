@@ -15,10 +15,10 @@ Building the content of an Omeka site, including [items](Content/Items), [collec
 Managing your installation's [appearance](Admin/Appearance/Appearance_Settings/), [plugins](Admin/Adding_and_Managing_Plugins), [users](Admin/Users), and [site settings](Admin/Settings/General_Settings/); in Omeka, these options are only available to SuperUsers. The topics in this section correspond to the top navigation of the Omeka admin dashboard.
 
 **Plugins**  
-Documentation for RRCHNM produced plugins. If you cannot find documentation for a specific plugin here, please check its download page as documentation may be in a ReadMe or on a separate site. 
+Documentation for RRCHNM-produced plugins. If you cannot find documentation for a specific plugin here, please check its download page as documentation may be in a ReadMe or on a separate site. 
 
 **Troubleshooting**  
-Tips and tricks for dealing with problems with your Omeka Classic installation. Look here to learn how to [retrieve error messages](Troubleshooting/Retrieving_Error_Messages)
+Tips and tricks for dealing with problems with your Omeka Classic installation. Look here to learn how to [retrieve error messages](Troubleshooting/Retrieving_Error_Messages).
 
 **Technical documentation**  
 For users who are comfortable modifying the code, this section includes instructions on [backing up your Omeka database](Technical/Backing_up_an_Omeka_Database), [configuring thumbnail creation](Technical/ConfiguringThumbnailCreation), and more.

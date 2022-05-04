@@ -1,6 +1,6 @@
 # Site Planning Tips
 
-Before you start building an Omeka Classic site, it is useful to sketch out wireframes of your new site to help to plan the content of your site, and to determine how you want your audiences to access and use that content in the website.
+Before you start building an Omeka Classic site, it is useful to sketch out wireframes of your new site to help plan the content of your site, and to determine how you want your audiences to access and use that content in the website.
 
 Planning for the content first will help you think about the ways that Omeka Classic can work best for you throughout different stages of the project. 
 
@@ -18,15 +18,15 @@ Typical top level navigation and sections for a typical Omeka Classic site inclu
   - [Items](../Content/Items.md): links to a browseable list of items, sortable by type of item and tags.
   - [Collections](../Content/Collections.md): groups of items, public can dig through collection to find items.
   - [Exhibits](../Plugins/ExhibitBuilder.md): Exhibits contain interpretative text and rely on items/sources/objects as their building blocks.
-  - About: a [simple page](../Plugins/SimplePages.md) good for publishing project descriptions, credits, rights, et al
-  - Keyword Search box – option to link to advanced search page
+  - About: a [simple page](../Plugins/SimplePages.md) good for publishing project descriptions, credits, rights, etc.
+  - [Search bar](../GettingStarted/Searching.md#basic-search): with an option to link to an [advanced search](../GettingStarted/Searching.md#advanced-search) page.
 
 \*Note: the labels for Items, Collections, Exhibits, 
 
 **What will I do with items in this website?**
 The item is the building block of your site. First add the objects and materials you want to display in your site. Add descriptions using some or all of the 20 standard [Dublin Core](../Content/Working_with_Dublin_Core.md) fields, plus additional item type-specific fields. Once you have items in the Omeka Classic archive, then you can build an exhibit with them or display categories of items organized by collections or tags.
 
-- Determine the types of items/sources/objects you plan to use in this site: (ie, Document, Still Image, Moving Image, Audio, et al),
+- Determine the types of items/sources/objects you plan to use in this site (Document, Still Image, Moving Image, Audio, the [other pre-defined item types in Omeka](../Content/Item_Types.md#pre-defined-item-types), or something custom to you),
 - Do you want to modify any of the item type fields or types? See [Managing Item Types](../Content/Item_Types.md) for additional types and explanations.
 - Do you need additional core fields? Install the [Dublin Core Extended](../Plugins/DublinCoreExtended.md) plugin.
 - It is wise to determine before you start building the item archive what type of consistencies you desire in your metadata--this may be especially true for fields such as date, publisher, creator, et al.
@@ -46,7 +46,7 @@ The item is the building block of your site. First add the objects and materials
 items/show to allow users to share links to that item w/their social networks? Install the [Social Bookmarking](../Plugins/SocialBookmarking.md) plugin.
 - Do you want to open commenting on items (only available at item level, and for all items or none)? Install the [Commenting](../Plugins/Commenting.md) plugin.
 -   Do you want to create and print QR Codes that link visitors in a physical place to individual items in your Omeka Classic site? Install the [Bar Code and Reports](../Plugins/Reports.md) plugin.
--   Do you have documents that you wish users to read through on the screen rather than downloading them? Install the [DocsViewer](../Plugins/DocsViewer) plugin.
+-   Do you have documents that you wish users to read through on the screen rather than downloading them? Install the [DocsViewer](../Plugins/DocsViewer.md) plugin.
 
 Plan an Exhibit 
 ------------------------------------------------------------
