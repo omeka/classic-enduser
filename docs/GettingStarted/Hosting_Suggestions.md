@@ -12,20 +12,17 @@ Below are also a few suggestions for low-cost shared web hosts that offer the se
 
 Others follow in alphabetical order:
 
--   Academic AMIs on Amazon: <http://academicami.org/>
--   AcuGIS: <http://www.acugis.com/>
--   Cultural Hosting: <https://culturalhosting.com> a bilingual (Spanish and English) hosting company for cultural heritage organizations, based in Spain.
--   Dotblock: <http://www.dotblock.com/>
--   HostGator: <http://hostgator.com> 
--   Jumpbox: <http://www.jumpbox.com/app/omeka> 
+-   AcuGIS: <http://www.acugis.com>
+-   Cultural Hosting: <https://culturalhosting.com> - a bilingual (Spanish and English) hosting company for cultural heritage organizations, based in Spain.
+-   Dotblock: <http://www.dotblock.com> - uses Softaculous
+-   HostGator: <http://hostgator.com> - uses Softaculous
 -   Reclaim Hosting: <https://reclaimhosting.com> 
--   RexaHost: [http://hexahost.com](http://hexahost.com/omeka-web-hosting/) 
--   Softaculous AMPPS <http://www.ampps.com/>
--   TMD Hosting <https://www.tmdhosting.com>
--   Webfaction <http://webfaction.com/>
--   Webuzo <http://webuzo.com/apps/educational/Omeka> has a virtual appliance to run Omeka.
+-   TMD Hosting <https://www.tmdhosting.com> - uses Softaculous
+-   Webuzo <http://webuzo.com> - uses Softaculous
 
 Users have reported difficulty with the following shared web hosts:
 
 -   1and1 <http://www.1and1.com>
--   Siteground <http://www.siteground.com/>
+-   Siteground <http://www.siteground.com>
+
+You may also wish to try Softaculous AMPPS <http://www.ampps.com>, which creates a virtual website environment on your local computer, complete with databases, so that you can build your website offline or share it within an organization.
