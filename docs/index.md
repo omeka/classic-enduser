@@ -12,10 +12,10 @@ Information for [installing](Installation/Installation) and [upgrading](Installa
 Building the content of an Omeka site, including [items](Content/Items), [collections](Content/Collections), [tags](Content/Tags), and [item types](Content/Item_Types). The topics in this section correspond to options on the left-hand navigation of the Omeka admin dashboard.
 
 **Administration**  
-Managing your installation's [appearance](Admin/Appearance/Appearance_Settings/), [plugins](Admin/Adding_and_Managing_Plugins), [users](Admin/Users), and [site settings](Admin/Settings/General_Settings/); in Omeka, these options are only available to SuperUsers. The topics in this section correspond to the top navigation of the Omeka admin dashboard.
+Managing your installation's [appearance](Admin/Appearance/Appearance_Settings/), [plugins](Admin/Adding_and_Managing_Plugins), [users](Admin/Users), and [site settings](Admin/Settings/General_Settings/); in Omeka, these options are only available to SuperUsers. The topics in this section correspond to the top navigation of the Omeka administrative dashboard.
 
 **Plugins**  
-Documentation for RRCHNM-produced plugins. If you cannot find documentation for a specific plugin here, please check its download page as documentation may be in a ReadMe or on a separate site. 
+Documentation for RRCHNM-produced plugins. If you cannot find information for a specific plugin here, please [check on our registered plugins list](https://omeka.org/classic/plugins/), or on its independent download page, as documentation may be in a ReadMe or on a separate site. 
 
 **Troubleshooting**  
 Tips and tricks for dealing with problems with your Omeka Classic installation. Look here to learn how to [retrieve error messages](Troubleshooting/Retrieving_Error_Messages).
