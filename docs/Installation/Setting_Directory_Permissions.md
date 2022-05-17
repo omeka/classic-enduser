@@ -1,15 +1,27 @@
 # Setting Directory Permissions
 
-One of the steps in Omeka's [installation](../Installation/Installation.md) process is setting the correct permissions on the `files` directory (`archive` in older versions of Omeka). The necessary process for setting permissions can differ significantly between different servers,
-so it's often best to get specific advice from your hosting provider. This page tries to provide some more general guidance.
+One of the steps in Omeka's [installation](Installation.md) process is setting the correct permissions on the `files` directory (`archive` in older versions of Omeka). The necessary process for setting permissions can differ significantly between different servers, so it's often best to get specific advice from your hosting provider. This page tries to provide some more general guidance.
 
-The user running the Omeka web process needs **read**, **write**, and **execute** permissions for the `files` directory and all its subdirectories.
+The user running the Omeka web process needs **read**, **write**, and **execute** permissions for the file-storage directory and all its subdirectories. 
+
+[File access](https://en.wikipedia.org/wiki/File-system_permissions#Notation_of_traditional_Unix_permissions) works this way:
+- One setting for the file's owner
+- Another setting for a group of users
+- A third setting for every user (the world)
+
+It is often expressed as a ten-letter code that looks like this:
+`-rwxrwxrwx` (for a file)
+`drwxr-xr-x` (for a directory)
+
+It is also expressed as a three-number code that looks like this:
+`755` (all three permissions for the user, read & execute for the group, read & execute for the world)
+`775` (all three permissions for the user, all three permissions for the group, read & execute for the world)
 
 There are three major ways to give the needed permissions. For each option, the names of the permissions needed are provided for use with graphical permissions editors and file transfer programs, and example shell commands are also given for use in SSH.
 
 suExec
 -----------------------------------------------------
-For servers using **suExec** (your host will be able to tell you if they are using it), the server executes PHP files using your user account's permissions. This often means you don't need to make any changes at all, since you should already have the proper access to the Omeka files that you unzipped.
+For servers using **suExec** (your host will be able to tell you if they are using it), the server executes PHP files using your user account's permissions. This often means you don't need to make any changes at all, since you should already have the proper access to the Omeka files that you extracted.
 
 Under suExec, you only need to grant write permissions for the **user**.
 

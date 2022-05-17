@@ -4,10 +4,12 @@ theme:
     custom_dir: 'omeka/'
     include_homepage_in_sidebar: false
 site_dir: 'html'
+site_url: 'https://omeka.org/classic/'
 repo_url: 'https://github.com/omeka/classic-enduser'
 extra_css: 
     - css/extra.css
 markdown_extensions:
+    - admonition
     - toc:
         permalink: 
 nav:
