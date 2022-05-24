@@ -1,14 +1,18 @@
 a {
-    color: #628C85;
+    color: #165F5D;
 }
 
 a:hover,
-a:active {
+a:active, a:focus {
     color: #2f6f64;
 }
 
 a:visited {
-    color: #91a2a0;
+    color: #176362;
+}
+
+.wy-nav-content {
+    max-width:1400px;
 }
 
 .wy-side-nav-search {
@@ -22,6 +26,10 @@ a:visited {
 .wy-side-nav-search>a, 
 .wy-side-nav-search .wy-dropdown>a {
     color: #fff !important;
+}
+
+.wy-menu-vertical a {
+    color: #EEE8DF;
 }
 
 .wy-menu-vertical a:active {
@@ -57,4 +65,22 @@ a:visited {
 
 .rst-content td {
     vertical-align: middle;
+}
+
+.rst-content img {
+	border:1px solid #222;
+	display:block;
+	margin:0 auto;
+}
+
+.rst-content a {
+    font-weight:500;
+}
+
+.rst-content a:hover, .rst-content a:active, .rst-content a:focus {
+    text-decoration:underline;
+}
+
+.rst-content code, code {
+    font-size:revert;
 }

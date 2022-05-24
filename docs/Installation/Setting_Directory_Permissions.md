@@ -5,17 +5,20 @@ One of the steps in Omeka's [installation](Installation.md) process is setting t
 The user running the Omeka web process needs **read**, **write**, and **execute** permissions for the file-storage directory and all its subdirectories. 
 
 [File access](https://en.wikipedia.org/wiki/File-system_permissions#Notation_of_traditional_Unix_permissions) works this way:
+
 - One setting for the file's owner
 - Another setting for a group of users
 - A third setting for every user (the world)
 
-It is often expressed as a ten-letter code that looks like this:
-`-rwxrwxrwx` (for a file)
-`drwxr-xr-x` (for a directory)
+It is often expressed as a ten-letter code - using R, W, and X, for read, write, and execute - that looks like this:
+
+- `-rwxrwxrwx` (for a file: all three permissions for the user, the group, and the world)
+- `drwxr-xr-x` (for a directory: all three permissions for the user, read & execute for the group, read & execute for the world)
 
 It is also expressed as a three-number code that looks like this:
-`755` (all three permissions for the user, read & execute for the group, read & execute for the world)
-`775` (all three permissions for the user, all three permissions for the group, read & execute for the world)
+
+- `755` (all three permissions for the user, read & execute for the group, read & execute for the world)
+- `775` (all three permissions for the user, all three permissions for the group, read & execute for the world)
 
 There are three major ways to give the needed permissions. For each option, the names of the permissions needed are provided for use with graphical permissions editors and file transfer programs, and example shell commands are also given for use in SSH.
 
@@ -26,7 +29,9 @@ For servers using **suExec** (your host will be able to tell you if they are usi
 Under suExec, you only need to grant write permissions for the **user**.
 
 Though it's generally not necessary, you can grant these permissions with this shell command: 
-     `chmod -R 755 files`
+```
+chmod -R 755 files
+```
 
 Group Access
 --------------------------------------------------------------
@@ -35,10 +40,9 @@ For many other servers, the best option is often to set the directories to a gro
 
 1.  Find the correct group to use. Groups vary from server to server, but some common correct groups are `www-data` (the default on Ubuntu and Debian) and `apache` (the default on CentOS). Your host (or distribution if you run your own server) can tell you the right group to use.
 2.  Then, set the group for the files directory and all subdirectories. On the shell, you can use this command (where `group-name` is the correct group you just found): 
-    `chgrp -R group-name files`
-
+	```chgrp -R group-name files```
 3.  Finally, grant read, write, and execute permissions to the **user** and **group** for the files directory and all subdirectories. On the shell, you can use this command:
-        `chmod -R 775 files`
+	```chmod -R 775 files```
 
 World Access
 -----------------------------------------------------
@@ -48,4 +52,6 @@ You can also simply give access to the directories to all users on the system. T
 
 This option requires read, write, and execute permissions for the **user**, **group**, and **world**. On the shell, you can use this command:
 
-    chmod -R 777 files
+```
+chmod -R 777 files
+```

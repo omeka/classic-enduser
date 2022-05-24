@@ -1,17 +1,26 @@
 # Files
 
-When adding [items](Items.md) to your archive, often you will upload one or more files (images, documents, et al) associated with that item.
+When adding [items](Items.md) to your database, often you will upload one or more files (images, documents, etc.) associated with that item. An item can have as many files attached as you wish, or none. Omeka Classic does not offer a way to upload files that are not attached to an item (e.g., for logo or branding purposes).
 
-![Files tab of the Add an Item ](../doc_files/filesAdd.png)
+![The Files tab that appears when you are adding an item](../doc_files/filesAdd.png "The Files tab that appears when you are adding an item")
 
 File Types
 -------------------------------------------------------------
 
-Omeka Classic accepts most files and file types. If you are having difficulty or receiving MIME Type errors, please see more information about adjusting the MIME Types or Accepted File Extensions in the section on [managing security settings](../Admin/Settings/Security_Settings.md).
+Omeka Classic accepts most files and file types, and can be customized to accept or reject file types of your choice. 
+
+If you are having difficulty or are seeing file-validation errors, please see more information about adjusting the accepted file types and extensions in [File Validation section of the Security Settings page](../Admin/Settings/Security_Settings.md#file-validation).
+
+<!---
+Need more information about specific errors people have seen, or what "difficulty" might look like. Perhaps a screenshot or example here and more information in the Troubleshooting section.
+--->
+
 
 File Display Order
 ---------------------------------------------------------------
-Once files are added to an item, you may click and drag the files into the preferred display order for both public and admin item pages.
+If you have multiple files added to an item, you may click and drag the files into the preferred display order for both public and admin item pages.
+
+<!--- screenshot needed --->
 
 Files with Thumbnails
 -------------------------------
@@ -19,9 +28,8 @@ Thumbnail previews are created for all files types in Omeka 2.0. If you have acc
 
 File Size Limitations
 -----------------------------
-Please check with your server administrator, because these settings are server specific and not imposed by the Omeka system.
 
-These limitations vary from server to server and we cannot change this for you. If you have a problem uploading files, please first check with your hosting service or your local server administrator.
+Omeka Classic imposes no file size limitations. Your server, however, may have restrictions on file upload sizes or speeds that may be causing problems. These limitations vary from server to server and we cannot change this for you. If you have a problem uploading files through the Add New Files interface, please first check with your hosting service or your local server administrator. 
 
 Batch Add Files
 ---------------------------------------------------------------

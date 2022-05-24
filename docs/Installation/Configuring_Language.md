@@ -1,18 +1,21 @@
 # Configuring Language
 
-Open the config.ini file found in the folder `{omeka-root}/application/config` in a text editor.
+Open the `config.ini` file found in the folder `{omeka-root}/application/config` in a text editor.
 
 Look for the "Localization" section (at the top), and the line in it that reads: 
 ```
 locale.name = "" 
 ```
 
-Fill in the two- or four-letter code for the language you wish to use (see below). This information is case-sensitive and must match exactly.
+Fill in the two- or four-letter code for the language you wish to use (see below). This information is case-sensitive and must match exactly. For example, to change the Omeka Classic interface language to Brazilian Portuguese, the line should appear:
+```
+locale.name = "pt_BR"
+```
 
 Omeka Classic is [translated](../Technical/Translate_Omeka.md) collaboratively using [Transifex](https://www.transifex.com). You can see the progress of available languages by visiting the [Omeka project dashboard on Transifex](https://www.transifex.com/omeka/omeka/); the list displays with the most complete languages at the top. Where a language string has not been translated, it will default back to English in the interface.
 
 ## Available languages and codes 
-Below are the languages in which Omeka is available (for at least 5% of the interface), along with the two- or four-letter codes that you will need to configure Omeka to use your language.
+Below are the languages in which Omeka is available (for at least 5% of the interface), along with the two- or four-letter codes that you will need to configure Omeka to use your chosen language.
 
 *Last updated: May 17th, 2022.*
 
