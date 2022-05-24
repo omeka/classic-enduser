@@ -3,11 +3,13 @@
 Open the `config.ini` file found in the folder `{omeka-root}/application/config` in a text editor.
 
 Look for the "Localization" section (at the top), and the line in it that reads: 
+
 ```
 locale.name = "" 
 ```
 
 Fill in the two- or four-letter code for the language you wish to use (see below). This information is case-sensitive and must match exactly. For example, to change the Omeka Classic interface language to Brazilian Portuguese, the line should appear:
+
 ```
 locale.name = "pt_BR"
 ```

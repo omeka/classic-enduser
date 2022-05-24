@@ -7,7 +7,7 @@ When adding [items](Items.md) to your database, often you will upload one or mor
 File Types
 -------------------------------------------------------------
 
-Omeka Classic accepts most files and file types, and can be customized to accept or reject file types of your choice. 
+Omeka Classic accepts most files and file types, and can be customized to accept or reject file types of your choice. You may wish to [format your multimedia files](#media-files) according to what can best be embedded and streamed in modern browsers.
 
 If you are having difficulty or are seeing file-validation errors, please see more information about adjusting the accepted file types and extensions in [File Validation section of the Security Settings page](../Admin/Settings/Security_Settings.md#file-validation).
 
@@ -24,7 +24,9 @@ If you have multiple files added to an item, you may click and drag the files in
 
 Files with Thumbnails
 -------------------------------
-Thumbnail previews are created for all files types in Omeka 2.0. If you have access to the config.ini file, you can manage [thumbnail configuration](../Technical/ConfiguringThumbnailCreation.md).
+Thumbnails are automatically created for all file types as of Omeka 2.0. If you have access to the `config.ini` file, you can manage [thumbnail configuration](../Technical/ConfiguringThumbnailCreation.md). 
+
+<!--- can you do anything fun with thumbnails? upload some defaults, upload some custom thumbnails to override the automatically generated ones? --->
 
 File Size Limitations
 -----------------------------
@@ -34,31 +36,31 @@ Omeka Classic imposes no file size limitations. Your server, however, may have r
 Batch Add Files
 ---------------------------------------------------------------
 
-To upload more than one file at a time, you may download and install the [Dropbox](../Plugins/Dropbox.md) plugin. It allows you to upload multiple files directly into a folder on your server that you can then add in the items admin interface. 
+To upload more than one file at a time, you may download and install add-ons such as the [Dropbox plugin](../Plugins/Dropbox.md). It allows you to upload multiple files from Dropbox directly into a folder on your server, which you can then add in the items interface. 
 
 File Metadata
 --------------------------------------------------------------
-You may add full Dublin Core metadata for every file uploaded.
+You may add a distinct set of Dublin Core metadata for each file uploaded.
 
-To add metadata, click the Edit button found to the right of the file name in admin/items/edit. You also may view or edit file metadata from the admin/items/show by clicking the file name under the heading "File Metadata."
+To add metadata, click the Edit button found to the right of the file name in `admin/items/edit`. You also may view or edit file metadata from the `admin/items/show` screen by clicking the file name under the heading "File Metadata."
 
-![arrow points to the File Metadata box](../doc_files/filesMetadata.png)
+![A teal arrow points to the File Metadata box on a screenshot of an Item page. The file is displayed by its original filename](../doc_files/filesMetadata.png "A teal arrow points to the File Metadata box on a screenshot of an Item page. The file is displayed by its original filename")
+
+<!--- maybe a screenshot that doesn't confused people by having a full external URL where a filename should be --->
 
 Alt Text
 ----------------------
-If a file does not have any metadata (see above), Omeka uses the filename as alt text. If the file has data in its Title property, that text will be displayed as the alt text for that file whereever it appears on the site. 
+If a file does not have any metadata, as you can see in the above screenshot, Omeka uses the filename as alt text. If the file has information in its Dublin Core Title property, that text will be displayed as the alt text for that file wherever it appears on the site. 
 
 Media Files
 ------------------------
-To keep up with the changing browser support landscape, as of version 2.4 Omeka uses HTML 5 audio and video tags when embedding audio and video, instead of the object and embed tags used by previous versions.
-
-This change means generally better support on newer browsers, but worse support on older ones and for older video formats especially.
+As of version 2.4, Omeka Classic uses HTML 5 audio and video tags when embedding audio and video. This means generally better support on newer browsers, but worse support on older ones and for older video formats especially.
 
 By choosing from a few well-supported formats for audio and video files, you can provide a much better experience for your users across different platforms and devices.
 
 ### Video
 #### MP4
-The MP4 container (.mp4 or .m4v) is the best-supported video format across browsers and platforms. By far the best choice for video that will work well across different browsers is a .mp4 file, with H.264 video and AAC audio.
+The MP4 container (.mp4 or .m4v) is the best-supported video format across browsers and platforms. By far the best choice for video that will work well across different browsers are .mp4 files with H.264 video and AAC audio.
 
 .mp4 files can contain other types of video (or audio), including newer ones like H.265, and older ones like MPEG-4 Visual. Any video codec other than H.264 has *much* worse browser support.
 
@@ -91,7 +93,7 @@ For old media, often the best choice is to just present a download link so the v
 
 File formats which result in a download link, rather than an embedded playback, include: 
 
-- Video: avi, wmv
-- Audio: aiff (except Safari), midi, wha
+- Video: .avi, .wmv
+- Audio: .aiff (except Safari), .midi, .wha
 
 If you do not see a format listed here that you think should be, try it out and let us know the results.
