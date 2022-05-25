@@ -1,6 +1,6 @@
 # Feature List
 
-Click [here](../doc_files/featurelist_2-x.pdf) for a PDF version of this page.
+Click [here](../doc_files/featurelist_2-x.pdf){target=_blank} for a PDF version of this page.
 
 ## Omeka Classic 2.6.1 Feature List
 **Free, open-source, digital publishing suite for scholars, librarians, archivists, museum professionals, and cultural enthusiasts**
@@ -21,8 +21,8 @@ Click [here](../doc_files/featurelist_2-x.pdf) for a PDF version of this page.
 **Strong community of documentation and support**
 
 - Learn to use Omeka Classic with step-by-step tutorials, screencasts, and extensive developer and designer documentation for customizing sites.
-- Connect with other Omeka Classic users and the Omeka team through the [Forum](https://forum.omeka.org/).
-- Track code development, fork and share back with the Omeka team on [GitHub](https://github.com/omeka).
+- Connect with other Omeka Classic users and the Omeka team through the [Forum](https://forum.omeka.org/){target=_blank}.
+- Track code development, fork and share back with the Omeka team on [GitHub](https://github.com/omeka){target=_blank}.
 
 **Extensible, scalable, and flexible**
 
@@ -30,7 +30,7 @@ Click [here](../doc_files/featurelist_2-x.pdf) for a PDF version of this page.
 - Element sets for institution-specific metadata may be added.
 - Zend framework for PHP allows for customization.
 - Omeka Classic accepts and stores many types of files, including images, video, audio, multi-page documents and PDFs, presentation slides, etc. Individual items may contain multiple files.
-- Extend core functionality with [dozens of available plugins](http://omeka.org/classic/plugins/), or build your own using Omeka Classic’s plugin API.
+- Extend core functionality with [dozens of available plugins](http://omeka.org/classic/plugins/){target=_blank}, or build your own using Omeka Classic’s plugin API.
 
 **Standards-based metadata and web design**
 
@@ -103,7 +103,7 @@ Click [here](../doc_files/featurelist_2-x.pdf) for a PDF version of this page.
 - Enable users to annotate the text of your site using [Text Annotation](../Plugins/TextAnnotation.md). 
 
 ## Visitor Experience With an Omeka Classic Site
-See the [Omeka Classic Showcase](http://omeka.org/classic/showcase/) for examples of site designs and experiences possible with an Omeka Classic site.
+See the [Omeka Classic Showcase](http://omeka.org/classic/showcase/){target=_blank} for examples of site designs and experiences possible with an Omeka Classic site.
 
 - Visitors with a variety of web browsers, internet bandwidth, and devices can access your site because packaged themes are designed to be ADA compliant (section 508) and responsive to different screen sizes.
 - Visitors have multiple access points to browse your content by items, collections, exhibits, maps, and other pages.

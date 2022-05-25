@@ -5,16 +5,16 @@ Why Dublin Core?
 
 The Omeka team decided that we wanted to contribute to a movement that is helping to standardize data about digital objects. While there are different standards available, the Dublin Core Metadata Initiative is the most widely adopted and offers users the greatest flexibility.
 
-- [About the Dublin Core Metadata Initiative](http://dublincore.org/about/)
-- [Dublin Core Metadata Element Set, Version 1.1: Reference Description](http://dublincore.org/documents/dces/); [Latest version here](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#section-3)
-- [Historical overview and bibliography of Dublin Core resources (2010)](http://www.oclc.org/research/activities/past/orprojects/dublincore/default.htm)
+- [About the Dublin Core Metadata Initiative](http://dublincore.org/about/){target=_blank}
+- [Dublin Core Metadata Element Set, Version 1.1: Reference Description](http://dublincore.org/documents/dces/){target=_blank}; [Latest version here](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#section-3){target=_blank}
+- [Historical overview and bibliography of Dublin Core resources (2010)](http://www.oclc.org/research/activities/past/orprojects/dublincore/default.htm){target=_blank}
 
 Interpreting Dublin Core Fields in Omeka Classic 
 --------------------------------------------------------
 
-The following Dublin Core fields are available in Omeka, together with some suggestions on interpreting the fields. The fields are broad and loosely-defined by design, so please consult with the [DCMI element descriptions](http://dublincore.org/documents/usageguide/elements.shtml) to be sure you are meeting the specific needs of your project. 
+The following Dublin Core fields are available in Omeka, together with some suggestions on interpreting the fields. The fields are broad and loosely-defined by design, so please consult with the [DCMI element descriptions](http://dublincore.org/documents/usageguide/elements.shtml){target=_blank} to be sure you are meeting the specific needs of your project. 
 
-Read one example of Dublin Core interpretations from the [North Carolina Exploring Culture and Heritage Online](https://www.digitalnc.org/partners/describing-your-materials/) project.
+Read one example of Dublin Core interpretations from the [North Carolina Exploring Culture and Heritage Online](https://www.digitalnc.org/partners/describing-your-materials/){target=_blank} project.
 
 For almost any field, the [Library of Congress Suggest](../Plugins/Library_of_Congress_Suggest.md) plugin can supply you with the ability to select from a controlled vocabulary. This includes not just subject headings but people, places, and other authorities offered by LC. 
 
@@ -68,7 +68,7 @@ Examples: actual publisher, if there is one; entity or consortium publishing dig
 
 A point or period of time associated with an event in the lifecycle of the resource.
 
-Date may be used to express temporal information at any level of granularity. Recommended best practice is to use an encoding scheme, such as the [W3CDTF](https://www.w3.org/TR/NOTE-datetime) profile of [ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html).
+Date may be used to express temporal information at any level of granularity. Recommended best practice is to use an encoding scheme, such as the [W3CDTF](https://www.w3.org/TR/NOTE-datetime){target=_blank} profile of [ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html){target=_blank}.
 
 A resource may have several dates associated with it, including: creation date, copyright date, revision date, edition date, modification date, etc. You could use separate Date elements to enter multiple dates, but you cannot specify the meaning of each within Omeka Classic. 
 
@@ -110,7 +110,7 @@ You may find it useful to use more specific format-specific fields attached to t
 
 One or more languages of the resource.
 
-[IETF BCP 47 language tags](https://en.wikipedia.org/wiki/IETF_language_tag) are the suggested standard, created by the Internet Engineering Task Force (IETF) and documented in *Best Current Practice (BCP) 47*.
+[IETF BCP 47 language tags](https://en.wikipedia.org/wiki/IETF_language_tag){target=_blank} are the suggested standard, created by the Internet Engineering Task Force (IETF) and documented in *Best Current Practice (BCP) 47*.
 
 ### Type
 
@@ -132,4 +132,4 @@ The spatial or temporal topic of the resource, the spatial applicability of the 
 
 Spatial topic and spatial applicability may be a named place or a location specified by its geographic coordinates. Temporal topic may be a named period, date, or date range. A jurisdiction may be a named administrative entity or a geographic place to which the resource applies.
 
-Recommended best practice is to use a controlled vocabulary such as the [Thesaurus of Geographic Names (TGN)](http://www.getty.edu/research/tools/vocabularies/tgn/index.html). Where appropriate, named places or time periods can be used in preference to numeric identifiers such as sets of coordinates or date ranges.
+Recommended best practice is to use a controlled vocabulary such as the [Thesaurus of Geographic Names (TGN)](http://www.getty.edu/research/tools/vocabularies/tgn/index.html){target=_blank}. Where appropriate, named places or time periods can be used in preference to numeric identifiers such as sets of coordinates or date ranges.

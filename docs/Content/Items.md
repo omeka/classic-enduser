@@ -7,7 +7,7 @@ Before Adding Items
 
 You may want to consult the [Site Planning Tips](../GettingStarted/Site_Planning_Tips.md) page to think about how to build your site and what you want to do with your items.
 
-You may also want to decide what type of information you plan to share using the [Dublin Core Metadata](http://dublincore.org/documents/usageguide/) fields before adding and describing items. You may also want to read about [Working with Dublin Core](Working_with_Dublin_Core.md) for a brief explanation of metadata for Omeka items.
+You may also want to decide what type of information you plan to share using the [Dublin Core Metadata](http://dublincore.org/documents/usageguide/){target=_blank} fields before adding and describing items. You may also want to read about [Working with Dublin Core](Working_with_Dublin_Core.md) for a brief explanation of metadata for Omeka items.
 
 You may wish to work out your metadata fields as you plan batch imports using one of our plugins: [CSV Import](../Plugins/CSV_Import.md), [Dropbox](../Plugins/Dropbox.md), [Zotero](../Plugins/ZoteroImport.md), [OAI-PMH Harvester](../Plugins/OaipmhHarvester.md), or [import from another Omeka installation](../Plugins/Omeka_API_Import.md). 
 

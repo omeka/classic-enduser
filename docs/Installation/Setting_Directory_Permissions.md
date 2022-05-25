@@ -4,13 +4,13 @@ One of the steps in Omeka's [installation](Installation.md) process is setting t
 
 The user running the Omeka web process needs **read**, **write**, and **execute** permissions for the file-storage directory and all its subdirectories. 
 
-[File access](https://en.wikipedia.org/wiki/File-system_permissions#Notation_of_traditional_Unix_permissions) works this way:
+[File access](https://en.wikipedia.org/wiki/File-system_permissions#Notation_of_traditional_Unix_permissions){target=_blank} works this way:
 
 - One setting for the file's owner
 - Another setting for a group of users
 - A third setting for every user (the world)
 
-It is often expressed as a ten-letter code - using R, W, and X, for read, write, and execute - that looks like this:
+It is often expressed as a ten-letter code - using R, W, and X, for read, write, and execute - that looks like this in some programs or displays:
 
 - `-rwxrwxrwx` (for a file: all three permissions for the user, the group, and the world)
 - `drwxr-xr-x` (for a directory: all three permissions for the user, read & execute for the group, read & execute for the world)

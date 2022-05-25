@@ -15,13 +15,13 @@ Note: If you are doing a one-click install through [Installatron](../GettingStar
     - Make sure to take note of the database hostname, the database name, the database user's username, and the database user's password.
     - Make sure the collation of your database is set to `utf8_unicode_ci` and that the charset is `utf8`.
 
-1. **Download the [latest version of Omeka](https://omeka.org/classic/download/)** and extract the .zip file.
+1. **Download the [latest version of Omeka](https://omeka.org/classic/download/){target=_blank}** and extract the .zip file.
 
     - The .zip file will have a name similar to `omeka-0.0.0.zip` that includes the version number.
     - Save the .zip file somewhere you can find it again, such as your Download folder. Double-click the .zip file to extract the files in the .zip archive, and make sure to note where the files are extracted.
-    -   If you are unable to extract the files, you might need to download an extraction program such as [WinZip](https://www.winzip.com/) or [WinRAR](https://www.win-rar.com/) (for Windows) or [Stuffit Expander](https://stuffit.com/) (for Mac and Windows).
+    -   If you are unable to extract the files, you might need to download an extraction program such as [WinZip](https://www.winzip.com/){target=_blank} or [WinRAR](https://www.win-rar.com/){target=_blank} (for Windows) or [Stuffit Expander](https://stuffit.com/){target=_blank} (for Mac and Windows).
     -   The extracted (uncompressed) directory will have a name similar to `omeka-0.0.0` that includes the version number.
-    -   Users familiar with Git might want to clone the latest code from [our public GitHub repository](http://github.com/omeka/Omeka).
+    -   Users familiar with Git might want to clone the latest code from [our public GitHub repository](http://github.com/omeka/Omeka){target=_blank}.
 
 1. In the directory created by the extraction process, find and open your database configuration file, named `db.ini`. **Replace the 'XXXXX' values in the `db.ini` file** with your MySQL database host, database name, username, and password.
 
@@ -61,4 +61,4 @@ If your installation was **unsuccessful**, try these steps:
 -   If your installation is still unsuccessful, try deleting the entire Omeka directory from your server and reuploading it. One or more files might have failed to upload.
 -   If the installation is apparently successful, but you are unable to upload items through the administrative interface, make sure that you correctly followed the instructions in step 6 above. Your web server *must* have write access to the file-storage directory for you to upload files.
 -   If the installation is successful, but you are getting "File not found" errors when you navigate to addresses such as `https://youromekadomain.org/collections/admin`, you probably have a conflict with another CMS such as WordPress on the same server. To fix this issue, you probably need to enable the "RewriteBase" line in your `.htaccess` file.
--   If you still have issues, please consult the [Troubleshooting Omeka](../Troubleshooting/Troubleshooting_Omeka.md) page or post your issue on the [forum](https://forum.omeka.org/c/omeka-classic/7).
+-   If you still have issues, please consult the [Troubleshooting Omeka](../Troubleshooting/Troubleshooting_Omeka.md) page or post your issue on the [forum](https://forum.omeka.org/c/omeka-classic/7){target=_blank}.

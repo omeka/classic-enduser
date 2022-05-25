@@ -75,8 +75,8 @@ Try Omeka Classic Before Installing
 ---
 
 If you would like to try Omeka Classic before installing on your own server, consider signing up for a free trial account at
-[Omeka.net](http://www.omeka.net/). [Sign up here](https://www.omeka.net/signup).
+[Omeka.net](http://www.omeka.net/){target=_blank}. [Sign up here](https://www.omeka.net/signup){target=_blank}.
 
-[Omeka.net](http://www.omeka.net/) is our Omeka Classic hosting service that allows anyone with an account to create or collaborate on a website to display collections and build digital exhibitions. With a [free trial account](https://info.omeka.net/signup/), you can experience Omeka Classic’s administrative dashboard and try out 8 of the most popular plugins, including Exhibit Builder and Simple Pages.
+[Omeka.net](http://www.omeka.net/){target=_blank} is our Omeka Classic hosting service that allows anyone with an account to create or collaborate on a website to display collections and build digital exhibitions. With a [free trial account](https://info.omeka.net/signup/){target=_blank}, you can experience Omeka Classic’s administrative dashboard and try out 8 of the most popular plugins, including Exhibit Builder and Simple Pages.
 
-For a comparison of the features of a hosted account at [Omeka.net](http://www.omeka.net/) and an installation on your own servers, see the [Omeka.net About page](http://info.omeka.net/about/).
+For a comparison of the features of a hosted account at [Omeka.net](http://www.omeka.net/){target=_blank} and an installation on your own servers, see the [Omeka.net About page](http://info.omeka.net/about/).

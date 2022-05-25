@@ -1,6 +1,6 @@
 # Item Types
 
-Item types are categories for your Omeka items based on their formats. Omeka offers you a specific set of associated metadata for each item type. Omeka comes by default with [Dublin Core item types](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#section-7), but you can easily edit these or add your own.
+Item types are categories for your Omeka items based on their formats. Omeka offers you a specific set of associated metadata for each item type. Omeka comes by default with [Dublin Core item types](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#section-7){target=_blank}, but you can easily edit these or add your own.
 
 ![The item types browse view](../doc_files/itemTypeBrowse.png "The item types browse view")
 
@@ -64,3 +64,7 @@ When adding elements to Item Types, there are two options: add an existing eleme
 ![New element block with no input](../doc_files/itemTypeNewElm.png "New element block with no input")
 
 You can delete elements from Item Types, by clicking the large X on the upper right corner of the element block. If it is a custom-created element, and it is no longer attached to any Item Types, it will still appear in the dropdown menu in the future. 
+
+To delete these or existing elements from your Omeka install, go to the Settings tab, then the Item Type Elements tab. You can edit element descriptions there, or delete elements from the database.
+
+![New element block with no input](../doc_files/itemTypeElmTab.png "New element block with no input")
