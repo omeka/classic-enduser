@@ -78,7 +78,6 @@ nav:
         - Plugins/Omeka_API_Import.md
         - Plugins/PBCore.md
         - Plugins/PdfText.md
-        - Plugins/Plugin_Shortcodes.md
         - Plugins/Posters.md
         - Plugins/RecordRelations.md
         - Plugins/RedactElements.md

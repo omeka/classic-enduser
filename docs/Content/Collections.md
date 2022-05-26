@@ -38,10 +38,9 @@ From the "Browse Items" page, you can use the batch edit option to add multiple 
 Edit a Collection
 ---------------------------------------------------------------
 
-To edit a collection, click the Edit link underneath the title from the Browse Collections page, /admin/collection. Edit in any fields you wish, and click the "Save Changes" button to the right of the screen.
+To edit a collection, click the Edit link underneath the title from the Browse Collections page, at `/admin/collection`. Edit in any fields you wish, and click the "Save Changes" button to the right of the screen.
 
-By default, the most recently added item's primary file will serve as the thumbnail image for the collection. However, if you have installed the [Item Order](../Plugins/ItemOrder.md)
-plugin, you can choose a different item by making that item the first in the collection.
+By default, the most recently added item's primary file will serve as the thumbnail image for the collection. However, if you have installed the [Item Order](../Plugins/ItemOrder.md) plugin, you can choose a different item by making that item the first in the collection.
 
 Browsing Collections
 ---------------------------------------------------------------

@@ -122,7 +122,7 @@ The exhibit will display a single map with the markers for those specific items,
 
 ## Shortcodes
 
-The geolocation [shortcode](Plugin_Shortcodes.md) will create a map of items based on parameters it is given.
+The geolocation [shortcode](../Content/Shortcodes.md) will create a map of items based on parameters it is given.
 
 The shortcode is `[geolocation]`. Without any additional parameters, it will return a map of all items that contain geolocation data, limited by the records per page as set in the Geolocation plugin configuration.
 

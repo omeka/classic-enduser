@@ -1,27 +1,37 @@
 # Shortcodes
 
-Shortcodes work in text fields in specific places on Omeka Classic sites: on [Simple Pages](../Plugins/SimplePages), and in the text fields of [Exhibit Builder](../Plugins/ExhibitBuilder)Exhibit Page blocks.
+A shortcode is a snippet that can be included in any body of text that works like embedding a multimedia object: a shortcode can insert an image, a video, a timeline, a form, or something else interactive or dynamic. 
 
-*Note:* This page is a user’s guide to shortcodes. For developer documentation, see [Working with Shortcodes](http://omeka.readthedocs.org/en/latest/Tutorials/shortcodes.html) on Omeka’s Read the Docs site.
+In Omeka, shortcodes work in basic text fields (not using the HTML editor) in specific places on Omeka Classic sites: on [Simple Pages](../Plugins/SimplePages.md), and on [Exhibit pages](../Plugins/ExhibitBuilder.md). 
 
-For shortcodes for Plugins, see the [Plugin Shortcodes](../Plugins/Plugin_Shortcodes.md)
+There are several built-in shortcodes that come with a basic Omeka install, and many more shortcodes that are added via plugins. You must install the needed plugin and follow its directions for use. 
+
+!!! Note 
+    This page is a user’s guide to shortcodes. For developer documentation, see [Working with Shortcodes](http://omeka.readthedocs.org/en/latest/Tutorials/shortcodes.html){target=_blank} on Omeka’s Read the Docs site.
 
 General
 --------
-Shortcodes can be added into html text fields. The general syntax is
-   `[shortcode key=value]`
+Shortcodes can be added into text fields on pages. You cannot put a shortcode into the footer, or into the "Homepage Text" field. The general syntax in a text field would look like this:
 
-Values can be wrapped in single or double quotes, making the following variations valid as well: `[shortcode key='value']` or `[shortcode key="value"]` **Please note** that shortcodes will not work with smart quotes. 
+```
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+[shortcode key=value]
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+```
 
-If the shortcode results in an image display (from an item or file), the shortcode will use the Omeka default of displaying the filename or Dublin Core title as alt-text. 
+Values can be wrapped in single or double quotes, making the following variations valid as well: `[shortcode key='value']` or `[shortcode key="value"]`. 
 
-When using shortcodes on a SimplePage, you should not use the "HTML editor" option. Put the shortcode in the basic text field:
+**Shortcodes will not work with smart/curly quotes** (“ and ”). 
 
-![A Simple Page text field with lorem ipsum and a featured carousel shortcode](../doc_files/shortcodeSimplePage.png)
+If the shortcode results in an image display (from an item or file), the shortcode will use the Omeka default of displaying the filename or Dublin Core title as the alt text. You may wish to edit the file title in this case.
+
+When using shortcodes on a Simple Page, do not use the HTML editor. Put the shortcode in the basic text field:
+
+![A Simple Page text field with lorem ipsum and a featured carousel shortcode](../doc_files/shortcodeSimplePage.png "A Simple Page text field with lorem ipsum and a featured carousel shortcode")
 
 When using a shortcode in an Exhibit Builder block, place the code directly into the text editor:
 
-![An exhibit page text block with a file shortcode plugin.](../doc_files/shortcodeExhibitBlock.png)
+![An exhibit page text block with a file shortcode plugin](../doc_files/shortcodeExhibitBlock.png "An exhibit page text block with a file shortcode plugin")
 
 ### General Shortcode Options
 Most shortcodes have options which can modify the content they return. The following table explains some of the options which are shared across multiple shortcodes. 
@@ -250,7 +260,7 @@ A shortcode that leveraged all of the possible parameters would look like `[geol
 
 Requires the [Shortcode Carousel plugin](../Plugins/ShortcodeCarousel.md).
 
-The plugin adds a shortcode to create a carousel of items using [jCarousel](http://sorgalla.com/jcarousel/)
+The plugin adds a shortcode to create a carousel of items using [jCarousel](http://sorgalla.com/jcarousel/).
 
 The basic shortcode is `[carousel]`.
 

@@ -176,7 +176,7 @@ And this is how the map looks on the public view of the exhibit page:
 
 ## Shortcodes
 
-Exhibit Builder adds specific [shortcodes](../Content/Shortcodes.md) to your instal which allow you to call specific exhibits or featured exhibits. See the [plugin shortcodes documentation](Plugin_Shortcodes.md) for more information.
+Exhibit Builder adds specific [shortcodes](../Content/Shortcodes.md) to your install, which allow you to call specific exhibits or featured exhibits. 
 
 ### Previous Exhibit Builder Layouts
 
