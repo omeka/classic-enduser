@@ -11,11 +11,11 @@ To change how Omeka will generate thumbnails, set the option `fileDerivatives.st
 
 To use the GD strategy, use the following line:
 
-`fileDerivatives.strategy = "Omeka_File_Derivative_Strategy_GD”`
+`fileDerivatives.strategy = "Omeka_File_Derivative_Strategy_GD"`
 
 To use the IMagick strategy, use the following line:
 
-`fileDerivatives.strategy = "Omeka_File_Derivative_Strategy_Imagick”`
+`fileDerivatives.strategy = "Omeka_File_Derivative_Strategy_Imagick"`
 
 The new strategy will only apply to files added to Omeka after the configuration is changed.
 
@@ -34,7 +34,7 @@ Directions that contain "north" or "south" will use the topmost or bottom-most p
 
 For example, to always make square thumbnails using the topmost part of the uploaded image, set the following line:
 
-`fileDerivatives.strategyOptions.gravity = "north”`
+`fileDerivatives.strategyOptions.gravity = "north"`
 
 ### Page
 
@@ -48,7 +48,7 @@ For example, to use the second page when creating thumbnails, set the following 
 
 When using the default external ImageMagick strategy, you can optionally inform Omeka which version of ImageMagick is being used. If it is recent enough, Omeka can switch to creating square thumbnails in a way that is more efficient and produces better results, particularly for images that are much longer in one dimension than the other. Running the command `convert -version` will indicate the version of ImageMagick that is installed.
 
-`fileDerivatives.strategyOptions.version = “6.9.0-0”`
+`fileDerivatives.strategyOptions.version = "6.9.0-0"`
 
 ### Auto-Orient
 
