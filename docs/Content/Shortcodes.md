@@ -11,7 +11,7 @@ There are several built-in shortcodes that come with a basic Omeka install, and 
 
 General
 --------
-Shortcodes can be added into text fields on pages. You cannot put a shortcode into the footer, or into the "Homepage Text" field. The general syntax in a text field would look like this:
+Shortcodes can be added into text fields on **pages**. You cannot put a shortcode into the "Footer Text" field or the "Homepage Text" field in your theme. The general syntax in a text field would look like this:
 
 ```
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. 

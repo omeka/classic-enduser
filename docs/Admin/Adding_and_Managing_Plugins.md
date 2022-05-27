@@ -22,14 +22,14 @@ Installing a Plugin
 Watch [our screencast showing these steps](https://vimeo.com/153819886){target=_blank}. To add and activate a new plugin for your Omeka installation, follow these steps: 
 
 1.  [Download and unzip the compressed plugin file](https://omeka.org/classic/plugins/){target=_blank} on your computer.
-1.  Open your FTP client and use your FTP login info to access your site.
+1.  Open your FTP client and use your FTP login info to access your site. Or, if you are using cPanel File Manager, WebFTP, or another in-browser tool, log in there.
 1.  Navigate to your Omeka folder (it should have the same name as your Omeka install), open it, then open the `/plugins` folder.
 1.  Locate the plugin folder on your computer and upload it into your Omeka website's `/plugins` folder. 
     - Sometimes the plugin unzips into a folder of the same name, so make sure to go inside it and upload the folder that only contains the plugin name, not the version number. For example, you may have downloaded the `CSSEditor-1.1.zip` file and extracted it to a `CSSEditor-1.1` folder, which contains a `CSSEditor` folder. Upload the `CSSEditor` folder. 
-    - You may also be able to upload the zipped file and unzip it here, if your FTP client allows. Remember to watch for an extra folder level in this case.
+    -- You may also be able, or required, to upload the zipped file and unzip it here, if your file client does not allow you to upload a folder. Remember to watch for an extra folder level in this case.
 1.  In another browser window, log in to your Omeka admin panel (`https://youromekasite.org/admin`).
 1.  Navigate to the Plugins tab in the upper navigation of the admin dashboard, and scroll down to find the plugin you uploaded. Plugins are listed alphabetically.
-    - If the plugin is not visible, return to step 6 and double-check.
+    - If the plugin is not visible, return to the 4th step and double-check that the folder is in the right location ('/plugins') and that the folder name for the theme does not start with 'plugin-'.
 1.  Click the “Install” to the right of the plugin name to finish the process.
     - Click “Configure” if available/needed.
 1. Read the documentation for plugin to understand what configuration options are available.

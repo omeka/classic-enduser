@@ -1,5 +1,5 @@
 a {
-    color: #165F5D;
+    color: #D03F31;
 }
 
 a:hover,
@@ -8,7 +8,7 @@ a:active, a:focus {
 }
 
 a:visited {
-    color: #176362;
+    color: #cc4d41;
 }
 
 .wy-nav-content {
@@ -75,6 +75,7 @@ a:visited {
 
 .rst-content a {
     font-weight:500;
+    border-bottom: 1px dotted;
 }
 
 .rst-content a:hover, .rst-content a:active, .rst-content a:focus {
@@ -83,4 +84,5 @@ a:visited {
 
 .rst-content code, code {
     font-size:revert;
+    color:revert;
 }
