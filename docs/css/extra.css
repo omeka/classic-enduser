@@ -73,7 +73,7 @@ a:visited {
 	margin:0 auto;
 }
 
-.rst-content a {
+.rst-content div[role="main"] a {
     font-weight:500;
     border-bottom: 1px dotted;
 }
