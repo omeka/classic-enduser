@@ -1,8 +1,8 @@
 # Coins
 
-The COinS plugin embeds citation metadata into the pages of your Omeka Classic site for each item. COinS (ContextObjects in Spans) is "a simple, ad hoc community specification for publishing OpenURL references in HTML."
+The [COinS plugin](https://omeka.org/classic/plugins/Coins/){target=_blank} embeds citation metadata into the pages of your Omeka Classic site for each item. COinS (ContextObjects in Spans) is "a simple, ad hoc community specification for publishing OpenURL references in HTML."
 
-When activated, the COinS plugin makes your items viewable to certain [online bibliographic tools such as Zotero](http://www.zotero.org/) by automatically embedding citation metadata in your website. This plugin facilitates online research and interoperability with other systems.
+When activated, the COinS plugin makes your items viewable to certain [online bibliographic tools such as Zotero](http://www.zotero.org/){target=_blank} by automatically embedding citation metadata in your website. This plugin facilitates online research and interoperability with other systems.
 
 Using the COinS plugin, you may add individual items from any Omeka Classic site to your Zotero library and batch process the addition of multiple items to your Zotero library.
 

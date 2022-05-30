@@ -1,10 +1,10 @@
 # Search by Metadata
 
-The Search by Metadata plugin makes it possible for visitors to your Omeka Classic site to see a browse page with items that share specific metadata (i.e., all items with Jackson Pollock in the Creator field). This plugin works very well with the Simple Vocab plugin for controlling metadata vocabulary.
+The [Search by Metadata plugin](https://omeka.org/classic/plugins/SearchByMetadata/){target=_blank} makes it possible for visitors to your Omeka Classic site to see a browse page with items that share specific metadata (i.e., all items with Jackson Pollock in the Creator field). This plugin works very well with the Simple Vocab plugin for controlling metadata vocabulary.
 
 In the Search by Metadata configuration, site administrators will choose which metadata elements fields will be linked.
 
-Search by Metadata is one of the plugins discussed in the screencast [Managing Metadata](https://vimeo.com/176189711). 
+Search by Metadata is one of the plugins discussed in the screencast [Managing Metadata](https://vimeo.com/176189711){target=_blank}. 
 
 ## Install and Configure
 

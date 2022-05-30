@@ -1,6 +1,6 @@
 # VRA Core
 
-The VRA Core plugin for Omeka Classic adds elements from the [VRA Core Metadata standard](http://core.vraweb.org/index.html) to your Omeka site, which can be used to describe items and collections on your site. It does not replace the Dublin Core metadata elements in your Omeka Classic site.
+The [VRA Core plugin](https://omeka.org/classic/plugins/VraCore/){target=_blank} for Omeka Classic adds elements from the [VRA Core Metadata standard](http://core.vraweb.org/index.html){target=_blank} to your Omeka site, which can be used to describe items and collections on your site. It does not replace the Dublin Core metadata elements in your Omeka Classic site.
 
 ## Configuration
 
@@ -17,7 +17,7 @@ Once installed, the VRA Core plugin has three configuration options, all checkbo
 
 ## Adding an Item
 
-For guidance on using the VRA Core metadata standard, please see [the VRA Core website](http://core.vraweb.org/index.html).
+For guidance on using the VRA Core metadata standard, please see [the VRA Core website](http://core.vraweb.org/index.html){target=_blank}.
 
 Once the plugin is installed, VRA Core elements are available in their own tab when a user is either Adding or Editing an Item (on the same level as Item Type, File, Tags, and other metadata tabs).
 
@@ -31,7 +31,7 @@ Each VRA Core element has a description (from the standard) and an input field. 
 
 The first field for each element corresponds to the `display` XML element in VRA Core. According to the VRA Core standard, there can be only one display element (this is different from the usual Dublin Core data, which can have many values.
 
-Again, following the VRA Core standard and XML structure, many elements other than display values can have multiple values, and information corresponding to VRA Core attributes is also available. See the [Readme file](https://github.com/omeka/plugin-VraCore/blob/master/README.md) for more technical details.
+Again, following the VRA Core standard and XML structure, many elements other than display values can have multiple values, and information corresponding to VRA Core attributes is also available. See the [Readme file](https://github.com/omeka/plugin-VraCore/blob/master/README.md){target=_blank} for more technical details.
 
 ## Uninstalling
 

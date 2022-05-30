@@ -1,6 +1,6 @@
 # Omeka API Import
 
-The Omeka API Import plugin allows users to import item data and users from an existing Omeka Classic installation (origin) via an API into the user’s Omeka Classic installation (target). 
+The [Omeka API Import plugin](https://omeka.org/classic/plugins/OmekaApiImport/){target=_blank} allows users to import item data and users from an existing Omeka Classic installation (the "origin") via an API into their own Omeka Classic installation (the "target"). 
 
 Multiple imports from the same origin site will update the data, not create new items.
 

@@ -42,6 +42,8 @@ Each Item Type must have a *Name*, preferably unique. You can also add a *Descri
 
 ## Creating and Adding Elements
 
+Your Item Types provide [sets of elements for your items](../Admin/Settings/Item_Type_Elements.md) - specific metadata fields that allow you to describe your items according to their categories (formats, or other types that you design). Learn more on the [Item Type Elements](../Admin/Settings/Item_Type_Elements.md) page.
+
 When adding elements to Item Types, there are two options: add an existing element or create a new one. You can do this to the default Item Types and any you create.
 
 **Existing elements** are elements that have already been created for another item type, but might be applicable to yours. For example, if you were creating a “Letter” Item Type, you might add the existing “To” and “From” elements from the “Email” Item Type, and the “Text” element from the “Text” Item Type.

@@ -1,16 +1,17 @@
 # PDF Text
 
-[PDF Text](https://omeka.org/classic/plugins/PdfText/) enables searching on PDF files uploaded to an Omeka Classic item by extracting their texts and saving them to the file records. PDF Text strips out images and layout in the original file, leaving only searchable text.
+The [PDF Text plugin](https://omeka.org/classic/plugins/PdfText/){target=_blank} enables searching on PDF files uploaded to an Omeka Classic item by extracting their texts and saving them to the file records. PDF Text strips out images and layout in the original file, leaving only searchable text.
 
-## Installation
 
-PDF Text requires the `pdftotext` utility, which is part of the [poppler-utils](https://pypi.org/project/poppler-utils/) package. You can install it yourself from the command line:
+## System requirements
+
+PDF Text requires the `pdftotext` utility, which is part of the [poppler-utils](https://pypi.org/project/poppler-utils/){target=_blank} package. You can install it yourself from the command line:
 
 ```pip install poppler-utils```
 
 You may need to contact your server administrator to install it. 
 
-You can then install the PDF Text plugin from the 
+You can then install the PDF Text plugin from the plugins directory.
 
 ## Using the PDF Text module
 

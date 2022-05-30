@@ -1,15 +1,14 @@
 # Text Analysis
 
-The Text Analysis plugin connects your Omeka Classic site with [Watson Natural Language Understanding](https://www.ibm.com/watson/developercloud/natural-language-understanding.html) and [Mallet](http://mallet.cs.umass.edu/) to enable text analysis on a corpora of items created using the Ngram plugin from items on your site.
+The [Text Analysis plugin](https://omeka.org/classic/plugins/TextAnalysis/){target=_blank} connects your Omeka Classic site with [Watson Natural Language Understanding](https://www.ibm.com/watson/developercloud/natural-language-understanding.html){target=_blank} and [Mallet](http://mallet.cs.umass.edu/){target=_blank} to enable text analysis on a corpora of items created using the Ngram plugin from items on your site.
 
-In order to use Text Analysis you must have the [Ngram](Ngram) plugin installed and activated.
+In order to use Text Analysis you must have the [Ngram](Ngram.md) plugin installed and activated.
 
 The Text Analysis plugin uses two services: Watson NLU and MALLET Topic Modeling. Watson NLU will return the entities, keywords, and categories of a corpus; MALLET only returns topic models. You do not have to use both services but you must enter configurations for at least one in order to use this plugin.
 
 Because using Watson NLU may incur costs, the functions of Text Analysis are restricted to users with super and admin permissions.
 
-Before installing, you may wish to watch this screencast to better understand how to configure and take advantage of the functionality of this plugin. 
-[Watch screencast](https://vimeo.com/246144850)
+Before installing, [you may wish to watch this screencast](https://vimeo.com/246144850){target=_blank} to better understand how to configure and take advantage of the functionality of this plugin. 
 
 ## Configuration
 After you have installed the plugin, go to the Plugins tab in the upper navigation, and scroll down to Text Analysis. Click the blue Configure button.
@@ -18,11 +17,11 @@ After you have installed the plugin, go to the Plugins tab in the upper navigati
 
 The Configuration page has two sections, one for each service. 
 
-To use **Watson Natural Language Understanding** (NLU) services to analyze text, you will need to create an [IBM Bluemix account](https://www.ibm.com/watson/developercloud/doc/natural-language-understanding/getting-started.html). Please note that there may be charges associated with using this service.
+To use **Watson Natural Language Understanding** (NLU) services to analyze text, you will need to create an [IBM Bluemix account](https://www.ibm.com/watson/developercloud/doc/natural-language-understanding/getting-started.html){target=_blank}. Please note that there may be charges associated with using this service.
 
 Once you have an account, enter your *Bluemix Username* and *Bluemix Password* in the two fields provided.
 
-To use MALLET you must first [download and install](http://mallet.cs.umass.edu/download.php) the toolkit on your web server. It may be easiest to install it at the same level as your Omeka installation (so that the mallet and omeka folders are in the same location).
+To use MALLET you must first [download and install](http://mallet.cs.umass.edu/download.php){target=_blank} the toolkit on your web server. It may be easiest to install it at the same level as your Omeka installation (so that the mallet and omeka folders are in the same location).
 
 To find your *MALLET script directory*: go to your MALLET installation and navigate to the `/bin` folder. 
 
@@ -32,7 +31,7 @@ To find your *MALLET script directory*: go to your MALLET installation and navig
 ## Create a Corpus
 
 ### Create Corpus
-To create a corpus, you will need to use the [Ngram](Ngram)  plugin (see that documentation for complete information on corpora). 
+To create a corpus, you will need to use the [Ngram](Ngram.md) plugin (see that documentation for complete information on corpora). 
 
 A corpus is drawn from the items in your collection with content in a particular text element (which is selected on the plugin configuration page), it is further defined by a Search Query and Sequence elements (on the Add a Corpus page), producing an Item Pool. The Item Pool will be further refined by Validating the Items.
 
@@ -120,11 +119,11 @@ On the page which loads:
 1. *Corpus*: Select a corpus (generated with the Ngram plugin) to analyze from a dropdown menu of your Omeka site's existing corpora. Note that corpora cannot be analyzed until they have been validated.
 2. *Features*: Using checkboxes, select which sorts of analysis you want to run on the corpus. For NLU you can select Entities, Keywords, Categories and Concepts. MALLET has a single checkbox.
 3. *Item Cost Only?* Check this box to get an estimated cost of running NLU features on the selected corpus.
-4. *Stopwords* (MALLET): If you want to add stopwords for MALLET, enter whitespaced-separated words in this text box. The [list of default stopwords for MALLET](https://github.com/mimno/Mallet/blob/master/stoplists/en.txt) includes most common English-language stopwords. Note that carriage returns will count as whitespace in this field, should you need to copy and paste a list of stopwords.
+4. *Stopwords* (MALLET): If you want to add stopwords for MALLET, enter whitespaced-separated words in this text box. The [list of default stopwords for MALLET](https://github.com/mimno/Mallet/blob/master/stoplists/en.txt){target=_blank} includes most common English-language stopwords. Note that carriage returns will count as whitespace in this field, should you need to copy and paste a list of stopwords.
 
 Once you have configured these settings, click the green *Analyze Corpus* button.
 
-Once you have clicked the button, you will return to the main page for the Text Analysis plugin tab. The page will display the message "Analyzing the corpus. This may take some time. Feel free to navigate away from this page and close your browser. Refresh this page to see if the process is complete."  Corpora which are being processed will show up in the table of corpora with the Process status "In Progress"
+Once you have clicked the button, you will return to the main page for the Text Analysis plugin tab. The page will display the message "Analyzing the corpus. This may take some time. Feel free to navigate away from this page and close your browser. Refresh this page to see if the process is complete." Corpora which are being processed will show up in the table of corpora with the Process status "In Progress".
 
 ![Text analysis plugin tab with a red arrow pointing to the message In Progress for the corpus 'Short Stories no year'](../doc_files/plugin_images/ta_inprogress.png)
 
@@ -147,12 +146,12 @@ To view analysis, click view or select from the dropdown for MALLET or NLU.
 #### NLU Analysis
 If your corpus had sequence elements, select one from the dropdown in order to view the analysis for that sequence. Otherwise, simply click View.
 
-Viewing the NLU Analysis will present you with the following tabs, most of which correspond to various [AlchemyLanguage features](https://www.ibm.com/watson/developercloud/doc/natural-language-understanding/):
+Viewing the NLU Analysis will present you with the following tabs, most of which correspond to various [AlchemyLanguage features](https://www.ibm.com/watson/developercloud/doc/natural-language-understanding/){target=_blank}:
 
 *Overview*: which summarizes the item and element analyzed, the word count for the element along with number of Unique words, the character count, text size, and the full text of the element being analyzed.
 ![Overview for sample item](../doc_files/plugin_images/textanalysis_overview.png)
 
-*Entities* displays a table of named [entities](https://www.ibm.com/watson/developercloud/doc/natural-language-understanding/entity-types.html) (as defined by NLU) in the text, with columns for entity, type, sentiment, count, and relevance. A glossary above the table defines each column.
+*Entities* displays a table of named [entities](https://www.ibm.com/watson/developercloud/doc/natural-language-understanding/entity-types.html){target=_blank} (as defined by NLU) in the text, with columns for entity, type, sentiment, count, and relevance. A glossary above the table defines each column.
 
 ![Entities table](../doc_files/plugin_images/ta_entities.png)
 
@@ -160,7 +159,7 @@ Viewing the NLU Analysis will present you with the following tabs, most of which
 
 ![Keywords](../doc_files/plugin_images/ta_keywords.png)
 
-*Categories* applies the NLU [categories](https://www.ibm.com/watson/developercloud/doc/natural-language-understanding/categories.html) to your content. The table shows the label for the categories identified and the confidence score for that category.
+*Categories* applies the NLU [categories](https://www.ibm.com/watson/developercloud/doc/natural-language-understanding/categories.html){target=_blank} to your content. The table shows the label for the categories identified and the confidence score for that category.
 
 ![Categories related to text sample](../doc_files/plugin_images/ta_categories.png)
 
@@ -182,7 +181,7 @@ Regardless of the size of the corpus (whether your corpus has 50 or 500 items), 
 ![The first three topics for an analysis of the Sherlock Holmes short stories. Because there is no sequence element, the top navigation option displays as n/a.](../doc_files/plugin_images/ta_mallet.png)
 
 ## Case Studies
-The following case studies examine the Text Analysis and [Ngram](Ngram) plugins using data from the [September 11 Digital Archive](http://911digitalarchive.org/).
+The following case studies examine the Text Analysis and [Ngram](Ngram.md) plugins using data from the [September 11 Digital Archive](http://911digitalarchive.org/){target=_blank}.
 
-- [Jannelle Legg, "Experiencing the September 11 Digital Archive, Using Omeka’s Ngrams and Text Analysis Plugins," December 2017](../doc_files/911-CaseStudy-1.pdf)
-- [Alyssa Fahringer, "Using Omeka’s Two Distant Reading Plugins to Explore the Language of Death and Mourning in the September 11 Digital Archive," December 2017](../doc_files/911-CaseStudy-2.pdf)
+- [Jannelle Legg, "Experiencing the September 11 Digital Archive, Using Omeka’s Ngrams and Text Analysis Plugins," December 2017](../doc_files/911-CaseStudy-1.pdf){target=_blank}
+- [Alyssa Fahringer, "Using Omeka’s Two Distant Reading Plugins to Explore the Language of Death and Mourning in the September 11 Digital Archive," December 2017](../doc_files/911-CaseStudy-2.pdf){target=_blank}

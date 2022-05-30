@@ -1,18 +1,18 @@
 # OAI-PMH Harvester
 
-The OAI-PMH Harvester plugin imports records from OAI-PMH data providers.
+The [OAI-PMH Harvester plugin](https://omeka.org/classic/plugins/OaipmhHarvester/){target=_blank} imports records from [Open Archives Initiative Protocol for Metadata Harvesting](http://www.openarchives.org/pmh/){target=_blank} data providers.
 
-Some online repositories expose their metadata through the [Open Archives Initiative Protocol for Metadata Harvesting](http://www.openarchives.org/pmh/) (OAI-PMH). This plugin makes it possible to harvest that metadata, mapping it to the Omeka data model. The plugin can be used for one-time data transfers, or to keep up-to-date with changes to an online repository.
+Some online repositories expose their metadata through OAI-PMH. This plugin makes it possible to harvest that metadata, mapping it to the Omeka data model. The plugin can be used for one-time data transfers, or to keep up-to-date with changes to an online repository.
 
-Currently the plugin is able to import [Dublin Core](http://dublincore.org/documents/dces/), [CDWA Lite](http://www.getty.edu/research/conducting_research/standards/cdwa/cdwalite.html) metadata, and [METS](http://www.loc.gov/standards/mets/). Dublin Core is an internationally recognized standard for describing any resource. 
+Currently the plugin is able to import [Dublin Core](http://dublincore.org/documents/dces/){target=_blank}, [CDWA Lite](http://www.getty.edu/research/conducting_research/standards/cdwa/cdwalite.html){target=_blank} metadata, and [METS](http://www.loc.gov/standards/mets/){target=_blank}. Dublin Core is an internationally recognized standard for describing any resource. 
 
 Every OAI-PMH data provider should implement this standard. CDWA Lite is a standard for describing works of art and material culture. Very few repositories expose CDWA Lite, but the standard is getting more and more popular. METS is developed as an initiative of the Digital Library Federation and maintained in the Network Development and MARC Standards Office of the Library of Congress.
 
-## Installation 
+This plugin offers the reciprocal functionality provided by the [OAI-PMH Repository plugin](OaiPmhRepository.md), which turns your Omeka site into a place that others can harvest OAI-PMH metadata.
 
-Your server must have PHP-CLI installed.
+## System requirements
 
-Upload and [install](../Admin/Adding_and_Managing_Plugins.md) the OAI-PMH Harvester plugin.
+Your server must have [PHP-CLI](http://www.php-cli.com/){target=_blank} installed.
 
 ## Instructions
 
@@ -20,6 +20,7 @@ Upload and [install](../Admin/Adding_and_Managing_Plugins.md) the OAI-PMH Harves
 To perform a harvest, go to the OAI-PMH Harvester tab in the left-hand navigation bar.
 
 -   Enter an OAI-PMH base URL, click "View Sets" Not all repository utilize METS. However, if you are accessing a repository utilizing a mets metadata library, you will be given the choice to harvest either oai-dc or mets. Select the type of data you will harvest from the dropdown menu. 
+
 ![Step one of harvesting data](../doc_files/plugin_images/Harvester1.png)
 
     - To harvest the entire repository, select Go.
@@ -27,11 +28,12 @@ To perform a harvest, go to the OAI-PMH Harvester tab in the left-hand navigatio
 
 ![Harvest a specific set](../doc_files/plugin_images/Harvest2.png)
 
-The harvest process runs in the background and may take a while. Go to the harvest's "Status" page to check the progress
+The harvest process runs in the background and may take a while. Go to the harvest's "Status" page to check the progress.
 
-If you encounter errors, submit the base URL and status messages to the Omeka forums
+If you encounter errors, [submit the base URL and status messages to the Omeka forums](https://forum.omeka.org/c/omeka-classic/plugins/10){target=_blank}.
 
 ### Re-harvesting and updating 
+
 The harvester includes the ability to make multiple successive harvests from a single repository, keeping in sync with changes to that repository.
 
 After a repository or set has been successfully harvested, a "Re-harvest" button will be added to its entry on the OAI-PMH Harvester page. Clicking this button will harvest from that repository again using all the same settings, adding new items and updating previously-harvested items as necessary.

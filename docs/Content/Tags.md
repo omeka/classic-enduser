@@ -87,7 +87,7 @@ To edit a tag:
 -   Enter changes you would like to make in the field.
 -   Hit Enter and your tag is saved with its new name.
 
-When editing, you cannot use an existing tag. So, for example if you have 5 tags for "banana" and two for "bananana", you cannot change the misspelled tag to the right spelling. You would need to go into the items with the tag you want to remove, add the tag you prefer, and then delete (see below) the tag with the misspelling.
+When editing, you cannot use an existing tag. For example, if you have 5 items tagged with "banana" and 2 items tagged with "bananana", you cannot edit the misspelled tag to the correct spelling. You would need to edit the items with the tag you want to remove, adding the desired tag and deleting the undesired tag. You can use the batch-edit function to add tags to items but not to delete tags.
 
 Delete a Tag 
 -----------------------------------------------------------------

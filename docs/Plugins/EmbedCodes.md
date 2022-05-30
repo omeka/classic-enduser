@@ -1,6 +1,6 @@
 # Embed Codes
 
-The EmbedCodes plugin enables you to share individual Omeka items as an iframe in other webpages and blogs, including Wordpress installations and Omeka Simple Pages.
+The [Embed Codes plugin](https://omeka.org/classic/plugins/EmbedCodes/){target=_blank} enables you to share individual Omeka items as an iframe in other webpages and blogs, including Wordpress installations and Omeka Simple Pages.
 
 ## How to Embed Omeka Classic Items in Other Sites
 

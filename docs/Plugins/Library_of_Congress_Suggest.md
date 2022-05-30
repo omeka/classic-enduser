@@ -1,12 +1,12 @@
 # Library of Congress Suggest
 
-This plugin adds an auto-complete feature to almost any metadata field in your Omeka Classic site by pulling results from Library of Congress's list of authorities and controlled vocabularies. This functionality helps those building an Omeka site to enforce consistent metadata input and data compatibility with other databases of records.
+The [LC Suggest plugin](https://omeka.org/classic/plugins/LcSuggest/){target=_blank} adds an auto-complete feature to almost any metadata field in your Omeka Classic site by pulling results from Library of Congress's list of authorities and controlled vocabularies. This functionality helps those building an Omeka site to enforce consistent metadata input and data compatibility with other databases of records.
 
 The plugin does not require configuration. After [installing](../Admin/Adding_and_Managing_Plugins.md) the plugin, there should be a LC Suggest tab on the left hand navigation of your admin dashboard.
 
 ## Choosing Vocabularies
 
-The Library of Congress maintains an Authorities and Vocabularies service that controls metadata terms used in creating and maintaining records of their holdings. Choices include, LC Subject Headings, MARC Geographic Areas, and Thesaurus of Graphic Materials. See the [full list of standardized vocabularies and authorities](http://id.loc.gov/).
+The Library of Congress maintains an Authorities and Vocabularies service that controls metadata terms used in creating and maintaining records of their holdings. Choices include, LC Subject Headings, MARC Geographic Areas, and Thesaurus of Graphic Materials. See the [full list of standardized vocabularies and authorities](http://id.loc.gov/){target=_blank}.
 
 -   In the LC Suggestion admin page, first choose a metadata field that you wish to contain controlled vocabulary (any of the core or item type fields) from the dropdown menu.
 -   Assign that field a Library of Congress authority/vocabulary.

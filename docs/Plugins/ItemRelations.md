@@ -1,20 +1,19 @@
 # Item Relations
 
-The Item Relations plugin lets you define relations between items in your Omeka Classic site. For example, you can make one item a part of another item, where "part of" is the relation. You can also make one item a "reproduction of" or a "translation of" another item.
+The [Item Relations plugin](https://omeka.org/classic/plugins/ItemRelations/){target=_blank} lets you define relations between items in your Omeka Classic site. For example, you can make one item a part of another item, where "part of" is the relation. You can also make one item a "reproduction of" or a "translation of" another item.
 
 We've bundled the plugin with common relations derived from several formal vocabularies, including:
 
--  [Dublin Core](http://dublincore.org/documents/dcmi-terms/),
-- [FRBR](http://vocab.org/frbr/core.html),
-- [FOAF](http://xmlns.com/foaf/spec/), and
-- [BIBO](http://bibotools.googlecode.com/svn/bibo-ontology/trunk/doc/index.html).
+- [Dublin Core](http://dublincore.org/documents/dcmi-terms/){target=_blank}
+- [FRBR](http://vocab.org/frbr/core.html){target=_blank}
+- [FOAF](http://xmlns.com/foaf/spec/){target=_blank}
+- [BIBO](https://bibliontology.com/){target=_blank}.
 
 You may use these or create a custom vocabulary with the relations needed in your site. You could, for example, define custom relations like "is parent of," "is better than," and "fits within."
 
 ## Configuration 
 
-After you have [installed](../Admin/Adding_and_Managing_Plugins.md)
- the plugin, you will need to configure the plugin, from the link on the Plugins page accessed from the top navigation of your admin dashboard.
+After you have [installed](../Admin/Adding_and_Managing_Plugins.md) the plugin, you will need to configure the plugin, from the link on the Plugins page accessed from the top navigation of your admin dashboard.
 
 There are two configuration options:
 
@@ -47,11 +46,11 @@ This tab has a table with columns for
 In order to relate two items, you will need to select the relationship from the dropdown and enter the item ID of the object-item. The ID is the item number - in the image below, the item number is displayed before the title of the item, and is 2558. 
 
 ![Item Relations tab on an item](../doc_files/plugin_images/itemrelEdit.png)
+
 You may batch relate items using the Batch Edit function from the Browse Items pages in the admin.
 
 ## Item Relations and RDF
 
-The plugin follows the [RDF](http://en.wikipedia.org/wiki/Resource_Description_Framework) model for defining relations between items. There's a subject item, a predicate (a relation/property in this case), and an object item. If we decompose the sentence: "Item 1 is a part of Item 2," "Item 1" is the subject, "is a part of" is the predicate, and "Item 2" is the object. These "triples" are the foundation of RDF. Your end users won't have to know this, but it's helpful to know it as an administrator.
+The plugin follows the [RDF](http://en.wikipedia.org/wiki/Resource_Description_Framework){target=_blank} model for defining relations between items. There's a subject item, a predicate (a relation/property in this case), and an object item. If we decompose the sentence: "Item 1 is a part of Item 2," "Item 1" is the subject, "is a part of" is the predicate, and "Item 2" is the object. These "triples" are the foundation of RDF. Your end users won't have to know this, but it's helpful to know it as an administrator.
 
 Following RDF, every formal vocabulary has a namespace prefix and namespace URI, which provide unambiguous context for its relations/properties. Every property has a local part and/or label, which are machine-readable and human-readable names of the property, respectively. As an administrator you'll only need to create labels, everything else is there for XML and RDFS compliance, to be used for future output formats.
-

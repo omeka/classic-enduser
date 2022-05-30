@@ -93,7 +93,6 @@ nav:
         - Plugins/TextAnnotation.md
         - Plugins/UserProfiles.md
         - Plugins/VRACore.md
-        - Plugins/ZoomIt.md
         - Plugins/ZoteroImport.md
     - Troubleshooting: 
         - Troubleshooting/Troubleshooting_Omeka.md
