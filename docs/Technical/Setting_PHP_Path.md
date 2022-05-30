@@ -1,15 +1,15 @@
 # Setting the PHP Path
 
-An invalid php path can cause a number of problems for your Omeka Classic installation. You need a valid php path to run plugins like CSV import and Neatline.
+An invalid PHP path can cause a number of problems for your Omeka Classic installation. You need a valid PHP path to run plugins such as [CSV Import](../Plugins/CSV_Import.md).
 
-By default, Omeka Classic tries to autodetect the php path for your server. However, if you have turned on [error messages](../Troubleshooting/Retrieving_Error_Messages.md) and the message starts with a phrase such as `The configured PHP path (/bin/php) is invalid`, then you need to set the path manually.
+By default, Omeka Classic tries to autodetect the PHP path for your server. However, if you have turned on [error messages](../Troubleshooting/Retrieving_Error_Messages.md) and the message starts with a phrase such as "The configured PHP path (/bin/php) is invalid", then you need to set the path manually.
 
-To set your php path you will need access to the server where your Omeka site lives; you set the path by editing files in the Omeka site. You cannot set the php path from the admin dashboard.
+To set your PHP path you will need access to the server where your Omeka site lives; you set the path by editing files in the Omeka site. You cannot set the PHP path from the admin dashboard.
 
-To set the php path
+To set the PHP path:
 
-- Contact your hosting company or sysadmin and ask them for the correct php path for your Omeka Classic installation.
-	- NB: If you are using Reclaim Hosting, they [have instructions in their documentation](https://community.reclaimhosting.com/t/working-with-omeka-classic/194/2). 
+- Contact your hosting company or sysadmin and ask them for the correct PHP path for your Omeka Classic installation.
+	- NB: If you are using Reclaim Hosting, they [have instructions in their documentation](https://community.reclaimhosting.com/t/working-with-omeka-classic/194/2){target=_blank}. 
 - Navigate to the files for your Omeka site, either using your hosting company's File Manager, an FTP client, or ssh. 
 - Open the directory `application`
 - Open the file `config.ini` in `application/config`

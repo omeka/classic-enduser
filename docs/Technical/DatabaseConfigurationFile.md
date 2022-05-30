@@ -1,6 +1,6 @@
 # Database Configuration File
 
-Before installing Omeka Classic, users must edit their database configuration in the db.ini file. Replace the X's in the document with your MySQL database-specific information. You must have MySQL5 installed to use Omeka. 
+Before installing Omeka Classic, users must edit their database configuration in the db.ini file. Replace the Xs in the document with your MySQL database-specific information. You must have MySQL5 installed to use Omeka. 
 
 ## Required Fields 
 These fields must be filled in for any Omeka installation. Your hosting provider or system administrator should provide you with the correct values for each of these. 
@@ -25,4 +25,4 @@ The prefix field value is "omeka_" by default. To install more than one Omeka in
 This should almost never be changed from its default of "utf8". Only touch this setting if you are sure you know what you're doing. 
 
 `port`  
-MySQL servers usually use port 3306, and Omeka will use that port unless you specify something different here. Your hosting provider or server administrator will tell you if you need to use a different port. Omeka Classic
+MySQL servers usually use port 3306, and Omeka will use that port unless you specify something different here. Your hosting provider or server administrator will tell you if you need to use a different port.

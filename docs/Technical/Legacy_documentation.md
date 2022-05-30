@@ -1,10 +1,10 @@
 # Legacy Documentation
 
-Documentation for versions of Omeka up to 1.5 is available for download as a [zipped archive of html files](../doc_files/1xDocumentation.zip)
+Documentation for versions of Omeka up to 1.5 is available for download as a [zipped archive of html files](../doc_files/1xDocumentation.zip).
 
 ## Legacy Add-ons
 
-The following add-ons are not compatible with current versions of Omeka Classic
+The following add-ons are not compatible with current versions of Omeka Classic.
 
 **Atom Output** by Roy Rosenzweig Center for History and New Media 
 

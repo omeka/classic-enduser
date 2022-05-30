@@ -2,7 +2,7 @@
 
 **Step One: Get the Lightbox Package**
 
-The first step is to get the latest LightBox 2 package from <http://lokeshdhakar.com/projects/lightbox2>, where you will find a quick explanation of how it works and how to get started.
+The first step is to [download the latest LightBox 2 package](http://lokeshdhakar.com/projects/lightbox2){target=_blank}, where you will find a quick explanation of how it works and how to get started.
 
 **Step Two: Modify and Upload the LightBox Package**
 
