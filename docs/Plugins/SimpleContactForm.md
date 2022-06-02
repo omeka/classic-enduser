@@ -12,7 +12,7 @@ The configuration settings allow you to designate a
 
 Then, you can configure the page on which the form appears with these settings: 
 
-- *Contact Page Title*: the title of the page .
+- *Contact Page Title*: the title of the page.
 - *Instructions for Contact Page*: allows you to add instructions or other information to the page.
 - *Add to Main Navigation*: click this checkbox to add the contact form to the main site navigation. You can manage the position of this page in the navigation [from the Appearances tab](../Admin/Appearance/Navigation.md).
 
