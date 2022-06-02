@@ -12,6 +12,6 @@ We encourage novice users to post bugs to the [Omeka Classic Forum](https://foru
 
 Developers and other users who have an interest in programming can report bugs directly as issues on [GitHub](https://github.com/omeka){target=_blank}. Issues can be with the core software, or with a plugin or theme. Some plugins and themes are not maintained by the Omeka team, so use the [plugins directory](https://omeka.org/classic/plugins/){target=_blank} and [themes directory](https://omeka.org/classic/themes/){target=_blank} to find the correct Github repository to report the issue. 
 
-If you are unsure whether it is code within a plugin/theme or an interaction best solved with the core code itself, bring it to our attention in the [core Github repository for Omeka Classic](https://github.com/omeka/Omeka){target=_blank} first and we can direct you. Be careful not to post Classic issues in the S forum or repository, and vice versa. 
+If you are unsure whether it is code within a plugin/theme or an interaction best solved with the core code itself, bring it to our attention in the [Forum](http://forum.omeka.org){target=_blank} first and we can direct you. Be careful not to post Classic issues in the S forum or repository, and vice versa. 
 
 If you would like to [suggest a solution in code along with your bug report](../Technical/Contribute_Code_to_Omeka.md), please use Github to do so.
