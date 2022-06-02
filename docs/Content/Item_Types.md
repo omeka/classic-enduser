@@ -56,7 +56,9 @@ When adding elements to Item Types, there are two options: add an existing eleme
 1. In the element block which is created, select the desired element from the dropdown list. All available elements are displayed alphabetically.
 ![Element block with dropdown list opened](../doc_files/itemTypeExistElm.png "Element block with dropdown list opened")
 
-**New elements** require you to enter in an element name and a description. You might need to create these for unique Item Types, for example “Cancellation Date” and “Cancellation Location” for a “Stamp” item type.
+**New elements** require you to enter in a unique element name, and can optionally include a description. You might need to create these for unique Item Types, for example “Cancellation Date” and “Cancellation Location” for a “Stamp” item type.
+
+<!--- note that elements can be created with a duplicate name, and the page can be saved, but that new element will disappear when the page is reloaded (or you go to view item type elements in the settings. there's no warning or error, it just appears to save and then doesn't. may want to change this in the code instead of just explaining it here. --->
 
 ### To add a new element to an Item Type:
 
