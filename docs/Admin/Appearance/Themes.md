@@ -55,32 +55,32 @@ Enable your chosen theme and view the configuration page to see if there is guid
 
 **Header and Footer** configuration options are:
 
-- *Logo File.* You may upload an image that will replace the site title in the header of your website. In many themes, this logo will be left-aligned, with margins around it. Many themes recommend a maximum width for your logo of 500px, and some have a required maximum height of 150px. 
-- *Header Background.* Upload an image file that will display across the top of your website, behind your site title or logo.
-- *Footer Text.* An HTML-enabled text box where you can enter text for a site footer to appear on every page. Note that shortcodes will not work in this field, nor will HTML-coded images or other multimedia.
-- *Display Copyright in Footer.*  Check this box if you wish to display your site’s copyright information in the footer. Site copyright information is found in the [General Settings](../Settings/General_Settings.md) section.
-- *Use Advanced Site-wide Search.* Check this box to allow public-side site visitors to search the whole site, including items, collections, and files, and to use boolean methods when searching.
+- **Logo File**: You may upload an image that will replace the site title in the header of your website. In many themes, this logo will be left-aligned, with margins around it. Many themes recommend a maximum width for your logo of 500px, and some have a required maximum height of 150px. 
+- **Header Background**: Upload an image file that will display across the top of your website, behind your site title or logo.
+- **Footer Text**: An HTML-enabled text box where you can enter text for a site footer to appear on every page. Note that shortcodes will not work in this field, nor will HTML-coded images or other multimedia.
+- **Display Copyright in Footer**:  Check this box if you wish to display your site’s copyright information in the footer. Site copyright information is found in the [General Settings](../Settings/General_Settings.md) section.
+- **Use Advanced Site-wide Search**: Check this box to allow public-side site visitors to search the whole site, including items, collections, and files, and to use boolean methods when searching.
 
 ![Header and footer configuration options](../../doc_files/themeHFConfig.png "Header and footer configuration options")
 
 **Homepage** configuration options are:
 
-- *Display Featured Item.* Check this box if you wish to show a featured item on the homepage.
-- *Display Featured Collection.* Check this box if you wish to show a featured collection on the homepage.
-- *Display Featured Exhibit.* Check this box if you wish to show a featured exhibit on the homepage.
-- *Homepage Recent Items.* Choose the number of recent items to be displayed on the homepage. These will appear in the order in which they were mostly recently added to the archive.
--   *Homepage Text.* Add some text to be displayed on your homepage above the Featured Items. This is a good place to add a short tagline or description of your site. Note that shortcodes will not work in this field, nor will HTML-coded images or other multimedia. Save longer explanations for an [About page using the Simple Pages plugin](../../Plugins/SimplePages.md).
+- **Display Featured Item**: Check this box if you wish to show a featured item on the homepage.
+- **Display Featured Collection**: Check this box if you wish to show a featured collection on the homepage.
+- **Display Featured Exhibit**: Check this box if you wish to show a featured exhibit on the homepage.
+- **Homepage Recent Items**: Choose the number of recent items to be displayed on the homepage. These will appear in the order in which they were mostly recently added to the archive.
+-   **Homepage Text**: Add some text to be displayed on your homepage above the Featured Items. This is a good place to add a short tagline or description of your site. Note that shortcodes will not work in this field, nor will HTML-coded images or other multimedia. Save longer explanations for an [About page using the Simple Pages plugin](../../Plugins/SimplePages.md).
 
 ![Homepage configuration options](../../doc_files/themeHomeConfig.png "Homepage configuration options")
 
 Additional configuration options may include:
 
-- **Colors.** For themes including Thanks Roy, Center Row, The Daily, Big Stuff. These fields allow you to customize the color of specific parts of the theme (link text, buttons, etc). You must use a six-character [hexadecimal color value](https://www.w3schools.com/colors/default.asp){target=_blank}, including the `#`.
-- **Style.** For the themes Seasons and Rhythm. Select a style sheet (color scheme) from a dropdown menu.
-- **Items.** May include:
-    - **Item File Gallery.** For the themes Thanks Roy, Seasons, Minimalist, and Emiglio. This box displays the files for each item as a gallery of square thumbnails rather than fullsize images. 
-    - **Use Original Thumbnail Size.** Check the box if you want to use thumbnails' original sizes on the browse view. Otherwise, the thumbnails are restricted to 100px in height.
-- **Exhibit Builder.** For the themes Seasons and Minimalist. Select an exhibit page navigation style: whether page navigation in exhibits is a full-width bar that stretches across the page or a sidebar that uses a small fraction of the page width.
-- **Homepage Text position.** A dropdown menu to set whether the homepage text appears above or below featured items, exhibits, and collections.
+- **Colors**: For themes including Thanks Roy, Center Row, The Daily, Big Stuff. These fields allow you to customize the color of specific parts of the theme (link text, buttons, etc). You must use a six-character [hexadecimal color value](https://www.w3schools.com/colors/default.asp){target=_blank}, including the `#`.
+- **Style**: For the themes Seasons and Rhythm. Select a style sheet (color scheme) from a dropdown menu.
+- **Items**: May include:
+    - *Item File Gallery*: For the themes Thanks Roy, Seasons, Minimalist, and Emiglio. This box displays the files for each item as a gallery of square thumbnails rather than fullsize images. 
+    - *Use Original Thumbnail Size*: Check the box if you want to use thumbnails' original sizes on the browse view. Otherwise, the thumbnails are restricted to 100px in height.
+- **Exhibit Builder**: For the themes Seasons and Minimalist. Select an exhibit page navigation style: whether page navigation in exhibits is a full-width bar that stretches across the page or a sidebar that uses a small fraction of the page width.
+- **Homepage Text position**: A dropdown menu to set whether the homepage text appears above or below featured items, exhibits, and collections.
 
 Remember to save your changes on this page, and refresh the public interface to see your new settings applied.
