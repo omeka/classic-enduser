@@ -112,13 +112,10 @@ Batch Editing & Deleting
 
 -   You may change the following fields for each batch of selected items:
     -   public or private,
-    -   feature or not featured,
+    -   featured or not featured,
     -   Item Type,
     -   Collection,
-    -   add Tags to all selected items,
+    -   add Tags to all selected items (but not delete),
     -   delete items. 
-
-You can also include Item Relations on this screen, if the [Item Relations](../Plugins/ItemRelations.md) plugin is installed.
-
 -   You can un-check the box to the left of each item if you marked one by mistake.
 -   Click "Save Changes" to edit all of the selected items.
