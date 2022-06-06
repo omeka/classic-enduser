@@ -81,7 +81,7 @@ Click [here](../doc_files/featurelist_2-x.pdf){target=_blank} for a PDF version 
 
 - Add the [Library of Congress Suggest](../Plugins/Library_of_Congress_Suggest.md) and [Simple Vocab](../Plugins/SimpleVocab.md) plugins to auto-complete the subject field, or create your own controlled list for other Dublin Core fields.
 
-**Community-source your content**
+**Community-source content**
 
 - [Scripto](../Plugins/Scripto.md) opens Dublin Core fields for transcriptions and metadata collection.
 - [Contribution](../Plugins/Contribution.md) lets you collect stories, images, and other files from visitors.
