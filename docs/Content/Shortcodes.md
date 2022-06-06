@@ -7,7 +7,7 @@ In Omeka, shortcodes work in basic text fields (not using the HTML editor) in sp
 There are several built-in shortcodes that come with a basic Omeka install, and many more shortcodes that are added via plugins. You must install the needed plugin and follow its directions for use. 
 
 !!! Note 
-    This page is a user’s guide to shortcodes. For developer documentation, see [Working with Shortcodes](http://omeka.readthedocs.org/en/latest/Tutorials/shortcodes.html){target=_blank} on Omeka’s Read the Docs site.
+    This page is a user’s guide to shortcodes. For help with developing shortcode functionality through plugins, see [Working with Shortcodes](http://omeka.readthedocs.org/en/latest/Tutorials/shortcodes.html){target=_blank} on Omeka’s Developer Documentation site.
 
 General
 --------
