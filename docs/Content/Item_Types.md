@@ -38,7 +38,7 @@ To create a new Item Type, click the green “Add an Item Type" button above the
 
 ![Add Item Type basic view](../doc_files/itemTypeAdd.png "Add Item Type basic view")
 
-Each Item Type must have a *Name*, preferably unique. You can also add a *Description* to help clarify the Item Type (for example, the descriptions in the list of item types above) and guide users who are adding and describing items.
+Each Item Type must have a *Name*, which must be unique. You can also add a *Description* to help clarify the Item Type (for example, the descriptions in the list of item types above) and guide users who are adding and describing items.
 
 ## Creating and Adding Elements
 
@@ -56,7 +56,7 @@ When adding elements to Item Types, there are two options: add an existing eleme
 1. In the element block which is created, select the desired element from the dropdown list. All available elements are displayed alphabetically.
 ![Element block with dropdown list opened](../doc_files/itemTypeExistElm.png "Element block with dropdown list opened")
 
-**New elements** require you to enter in a unique element name, and can optionally include a description. You might need to create these for unique Item Types, for example “Cancellation Date” and “Cancellation Location” for a “Stamp” item type.
+**New elements** require you to enter in a unique element name, and can optionally include a description. This text should help guide users who are entering metadata into this field, and can include vocabulary, structure, or formatting instructions. You might need to create new elements for unique Item Types, for example “Cancellation Date” and “Cancellation Location” for a “Stamp” item type.
 
 <!--- note that elements can be created with a duplicate name, and the page can be saved, but that new element will disappear when the page is reloaded (or you go to view item type elements in the settings. there's no warning or error, it just appears to save and then doesn't. may want to change this in the code instead of just explaining it here. --->
 
@@ -64,11 +64,11 @@ When adding elements to Item Types, there are two options: add an existing eleme
 
 1. In the Add Element block, select the *New* option.
 1. Click the green *Add Element* button.
-1. In the element block which is created, enter an *Element Name* in the first field (toward the top of the block). Enter an *Element Description* in the larger text field. This text should help guide users who are entering metadata into this field, and can include vocabulary, structure, or formatting instructions.
+1. In the element block which is created, enter an *Element Name* in the first field (toward the top of the block). Enter an *Element Description* in the larger text field. 
 ![New element block with no input](../doc_files/itemTypeNewElm.png "New element block with no input")
 
 You can delete elements from Item Types, by clicking the large X on the upper right corner of the element block. If it is a custom-created element, and it is no longer attached to any Item Types, it will still appear in the dropdown menu in the future. 
 
-To delete these or existing elements from your Omeka install, go to the Settings tab, then the Item Type Elements tab. You can edit element descriptions there, or delete elements from the database.
+To delete these or existing elements from your Omeka install, go to the Settings tab, then the [Item Type Elements](../Admin/Settings/Item_Type_Elements.md) tab. You can edit element descriptions there, or delete elements from the database.
 
 ![New element block with no input](../doc_files/itemTypeElmTab.png "New element block with no input")
