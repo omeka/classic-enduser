@@ -24,7 +24,7 @@ If you have multiple files added to an item, you may click and drag the files in
 
 Files with Thumbnails
 -------------------------------
-Thumbnails are automatically created for all file types as of Omeka 2.0. If you have access to the `config.ini` file, you can manage [thumbnail configuration](../Technical/ConfiguringThumbnailCreation.md). 
+Thumbnails are automatically created for many file types as of Omeka 2.0. Thumbnail creation relies on the ability of your chosen thumbnail utility (the default being ImageMagick) and which file types it can process. If you have access to the `config.ini` file, you can manage [thumbnail configuration](../Technical/ConfiguringThumbnailCreation.md). Look up the utility you are using (such as [ImageMagick](https://imagemagick.org/){target=_blank}, [Imagick](https://www.php.net/imagick){target=_blank}, or [GD](https://www.php.net/manual/en/intro.image.php){target=_blank}) to find out which file types it supports. 
 
 <!--- can you do anything fun with thumbnails? upload some defaults, upload some custom thumbnails to override the automatically generated ones? --->
 
