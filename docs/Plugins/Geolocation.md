@@ -1,8 +1,8 @@
 # Geolocation
 
-The Geolocation plugin allows you to assign a location to items in your Omeka Classic site. The locations are displayed on maps on individual items page and on a browsable map of all geolocated items.
+The [Geolocation plugin](https://omeka.org/classic/plugins/Geolocation/){target=_blank} allows you to assign a location to items in your Omeka Classic site. The locations are displayed on maps on individual items page and on a browsable map of all geolocated items.
 
-There is a [screencast for Geolocation (version 2.2.4) demonstrating its basic functionality.](https://vimeo.com/156298642)
+There is a [screencast for Geolocation (version 2.2.4) demonstrating its basic functionality](https://vimeo.com/156298642){target=_blank}.
 
 
 ## Configuring
@@ -17,16 +17,16 @@ The first section for configuration are the general settings for the appearance 
 - *Default latitude*: set the center point of the map's latitude (North/South value), in degrees. Using numbers after the decimal point will pinpoint the location more precisely.
 - *Default longitude*: set the center point of the map's longitude (East/West), in degrees. Using numbers after the decimal point will pinpoint the location more precisely.
 - *Default Zoom Level*: Use a whole number of 0 of greater. 0 is the most zoomed out. A value of 15 will result in a map showing roughly one square mile
-- *Base Map*: select a map from the dropdown to serve as the base map in the display. All base maps except those served by Mapbox can be [previewed courtesy of Leaflet](http://leaflet-extras.github.io/leaflet-providers/preview/).
+- *Base Map*: select a map from the dropdown to serve as the base map in the display. All base maps except those served by Mapbox can be [previewed courtesy of Leaflet](http://leaflet-extras.github.io/leaflet-providers/preview/){target=_blank}.
 
 If you select Mapbox from the dropdown for Base Map, two additional fields will appear under general settings. 
 
-- *Mapbox Access Token*: in order to use Mapbox, you need to sign up for their service. Once you have done so, you can go to your [account page](https://www.mapbox.com/account/) and copy your access token to paste into this field. 
-- *Mapbox Map ID*: The "map ID" that goes here is the part of a Mapbox "Style URL" that comes after "mapbox://styles/". You can use your own maps or one of the [globally available styles](https://docs.mapbox.com/api/maps/#mapbox-styles). Leaving this input blank will use the default Mapbox street map.
+- *Mapbox Access Token*: in order to use Mapbox, you need to sign up for their service. Once you have done so, you can go to your [account page](https://www.mapbox.com/account/){target=_blank} and copy your access token to paste into this field. 
+- *Mapbox Map ID*: The "map ID" that goes here is the part of a Mapbox "Style URL" that comes after "mapbox://styles/". You can use your own maps or one of the [globally available styles](https://docs.mapbox.com/api/maps/#mapbox-styles){target=_blank}. Leaving this input blank will use the default Mapbox street map.
 
   As of June 1, 2020, Mapbox has deprecated older-style maps. Geolocation 3.2 and up support the newer Mapbox API, and the plugin will automatically update your selected Map ID if you were using one of the "standard" map types. If you had specified a custom map ID, you may need to update it after upgrading Geolocation.
 
-You can use MapBox to create your own map tiles, for example a historic map layer. Please refer to the [MapBox documentation](https://www.mapbox.com/api-documentation/#introduction) for more information.
+You can use MapBox to create your own map tiles, for example a historic map layer. Please refer to the [MapBox documentation](https://www.mapbox.com/api-documentation/#introduction){target=_blank} for more information.
 
 ![The dropdown for Base Map with MapBox selected is at the top, with the two fields described following. Both fields are empty.](../doc_files/plugin_images/geolocation-mapbox.png)
 
@@ -36,10 +36,10 @@ These settings are for the map through which users can browse all geolocated ite
 ![Browse map settings for geolocation](../doc_files/plugin_images/geolocation_brset.png)
 
 -   *Number of Locations Per Page*: The browsable map has pagination; set the number of items per map page with a whole number.
--   *Auto-fit to Locations*: If checked, the browse map will ignore default location and zoom settings designated in General Settings and instead auto fit to the locations of the items displayed (on that page)
+-   *Auto-fit to Locations*: If checked, the browse map will ignore default location and zoom settings designated in General Settings and instead auto fit to the locations of the items displayed (on that page).
 -   *Default Radius*: for the Search By Address function in the advanced items search.
 -   A checkbox to *Use metric distances* for radius search, rather than miles.
--   A checkbox to *Enable marker clusters*. When checked, markers that are very close to each other will cluster together and be represented by a number (indicating the number of markers)
+-   A checkbox to *Enable marker clusters*. When checked, markers that are very close to each other will cluster together and be represented by a number (indicating the number of markers).
 
 A map with Enable marker clusters unchecked:  
 ![A low-detail map showing the British Isles, with a number of blue map markers throughout England](../doc_files/plugin_images/geolocation-nocluster.png)
@@ -88,9 +88,7 @@ Don't forget to save your changes.
 
 Visitors to your Omeka site may use a map to browse through all of your geolocated items.
 
-When configuring the plugin, if you selected "Add Link to Map on
-Items/Browse Navigation," a "Browse Map" link will be added
-automatically to the secondary navigation on the items/browse page.
+When configuring the plugin, if you selected "Add Link to Map on Items/Browse Navigation," a "Browse Map" link will be added automatically to the secondary navigation on the items/browse page.
 
 ![Public items map view in the Thanks Roy theme](../doc_files/plugin_images/geolocation_pubbr.png)
 
@@ -108,11 +106,11 @@ From this view, you may also search mapped items using the item advanced search.
 
 ## Geolocation and Exhibit Builder
 
-If you have [Exhibit Builder](ExhibitBuilder) (version 3.x) installed, Geolocation will add a Map block to the options when building pages. 
+If you have [Exhibit Builder](ExhibitBuilder.md) (version 3.x or greater) installed, Geolocation will add a Map block to the options when building pages. 
 
 ![Admin item browse map with search form](../doc_files/plugin_images/geolocation_ex1.png)
 
-You can add items with geolocation markers to the map block by [adding items](ExhibitBuilder/#adding-items) as you would with any other Exhibit Builder block. Only items to which you have added a location will show up on the map; the map will ignore items without a location.
+You can add items with geolocation markers to the map block by [adding items](ExhibitBuilder.md#adding-items) as you would with any other Exhibit Builder block. Only items to which you have added a location will show up on the map; the map will ignore items without a location.
 
 ![Geolocation block in Exhibit Builder, which has no layout options. It has four items added and the option to add another item.](../doc_files/plugin_images/geolocation_ex2.png)
 
@@ -122,7 +120,7 @@ The exhibit will display a single map with the markers for those specific items,
 
 ## Shortcodes
 
-The geolocation [shortcode](Plugin_Shortcodes.md) will create a map of items based on parameters it is given.
+The geolocation [shortcode](../Content/Shortcodes.md#geolocation) will create a map of items based on parameters it is given.
 
 The shortcode is `[geolocation]`. Without any additional parameters, it will return a map of all items that contain geolocation data, limited by the records per page as set in the Geolocation plugin configuration.
 

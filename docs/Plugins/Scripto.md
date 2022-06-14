@@ -1,6 +1,6 @@
 # Scripto
 
-The Scripto plugin allows you to crowdsource the transcription of your Omeka Classic content. It adds a feature rich interface to the admin and public sides that includes many features from [MediaWiki](http://www.mediawiki.org/wiki/MediaWiki), the software behind [Wikipedia](http://www.wikipedia.org/). All items with files can be transcribed. For these purposes an item is a *document*, and an item's files are its *pages*.
+The [Scripto plugin](https://omeka.org/classic/plugins/Scripto/){target=_blank} allows you to crowdsource the transcription of your Omeka Classic content. It adds a feature rich interface to the admin and public sides that includes many features from [MediaWiki](http://www.mediawiki.org/wiki/MediaWiki){target=_blank}, the software behind [Wikipedia](http://www.wikipedia.org/){target=_blank}. All items with files can be transcribed. For these purposes an item is a *document*, and an item's files are its *pages*.
 
 ## Features
 
@@ -26,17 +26,17 @@ In addition to this, administrators can:
 
 ## Installing MediaWiki
 
-This plugin requires you or your system administrator to [download](http://www.mediawiki.org/wiki/Download) and [install](http://www.mediawiki.org/wiki/Installation) MediaWiki, a popular free web-based wiki software application that Scripto uses to manage user and transcription data. You should install MediaWiki in a separate directory from Omeka. It can be installed on another server and it must be accessible to the Web.
+This plugin requires you or your system administrator to [download](http://www.mediawiki.org/wiki/Download){target=_blank} and [install](http://www.mediawiki.org/wiki/Installation){target=_blank} MediaWiki, a popular free web-based wiki software application that Scripto uses to manage user and transcription data. You should install MediaWiki in a separate directory from Omeka. It can be installed on another server and it must be accessible to the Web.
 
 ## Configuring Scripto
 
--   **MediaWiki API URL:** URL to your [MediaWiki installation API](http://www.mediawiki.org/wiki/API:Quick_start_guide#What_you_need_to_access_the_API).
+-   **MediaWiki API URL:** URL to your [MediaWiki installation API](http://www.mediawiki.org/wiki/API:Quick_start_guide#What_you_need_to_access_the_API){target=_blank}.
 -   **MediaWiki cookie prefix:** the cookie prefix, most likely your database name.
 	- `<dbname>` if a table prefix is not used, -or-
 	- `<dbname>_<tableprefix>_` if a table prefix is used (the trailing underscore is *required* for the cookie to work)  
 	NB: you can find these by looking in the LocalSettings file in the root of the server directory for your MediaWiki installation. You want the values of `$wgDBname` and `$wgDBprefix` (if it exists)
--   **Image viewer:** Select an image viewer to use when transcribing image files. [OpenLayers](http://openlayers.org/) and [Zoom.it](http://zoom.it/) can display JPEG, PNG, GIF, and BMP formats. Zoom.it can also display TIFF and ICO formats. By using Zoom.it you acknowledge that you have read and agreed to the [Microsoft Zoom.it Terms of Service](http://zoom.it/pages/terms/).
--   **Use Google Docs Viewer?:** Use Google Docs Viewer when transcribing document files? Document files include PDF, DOC, PPT, XLS, TIFF, PS, and PSD formats. By using this service you acknowledge that you have read and agreed to the [Google Docs Viewer Terms of Service](http://docs.google.com/viewer/TOS?hl=en).
+-   **Image viewer:** Select an image viewer to use when transcribing image files. [OpenLayers](http://openlayers.org/){target=_blank} and [Zoom.it](http://zoom.it/){target=_blank} can display JPEG, PNG, GIF, and BMP formats. Zoom.it can also display TIFF and ICO formats. By using Zoom.it you acknowledge that you have read and agreed to the [Microsoft Zoom.it Terms of Service](https://docs.microsoft.com/en-us/sysinternals/downloads/zoomit){target=_blank}.
+-   **Use Google Docs Viewer?:** Use Google Docs Viewer when transcribing document files? Document files include PDF, DOC, PPT, XLS, TIFF, PS, and PSD formats. By using this service you acknowledge that you have read and agreed to the [Google Docs Viewer Terms of Service](https://policies.google.com/terms?hl=en){target=_blank}.
 -   **Import type:** Import transcriptions as HTML or plain text?Importing will copy document and page transcriptions from MediaWiki to their corresponding items and files in Omeka. Choose HTML if you want to preserve formatting. Choose plain text if formatting is not important.
 -   **Home page text:** Enter text that will appear on the Scripto home page. Use this to display custom messages to your users, such as instructions on how to use Scripto and how to register for a MediaWiki account. Default text will appear if nothing is entered. You may use HTML. (Wrapping paragraph tags recommended.)
 
@@ -54,19 +54,19 @@ Once you've installed MediaWiki and the Scripto plugin you can begin transcribin
 ## Restricting Access
 
 The Scripto interface is available to all users, but as a MediaWiki administrator you can restrict access to certain actions. By default, anonymous users can edit and revert pages. If you want to restrict these actions, you must [follow these
-directions](http://www.mediawiki.org/wiki/Manual:Preventing_access#Restrict_editing_of_all_pages),
+directions](http://www.mediawiki.org/wiki/Manual:Preventing_access#Restrict_editing_of_all_pages){target=_blank},
 and your users must create MediaWiki user accounts (see below).
 
 ## Creating Accounts
 
-Scripto uses a separate login procedure from Omeka, so non-anonymous users must have a MediaWiki account and administrators must manage them via MediaWiki. (We recognize that this is not ideal, but the [MediaWiki API](http://www.mediawiki.org/wiki/API:Main_page) does not provide the means to create accounts.) To create an account, users must:
+Scripto uses a separate login procedure from Omeka, so non-anonymous users must have a MediaWiki account and administrators must manage them via MediaWiki. (We recognize that this is not ideal, but the [MediaWiki API](http://www.mediawiki.org/wiki/API:Main_page){target=_blank} does not provide the means to create accounts.) To create an account, users must:
 
 1.  Go to the MediaWiki website
 2.  Click "log in / create account" in the top-right corner
 3.  Click "Create an account."
 4.  Fill in the information and submit the form
 
-If you do not want to allow anonymous account creation, you must [follow these directions](http://www.mediawiki.org/wiki/Manual:Preventing_access#Restrict_account_creation) and create accounts for all your users. To create user accounts, you must:
+If you do not want to allow anonymous account creation, you must [follow these directions](http://www.mediawiki.org/wiki/Manual:Preventing_access#Restrict_account_creation){target=_blank} and create accounts for all your users. To create user accounts, you must:
 
 1.  Go to the MediaWiki website
 2.  Click "Special pages" in the toolbar

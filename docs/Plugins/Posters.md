@@ -1,6 +1,6 @@
 # Posters
 
-Posters are a simple, lightweight way for users on your Omeka Classic site to interact with your content by selecting items to gather together into a sequential presentation, with an overall description and captions for items.
+[Posters](https://omeka.org/classic/plugins/Posters/){target=_blank} are a simple, lightweight way for users on your Omeka Classic site to interact with your content by selecting items to gather together into a sequential presentation, with an overall description and captions for items.
 
 You must have [Guest User](GuestUser.md) installed to use Posters.
 
@@ -11,10 +11,9 @@ To configure Posters, go to the Plugins button in the top navigation. Scroll dow
 
 ![Configuration options for Poster Builder, as described below](../doc_files/plugin_images/posters-config.png)
 
+**Poster Page Title:** Change the title of the posters page and how it is populated in the public navigation.
 
-**Poster Page Title:** Change the title of the posters page and how it is populated in the public navigation
-
-**Poster Page Path:** the slug for the poster page (what shows up in the url, so youromekasite.org/posters )
+**Poster Page Path:** the slug for the poster page (what shows up in the url, so `youromekasite.org/posters`).
 
 **Poster Page Disclaimer:** Edit, replace, or remove the default disclaimer that appears at the bottom of every poster page.
 

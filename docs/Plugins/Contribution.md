@@ -1,13 +1,13 @@
 # Contribution
 
-The Contribution plugin provides a form to collect stories, images, and other files from the public and manage those contributions in your Omeka Classic site as items. Contributors may share and upload content anonymously, and their information will only be available to site administrators. All contributions are private by default and require a site administrator to review and make them public on the Omeka site. 
+The [Contribution plugin](https://omeka.org/classic/plugins/Contribution/){target=_blank} provides a form to collect stories, images, and other files from the public and manage those contributions in your Omeka Classic site as items. Contributors may share and upload content anonymously, and their information will only be available to site administrators. All contributions are private by default and require a site administrator to review and make them public on the Omeka site. 
 
 The plugin can also automatically add a reCAPTCHA box at the bottom of each form to prevent spam-bots from spamming your website. Contribution also offers options for users to create guest accounts that make it easier for one user to submit multiple items. 
 
 Other plugins can be integrated into the Contribution form, such as [Simple Vocab](SimpleVocab.md) for creating dropdown menu choices, and [Geolocation](Geolocation.md) for inviting users to map their submissions or locations. 
 
 Installing and configuring the Contribution plugin requires a few steps. Please read through the documentation carefully. 
-Watching the [screencast](https://vimeo.com/165200216) we created for using and configuring this addon can be helpful as you think through each step.  - please note that the screencast is [version 3.0.1](#older-versions) and not the most current version of the plugin.
+Watching the [screencast](https://vimeo.com/165200216){target=_blank} we created for using and configuring this addon can be helpful as you think through each step.  - please note that the screencast is [version 3.0.1](#older-versions) and not the most current version of the plugin.
 
 An Omeka site with the Contribution plugin requires you to upload and install two separate plugins:
 
@@ -21,7 +21,7 @@ If you want to collect any information from your contributors, install these two
 
 ## Screencast
 
-Contribution is a somewhat complex plugin to set up. In addition to the written instructions below, please see the [screencast on this plugin and Guest User](https://vimeo.com/165200216). Note that there is also a screencast for the [User Profiles](https://vimeo.com/165052886) plugin.
+Contribution is a somewhat complex plugin to set up. In addition to the written instructions below, please see the [screencast on this plugin and Guest User](https://vimeo.com/165200216){target=_blank}. Note that there is also a screencast for the [User Profiles](https://vimeo.com/165052886){target=_blank} plugin.
 
 ## Installing
 
@@ -185,10 +185,10 @@ Upgrading from 1.x to 2.x
 1. Follow upgrading process for all [Omeka sites](../Installation/Upgrading.md).
 2. Upload and install the following plugins, following all of the steps above for installing plugins and configuring the form above.
     - [Guest User](GuestUser.md)
-    - [Contribution](Contribution.md)
+    - Contribution
     - [Record Relations](RecordRelations.md)
     - [User Profiles](UserProfiles.md)
-3. If you have asked Contributor Questions on 1.5 form, go to User Profiles plugin page. Locate the check box asking if you want to import Contributor settings: check the box and save changes.
+3. If you have asked Contributor Questions on a version 1.5 form, go to User Profiles plugin page. Locate the check box asking if you want to import Contributor settings: check the box and save changes.
 4. Contributor pages should be linked to a Contributor’s profile, and the questions you asked before should be available in the User Profile.
 5. If you have modified the text on the Contribution form itself, those changes will not be transferred. You will need to modify the text on the contribute.php form again in the plugin directory on the server.
 

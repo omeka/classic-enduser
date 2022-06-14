@@ -1,6 +1,6 @@
 # Simple Pages
 
-The Simple Pages plugin allows you to create text rich pages, for example an "About" page. It is one of the plugins which comes bundled with downloads of Omeka.
+The [Simple Pages plugin](https://omeka.org/classic/plugins/SimplePages/){target=_blank} allows you to create text rich pages, for example an "About" page. It is one of the plugins that comes bundled with downloads of Omeka.
 
 Simple Pages can be written in plain text or using HTML. You can insert items, exhibits, and files into Simple Pages by using the [Shortcodes](../Content/Shortcodes.md) available on Omeka Classic. 
 

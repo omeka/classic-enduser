@@ -1,22 +1,22 @@
 # OAI-PMH Repository
 
-This plugin implements an [Open Archives Initiative Protocol for Metadata Harvesting](http://www.openarchives.org/pmh) repository for Omeka Classic, allowing Omeka items to be harvested by OAI-PMH harvesters. The plugin implements version 2.0 of the protocol.
+The [OAI-PMH Repository plugin](https://omeka.org/classic/plugins/OaipmhRepository/){target=_blank} implements an [Open Archives Initiative Protocol for Metadata Harvesting](http://www.openarchives.org/pmh) repository for Omeka Classic, allowing Omeka items to be harvested by OAI-PMH harvesters. The plugin implements version 2.0 of the protocol.
 
-This plugin is the reverse of the functionality provided by the [OAI-PMH Harvester plugin](OaipmhHarvester.md).
+This plugin offers the reciprocal functionality provided by the [OAI-PMH Harvester plugin](OaipmhHarvester.md).
 
 ## Metadata Formats
 
-The plugin ships with several default formats. Other plugins can alter these or add their own (see Extending below)
+The plugin ships with several default formats. Other plugins can alter these or add their own (see Extending below):
 
-- [Dublin Core](http://dublincore.org) (`oai_dc`) 
+- [Dublin Core](http://dublincore.org){target=_blank} (`oai_dc`) 
     - This is required by the OAI-PMH specification for all repositories. Omeka metadata fields are mapped one-to-one with fields for this output format, and it is the preferred format to use with the plugin.
-- [CDWA Lite](http://www.getty.edu/research/conducting_research/standards/cdwa/cdwalite.html) (`cdwalite`)
+- [CDWA Lite](http://www.getty.edu/research/conducting_research/standards/cdwa/cdwalite.html){target=_blank} (`cdwalite`)
     - The mapping between Omeka's metadata and CDWA Lite metadata is more complicated, and certain fields may not be populated correctly.The chief advantage of using CDWA Lite output is that file URLs can be output in a controlled format, unlike Dublin Core. Harvesters may therefore be able to harvest or link to files in addition to metadata.
-- [MODS](http://www.loc.gov/standards/mods/) (`mods`)
-    - This output crosswalks the Dublin Core metadata to MODS using the [mapping](http://www.loc.gov/standards/mods/dcsimple-mods.html) recommended by the Library of Congress.
-- [METS](http://www.loc.gov/standards/mets/) (`mets`)
+- [MODS](http://www.loc.gov/standards/mods/){target=_blank} (`mods`)
+    - This output crosswalks the Dublin Core metadata to MODS using the [mapping](http://www.loc.gov/standards/mods/dcsimple-mods.html)[OAI-PMH Repository plugin](https://omeka.org/classic/plugins/OaipmhRepository/){target=_blank} recommended by the Library of Congress.
+- [METS](http://www.loc.gov/standards/mets/){target=_blank} (`mets`)
     - The Metadata Encoding and Transmission Standard exposes files to harvesters.
-- [RDF](https://www.w3.org/2001/sw/wiki/RDF) (`rdf`)
+- [RDF](https://www.w3.org/2001/sw/wiki/RDF){target=_blank} (`rdf`)
     - This format exposes metadata as RDF/XML. Unlike many of the other formats, RDF allows the repository to expose metadata from different standards all in the same output. The main practical distinction from other formats currently is that the RDF output will automatically include "qualified" data from the Dublin Core Extended plugin, if it's present. 
 - Omeka XML (`omeka-xml`)
     - This output format uses an Omeka-specific XML output that includes all metadata elements without requiring crosswalking or subsetting, but is not well-supported by harvesters or other tools.
@@ -30,7 +30,7 @@ At the top of the configuration page, the plugin displays the address for your O
 
 **Repository name**: A text field where you can enter a name for this OAI-PMH repository. This value is sent as part of the response to an Identify request, and it is how the repository will be identified by harvesters. Defaults to the name of the Omeka installation.
 
-**Namespace identifier**: A text field to set the namespace identifier; this is required to be the domain name of the Omeka site. If your site lives in a subdirectory (yourdomain.com/omeka), it is the main domain (yourdomain.com).  
+**Namespace identifier**: A text field to set the namespace identifier; this is required to be the domain name of the Omeka site. If your site lives in a subdirectory (`yourdomain.com/omeka`), it is the main domain (`yourdomain.com`).  
 
 If it can, the plugin will try to automatically detect the domain of the server hosting the site, and use that as the default namespace identifier.  
 

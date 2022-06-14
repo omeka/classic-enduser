@@ -1,6 +1,6 @@
 # Guest User
 
-The Guest User plugin adds an additional user role to your Omeka Classic site. The Guest role works behind the scenes with other plugins (Commenting, and User Profiles, for example), without giving the guests admin access to your Omeka site.
+The [Guest User plugin](https://omeka.org/classic/plugins/GuestUser/){target=_blank} adds an additional user role to your Omeka Classic site. The Guest role works behind the scenes with other plugins (Commenting, and User Profiles, for example), without giving the guests admin access to your Omeka site.
 
 ## Install and Configure
 

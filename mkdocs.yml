@@ -4,10 +4,13 @@ theme:
     custom_dir: 'omeka/'
     include_homepage_in_sidebar: false
 site_dir: 'html'
+site_url: 'https://omeka.org/classic/'
 repo_url: 'https://github.com/omeka/classic-enduser'
 extra_css: 
     - css/extra.css
 markdown_extensions:
+    - admonition
+    - attr_list
     - toc:
         permalink: 
 nav:
@@ -75,7 +78,6 @@ nav:
         - Plugins/Omeka_API_Import.md
         - Plugins/PBCore.md
         - Plugins/PdfText.md
-        - Plugins/Plugin_Shortcodes.md
         - Plugins/Posters.md
         - Plugins/RecordRelations.md
         - Plugins/RedactElements.md
@@ -91,7 +93,6 @@ nav:
         - Plugins/TextAnnotation.md
         - Plugins/UserProfiles.md
         - Plugins/VRACore.md
-        - Plugins/ZoomIt.md
         - Plugins/ZoteroImport.md
     - Troubleshooting: 
         - Troubleshooting/Troubleshooting_Omeka.md

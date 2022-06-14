@@ -2,18 +2,18 @@
 
 A report generates a named set of items in Omeka Classic. You can create reports that encompass all items in the system, or choose to report on one specific item, or anything in between. Reports will automatically update as new items are added to Omeka.
 
-Reports and Bar Codes plugin allows users to create reports of Omeka items in an HTML list and a PDF of QR codes [QR Codes](http://en.wikipedia.org/wiki/QR_Code), (10 per page, by default) as well as other formats you can customize in the plugin files.
+The [Reports plugin](https://omeka.org/classic/plugins/Reports/){target=_blank} allows users to create reports of Omeka items in an HTML list and a PDF of QR codes [QR Codes](http://en.wikipedia.org/wiki/QR_Code){target=_blank} (10 per page, by default), as well as other formats you can customize in the plugin files.
 
 ## Instructions
 
-Note that a new Reports directory will be created once the plugin is uploaded to the plugin directory on your server be saved: OmekaSitedirectory/files/reports/. This directory **must be writable** by the server for reports to be generated.
+Note that a new Reports directory will be created once the plugin is uploaded to the plugin directory on your server be saved: `OmekaSitedirectory/files/reports/`. This directory **must be writable** by the server for reports to be generated.
 
-1. After you have [installed](../Admin/Adding_and_Managing_Plugins.md)
- the plugin, a Reports tab will appear on the left navigation of the admin Dashboard (admin/Reports)
-2. Click the link in the top-left of the screen that reads "Add a     Report."
+1. After you have [installed](../Admin/Adding_and_Managing_Plugins.md) the plugin, a Reports tab will appear on the left navigation of the admin Dashboard (`admin/Reports`)
+2. Click the link in the top-left of the screen that reads "Add a Report."
 3. On the "Add" page, choose a name and a description for the report.
    ![Report add.jpg](../doc_files/plugin_images/Reports_add.png)
-4. Choose which items to include in the Report on the "Edit     Filter" page. This is essentially creating an advanced item query; you need to choose criteria to filter the items for this report. If you leave the form blank, all items in the installation will be included in the report. Click Search to create the report. ![Reports filter.jpg](../doc_files/plugin_images/Reports_filter.png)
+4. Choose which items to include in the Report on the "Edit Filter" page. This is essentially creating an advanced item query; you need to choose criteria to filter the items for this report. If you leave the form blank, all items in the installation will be included in the report. Click Search to create the report. 
+![Reports filter.jpg](../doc_files/plugin_images/Reports_filter.png)
 5. The new report now appears on the admin/reports page.
 
 ### Generating a File

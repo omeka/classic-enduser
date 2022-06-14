@@ -1,5 +1,7 @@
 # Troubleshooting 
 
+These are some of the most common issues that administrators encounter when setting up or working with their Omeka sites. If you do not see your issue here, please post a description of your issue along with the version of Omeka and any plugins involved on the [Omeka Forums](https://forum.omeka.org){target=_blank}.
+
 ## 404 and Not Found
 
 If you follow a link in Omeka Classic and you get a 404 error, page not found, or an error saying the URL is not valid, this is likely caused by a `mod_rewrite` problem on your server. 
@@ -33,4 +35,4 @@ A blank or white screen is often an indication that Omeka or PHP has encountered
 
 ## Further Help Troubleshooting
 
-If you continue to have problems, please post a description of your issue along with the version of Omeka and any plugins involved on the [Omeka Forums](https://forum.omeka.org).
+If you continue to have problems, please post a description of your issue along with the version of Omeka and any plugins involved on the [Omeka Forums](https://forum.omeka.org){target=_blank}.

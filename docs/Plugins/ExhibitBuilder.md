@@ -1,6 +1,6 @@
 # Exhibit Builder
 
-The Exhibit Builder plugin allows you to develop online exhibits, or special web pages, that combine items from your Omeka Classic site and may include narrative text.
+The [Exhibit Builder plugin](https://omeka.org/classic/plugins/ExhibitBuilder/){target=_blank} allows you to develop online exhibits, or special web pages, that combine items from your Omeka Classic site and may include narrative text.
 
 Exhibits are composed of pages, generally an initial page that introduces your exhibit and subsequent pages composed of the items from your Omeka Classic database that you wish to highlight and/or relate to each other. Exhibit Builder exhibits may be as short as one page or consist of multiple pages. You can make the pages of an exhibit hierarchical.
 
@@ -89,7 +89,7 @@ The **File** block allows you to add larger files as a separate block.
 
 To add a content block, select the layout you want in the New Block dialog box. Once you have selected the kind you want, click the "Add new content block" button. You will have a new block on the page to configure your content.
 
-Some plugins, such as [Geolocation](Geolocation.md) and [Exhibit Image Annotation](ExhibitImageAnnotation) will create additional block types which you can select when building a page.
+Some plugins, such as [Geolocation](Geolocation.md) and [Exhibit Image Annotation](ExhibitImageAnnotation.md), will create additional block types which you can select when building a page.
 
 ### Adding Items
 - If you have selected any block other than Text, choose an item by clicking the large plus sign button titled *Add Item* appearing in the Items area.
@@ -123,13 +123,13 @@ Once you have added an item, you can change the caption or selected file by clic
 
 To add multiple files from the same item, simply add the same item to the block, choosing a different file to represent the item each time.
 
-To delete items, click the x in the upper right hand corner of the item icon; this will gray out the icon, indicating that it will be deleted the next time you save changes. If you decide not to delete the item, you can click the curved arrow which replaced the x, but you must do so before you save your changes.
+To delete items, click the X in the upper right hand corner of the item icon; this will gray out the icon, indicating that it will be deleted the next time you save changes. If you decide not to delete the item, you can click the curved arrow which replaced the X, but you must do so before you save your changes.
 
 In the image below, the middle item has been marked for deletion. A red arrow points to the X to delete the third item.
 
 ![Image described above](../doc_files/plugin_images/eb_delitem.png)
 
-Exhibit text can be formatted using the [text editor bar](../Content/Using_HTML_Editor-TinyMCE.md). To write your own html, or paste from somewhere else, click the blue HTML button in the formatting toolbar at the top of the text entry box. This will open up an HTML Source Editor window in which you can work.
+Exhibit text can be formatted using the [text editor bar](../Content/Using_HTML_Editor-TinyMCE.md). To write your own HTML, or paste from somewhere else, click the blue HTML button in the formatting toolbar at the top of the text entry box. This will open up an HTML Source Editor window in which you can work.
 
 ### Layout Options
 
@@ -176,7 +176,7 @@ And this is how the map looks on the public view of the exhibit page:
 
 ## Shortcodes
 
-Exhibit Builder adds specific [shortcodes](../Content/Shortcodes.md) to your instal which allow you to call specific exhibits or featured exhibits. See the [plugin shortcodes documentation](Plugin_Shortcodes.md) for more information.
+Exhibit Builder adds specific [shortcodes](../Content/Shortcodes.md) to your install, which allow you to call specific exhibits or featured exhibits. 
 
 ### Previous Exhibit Builder Layouts
 

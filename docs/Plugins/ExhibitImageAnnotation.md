@@ -1,10 +1,10 @@
 # Exhibit Image Annotation
 
-This plugin adds a content block type to Exhibit Builder which allows you to create annotations on an image file. The annotation will be visible on both the public and admin views of the exhibit.
+The [Exhibit Image Annotation plugin](https://omeka.org/classic/plugins/ExhibitImageAnnotation/){target=_blank} adds a content block type to [Exhibit Builder](ExhibitBuilder.md) that allows you to create annotations on an image file. The annotation will be visible on both the public and admin views of the exhibit.
 
 Content blocks are the pieces which are used to create exhibit pages. If you have used Exhibit Builder, you have already worked with the following block types: file with text, gallery, text, and file.
 
-There is a [screencast](https://vimeo.com/245756433) for this plugin.     
+There is a [screencast](https://vimeo.com/245756433){target=_blank} for this plugin.     
 
 ## Annotating an Image
 To add an image annotation, create a new page in an  exhibit, or go to an existing page on which you want the annotation bloc to appear.
@@ -12,7 +12,7 @@ To add an image annotation, create a new page in an  exhibit, or go to an existi
 First, add an image annotation block: 
 
 1. In the New Block selection, click Image Annotation and click "Add new content block."
-2. This will add a new block with the label *Image Annotation* 
+2. This will add a new block with the label *Image Annotation*.
 
 ![a red arrow points to the Image Annotation block in a set of five beige blocks at the bottom of an Omeka Exhibit page](../doc_files/plugin_images/eximageanno_addblock.png)
 

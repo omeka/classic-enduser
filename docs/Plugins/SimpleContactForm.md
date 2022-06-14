@@ -1,23 +1,20 @@
 # Simple Contact Form
 
-The Simple Contact Form allows you to create a contact form on your Omeka Classic site through which visitors can send comments, suggestions, and other feedback. By default, the plugin adds "Contact Us" to your site's main navigation.
+The [Simple Contact Form plugin](https://omeka.org/classic/plugins/SimpleContactForm/){target=_blank} allows you to create a contact form on your Omeka Classic site through which visitors can send comments, suggestions, and other feedback. By default, the plugin adds "Contact Us" to your site's main navigation.
 
 ## Configuration
 
-Once you have [installed](../Admin/Adding_and_Managing_Plugins.md)
- Simple Contact, you will need to configure it. You should be automatically redirected to the plugin when you activate it from the admin Plugins page. If you are not, go to the top navigation on the admin dashboard and click Plugins, then scroll to Simple Contact (plugins are arranged alphabetically) and click the blue *Configure* button.
+Once you have [installed](../Admin/Adding_and_Managing_Plugins.md) Simple Contact, you will need to configure it. You should be automatically redirected to the plugin when you activate it from the admin Plugins page. If you are not, go to the top navigation on the admin dashboard and click Plugins, then scroll to Simple Contact (plugins are arranged alphabetically) and click the blue *Configure* button.
 
 The configuration settings allow you to designate a 
 
 - *Forward-To Email*, enter the email address to which you want notifications to go when a user submits a message via the form.  If this field is blank, you will not receive user messages sent from the contact form.
 
-![reply-from and forward-to fields](../doc_files/plugin_images/simplecontact1.png)
-
 Then, you can configure the page on which the form appears with these settings: 
 
-- *Contact Page Title*: the title of the page 
+- *Contact Page Title*: the title of the page.
 - *Instructions for Contact Page*: allows you to add instructions or other information to the page.
-- *Add to Main Navigation*: click this checkbox to add the contact form to the main site navigation. You can manage the position of this page in the navigation [from the Appearances tab](../Admin/Appearance/Navigation.md)
+- *Add to Main Navigation*: click this checkbox to add the contact form to the main site navigation. You can manage the position of this page in the navigation [from the Appearances tab](../Admin/Appearance/Navigation.md).
 
 ![contact page settings](../doc_files/plugin_images/simplecontact4.png)
 

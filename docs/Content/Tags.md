@@ -1,6 +1,6 @@
 # Tags
 
-Tags are keywords or phrases that describe a piece of data. They are non-hierarchical labels that classify your content so that it is easily found. You can add tags to [Items](Items) and [Exhibits](../Plugins/ExhibitBuilder).
+Tags are keywords or phrases that describe a piece of data. They are non-hierarchical labels that classify your content so that it is easily found. You can add tags to [Items](Items.md) and [Exhibits](../Plugins/ExhibitBuilder.md).
 
 To manage your tags, sign into the Omeka Classic admin panel and select Tags from the left-hand navigation bar. This displays all the tags associated with records in your Omeka Classic installation. You may edit and delete tags, sort tags, and view items associated with individual tag.
 
@@ -12,12 +12,16 @@ On the Browse Tags page, all tags used in your installation appear on the right 
 
 ![Browse tags page](../doc_files/tags.png)
 
-Each tag used on your site appears as a unit which gives you the following (per the number labels in the above image): 1. the number of items with that tag; 2. the name of the tag; 3. the option to delete the tag.
+Each tag used on your site appears as a unit which gives you the following (per the number labels in the above image): 
+
+1. The number of items with that tag
+2. The name of the tag
+3. The option to delete the tag.
 
 ![A tag labeled with sections labelled with 1, 2, and 3.](../doc_files/Tagsample.png)
 
 ### Sort Tags
-Above the cluster of tags are four button options for sorting the tags. 
+There are four button options for sorting the tags, found above the tag cluster. 
 
 ![Close up of the sort buttons labelled Name, Count, and Date Created. Name is highlighted a slightly darker color than the others and a triangle pointing up indicates the sort is ascending.](../doc_files/tags-sort.png)
 
@@ -33,12 +37,13 @@ In addition, there is a drop-down menu to the right of the sort options to limit
 
 ![Close up of the record types selector, showing the options for All, Exhibit, and Item](../doc_files/tags-recordtypes.png)
 
-If you have tags on your [exhibits](../Plugins/ExhibitBuilder) as well as items, you can narrow down the tags displayed to show only those associated with items or those associated with exhibits.
+If you have tags on your [exhibits](../Plugins/ExhibitBuilder.md) as well as items, you can narrow down the tags displayed to show only those associated with items or those associated with exhibits.
 
 From the Record Types dropdown, select from the following options:   
+
 - All
 - Exhibit
-- Item
+- Item.
 
 Note that if you do not have any exhibits tagged, you will still see the dropdown for Record Types - your options will be All and Items.
 
@@ -47,7 +52,7 @@ When you have restricted display by record type, it will not show up in the drop
 ![Shows the browse tags page including search, tag info display, and tags. A red arrow points to a message stating "Record Type: Exhibit" next to the search bar](../doc_files/tagsrecorddisplay.png)
 
 ### Search Tags
-In addition to the site-wide content [search]( ), you can search just tags using the "Search tags" field in the upper left of the browse tags page, near the left-hand navigation bar.
+In addition to the site-wide content [search](../GettingStarted/Searching.md), you can search just tags using the "Search tags" field in the upper left of the browse tags page, near the left-hand navigation bar.
 
 ![Closeup of the browse tags page, showing the page header. Immediately below it is an empty text field with a green Search tags button attached. A red arrow points to the text field.](../doc_files/tagsearchbox.png)
 
@@ -82,7 +87,7 @@ To edit a tag:
 -   Enter changes you would like to make in the field.
 -   Hit Enter and your tag is saved with its new name.
 
-When editing, you cannot use an existing tag. So, for example if you have 5 tags for "banana" and two for "bananana", you cannot change the misspelled tag to the right spelling. You would need to go into the items with the tag you want to remove, add the tag you prefer, and then delete (see below) the tag with the misspelling.
+When editing, you cannot use an existing tag. For example, if you have 5 items tagged with "banana" and 2 items tagged with "bananana", you cannot edit the misspelled tag to the correct spelling. You would need to edit the items with the tag you want to remove, adding the desired tag and deleting the undesired tag. You can use the batch-edit function to add tags to items but not to delete tags.
 
 Delete a Tag 
 -----------------------------------------------------------------
@@ -99,7 +104,7 @@ To delete a tag:
 
 Public View
 --------------------
-Visitors to your site can browse tags by going to Browse Items and selecting the "Browse by Tag" option. The url for this page is `<your omeka site>/items/tags`. Depending on the theme, the tags may appear as a cluster or a group, and may be scaled according to use.
+Visitors to your site can browse tags by going to Browse Items and selecting the "Browse by Tag" option. The url for this page is `/items/tags`. Depending on the theme, the tags may appear as a cluster or a group, and may be scaled according to use.
 
 For example, in Thanks, Roy, the default theme, the most frequently used tags are in a larger font:
 

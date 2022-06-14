@@ -1,8 +1,6 @@
 # Social Bookmarking
 
-The Social Bookmarking plugin inserts a customizable list of social networking sites below each item or collection in your Omeka Classic database.
-
-If you are using Omeka.net, see instructions in the [help section of Omeka.net](http://info.omeka.net).
+The [Social Bookmarking plugin](https://omeka.org/classic/plugins/SocialBookmarking/){target=_blank} inserts a customizable list of social networking sites below each item or collection in your Omeka Classic database.
 
 ## Configuration
 

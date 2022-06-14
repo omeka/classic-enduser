@@ -1,19 +1,19 @@
 # CSV Import
 
-The CSV Import plugin allows users to import items from a simple CSV (comma-separated values) file, and then map the CSV column data to multiple elements, files, and/or tags. Each row in the file represents metadata for a single item.
+The [CSV Import plugin](https://omeka.org/classic/plugins/CsvImport/){target=_blank} allows users to import items from a simple CSV (comma-separated values) file, and then map the CSV column data to multiple elements, files, and/or tags. Each row in the file represents metadata for a single item.
 
-When using this plugin, if you plan to map to specific Item Type metadata fields, then you may only import one item type (document, still image, sound, et al) at a time. You may perform multiple imports.
+When using this plugin, if you plan to map to specific Item Type metadata fields, then you may only import one item type (document, still image, sound, etc.) at a time. You may perform multiple imports.
 
 The plugin has the following features:
 
--   File importing: If you specify permanent file URLs in a column, the importer will download and attach a file to each created item. NB: file import only works for files hosted and publicly available online; you cannot import files from a local source (ie, your computer) or from a password-protected location.
+-   File importing: If you specify permanent file URLs in a column, the importer will download and attach a file to each created item. NB: file import only works for files hosted and publicly available online; you cannot import files from a local source (that is, your computer), or from a password-protected location.
 -   Tag imports: You may include tags in your CSV file and those words will be imported as tags.
 -   Undo Imports: The Undo option lets you delete all the files added in an import.
 -   Set custom delimiters: you now have the option to set separate delimiters for columns, files, tags, and elements.
 
 ## Preparing for CSV Import
 
-The best option is usually to use spreadsheet software (Excel, Google Sheets, Numbers) to create and organize your data. Both of these programs can export a spreadsheet into CSV format, and will handle all the necessary escaping and quoting for you.
+The best option is usually to use spreadsheet software (Excel, Google Sheets, Numbers) to create and organize your data. These programs can export a spreadsheet into CSV format, and will handle all the necessary escaping and quoting for you.
 
 However, if you're creating or editing your data by hand, there are a few things to keep in mind:
 
