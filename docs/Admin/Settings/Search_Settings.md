@@ -33,7 +33,7 @@ Please note that the "Exhibit" record type includes exhibit descriptive informat
 
 Be sure to save changes if you check or uncheck boxes. 
 
-Once records types are selected, searchers use the ellipses button to choose from the options you have provided, in both admin and public site-wide searches.
+Once records types are selected, searchers use the ellipsis button to choose from the options you have provided, in both admin and public site-wide searches.
 
 ![Expanded search options](../../doc_files/searchExpanded.png)
 
