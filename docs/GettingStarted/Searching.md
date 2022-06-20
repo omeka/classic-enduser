@@ -9,7 +9,7 @@ The simplest way to search an Omeka Classic installation is using the simple sea
 To perform a basic search, type the keyword you want to search for in the field and either hit enter on your keyboard or click the search button (the magnifying glass icon). Depending on the [search settings](../Admin/Settings/Search_Settings.md), content in this search might include item, file, and collection metadata, the text on Simple Pages, exhibit summary pages, and exhibit pages. 
 
 ### Search Options
-To access the options for a basic search, click on the ellipses (...) button to the right of the search bar, next to the search button (magnifying glass).
+To access the options for a basic search, click on the ellipsis (...) button to the right of the search bar, next to the search button (magnifying glass).
 
 ![Search options, as seen on the public side](../doc_files/searchExpanded.png "Search options, as seen on the public side")
 
@@ -37,7 +37,7 @@ Advanced Search, which will only search the items in your Omeka Classic installa
 
 ![Search options, with the ellipses expanded. There is a red 1 just under the ellipses. At the bottom of the window, below the options for search query type and record types, a red 2 is next to the "Advanced Search" link](../doc_files/searchExpanded.png "Search options, with the ellipses expanded. There is a red 1 just under the ellipses. At the bottom of the window, below the options for search query type and record types, a red 2 is next to the "Advanced Search" link")
 
-To access the advanced search, click on the ellipses (…) button to the right of the basic search bar and then click the link reading “Advanced Search (Items Only)”.
+To access the advanced search, click on the ellipsis (…) button to the right of the basic search bar and then click the link reading “Advanced Search (Items Only)”.
 
 The “Search Items” page will load. It presents a variety of options for advanced searching across all items. You do not need to complete all fields, only as many as you want.
 
