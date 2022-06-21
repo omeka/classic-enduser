@@ -29,12 +29,12 @@ Watch [our screencast showing these steps](https://vimeo.com/153819886){target=_
     -- You may also be able, or required, to upload the zipped file and unzip it here, if your file client does not allow you to upload a folder. Remember to watch for an extra folder level in this case.
 1.  In another browser window, log in to your Omeka admin panel (`https://youromekasite.org/admin`).
 1.  Navigate to the Plugins tab in the upper navigation of the admin dashboard, and scroll down to find the plugin you uploaded. Plugins are listed alphabetically.
-    - If the plugin is not visible, return to the 4th step and double-check that the folder is in the right location ('/plugins') and that the folder name for the theme does not start with 'plugin-'.
+    - If the plugin is not visible, double-check that the folder is in the right location ('/plugins') and that the folder name for the theme does not start with 'plugin-'.
 1.  Click the “Install” to the right of the plugin name to finish the process.
     - Click “Configure” if available/needed.
 1. Read the documentation for plugin to understand what configuration options are available.
 
-If you are using [Reclaim Hosting](../GettingStarted/Hosting_Suggestions.md) they have [step-by-step instructions](http://docs.reclaimhosting.com/omeka/uploading-plugins-to-omeka){target=_blank} for uploading plugins with their browser-based FTP option.
+If you are using a hosting provider that offers cPanel and online file management options, [Reclaim Hosting](../GettingStarted/Hosting_Suggestions.md) has [step-by-step instructions](http://docs.reclaimhosting.com/omeka/uploading-plugins-to-omeka){target=_blank} for uploading plugins with cPanel's browser-based FTP option.
 
 !!! Note
     You can also use `git clone` or the Github interface to download the latest plugin code directly from Github. Be sure to watch for extra folder levels or incorrect folder names in this case, such as a folder starting with `plugin-` or ending with `-master`. Rename the folder to remove things like `plugin-` and/or `-master` from the folder name. 
