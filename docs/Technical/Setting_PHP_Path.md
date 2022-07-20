@@ -10,7 +10,7 @@ To set your PHP path you will need access to the server where your Omeka Classic
 
 To set the PHP path:
 
-- Searching the help documentation or knowledge base for your hosting company for the correct PHP path; this is a frequently asked question. If you can't find anything, contact your hosting company or sysadmin and ask them.
+- Search the help documentation or knowledge base for your hosting company for the correct PHP path; this is a frequently asked question for a large variety of software installations. If you can't find anything, contact your hosting company or sysadmin and ask them.
 	- If you are using Reclaim Hosting, they [have instructions in their documentation](https://community.reclaimhosting.com/t/working-with-omeka-classic/194/2){target=_blank}.
 	- Other hosting services may require you to change the PHP version for your entire website or using special instructions. For example, see [Dreamhost's instructions](https://help.dreamhost.com/hc/en-us/articles/214895317-Change-the-PHP-version-of-a-site){target=_blank}.
 - Navigate to the files for your Omeka site, either using your hosting company's File Manager, an FTP client, or ssh. 
