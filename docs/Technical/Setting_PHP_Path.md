@@ -31,5 +31,5 @@ To set the PHP path:
 background.php.path = ""
 ```
 - Edit the file so that the last line now reads `background.php.path = "<php path>"` where the `<php path>` is the path provided by your hosting company or sysadmin. 
-	- This line commonly looks like `/usr/local/php80/bin/php`, `/usr/local/bin/php`, or `/usr/local/bin/ea-php74`.
+	- This path commonly looks like `/usr/local/php80/bin/php`, `/usr/local/bin/php`, or `/usr/local/bin/ea-php74`.
 - If you have downloaded the file in order to edit it, be sure to upload the changed version back to your Omeka installation.
