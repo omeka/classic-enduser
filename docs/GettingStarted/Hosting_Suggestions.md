@@ -8,7 +8,7 @@ Hosting companies that use [Installatron](https://installatron.com/){target=_bla
 
 Suggestions from our users include:
 
--   [Reclaim Hosting](https://reclaimhosting.com/){target=_blank} - uses Installatron, and offers one-click Omeka and Omeka S installations, with support for other open-source software platforms
+-   [Reclaim Hosting](https://reclaimhosting.com/){target=_blank} - uses Installatron, and offers one-click Omeka Classic and Omeka S installations, with support for other open-source software platforms
 -   [Dotblock](http://www.dotblock.com){target=_blank} - uses Softaculous
 -   [HostGator](http://hostgator.com){target=_blank} - uses Softaculous
 -   [TMD Hosting](https://www.tmdhosting.com){target=_blank} - uses Softaculous
