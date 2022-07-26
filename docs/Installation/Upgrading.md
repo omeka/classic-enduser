@@ -20,7 +20,7 @@
     - Any themes or plugins you had installed. The bundled themes (Thanks Roy, Berlin, Seasons) and plugins (COinS, Exhibit Builder, Simple Pages) will already have been updated with Omeka, so don't move them back over.
     - If you've modified any of Omeka's core files, you'll need to move those changes over too. Be careful with this and make your edits line by line, as the original file may have been changed in newer versions. 
 1.  Finally, you may need to **upgrade your database**. Go to your Omeka site's administrative panel in your web browser.
-    - To access your site's administrative panel after upgrading, go to `your-site-url/admin`. If a database upgrade is needed, you will not be able to access your site's dashboard from your site's home page, which will display the message, "Public site is unavailable until the upgrade completes."
+    - To access your site's administrative panel after upgrading, go to `example.com/admin`. If a database upgrade is needed, you will not be able to access your site's dashboard from your site's home page, which will display the message, "Public site is unavailable until the upgrade completes."
     - If a database upgrade is needed, you'll automatically be redirected from your admin page to an upgrade page (`example.com/admin/upgrade`). Click "Upgrade" to update your database to reflect the new data model and finish the upgrade. 
     - For Omeka 1.2.1 and earlier only: Instead of redirecting, older Omeka versions will show an alert on your dashboard with a link to follow if the database needs to be upgraded.
     - If you weren't redirected when you went to your administrative panel, then no database changes were required, so you're done!
