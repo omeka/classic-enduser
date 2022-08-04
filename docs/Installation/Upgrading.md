@@ -25,5 +25,5 @@
     - For Omeka 1.2.1 and earlier only: Instead of redirecting, older Omeka versions will show an alert on your dashboard with a link to follow if the database needs to be upgraded.
     - If you weren't redirected when you went to your administrative panel, then no database changes were required, so you're done!
 
-### Troubleshooting an upgrade
+## Troubleshooting an upgrade
 If you have problems upgrading, double-check to make sure that the `db.ini`, `config.ini` (in the `application/config` folder), and `.htaccess` files are present and have the correct information. 
