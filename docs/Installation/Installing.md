@@ -6,7 +6,8 @@ Before installing Omeka Classic, make sure your web server meets our basic [syst
 7 Easy Installation Steps
 -----------
 
-Note: If you are doing a one-click install through [Installatron](../GettingStarted/Hosting_Suggestions.md), you may need to edit the `db.ini` file in the Omeka directory (see step 4 below). The one-click installation process through Softaculous may allow you to create a database and user at the same time, and will edit the `db.ini` file for you.
+!!! note
+	If you are doing a one-click install through [Installatron](../GettingStarted/Hosting_Suggestions.md), you may need to edit the `db.ini` file in the Omeka directory (see step 4 below). The one-click installation process through Softaculous may allow you to create a database and user at the same time, and will edit the `db.ini` file for you.
 
 1. **Pick your language** (optional).
 	- If you want to use Omeka Classic in a language other than English, you will need to configure it in the `/application/config/config.ini` file. See [Configuring Language](Configuring_Language.md) for details. The installation steps are localized, so you may want to do this before the rest of the installation steps below. You can also change this after your site is successfully installed.

@@ -15,7 +15,7 @@ Building the content of an Omeka site, including [items](Content/Items), [collec
 Managing your installation's [appearance](Admin/Appearance/Appearance_Settings/), [plugins](Admin/Adding_and_Managing_Plugins), [users](Admin/Users), and [site settings](Admin/Settings/General_Settings/); in Omeka, these options are only available to SuperUsers. The topics in this section correspond to the top navigation of the Omeka administrative dashboard.
 
 **Plugins**  
-Documentation for plugins produced by the Omeka team. The [Plugins directory on the website](https://omeka.org/classic/plugins/){target=_blank} includes many user-supplied plugins from our community; we have only documented plugins that we support. If you cannot find information for a specific plugin here, please [check on our registered plugins list](https://omeka.org/classic/plugins/){target=_blank}, or on its independent download page, as documentation may be in a ReadMe or on a separate site. 
+Documentation for plugins produced by the Omeka team. The [Plugins directory on the website](https://omeka.org/classic/plugins/){target=_blank} includes many user-supplied plugins from our community; we have only documented plugins that we support. If you cannot find information for a specific plugin here, please check on our registered plugins directory, or on its independent download page, as documentation may be in a ReadMe or on a separate site. Independent plugins may not be registered in our directory.
 
 **Troubleshooting**  
 Tips and tricks for dealing with problems with your Omeka Classic installation. Look here to learn how to [retrieve error messages](Troubleshooting/Retrieving_Error_Messages).
