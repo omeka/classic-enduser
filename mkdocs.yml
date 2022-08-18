@@ -23,9 +23,9 @@ nav:
         - GettingStarted/Accessibility_Statement.md
         - GettingStarted/Screencasts.md
         - GettingStarted/Searching.md
-    - Installing:
+    - Installation:
         - Installation/System_Requirements.md
-        - Installation/Installation.md
+        - Installation/Installing.md
         - Installation/Upgrading.md
         - Installation/Configuring_Language.md
         - Installation/Setting_Directory_Permissions.md
@@ -44,7 +44,7 @@ nav:
         - Admin/Appearance/Navigation.md
         - Admin/Appearance/Appearance_Settings.md
         - Admin/Users.md
-        - Admin/Settings/General_Settings.md
+        - Admin/Settings/index.md
         - Admin/Settings/Security_Settings.md
         - Admin/Settings/Search_Settings.md
         - Admin/Settings/Element_Sets.md
@@ -95,7 +95,7 @@ nav:
         - Plugins/VRACore.md
         - Plugins/ZoteroImport.md
     - Troubleshooting: 
-        - Troubleshooting/Troubleshooting_Omeka.md
+        - Troubleshooting/index.md
         - Troubleshooting/Retrieving_Error_Messages.md
         - Troubleshooting/Report-a-bug.md
     - Technical:

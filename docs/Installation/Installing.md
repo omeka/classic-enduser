@@ -49,7 +49,7 @@ Before installing Omeka Classic, make sure your web server meets our basic [syst
 
 1.  **Complete the installation form** by filling out the required fields, including the name of your Omeka site, email address, and username/password of the super user (the super user account controls the entire website).
 
-    -   You can change these settings in [General Settings](../Admin/Settings/General_Settings.md) once the installation is complete.
+    -   You can change these settings in [General Settings](../Admin/Settings/index.md) once the installation is complete.
     -   You can leave fields that are already filled in as they are; you do not need to change the values.
 
 If the installation was **successful**, you'll see a screen with links to view the live site or to log in with the superuser's username and password to the administrative panel at `https://youromekadomain.org/collections/admin`. Congratulations!
@@ -63,4 +63,4 @@ If your installation was **unsuccessful**, try these steps:
 -   If your installation is still unsuccessful, try deleting the entire Omeka directory from your server and reuploading it. One or more files might have failed to upload.
 -   If the installation is apparently successful, but you are unable to upload items through the administrative interface, make sure that you correctly followed the instructions in step 6 above. Your web server *must* have write access to the file-storage directory for you to upload files.
 -   If the installation is successful, but you are getting "File not found" errors when you navigate to addresses such as `https://youromekadomain.org/collections/admin`, you probably have a conflict with another CMS such as WordPress on the same server. To fix this issue, you probably need to enable the "RewriteBase" line in your `.htaccess` file.
--   If you still have issues, please consult the [Troubleshooting Omeka](../Troubleshooting/Troubleshooting_Omeka.md) page or post your issue on the [forum](https://forum.omeka.org/c/omeka-classic/7){target=_blank}.
+-   If you still have issues, please consult the [Troubleshooting Omeka](../Troubleshooting/index.md) page or post your issue on the [forum](https://forum.omeka.org/c/omeka-classic/7){target=_blank}.
