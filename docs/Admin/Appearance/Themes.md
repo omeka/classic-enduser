@@ -58,7 +58,7 @@ Enable your chosen theme and view the configuration page to see if there is guid
 - **Logo File**: You may upload an image that will replace the site title in the header of your website. In many themes, this logo will be left-aligned, with margins around it. Many themes recommend a maximum width for your logo of 500px, and some have a required maximum height of 150px. 
 - **Header Background**: Upload an image file that will display across the top of your website, behind your site title or logo.
 - **Footer Text**: An HTML-enabled text box where you can enter text for a site footer to appear on every page. Note that shortcodes will not work in this field, nor will HTML-coded images or other multimedia.
-- **Display Copyright in Footer**:  Check this box if you wish to display your site’s copyright information in the footer. Site copyright information is found in the [General Settings](../Settings/General_Settings.md) section.
+- **Display Copyright in Footer**:  Check this box if you wish to display your site’s copyright information in the footer. Site copyright information is found in the [General Settings](../Settings/index.md) section.
 - **Use Advanced Site-wide Search**: Check this box to allow public-side site visitors to search the whole site, including items, collections, and files, and to use boolean methods when searching.
 
 ![Header and footer configuration options](../../doc_files/themeHFConfig.png "Header and footer configuration options")
