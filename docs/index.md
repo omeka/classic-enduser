@@ -6,7 +6,7 @@ This user manual is for the current version of Omeka Classic.
 [Planning your Omeka site](GettingStarted/Site_Planning_Tips/), [examples and case studies](GettingStarted/UsingOmeka), [hosting suggestions](GettingStarted/Hosting_Suggestions), and our [Accessibility Statement](GettingStarted/Accessibility_Statement). 
 
 **Installing**  
-Information for [installing](Installation/Installation) and [upgrading](Installation/Upgrading) an Omeka Classic installation.
+Information for [installing](Installation/Installing) and [upgrading](Installation/Upgrading) an Omeka Classic installation.
 
 **Content**  
 Building the content of an Omeka site, including [items](Content/Items), [collections](Content/Collections), [tags](Content/Tags), and [item types](Content/Item_Types). The topics in this section correspond to options on the left-hand navigation of the Omeka admin dashboard.
