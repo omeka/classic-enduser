@@ -4,7 +4,7 @@ General:
 
 - [Introduction to Omeka Classic 2.0](https://vimeo.com/55973380)
 - [Managing Items](https://vimeo.com/102040466)
-- [Managing Metadata](https://vimeo.com/176189711)
+- [Managing Metadata (including Library of Congress Suggest, Getty Suggest, Simple Vocab, and Search by Metadata plugins)](https://vimeo.com/176189711)
 - [Modifying Item Types](https://vimeo.com/102038884)
 - [Managing Collections (including the Collection Tree plugin and Item Order plugin)](https://vimeo.com/194553469)
 - [Managing Collections and Tags](https://vimeo.com/102040465)
@@ -14,6 +14,7 @@ General:
 Plugins:
 
 - [Managing Collections (including the Collection Tree plugin and Item Order plugin)](https://vimeo.com/194553469)
+- [Managing Metadata (including Library of Congress Suggest, Getty Suggest, Simple Vocab, and Search by Metadata plugins)](https://vimeo.com/176189711)
 - [Contribution and Guest User plugins](https://vimeo.com/165200216)
 - [CSV Import Plugin](https://vimeo.com/104014678)
 - [Exhibit Builder 3.0 Plugin](https://vimeo.com/102835560)
