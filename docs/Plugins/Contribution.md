@@ -7,7 +7,11 @@ The plugin can also automatically add a reCAPTCHA box at the bottom of each form
 Other plugins can be integrated into the Contribution form, such as [Simple Vocab](SimpleVocab.md) for creating dropdown menu choices, and [Geolocation](Geolocation.md) for inviting users to map their submissions or locations. 
 
 Installing and configuring the Contribution plugin requires a few steps. Please read through the documentation carefully. 
-Watching the [screencast](https://vimeo.com/165200216){target=_blank} we created for using and configuring this addon can be helpful as you think through each step.  - please note that the screencast is [version 3.0.1](#older-versions) and not the most current version of the plugin.
+
+Watching the [screencast](https://vimeo.com/165200216){target=_blank} we created for using and configuring this addon can be helpful as you think through each step.  - please note that the screencast is [version 3.0.1](#older-versions) and not the most current version of the plugin:
+
+<div style="padding:62.5% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/165200216?h=9d7b0b9767" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<p><a href="https://vimeo.com/165200216">Omeka Classic: Contribution Plugin</a> from <a href="https://vimeo.com/omeka">Omeka</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
 An Omeka site with the Contribution plugin requires you to upload and install two separate plugins:
 
@@ -25,10 +29,11 @@ Contribution is a somewhat complex plugin to set up. In addition to the written 
 
 ## Installing
 
-**Note** You must upload and [install](../Admin/Adding_and_Managing_Plugins.md) the Guest User plugin before installing and activating Contribution! If you have uploaded the other plugins first, you will see in the plugin directory that you cannot install other Contribution-related plugins until Guest User is installed first.
+!!! note
+    You must upload and [install](../Admin/Adding_and_Managing_Plugins.md) the Guest User plugin before installing and activating Contribution. If you have uploaded the other plugins first, you will see in the plugin directory that you cannot install other Contribution-related plugins until Guest User is installed first.
 
-### Guest User Configuration
-After installing the plugin, click the Configure button. For more information go to the [Guest User documentation](GuestUser.md).
+### Guest User configuration
+After installing the plugin, click the "Configure" button. For more information go to the [Guest User documentation](GuestUser.md).
 
 ### Installing Contribution
 
