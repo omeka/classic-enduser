@@ -4,6 +4,10 @@ The [Omeka API Import plugin](https://omeka.org/classic/plugins/OmekaApiImport/)
 
 Multiple imports from the same origin site will update the data, not create new items.
 
+You may find [this screencast](https://vimeo.com/181658476){target=_blank} helpful:
+<div style="padding:62.5% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/181658476?h=88d1fc3f8f" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<p><a href="https://vimeo.com/181658476">Omeka Classic: API Import Plugin</a> from <a href="https://vimeo.com/omeka">Omeka</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
 ## Requirements 
 
 Omeka API Import requires Omeka Classic 2.0 or higher for the target site. The origin site must have Omeka Classic 2.1 or higher.
