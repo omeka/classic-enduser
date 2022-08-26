@@ -8,6 +8,11 @@ The layout of exhibits in Exhibit Builder is highly customizable, with the pages
 
 Other plugins may include their own Exhibit Builder block layouts, if the developer has created them.
 
+There is a screencast about this plugin that you may find helpful:
+
+<div style="padding:50.77% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/102835560?h=0bbf869f01" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<p><a href="https://vimeo.com/102835560">Omeka Classic: Exhibit Builder 3.0 Plugin</a> from <a href="https://vimeo.com/omeka">Omeka</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
 ## Configuring
 
 This plugin is included in your downloaded Omeka Classic installation and does not require a separate download. Select Plugins in the top navigation of your admin. Activate your plugin and select Configure to choose the sequence in which your exhibits appear. Exhibits may be ordered by date added, alphabetically by name, or most recent.
