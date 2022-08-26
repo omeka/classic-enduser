@@ -7,7 +7,10 @@ The [User Profiles plugin](https://omeka.org/classic/plugins/TextAnnotation/){ta
 -   If commenting is used for discussion, create profiles for the moderators.
 -   If the [Guest User](GuestUser.md) plugin is installed and active, guest users who comment could also create profiles.
 
-[There is a screencast for this plugin](https://vimeo.com/165052886){target=_blank}.
+[There is a screencast for this plugin](https://vimeo.com/165052886){target=_blank} that may be helpful:
+
+<div style="padding:62.5% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/165052886?h=c2587c5d3a" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<p><a href="https://vimeo.com/165052886">Omeka Classic: User Profiles Plugin</a> from <a href="https://vimeo.com/omeka">Omeka</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
 ## Install and Configure
 
