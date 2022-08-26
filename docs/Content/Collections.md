@@ -7,6 +7,9 @@ In Omeka Classic, an item can only belong to one collection. Collections can, of
 Collections have no hierarchy, unless you install the [Collection Tree plugin](../Plugins/CollectionTree.md) in order to have a nested collections.
 You can also use [tags](Tags.md) to organize similar items into categories.
 
+<div style="padding:51.99% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/102040465?h=00bd26943c" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<p><a href="https://vimeo.com/102040465">Omeka Classic: Managing Collections and Tags</a> from <a href="https://vimeo.com/omeka">Omeka</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
 Create a Collection
 -----------------------------------------------------------
 1.  Click on the "Collections" tab in the left navigation bar from the Dashboard. Any collections you have created will be listed on the `admin/collections` page.
