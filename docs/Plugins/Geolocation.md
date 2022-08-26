@@ -2,7 +2,10 @@
 
 The [Geolocation plugin](https://omeka.org/classic/plugins/Geolocation/){target=_blank} allows you to assign a location to items in your Omeka Classic site. The locations are displayed on maps on individual items page and on a browsable map of all geolocated items.
 
-There is a [screencast for Geolocation (version 2.2.4) demonstrating its basic functionality](https://vimeo.com/156298642){target=_blank}.
+There is a [screencast for Geolocation (version 2.2.4) demonstrating its basic functionality](https://vimeo.com/156298642){target=_blank}:
+
+<div style="padding:62.5% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/156298642?h=2fef6d0da4" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<p><a href="https://vimeo.com/156298642">Omeka Classic: Geolocation Plugin</a> from <a href="https://vimeo.com/omeka">Omeka</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
 
 ## Configuring
@@ -10,13 +13,13 @@ There is a [screencast for Geolocation (version 2.2.4) demonstrating its basic f
 Once you have [installed](../Admin/Adding_and_Managing_Plugins.md) the Geolocation plugin, go to the Plugins tab in the top navigation of your admin dashboard. Scroll down to the listing for Geolocation and click *Configure* (if you do not see Configure you may need to click the *Install* or *Activate* buttons.
 
 ### General Settings
-The first section for configuration are the general settings for the appearance of your map on the public and admin sides of your site.
+The first section for configuration are the general settings for the appearance of your maps on the public and admin sides of your site.
 
 ![General settings for geolocation](../doc_files/plugin_images/geolocation_genset.png)
 
 - *Default latitude*: set the center point of the map's latitude (North/South value), in degrees. Using numbers after the decimal point will pinpoint the location more precisely.
 - *Default longitude*: set the center point of the map's longitude (East/West), in degrees. Using numbers after the decimal point will pinpoint the location more precisely.
-- *Default Zoom Level*: Use a whole number of 0 of greater. 0 is the most zoomed out. A value of 15 will result in a map showing roughly one square mile
+- *Default Zoom Level*: Use a whole number of 0 of greater. 0 is the most zoomed out. A value of 15 will result in a map showing roughly one square mile.
 - *Base Map*: select a map from the dropdown to serve as the base map in the display. All base maps except those served by Mapbox can be [previewed courtesy of Leaflet](http://leaflet-extras.github.io/leaflet-providers/preview/){target=_blank}.
 
 If you select Mapbox from the dropdown for Base Map, two additional fields will appear under general settings. 
@@ -52,8 +55,8 @@ These settings are for the map display on an item/show page.
 
 ![Item Map settings](../doc_files/plugin_images/geolocation_ItemMap.png)
 
-- *Width for Item Map*: set in percent, defaults to 100% if left blank.
-- *Height for Item Map*: set in pixels defaults to 300px if left blank. 
+- *Width for Item Map*: set in percent; defaults to 100% if left blank.
+- *Height for Item Map*: set in pixels; defaults to 300px if left blank. 
 
 ### Map Integration
 These settings are for integration of the geolocation map into the site menu and the [contribution](Contribution.md) plugin's form. 
@@ -110,7 +113,7 @@ If you have [Exhibit Builder](ExhibitBuilder.md) (version 3.x or greater) instal
 
 ![Admin item browse map with search form](../doc_files/plugin_images/geolocation_ex1.png)
 
-You can add items with geolocation markers to the map block by [adding items](ExhibitBuilder.md#adding-items) as you would with any other Exhibit Builder block. Only items to which you have added a location will show up on the map; the map will ignore items without a location.
+You can add items with geolocation markers to the map block by [adding items](ExhibitBuilder.md#adding-items) as you would with any other Exhibit Builder block. The map will ignore items without a location.
 
 ![Geolocation block in Exhibit Builder, which has no layout options. It has four items added and the option to add another item.](../doc_files/plugin_images/geolocation_ex2.png)
 
