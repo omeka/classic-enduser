@@ -16,7 +16,7 @@ To access the options for a basic search, click on the ellipsis (...) button to 
 The first set of options allows you to select a query type:
 
 - Keyword, or general search
-- Boolean, in which you can add Boolean operators like AND and NOT
+- Boolean, in which you can use [operators such as + and -](https://dev.mysql.com/doc/refman/8.0/en/fulltext-boolean.html){target=_blank} (for example, "apple +juice" or "apple -orange")
 - Exact match, which will only find exact matches to the word or phrase you enter.
 
 The second set of options are a series of checkboxes for content to include in the search. These checkboxes populate based on the site's [search settings](../Admin/Settings/Search_Settings) and can include:
