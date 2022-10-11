@@ -23,8 +23,8 @@ To perform a harvest, go to the OAI-PMH Harvester tab in the left-hand navigatio
 
 ![Step one of harvesting data](../doc_files/plugin_images/Harvester1.png)
 
-    - To harvest the entire repository, select Go.
-    - To harvest single sets within a repository, select the type of data you are harvesting from an individual set, mets or oai-dc (if the choice exists) and select the Go link associated with that set.
+- To harvest the entire repository, select Go.
+- To harvest single sets within a repository, select the type of data you are harvesting from an individual set, mets or oai-dc (if the choice exists) and select the Go link associated with that set.
 
 ![Harvest a specific set](../doc_files/plugin_images/Harvest2.png)
 
