@@ -45,13 +45,12 @@ From the "Browse Items" page, you can use the batch edit option to add multiple 
 
 ![Dropdown menu in the batch item edit page is emphasized with a teal arrow](../doc_files/collectionAddBatch.png "Dropdown menu in the batch item edit page is emphasized with a teal arrow")
 
+The thumbnail image for a collection is automatically derived from the primary file of the most recently created item in the collection, and cannot be edited. 
 
 Edit a Collection
 ---------------------------------------------------------------
 
 To edit a collection, click the Edit link underneath the title from the Browse Collections page, at `/admin/collection`. Edit in any fields you wish, and click the "Save Changes" button to the right of the screen.
-
-By default, the most recently added item's primary file will serve as the thumbnail image for the collection. However, if you have installed the [Item Order](../Plugins/ItemOrder.md) plugin, you can choose a different item by making that item the first in the collection.
 
 Browsing Collections
 ---------------------------------------------------------------
