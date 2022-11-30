@@ -45,7 +45,7 @@ From the "Browse Items" page, you can use the batch edit option to add multiple 
 
 ![Dropdown menu in the batch item edit page is emphasized with a teal arrow](../doc_files/collectionAddBatch.png "Dropdown menu in the batch item edit page is emphasized with a teal arrow")
 
-The thumbnail image for a collection is automatically derived from the primary file of the most recently created item in the collection, and cannot be edited. 
+The thumbnail image for a collection is automatically derived from the primary file of the most recently created item in the collection, or, if you have an item checked as "featured," the most recently-created featured item in the collection. Collection thumbnails cannot be edited manually. 
 
 Edit a Collection
 ---------------------------------------------------------------
