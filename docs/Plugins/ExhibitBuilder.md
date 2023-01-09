@@ -197,6 +197,9 @@ This image shows a Geolocation block with items added:
 And this is how the map looks on the public view of the exhibit page:
 ![Geolocation block public view](../doc_files/plugin_images/eb_geolocationPublic.png)
 
+If you have installed the [Timeline](Timeline.md) plugin, you will have the **Timeline** block as an option in your exhibits. Select one of your previously created timelines from the dropdown menu to add it to your exhibit page. This is how the timeline looks on the public view of the exhibit page (appearance will differ slightly depending on the theme):
+![Timeline block public view](../doc_files/plugin_images/eb_timelinePublic.png)
+
 ## Shortcodes
 
 Exhibit Builder adds specific [shortcodes](../Content/Shortcodes.md) to your install, which allow you to call specific exhibits or featured exhibits. 
