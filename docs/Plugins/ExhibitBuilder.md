@@ -188,6 +188,8 @@ The **Carousel** block has the following options, which are a mix of text boxes,
 ### Additional Layouts
 Some plugins include their own Exhibit Builder content block layouts.
 
+#### Geolocation
+
 If you have installed the [Geolocation](Geolocation.md) plugin, you will have the
 **Geolocation Map** block as an option in your exhibits. This block has no text. Select items which already have been geolocated using the plugin in their item edit page. This block displays as a map across the full width of the page, with markers for the items you select. Any captions you enter will appear in a pop-up inside the map when the item marker is clicked, as will the item file and title.
 
@@ -196,6 +198,11 @@ This image shows a Geolocation block with items added:
 
 And this is how the map looks on the public view of the exhibit page:
 ![Geolocation block public view](../doc_files/plugin_images/eb_geolocationPublic.png)
+
+#### Timeline
+
+If you have installed the [Timeline](Timeline.md) plugin, you will have the **Timeline** block as an option in your exhibits. Select one of your previously created timelines from the dropdown menu to add it to your exhibit page. This is how the timeline looks on the public view of the exhibit page (appearance will differ slightly depending on the theme):
+![Timeline block public view](../doc_files/plugin_images/eb_timelinePublic.png)
 
 ## Shortcodes
 
