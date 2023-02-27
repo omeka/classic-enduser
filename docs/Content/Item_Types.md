@@ -2,7 +2,8 @@
 
 Item types are categories for your Omeka items based on their formats. Omeka offers you a specific set of associated metadata for each item type. Omeka comes by default with [Dublin Core item types](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#section-7){target=_blank}, but you can easily edit these or add your own.
 
-![The item types browse view](../doc_files/itemTypeBrowse.png "The item types browse view")
+<div style="padding:50.67% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/102038884?h=d1c90306c7" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<p><a href="https://vimeo.com/102038884">Omeka Classic: Modifying Item Types</a> from <a href="https://vimeo.com/omeka">Omeka</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
 Pre-defined Item Types
 ---------------------------------------------------------
@@ -19,6 +20,8 @@ Pre-defined Item Types
 -   **Hyperlink**: An item that allows you to provide a URL as the main attached information. You can also attach files. Notes that entries in the URL field of this item type will not automatically be rendered into a clickable link, but you can employ the HTML editing feature to do so.
 -   **Person**: An individual. Elements include biographical data, birth and death, etc.
 -   **Interactive Resource**: A resource requiring interaction from the user to be understood, executed, or experienced. Examples include forms on Web pages, applets, multimedia learning objects, chat services, or virtual reality environments.
+
+![The item types browse view](../doc_files/itemTypeBrowse.png "The item types browse view")
 
 Edit an Existing Item Type 
 ---------------------------------------------------------------

@@ -4,7 +4,10 @@ The [Exhibit Image Annotation plugin](https://omeka.org/classic/plugins/ExhibitI
 
 Content blocks are the pieces which are used to create exhibit pages. If you have used Exhibit Builder, you have already worked with the following block types: file with text, gallery, text, and file.
 
-There is a [screencast](https://vimeo.com/245756433){target=_blank} for this plugin.     
+There is a [screencast](https://vimeo.com/245756433){target=_blank} for this plugin:
+
+<div style="padding:62.5% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/245756433?h=5e499d878f" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<p><a href="https://vimeo.com/245756433">Exhibit Image Annotation</a> from <a href="https://vimeo.com/omeka">Omeka</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
 ## Annotating an Image
 To add an image annotation, create a new page in an  exhibit, or go to an existing page on which you want the annotation bloc to appear.

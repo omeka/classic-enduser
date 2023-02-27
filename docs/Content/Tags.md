@@ -2,6 +2,9 @@
 
 Tags are keywords or phrases that describe a piece of data. They are non-hierarchical labels that classify your content so that it is easily found. You can add tags to [Items](Items.md) and [Exhibits](../Plugins/ExhibitBuilder.md).
 
+<div style="padding:51.99% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/102040465?h=00bd26943c" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<p><a href="https://vimeo.com/102040465">Omeka Classic: Managing Collections and Tags</a> from <a href="https://vimeo.com/omeka">Omeka</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
 To manage your tags, sign into the Omeka Classic admin panel and select Tags from the left-hand navigation bar. This displays all the tags associated with records in your Omeka Classic installation. You may edit and delete tags, sort tags, and view items associated with individual tag.
 
 ![Tags in left nav](../doc_files/Tagsnav.png)

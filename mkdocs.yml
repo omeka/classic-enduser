@@ -91,6 +91,7 @@ nav:
         - Plugins/SocialBookmarking.md
         - Plugins/TextAnalysis.md
         - Plugins/TextAnnotation.md
+        - Plugins/Timeline.md
         - Plugins/UserProfiles.md
         - Plugins/VRACore.md
         - Plugins/ZoteroImport.md

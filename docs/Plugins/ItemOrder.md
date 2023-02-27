@@ -2,6 +2,11 @@
 
 The [Item Order plugin](https://omeka.org/classic/plugins/ItemOrder/){target=_blank} allows users to use a drag-and-drop interface change the order in which items display on the public Collection browse pages of your Omeka Classic site.
 
+This screencast includes information on how Item Order can modify your item displays:
+
+<div style="padding:62.5% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/194553469?h=015e0c53a1" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<p><a href="https://vimeo.com/194553469">Managing Collections in Omeka Classic</a> from <a href="https://vimeo.com/omeka">Omeka</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
 ## Order Items in a Collection
 
 Item Order does not have any configuration settings, and will be available once [installed](../Admin/Adding_and_Managing_Plugins.md) and activated.
