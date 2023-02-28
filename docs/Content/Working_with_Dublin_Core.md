@@ -68,7 +68,7 @@ Examples: actual publisher, if there is one; entity or consortium publishing dig
 
 A point or period of time associated with an event in the lifecycle of the resource.
 
-Date may be used to express temporal information at any level of granularity. Recommended best practice is to use an encoding scheme, such as the [W3CDTF](https://www.w3.org/TR/NOTE-datetime){target=_blank} profile of [ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html){target=_blank}.
+Date may be used to express temporal information at any level of granularity. Recommended best practice is to use [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601){target=_blank} formatting for your dates and times.
 
 A resource may have several dates associated with it, including: creation date, copyright date, revision date, edition date, modification date, etc. You could use separate Date elements to enter multiple dates, but you cannot specify the meaning of each within Omeka Classic. 
 
