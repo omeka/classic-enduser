@@ -2,7 +2,7 @@
 
 Click [here](../doc_files/featurelist_2-x.pdf){target=_blank} for a PDF version of this page.
 
-## Omeka Classic 2.6.1 Feature List
+## Omeka Classic 2.6.1 feature list
 **Free, open-source, digital publishing suite for scholars, librarians, archivists, museum professionals, and cultural enthusiasts**
 
 - Publish archives, collections, exhibits, teaching materials; provide ways for the public to interact with your sites.
@@ -70,16 +70,16 @@ Click [here](../doc_files/featurelist_2-x.pdf){target=_blank} for a PDF version 
 
 **Publish narratives using our exhibit builder**
 
-- Create rich, interpretive exhibits in [Exhibit Builder](../Plugins/ExhibitBuilder.md) that combine items in your Omeka Classic site with narrative text.
+- Create rich interpretive exhibits in [Exhibit Builder](../Plugins/ExhibitBuilder.md) that combine items in your Omeka Classic site with narrative text.
 - Configure each exhibit with a different theme or logo.
  
 **Create and organize items into collections**
 
-- [Collection Tree](../Plugins/CollectionTree.md) plugin allows for collections to be nested.
+- The [Collection Tree](../Plugins/CollectionTree.md) plugin allows for collections to be nested.
 
 **Use controlled vocabularies**
 
-- Add the [Library of Congress Suggest](../Plugins/Library_of_Congress_Suggest.md) and [Simple Vocab](../Plugins/SimpleVocab.md) plugins to auto-complete the subject field, or create your own controlled list for other Dublin Core fields.
+- Add the [Library of Congress Suggest](../Plugins/Library_of_Congress_Suggest.md) and [Simple Vocab](../Plugins/SimpleVocab.md) plugins to auto-complete the subject field, or create your own controlled options for other Dublin Core fields.
 
 **Community-source content**
 
@@ -102,7 +102,7 @@ Click [here](../doc_files/featurelist_2-x.pdf){target=_blank} for a PDF version 
 - Create annotated images in your exhibits using [Exhibit Image Annotation](../Plugins/ExhibitImageAnnotation.md). 
 - Enable users to annotate the text of your site using [Text Annotation](../Plugins/TextAnnotation.md). 
 
-## Visitor Experience With an Omeka Classic Site
+## Visitor experience with an Omeka Classic site
 See the [Omeka Classic Showcase](http://omeka.org/classic/showcase/){target=_blank} for examples of site designs and experiences possible with an Omeka Classic site.
 
 - Visitors with a variety of web browsers, internet bandwidth, and devices can access your site because packaged themes are designed to be ADA compliant (section 508) and responsive to different screen sizes.

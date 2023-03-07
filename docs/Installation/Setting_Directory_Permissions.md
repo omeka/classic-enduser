@@ -33,7 +33,7 @@ Though it's generally not necessary, you can grant these permissions with this s
 chmod -R 755 files
 ```
 
-Group Access
+Group access
 --------------------------------------------------------------
 
 For many other servers, the best option is often to set the directories to a group that Apache belongs to, and then give the group write access to the directories. This option takes a few steps.
@@ -44,7 +44,7 @@ For many other servers, the best option is often to set the directories to a gro
 3.  Finally, grant read, write, and execute permissions to the **user** and **group** for the files directory and all subdirectories. On the shell, you can use this command:
 	```chmod -R 775 files```
 
-World Access
+World access
 -----------------------------------------------------
 **This is the least secure option. Especially if you are using shared hosting, ask your host for advice before choosing it.**
 

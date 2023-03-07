@@ -1,9 +1,9 @@
-# Installation
+# Installing
 
-## Preparing to Install
-Before installing Omeka Classic, make sure your web server meets our basic [system requirements](System_Requirements.md). These are standard requirements that are available with many web hosting services. Once these requirements are met, all you need to do is install the Omeka software.
+## Preparing to install
+Before installing Omeka Classic, make sure your web server meets our [system requirements](System_Requirements.md). These are standard requirements that are available with many web hosting services. Check the dependencies of your intended plugins. Once these requirements are met, all you need to do is install the Omeka software.
 
-7 Easy Installation Steps
+7 easy installation steps
 -----------
 
 !!! note
@@ -58,9 +58,9 @@ If the installation was **successful**, you'll see a screen with links to view t
 
 If your installation was **unsuccessful**, try these steps:
 
--   Make sure that the `.htaccess` file mentioned above was successfully uploaded. (For Omeka 1.3.1 and earlier, there are two `.htaccess` files: one in the root directory and one in the "admin" directory.)
--   If the `.htaccess` file was successfully uploaded but your installation is still unsuccessful, make sure that the information in the `db.ini` file on the server is correct.
+-   Make sure that the `.htaccess` file mentioned above was successfully uploaded. (For Omeka 1.3.1 and earlier, there are two `.htaccess` files: one in the root directory and one in the `/admin` directory.)
+-   If the `.htaccess` file was successfully uploaded, make sure that the information in the `db.ini` file on the server is correct.
 -   If your installation is still unsuccessful, try deleting the entire Omeka directory from your server and reuploading it. One or more files might have failed to upload.
 -   If the installation is apparently successful, but you are unable to upload items through the administrative interface, make sure that you correctly followed the instructions in step 6 above. Your web server *must* have write access to the file-storage directory for you to upload files.
--   If the installation is successful, but you are getting "File not found" errors when you navigate to addresses such as `https://youromekadomain.org/collections/admin`, you probably have a conflict with another CMS such as WordPress on the same server. To fix this issue, you probably need to enable the "RewriteBase" line in your `.htaccess` file.
+-   If the installation is successful, but you are getting "File not found" errors when you navigate to addresses such as `https://youromekadomain.org/collections/admin`, you may have a conflict with another CMS such as WordPress on the same server. To fix this issue, you probably need to enable the "RewriteBase" line in your `.htaccess` file.
 -   If you still have issues, please consult the [Troubleshooting Omeka](../Troubleshooting/index.md) page or post your issue on the [forum](https://forum.omeka.org/c/omeka-classic/7){target=_blank}.

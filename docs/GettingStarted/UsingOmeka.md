@@ -2,7 +2,7 @@
 
 The following page is meant to help people new to Omeka get a sense of how others have used Omeka Classic for projects, and inform you how to read an Omeka Classic website to understand what choices the site builders made.
 
-## Case Study
+## Case study
 
 [Histories of the National Mall](http://mallhistory.org){target=_blank} interprets the National Mall's rich past by offering historical maps, a chronology of past events, short biographies of significant individuals, and episodes in the Mall's history. The site is built on Omeka Classic, designed and written for optimal reading on a smartphone or tablet. 
 

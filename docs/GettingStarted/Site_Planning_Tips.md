@@ -1,12 +1,10 @@
 # Site Planning Tips
 
-Before you start building an Omeka Classic site, it is useful to sketch out wireframes of your new site to help plan the content of your site, and to determine how you want your audiences to access and use that content on the website.
+Before you start building an Omeka Classic site, it is useful to view sites from our [showcase](https://omeka.org/classic/showcase/){target=_blank} and [site directory](https://omeka.org/classic/directory/){target=_blank}. Then think about the way Omeka manages [items](../Content/Items.md), [collections](../Content/Collections.md), and [files](../Content/Files.md) to help plan the content of your site, and to determine how you want your audiences to access and use that content.
 
-Planning for the content first will help you think about the ways that Omeka Classic can work best for you throughout different stages of the project. 
-
-Questions to Ask While Planning
+Questions to ask while planning
 ---------------------------------------------------------------
-These questions will help with those planning steps.
+These questions will help with planning:
 
 **What are the primary goals of the website?**
 
@@ -19,44 +17,46 @@ What do you want these specific audiences to accomplish when they come to the si
 Typical top level navigation and sections for a typical Omeka Classic site include:  
 
   - [Items](../Content/Items.md): links to a browseable list of items, sortable by type of item and tags.
-  - [Collections](../Content/Collections.md): groups of items, public can dig through collection to find items.
-  - [Exhibits](../Plugins/ExhibitBuilder.md): Exhibits contain interpretative text and rely on items/sources/objects as their building blocks.
-  - About: a [simple page](../Plugins/SimplePages.md) good for publishing project descriptions, credits, rights, etc.
+  - [Collections](../Content/Collections.md): groups of items; the public can browse your collections to discover related items.
+  - [Exhibits](../Plugins/ExhibitBuilder.md): series of pages that contain interpretative text and rely on items/sources/objects as their building blocks.
+  - About: a [simple page](../Plugins/SimplePages.md) good for publishing the project description, credits, rights, etc.
   - [Search bar](../GettingStarted/Searching.md#basic-search): with an option to link to an [advanced search](../GettingStarted/Searching.md#advanced-search) page.
+
+![A front page of an Omeka Classic installation, with a navigation bar that includes "Biographies", "Oral History Interviews", "Stories", "Archive", "About", and "Credits". The homepage displays a slideshow of images, with links to exhibits, and a paragraph of introductory text.](../doc_files/sitePlanning.png)
 
 **What will I do with items in this website?**
 
-The item is the building block of your site. 
-First add the objects and materials you want to share. 
-Add descriptions using some or all of the 20 standard [Dublin Core](../Content/Working_with_Dublin_Core.md) fields, plus additional item type-specific fields. 
-Once you have items in the Omeka Classic database, then you can build an exhibit with them or display categories of items organized by collections or tags.
+The item is the building block of your site. Items can be photographs, videos, audio clips, newspaper issues (or titles, or articles, or pages), maps, books (or series, or pages), artifacts, quotes, people, events, locations, and other types of data - whatever you need to build your collection. One item can have many media files attached, or only one file, or no file at all. Collections can house one or more items; you can create a hierarchy of collections using [Collection Tree](../Plugins/CollectionTree.md). Learn more on the [Collections page](../Content/Collections.md).
 
-- Determine the types of items/sources/objects you plan to use in this site: Document, Still Image, Moving Image, Audio, the [other pre-defined item types in Omeka](../Content/Item_Types.md#pre-defined-item-types), or something custom to your collection.
+- Determine the **types** of items/sources/objects you plan to use in this site: Document, Still Image, Moving Image, Audio, the [other pre-defined item types in Omeka](../Content/Item_Types.md#pre-defined-item-types), or something custom to your collection.
 - Do you want to modify any of the item types or the item-type-specific fields? See [Managing Item Types](../Content/Item_Types.md) to learn more.
+- Describe your objects using some or all of the 20 standard [Dublin Core](../Content/Working_with_Dublin_Core.md) fields, plus additional item type-specific fields. 
 - Do you need additional Dublin Core fields? Install the [Dublin Core Extended](../Plugins/DublinCoreExtended.md) plugin.
-- It is wise to determine, before you start building your collection of items, what type of consistencies you desire in your metadata - this may be especially true for fields such as date, publisher, creator, etc. 
-	* Do you want to use Library of Congress subject headings as a [controlled vocabulary](https://en.wikipedia.org/wiki/Controlled_vocabulary)? Install [Library of Congress Subject Headings](../Plugins/Library_of_Congress_Suggest.md) plugin. 
+- Determine, before you start building your collection of items, what **consistencies** you need in your metadata - this may be true for fields such as date formatting, publisher or creator names, etc. 
+	* Do you want to use Library of Congress subject headings as a [controlled vocabulary](https://en.wikipedia.org/wiki/Controlled_vocabulary){target=_blank}? Install the [Library of Congress Subject Headings](../Plugins/Library_of_Congress_Suggest.md) plugin. 
 	* Would you like to establish your own controlled vocabularies for specific metadata fields, to make it easier for your team to enter consistent data? Install the [Simple Vocab](../Plugins/SimpleVocab.md) plugin.
-- Do you want to establish a controlled tagging schema? You can [add tags](../Content/Tags.md) to individual items and exhibits. Before building your collections you may want to devise this schema to help control vocabularies and spelling. Tags can help you pull together different items, for purposes such as arranging them on a map, or allowing users to browse items with a specific tag.
+- You can [add tags](../Content/Tags.md) to individual items and exhibits. Do you want to establish a controlled tagging schema? Before building your collections, devise this schema to help control vocabularies and spelling. Tags can help you pull together different items, for purposes such as arranging them on a map or displaying them on a timeline, or allowing users to browse items with a specific tag.
+
+Add the objects and materials you want to share. Once you have items in your Omeka Classic database, then you can build an exhibit with them or display categories of items organized by collections or tags.
+
 - Do you have materials in other databases or repositories? You may be able to import them in bulk into your Omeka Classic site. 
 	* Can items be exported in a Comma Separated Value format? Try the [CSV Import](../Plugins/CSV_Import.md) plugin.
 	* Is there an OAI-PMH harvestable set? Try the [OAI-PMH Harvester](../Plugins/OaipmhHarvester.md) plugin.
-	* Do you have hundreds of files, or large media files? Use the [Dropbox](../Plugins/Dropbox.md) plugin.
-- Do you want to display items on a map? Install the [Geolocation](../Plugins/Geolocation.md) plugin, then add geolocation metadata to each item.
+	* Do you have hundreds of files, or large media files? Use the [Dropbox](../Plugins/Dropbox.md) plugin to import files from another place online rather than uploading from your computer.
 - Are you interested in collecting materials from your visitors through a web form, such as a story or textual reflection, photos, or videos? Install the [Contribution](../Plugins/Contribution.md) plugin to facilitate collecting.
-- Do you want to build an exhibit with your items? Install the [Exhibit Builder](../Plugins/ExhibitBuilder.md) plugin.
 
 **How do you want items to display?**
 
 - Do you want to add social bookmarking icons to the bottom of items, to allow users to share links to that item with their social networks? Install the [Social Bookmarking](../Plugins/SocialBookmarking.md) plugin.
+- Do you want to display items on a map? Install the [Geolocation](../Plugins/Geolocation.md) plugin, then add geolocation metadata to each item.
 - Do you want to allow users to leave comments on items? Install the [Commenting](../Plugins/Commenting.md) plugin.
 -   Do you want to create and print QR codes that link visitors in a physical place to individual items in your Omeka Classic site? Install the [Bar Code and Reports](../Plugins/Reports.md) plugin.
 -   Do you have documents that you wish users to read on-screen rather than downloading them? Install the [DocsViewer](../Plugins/DocsViewer.md) plugin.
 
-Plan an Exhibit 
+Plan an exhibit 
 ------------------------------------------------------------
 
-Exhibit Builder is not necessarily only for building museum-like exhibits. This function can be used to publish essays or teaching materials that draw upon the items in your archive.
+The [Exhibit Builder](../Plugins/ExhibitBuilder.md) plugin is not only for building museum-like exhibits. This function can be used to publish essays or teaching materials that draw upon the items in your archive. 
 
 Before you build an exhibit, sketch out a storyboard or outline that spells out the sections, pages, and items for each page.
 
@@ -64,14 +64,16 @@ Each exhibit can have multiple sections, which can contain multiple pages. Each 
 
 Learn more in the instructions for using the [Exhibit Builder](../Plugins/ExhibitBuilder.md) plugin.
 
-Create Simple Web Pages
+Digital exhibit publishing is a popular class assignment for students, or a way for users and volunteers to contribute to your institution. Learn more about [creating different users and giving them permissions](../Admin/Users.md) to build things on your Omeka Classic installation.
+
+Create webpages
 ---------------------
 
 You can use the [Simple Pages](../Plugins/SimplePages.md) plugin to create web pages for publishing an essay, to add an About or Credits page, to share copyright or access statements, or to build a general web presence for your organization. Any of those pages can become part of the main navigation for your website.
 
 A Simple Page does not require items or programming knowledge to build, but users can add HTML markup, PHP code, or embedded multimedia objects.
 
-Try Omeka Classic Before Installing
+Try Omeka Classic before installing
 ---
 
 If you would like to try Omeka Classic before installing on your own server, consider signing up for a free trial account at

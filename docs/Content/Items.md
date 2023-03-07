@@ -7,7 +7,7 @@ Watch our [screencast](https://vimeo.com/102040466){target=_blank} for a quick i
 <div style="padding:47.43% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/102040466?h=720e998c9a" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 <p><a href="https://vimeo.com/102040466">Omeka Classic: Managing Items</a> from <a href="https://vimeo.com/omeka">Omeka</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
-Before Adding Items 
+Before adding items 
 ---------------------------------------------------------------
 
 You may want to consult the [Site Planning Tips](../GettingStarted/Site_Planning_Tips.md) page to think about how to build your site and what you want to do with your items.
@@ -16,7 +16,7 @@ You may also want to decide what type of information you plan to share using the
 
 You may wish to work out your metadata fields as you plan batch imports using one of our plugins: [CSV Import](../Plugins/CSV_Import.md), [Dropbox](../Plugins/Dropbox.md), [Zotero](../Plugins/ZoteroImport.md), [OAI-PMH Harvester](../Plugins/OaipmhHarvester.md), or [import from another Omeka installation](../Plugins/Omeka_API_Import.md). 
 
-Add an Item 
+Add an item 
 -------------------------------------------------------------
 
 ![Screenshot of the Add Item screen](../doc_files/itemAdd.png "Add Item")
@@ -51,7 +51,7 @@ Each metadata field's text may be enhanced using basic HMTL tags. Check the HTML
 
 For more information about working with the HTML editor, please read [Using the HTML Editor](Using_HTML_Editor-TinyMCE.md).
 
-Properties of Items
+Properties of items
 -------------------------------------------------------------
 Items: Each item contains Dublin Core and Item Type metadata, plus other metadata fields added by plugins. An item can belong to one collection (or none), and have an infinite number of tags. Items may contain many or no files.
 
@@ -59,7 +59,7 @@ Collections: May comprise different items. Items may only belong to one collecti
 
 Tags: Tags can be added to any item, and an item may contain an infinite number of tags.
 
-Browse Items in Admin
+Browse items in admin
 -------------------------------------------------------------
 Clicking on the "Items" tab from the Dashboard or `/admin` page takes you to a list of items. By default, these are sorted with the most-recently added items at the top.
 
@@ -83,7 +83,7 @@ You may also use the blue "Show Details" button above the table, which will disp
 
 To search all items, click the "Search Items" button, which takes you to an advanced item search page.
 
-Edit an Item
+Edit an item
 --------------------------------------------------------------
 You can edit any of the information you entered when creating an item, or add new information, from the "Items" page in the left-hand navigation. 
 
@@ -97,14 +97,14 @@ This takes you to the item-editing page where you may make your changes, the sam
 
 Make sure you click the "Save Changes" button when you are happy with your edits.
 
-Delete an Item
+Delete an item
 ----------------------------------------------------------------
 
 You may delete any item from the `admin/items` page by clicking the "Delete" link found below the title. You will be asked to confirm this action.
 
 You may also delete an item by editing the item, then clicking the "Delete" button, found to the right of the page under the link to "View Public Page".
 
-Batch Editing & Deleting
+Batch editing & deleting
 -------------------------------------------------------------------------------------------
 
 -   Click the "Items" tab from the Dashboard or admin screen (`admin/items`).
