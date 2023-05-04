@@ -14,7 +14,7 @@ Select Resource Meta from the Plugins list in the left-hand menu. You will see a
 
 ![The configuration page showing an installation's element sets and their current meta settings.](../doc_files/plugin_images/resourceMeta.png)
 
-Click the "Edit" link shown under each template to modify its meta settings. You will be taken to a display of all of the element set's properties, with a dropdown to select from available meta elements. 
+Click the "Edit" link shown under each element set to modify its meta settings. You will be taken to a display of all of the element set's properties, with a dropdown to select from available meta elements. 
 
 ![An element set's meta settings being edited, showing a dropdown displaying meta tags matching a "title" text search.](../doc_files/plugin_images/resourceMeta_elementSet.png)
 
@@ -31,7 +31,7 @@ Select meta tags manually from the available dropdown. Searching for words such 
 
 To erase a current mapping, press the "X" shown on the mapping. Be sure to save your edits. 
 
-To check that the plugin is working as intended, go to a public page for an item using the resource template with mappings. View the page source and look inside the `<head>` tag for `<meta>` elements corresponding to your settings. 
+To check that the plugin is working as intended, go to a public page for an item using the element set with mappings. View the page source and look inside the `<head>` tag for `<meta>` elements corresponding to your settings. 
 
 ## Uses
 
