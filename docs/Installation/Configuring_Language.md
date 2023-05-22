@@ -1,6 +1,8 @@
 # Configuring Language
 
-Open the `config.ini` file found in the folder `{omeka-root}/application/config` in a text editor.
+Omeka is designed so that all of the interface strings in the administrative and public sides can be translated using [Transifex](https://www.transifex.com){target=_blank}. 
+
+To have Omeka translate strings into another language where available, open the `config.ini` file found in the folder `{omeka-root}/application/config` in a text editor.
 
 Look for the "Localization" section (at the top), and the line in it that reads: 
 
