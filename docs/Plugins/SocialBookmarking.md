@@ -1,6 +1,6 @@
 # Social Bookmarking
 
-The [Social Bookmarking plugin](https://omeka.org/classic/plugins/SocialBookmarking/){target=_blank} inserts a customizable list of social networking sites below each item or collection in your Omeka Classic database.
+The [Social Bookmarking plugin](https://omeka.org/classic/plugins/SocialBookmarking/){target=_blank} inserts a customizable list of social networking sites below each item or collection in your Omeka Classic database, enabling users to share your items and collections to their profiles. Currently this plugin provides buttons for Email, Facebook, Tumblr, and Twitter.
 
 ## Configuration
 
@@ -10,8 +10,7 @@ Configuration options are:
 
 - *Add to Items* (checkbox): if checked, every public item/show page will have a social bookmarking toolbar at the bottom of the page, above the footer.
 - *Add to Collections* (checkbox): if checked, every public collection/show page will have a social bookmarking toolbar at the bottom of the page, above the footer.
-- Choose social bookmarking services: A series of checkboxes for various social bookmarking sites. Each icon will appear on the public items/show pages for each item, and allow site visitors to share items on their social networks.
-    -   Please note: the following social networking sites come pre-selected when activating the plugin: Email, Facebook, and Twitter. If you do not wish to feature these, you must uncheck them.
+- Choose social bookmarking services: A series of checkboxes for various social bookmarking sites. Each icon will appear on the public items/show pages for each item, and allow site visitors to share items on their social networks, opening a new tab when clicked. All of the social networking sites come pre-selected when activating the plugin. If you do not wish to feature any of them, you must uncheck them.
 
 ![SocialBookmarking configuration options](../doc_files/plugin_images/SocialBookmarkingConfig.png)
 
