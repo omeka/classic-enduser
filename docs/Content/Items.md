@@ -27,7 +27,7 @@ This takes you to the `admin/items/add` page, where you see a navigation bar acr
 
 1.  The first tab shows the **Dublin Core** metadata fields. These are available for every item in the archive. 
     - Each field can have multiple values; simply click the "Add Input" button beside each field title to add a new input for that field.
-    - You can use HTML in these elements if you want; see below for more information. 
+    - You can use HTML in these elements if you want; see below for more information. You cannot enter emojis or similar special characters, in either plain-text metadata or the HTML editor.
 1.  The **Item Type Metadata** tab lets you choose a specific [Item Type](Item_Types.md) for the object you are adding. 
     - Once you choose the type by using the drop-down menu, relevant metadata fields appear for you to complete. 
     - See [Item Types](Item_Types.md) for information about adding/editing item types.
@@ -43,7 +43,7 @@ Two more steps:
   
 To finish, click the "Add Item" button to save your data. You cannot save a draft of an item, but you can make it private if you want to edit it further before sharing it publicly.
 
-###  Using HTML in Item Elements 
+###  Using HTML in item elements 
 
 Each metadata field's text may be enhanced using basic HMTL tags. Check the HTML box below the text box to enable a visual HTML editor. 
 
@@ -53,11 +53,13 @@ For more information about working with the HTML editor, please read [Using the 
 
 Properties of items
 -------------------------------------------------------------
-Items: Each item contains Dublin Core and Item Type metadata, plus other metadata fields added by plugins. An item can belong to one collection (or none), and have an infinite number of tags. Items may contain many or no files.
+Items: Each item contains Dublin Core and Item Type metadata, plus other metadata fields added by plugins. An item can have one item type (or none), belong to one collection (or none), and have an infinite number of tags. Items can be public or private, and can be featured. Items may have many or no files attached. You can use [Item Relations](../Plugins/ItemRelations.md) to establish connections between items using metadata fields, or [Commenting](../Plugins/Commenting.md] to allow site visitors to leave their thoughts on items. Items can have location data added using the [Geolocation](../Plugins/Geolocation.md) plugin.
 
-Collections: May comprise different items. Items may only belong to one collection a time.
+Metadata: Each item, each collection, and each file, can have as much or as little metadata as you wish. Metadata can be supplied in Dublin Core or custom formats, using controlled vocabularies, or supplied by users when they create items through the [Contribution](../Plugins/Contribution.md) plugin. Individual fields can be made private through the [Hide Elements plugin](https://omeka.org/classic/plugins/HideElements/){target=_blank}, and strings such as email address can be hidden within fields using the [Redact Elements](../Plugins/RedactElements.md) plugin.
 
-Tags: Tags can be added to any item, and an item may contain an infinite number of tags.
+Collections: Items may only belong to one collection a time. You can use [Collection Tree](../Plugins/CollectionTree.md) to create a hierarchy of collections, so that an item might belong to a lower-level collection and also its parent collection.
+
+Tags: Tags can be added to any item, and an item may contain an infinite number of tags. You can browse and edit tags on the admin side, and add a public page for tag browsing to your navigation.
 
 Browse items in admin
 -------------------------------------------------------------
@@ -107,20 +109,23 @@ You may also delete an item by editing the item, then clicking the "Delete" butt
 Batch editing & deleting
 -------------------------------------------------------------------------------------------
 
--   Click the "Items" tab from the Dashboard or admin screen (`admin/items`).
--   Find items that you wish to edit or delete in a batch by browsing, sorting, or searching.
--   Use the checkboxes to the left of the items' titles to select them for batch editing, or select the box at the top left of the table to select all items available on that page.
--   If you wish to batch-delete items, click the "Delete" button at the top right of the table. You will be taken to a confirmation screen that lists all the selected items by title, where you can un-select individual items if desired. 
--   If you wish to batch-edit items, click the the "Edit" button at the top right of the table. You will be taken to a batch-editing page where you may make changes.
+Click the "Items" tab from the Dashboard or admin screen (`admin/items`). Find items that you wish to edit or delete in a batch by browsing, sorting, or searching. For example, you may wish to look at all items with an empty Title field, which you can narrow to with the "Search Items" button (select "Title" under "Field" and "is empty" under "Type").
+
+Use the checkboxes to the left of the items' titles to select them for batch editing, or select the box at the top left of the table to select all items available on that page. You can also click the "Select all X results" button above the table to edit every item in the current results at once.
+
+If you wish to batch-delete items, click the "Delete" button at the top right of the table. You will be taken to a confirmation screen that lists all the selected items by title, where you can un-select individual items if desired. 
+
+If you wish to batch-edit items, click the the "Edit" button at the top right of the table. You will be taken to a batch-editing page where you may make changes.
 
 ![The Batch Edit window](../doc_files/BatchEdit.png "The Batch Edit window")
 
--   You may change the following fields for each batch of selected items:
-    -   public or private,
-    -   featured or not featured,
-    -   Item Type,
-    -   Collection,
-    -   add Tags to all selected items (but not delete),
-    -   delete items. 
--   You can un-check the box to the left of each item if you marked one by mistake.
--   Click "Save Changes" to edit all of the selected items.
+You may change the following fields for each batch of selected items:
+-   public or private,
+-   featured or not featured,
+-   Item Type,
+-   Collection,
+-   add Tags to all selected items (but not delete),
+-   delete items. 
+You can un-check the box to the left of each item if you marked one by mistake.
+
+Click "Save Changes" to edit all of the selected items.

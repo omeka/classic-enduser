@@ -15,17 +15,19 @@ You can then install the PDF Text plugin from the plugins directory.
 
 ## Using the PDF Text module
 
-- Add PDF file(s) to a new or existing item
-- Save the item
+- Add PDF file(s) to a new or existing item.
+- Save the item.
 - PDF Text will extract any text layers from the PDF(s) and input the text to the Text metadata field attached to the file (not the item). 
 
 ![Navigate to the Files attached to items by using the "Files" tab](../doc_files/plugin_images/Pdftxtview.png)
 
 You can view the extracted text in the admin side, on the File page, or when editing the file, on the "PDF Text" tab. On the public side, this field will show on the file display.
 
+Note that PDF Text will fail to extract text from any PDF that contains emojis. This will result in no extracted text being saved. This will also cause an import error on [CSV Import](CSV_Import.md) when PDF Text is working on PDF files added through the import process. 
+
 ### Configure
 ![Configure window with a red arrow pointing to the configure checkbox](../doc_files/plugin_images/Pdftxtconfig.png)
 
 The PDF Text "Configure" page, accessible from the Plugins page, allows you to run a batch-text-extraction process on all PDF files already in your Omeka database. 
 
-Check the *Process Existing PDF files* box and save changes. This will run the text extraction process on all PDF file attachments.
+Check the "Process Existing PDF files" box and save changes. This will run the text extraction process on all PDF file attachments.

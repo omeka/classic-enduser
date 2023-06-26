@@ -35,13 +35,13 @@ The team behind *Histories of the National Mall* wrote a comprehensive explanati
 
 - Use Omeka Classic to share your collections, display documents and oral histories, or create digital archives with user-generated content.
 - Features and plugins you might like: Dublin Core metadata standards, W3C and 508 compliant, Exhibit Builder, extensible and customizable item fields, Dublin Core Extended, Docs Viewer plugin, tagging, CSV Import, OAI-PMH Repository, and Omeka API Import.
-- Examples: [Florida Memory](https://www.floridamemory.com/){target=_blank}; [Digital History Archive of São Roque](http://www.arquivosaoroque.com.br/acervo/){target=_blank} (in Portugese); [Saint John's College Digital Archives](http://digitalarchives.sjc.edu/){target=_blank}. 
+- Examples: [Florida Memory](https://www.floridamemory.com/){target=_blank}; [Saint John's College Digital Archives](http://digitalarchives.sjc.edu/){target=_blank}. 
 
 **Educators**
 
 - Use Omeka Classic to create lesson plans with accompanying primary sources, have students engage in the practices of public history and archival science, or serve as an alternative to written essay assignments. 
 - Features you might like: different user roles, ability to annotate  Exhibit Builder, Editorial, Image Annotation, Text Annotation, Simple Vocab.
-- Examples: [Fifteenth-Century Italian Art](http://www.quattrocentoitalia.artinterp.org/omeka/){target=_blank}; [Goin' North](https://goinnorth.org/){target=_blank}; [Ice Age Flood Explorer](http://floodexplorer.org/){target=_blank}. 
+- Examples: [Fifteenth-Century Italian Art](http://www.quattrocentoitalia.artinterp.org/omeka/){target=_blank}; [Goin' North](https://goinnorth.org/){target=_blank}. 
 
 **Enthusiasts**
 
@@ -59,10 +59,10 @@ The easiest of these is the message "Proudly Powered by Omeka" in the footer, wh
 
 Omeka sites will almost always have the same paths for certain pages:
 
-- Browse items is siteurl/items
-- Browse collections is siteurl/collections
-- Exhibits are siteurl/exhibits
-- Advanced search is siteurl/items/search. 
+- Browse items is `siteurl/items`
+- Browse collections is `siteurl/collections`
+- Exhibits are `siteurl/exhibits`
+- Advanced search is `siteurl/items/search`. 
 
 Even if the site creators have changed the label for these pages in their navigation menu, the URLs will generally be the same. Checking the address bar to see what function (item, collection, exhibit, etc.) the site is using will help you get a sense of how the creators have structured the site.
 
@@ -72,8 +72,8 @@ Familiarize yourself with the standard [themes](http://omeka.org/classic/themes/
 
 **Skim the navigation**
 
-- Pay attention to URLs (exhibit, collection, item, item type, tag)
-- Identify plugins by menu navigation label.
+- Pay attention to URLs (`exhibit`, `collection`, `item`, `tag`).
+- Identify plugins by the menu navigation label.
 
 ## Teaching with Omeka Classic 
 Omeka Classic has been used in classes at the undergraduate and graduate level, as well as by high school students. In addition to the information in the Educator use case (above), the following resources may prove helpful for those wanting to use Omeka in their classroom:

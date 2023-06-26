@@ -2,7 +2,7 @@
 
 When adding [items](Items.md) to your database, often you will upload one or more files (images, documents, etc.) associated with that item. An item can have as many files attached as you wish, or none. 
 
-Omeka Classic does not offer a way to upload files that are not attached to an item, except, [depending on the theme](../Admin/Appearance/Themes.md#configuring-a-theme), some branding files such as a header background or logo file.
+Omeka Classic does not offer a way to upload files that are not attached to an item, except [depending on the theme](../Admin/Appearance/Themes.md#configuring-a-theme) some branding files such as a header background or logo file.
 
 ![The Files tab that appears when you are adding an item](../doc_files/filesAdd.png "The Files tab that appears when you are adding an item")
 
@@ -28,25 +28,28 @@ Files with thumbnails
 Thumbnail images are automatically created for many file types as of Omeka 2.0, including thumbnails from the first frame of videos. 
 
 Derivative images are derived as follows:
-- A square thumbnail, used most commonly on browsing pages and in search results. 
+
+- A square thumbnail, used most commonly on browsing pages and in search results. This will clip the longer side of an image (centered) to the same length as the shorter side.
 - An original-dimension thumbnail. You can choose to use square or original-dimension thumbnails on the Settings tab of the [Appearance page](../Admin/Appearance/Appearance_Settings.md).
-- A "full-size" image used on file view pages.
+- A "full-size" image used on file view pages, default 800px on its longest side.
 - The original-sized image as uploaded, available for download or viewing on file view pages.
 
-You can control the size of each thumbnail generated (square thumbnails and small original-dimension thumbnails, as well as "full-size" images) on the Settings tab of the [Appearance page](../Admin/Appearance/Appearance_Settings.md#derivative-size-constraints).
+You can control the size of each thumbnail generated (square thumbnails and small original-dimension thumbnails, as well as full-size images) on the Settings tab of the [Appearance page](../Admin/Appearance/Appearance_Settings.md#derivative-size-constraints).
 
-You can also use the [Derivative Images plugin](../Plugins/DerivativeImages.md) to re-generate thumbnails for uploaded media, if needed.
+You can use the [Derivative Images plugin](../Plugins/DerivativeImages.md) to re-generate thumbnails for uploaded media if needed.
 
 Items without attached files can display a default thumbnail rather than no thumbnail. 
 
-Thumbnail creation relies on the ability of your chosen thumbnail utility (the default being ImageMagick) and which file types it can process. If you have access to the `config.ini` file, you can manage [thumbnail configuration](../Technical/ConfiguringThumbnailCreation.md). Look up the utility you are using (such as [ImageMagick](https://imagemagick.org/){target=_blank}, [Imagick](https://www.php.net/imagick){target=_blank}, or [GD](https://www.php.net/manual/en/intro.image.php){target=_blank}) to find out which file types it supports. 
+Thumbnail creation relies on the ability of your chosen thumbnail utility (the default being ImageMagick) and which file types it can process. If you have access to the `config.ini` file, you can manage [thumbnail configuration](../Technical/ConfiguringThumbnailCreation.md). 
+
+Look up the utility you are using (such as [ImageMagick](https://imagemagick.org/){target=_blank}, [Imagick](https://www.php.net/imagick){target=_blank}, or [GD](https://www.php.net/manual/en/intro.image.php){target=_blank}) to find out which file types it supports. 
 
 ![A File view showing links to generated thumbnails for the image.](../doc_files/filesThumbnails.png "A File view showing links to generated thumbnails for the image.")
 
 File size limitations
 -----------------------------
 
-Omeka Classic imposes no file size limitations. Your server, however, may have restrictions on file upload sizes or speeds that may be causing problems. These limitations vary from server to server and we cannot change this for you. If you have a problem uploading files through the Add New Files interface, please first check with your hosting service or your local server administrator. 
+Omeka Classic imposes no file size limitations. Your server, however, may have restrictions on file upload sizes or speeds that may be causing problems. These limitations vary from server to server and we cannot change this for you. If you have a problem uploading files through the "Add New Files" interface, please first check with your hosting service or your local server administrator. 
 
 Batch-add files
 ---------------------------------------------------------------
@@ -57,11 +60,9 @@ File metadata
 --------------------------------------------------------------
 You may add a distinct set of Dublin Core metadata for each file uploaded.
 
-To add metadata, click the Edit button found to the right of the file name in `admin/items/edit`. You also may view or edit file metadata from the `admin/items/show` screen by clicking the file name under the heading "File Metadata."
+To add metadata, click the "Edit" button found to the right of the file name in `admin/items/edit`. You also may view or edit file metadata from the `admin/items/show` screen by clicking the file name under the heading "File Metadata."
 
-![A teal arrow points to the File Metadata box on a screenshot of an Item page. The file is displayed by its original filename](../doc_files/filesMetadata.png "A teal arrow points to the File Metadata box on a screenshot of an Item page. The file is displayed by its original filename")
-
-<!--- maybe a screenshot that doesn't confused people by having a full external URL where a filename should be --->
+![The File Metadata box on an Item page. The files are displayed by their original filenames.](../doc_files/filesMetadata.png "The File Metadata box on an Item page. The files are displayed by their original filenames.")
 
 Alt text
 ----------------------
@@ -73,11 +74,16 @@ As of version 2.4, Omeka Classic uses HTML 5 audio and video tags when embedding
 
 By choosing from a few well-supported formats for audio and video files, you can provide a much better experience for your users across different platforms and devices.
 
+### Images
+
+#### TIFF
+TIFF files are not supported for display in most browsers. TIFFs can be ingested into Omeka Classic, where they will have derivative images generated in JPG format. The original TIFFs will be provided for download anywhere that Omeka calls the 'original' file. The JPGs will be displayed anywhere Omeka calls the 'fullsize', 'medium', or thumbnail images. This may depend on the theme.
+
 ### Video
 #### MP4
 The MP4 container (.mp4 or .m4v) is the best-supported video format across browsers and platforms. By far the best choice for video that will work well across different browsers are .mp4 files with H.264 video and AAC audio.
 
-.mp4 files can contain other types of video (or audio), including newer ones like H.265, and older ones like MPEG-4 Visual. Any video codec other than H.264 has *much* worse browser support.
+.mp4 files can contain other types of video (or audio), including newer ones like H.265, and older ones like MPEG-4 Visual. Any video codec other than H.264 has **much** worse browser support.
 
 #### Other formats
 The WebM (.webm) container with VP8 or VP9 video is supported by several browsers, but Internet Explorer and Safari are notable and significant exceptions.
