@@ -16,6 +16,7 @@ To create a timeline, click the "Add a Timeline" link.
 ![Link to add timeline](../doc_files/plugin_images/timeline_add.png)
 
 On the Add a Timeline page, enter the following metadata:
+
 - Title: the name of your timeline, which will be displayed to users
 - Description: an introduction or overview for the timeline
 - Item Date: a dropdown to select the metadata field to use for item date containing discrete time/date values
@@ -36,6 +37,7 @@ Your timeline will appear empty until you populate it. To add items to your time
 ![Search options for editing item query](../doc_files/plugin_images/timeline_query.png)
 
 On the edit page, you can add items via the following fields:
+
  - Search for Keywords
  - Narrow by Specific Fields
  - Search by a range of ID#s
@@ -73,7 +75,7 @@ Use the following formats to add [times](https://en.wikipedia.org/wiki/ISO_8601#
 
 You cannot omit the year while providing a month and/or day. You cannot supply ordinal dates (as in, `2000-175` for the 175th day of the year 2000). 
 
-Use the following formats for [intervals](https://en.wikipedia.org/wiki/ISO_8601#Time_intervals){target=_blank} with start and end points. 
+Use the following formats for [intervals](https://en.wikipedia.org/wiki/ISO_8601#Time_intervals){target=_blank} with start and end points:
 
 - `2007/2008`
 - `2007-03/2008-05` (Will appear in the timeline as "March 2007 - May 2008")
