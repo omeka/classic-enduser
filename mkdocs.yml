@@ -33,8 +33,8 @@ nav:
     - Content:
         - Content/Items.md
         - Content/Files.md
-        - Content/Item_Types.md
         - Content/Collections.md
+        - Content/Item_Types.md
         - Content/Tags.md
         - Content/Shortcodes.md
         - Content/Using_HTML_Editor-TinyMCE.md

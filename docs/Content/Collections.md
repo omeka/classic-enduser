@@ -30,30 +30,32 @@ Now that you have created a collection you may associate an item with this colle
 
 ![A screenshot of the Add a Collection page, with no metadata entered](../doc_files/collectionAdd.png "A screenshot of the Add a Collection page, with no metadata entered")
 
-Adding Items to Collections
+Adding items to collections
 -------------------------------------------------------------
 
-To add items to collections, you must first create the collection. See the [Items documentation](Items.md) to read more about associating an item with a collection. An item may only belong to one collection a time. You may switch an item from one collection to another at any time.
+To add items to a collection, you must first create the collection. See the [Items documentation](Items.md) to read more about associating an item with a collection. An item may only belong to one collection at a time. You may switch an item from one collection to another at any time.
 
-Items can only be added to a collection from the Item's edit page or the browse items page.
+Items can only be added to a collection from the "Browse Items" page, at `/admin/items`, or from an individual item's editing interface.
 
 From the item edit page, use the dropdown menu on the right hand side, under the "Save Changes" button, to select a collection.
 
-![Dropdown menu in the item edit page is emphasized with a teal arrow](../doc_files/collectionAddItem.png "Dropdown menu in the item edit page is emphasized with a teal arrow")
+![Dropdown menu in the item edit page is emphasized with a teal arrow](../doc_files/collectionAddItem.png "Dropdown menu in the item edit page is emphasized with a teal arrow.")
 
-From the "Browse Items" page, you can use the batch edit option to add multiple items to a collection, again using a dropdown menu to select the existing collection.
+From the "Browse Items" page, you can use the batch-edit option to add multiple items to a collection, again using a dropdown menu to select the existing collection.
 
-![Dropdown menu in the batch item edit page is emphasized with a teal arrow](../doc_files/collectionAddBatch.png "Dropdown menu in the batch item edit page is emphasized with a teal arrow")
+![Dropdown menu in the batch item edit page is emphasized with a teal arrow](../doc_files/collectionAddBatch.png "Dropdown menu in the batch item edit page is emphasized with a teal arrow.")
 
 The thumbnail image for a collection is automatically derived from the primary file of the most recently created item in the collection, and cannot be edited. 
 
-Edit a Collection
+Edit a collection
 ---------------------------------------------------------------
 
-To edit a collection, click the Edit link underneath the title from the Browse Collections page, at `/admin/collection`. Edit in any fields you wish, and click the "Save Changes" button to the right of the screen.
+To edit a collection, click the "Edit" link underneath the title from the Collections page, at `/admin/collection`. Edit in any fields you wish, and click the "Save Changes" button to the right of the screen.
 
-Browsing Collections
+Browsing collections
 ---------------------------------------------------------------
 
 By clicking the Collections tab, you may browse through the collections in your archive. They are listed with very basic metadata: Title, Contributors, Date Added, and Total Number of Items. You may sort collections by clicking Title or Date Added.
+
+On the public interface, you can find the Browse Collections page at `yoursite/collections/browse`. A link is automatically added to the site navigation pointing to `yoursite/collections/browse`, and can be turned off in the [Navigation settings](../Admin/Appearance/Navigation.md).
 
