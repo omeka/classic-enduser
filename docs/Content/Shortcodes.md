@@ -1,10 +1,10 @@
 # Shortcodes
 
-A shortcode is a snippet that can be included in any body of text that works like embedding a multimedia object: a shortcode can insert an image, a video, a timeline, a form, or something else interactive or dynamic. 
+A shortcode is a snippet that can be included in any body of text, and works like embedding a multimedia object: a shortcode can insert an image, a video, a set of items, a timeline, a form, or something else interactive or dynamic. 
 
-In Omeka, shortcodes work in basic text fields (not using the HTML editor) in specific places on Omeka Classic sites: on [Simple Pages](../Plugins/SimplePages.md), and on [Exhibit pages](../Plugins/ExhibitBuilder.md). 
+In Omeka, shortcodes work in basic text fields (not using the HTML editor) on [Simple Pages](../Plugins/SimplePages.md), and on [Exhibit pages](../Plugins/ExhibitBuilder.md). 
 
-There are several built-in shortcodes that come with a basic Omeka install, and many more shortcodes that are added via plugins. You must install the needed plugin and follow its directions for use. 
+There are several shortcodes that come built in with an Omeka install, and many more shortcodes that are added via plugins. You must install the needed plugin and follow its directions for use. 
 
 !!! Note 
     This page is a user’s guide to shortcodes. For help with developing shortcode functionality through plugins, see [Working with Shortcodes](http://omeka.readthedocs.org/en/latest/Tutorials/shortcodes.html){target=_blank} on Omeka’s Developer Documentation site.
@@ -27,15 +27,13 @@ When using shortcodes on a Simple Page, do not use the HTML editor. Put the shor
 
 ![A Simple Page text field with lorem ipsum and a featured carousel shortcode](../doc_files/shortcodeSimplePage.png "A Simple Page text field with lorem ipsum and a featured carousel shortcode")
 
-<!--- replace this image with spellcheck turned off --->
-
 When using a shortcode in an Exhibit Builder block, place the code directly into the text editor:
 
 ![An exhibit page text block with a file shortcode plugin](../doc_files/shortcodeExhibitBlock.png "An exhibit page text block with a file shortcode plugin")
 
 If the shortcode results in an image being displayed (from an item or file), the shortcode will display the filename or the file's Dublin Core title field as the `alt` text, and as the `title` (which appears when a user hovers the mouse over the image). You may wish to edit the file title with this in mind.
 
-### To Find an Item or File ID
+### To find an item or file ID
 
 To find an item ID, go to the Items page. You can hover over each item title in turn to view its URL at the bottom of your browser, or click on the link, and look at the number that appears at the end of the URL; for example `https://youromekainstallation.com/admin/items/show/482`.
 
@@ -43,31 +41,10 @@ To find a file ID, navigate to the admin page for the item it is attached to. At
 
 At the top of the page is a header containing the file ID \# and file title; for example File \#752: "The File Title". The integer following the \# sign is the ID; in this instance it would be 752. To return this file, the shortcode would be `[file id=752]`.
 
-Built-in Shortcodes
+Built-in shortcodes
 --------
 
-
-<!--- could be reordered, alphabetically or by something else --->
-
-The following short codes are built in to Omeka versions 2.2 and higher. For more guidance on the options and parameters, [see the table below](#shortcode-options).
-
-### Recent Items
-The recent items shortcode returns a list of items most recently added to the database.
-
-The shortcode is `[recent_items]`. Without any parameters, it will return five items.
-
-Options:
-- `num` to define a different number of items to display (default is 5).
-
-### Featured Items
-The featured items shortcode returns a set number of items marked in the admin as featured.
-
-The shortcode is `[featured_items]`. Without any parameters, it will return one item at a time.
-
-Options:
-
-- `num`
-- `has_image`
+The following shortcodes are built in to Omeka versions 2.2 and higher. For more guidance on the options and parameters, [see the table below](#shortcode-options).
 
 ### Items
 The items shortcode returns one or multiple items.
@@ -100,6 +77,25 @@ To return all of the items tagged "baseball" from the collection with the id 5, 
 
 `[items num=0 collection=5 tags=baseball sort="Dublin Core,Title" order=a]`
 
+### Recent items
+The recent items shortcode returns a list of items most recently added to the database.
+
+The shortcode is `[recent_items]`. Without any parameters, it will return five items.
+
+Options:
+
+- `num` to define a different number of items to display (default is 5).
+
+### Featured items
+The featured items shortcode returns a set number of items marked in the admin as featured.
+
+The shortcode is `[featured_items]`. Without any parameters, it will return one item at a time.
+
+Options:
+
+- `num`
+- `has_image`
+
 ### Collections
 The collections shortcode returns one or multiple collections.
 
@@ -112,7 +108,7 @@ Options:
 - `is_featured`
 - `sort`
 
-### Featured Collections
+### Featured collections
 The featured collections shortcode returns a number of collections marked as featured.
 
 The shortcode is `[featured_collections]`. Without any parameters, it will return one collection at a time.
@@ -121,7 +117,7 @@ Options:
 
 - `num`
 
-### Recent Collections
+### Recent collections
 
 The recent collections shortcode returns a list of the most recent collections created.
 
@@ -168,7 +164,8 @@ To return a square thumbnail of an image, that links to the fullsize image, with
 
 `[file id=12 size=square_thumbnail link_file=fullsize]`
 
-### Shortcode Options
+### Shortcode options
+
 Most shortcodes have options that will modify the content they return. The following table explains some of the options which are shared across multiple shortcodes. 
 
 | Option | Purpose | Settings | Example |
@@ -187,7 +184,7 @@ Most shortcodes have options that will modify the content they return. The follo
 | `sort=random` | Randomly choose from the set of returned items | | `[items num=1 collection=3 sort=random]`|
 | `sort` option `order` | Specify the order of the sorting | Note: order requires a sort value to have been specified. `a`: ascending; `d`: descending | `[items num=5 sort=added order=d]` |
 
-## Plugin Shortcodes
+## Plugin shortcodes
 
 ### Exhibit Builder
 These shortcodes require the [Exhibit Builder](../Plugins/ExhibitBuilder.md) plugin.
@@ -210,7 +207,7 @@ Options:
 
 Exhibit IDs can be found at the end of the Edit page url for an exhibit; e.g. yoursite/admin/exhibits/edit/11 -the exhibit ID is 11.
 
-#### Featured Exhibits 
+#### Featured exhibits 
 The featured exhibits shortcode will return one or multiple exhibits that have been marked as featured.
 
 The shortcode is `[featured_exhibits]`. Without parameters, it will randomly return one exhibit from all of the ones marked as featured.
@@ -261,7 +258,7 @@ For a map that gets all of the items from your first collection, that are also t
  
 A shortcode that leveraged all of the possible parameters would look like `[geolocation lat=42 lon=117 zoom=7 type=hybrid collection=4 tags=baseball,math,oakland height=500px width=500px]`.
 
-### Shortcodes Carousel
+### Carousel
 
 Requires the [Shortcode Carousel plugin](../Plugins/ShortcodeCarousel.md).
 

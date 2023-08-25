@@ -80,4 +80,4 @@ To delete these or existing elements from your Omeka install, go to the Settings
 
 ![New element block with no input](../doc_files/itemTypeElmTab.png "New element block with no input")
 
-You can hide unused elements from the advanced search page, rather than deleting them from the database, by using the [Hide Elements](../plugins/HideElements.md) plugin.
+You can hide unused elements from the advanced search page, rather than deleting them from the database, by using the [Hide Elements](https://omeka.org/classic/plugins/HideElements/) plugin.
