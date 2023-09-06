@@ -2,14 +2,14 @@
 
 [Themes determine the the look and feel](https://omeka.org/classic/themes/){target=_blank} of the public side of your Omeka site. Browse our themes and our [showcase directory](https://omeka.org/classic/showcase/){target=_blank} to see the variety of designs and customizations available to you.
 
-Most themes have a number of settings which can be customized in the admin dashboard by superusers of the site. If you want to further customize a theme, or create your own, you can do so by editing the [files on the server side](https://omeka.readthedocs.io/en/latest/Tutorials/index.html#public-themes){target=_blank}.
+Most themes have a number of settings that can be customized in the admin dashboard. If you want to further customize a theme, or create your own, you can do so by editing the [files on the server side](https://omeka.readthedocs.io/en/latest/Tutorials/index.html#public-themes){target=_blank}.
 
 There is a screencast that covers theme selection and customization, as well as navigation and other appearance settings:
 
 <div style="padding:49.51% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/103132986?h=281e743414" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 <p><a href="https://vimeo.com/103132986">Omeka Classic: Modifying Appearance</a> from <a href="https://vimeo.com/omeka">Omeka</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
-Installing a Theme
+Installing a theme
 -----------------------------------------------------------------
 Watch the [screencast](https://vimeo.com/153819886){target=_blank} demonstrating the process of installing plugins and themes (with close-captioning):
 
@@ -30,7 +30,7 @@ To add and activate a new theme for your Omeka installation, follow these steps:
 1. Click “Use this theme” under the theme thumbnail to finish the process.
 1. Click “Configure theme” after the page reloads. Read the documentation for your chosen theme to understand what configuration options are available.
 
-Selecting a Theme
+Selecting a theme
 -------------------------------------------------------------
 You can browse the themes you have installed for your Omeka Classic site by going to the Appearance tab in the upper admin navigation. The Themes tab in the Appearance section will be the first to display. 
 
@@ -38,7 +38,7 @@ This page displays your active theme at top, with all available themes in a grid
 
 ![Appearance tab. The active theme is Center Row. Also visible are Santa Fe, Rhythm, and Minimalist in a row with smaller thumbnails.](../../doc_files/browse_themes.png "Appearance tab. The active theme is Center Row. Also visible are Santa Fe, Rhythm, and Minimalist in a row with smaller thumbnails.")
 
-The active theme is displayed at top, with a preview of the the theme's appearance, a summary of its features, and a button to configure the theme (see below). 
+The active theme is displayed at the top, with a preview of the theme's appearance, a summary of its features, and a button to configure the theme (see below). 
 
 If the active theme is out of date, you will see a message under the active theme summary stating "A new version of this theme is available. Get the new version." The phrase "Get the new version" is a link to the page where you can download the latest version of your theme. To update, simply follow the installation instructions above, replacing the outdated theme folder with the new one.
 
@@ -51,7 +51,7 @@ To select a new theme, find the theme you want among those installed on your Ome
 ![A teal arrow points at the "Use this theme" button for Minimalist, in amongst other themes listed.](../../doc_files/theme_activate.png "A teal arrow points at the "Use this theme" button for Minimalist, in amongst other themes listed")
 
 
-Configuring a Theme
+Configuring a theme
 ----------------------------------------------------------------
 Configurations let you make choices about the look of your site, including adding a logo and homepage text, managing featured elements, and adding footer text. 
 
@@ -65,7 +65,7 @@ Enable your chosen theme and view the configuration page to see if there is guid
 
 - **Logo File**: You may upload an image that will replace the site title in the header of your website. In many themes, this logo will be left-aligned, with margins around it. Many themes recommend a maximum width for your logo of 500px, and some have a required maximum height of 150px. 
 - **Header Background**: Upload an image file that will display across the top of your website, behind your site title or logo.
-- **Footer Text**: An HTML-enabled text box where you can enter text for a site footer to appear on every page. Note that shortcodes will not work in this field, nor will HTML-coded images or other multimedia.
+- **Footer Text**: An HTML-enabled text box where you can enter text for a site footer to appear on every page. Note that shortcodes will not work in this field, but can you use the HTML Editor to enter in tags and encoding.
 - **Display Copyright in Footer**:  Check this box if you wish to display your site’s copyright information in the footer. Site copyright information is found in the [General Settings](../Settings/index.md) section.
 - **Use Advanced Site-wide Search**: Check this box to allow public-side site visitors to search the whole site, including items, collections, and files, and to use boolean methods when searching.
 
