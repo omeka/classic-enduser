@@ -25,6 +25,72 @@ Pre-defined item types
 
 ![The item types browse view](../doc_files/itemTypeBrowse.png "The item types browse view")
 
+
+### Default elements for item types
+
+Omeka Classic creates a number of elements that are attached to its pre-defined item types. The default elements for each item type listed above are:
+
+- Text:
+    - Text
+    - Original Format
+- Moving Image:
+    - Transcription
+    - Original Format
+    - Duration
+    - Compression
+    - Producer
+    - Director
+- Oral History:
+    - Interviewer
+    - Interviewee
+    - Location
+    - Transcription
+    - Original Format
+    - Duration
+    - Bit Rate/Frequency
+    - Time Summary
+- Sound:
+    - Transcription
+    - Original Format
+    - Duration
+    - Bit Rate/Frequency
+- Still Image:
+    - Original Format
+    - Physical Dimensions
+- Website:
+    - Local URL
+- Event:
+    - Event Type
+    - Participants
+    - Duration
+- Email:
+    - Email Body
+    - Subject Line
+    - From
+    - To
+    - CC
+    - BCC
+    - Number of Attachments
+- Lesson Plan:
+    - Standards
+    - Objectives
+    - Materials
+    - Duration
+    - Lesson Plan Text
+- Hyperlink:
+    - URL
+- Person:
+    - Birth Date
+    - Birthplace
+    - Death Date
+    - Occupation
+    - Biographical Text
+    - Bibliography.
+
+The item types Interactive Resource, Dataset, Physical Object, Service, and Software have no default elements.
+
+All of these elements can be deleted, modified, or attached to new or existing item types. 
+
 Edit an existing item type 
 ---------------------------------------------------------------
 You can edit existing item types to modify their metadata fields.
@@ -45,7 +111,7 @@ To create a new item type, click the green "Add an Item Type" button above the t
 
 Each item Type must have a **Name**, which must be unique. You can also add a **Description** to help clarify the item type (for example, the descriptions in the list of item types above) and guide users who are adding and describing items.
 
-## Creating and adding elements
+## Create and add elements
 
 Your item types provide [sets of elements for your items](../Admin/Settings/Item_Type_Elements.md) - specific metadata fields that allow you to describe your items according to their categories (formats, or other types that you design). Learn more on the [Item Type Elements](../Admin/Settings/Item_Type_Elements.md) page.
 
@@ -53,7 +119,7 @@ When adding elements to item types, there are two options: add an existing eleme
 
 **Existing elements** are elements that have already been created for another item type, but might be applicable to yours. For example, if you were creating a “Letter” item type, you might add the existing “To” and “From” elements from the “Email” item type, and the “Text” element from the “Text” item type.
 
-### To add an existing element to an item type: 
+### Add an existing element to an item type
 
 1. In the Add Element block, select the **Existing** option.
 1. Click the green "Add Element" button.
@@ -65,14 +131,14 @@ When adding elements to item types, there are two options: add an existing eleme
 
 Note that an element can be created with a duplicate name, and the page can be saved, but that new element will disappear when the page is reloaded. 
 
-### To add a new element to an item type:
+### Add a new element to an item type
 
 1. In the Add Element block, select the **New** option.
 1. Click the green "Add Element" button.
 1. In the element block which is created, enter an "Element Name" in the first field (toward the top of the block). Enter an "Element Description" in the larger text field. 
 ![New element block with no input](../doc_files/itemTypeNewElm.png "New element block with no input")
 
-### Managing elements
+### Manage elements
 
 You can delete elements from item types, by clicking the large "X" on the upper right corner of the element block. If it is a custom-created element, and it is no longer attached to any item types, it will still appear in the dropdown menu in the future. 
 

@@ -8,7 +8,9 @@ Derivative Size Constraints
 ----------------------------------------------------------------
 In this section, you can set the maximum image sizes for the derivative images Omeka creates when you upload a file. 
 
-For each of Fullsize, Thumbnails, and Square Thumbnails, you can set a number in pixels for the longest side of the image. For example, if you are uploading a 1600x2000 pixel image, a setting of "100" as the thumbnail maximum would resize the image down to 80x100 pixels.
+For each of Fullsize and Thumbnail, you can set a number in pixels for the longest side of the image. For example, if you are uploading a 800x1000 pixel image, a setting of "100" as the thumbnail maximum would resize the image down to 80x100 pixels. 
+
+A Square Thumbnail, instead, resizes the smallest edge down, and crops the excess from the longest side. For example, if you are uploading a 800x1000 pixel image, a setting of "100" as the thumbnail maximum would resize the image down to 100x125 pixels and then crop 12.5 pixels from each side to display the center of the image. 
 
 Note that these settings are general for the installation - the size at which thumbnails display on item browse, exhibit, and other pages may also depend on which theme you are using.
 
@@ -28,9 +30,9 @@ Display Settings
 ----------------------------------------------------------------
 These settings relate to the display of results on the public and admin sides and some aspects of metadata display on the public side. 
 
-**Use Square Thumbnails**: sets the installation to use square-cropped images by default wherever thumbnails appear in the public interface, regardless of themes. (This setting is for Omeka Classic versions 2.5 and higher only.)
+**Use Square Thumbnails**: sets the installation to use square-cropped images by default wherever thumbnails appear in the public interface, regardless of themes. If unchecked, the public site will use thumbnails with the original aspect ratio of each file. (This setting is for Omeka Classic versions 2.5 and higher only.)
 
-**Link to File Metadata**: when this box is checked, clicking on a file on an item's public show page will take site users to the file's metadata page rather than the fullsize image. 
+**Link to File Metadata**: clicking on a file on an item's public show page will take site users to the file's metadata page rather than the fullsize image. If unchecked, the public site will not make file metadata pages available to users. 
 
 **Results per page (admin)**: sets the number of results on the admin-side browse pages for items, collections, and exhibits. The default is 10.
 

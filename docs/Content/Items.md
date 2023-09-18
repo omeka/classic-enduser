@@ -106,7 +106,7 @@ You may delete any item from the `admin/items` page by clicking the "Delete" lin
 
 You may also delete an item by editing the item, then clicking the "Delete" button, found to the right of the page under the link to "View Public Page".
 
-Batch editing & deleting
+Batch edit & delete
 -------------------------------------------------------------------------------------------
 
 Click the "Items" tab from the Dashboard or admin screen (`admin/items`). Find items that you wish to edit or delete in a batch by browsing, sorting, or searching. For example, you may wish to look at all items with an empty Title field, which you can narrow to with the "Search Items" button (select "Title" under "Field" and "is empty" under "Type").

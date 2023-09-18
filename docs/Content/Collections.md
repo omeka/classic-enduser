@@ -30,7 +30,7 @@ Now that you have created a collection you may associate an item with this colle
 
 ![A screenshot of the Add a Collection page, with no metadata entered](../doc_files/collectionAdd.png "A screenshot of the Add a Collection page, with no metadata entered")
 
-Adding items to collections
+Add items to collections
 -------------------------------------------------------------
 
 To add items to a collection, you must first create the collection. See the [Items documentation](Items.md) to read more about associating an item with a collection. An item may only belong to one collection at a time. You may switch an item from one collection to another at any time.
@@ -52,7 +52,7 @@ Edit a collection
 
 To edit a collection, click the "Edit" link underneath the title from the Collections page, at `/admin/collection`. Edit in any fields you wish, and click the "Save Changes" button to the right of the screen.
 
-Browsing collections
+Browse collections
 ---------------------------------------------------------------
 
 By clicking the Collections tab, you may browse through the collections in your archive. They are listed with very basic metadata: Title, Contributors, Date Added, and Total Number of Items. You may sort collections by clicking Title or Date Added.

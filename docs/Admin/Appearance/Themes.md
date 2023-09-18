@@ -9,7 +9,7 @@ There is a screencast that covers theme selection and customization, as well as 
 <div style="padding:49.51% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/103132986?h=281e743414" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 <p><a href="https://vimeo.com/103132986">Omeka Classic: Modifying Appearance</a> from <a href="https://vimeo.com/omeka">Omeka</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
-Installing a theme
+Install a theme
 -----------------------------------------------------------------
 Watch the [screencast](https://vimeo.com/153819886){target=_blank} demonstrating the process of installing plugins and themes (with close-captioning):
 
@@ -30,7 +30,7 @@ To add and activate a new theme for your Omeka installation, follow these steps:
 1. Click “Use this theme” under the theme thumbnail to finish the process.
 1. Click “Configure theme” after the page reloads. Read the documentation for your chosen theme to understand what configuration options are available.
 
-Selecting a theme
+Select a theme
 -------------------------------------------------------------
 You can browse the themes you have installed for your Omeka Classic site by going to the Appearance tab in the upper admin navigation. The Themes tab in the Appearance section will be the first to display. 
 
@@ -51,7 +51,7 @@ To select a new theme, find the theme you want among those installed on your Ome
 ![A teal arrow points at the "Use this theme" button for Minimalist, in amongst other themes listed.](../../doc_files/theme_activate.png "A teal arrow points at the "Use this theme" button for Minimalist, in amongst other themes listed")
 
 
-Configuring a theme
+Configure a theme
 ----------------------------------------------------------------
 Configurations let you make choices about the look of your site, including adding a logo and homepage text, managing featured elements, and adding footer text. 
 

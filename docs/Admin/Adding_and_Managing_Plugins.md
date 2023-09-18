@@ -17,7 +17,7 @@ Manage plugins from the Plugins page found at the top of your Dashboard. Plugins
 
 In some cases, uninstalling plugins can delete data associated with the plugin from your database, such as information entered into metadata fields on items or collections. Check the plugin's documentation. We recommend deactivating and testing the changes first, before uninstalling. 
 
-Installing a plugin
+Install a plugin
 -------------------
 Watch [our screencast showing these steps](https://vimeo.com/153819886){target=_blank}. To add and activate a new plugin for your Omeka installation, follow these steps: 
 
@@ -39,7 +39,7 @@ If you are using a hosting provider that offers cPanel and online file managemen
 !!! Note
     You can also use `git clone` or the Github interface to download the latest plugin code directly from Github into a folder in your `/plugins` folder. Be sure to watch for extra folder levels or incorrect folder names in this case, such as a folder starting with `plugin-` or ending with `-master`. Rename the folder to remove things like `plugin-` and/or `-master` from the folder name, as in `git clone https://github.com/omeka/plugin-Timeline.git Timeline`. 
 
-Upgrading plugins
+Upgrade plugins
 -----------------
 When an active plugin is out of date, a notification will appear at the bottom of the plugin's entry on your Plugins page. The notification reads "A new version of this plugin is available. Get the new version." with a link. 
 

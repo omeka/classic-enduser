@@ -10,7 +10,7 @@ Omeka includes links to Browse Items and Browse Collections by default. If you h
 
 You may arrange navigation items in any order by dragging and dropping.
 
-Managing navigation links
+Manage navigation links
 ----------------------------------------------------
 
 The checkbox located to the left of each section or page title indicates when a navigation link is visible on the public site. This is useful for both default pages, plugin-added pages, and temporarily turning custom links on and off. For example, if you don’t want "Browse Collections" to display, uncheck the box.
@@ -25,7 +25,7 @@ Edit the word or phrase that appears in the Label text box. For instance, you ma
 
 To add menu navigation for a specific collection, exhibit, or item, see the section on links, below.
 
-Adding navigation links
+Add navigation links
 ----------------------------------------------------------------
 In the section, "Add a Link to the Navigation," you may add links to other content, whether on your site or elsewhere.
 
@@ -36,7 +36,7 @@ Click "Add Link."
 ![Adding link](../../doc_files/navAddLink.png)
 
 
-Choosing a homepage
+Choose a homepage
 --------------------------------------------------------------
 You may change the homepage of your installation by selecting a page from the dropdown menu located under the heading "Select a Homepage" found on the right side of the screen. The dropdown lists all of the public navigation links you created. "[Default]" will display the Homepage as set up in the Theme's settings (so, if you change themes, you will need to re-enter Homepage information if you are utilizing this feature).
 
@@ -44,7 +44,7 @@ Select the desired page from the list and click "Save Changes" to designate a ne
 
 ![Choose homepage dropdown with multiple options](../../doc_files/navHomepage.png)
 
-Resetting the navigation
+Reset the navigation
 --------------------
 To reset the navigation back to the Omeka default, click the "Reset Navigation" button below the "Save Changes" button and Homepage dropdown. **All customizations will be lost**: custom links will be deleted, and navigation item order and custom labels will revert to Omeka defaults.
 
