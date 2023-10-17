@@ -1,17 +1,17 @@
 # Tags
 
-Tags are keywords or phrases that describe a piece of data. They are non-hierarchical labels that classify your content so that it is easily found. You can add tags to [Items](Items.md) and [Exhibits](../Plugins/ExhibitBuilder.md).
+Tags are keywords or phrases that create links to describe a piece of data. They are non-hierarchical labels that classify your content so that it is easily found. You can add tags to [Items](Items.md) and [Exhibits](../Plugins/ExhibitBuilder.md).
 
 <div style="padding:51.99% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/102040465?h=00bd26943c" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 <p><a href="https://vimeo.com/102040465">Omeka Classic: Managing Collections and Tags</a> from <a href="https://vimeo.com/omeka">Omeka</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
-To manage your tags, sign into the Omeka Classic admin panel and select Tags from the left-hand navigation bar. This displays all the tags associated with records in your Omeka Classic installation. You may edit and delete tags, sort tags, and view items associated with individual tag.
+To manage your tags, sign into the Omeka Classic admin panel and select "Tags" from the left-hand navigation bar. This displays all the tags associated with records in your Omeka Classic installation. You may edit and delete tags, sort tags, and view items associated with individual tag.
 
 ![Tags in left nav](../doc_files/Tagsnav.png)
 
-Browse Tags Page
+Browse Tags page
 ---------------
-On the Browse Tags page, all tags used in your installation appear on the right side of the page, while on the left, next to the navigation, are options for search and an explanation of the tag display.
+On the "Browse Tags" page, all tags used in your installation appear on the right side of the page, while on the left, next to the navigation, are options for searching and an explanation of the tag display.
 
 ![Browse tags page](../doc_files/tags.png)
 
@@ -23,7 +23,7 @@ Each tag used on your site appears as a unit which gives you the following (per 
 
 ![A tag labeled with sections labelled with 1, 2, and 3.](../doc_files/Tagsample.png)
 
-### Sort Tags
+### Sort tags
 There are four button options for sorting the tags, found above the tag cluster. 
 
 ![Close up of the sort buttons labelled Name, Count, and Date Created. Name is highlighted a slightly darker color than the others and a triangle pointing up indicates the sort is ascending.](../doc_files/tags-sort.png)
@@ -36,7 +36,7 @@ From left to right, they are:
 
 An upward pointing triangle indicates an ascending sort. A downwards pointing triangle indicates a descending sort. 
 
-In addition, there is a drop-down menu to the right of the sort options to limit the tags displayed by **Record Types**
+In addition, there is a drop-down menu to the right of the sort options to limit the tags displayed by **Record Types**.
 
 ![Close up of the record types selector, showing the options for All, Exhibit, and Item](../doc_files/tags-recordtypes.png)
 
@@ -48,14 +48,14 @@ From the Record Types dropdown, select from the following options:
 - Exhibit
 - Item.
 
-Note that if you do not have any exhibits tagged, you will still see the dropdown for Record Types - your options will be All and Items.
+Note that if you do not have any exhibits tagged, you will still see the dropdown for Record Types - your options will be "All" and "Items".
 
-When you have restricted display by record type, it will not show up in the dropdown but will display near the top of the page. To reset, either select "all" from the dropdown or click the blue "reset" button next to the Record Type message.
+When you have restricted display by record type, it will not show up in the dropdown but will display near the top of the page. To reset, either select "All" from the dropdown or click the blue "Reset results" button next to the Record Type message.
 
 ![Shows the browse tags page including search, tag info display, and tags. A red arrow points to a message stating "Record Type: Exhibit" next to the search bar](../doc_files/tagsrecorddisplay.png)
 
-### Search Tags
-In addition to the site-wide content [search](../GettingStarted/Searching.md), you can search just tags using the "Search tags" field in the upper left of the browse tags page, near the left-hand navigation bar.
+### Search tags
+In addition to the site-wide content [search](../GettingStarted/Searching.md), you can search exclusively tags using the "Search tags" field in the upper left of the browse tags page, near the left-hand navigation bar.
 
 ![Closeup of the browse tags page, showing the page header. Immediately below it is an empty text field with a green Search tags button attached. A red arrow points to the text field.](../doc_files/tagsearchbox.png)
 
@@ -71,15 +71,15 @@ Clear your search terms and return to regular tag browse by clicking the "Reset 
 
 If you have restricted record types to Exhibit or Item tags, the search will return results for those record types only. 
 
-### View Tagged Items
-To view items associated with an individual tag, you need to be viewing *only* tags associated with Item record types. 
+### View tagged items
+To view items associated with an individual tag, you need to be viewing only tags associated with Item record types. 
 
 1. From the Record Type filter, choose Items.
 2. Find the tag whose items you want to view.
 2. Click on the number to the left of the name of your tag.
 3. A browse page opens displaying only items tagged with the tag you clicked.
 
-## Edit a Tag 
+## Edit a tag 
 You can rename a tag from this page. Tags edited in the admin panel change on all items across the site wherever they appear.
 
 ![Tagedit.png](../doc_files/Tagedit.png)
@@ -92,8 +92,8 @@ To edit a tag:
 
 When editing, you cannot use an existing tag. For example, if you have 5 items tagged with "banana" and 2 items tagged with "bananana", you cannot edit the misspelled tag to the correct spelling. You would need to edit the items with the tag you want to remove, adding the desired tag and deleting the undesired tag. You can use the batch-edit function to add tags to items but not to delete tags.
 
-Delete a Tag 
------------------------------------------------------------------
+## Delete a tag 
+
 Deleting a tag removes all occurrences of that tag across all items.
 
 ![Tagdelete.png](../doc_files/Tagdelete.png)
@@ -102,11 +102,11 @@ To delete a tag:
 
 -   Choose the tag you wish to delete from the select menu.
 -   Select the X to the right of the tag.
--   A window will open with the question, "Are you sure?" 
+-   A window will open with the question "Are you sure?" 
 -   Click Delete, and that tag is permanently deleted across your Omeka items. (If you change your mind, close the query window by clicking on the X in the upper right hand corner.)
 
-Public View
---------------------
+## Public view
+
 Visitors to your site can browse tags by going to Browse Items and selecting the "Browse by Tag" option. The url for this page is `/items/tags`. Depending on the theme, the tags may appear as a cluster or a group, and may be scaled according to use.
 
 For example, in Thanks, Roy, the default theme, the most frequently used tags are in a larger font:

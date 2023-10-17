@@ -8,7 +8,7 @@ Omeka Classic has the following system requirements:
 -   [PHP](http://www.php.net/){target=_blank} scripting language version 5.6 or higher (with mysqli and exif extensions installed)
 -   [ImageMagick](http://www.imagemagick.org/script/index.php){target=_blank} image manipulation software (for resizing images).
 
-## Upgrading Your System
+## Upgrading your system
 
 If you need to upgrade your server to meet any of the Omeka system requirements, consult these resources:
 

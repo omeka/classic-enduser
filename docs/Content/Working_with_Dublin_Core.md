@@ -9,7 +9,7 @@ The Omeka team decided that we wanted to contribute to a movement that is helpin
 - [Dublin Core Metadata Element Set, Version 1.1: Reference Description](http://dublincore.org/documents/dces/){target=_blank}; [Latest version here](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#section-3){target=_blank}
 - [Historical overview and bibliography of Dublin Core resources (2010)](http://www.oclc.org/research/activities/past/orprojects/dublincore/default.htm){target=_blank}
 
-Interpreting Dublin Core Fields in Omeka Classic 
+Interpreting Dublin Core fields in Omeka Classic 
 --------------------------------------------------------
 
 The following Dublin Core fields are available in Omeka, together with some suggestions on interpreting the fields. The fields are broad and loosely-defined by design, so please consult with the [DCMI element descriptions](http://dublincore.org/documents/usageguide/elements.shtml){target=_blank} to be sure you are meeting the specific needs of your project. 
