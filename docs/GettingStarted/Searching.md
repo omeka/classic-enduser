@@ -85,6 +85,6 @@ If you are logged in to your Omeka Classic installation, you will see all items 
 
 **If you are having trouble finding words you know are in your install, the following may be part of the problem:**
 
--   MySQL by default does not index any words shorter than 4 letters long.
+-   MySQL by default does not index any words shorter than 4 characters long. This may include numerical identification numbers in your collection, particularly if they include punctuation, as in "2020.01.123-ABC".
 -   Exact match searches will look for the exact string given by the user, anywhere in the record. For example a search for “poe” would also return “poem”.
 -   MySQL considers terms that appear in over 50% of indexed items to be so common that it excludes them from keyword searches. The easy way to tell if a term meets the 50% threshold is to choose the “Boolean” search, as MySQL does not apply the 50% limitation to Boolean searches.
