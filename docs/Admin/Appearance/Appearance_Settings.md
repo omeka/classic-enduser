@@ -12,8 +12,8 @@ Note that these settings are general for the install - the size at which thumbna
 
 These following are the default settings for the three size constraints, in pixels:
 
--   Fullsize Image: 600
--   Thumbnail: 300
+-   Fullsize Image: 800
+-   Thumbnail: 200
 -   Square Thumbnail: 200.
 
 To make changes, simply type a number into the corresponding text field.
