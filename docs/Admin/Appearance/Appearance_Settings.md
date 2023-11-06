@@ -6,9 +6,14 @@ The Settings sub-tab in the Appearance section help you to manage derivative ima
 
 Derivative Size Constraints
 ----------------------------------------------------------------
-In this section, you can set the default maximum image sizes for Fullsize, Thumbnails, and Square Thumbnails in pixels for the longest side of the image. 
 
-Note that these settings are general for the install - the size at which thumbnails display on item browse, exhibit, and other pages may also depend on which theme you are using.
+In this section, you can set the maximum image sizes for the derivative images Omeka creates when you upload a file. 
+
+For each of Fullsize and Thumbnail, you can set a number in pixels for the longest side of the image. For example, if you are uploading a 800x1000 pixel image, a setting of "100" as the thumbnail maximum would resize the image down to 80x100 pixels. 
+
+A Square Thumbnail, instead, resizes the smallest edge down, and crops the excess from the longest side. For example, if you are uploading a 800x1000 pixel image, a setting of "100" as the thumbnail maximum would resize the image down to 100x125 pixels and then crop 12.5 pixels from each side to display the center of the image. 
+
+Note that these settings are general for the installation - the size at which thumbnails display on item browse, exhibit, and other pages may also depend on which theme you are using.
 
 These following are the default settings for the three size constraints, in pixels:
 
