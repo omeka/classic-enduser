@@ -29,3 +29,7 @@ The administrative dashboard of Omeka Classic has the following features for acc
 A VPAT (Voluntary Product Accessibility Template) for Omeka Classic 2.3.1, from 2015, is available for [download as a PDF](../doc_files/VPAT_Omeka2015.pdf){target=_blank}.
 
 We have a separate VPAT for Omeka.net, also from 2015, available [on that site](http://info.omeka.net/signup/accessibility/){target=_blank}.
+
+## Accessibility Issues
+
+If you encounter an issue with accessiblity with the Omeka S core software or Omeka Team developed addons, please report your findings either via a [Forum post](https://forum.omeka.org/c/omeka-s/accessibility/36) or by making an issue in the appropriate Github repository.
