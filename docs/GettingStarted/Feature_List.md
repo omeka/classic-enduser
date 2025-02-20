@@ -46,6 +46,7 @@ Click [here](../doc_files/featurelist_2-x.pdf){target=_blank} for a PDF version 
 **Interoperable**
 
 - Unqualified Dublin Core data, combined with Omeka Classic-generated feeds and OAI-PMH harvestable data, give Omeka Classic sites the ability to share data among different systems and with other Omeka Classic sites. The [Dublin Core Extended plugin](../Plugins/DublinCoreExtended.md) adds a full complement of all DCMI elements.
+- Add the [Resource Meta plugin](../Plugins/ResourceMeta.md) to feed your item-level metadata to machine-readable HTML that can be harvested by external indexers. 
 
 **Data sharing**
 

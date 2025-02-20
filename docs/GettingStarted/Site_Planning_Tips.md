@@ -4,9 +4,8 @@ Before you start building an Omeka Classic site, it is useful to view sites from
 
 Questions to ask while planning
 ---------------------------------------------------------------
-These questions will help with planning:
 
-**What are the primary goals of the website?**
+**What are the goals of the website?**
 
 **Who is the primary audience of this website? Secondary audiences?** 
 
@@ -50,6 +49,7 @@ Add the objects and materials you want to share. Once you have items in your Ome
 
 - Do you want to add **social bookmarking** icons to the bottom of item pages, to make it easier for users to share items with their social networks? Install the [Social Bookmarking](../Plugins/SocialBookmarking.md) plugin.
 - Do you want to display items on a **map**? Install the [Geolocation](../Plugins/Geolocation.md) plugin, then add geolocation metadata to each item.
+- Do you want users to navigate your items chronologically? Install the [Timeline](../Plugins/Geolocation.md) plugin, in addition to providing sortable date metadata, so that items can be displayed in a scrollable timeline. 
 - Do you want to allow users to leave **comments** on items? Install the [Commenting](../Plugins/Commenting.md) plugin.
 - Do you have documents that you wish users to **read on-screen** rather than downloading them? Install the [DocsViewer](../Plugins/DocsViewer.md) plugin.
 
@@ -66,9 +66,7 @@ Learn more in the instructions for using the [Exhibit Builder](../Plugins/Exhibi
 
 Digital exhibit publishing is a popular class assignment for students, or a way for users and volunteers to contribute to your institution. Learn more about [creating different users and giving them permissions](../Admin/Users.md) to build things on your Omeka Classic installation.
 
-It's also common to create a digital companion exhibit to a physical exhibit in your space. Digital exhibits can expand upon and complement your displays of artifacts. 
-
-Do you want to print **QR codes** that will link people to individual items in your Omeka Classic site? Install the [Reports](../Plugins/Reports.md) plugin.
+It's also common to create a digital companion exhibit to a physical exhibit in your space. Digital exhibits can expand upon and complement your displays of artifacts. Do you want to print **QR codes** that will link exhibit visitors to individual items in your Omeka Classic site? Install the [Reports](../Plugins/Reports.md) plugin.
 
 Create webpages
 ---------------------
