@@ -90,6 +90,8 @@ The **Text** block allows you to create a section of text which spans the width 
 
 The **File** block allows you to add larger files as a separate block.
 
+The **Carousel** block creates a slidehow of item files as thumbnails, square thumbnails, or as the full size file. You can pair the file with a caption and/or the item title, and text can be positioned left, right, or center. You can feature up to ten items per slide and adjust the scrolling speed and duration of the slides.
+
 ![Select block dialog with options as described above](../doc_files/plugin_images/eb_selectblock.png)
 
 To add a content block, select the layout you want in the New Block dialog box. Once you have selected the kind you want, click the "Add new content block" button. You will have a new block on the page to configure your content.
@@ -138,13 +140,13 @@ Exhibit text can be formatted using the [text editor bar](../Content/Using_HTML_
 
 ### Layout Options
 
-Both the File with Text and Gallery blocks include layout options to change the look of the exhibit page. To access these options, click the black triangle button to the right of the Layout Options text at the bottom of the block. This will reveal dropdown menus with options for changing the layout.
+The File with Text, Gallery, and Carousel blocks include layout options to change the look of the exhibit page. To access these options, click the black triangle button to the right of the Layout Options text at the bottom of the block. This will reveal dropdown menus with options for changing the layout.
 
 The **File with Text** block has the following options, all of which are drop-down menus (options listed in parentheses after the dropdown label):
 
-- File Position (left, right): position of the file relative to the text block.
-- File Size (full-size, thumbnail, square thumbnail): 
-- Captions position (center, left, right): the position of the file's caption relative to the file (not the text block)
+- File Position (left, right): a dropdown to select the position of the file relative to the text block.
+- File Size (full-size, thumbnail, square thumbnail): a dropdown to select the item file size.
+- Captions position (center, left, right): a dropdown to select the position of the file's caption relative to the file (not the text block)
 Whatever you select affects all of the files for that block equally. The text in this block will stay fixed to the right or left of the file, but will wrap below if the length of the text exceeds the height of the file.
 
 ![File with Text block layout options](../doc_files/plugin_images/eb_fwtLayout.png)
@@ -152,23 +154,41 @@ Whatever you select affects all of the files for that block equally. The text in
 
 The **Gallery** block has the following options, all of which are drop-down menus (options listed in parentheses after the dropdown label): 
 
-- Showcase File Position (no showcase file, left, right): a showcase file is full-size, while the rest of the gallery files are thumbnails. 
-- Gallery position (left, right): position of the gallery files relative to the showcase file. If there is no showcase file, the gallery will use the full width of the page.
-- Gallery File Size (square thumbnail, thumbnail): for all files in the gallery except the showcase file.
-- Captions Position (center, left, right): the position of the file's caption relative to its file.
+- Showcase File Position (no showcase file, left, right): a dropdown to selec the position of the showcase file. A showcase file is full-size, while the rest of the gallery files are thumbnails. 
+- Gallery position (left, right): a dropdown to select the position of the gallery files relative to the showcase file. If there is no showcase file, the gallery will use the full width of the page.
+- Gallery File Size (square thumbnail, thumbnail): a dropdown to select the file size for all files in the gallery except the showcase file.
+- Captions Position (center, left, right): a dropdown to select the position of the file's caption relative to its file.
 
 ![Gallery block layout options](../doc_files/plugin_images/eb_gLayout.png)
 
 The **File** block has the following options, all of which are drop-down menus (options listed in parentheses after the dropdown label): 
 
-- File Position (left, right, center): position of the file relative to page margins.
-- File Size (full-size, thumbnail, square thumbnail): 
-- Captions position (center, left, right): the position of the file's caption relative to page margins (not the file)
+- File Position (left, right, center): a dropdown to select the position of the file relative to page margins.
+- File Size (full-size, thumbnail, square thumbnail): a dropdown to select the item file size.
+- Captions position (center, left, right): a dropdown to select the position of the file's caption relative to page margins (not the file)
 
 ![File block layout options](../doc_files/plugin_images/eb_fLayout.png)
 
+The **Carousel** block has the following options, which are a mix of text boxes, drop-down menus, and checkboxes:
+
+- Carousel title: a text field to enter your title. 
+- Items per slide (1-10): a dropdown to select the number of items represented on each slide in the carousel.
+- Item file size (thumbnail, square thumbnail, full size): a dropdown to select the item file size.
+- Show item title: a checkbox to include the item title on the slide along with the file.
+- Overlay caption: a checkbox to overlay the caption on the file (which may require adjusting the CSS settings).
+- Caption/title position (center, left, right): a dropdown to select the position of included text relative to the file.
+- Stretch image to fill (none, fill width, fill height, fill entire slide): a dropdown to set the image fill.
+- Scrolling speed: a text field that sets the speed for the scrolling animation. May be "fast", "slow", or a time in milliseconds. Default is 400.
+- Auto slide duration: a text field that sets the time in milliseconds to pause before auto advance. Set to 0 to turn off.
+- Loop: a checkbox to make the carousel continually replay.
+- Fade between slides: a checkbox that adds a fade effect between slides, but it only works with 1 item per slide.
+
+![Carousel block layout opion](../doc_files/plugin_images/eb_cLayout.png)
+
 ### Additional Layouts
 Some plugins include their own Exhibit Builder content block layouts.
+
+#### Geolocation
 
 If you have installed the [Geolocation](Geolocation.md) plugin, you will have the
 **Geolocation Map** block as an option in your exhibits. This block has no text. Select items which already have been geolocated using the plugin in their item edit page. This block displays as a map across the full width of the page, with markers for the items you select. Any captions you enter will appear in a pop-up inside the map when the item marker is clicked, as will the item file and title.
@@ -178,6 +198,11 @@ This image shows a Geolocation block with items added:
 
 And this is how the map looks on the public view of the exhibit page:
 ![Geolocation block public view](../doc_files/plugin_images/eb_geolocationPublic.png)
+
+#### Timeline
+
+If you have installed the [Timeline](Timeline.md) plugin, you will have the **Timeline** block as an option in your exhibits. Select one of your previously created timelines from the dropdown menu to add it to your exhibit page. This is how the timeline looks on the public view of the exhibit page (appearance will differ slightly depending on the theme):
+![Timeline block public view](../doc_files/plugin_images/eb_timelinePublic.png)
 
 ## Shortcodes
 

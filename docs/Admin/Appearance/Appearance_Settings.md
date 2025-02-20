@@ -6,6 +6,7 @@ The Settings sub-tab in the Appearance section help you to manage derivative ima
 
 Derivative Size Constraints
 ----------------------------------------------------------------
+
 In this section, you can set the maximum image sizes for the derivative images Omeka creates when you upload a file. 
 
 For each of Fullsize and Thumbnail, you can set a number in pixels for the longest side of the image. For example, if you are uploading a 800x1000 pixel image, a setting of "100" as the thumbnail maximum would resize the image down to 80x100 pixels. 

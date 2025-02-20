@@ -45,19 +45,19 @@ When an active plugin is out of date, a notification will appear at the bottom o
 
 Clicking the phrase "Get the new version" will take you to a page where you can download the latest version of the plugin. 
 
-![Entry for the plugin COinS, display the out of date notification below the usual information for the plugin](../doc_files/plugin_updatenotice.png "Entry for the plugin COinS, display the out of date notification below the usual information for the plugin")
+![Entry for a plugin, displaying the out-of-date notification below the usual information for the plugin](../doc_files/plugin_updatenotice.png "Entry for a plugin, displaying the out-of-date notification below the usual information for the plugin")
 
-In order to upgrade a plugin, you will need to use your FTP client to replace the old plugin folder with the new one: 
+You will upgrade by replacing the old plugin folder with the new one: 
 
 1. Go to the admin dashboard of your Omeka site and navigate to the Plugins tab on the top navigation menu.
 1. Click the "Deactivate" button to deactivate the plugin you would like to upgrade. **Warning**: Do not click the uninstall button, or you may delete data associated with the plugin.
 1. Download the new version of the plugin, and unzip it on you computer. 
-1. Open your FTP client and use your FTP login info to access your site.
+1. Open your FTP client and use your FTP login info to access your site, or use cPanel's file manager, or your WebFTP interface, etc.
 1. Navigate to your Omeka folder online, then open the `/plugins` folder.
 1. Delete the old plugin folder from your `/plugins` folder, or move it temporarily out of that location.
 1. Upload the new version of the plugin to the `/plugins` folder. Be careful, as above, to ensure the folder name is correct. 
-1. Go back to the Plugins page in your browser.
-1. You may be directed to upgrade your plugin - click the link to upgrade and then re-activate your plugin.
+1. Go to the admin dashboard of your Omeka site and navigate to the Plugins tab on the top navigation menu.
+1. Find your plugin in the list. You should be directed to upgrade the plugin - click the "Upgrade" button to complete the process.
 
 If you have installed the plugin with `git clone` you may update the plugin using `git pull`. 
 

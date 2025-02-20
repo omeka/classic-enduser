@@ -275,3 +275,9 @@ Options:
 `speed` sets the speed for the scrolling animation. May be "fast", "slow", or a time in milliseconds. Default is 400. For example: `[carousel speed=slow]` or  `carousel speed=500]`.
 
 `autoscroll`: setting autoscroll=true will make the items automatically scroll interval. When autoscroll is on, interval sets the interval between scrolling in milliseconds. Default is 3000. For example: `[carousel autoscroll=true interval=700]`.
+
+### Timeline
+
+The [timeline](../Plugins/Timeline.md) shortcode will embed a timeline created using the Timeline plugin.
+
+The shortcode is `[timeline title= '']`with the timeline title value inserted.

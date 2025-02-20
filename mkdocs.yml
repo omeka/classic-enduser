@@ -81,6 +81,7 @@ nav:
         - Plugins/Posters.md
         - Plugins/RecordRelations.md
         - Plugins/RedactElements.md
+        - Plugins/ResourceMeta.md
         - Plugins/Reports.md
         - Plugins/Scripto.md
         - Plugins/SearchByMetadata.md
@@ -91,6 +92,7 @@ nav:
         - Plugins/SocialBookmarking.md
         - Plugins/TextAnalysis.md
         - Plugins/TextAnnotation.md
+        - Plugins/Timeline.md
         - Plugins/UserProfiles.md
         - Plugins/VRACore.md
         - Plugins/ZoteroImport.md
