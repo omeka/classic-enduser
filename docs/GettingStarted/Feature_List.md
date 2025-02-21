@@ -34,7 +34,7 @@ Click [here](../doc_files/featurelist_2-x.pdf){target=_blank} for a PDF version 
 
 **Standards-based metadata and web design**
 
-- Every item, file, and collection contains fields for unqualified Dublin Core elements. Dublin Core is an internationally-recognized and widely-adopted schema.
+- Every item, file, and collection contains fields for unqualified Dublin Core elements. Dublin Core is an internationally-recognized and widely-adopted schema. You can expand it with Dublin Core Extended, use PBCore or VRA Core instead, fill in fields with controlled vocabularies such as Library of Congress Suggest, and make your metadata machine-readable with the Resource Meta or OAI-PMH Repository plugins.
 - Omeka Classic comes packaged with design themes that follow best practices in accessible web design, are section 508 compliant, have ARIA roles for screen readers, and are responsive to different screen sizes for ease of reading on tablets and mobile phones.
 
 **Customizable web design**
@@ -45,21 +45,24 @@ Click [here](../doc_files/featurelist_2-x.pdf){target=_blank} for a PDF version 
 
 **Interoperable**
 
-- Unqualified Dublin Core data, combined with Omeka Classic-generated feeds and OAI-PMH harvestable data, give Omeka Classic sites the ability to share data among different systems and with other Omeka Classic sites. The [Dublin Core Extended plugin](../Plugins/DublinCoreExtended.md) adds a full complement of all DCMI elements.
+- Unqualified Dublin Core data, combined with Omeka Classic-generated feeds and OAI-PMH harvestable data, give Omeka Classic sites the ability to share data among different systems and with other Omeka Classic sites. The [Dublin Core Extended plugin](../Plugins/DublinCoreExtended.md) adds a full complement of all DCMI elements; PBCore and VRA Core add further interoperable metadata fields.
 - Add the [Resource Meta plugin](../Plugins/ResourceMeta.md) to feed your item-level metadata to machine-readable HTML that can be harvested by external indexers. 
 
 **Data sharing**
 
-- Share your Omeka Classic data through a variety of feeds including Atom, DCMES-XML, JSON, and RSS2. With the Dublin Core Extended plugin, RDF output is also available.
+- Share your Omeka Classic data through a variety of feeds including Atom, DCMES-XML, JSON, and RSS2. 
+- With the Dublin Core Extended plugin, RDF output is also available.
+- Make your metadata more machine-readable with the Resource Meta or OAI-PMH Repository plugins.
 - Every Omeka Classic site has a REST API enabled which makes your Omeka Classic data discoverable by outside applications. 
 
 **Data migration**
 
-- Populate an Omeka Classic site by adding items individually or batch adding with data migration and upload tools, such as the [OAI-PMH harvester plugin](../Plugins/OaipmhHarvester.md), [Dropbox plugin](../Plugins/Dropbox.md) for files, and API, CSV, and Zotero importer plugins.
+- Populate an Omeka Classic site by adding items individually or batch adding with data migration and upload tools, such as the [OAI-PMH harvester plugin](../Plugins/OaipmhHarvester.md), [Dropbox plugin](../Plugins/Dropbox.md) for files, and Zotero importer plugins. For everything else, import a spreadsheet of formatted data with the CSV Import plugin.
+- Easily move your materials from one Classic site to another with the Omeka API Import tool.
 
 **Internationalization of Omeka Classic code**
 
-- Translations available in dozens of languages and anyone may submit new translations.
+- Translations available in dozens of languages - and anyone may submit new translations.
 
 **Non-Roman character support**
 
@@ -93,15 +96,17 @@ Click [here](../doc_files/featurelist_2-x.pdf){target=_blank} for a PDF version 
 - Customize search to include items, collections, exhibits, and all web pages.
 - Create customized [reports](../Plugins/Reports.md) with a simple HTML export, or a PDF export that prints QR codes.
 
-**Display items on a map**
+**Browse items with interactive tool**
 
 - Assign locations to items, and add maps to exhibits using [Geolocation](../Plugins/Geolocation.md).
+- Organize your items chronologically with [Timelines](../Plugins/Timeline.md).
 
 **Analyze and annotate your items**
 
 - Conduct textual analysis on the items in your Omeka Classic site using the [Ngram](../Plugins/Ngram.md) and [Text Analysis](../Plugins/TextAnalysis.md) plugins. 
 - Create annotated images in your exhibits using [Exhibit Image Annotation](../Plugins/ExhibitImageAnnotation.md). 
 - Enable users to annotate the text of your site using [Text Annotation](../Plugins/TextAnnotation.md). 
+- Keep staff annotations private with the [Editorial](../Plugins/Editorial.md) plugin.
 
 ## Visitor experience with an Omeka Classic site
 See the [Omeka Classic Showcase](http://omeka.org/classic/showcase/){target=_blank} for examples of site designs and experiences possible with an Omeka Classic site.

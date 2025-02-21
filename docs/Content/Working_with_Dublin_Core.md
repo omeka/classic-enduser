@@ -12,15 +12,15 @@ The Omeka team decided that we wanted to contribute to a movement that is helpin
 Interpreting Dublin Core fields in Omeka Classic 
 --------------------------------------------------------
 
-The following Dublin Core fields are available in Omeka, together with some suggestions on interpreting the fields. The fields are broad and loosely-defined by design, so please consult with the [DCMI element descriptions](http://dublincore.org/documents/usageguide/elements.shtml){target=_blank} to be sure you are meeting the specific needs of your project. 
+The following Dublin Core fields are available in any Omeka installation, together with some suggestions on interpreting the fields. The fields are broad and loosely-defined by design, so please consult with the [DCMI element descriptions](http://dublincore.org/documents/usageguide/elements.shtml){target=_blank} to be sure you are meeting the specific needs of your project. 
 
-Read one example of Dublin Core interpretations from the [North Carolina Exploring Culture and Heritage Online](https://www.digitalnc.org/partners/describing-your-materials/){target=_blank} project.
+We recommend reading one example of Dublin Core interpretations from the [North Carolina Exploring Culture and Heritage Online](https://www.digitalnc.org/partners/describing-your-materials/){target=_blank} project.
 
-For almost any field, the [Library of Congress Suggest](../Plugins/Library_of_Congress_Suggest.md) plugin can supply you with the ability to select from a controlled vocabulary. This includes not just subject headings but people, places, and other authorities offered by LC. 
+For almost any field, the [Library of Congress Suggest](../Plugins/Library_of_Congress_Suggest.md) plugin can offer a controlled vocabulary. This includes not just subject headings but people, places, and other authorities offered by LC. 
 
 With the [Simple Vocab plugin](../Plugins/SimpleVocab.md) you can design custom controlled vocabularies, such as a list of notable people relevant to your materials, and attach them to the Dublin Core elements below.
 
-You may also want to review the detailed breakdown of [item types](Item_Types.md) with examples and a list of their item type metadata elements, and customize the Dublin Core fields most useful to you based on the item type.
+You can review the detailed breakdown of [item types](Item_Types.md) with examples and a list of their item type metadata elements, and customize the Dublin Core fields most useful to you based on the item type.
 
 With these tools, you can plan a comprehensive and coordinated approach to using the Dublin Core fields in your Omeka site. 
 
@@ -133,3 +133,7 @@ The spatial or temporal topic of the resource, the spatial applicability of the 
 Spatial topic and spatial applicability may be a named place or a location specified by its geographic coordinates. Temporal topic may be a named period, date, or date range. A jurisdiction may be a named administrative entity or a geographic place to which the resource applies.
 
 Recommended best practice is to use a controlled vocabulary such as the [Thesaurus of Geographic Names (TGN)](http://www.getty.edu/research/tools/vocabularies/tgn/index.html){target=_blank}. Where appropriate, named places or time periods can be used in preference to numeric identifiers such as sets of coordinates or date ranges.
+
+## More Dublin Core
+
+The [Dublin Core Extended plugin](../Plugins/DublinCoreExtended.md) adds further fields that may be of use to you. For example, it adds fields for "Abstract," "Bibliographic Citation," and "Table of Contents" for publication metadata; more specific date fields including "Date Created," "Date Modified," and "Date Copyrighted"; or "Spatial Coverage" and "Temporal Coverage" to provide separate and structured versions of the "Coverage" field above. 

@@ -13,21 +13,21 @@ The team behind *Histories of the National Mall* wrote a comprehensive explanati
 ### Scholars
 
 - Use Omeka Classic to share primary source collections, publish a series of essays, and collaborate with others in digital scholarship.
-- Plugins and features you might like: Exhibit Builder, DocsViewer, Geolocation, Image Annotation, Text Analysis; tagging features.
+- Plugins and features you might like: Exhibit Builder, DocsViewer, Geolocation, Timeline, Image Annotation, Text Analysis; tagging features.
 - Examples: [From Farms to Freeways: Women's Memories of Western Sydney](http://omeka.uws.edu.au/farmstofreeways/){target=_blank}; [New Roots: Voices from Carolina del Norte](https://newroots.lib.unc.edu/){target=_blank}; [Intemperance Archive](http://intemperance.org/){target=_blank}. 
 
 
 ### Museum professionals
 
 - Use Omeka Classic to share collections and build online exhibits to accompany or enhance physical exhibits.
-- Plugins and features you might like: Exhibit Builder, Posters, Contribution, Reports, Social Bookmarking, CSV Import, OAI-PMH Repository, Omeka API Import; Dublin Core metadata standards, [W3C and 508 compliance](../GettingStarted/Accessibility_Statement.md).
+- Plugins and features you might like: Exhibit Builder, Geolocation, Timeline, Posters, Contribution, Reports, Social Bookmarking, CSV Import, OAI-PMH Repository, Omeka API Import; Dublin Core metadata standards, [W3C and 508 compliance](../GettingStarted/Accessibility_Statement.md).
 - Examples: [John J. Audubon's Birds of America](http://omeka.tplcs.ca/virtual-exhibits/exhibits/show/audubon){target=_blank}; [Marshall M. Fredericks Sculpture Museum](http://omeka.svsu.edu/){target=_blank}.
 
 
 ### Librarians
 
 - Use Omeka Classic as the publishing tool to complement your online catalog or launch a digital exhibit.
-- Plugins and features you might like: Posters, Library of Congress Suggest, CSV Import, OAI-PMH Repository, Omeka API Import; Dublin Core metadata standards, W3C and 508 compliance, extensible and customizable item fields.
+- Plugins and features you might like: Dublin Core Extended, Library of Congress Suggest, Resource Meta, CSV Import, OAI-PMH Repository, Omeka API Import; Dublin Core metadata standards, W3C and 508 compliance, extensible and customizable item fields.
 - Examples: [DIY History](http://diyhistory.lib.uiowa.edu/){target=_blank}; [Virginia Tech Special Collections Online](https://digitalsc.lib.vt.edu/){target=_blank}; [Isaiah Thomas Broadside Ballads](http://www.americanantiquarian.org/thomasballads/){target=_blank}. 
 
 

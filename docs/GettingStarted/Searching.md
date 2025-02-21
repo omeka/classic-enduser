@@ -1,15 +1,15 @@
 # Searching
 
-This page explains the search functions in Omeka Classic on the public and admin sides, and how to use them. If you are looking for information on how to [manage search settings, please see that documentation](../Admin/Settings/Search_Settings.md).
+This page explains the search functions in Omeka Classic on the public and administrative sides, and how to use them. If you are looking for information on how to manage search settings, please see [the page on Search Settings in the Administration section](../Admin/Settings/Search_Settings.md).
 
 Basic search
 -------------
-The simplest way to search an Omeka Classic installation is using the simple search bar. On the admin side, this is always present in the upper right hand area of the window, under the top navigation bar. The exact location of the search bar on the public side varies by theme, but is generally close to the navigation menu. 
+The simplest way to search an Omeka Classic installation is with the simple search bar. On the admin side, this is always present in the upper right hand area of the screen, under the top navigation bar. The exact location of the search bar on the public side varies by theme, but is generally close to the navigation menu at the top of the screen. 
 
-To perform a basic search, type the keyword you want to search for in the field and either hit enter on your keyboard or click the search button (the magnifying glass icon). Depending on the [search settings](../Admin/Settings/Search_Settings.md), content in this search might include item, file, and collection metadata, the text on Simple Pages, exhibit summary pages, and exhibit pages. 
+To perform a basic search, type the keyword you want to search for into the box and either hit enter on your keyboard or click the search button (the magnifying glass icon). Depending on the [search settings](../Admin/Settings/Search_Settings.md), content in this search might include item, file, and collection metadata, the text on Simple Pages, exhibit summary pages, and exhibit pages. 
 
 ### Search options
-To access the options for a basic search, click on the ellipsis (...) button to the right of the search bar, next to the search button (magnifying glass).
+To access the options for a basic search, click on the ellipsis button ("...") to the right of the search bar, next to the search button (the magnifying glass icon).
 
 ![Search options, as seen on the public side](../doc_files/searchExpanded.png "Search options, as seen on the public side")
 
@@ -33,11 +33,11 @@ as well as options provided by plugins, such as:
 
 Advanced Search
 ----------------
-Advanced Search, which will only search the items in your Omeka Classic installation, is available on the admin side, and on the public side if the *Use Advanced Site-Wide Search* option is checked in the [theme settings](../Admin/Appearance/Themes.md#configuring-a-theme). 
+Advanced Search, which will only search the items in your Omeka Classic installation, is available on the admin side, and on the public side if the "Use Advanced Site-Wide Search" option is checked in the [theme settings](../Admin/Appearance/Themes.md#configuring-a-theme). 
 
-![Search options, with the ellipses expanded. There is a red 1 just under the ellipses. At the bottom of the window, below the options for search query type and record types, a red 2 is next to the "Advanced Search" link](../doc_files/searchExpanded.png "Search options, with the ellipses expanded. There is a red 1 just under the ellipses. At the bottom of the window, below the options for search query type and record types, a red 2 is next to the "Advanced Search" link")
+To access the advanced search, click on the ellipsis button to the right of the basic search bar and then click the link reading “Advanced Search (Items Only)”.
 
-To access the advanced search, click on the ellipsis (…) button to the right of the basic search bar and then click the link reading “Advanced Search (Items Only)”.
+![Search options, with the ellipses expanded. At the bottom of the window, below the options for search query type and record types, there is the "Advanced Search" link](../doc_files/searchExpanded.png "Search options, with the ellipses expanded. At the bottom of the window, below the options for search query type and record types, there is the "Advanced Search" link")
 
 The “Search Items” page will load. It presents a variety of options for advanced searching across all items. You do not need to complete all fields, only as many as you want.
 
@@ -81,9 +81,10 @@ If you have [the Exhibit Builder plugin](../Plugins/ExhibitBuilder.md) installed
 Troubleshooting
 ---------------------------------------------------
 **Seeing private items when searching on the public side**:
+
 If you are logged in to your Omeka Classic installation, you will see all items and exhibits on the public and admin side - private and public. Try logging out, copying the page URL to a private browser window, or visiting the site in a browser where you are not logged in.
 
-**If you are having trouble finding words you know are in your install, the following may be part of the problem:**
+**Trouble finding words you know are in your install:**
 
 -   MySQL by default does not index any words shorter than 4 characters long. This may include numerical identification numbers in your collection, particularly if they include punctuation, as in "2020.01.123-ABC".
 -   Exact match searches will look for the exact string given by the user, anywhere in the record. For example a search for “poe” would also return “poem”.
