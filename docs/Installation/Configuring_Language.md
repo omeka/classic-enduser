@@ -2,7 +2,7 @@
 
 Omeka is designed so that all of the interface strings in the administrative and public sides can be translated using [Transifex](https://www.transifex.com){target=_blank}. 
 
-To have Omeka translate strings into another language where available, open the `config.ini` file found in the folder `{omeka-root}/application/config` in a text editor.
+To have Omeka translate strings into another language where available, open the `config.ini` file found in the folder `your-omeka-installation/application/config` in a text editor.
 
 Look for the "Localization" section (at the top), and the line in it that reads: 
 
@@ -20,6 +20,8 @@ Omeka Classic is [translated](../Technical/Translate_Omeka.md) collaboratively u
 
 ## Available languages and codes 
 Below are the languages in which Omeka is available (for at least 5% of the interface), along with the two- or four-letter codes that you will need to configure Omeka to use your chosen language.
+
+Note that the percentage of the interface to translate includes all Omeka-Team-authored modules, many of which may not be applicable to your use. 
 
 *Last updated: May 17th, 2022.*
 

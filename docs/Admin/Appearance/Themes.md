@@ -61,7 +61,7 @@ The configuration settings you make are unique to each theme and will be saved w
 
 Enable your chosen theme and view the configuration page to see if there is guiding text there. While not all themes have the same configuration options, most will have the following two sections: 
 
-**Header and Footer** configuration options are:
+### **Header and Footer** configuration options
 
 - **Logo File**: You may upload an image that will replace the site title in the header of your website. In many themes, this logo will be left-aligned, with margins around it. Many themes recommend a maximum width for your logo of 500px, and some have a required maximum height of 150px. 
 - **Header Background**: Upload an image file that will display across the top of your website, behind your site title or logo.
@@ -71,7 +71,7 @@ Enable your chosen theme and view the configuration page to see if there is guid
 
 ![Header and footer configuration options](../../doc_files/themeHFConfig.png "Header and footer configuration options")
 
-**Homepage** configuration options are:
+### **Homepage** configuration options
 
 - **Display Featured Item**: Check this box if you wish to show a featured item on the homepage.
 - **Display Featured Collection**: Check this box if you wish to show a featured collection on the homepage.
@@ -81,7 +81,7 @@ Enable your chosen theme and view the configuration page to see if there is guid
 
 ![Homepage configuration options](../../doc_files/themeHomeConfig.png "Homepage configuration options")
 
-Additional configuration options may include:
+### Additional configuration options
 
 - **Colors**: For themes including Thanks Roy, Center Row, The Daily, Big Stuff. These fields allow you to customize the color of specific parts of the theme (link text, buttons, etc). You must use a six-character [hexadecimal color value](https://www.w3schools.com/colors/default.asp){target=_blank}, including the `#`.
 - **Style**: For the themes Seasons and Rhythm. Select a style sheet (color scheme) from a dropdown menu.

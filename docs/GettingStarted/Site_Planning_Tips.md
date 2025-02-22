@@ -56,7 +56,7 @@ Add the objects and materials you want to share. Once you have items in your Ome
 Plan an exhibit 
 ------------------------------------------------------------
 
-The [Exhibit Builder](../Plugins/ExhibitBuilder.md) plugin is not only for building museum-like exhibits. This function can be used to publish essays or teaching materials that draw upon the items in your archive. 
+The [Exhibit Builder](../Plugins/ExhibitBuilder.md) plugin is not only for building museum-like exhibits. This function can be used to publish essays or teaching materials that draw upon the items in your archive. Note that the Exhibit Builder plugin comes packaged with the basic installation of Omeka Classic. 
 
 Before you build an exhibit, sketch out a storyboard or outline that spells out the sections, pages, and items for each page.
 
@@ -71,7 +71,7 @@ It's also common to create a digital companion exhibit to a physical exhibit in 
 Create webpages
 ---------------------
 
-You can use the [Simple Pages](../Plugins/SimplePages.md) plugin to create web pages for publishing press releases, to add an About or Credits page, to share copyright or access statements, or to build a general web presence for your organization. Any of those pages can become part of the main navigation for your website.
+You can use the [Simple Pages](../Plugins/SimplePages.md) plugin to create web pages for publishing press releases, to add an About or Credits page, to share copyright or access statements, or to build a general web presence for your organization. Any of those pages can become part of the main navigation for your website. Note that the Simple Pages plugin comes packaged with the basic installation of Omeka Classic. 
 
 A Simple Page does not require items or programming knowledge to build, but users can add HTML markup, PHP code, or embedded multimedia objects.
 

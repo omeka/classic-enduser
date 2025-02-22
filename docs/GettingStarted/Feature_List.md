@@ -40,7 +40,7 @@ Click [here](../doc_files/featurelist_2-x.pdf){target=_blank} for a PDF version 
 **Customizable web design**
 
 - Omeka Classic’s pre-packaged design themes can be quickly modified in the administrative interface by adding logos and a tagline, and by customizing the navigation.
-- It's easy to customize an installed theme by [modifying the CSS](../Plugins/CSS_Editor.md), PHP, or HTML.
+- It's easy to customize any installed theme by [modifying the CSS](../Plugins/CSS_Editor.md), PHP, or HTML.
 - Custom themes can be built using Omeka Classic’s flexible development API.
 
 **Interoperable**

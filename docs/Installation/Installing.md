@@ -56,6 +56,9 @@ Easy installation steps
 
 If the installation was **successful**, you'll see a screen with links to view the live site or to log in (with the superuser's username and password) to the administrative panel at `/admin`. Congratulations!
 
+!!! note
+	Note that the basic Omeka Classic installation comes packaged with three plugins - Exhibit Builder, Simple Pages, and COinS - and three themes - Default, Seasons, and Berlin. You do not need to download and install these add-ons separately after installing Omeka Classic. 
+
 ## Troubleshooting
 
 If your installation was **unsuccessful**, try these steps:
