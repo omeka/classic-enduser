@@ -13,7 +13,7 @@ You may need to contact your server administrator to install it.
 
 You can then install the PDF Text plugin from the plugins directory.
 
-## Using the PDF Text module
+## Using the PDF Text plugin
 
 - Add PDF file(s) to a new or existing item.
 - Save the item.

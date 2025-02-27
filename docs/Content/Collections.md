@@ -1,8 +1,8 @@
 # Collections
 
-Collections are groups of Omeka items. Collections are a flexible means of organizing and presenting Omeka items, and may be used in a variety of contexts that make the most sense for your objects.
+Collections are groups of Omeka items. Collections are a flexible means of organizing and presenting Omeka items, and can be used in the ways that make the most sense for your objects.
 
-In Omeka Classic, an item can only belong to one collection. Collections can, of course, have multiple items. The concept of Omeka collections originates from museum and archives collections; one cannot put a document into more than one box. It is not necessary to follow a traditional interpretation of a collection, say by owner or donor. 
+In Omeka Classic, an item can only belong to one collection. Collections can, of course, have multiple items. The concept of Omeka collections originates from museum and archives collections; one cannot put a document into more than one box.
 
 Collections have no hierarchy, unless you install the [Collection Tree plugin](../Plugins/CollectionTree.md) in order to have a nested collections. Items in collections have no set order, unless you install the [Item Order plugin](../Plugins/ItemOrder.md) in order to rearrange your items. 
 
@@ -11,7 +11,7 @@ The following screencast covers creating collections and adding items to those c
 <div style="padding:62.5% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/194553469?h=015e0c53a1" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 <p><a href="https://vimeo.com/194553469">Managing Collections in Omeka Classic</a> from <a href="https://vimeo.com/omeka">Omeka</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
-You can also use [tags](Tags.md) to organize similar items into categories. Tags can provide the multi-category flexibility that collections don't offer. 
+You can use [tags](Tags.md) to organize similar items into browseable categories. Tags can provide the multi-category flexibility that collections don't offer. 
 
 The following screencast can help you determine when you would like to use collections or tags:
 
@@ -21,12 +21,14 @@ The following screencast can help you determine when you would like to use colle
 Create a collection
 -----------------------------------------------------------
 1.  Click on the "Collections" tab in the left navigation bar from the Dashboard. Any collections you have created will be listed on the `admin/collections` page.
-2.  To create a new collection, click, "Add a Collection".
-3.  You may assign a full complement of Dublin Core metadata to any collection, or simply create a title and description.
-4.  To make your collection public, check the "Public" box under the "Add Collection" button. Likewise, to feature your collection, check "Feature".
-5.  When you are finished adding metadata, click the "Add Collection" button to save it.
+1.  To create a new collection, click, "Add a Collection".
+1.  You may assign a full complement of Dublin Core metadata to any collection, or simply create a title and description.
+1.  The Dublin Core Extended plugin and the VRA Core plugin will also offer more fields to describe collections. 
+1.  To make your collection public, check the "Public" box under the "Add Collection" button. 
+1.  Likewise, to feature your collection, check "Feature".
+1.  When you are finished adding metadata, click the "Add Collection" button to save it.
 
-Now that you have created a collection you may associate an item with this collection, from the `items/add` or `items/edit` pages. Read more below.
+Now that you have created a collection, you may associate an item with this collection, from the `items/add` or `items/edit` pages. Read more below.
 
 ![A screenshot of the Add a Collection page, with no metadata entered](../doc_files/collectionAdd.png "A screenshot of the Add a Collection page, with no metadata entered")
 

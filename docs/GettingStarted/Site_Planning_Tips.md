@@ -13,13 +13,17 @@ What do you want these specific audiences to accomplish when they come to the si
 
 **What sections will this website include?** 
 
-Typical top level navigation and sections for a typical Omeka Classic site include:  
+Typical top level navigation for a Omeka Classic site might include:  
 
   - [Items](../Content/Items.md): links to a browseable list of items, sortable by type of item and tags.
   - [Collections](../Content/Collections.md): groups of items; the public can browse your collections to discover related items.
   - [Exhibits](../Plugins/ExhibitBuilder.md): series of pages that contain interpretative text and rely on items/sources/objects as their building blocks.
   - About: a [simple page](../Plugins/SimplePages.md) sharing information about the project: description, credits, rights, etc.
   - [Search bar](../GettingStarted/Searching.md#basic-search): a quick tool for searching the site's content, with an option to link to an [advanced search](../GettingStarted/Searching.md#advanced-search) page.
+
+Plugins that you install can automatically add further pages to your navigation menu (such as a "Contribute" page from the Contribution plugin, or a "Timeline" page from the Timeline plugin). You can also add custom links, such as to your organizational website. 
+
+But the menu's options and suggestions are entirely up to you. You can add links directly to specific items, collection, or exhibits; you can add browsing access points such as links to each Item Type; you can write and include any number of pages. 
 
 ![A front page of an Omeka Classic installation, with a navigation bar that includes "Biographies", "Oral History Interviews", "Stories", "Archive", "About", and "Credits". The homepage displays a slideshow of images, with links to exhibits, and a paragraph of introductory text.](../doc_files/sitePlanning.png)
 
@@ -48,10 +52,25 @@ Add the objects and materials you want to share. Once you have items in your Ome
 **How do you want items to display?**
 
 - Do you want to add **social bookmarking** icons to the bottom of item pages, to make it easier for users to share items with their social networks? Install the [Social Bookmarking](../Plugins/SocialBookmarking.md) plugin.
-- Do you want to display items on a **map**? Install the [Geolocation](../Plugins/Geolocation.md) plugin, then add geolocation metadata to each item.
-- Do you want users to navigate your items chronologically? Install the [Timeline](../Plugins/Geolocation.md) plugin, in addition to providing sortable date metadata, so that items can be displayed in a scrollable timeline. 
+- Do you want to display a **map** showing the location information of each item? Install the [Geolocation](../Plugins/Geolocation.md) plugin, then add geolocation metadata to each item.
 - Do you want to allow users to leave **comments** on items? Install the [Commenting](../Plugins/Commenting.md) plugin.
-- Do you have documents that you wish users to **read on-screen** rather than downloading them? Install the [DocsViewer](../Plugins/DocsViewer.md) plugin.
+- Do you have documents that you wish users to **read on-screen** rather than downloading them? Install the [DocsViewer](../Plugins/DocsViewer.md) plugin or the.
+
+**How do you want site visitors to access your items?**
+
+Omeka Classic is modular and customizable, which means you can use its tools and features in many useful combinations.
+
+- Each item can have one type (Image, Sound, Video, etc.) that allow visitors to browse through those access points. You can create your own item types to categorize and divide your items any way you want. You can add those types to your navigation (URLs in the form `yoursite/items/browse?type=123`) to allow easier access. 
+- Each item can be in one collection. Collections can be created around any concept you want - a collection for each exhibit, chronological collections by a date range (1700-1800, 1800-1900, etc.), collections based around creators or donors. The "Browse Collections" page is automatically added to your site navigation, but you can also include direct links to each collection if you wish (URLs in the form `yoursit/ecollections/show/123`). 
+	- Collections can also be arranged into a tree using the Collection Tree plugin, and users can browse a top-level collection and see all of the items contained in its lower-level collections. 
+- Items can have an infinite number of tags, which you can use to provide subject headings, date ranges, or other grouping tools. "Browse by tag" is a link that appears on the "Browse Items" page by default, but you can also add this to your navigation (`yoursite/items/tags`). Or you can share links to specific tags directly, in the text on your homepage or in exhibits (URLs in the form `yoursite/items/browse?tags=europe`).
+- Items can often have the same metadata values (such as one person listed as the Creator for many items). 
+	- Using the [Search by Metadata](../Plugins/SearchByMetadata.md) plugin, you can turn certain metadata fields (such as Creator or Publisher) into clickable links that will take users to a search-results page including all items that match that (for example, all the items with "Shakespeare, William" as the text value in the Creator field). This can provide yet another access point, incorporated into your descriptive metadata, alongside tags, classes, and collections. And you can use those URLs in your navigation bar or in your page text, too. 
+	- If these values (such as people) require describing (such as with biographical information), you can use items for this purpose (items with a "Person" item type, for example). Install the [Item Relations](../Plugins/ItemRelations.md) plugin to fill out a field (such as Creator) with a link to another item (such as your "William Shakespeare" item).
+- With the Timeline and Geolocation plugins, you can add interactive tools that allow browsing by item dates or coordinates. These require precise formatting of your metadata but are easy to set up.
+- Searching on your Omeka site can bring up text results from the item and collection metadata you have provided, and can also include full-text-searching inside PDFs and other documents attached as files. Consider installing the [PDF Text](../Plugins/PdfText.md) plugin and indexing the contents of your PDFs.
+- With Simple Pages, you can manually create a page including links to any number of the options above. This can include a "Searching Tips" or "Research Guide" page with information about how you have structured your Omeka installation, and offer examples of how to browse and search the collection. 
+
 
 Plan an exhibit 
 ------------------------------------------------------------
