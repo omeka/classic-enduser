@@ -1,6 +1,6 @@
 # Item Types
 
-Item types are categories for your Omeka items based on their formats. Omeka offers you a specific set of associated metadata for each item type. Omeka comes by default with [Dublin Core item types](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#section-7){target=_blank}, but you can easily edit these or add your own.
+Item types are categories for your Omeka items, often based on their formats. Each item can be assigned to one type. Omeka offers you a specific set of associated metadata for each item type. Omeka comes by default with [Dublin Core item types](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#section-7){target=_blank}, but you can easily edit these or add your own.
 
 You can view the following screencast to learn more about item types:
 
@@ -10,8 +10,8 @@ You can view the following screencast to learn more about item types:
 Pre-defined item types
 ---------------------------------------------------------
 
--   **Document**: A resource containing textual data. Note that facsimiles or images of texts are still of the genre text.
--   **Moving Image**: A series of visual representations that, when shown in succession, impart an impression of motion.
+-   **Document**: A resource containing textual data. This can be facsimiles or digitized images of texts, or born-digital documents.
+-   **Moving Image**: A film, animated image file, slideshow, or digitally-shot video.
 -   **Oral History**: A resource containing historical information obtained in interviews with persons having firsthand knowledge. This may be an audio or video recording, or a transcript of a conversation. 
 -   **Sound**: A resource whose content is primarily intended to be rendered as audio.
 -   **Still Image**: A static visual representation. Examples of still images are: paintings, drawings, graphic designs, plans, and maps. Recommended best practice is to assign the type "text" to images of textual materials.
