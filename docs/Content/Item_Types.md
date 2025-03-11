@@ -33,9 +33,37 @@ The following are the item types and descriptions included with every installati
 
 ![The item types browse view](../doc_files/itemTypeBrowse.png "The item types browse view")
 
+Edit an existing item type 
+---------------------------------------------------------------
+You can edit existing item types to modify their metadata fields.
+
+1.  Go to the Item Types page in the admin panel and click on the type you want to modify.
+2.  In the next screen, click the "Edit" button. From here, you can edit or delete the current metadata fields or add new ones.
+3.  When finished, click "Save Changes".
+
+![Editing the item type “Text”](../doc_files/itemTypeEdit.png "Editing the item type “Text”")
+
+While it is possible to delete existing item types using the "Delete" button on the "Browse Item Types" page, we recommend that you do not delete the predefined item types; it may cause problems should you ever want to export data, or import from another Omeka install. Rather, you should create an alternate, more customized item type and use that in your installation instead.
+
+Create a new item type
+--------------------------------------------------------------
+To create a new item type, click the green "Add an Item Type" button above the table. That will take you to the following screen.
+
+![Add item type basic view](../doc_files/itemTypeAdd.png "Add item type basic view")
+
+Each item Type must have a **Name**, which must be unique. You can also add a **Description** to help clarify the item type (for example, the descriptions in the list of item types above) and guide users who are adding and describing items.
+
+## Create and add elements
+
+Your item types provide sets of elements for your items - specific metadata fields that allow you to describe your items according to their categories (formats, or other types that you design). You can review existing metadata fields on the [Item Type Elements](../Admin/Settings/Item_Type_Elements.md) page.
+
+When adding elements to item types, there are two options: add an existing element or create a new one. You can do this to the default item types and to any that you create.
+
+**Existing elements** are elements that have already been created for another item type, but might be applicable to yours. For example, if you were creating a “Letter” item type, you might add the existing “To” and “From” elements from the “Email” item type, and the “Text” element from the “Text” item type.
+
 ### Default elements for item types
 
-Omeka Classic creates a number of [elements that are attached to its pre-defined item types](../Admin/Settings/Element_Sets.md). The default elements for each item type listed above are:
+Omeka Classic creates a number of elements that are attached to its pre-defined item types. The default elements for each item type listed above are:
 
 - Text:
     - Text
@@ -98,34 +126,6 @@ The item types Interactive Resource, Dataset, Physical Object, Service, and Soft
 
 All of these elements can be deleted, modified, or attached to new or existing item types. 
 
-Edit an existing item type 
----------------------------------------------------------------
-You can edit existing item types to modify their metadata fields.
-
-1.  Go to the Item Types page in the admin panel and click on the type you want to modify.
-2.  In the next screen, click the "Edit" button. From here, you can edit or delete the current metadata fields or add new ones.
-3.  When finished, click "Save Changes".
-
-![Editing the item type “Text”](../doc_files/itemTypeEdit.png "Editing the item type “Text”")
-
-While it is possible to delete existing item types using the "Delete" button on the "Browse Item Types" page, we recommend that you do not delete the predefined item types; it may cause problems should you ever want to export data, or import from another Omeka install. Rather, you should create an alternate, more customized item type and use that in your installation instead.
-
-Create a new item type
---------------------------------------------------------------
-To create a new item type, click the green "Add an Item Type" button above the table. That will take you to the following screen.
-
-![Add item type basic view](../doc_files/itemTypeAdd.png "Add item type basic view")
-
-Each item Type must have a **Name**, which must be unique. You can also add a **Description** to help clarify the item type (for example, the descriptions in the list of item types above) and guide users who are adding and describing items.
-
-## Create and add elements
-
-Your item types provide [sets of elements for your items](../Admin/Settings/Item_Type_Elements.md) - specific metadata fields that allow you to describe your items according to their categories (formats, or other types that you design). Learn more on the [Item Type Elements](../Admin/Settings/Item_Type_Elements.md) page.
-
-When adding elements to item types, there are two options: add an existing element or create a new one. You can do this to the default item types and to any that you create.
-
-**Existing elements** are elements that have already been created for another item type, but might be applicable to yours. For example, if you were creating a “Letter” item type, you might add the existing “To” and “From” elements from the “Email” item type, and the “Text” element from the “Text” item type.
-
 ### Add an existing element to an item type
 
 1. In the Add Element block, select the **Existing** option.
@@ -144,6 +144,8 @@ When adding elements to item types, there are two options: add an existing eleme
 ![New element block with no input](../doc_files/itemTypeNewElm.png "New element block with no input")
 
 Note that an element can be created with the same name as an existing element, and the page can be saved, but that new element will disappear when the page is reloaded. 
+
+Remember that a new element created here will be visible for review on the Item Type Elements tab in the Settings section. Remember also that a new element created here will not be included in any Element Sets and will not appear on that tab. 
 
 ### Manage elements
 

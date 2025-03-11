@@ -2,9 +2,9 @@
 
 Item Type Elements enables you to manage the metadata fields associated with each [item type](../../Content/Item_Types.md) available in your site, e.g. Still Image, Oral History, Document.
 
-See the [Item Types page](../../Content/Item_Types.md) for the list of elements already included with each pre-defined item type, more information on how to define types and assign elements to them, and how to add entirely new elements. See the [Element Sets](Element_Sets.md) page for more information on the elements common to all items regardless of their types. 
+See the [Item Types page](../../Content/Item_Types.md#default-elements-for-item-types) for the list of elements already included with each pre-defined item type, more information on how to define types and assign elements to them, and how to add entirely new elements. See the [Element Sets](Element_Sets.md) page for more information on the elements common to all items regardless of their types. 
 
-From this tab on the Settings page, you can edit the descriptions of existing elements, to guide your team in using them more effectively. You can also delete elements that you do not wish to have available for use with any item type. 
+From this tab on the Settings page, you can review existing elements, and edit the descriptions of existing elements to guide your team in using them more effectively. You can also delete elements that you do not wish to have available for use with any item type. 
 
 Add new item type elements
 ------------------------
