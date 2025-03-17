@@ -1,27 +1,33 @@
 # Tags
 
-Tags are keywords or phrases that create links to describe a piece of data. They are non-hierarchical labels that classify your content so that it is easily found. You can add tags to [Items](Items.md) and [Exhibits](../Plugins/ExhibitBuilder.md).
+Tags are keywords or phrases that create links to describe a piece of data. They are non-hierarchical labels that classify your content so that it is easily found - textual metadata values without an associated metadata field. You can add tags to [items](Items.md) and [exhibits](../Plugins/ExhibitBuilder.md).
+
+You can watch the following video to learn more about adding access points to your Omeka items with tags:
 
 <div style="padding:51.99% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/102040465?h=00bd26943c" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 <p><a href="https://vimeo.com/102040465">Omeka Classic: Managing Collections and Tags</a> from <a href="https://vimeo.com/omeka">Omeka</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
-To manage your tags, sign into the Omeka Classic admin panel and select "Tags" from the left-hand navigation bar. This displays all the tags associated with records in your Omeka Classic installation. You may edit and delete tags, sort tags, and view items associated with individual tags.
-
-![Tags in left nav](../doc_files/Tagsnav.png)
 
 Browse Tags page
 ---------------
-On the "Browse Tags" page, all tags used in your installation appear on the right side of the page, while on the left, next to the navigation, are options for searching and an explanation of the tag display.
+
+To manage your tags, select "Tags" from the left-hand navigation bar of the Omeka Classic administrative interface. This page display all the tags associated with records in your Omeka Classic installation. You may edit and delete tags, sort tags, and view items associated with individual tags.
+
+![Tags in left nav](../doc_files/Tagsnav.png)
+
+The "Browse Tags" page displays an explanation of the tag display. 
 
 ![Browse tags page](../doc_files/tags.png)
 
 Each tag used on your site appears as a unit which gives you the following (per the number labels in the above image): 
 
 1. The number of items with that tag
-2. The name of the tag
+2. The text value of the tag
 3. The option to delete the tag.
 
 ![A tag labeled with sections labelled with 1, 2, and 3.](../doc_files/Tagsample.png)
+
+Next, the "Browse Tags" page displays a list of all tags used in your installation. This includes tags that are not currently associated with any items. The list includes options for sorting and searching your tags. 
 
 ### Sort tags
 There are four button options for sorting the tags, found above the tag cluster. 
@@ -30,9 +36,9 @@ There are four button options for sorting the tags, found above the tag cluster.
 
 From left to right, they are:
 
-- **Name:** The default sort for tags; sorts in alphabetical order by tag name. Click again to sort in reverse alphabetical order (arrow will point down).
-- **Count:** Initially sorts tags by number of associated records with the largest number first. Click again, so that the arrow which appears next to it points up, to sort with the smallest number occurrences first. 
-- **Date Created:** Sorts records by date created. Default is oldest tags first.
+- **Name:** The default sort for tags; sorts in alphabetical order (A-Z) by tag name. Click again to sort in reverse alphabetical order (Z-A) (the arrow will point down).
+- **Count:** Initially sorts tags by number of associated records with the largest number first. Click again, so that the arrow which appears next to it points up, to sort with the smallest number occurrences first, including tags with zero current items assigned. 
+- **Date Created:** Sorts tags by the dates they were created, oldest tags first. Click again to see newest tags first.
 
 An upward pointing triangle indicates an ascending sort. A downwards pointing triangle indicates a descending sort. 
 
@@ -59,13 +65,13 @@ In addition to the site-wide content [search](../GettingStarted/Searching.md), y
 
 ![Closeup of the browse tags page, showing the page header. Immediately below it is an empty text field with a green Search tags button attached. A red arrow points to the text field.](../doc_files/tagsearchbox.png)
 
-Enter your search terms in this box. Note that this is broad search is for tags containing the search term: a search for "century" will return both "19th century" and "twentieth century."
+Enter your search terms in this box. This is a broad search for tags containing the search term: a search for "century" will return both "19th century people" and "twentieth century."
 
 Once your search is complete, the search box will appear empty. Your search term is displayed above the tag browse, to the right of the tag search. 
 
 ![Browse tags page showing the results of a search for the word "century". Two tags are displayed - 19th century and 20th century, and above them is an icon of a magnifying glass with the text "Name contains: century"](../doc_files/tagsearchresults.png)
 
-Clear your search terms and return to regular tag browse by clicking the "Reset search" button. 
+Clear your search terms and return to the default browse by clicking the "Reset search" button. 
 
 ![Same image as above with a red arrow pointing to a blue button beside the Name Contains message. The button reads "reset results"](../doc_files/tagsearchreset.png)
 
@@ -80,39 +86,39 @@ To view items associated with an individual tag, you need to be viewing only tag
 3. A browse page opens displaying only items tagged with the tag you clicked.
 
 ## Edit a tag 
-You can rename a tag from this page. Tags edited in the admin panel change on all items across the site wherever they appear.
+You can rename a tag from this page. This tag edit will affect all attached resources across the site wherever they appear.
 
 ![Tagedit.png](../doc_files/Tagedit.png)
 
 To edit a tag:
 
 -   Click on the name of the tag you wish to edit.
--   Enter changes you would like to make in the field.
--   Hit Enter and your tag is saved with its new name.
+-   Enter the changes you would like to make in the field.
+-   Hit the enter key on your keyboard, and the tag is saved with its new name.
 
-When editing, you cannot use an existing tag. For example, if you have 5 items tagged with "banana" and 2 items tagged with "bananana", you cannot edit the misspelled tag to the correct spelling. You would need to edit the items with the tag you want to remove, adding the desired tag and deleting the undesired tag. You can use the batch-edit function to add tags to items but not to delete tags.
+When editing, you cannot use an existing tag. For example, if you have 5 items tagged with "banana" and 2 items tagged with "bananna", you cannot edit the misspelled tag to the correct spelling. You would need to edit the items with the tag you want to remove, adding the desired tag and deleting the undesired tag. You can use the batch-edit function to add tags to items, but not to delete tags.
 
 ## Delete a tag 
 
-Deleting a tag removes all occurrences of that tag across all items.
+Deleting a tag removes all occurrences of that tag across all resources.
 
 ![Tagdelete.png](../doc_files/Tagdelete.png)
 
 To delete a tag:
 
 -   Choose the tag you wish to delete from the select menu.
--   Select the X to the right of the tag.
+-   Select the "X" to the right of the tag.
 -   A window will open with the question "Are you sure?" 
--   Click Delete, and that tag is permanently deleted across your Omeka items. (If you change your mind, close the query window by clicking on the X in the upper right hand corner.)
+-   Click "Delete", and that tag is permanently deleted across your Omeka items and exhibits. (If you change your mind, close the query window by clicking on the "X" in the upper right hand corner.)
 
 ## Public view
 
-Visitors to your site can browse tags by going to Browse Items and selecting the "Browse by Tag" option. The url for this page is `/items/tags`. Depending on the theme, the tags may appear as a cluster or a group, and may be scaled according to use.
+Visitors to your site can browse tags by going to the "Browse Items" page and selecting the "Browse by Tag" option. The URL for this page is `/items/tags`. Depending on the theme, the tags may appear as a cluster or a group, and may be scaled according to use.
 
 For example, in Thanks, Roy, the default theme, the most frequently used tags are in a larger font:
 
 ![Browse by tag with a cloud of tags displayed in various font sizes. Some of the words overlap.](../doc_files/browsetagsP-default.png)
 
-Whereas in Center Row, the tags simply display in a list:
+In Center Row, the tags simply display in a list:
 
 ![The same page in Center Row, with the tags as a list of words](../doc_files/browsetagsP-center.png)

@@ -11,16 +11,12 @@ There is a screencast that covers theme selection and customization, as well as 
 
 Install a theme
 -----------------------------------------------------------------
-Watch the [screencast](https://vimeo.com/153819886){target=_blank} demonstrating the process of installing plugins and themes (with close-captioning):
-
-<div style="padding:62.5% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/153819886?h=cc52b34de6" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-<p><a href="https://vimeo.com/153819886">Omeka Classic: Installing Plugins and Themes</a> from <a href="https://vimeo.com/omeka">Omeka</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
 To add and activate a new theme for your Omeka installation, follow these steps:
 
 1. [Download and unzip the compressed theme file](https://omeka.org/classic/themes/){target=_blank} on your computer.
 1. Open your FTP client and use your FTP login info to access your site. Or, if you are using cPanel File Manager, WebFTP, or another in-browser tool, log in there. 
-1. Navigate to your Omeka folder (it should have the same name as your Omeka install), open it, then open the `/themes` folder.
+1. Navigate to your Omeka folder (it should have the same name as your Omeka installation), open it, then open the `/themes` folder.
 1. Locate the theme folder on your computer and upload it into your Omeka website's `/themes` folder. 
     - Sometimes the theme unzips into a folder of the same name, so make sure to go inside it and upload the folder that only contains the theme name, not the version number. For example, you may have downloaded the `theme-minimalist-v2.5.2.zip` file and extracted it to a `theme-minimalist-v2.5.2` folder, which contains a `minimalist` folder. Upload the `minimalist` folder. 
     - You may also be able, or required, to upload the zipped file and unzip it here, if your file client does not allow you to upload a folder. Remember to watch for an extra folder level in this case.
@@ -30,11 +26,16 @@ To add and activate a new theme for your Omeka installation, follow these steps:
 1. Click “Use this theme” under the theme thumbnail to finish the process.
 1. Click “Configure theme” after the page reloads. Read the documentation for your chosen theme to understand what configuration options are available.
 
+You can watch this [screencast](https://vimeo.com/153819886){target=_blank} demonstrating the process of installing plugins and themes (with close-captioning):
+
+<div style="padding:62.5% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/153819886?h=cc52b34de6" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<p><a href="https://vimeo.com/153819886">Omeka Classic: Installing Plugins and Themes</a> from <a href="https://vimeo.com/omeka">Omeka</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
 Select a theme
 -------------------------------------------------------------
-You can browse the themes you have installed for your Omeka Classic site by going to the Appearance tab in the upper admin navigation. The Themes tab in the Appearance section will be the first to display. 
+You can browse the themes you have installed for your Omeka Classic site by going to the "Appearance" link in the upper admin navigation. The "Themes" tab in the Appearance section will be the first to display. 
 
-This page displays your active theme at top, with all available themes in a grid below. Three themes come pre-installed with every Omeka instance.
+This page displays your active theme at top, with all available themes in a grid below. Three themes come pre-installed with every Omeka instance: Default, Berlin, and Seasons.
 
 ![Appearance tab. The active theme is Center Row. Also visible are Santa Fe, Rhythm, and Minimalist in a row with smaller thumbnails.](../../doc_files/browse_themes.png "Appearance tab. The active theme is Center Row. Also visible are Santa Fe, Rhythm, and Minimalist in a row with smaller thumbnails.")
 
@@ -42,7 +43,7 @@ The active theme is displayed at the top, with a preview of the theme's appearan
 
 If the active theme is out of date, you will see a message under the active theme summary stating "A new version of this theme is available. Get the new version." The phrase "Get the new version" is a link to the page where you can download the latest version of your theme. To update, simply follow the installation instructions above, replacing the outdated theme folder with the new one.
 
-Inactive themes will not prompt you to update. You may wish to remove inactive themes to simplify your Omeka installation once you have finished customizing its design.
+Inactive themes will not prompt you to update. You may wish to remove inactive themes to simplify your Omeka installation once you have finished customizing its design. Note that themes installed here become available to your [Exhibits](../../Plugins/ExhibitBuilder.md) and may be in use there. You can view the active themes in the Exhibits table. 
 
 ![Active theme Emiglio showing the "New version" warning](../../doc_files/theme-needsupdate.png "Active theme Emiglio showing the "New version" warning")
 
@@ -55,9 +56,9 @@ Configure a theme
 ----------------------------------------------------------------
 Configurations let you make choices about the look of your site, including adding a logo and homepage text, managing featured elements, and adding footer text. 
 
-The configuration settings you make are unique to each theme and will be saved with that theme. To configure your theme, click the "Configure Theme" button below the theme graphic to customize your site.  
+The configuration settings you make are unique to each theme and will be saved with that theme. To configure your theme, click the "Configure Theme" button below the theme graphic to customize your site. Each theme has its own way of handling these settings, so be sure to refresh and view the public site to see how your changes look. 
 
-![A screenshot with a teal arrow pointing to the "Configure Theme" button](../../doc_files/Themeconfigureclick.png "A screenshot with a teal arrow pointing to the "Configure Theme" button")
+![A screenshot with an arrow pointing to the "Configure Theme" button](../../doc_files/Themeconfigureclick.png "A screenshot with an arrow pointing to the "Configure Theme" button")
 
 Enable your chosen theme and view the configuration page to see if there is guiding text there. While not all themes have the same configuration options, most will have the following two sections: 
 
@@ -73,21 +74,23 @@ Enable your chosen theme and view the configuration page to see if there is guid
 
 ### **Homepage** configuration options
 
+Remember that each theme may put these display options in a different place. Be sure to save, then view the public site to see how your changes look. 
+
 - **Display Featured Item**: Check this box if you wish to show a featured item on the homepage.
 - **Display Featured Collection**: Check this box if you wish to show a featured collection on the homepage.
 - **Display Featured Exhibit**: Check this box if you wish to show a featured exhibit on the homepage.
-- **Homepage Recent Items**: Choose the number of recent items to be displayed on the homepage. These will appear in the order in which they were mostly recently added to the archive.
--   **Homepage Text**: Add some text to be displayed on your homepage above the Featured Items. This is a good place to add a short tagline or description of your site. Note that shortcodes will not work in this field, nor will HTML-coded images or other multimedia. Save longer explanations for an [About page using the Simple Pages plugin](../../Plugins/SimplePages.md).
+- **Homepage Recent Items**: Choose the number of recent items to be displayed on the homepage. These will appear in order from newest to oldest.
+- **Homepage Text**: Add text to be displayed on your homepage above the Featured Items. This is a good place to add a short tagline or description of your site. Note that shortcodes will not work in this field, nor will HTML-coded images or other multimedia. Save longer explanations for an [About page using the Simple Pages plugin](../../Plugins/SimplePages.md).
 
 ![Homepage configuration options](../../doc_files/themeHomeConfig.png "Homepage configuration options")
 
 ### Additional configuration options
 
-- **Colors**: For themes including Thanks Roy, Center Row, The Daily, Big Stuff. These fields allow you to customize the color of specific parts of the theme (link text, buttons, etc). You must use a six-character [hexadecimal color value](https://www.w3schools.com/colors/default.asp){target=_blank}, including the `#`.
+- **Colors**: For themes including Thanks Roy, Center Row, The Daily, Big Stuff, Freedom. These fields allow you to customize the color of specific parts of the theme (link text, buttons, etc). You must use a six-character [hexadecimal color value](https://www.w3schools.com/colors/default.asp){target=_blank}, including the `#`.
 - **Style**: For the themes Seasons and Rhythm. Select a style sheet (color scheme) from a dropdown menu.
 - **Items**: May include:
-    - *Item File Gallery*: For the themes Thanks Roy, Seasons, Minimalist, and Emiglio. This box displays the files for each item as a gallery of square thumbnails rather than fullsize images. 
-    - *Use Original Thumbnail Size*: Check the box if you want to use thumbnails' original sizes on the browse view. Otherwise, the thumbnails are restricted to 100px in height.
+    - **Item File Gallery**: For the themes Thanks Roy, Seasons, Minimalist, and Emiglio. Checking this box displays the files for each item as a gallery of square thumbnails rather than fullsize images. 
+    - **Use Original Thumbnail Size**: Check the box if you want to use thumbnails' original sizes on the browse view. Otherwise, the thumbnails are restricted to 100px in height.
 - **Exhibit Builder**: For the themes Seasons and Minimalist. Select an exhibit page navigation style: whether page navigation in exhibits is a full-width bar that stretches across the page or a sidebar that uses a small fraction of the page width.
 - **Homepage Text position**: A dropdown menu to set whether the homepage text appears above or below featured items, exhibits, and collections.
 
