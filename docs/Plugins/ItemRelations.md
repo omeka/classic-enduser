@@ -43,7 +43,7 @@ This tab has a table with columns for
 - the object of the relationship (the item with which you are creating the relationship), and 
 - a delete option once a relationship has been created.
 
-In order to relate two items, you will need to select the relationship from the dropdown and enter the item ID of the object-item. The ID is the item number - in the image below, the item number is displayed before the title of the item, and is 2558. 
+In order to relate two items, you will need to select the relationship from the dropdown and enter the item ID of the object-item. The ID is the item number - in the image below, the item number is displayed before the title of the item, and is 329. 
 
 ![Item Relations tab on an item](../doc_files/plugin_images/itemrelEdit.png)
 
