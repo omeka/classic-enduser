@@ -1,6 +1,6 @@
 # Users
 
-The Users section allows site administrators to control who may access the admin section of the site and what they can do. You may add, delete, and assign categories of your users.
+The Users section allows site administrators to control who may access the admin section of the site and what they can do. You may add, delete, and assign categories to your users.
 
 ![A teal arrow points to the "Users" section link at the top of the admin page](../doc_files/Usersnav.png "A teal arrow points to the "Users" section link at the top of the admin page")
 
@@ -21,12 +21,12 @@ Omeka Classic allows you to give different backend users different levels of acc
 
 All logged-in Super, Admin, Contributor, and Researcher users on each site can view non-public content (items, collections, Simple Pages, Exhibits, etc.) on the site.
 
-**Super Users**  
+**Super**  
 
 -   Can do anything and everything in Omeka.
--   Supers are the only users with access to the top navigation tabs for Plugins, Appearance, Users, and Settings. 
+-   Super Users are the only accounts with access to the top navigation tabs for Plugins, Appearance, Users, and Settings. 
 
-**Admin Users**  
+**Admin**  
 
 Admin users do not have access to the tabs for managing plugins, appearance, users, or site settings.
 
@@ -40,37 +40,39 @@ Admin users can:
 - Interact with plugins installed and activated by a SuperUser.
 - Add, edit, and delete tags. 
 
-**Contributor Users**   
+**Contributor**   
 
-Contributor users have control over their own content but can only view content created by others. They cannot make their own content public. 
+Contributors have control over their own content but can only view content created by others. They cannot make their own content public. 
 
 Contributor users can:
   
 - Add, edit, tag, and delete items which they created. They cannot make their own items public - someone else must approve them.
-- Create their own exhibits from items that are public.
+- Create their own exhibits, from items that are public.
 
-**Researcher Users**
+**Researcher**
 
 Researchers can log in to the admin side of an Omeka site and see the content, but cannot interact with it in any way. They cannot add, edit, delete, or tag any items. 
 
 Add users
--------------------------------------------------------------
+------------------------------------------------------
 
-To add a user, select the green button in the upper left hand corner.
+To add a user, select the green "Add a User" button in the upper left hand corner.
 
 ![Add user form](../doc_files/Usersaddnew.png "Add user form")
 
--   Fill in the fields for the new user. Assign a role to the user, and click the green Add User button below the form. 
--   The new user will receive an email at the address you provide with their username and a link that takes them to a form to create a password. Until the new user activates his/her account, an "Inactive" status appears after the Username.
+-   Fill in the fields for the new user. Assign a role to the user, and click the green "Add User" button to save the page. 
+-   The new user will receive an email at the address you provide with their username and a link that takes them to a form to create a password. Until the new user activates his/her account, an "Inactive" status appears after the username in the main Users list.
 -   To edit user information, including changing passwords, Super and Admin users may click on the "Edit" button below the username.
 
 Edit users
-----------------------------------------------------------------
+-------------------------------------------------------
 To edit a user, click on the word Edit beneath the username in the Browse Users page. This will direct you to a new page with tab options labelled General, Change Password, and API Keys.
 
 ![Edit User form](../doc_files/UserEdit.png "Edit User form")
 
-On the "General" tab you can edit the username, display name, email, and role of the user. You can also toggle whether a user is active or inactive. Inactive users are not deleted, so the items, collections, and tags created by that user remain associated with their account, but the individual can not longer log into the site to make changes or create new data.
+On the "General" tab you can edit the username, display name, email, and role of the user. You can also toggle whether a user is active or inactive. 
+
+**Inactive users** are not deleted, so the items, collections, and tags created by that user remain associated with their account, but the individual can no longer log into the site to make changes or create new data.
 
 The "Change Password" tab requires you to enter a new password twice, but does not require the user’s original password.
 
@@ -78,7 +80,7 @@ The "Change Password" tab requires you to enter a new password twice, but does n
 
 To add an API key for a user, enter text for a label for the key in the field provided and then click “Update API Keys”. An API key will be generated and added to the page. To remove a key, click the checkbox in the "Rescind" column of keys.
 
-Note: you must save your changes before switching tabs.
+Note: You must save your changes before switching tabs.
 
 Delete users
 ----------------------------------------------------------------

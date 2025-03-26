@@ -1,6 +1,6 @@
 # Appearance Settings
 
-The Settings sub-tab in the Appearance section help you to manage derivative image sizes and adjust some of the display settings for items on the public and admin sides. It is divided into two sections: **Derivative Size Constraints** and **Display Settings**.
+The Settings tab in the Appearance section helps you to manage derivative image sizes and adjust some of the display settings for items on the public and admin sides. It is divided into two sections: **Derivative Size Constraints** and **Display Settings**.
 
 ![A screenshot of the appearance settings tab](../../doc_files/appearSettings.png "A screenshot of the appearance settings tab")
 
@@ -9,11 +9,11 @@ Derivative Size Constraints
 
 In this section, you can set the maximum image sizes for the derivative images Omeka creates when you upload a file. 
 
-For each of Fullsize and Thumbnail, you can set a number in pixels for the longest side of the image. For example, if you are uploading a 800x1000 pixel image, a setting of "100" as the thumbnail maximum would resize the image down to 80x100 pixels. 
+For each of Fullsize and Thumbnail, you can set a number in pixels for the **longest side** of the image. For example, if you are uploading a 800x1000 pixel image, a setting of "100" as the thumbnail maximum would resize the image down to 80x100 pixels. 
 
-A Square Thumbnail, instead, resizes the smallest edge down, and crops the excess from the longest side. For example, if you are uploading a 800x1000 pixel image, a setting of "100" as the thumbnail maximum would resize the image down to 100x125 pixels and then crop 12.5 pixels from each side to display the center of the image. 
+A Square Thumbnail, instead, resizes the **smallest edge** of the image down, and crops the excess from the longest side. For example, if you are uploading a 800x1000 pixel image, a setting of "100" as the thumbnail maximum would resize the image down to 100x125 pixels and then crop 12.5 pixels from each side to display the center of the image. 
 
-Note that these settings are general for the installation - the size at which thumbnails display on item browse, exhibit, and other pages may also depend on which theme you are using.
+Note that these settings are general **file sizes** for the installation - the sizes at which thumbnails **display** on item browse, exhibit, and other pages may also depend on which theme you are using.
 
 These following are the default settings for the three size constraints, in pixels:
 
@@ -23,7 +23,7 @@ These following are the default settings for the three size constraints, in pixe
 
 To make changes, simply type a number into the corresponding text field and save the page.
 
-Please note that changes to these settings will only affect files uploaded after you have made the changes; it does not retroactively re-size existing files. If you want to change existing files, you will need to install the [Derivative Images plugin](../../Plugins/DerivativeImages.md).
+Please note that changes to these settings will only affect files uploaded after you have made the changes; it cannot retroactively re-size existing files. If you want to change existing files, you will need to install the [Derivative Images plugin](../../Plugins/DerivativeImages.md).
 
 Those with access to the server files can also [manage thumbnail creation settings](../../Technical/ConfiguringThumbnailCreation.md) to change where thumbnails crop the image (see linked documentation for more information).
 

@@ -84,11 +84,11 @@ Remember that each theme may put these display options in a different place. Be 
 
 ![Homepage configuration options](../../doc_files/themeHomeConfig.png "Homepage configuration options")
 
-### Additional configuration options
+### Other configuration options
 
 - **Colors**: For themes including Thanks Roy, Center Row, The Daily, Big Stuff, Freedom. These fields allow you to customize the color of specific parts of the theme (link text, buttons, etc). You must use a six-character [hexadecimal color value](https://www.w3schools.com/colors/default.asp){target=_blank}, including the `#`.
 - **Style**: For the themes Seasons and Rhythm. Select a style sheet (color scheme) from a dropdown menu.
-- **Items**: May include:
+- **Items** may include:
     - **Item File Gallery**: For the themes Thanks Roy, Seasons, Minimalist, and Emiglio. Checking this box displays the files for each item as a gallery of square thumbnails rather than fullsize images. 
     - **Use Original Thumbnail Size**: Check the box if you want to use thumbnails' original sizes on the browse view. Otherwise, the thumbnails are restricted to 100px in height.
 - **Exhibit Builder**: For the themes Seasons and Minimalist. Select an exhibit page navigation style: whether page navigation in exhibits is a full-width bar that stretches across the page or a sidebar that uses a small fraction of the page width.

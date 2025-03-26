@@ -31,6 +31,4 @@ Once you have finished coding the page, click the "Update" button.
 Allowed HTML elements
 ----------------------------------------------------------------
 
-Omeka installations load the default rules of allowable HTML tags from TinyMCE. For a complete list see [this default rule set from TinyMCE](http://tinymce.moxiecode.com/wiki.php/Configuration:valid_elements){target=_blank}.
-
-You can customize your site's list of allowed or blocked tags. To do so, go to your [security settings](../Admin/Settings/Security_Settings.md#html-filtering) and add or remove HTML tags from the "Allowed HTML Elements" box. 
+Omeka installations load the default rules of allowable HTML tags from TinyMCE. You can customize your site's list of allowed or blocked tags. To do so, go to your [security settings](../Admin/Settings/Security_Settings.md#html-filtering) and add or remove HTML tags from the "Allowed HTML Elements" box. 
