@@ -12,7 +12,7 @@ This plugin offers the reciprocal functionality provided by the [OAI-PMH Reposit
 
 ## System requirements
 
-Your server must have [PHP-CLI](http://www.php-cli.com/){target=_blank} installed.
+Your server must have PHP-CLI installed.
 
 ## Instructions
 
