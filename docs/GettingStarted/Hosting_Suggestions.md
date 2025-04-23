@@ -12,9 +12,9 @@ Suggestions from our users include:
 -   [Dotblock](http://www.dotblock.com){target=_blank} - uses Softaculous
 -   [HostGator](http://hostgator.com){target=_blank} - uses Softaculous
 -   [TMD Hosting](https://www.tmdhosting.com){target=_blank} - uses Softaculous
--   [Webuzo](http://webuzo.com){target=_blank} - uses Softaculous
+-   [Webuzo](http://webuzo.com){target=_blank} - uses Softaculous.
 
-Below are a few suggestions for low-cost shared web hosts that offer the server environment required for installing Omeka manually:
+Below are suggestions for low-cost shared web hosts that offer the server environment required for installing Omeka manually:
 
 -   [AcuGIS](http://www.acugis.com){target=_blank}
 -   [Cultural Hosting](https://culturalhosting.com){target=_blank} - a bilingual (Spanish and English) hosting company for cultural heritage organizations, based in Spain
