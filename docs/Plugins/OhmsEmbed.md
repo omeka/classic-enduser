@@ -4,7 +4,7 @@ The [OHMS Embed plugin](https://omeka.org/classic/plugins/OhmsEmbed/){target=_bl
 
 This module will add an OHMS viewer to places where files can be embedded, allowing users to view indexes, transcripts, and/or translations of videos and audio as they are played. 
 
-![A public display of an OHMS viewer in an Omeka page, with a small video above, a transcript on the left, and an index on the right.](modulesfiles/ohmsembed_public.png)
+![A public display of an OHMS viewer in an Omeka page, with a small video above, a transcript on the left, and an index on the right.]()
 
 OHMS XML files can be uploaded to Omeka items as media. Without this module, they will appear as attached files available for download. With this module installed and activated, they will render as video/audio displays with transcripts, indexes, etc. 
 
@@ -35,6 +35,8 @@ When you activate the OHMS Embed Plugin, you will have two configuration options
     - Oral History Item Type Metadata, Interviewee
     - Oral History Item Type Metadata, Duration
 
+![OHMS Embed configuration screen with Extract Metadata setting selected](../doc_files/plugin_images/ohms_configuration.png)
+
 
 ## Add OHMS files to Omeka
 
@@ -49,7 +51,7 @@ Go to your installation's Settings page, and navigate to the Security section.
 - Add `xml` to the **Allowed file extensions** list. 
 - Add `text/xml` to the **Allowed file types** list.
 
-![Security settings view for Allowed media types and Allowed file extensions with XML added to the lists.](../modules/modulesfiles/ohmsembed_xmlsettings.png)
+![Security settings view for Allowed file extensions and Allowed file types with XML added to the lists.](../doc_files/plugin_images/xml_extension_type_settings.png)
 
 When you are finished, click the "Save" button in the upper right hand corner of the screen.
 
@@ -79,18 +81,22 @@ The OHMS viewer will load on Item and File Pages
 
 ### OHMS viewer on Exhibit pages
 
-You can use the ["File with Text" or the "File"](https://omeka.org/classic/docs/Plugins/ExhibitBuilder/#content) block to place the OHMS viewer directly into Exhibit pages. Choose an item by clicking the large plus sign button titled _Add Item_ appearing in the Items area.
+You can use the ["File with Text" or the "File"](https://omeka.org/classic/docs/Plugins/ExhibitBuilder/#content) block to place the OHMS viewer directly into Exhibit pages. 
 
-![Page editing showing the Media embed block with settings.](modulesfiles/ohmsembed_mediaEmbed.png)
+![Select block dialog with options as described above](../doc_files/plugin_images/eb_selectblock.png)
+
+Choose an item by clicking the large plus sign button titled _Add Item_ appearing in the Items area.
+
+![Empty file block, arrow pointing to the Add Item button](../doc_files/plugin_images/eb_additem1.png)
 
 You must select the XML file as the attached media - do not choose the image that you may have ingested to the same item to create a thumbnail. 
 
-![Page view with Media Embed block with OHMS viewer in the first column and sample HTML in the second column](modulesfiles/ohmsembed_public_mediaembed.png)
+![Omeka Classsic exhibit page with a file and text block containing an OHMS embed](../doc_files/plugin_images/ohms_embed_file_text_block.md)
 
 #### Using the OHMS viewer
 
-The Omeka Classi OHMS viewer has several public controls: a toggle between the index and the transcription and/or translation if those elements are available, an information icon that shows the media metadata, and an option to move to a fullscreen view.
+The Omeka Classic OHMS viewer has several public controls: a toggle between the index and the transcription and/or translation if those elements are available, an information icon that shows the media metadata, and an option to move to a fullscreen view.
 
-![Omeka S OHMS viewer public interface controls showing an index/transcript/translations toggle, and "i" icon and fullscreen button](../modules/modulesfiles/ohmsembed_public_controllers.png)
+![Omeka OHMS viewer public interface controls showing an index/transcript/translations toggle, and "i" icon and fullscreen button](../doc_files/plugin_images/ohmsembed_public_controllers.png)
 
 
