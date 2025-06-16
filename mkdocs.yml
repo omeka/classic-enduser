@@ -75,6 +75,7 @@ nav:
         - Plugins/Ngram.md
         - Plugins/OaipmhHarvester.md
         - Plugins/OaiPmhRepository.md
+        - Plugins/OhmsEmbed.md
         - Plugins/Omeka_API_Import.md
         - Plugins/PBCore.md
         - Plugins/PdfText.md
