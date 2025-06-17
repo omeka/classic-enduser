@@ -69,28 +69,30 @@ Upload the XML files to your hosting service or Dropbox directory. Then, create 
 
 ## Display the OHMS viewer
 
-The OHMS Viewer can appear differently in different Omeka Classic themes. Each theme may need to have its settings adjusted to work smoothly. For example, the Lightbox gallery viewer that some themes employ may need to be disabled so that the OHMS Viewer can appear in its place. 
+Having added your OHMS XML files to your Omeka Classic items, the OHMS viewer will load on Item and File Pages. If you have included a thumbnail on your items, such as a video still, you must order the files so that the XML file comes first, if you wish the OHMS viewer to load. 
+
+### OHMS on item pages
+
+The Viewer will appear where you place it using shortcodes and exhibit blocks. 
+
+On item pages, the OHMS Viewer will appear differently depending on your Omeka Classic theme. Each theme may need to have its settings adjusted to work smoothly. For example, the Lightbox gallery viewer that some themes offer may need to be disabled so that the OHMS Viewer can appear in its place. 
 
 If your Omeka Classic site will include a variety of different item types and media alongside OHMS items, you may need to make decisions trading off the best display settings for each type. 
 
-Note that the Viewer will appear where you place it using shortcodes and exhibit blocks. This display issue only applies when viewing a specific item's page with all its metadata and files. 
+This display issue only applies when viewing a specific item's page with all its metadata and files. A File view page for each XML file will show the Viewer as intended - as long as your users can navigate to that page (that is, if the file shows in file lists as a link). 
 
-We recommend 
-
+We recommend the following themes and settings for best use of OHMS:
 
 - The OHMS Viewer will render on item view pages in the theme Berlin, in the "file list" area of the page. 
-- The OHMS Viewer will render in the theme Foundation if your media display setting is on "Large derivatives", but not "Media viewer" (i.e. the Lightbox gallery). 
-- The OHMS Viewer will render in the theme Thanks Roy if the "Item File Gallery" setting is unchecked. 
-- The OHMS Viewer will __not render at all__ on item view pages in themes The Daily and Center Row. 
+- The OHMS Viewer will render in the theme Foundation __if__ your media display setting is on "Large derivative files stacked" - not "Media viewer" (i.e. the Lightbox gallery) or the square thumbnails. We recommend a single column layout.
+- The OHMS Viewer will render in the themes Emiglio, Minimalist, and Thanks Roy __if__ the "Item File Gallery" setting is unchecked. Note that Emiglio has a very narrow column for displaying the Viewer on item pages, and users will only be able to see either the transcript or the index, not both at the same time. 
+
+!!! note
+	The OHMS Viewer will __not render at all__ on item view pages in themes The Daily, Big Picture, and Center Row (because the Lightbox gallery cannot be turned off). 
 
 ### Embed the OHMS viewer
 
-Having added your OHMS XML files to your Omeka Classic items, the OHMS viewer will load on Item and File Pages. If you have included a thumbnail on your items, such as a video still, you must order the files so that the XML file comes first, if you wish the OHMS viewer to load. 
-
-!!! note
-	Themes that use the Lightbox gallery viewer for images do not currently display the OHMS viewer where an OHMS XML file is detected. You may wish to select a theme that does not use the Lightbox gallery viewer. 
-
-To make a specific OHMS item display on your Omeka Classic website pages, use the Files shortcode. 
+To make a specific OHMS item display on your Omeka Classic website pages, use the [Files shortcode](../Content/Shortcodes.md#file). 
 
 ### OHMS viewer on Exhibit pages
 
