@@ -83,9 +83,10 @@ This display issue only applies when viewing a specific item's page with all its
 
 We recommend the following themes and settings for best use of OHMS:
 
-- The OHMS Viewer will render on item view pages in the theme Berlin, in the "file list" area of the page. 
+- The OHMS Viewer will render on item view pages in the themes Berlin, Rhythm, and Santa Fe, in the "file list" area of the page. 
+- The OHMS Viewer will render in the theme Freedom but in a very narrow column. This can be modified using the CSS Editor if desired. 
 - The OHMS Viewer will render in the theme Foundation __if__ your media display setting is on "Large derivative files stacked" - not "Media viewer" (i.e. the Lightbox gallery) or the square thumbnails. We recommend a single column layout.
-- The OHMS Viewer will render in the themes Emiglio, Minimalist, and Thanks Roy __if__ the "Item File Gallery" setting is unchecked. Note that Emiglio has a very narrow column for displaying the Viewer on item pages, and users will only be able to see either the transcript or the index, not both at the same time. 
+- The OHMS Viewer will render in the themes Emiglio, Minimalist, Seasons, and Thanks Roy __if__ the "Item File Gallery" setting is unchecked. Note that Emiglio has a very narrow column for displaying the Viewer on item pages, and users will only be able to see either the transcript or the index, not both at the same time. 
 
 !!! note
 	The OHMS Viewer will __not render at all__ on item view pages in themes The Daily, Big Picture, and Center Row (because the Lightbox gallery cannot be turned off). 
