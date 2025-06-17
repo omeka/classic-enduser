@@ -75,7 +75,7 @@ Having added your OHMS XML files to your Omeka Classic items, the OHMS viewer wi
 
 The Viewer will appear where you place it using shortcodes and exhibit blocks. 
 
-On item pages, the OHMS Viewer will appear differently depending on your Omeka Classic theme. Each theme may need to have its settings adjusted to work smoothly. For example, the Lightbox gallery viewer that some themes offer may need to be disabled so that the OHMS Viewer can appear in its place. 
+On item pages, the OHMS Viewer will appear differently depending on your Omeka Classic theme. Each theme may need to have its settings adjusted to work smoothly. For example, the lightGallery viewer that some themes offer may need to be disabled so that the OHMS Viewer can appear in its place. 
 
 If your Omeka Classic site will include a variety of different item types and media alongside OHMS items, you may need to make decisions trading off the best display settings for each type. 
 
@@ -85,11 +85,11 @@ We recommend the following themes and settings for best use of OHMS:
 
 - The OHMS Viewer will render on item view pages in the themes Berlin, Rhythm, and Santa Fe, in the "file list" area of the page. 
 - The OHMS Viewer will render in the theme Freedom but in a very narrow column. This can be modified using the CSS Editor if desired. 
-- The OHMS Viewer will render in the theme Foundation __if__ your media display setting is on "Large derivative files stacked" - not "Media viewer" (i.e. the Lightbox gallery) or the square thumbnails. We recommend a single column layout.
+- The OHMS Viewer will render in the theme Foundation __if__ your media display setting is on "Large derivative files stacked" - not "Media viewer" (i.e. the gallery) or the square thumbnails. We recommend a single column layout.
 - The OHMS Viewer will render in the themes Emiglio, Minimalist, Seasons, and Thanks, Roy __if__ the "Item File Gallery" setting is unchecked. Note that Emiglio has a very narrow column for displaying the Viewer on item pages, and users will only be able to see either the transcript or the index, not both at the same time. 
 
 !!! note
-	The OHMS Viewer will __not render at all__ on item view pages in themes The Daily, Big Picture, and Center Row (because the Lightbox gallery cannot be turned off). 
+	The OHMS Viewer will __not render at all__ on item view pages in themes The Daily, Big Picture, and Center Row (because the gallery cannot be turned off). 
 
 Below is an image of the OHMS Viewer rendering in the Thanks, Roy theme:
 ![The OHMS Viewer on an item view page in the Thanks Roy theme.](../doc_files/plugin_images/ohms_thanksroy.png)
