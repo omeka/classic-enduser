@@ -10,7 +10,7 @@ OHMS XML files can be uploaded to Omeka items as media. Without this plugin, the
 
 The OHMS media player can appear on item and files pages, and can be placed on Omeka sites with shortcodes, or exhibit pages by adding the item to a selected page block.
 
-Preparing your Omeka installation to receive OHMS files can take some work, and includes some optional steps to enhance the process. Read over the following steps thoroughly before taking any action, so that you can set up your installation correctly based on your specific needs. 
+Preparing your Omeka installation to receive OHMS files can take some work. Read over the following steps thoroughly before taking any action, so that you can set up your installation correctly based on your specific needs. 
 
 ## Create OHMS files
 
@@ -65,7 +65,7 @@ You can upload your OHMS XML files individually to items from your computer, or 
 
 If you are interested in adding many OHMS objects to your Omeka S installation at once, it is possible to use [CSV Import](CSV_Import.md). You can use the [Dropbox plugin](Dropbox.md) to host the XML files for ingest.
 
-Upload the XML files to your hosting service or Dropbox directory. Then, create a spreadsheet that lists the URLs of the files. If you are planning to extract all metadata from the XML files, you can provide exclusively a column of file URLs. If you have further metadata to add, create columns for those fields according to the CSV Import instructions in the user manual. 
+Upload the XML files to your hosting service or Dropbox directory. Then, create a spreadsheet that lists the URLs of the files. If you are planning to extract all metadata from the XML files, all you need to provide is a column of file URLs. If you have further metadata to add, create columns for those fields according to the CSV Import instructions in the user manual. 
 
 ## Display the OHMS viewer
 
@@ -86,10 +86,13 @@ We recommend the following themes and settings for best use of OHMS:
 - The OHMS Viewer will render on item view pages in the themes Berlin, Rhythm, and Santa Fe, in the "file list" area of the page. 
 - The OHMS Viewer will render in the theme Freedom but in a very narrow column. This can be modified using the CSS Editor if desired. 
 - The OHMS Viewer will render in the theme Foundation __if__ your media display setting is on "Large derivative files stacked" - not "Media viewer" (i.e. the Lightbox gallery) or the square thumbnails. We recommend a single column layout.
-- The OHMS Viewer will render in the themes Emiglio, Minimalist, Seasons, and Thanks Roy __if__ the "Item File Gallery" setting is unchecked. Note that Emiglio has a very narrow column for displaying the Viewer on item pages, and users will only be able to see either the transcript or the index, not both at the same time. 
+- The OHMS Viewer will render in the themes Emiglio, Minimalist, Seasons, and Thanks, Roy __if__ the "Item File Gallery" setting is unchecked. Note that Emiglio has a very narrow column for displaying the Viewer on item pages, and users will only be able to see either the transcript or the index, not both at the same time. 
 
 !!! note
 	The OHMS Viewer will __not render at all__ on item view pages in themes The Daily, Big Picture, and Center Row (because the Lightbox gallery cannot be turned off). 
+
+Below is an image of the OHMS Viewer rendering in the Thanks, Roy theme:
+![The OHMS Viewer on an item view page in the Thanks Roy theme.](../doc_files/plugin_images/ohms_thanksroy.png)
 
 ### Embed the OHMS viewer
 
@@ -101,18 +104,20 @@ You can use the ["File with Text" or the "File"](https://omeka.org/classic/docs/
 
 ![Select block dialog with options as described above](../doc_files/plugin_images/eb_selectblock.png)
 
-Choose an item by clicking the large plus sign button titled _Add Item_ appearing in the Items area.
+Choose an item by clicking the large plus sign button titled "Add Item" appearing in the Items area.
 
 ![Empty file block, arrow pointing to the Add Item button](../doc_files/plugin_images/eb_additem1.png)
 
 You must select the XML file as the attached media - do not choose any other files on the same item. 
 
-![Omeka Classsic exhibit page with a file and text block containing an OHMS embed](../doc_files/plugin_images/ohms_embed_file_text_block.md)
+Below is an image of the OHMS Viewer rendering in an exhibit using the Santa Fe theme:
+
+![Omeka Classsic exhibit page with a file and text block containing an OHMS embed](../doc_files/plugin_images/ohms_filetextblock.png)
 
 #### Using the OHMS viewer
 
 The Omeka Classic OHMS viewer has several public controls: a toggle between the index and the transcription and/or translation if those elements are available, an information icon that shows the media metadata, and an option to move to a fullscreen view.
 
-![Omeka OHMS viewer public interface controls showing an index/transcript/translations toggle, and "i" icon and fullscreen button](../doc_files/plugin_images/ohmsembed_public_controllers.png)
+![Omeka OHMS viewer public interface controls showing an index/transcript/translations toggle, and "i" icon and fullscreen button](../doc_files/plugin_images/ohms_public_controllers.png)
 
 
