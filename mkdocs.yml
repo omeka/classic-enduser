@@ -72,6 +72,7 @@ nav:
         - Plugins/ItemOrder.md
         - Plugins/ItemRelations.md
         - Plugins/Library_of_Congress_Suggest.md
+        - Plugins/LocalContexts.md
         - Plugins/Ngram.md
         - Plugins/OaipmhHarvester.md
         - Plugins/OaiPmhRepository.md
