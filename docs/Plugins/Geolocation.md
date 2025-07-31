@@ -7,12 +7,11 @@ There is a [screencast for Geolocation (version 2.2.4) demonstrating its basic f
 <div style="padding:62.5% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/156298642?h=2fef6d0da4" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 <p><a href="https://vimeo.com/156298642">Omeka Classic: Geolocation Plugin</a> from <a href="https://vimeo.com/omeka">Omeka</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
-
 ## Configuring
 
 Once you have [installed](../Admin/Adding_and_Managing_Plugins.md) the Geolocation plugin, go to the Plugins tab in the top navigation of your admin dashboard. Scroll down to the listing for Geolocation and click *Configure* (if you do not see Configure you may need to click the *Install* or *Activate* buttons.
 
-### General Settings
+### General settings
 The first section for configuration are the general settings for the appearance of your maps on the public and admin sides of your site.
 
 ![General settings for geolocation](../doc_files/plugin_images/geolocation_genset.png)
@@ -33,7 +32,7 @@ You can use MapBox to create your own map tiles, for example a historic map laye
 
 ![The dropdown for Base Map with MapBox selected is at the top, with the two fields described following. Both fields are empty.](../doc_files/plugin_images/geolocation-mapbox.png)
 
-### Browse Map Settings
+### Browse Map settings
 These settings are for the map through which users can browse all geolocated items, and for the "Search by Address function" that Geolocation enables in advanced item search. 
 
 ![Browse map settings for geolocation](../doc_files/plugin_images/geolocation_brset.png)
@@ -50,48 +49,54 @@ A map with Enable marker clusters unchecked:
 The same map with Enable marker clusters checked:   
 ![A low-detail map of the British Isles, with one blue map marker in southwest England and a yellow circle with the label 17 roughly over London](../doc_files/plugin_images/geolocation-cluster.png)
 
-### Item Map Settings
-These settings are for the map display on an item/show page.
+### Item map settings
+These settings are for the map display on an `item/show` page.
 
 ![Item Map settings](../doc_files/plugin_images/geolocation_ItemMap.png)
 
-- *Width for Item Map*: set in percent; defaults to 100% if left blank.
-- *Height for Item Map*: set in pixels; defaults to 300px if left blank. 
+- **Width for Item Map**: set in percent; defaults to 100% if left blank.
+- **Height for Item Map**: set in pixels; defaults to 300px if left blank. 
 
-### Map Integration
-These settings are for integration of the geolocation map into the site menu and the [contribution](Contribution.md) plugin's form. 
+### Map integration
+These settings are for integration of the geolocation map into the site menu and the [Contribution](Contribution.md) plugin's form. 
 
 ![Map Integration settings](../doc_files/plugin_images/geolocation_Mapint.png)
 
-- *Add link to map on Items/Browse navigation*: click to make active. 
-- *Add map to contribution form*: click to make active. Note that this will only work if you have the Contribution plugin installed and active.
+- **Add link to map on Items/Browse navigation**: click to make active. 
+- **Add map to contribution form**: click to make active. Note that this will only work if you have the Contribution plugin installed and active.
 
-Adding Location to an Item
+Adding location to an item
 ----------------------------------------------------------------
-After you have activated and configured the Geolocation plugin, you can add a location marker to your items. Note: an item can only have a single location marker; you cannot have an item associated with more than one location at a time.
+After you have activated and configured the Geolocation plugin, you can add a location marker to your items. 
+
+!!! note
+	An item can only have a single location marker; you cannot have an item associated with more than one location at a time.
 
 Geolocation adds a Map tab to the options for adding or editing an item (`admin/item/edit` and `admin/item/add` pages).  When adding metadata for an item, click on the Map tab to add a location.
 
 ![Arrow points to the Map tab](../doc_files/plugin_images/geolocation_set1.png)
 
-On the tab there is a field for you to *find a location by address* and a map which you can drag to move around, zoom in and out with the plus and minus options (or the scroll wheel on a mouse), and toggle between road and satellite maps. 
+On the tab there is a field for you to **find a location by address** and a map which you can drag to move around, zoom in and out with the plus and minus options (or the scroll wheel on a mouse), and toggle between road and satellite maps. 
 
 To find the location you want to assign to the item, you can:
 
 - Enter the address where you want the marker for the item to be placed. The plugin will automatically add a marker at that location. You can use a street address (ex `100 First St SE, Washington, DC 20543`) or geocordinates in decimal form (ex `38.888611, -77.004722`).
 - Zoom and scroll to navigate to where you want to place the marker, then click directly on the spot on the map where you want to place the marker. 
 
-To change the location of an item, type in the new address or click on the new location. You'll be asked if you are sure you would like to change the item location. Select OK or Cancel.
+To change the location of an item, type in the new address or click on the new location. You'll be asked if you are sure you would like to change the item location. Select "OK" or "Cancel".
 
 To remove geolocation from an item, click directly on the marker. A dialog box will ask you to confirm that you want to delete the location assignment. 
 
+!!! note 
+	Note that at this time you cannot use [CSV Import](CSV_Import.md) to add location data for use by the Geolocation plugin. Map pins can only be added manually.
+
 Don't forget to save your changes.
 
-## Viewing Items on the Public Map 
+## Viewing items on the public map 
 
 Visitors to your Omeka site may use a map to browse through all of your geolocated items.
 
-When configuring the plugin, if you selected "Add Link to Map on Items/Browse Navigation," a "Browse Map" link will be added automatically to the secondary navigation on the items/browse page.
+When configuring the plugin, if you selected "Add Link to Map on Items/Browse Navigation," a "Browse Map" link will be added automatically to the secondary navigation on the `items/browse` page.
 
 ![Public items map view in the Thanks Roy theme](../doc_files/plugin_images/geolocation_pubbr.png)
 
@@ -99,9 +104,9 @@ From this view, visitors may browse all mapped items, browse by tag, search for 
 
 They may also locate a mapped item by clicking on the items listed in the right column of the map.
 
-## Browse and Search Items on Admin Map
+## Browse and search items on the admin map
 
-A Map tab appears in the left navigation bar located on the left side of the Dashboard. Clicking on the Map tab takes you to a map that displays all items geolocated in your Omeka site--public and not public, and an advanced search form to locate specific items.
+A "Map" tab appears in the left navigation bar located on the left side of the dashboard. Clicking on the Map tab takes you to a map that displays all geolocated items in your Omeka site, public and not public, and an advanced search form to locate specific items.
 
 ![Admin item browse map with search form](../doc_files/plugin_images/geolocation_adminbr.png)
 
