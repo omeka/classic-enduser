@@ -8,6 +8,8 @@ With the [Local Contexts plugin](https://omeka.org/classic/plugins/LocalContexts
 
 ### Notices
 
+This text is from [The Local Contexts website](https://localcontexts.org/notices/about-the-notices/){target=_blank}:
+
 > *The Notices are tools for institutions and researchers to identify Indigenous collections and data and recognize Indigenous rights and interests. The Notices were developed to create pathways for partnership, collaboration, and support of Indigenous cultural authority.*
 
 > *Notices can be applied to websites, publications, datasets, museum exhibitions, items in a collection, genetic samples, and more. Institutions and researchers can generate Notices using the Local Contexts Hub.*
@@ -18,6 +20,8 @@ With the [Local Contexts plugin](https://omeka.org/classic/plugins/LocalContexts
 
 ### Labels
 
+This text is from [The Local Contexts website](https://localcontexts.org/labels/about-the-labels/){target=_blank}:
+
 > *The Traditional Knowledge (TK) and Biocultural (BC) Labels are tools for Indigenous communities and local organizations. Developed through sustained partnership and testing within Indigenous communities across multiple countries, the Labels allow communities to express local and specific conditions for sharing and engaging in future research and relationships in ways that are consistent with already existing community rules, governance, and protocols for using, sharing, and circulating knowledge and data.*
 
 > *Labels can be applied to websites, publications, datasets, museum exhibitions, items in a collection, genetic samples, and more. Communities can customize and apply their TK and BC Labels using the Local Contexts Hub.*
@@ -25,6 +29,8 @@ With the [Local Contexts plugin](https://omeka.org/classic/plugins/LocalContexts
 ![Image](../doc_files/plugin_images/LocalContexts_labels.png)
 
 ### Projects
+
+This text is from [The Local Contexts website](https://localcontexts.org/support/getting-started-on-the-hub/){target=_blank}:
 
 > *What is a Local Contexts Project?*
 
