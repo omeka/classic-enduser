@@ -2,7 +2,7 @@
 
 With the [Local Contexts plugin](https://omeka.org/classic/plugins/LocalContexts/){target=_blank} you can apply [Local Contexts](https://localcontexts.org/){target=_blank} labels and notices to your Omeka Classic site and resources. This requires setting up a Local Contexts account and creating projects in their registry. Then enter the API key into Omeka to bring your chosen [labels](https://localcontexts.org/labels/about-the-labels/){target=_blank} and [notices](https://localcontexts.org/notices/about-the-notices/){target=_blank} over and apply them to your items and exhibits. 
 
-![Image](../doc_files/plugin_images/LocalContexts_image.png)
+![Image](../doc_files/plugin_images/LocalContexts_public.png)
 
 ## What are Local Contexts?
 
@@ -14,7 +14,7 @@ With the [Local Contexts plugin](https://omeka.org/classic/plugins/LocalContexts
 
 > *There are three categories of Notices: Engagement, Disclosure, and Collections Care Notices. See below for more information on the different types of Notices.*
 
-![Image](../doc_files/plugin_images/LocalContexts_image.png)
+![Image](../doc_files/plugin_images/LocalContexts_notices.png)
 
 ### Labels
 
@@ -22,7 +22,7 @@ With the [Local Contexts plugin](https://omeka.org/classic/plugins/LocalContexts
 
 > *Labels can be applied to websites, publications, datasets, museum exhibitions, items in a collection, genetic samples, and more. Communities can customize and apply their TK and BC Labels using the Local Contexts Hub.*
 
-![Image](../doc_files/plugin_images/LocalContexts_image.png)
+![Image](../doc_files/plugin_images/LocalContexts_labels.png)
 
 ### Projects
 
@@ -34,17 +34,25 @@ With the [Local Contexts plugin](https://omeka.org/classic/plugins/LocalContexts
 
 > *Creating Projects allows institutions and researchers to generate Notices and engage, acknowledge, and make visible Indigenous interests in collections, information, and data. Communities may then choose how and when to add their Labels.*
 
-> *Community accounts can apply customized Labels to Projects they create in the Hub, as well as to  Projects they have been sent by institution and researcher accounts. You can see Projects that have been added to the Hub publicly on the Projects Board.*
+> *Community accounts can apply customized Labels to Projects they create in the Hub, as well as to Projects they have been sent by institution and researcher accounts. You can see Projects that have been added to the Hub publicly on the Projects Board.*
 
-![Image](../doc_files/plugin_images/LocalContexts_image.png)
+![Image](../doc_files/plugin_images/LocalContexts_hub.png)
 
 ## Requirements
 
-To use this plugin, you must have a Local Contexts Hub account. Creating a profile there allows you to have Projects, which can then be connected to your Omeka installation with an API key.
+Remember that Local Contexts notices are meant to encourage response, in the form of labels or otherwise - an "Open to Collaborate" notice, for example, indicates that collaboration is welcome. Be sure your Omeka site has a pathway for that collaboration, whether that is account creation for Indigenous community members, the ability to add more Local Contexts Projects to the site, a contact form, comments on items, or a plan for staff responsiveness to contributions. Think about your intended workflow for improving your collections in collaboration before proceeding further.
+
+### Permissions
+
+This plugin is available to Omeka Classic users at all levels. Any user can enter in a new API key and add new Projects to the Omeka site, and any user can apply those projects to items or exhibits to which they have access (e.g. Contributors can add them to items they create and/or own). Only site administrators (Super users) can add projects to the site footer. 
+
+### Local Contexts Hub account
+
+To use this plugin, you must have a Local Contexts Hub account. Creating a profile there allows you to have one or more Projects, which can then be connected to your Omeka installation with an API key.
 
 [Go to the Local Contexts website to learn more and set up your Projects](https://localcontexts.org/support/getting-started-on-the-hub/#about-projects){target=_blank}. 
 
-This plugin is available to Omeka Classic users at all levels. Any user can enter in a new API key and add new Projects to the Omeka site, and any user can apply those projects to items or exhibits to which they have access (e.g. Contributors can add them to items they create and/or own). Only site administrators (Super users) can add projects to the site footer. 
+A Project can be designed for one single collection object, a whole collection, an exhibit, or for your entire institution. You may have simple needs - adding an "Open to Collaborate" notice in your Omeka site footer - or complex ones, such as separate and unique sets of labels for each of hundreds of items. Familiarize yourself with all of the Local Contexts notice and label options, and plan which set of Projects you will need to express your organizational situation. 
 
 ### Enable images in HTML elements
 
@@ -52,7 +60,7 @@ In order for Local Contexts thumbnail images to consistently appear in item meta
 
 ![Image](../doc_files/plugin_images/LocalContexts_filter.png)
 
-## Using the LC plugin
+## How to use the LC plugin
 
 ### Import projects
 
@@ -62,57 +70,67 @@ With the plugin installed and active on your Omeka site, go to the "Local Contex
 
 You can optionally select only a few of your Projects for import, by entering in their IDs. If you leave the "Projects" field blank, Omeka will load all the projects associated with your Local Contexts API key. 
 
-When you save the page, the projects will load. You will see each project name and all of its associated notices and labels. 
+When you save the page, the projects will load on an "Assign" tab. You will see each project name and all of its associated notices and labels. On this screen you can check the box of each project you wish to make available from the API key you just input. If you do not check any of these projects before saving the page, they will not persist in the Omeka site. Assigning the projects at this stage will not make them appear on your site - you will still need to place them manually on items and exhibits or into the site footer. 
 
 ![Image](../doc_files/plugin_images/LocalContexts_projects.png)
 
-Omeka Classic will not save the API key, and does not create a persistent connection. If you update content on the LC website, you will need to re-enter the API key to update Omeka's information from the source. 
+Omeka Classic will not save the API key, and does not create a persistent connection. If you update content on the LC Hubs website, you will need to re-enter the API key to update Omeka's information from the source. Then you will need to re-apply the modified projects to your footer, items, and exhibits where applicable. 
 
 Other users on the Omeka site can add more projects by entering in another LC API key (or by entering the same key and specifying other projects by ID). Projects from all sources will be listed together and can be accessed by any user. 
 
-This table will allow you to remove projects from your site. If you wish to add these projects back later, you will have to re-import them by entering in the API key in again. This will not change any items or exhibits. 
+When coming back to this page, you will see the same form to enter in a new API key. You can ignore this and save the page if you wish to see the list of projects already imported to your site. This will appear on a "Remove" tab. 
+
+This table will allow you to remove projects from your site. If you wish to add these projects back later, you will have to re-import them by entering in the API key in again. This will not change any items or exhibits - anything already assigned will need to be removed manually. 
 
 ### Apply projects in Omeka
-
-#### Apply projects to Omeka items
-
-You can apply LC projects to individual Omeka items, or through batch-editing a number of items.
-
-![Image](../doc_files/plugin_images/LocalContexts_itemEdit.png)
-
-Edit an item, then go to the LC tab at the top of the item editing screen. You can assign a LC project to a specific metadata field. 
-
-![Image](../doc_files/plugin_images/LocalContexts_itemElement.png)
-
-![Image](../doc_files/plugin_images/LocalContexts_itemLanguage.png)
-
-![Image](../doc_files/plugin_images/LocalContexts_itemProject.png)
-
-When you save these edits, you will see that each LC Project notice or label appears in a separate metadata entry for your chosen field. 
-
-![Image](../doc_files/plugin_images/LocalContexts_metadata.png)
-
-You can manually delete these notices or labels if appropriate, with the "Remove" button on individual metadata entries. 
-
-LC labels and notices are applied as HTML-formatted metadata entries that call upon images on the LC website and link to the project in the LC registry. 
-
-The following image shows you the source code that is loaded into a metadata field when a project is applied to an item:
-
-![Image](../doc_files/plugin_images/LocalContexts_source.png)
-
-#### Apply projects to exhibits
-
-![Image](../doc_files/plugin_images/LocalContexts_image.png)
 
 #### Apply projects to your site
 
 You can choose to have one or more projects appear in your site footer. This will display all labels and notices attached to that project, along with a link to the project in the LC Hubs registry. 
 
-![Image](../doc_files/plugin_images/LocalContexts_image.png)
+![Image](../doc_files/plugin_images/LocalContexts_footer.png)
 
 The LC content will load below the customized footer text that can be set in the theme configuration, and before the copyright information that is set in the installation settings. 
 
-Note that Local Contexts labels and notices are designed to apply only to materials of Indigenous interest. If your Omeka site or collection as a whole does not fit this definition, we do not recommend you use the site footer. Only apply LC notices and labels to relevant items and exhibits. 
+Note that Local Contexts labels and notices are designed to apply to materials of Indigenous interest. If your Omeka site or institution as a whole does not fit this definition, we do not recommend you use the site footer. Only apply LC notices and labels to relevant items and exhibits. 
+
+#### Apply projects to Omeka items
+
+You can apply LC projects to individual Omeka items, or through batch-editing a number of items. Local Contexts notices and labels are used to fill out a metadata field on the itme, based on which metadata schema you have available. 
+
+![Image](../doc_files/plugin_images/LocalContexts_itemEdit.png)
+
+Edit an item, then go to the "Local Contexts" tab at the top of the item editing screen. You then assign a LC project to a specific metadata field. 
+
+![Image](../doc_files/plugin_images/LocalContexts_itemElement.png)
+
+If you wish to apply only the available labels in a specific language, choose one from this dropdown. It will display all languages supplied by the Local Contexts Project that was imported. 
+
+![Image](../doc_files/plugin_images/LocalContexts_itemLanguage.png)
+
+Then, select the project you wish to assign to the item's metadata field. All available notices and labels of the project will be assigned - either all or just in the language specified in the dropdown above. 
+
+![Image](../doc_files/plugin_images/LocalContexts_itemProject.png)
+
+When you save these edits, you will see that each intended notice or label appears in a separate metadata entry for your chosen field. 
+
+![Image](../doc_files/plugin_images/LocalContexts_metadata.png)
+
+You can manually delete each of these notices or labels if appropriate, with the "Remove" button on individual metadata entries. 
+
+LC labels and notices are applied as HTML-formatted metadata entries that call upon images on the LC website and link to the project in the LC registry. The following image shows you the source code that is loaded into a metadata field when a project is applied to an item:
+
+![Image](../doc_files/plugin_images/LocalContexts_source.png)
+
+If you wish to apply your LC project to all of the items in a collection, you can select them all and batch-edit them. The Local Contexts options will display in the batch-editing field. 
+
+![Image](../doc_files/plugin_images/LocalContexts_batchEdit.png)
+
+Similarly, you can batch-apply LC notice or labels to items based on a tag, a location, or other metadata. Run a search to bring up your desired results, then batch-edit all items in the results set. 
+
+#### Apply projects to exhibits
+
+![Image](../doc_files/plugin_images/LocalContexts_exhibits.png)
 
 ### Remove projects 
 
@@ -120,4 +138,4 @@ Once a project has been added to an item, exhibit block, or the site footer, it 
 
 ![Image](../doc_files/plugin_images/LocalContexts_projects.png)
 
-Deleting a project from the list of projects in the plugin configuration must be done manually, and **will not** remove that project from resources to which it has been added. It will only remove the option to add it to resources in the future. 
+Deleting a project from the list of projects must be done manually, and **will not** remove that project from resources to which it has been added. It will only remove the option to add it to resources in the future. 
