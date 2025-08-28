@@ -41,7 +41,7 @@ If a file does not have any metadata, as you can see in the above screenshot, Om
 Alt Text
 ----------------------
 
-[Alternativee text (`alt`)](https://webaim.org/techniques/alttext/){target=_blank} is displayed when an image cannot load. This information is also accessible to screen readers and other accessibility tools for the web. Best practices include using plain language to describe the content of the image without embellishment. 
+[Alternative text (`alt`)](https://webaim.org/techniques/alttext/){target=_blank} is displayed when an image cannot load. This information is also accessible to screen readers and other accessibility tools for the web. Best practices include using plain language to describe the content of the image without embellishment. 
 
 You may input alternative text for individual files by editing the file and drafting the text in the input area to the right of the file metadata. This will load wherever the file and its derivatives are displayed - in the administrative side, as thumbnails in browse and search screens, on the item view page, in exhibits, etc. 
 
