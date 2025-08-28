@@ -14,7 +14,7 @@ If you need to upgrade your server to meet any of the Omeka system requirements,
 
 -   [Upgrading Apache](https://httpd.apache.org/docs/current/upgrading.html){target=_blank} (look for the migration guide appropriate to your version)
 -   [Upgrading PHP](https://www.php.net/migration81){target=_blank} (look for the migration guide appropriate to your version)
--   [Upgrading MySQL to version 5.5.5 or higher](hhttps://dev.mysql.com/doc/refman/8.0/en/upgrading.html){target=_blank} (look for the migration guide appropriate to your version)
+-   [Upgrading MySQL to version 5.5.5 or higher](https://dev.mysql.com/doc/refman/8.0/en/upgrading.html){target=_blank} (look for the migration guide appropriate to your version)
 -   [Installing ImageMagick](http://www.imagemagick.org/script/install-source.php){target=_blank}.
 
 Some [plugins](https://omeka.org/classic/plugins/){target=_blank} may have other requirements, such as the [PDF Text plugin](../Plugins/PdfText.md), which requires your server to have [poppler-utils](https://pypi.org/project/poppler-utils/){target=_blank} installed for text extraction. Be sure to read the documentation on your desired plugins and features to understand all dependencies before you begin building your site, including the Github pages or other external sites, not just the Omeka user manual and plugins page. 
