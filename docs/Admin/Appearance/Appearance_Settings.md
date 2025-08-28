@@ -47,4 +47,4 @@ These settings relate to the display of results on the public and admin sides an
 
 ![Item show page with heading Dublin Core above item title](../../doc_files/showElmSet.png "Item show page with heading Dublin Core above item title")
 
-**File Alt Text Element**: To set a default element to use in describing visual files to screen reader users via the image tag's alt attribute, select an element from the dropdown menu of all the elements available within the site. This setting may be overridden for individual Files by editing the attached file and using the Alt Text input on the File Metadata Screen.
+**File Alt Text Element**: You can set a default file element to use in describing visual files to screen reader users via the HTML `image` tag's `alt` attribute. Select a file element from the dropdown menu. Be sure that the chosen field is filled out in the file metadata (not the item metadata). This setting may be overridden for individual Files by editing the attached file and using the ["Alt Text" input on the File metadata editing screen](../../Content/Files.md#alt-text).

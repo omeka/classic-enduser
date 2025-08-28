@@ -1,6 +1,8 @@
 # Files
 
-When adding [items](Items.md) to your database, often you will upload one or more files (images, documents, etc.) associated with that item. An item can have as many files attached as you wish, or none. When uploading files you may select more than one from the browse of your local drive during a single upload. Omeka Classic does not offer a way to upload files that are not attached to an item, except for some branding files such as a header background or logo file, [depending on the theme](../Admin/Appearance/Themes.md#configuring-a-theme).
+When adding [items](Items.md) to your database, often you will upload one or more files (images, documents, etc.) associated with that item. An item can have as many files attached as you wish, or none. When uploading files from your computer, you can select multiple files in one location by highlighting them all, or use the "Add Another File" button to browse to files in separate locations. 
+
+Omeka Classic does not offer a way to upload files that are not attached to an item, except for some branding files such as a header background or logo file, [depending on the theme](../Admin/Appearance/Themes.md#configuring-a-theme).
 
 ![The Files tab that appears when you are adding an item](../doc_files/filesAdd.png "The Files tab that appears when you are adding an item")
 
@@ -11,22 +13,15 @@ Omeka Classic accepts most files and file types, and can be customized to accept
 
 If you are having difficulty or are seeing file-validation errors, please see more information about adjusting the accepted file types and extensions in [File Validation section of the Security Settings page](../Admin/Settings/Security_Settings.md#file-validation).
 
-<!---
-Need more information about specific errors people have seen, or what "difficulty" might look like. Perhaps a screenshot or example here and more information in the Troubleshooting section.
---->
-
 
 File Display Order
 ---------------------------------------------------------------
 If you have multiple files added to an item, you may click and drag the files into the preferred display order for both public and admin item pages.
 
-<!--- screenshot needed --->
 
 Files with Thumbnails
 -------------------------------
 Thumbnails are automatically created for many file types as of Omeka 2.0. Thumbnail creation relies on the ability of your chosen thumbnail utility (the default being ImageMagick) and which file types it can process. If you have access to the `config.ini` file, you can manage [thumbnail configuration](../Technical/ConfiguringThumbnailCreation.md). Look up the utility you are using (such as [ImageMagick](https://imagemagick.org/){target=_blank}, [Imagick](https://www.php.net/imagick){target=_blank}, or [GD](https://www.php.net/manual/en/intro.image.php){target=_blank}) to find out which file types it supports. 
-
-<!--- can you do anything fun with thumbnails? upload some defaults, upload some custom thumbnails to override the automatically generated ones? --->
 
 File Size Limitations
 -----------------------------
@@ -41,15 +36,18 @@ To add metadata, click the Edit button found to the right of the file name in `a
 
 ![A teal arrow points to the File Metadata box on a screenshot of an Item page. The file is displayed by its original filename](../doc_files/filesMetadata.png "A teal arrow points to the File Metadata box on a screenshot of an Item page. The file is displayed by its original filename")
 
-<!--- maybe a screenshot that doesn't confused people by having a full external URL where a filename should be --->
+If a file does not have any metadata, as you can see in the above screenshot, Omeka uses the original filename (and path) as both title and alt text (see below). If the file has information in its Dublin Core Title property, that text will be displayed as the title for that file wherever it appears on the site. 
 
 Alt Text
 ----------------------
-If a file does not have any metadata, as you can see in the above screenshot, Omeka uses the filename as alt text. If the file has information in its Dublin Core Title property, that text will be displayed as the alt text for that file wherever it appears on the site. 
 
-You may input alt text for individual files by editing the file and drafting the text in the input area to the right of the file metadata. 
+[Alternativee text (`alt`)](https://webaim.org/techniques/alttext/){target=_blank} is displayed when an image cannot load. This information is also accessible to screen readers and other accessibility tools for the web. Best practices include using plain language to describe the content of the image without embellishment. 
 
-To configure an element to use for alt text for all items go to the [Appearance Settings](..../Admin/Appearance/Appearance_Settings).
+You may input alternative text for individual files by editing the file and drafting the text in the input area to the right of the file metadata. This will load wherever the file and its derivatives are displayed - in the administrative side, as thumbnails in browse and search screens, on the item view page, in exhibits, etc. 
+
+![The Alt Text field in the file element editing screen, under the "Save" button, in the right-most column.](../doc_files/filesAltText.png "")
+
+You can also configure a default file element to use for alt text for all image tags (that have a metadata value in that element). This is set in the [Appearance Settings](../../Admin/Appearance/Appearance_Settings). This default will be overridden when text is supplied in the "Alt Text" field. 
 
 Media Files
 ------------------------
