@@ -1,6 +1,6 @@
 # Files
 
-When adding [items](Items.md) to your database, often you will upload one or more files (images, documents, etc.) associated with that item. An item can have as many files attached as you wish, or none. Omeka Classic does not offer a way to upload files that are not attached to an item, except for some branding files such as a header background or logo file, [depending on the theme](../Admin/Appearance/Themes.md#configuring-a-theme).
+When adding [items](Items.md) to your database, often you will upload one or more files (images, documents, etc.) associated with that item. An item can have as many files attached as you wish, or none. When uploading files you may select more than one from the browse of your local drive during a single upload. Omeka Classic does not offer a way to upload files that are not attached to an item, except for some branding files such as a header background or logo file, [depending on the theme](../Admin/Appearance/Themes.md#configuring-a-theme).
 
 ![The Files tab that appears when you are adding an item](../doc_files/filesAdd.png "The Files tab that appears when you are adding an item")
 
@@ -33,11 +33,6 @@ File Size Limitations
 
 Omeka Classic imposes no file size limitations. Your server, however, may have restrictions on file upload sizes or speeds that may be causing problems. These limitations vary from server to server and we cannot change this for you. If you have a problem uploading files through the Add New Files interface, please first check with your hosting service or your local server administrator. 
 
-Batch Add Files
----------------------------------------------------------------
-
-To upload more than one file at a time, you may download and install add-ons such as the [Dropbox plugin](../Plugins/Dropbox.md). It allows you to upload multiple files from Dropbox directly into a folder on your server, which you can then add in the items interface. 
-
 File Metadata
 --------------------------------------------------------------
 You may add a distinct set of Dublin Core metadata for each file uploaded.
@@ -51,6 +46,10 @@ To add metadata, click the Edit button found to the right of the file name in `a
 Alt Text
 ----------------------
 If a file does not have any metadata, as you can see in the above screenshot, Omeka uses the filename as alt text. If the file has information in its Dublin Core Title property, that text will be displayed as the alt text for that file wherever it appears on the site. 
+
+You may input alt text for individual files by editing the file and drafting the text in the input area to the right of the file metadata. 
+
+To configure an element to use for alt text for all items go to the [Appearance Settings](..../Admin/Appearance/Appearance_Settings).
 
 Media Files
 ------------------------
