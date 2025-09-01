@@ -1,6 +1,6 @@
 # Local Contexts
 
-With the [Local Contexts plugin](https://omeka.org/classic/plugins/LocalContexts/){target=_blank} users can apply [Local Contexts](https://localcontexts.org/){target=_blank} labels and notices to Omeka Classic sites and resources. This requires setting up a Local Contexts account and creating Projects in their registry. Then enter the API key into Omeka to bring the chosen [labels](https://localcontexts.org/labels/about-the-labels/){target=_blank} and [notices](https://localcontexts.org/notices/about-the-notices/){target=_blank} over and apply them to items and exhibits. 
+With the [Local Contexts plugin](https://omeka.org/classic/plugins/LocalContexts/){target=_blank} users can apply [Local Contexts](https://localcontexts.org/){target=_blank} labels and notices to Omeka Classic sites and resources. This requires setting up a Local Contexts account and creating Projects in the registry. Then enter the API key into Omeka to bring the chosen [labels](https://localcontexts.org/labels/about-the-labels/){target=_blank} and [notices](https://localcontexts.org/notices/about-the-notices/){target=_blank} over and apply them to items and exhibits. 
 
 ![Image](../doc_files/plugin_images/LocalContexts_metadataPublic.png)
 
@@ -151,6 +151,8 @@ To add the block to an exhibit page, edit the page and click the "Local Contexts
 ### Remove projects 
 
 Once a project has been added to an item, exhibit block, or the site footer, it has to be removed manually. Edit the item or exhibit and delete the content by hand. Only Super Users can remove projects from the site footer. 
+
+You can remove a project from the list of projects displayed in the future, by returning to the Local Contexts plugin entry in the sidebar. Save the empty form that is displayed first; this will show you the list of projects that have already been assigned. You can remove individual projects by checking the boxes and saving this page. 
 
 ![Image](../doc_files/plugin_images/LocalContexts_projects.png)
 
