@@ -6,7 +6,7 @@ With the [Local Contexts plugin](https://omeka.org/classic/plugins/LocalContexts
 
 ## What are Local Contexts?
 
-Local Contexts a global initiative that supports Indigenous communities with tools that can reassert cultural authority in heritage collections and data. Local Contexts has three components of note to Omeka users: Notices, Labels, and Projects.
+Local Contexts is a global initiative that supports Indigenous communities with tools that can reassert cultural authority in heritage collections and data. Local Contexts has three components of note to Omeka users: Notices, Labels, and Projects.
 
 ### Notices
 
