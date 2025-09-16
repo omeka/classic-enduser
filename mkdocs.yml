@@ -109,6 +109,7 @@ nav:
         - Technical/ConfiguringThumbnailCreation.md
         - Technical/Contribute_Code_to_Omeka.md
         - Technical/DatabaseConfigurationFile.md
+        - Technical/ImportExport.md
         - Technical/Legacy_documentation.md
         - Technical/Moving_to_Another_Server.md
         - Technical/Output_Formats.md
