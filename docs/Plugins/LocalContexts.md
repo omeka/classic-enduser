@@ -102,7 +102,7 @@ The LC content will load below the customized footer text that can be set in the
 
 ![Image](../doc_files/plugin_images/LocalContexts_footerPublic.png)
 
-Note that Local Contexts labels and notices are designed to apply to materials of Indigenous interest. If your Omeka site or institution as a whole does not fit this definition, we do not recommend you use the site footer. Only apply LC notices and labels to relevant items and exhibits. 
+Note that Local Contexts Labels and Notices are designed to apply to materials of Indigenous interest. If your Omeka site or institution as a whole does not fit this definition, we do not recommend you use the site footer. Only apply LC Notices and Labels to relevant items and exhibits. 
 
 ### Apply projects to Omeka items
 
