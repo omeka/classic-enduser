@@ -46,7 +46,7 @@ This text is from the [Local Contexts website](https://localcontexts.org/support
 
 ![Image](../doc_files/plugin_images/LocalContexts_hub.png)
 
-## Preparing to use the Local Context plugin
+## Preparing to use the Local Contexts plugin
 
 Local Contexts notices are meant to encourage engagement with members of Indigenous communities, in the form of community created labels or notices. An "Open to Collaborate" notice, for example, indicates that collaboration is welcome. As a result, you must be prepared to manage that collaboration. Be sure, if you are using notices, that your Omeka site has a means for Indigenous community members to participate: account creation for Indigenous community members, the ability to add Local Contexts Projects and labels to the site, a contact form, comments on items, or a plan for staff responsiveness to contributions. Think about your intended workflow for improving your collections in collaboration before proceeding further.
 
