@@ -114,46 +114,46 @@ Edit an item, then go to the "Local Contexts" tab at the top of the item editing
 
 ![Image](../doc_files/plugin_images/LocalContexts_itemElement.png)
 
-If you wish to apply only the available labels in a specific language, choose one from this dropdown. It will display all languages supplied by the Local Contexts Project that was imported. 
+If you wish to apply only the available Labels or Notices in a specific language, choose one from this dropdown. It will display all languages supplied by the Local Contexts Project that was imported. 
 
 ![Image](../doc_files/plugin_images/LocalContexts_itemLanguage.png)
 
-Then, select the project you wish to assign to the item's metadata field. All available notices and labels of the project will be assigned to the item.
+Then, select the Project you wish to assign to the item's metadata field. All available Notices and Labels of the Project will be assigned to the item.
 
 ![Image](../doc_files/plugin_images/LocalContexts_itemProject.png)
 
-When you save these edits, you will see that each intended notice or label appears in a separate metadata entry for your chosen field. 
+When you save these edits, you will see that each intended Notice or Label appears in a separate metadata entry for your chosen field. 
 
 ![Image](../doc_files/plugin_images/LocalContexts_metadata.png)
 
-You can manually delete each of these notices or labels if appropriate, with the "Remove" button on individual metadata entries. 
+You can manually delete each of these Notices or Labels if appropriate, with the "Remove" button on individual metadata entries. 
 
-LC labels and notices are applied as HTML-formatted metadata entries that call upon images on the LC website and link to the project in the LC registry. The following image shows you the source code that is loaded into a metadata field when a project is applied to an item:
+LC Labels and Notices are applied as HTML-formatted metadata entries that call upon images on the LC website and link to the Project public view page. The following image shows you the source code that is loaded into a metadata field when a Project is applied to an item:
 
 ![Image](../doc_files/plugin_images/LocalContexts_source.png)
 
-If you wish to apply your LC project to all of the items in a collection, you can select them all and batch-edit them. The Local Contexts options will display in the batch-editing field. 
+If you wish to apply your LC Project to all of the items in a collection, you can select them all and batch-edit them. The Local Contexts options will display in the batch-editing field. 
 
 ![Image](../doc_files/plugin_images/LocalContexts_batchEdit.png)
 
-Similarly, you can batch-apply LC notices or labels to items based on a tag, a location, or other metadata. Run a search to bring up your desired results, then batch-edit all items in the results set. 
+Similarly, you can batch-apply LC Notices or Labels to items based on a tag, a location, or other metadata. Run a search to bring up your desired results, then batch-edit all items in the results set. 
 
-### Apply projects to exhibits
+### Apply Projects to exhibits
 
 ![Image](../doc_files/plugin_images/LocalContexts_exhibitPublic.png)
 
-You can include Local Contexts projects in your Omeka Classic exhibits. This plugin adds a new content block to exhibit design pages, which can be added to pages and set to display a project's notices and labels in one or all languages. 
+You can include Local Contexts Projects in your Omeka Classic exhibits. This plugin adds a new content block to exhibit design pages, which can be added to pages and set to display a Project's Notices and Labels in one or all languages. 
 
 ![Image](../doc_files/plugin_images/LocalContexts_exhibit.png)
 
-To add the block to an exhibit page, edit the page and click the "Local Contexts" block, then click "Add new content block" below. Select the desired project and choose a language if applicable. 
+To add the block to an exhibit page, edit the page and click the "Local Contexts" block, then click "Add new content block" below. Select the desired Project and choose a language if applicable. 
 
-### Remove projects 
+### Remove Projects 
 
-Once a project has been added to an item, exhibit block, or the site footer, it has to be removed manually. Edit the item or exhibit and delete the content by hand. Only Super Users can remove projects from the site footer. 
+Once a Project has been added to an item, exhibit block, or the site footer, it has to be removed manually. Edit the item or exhibit and delete the content by hand. Only Super Users can remove Projects from the site footer. 
 
-You can remove a project from the list of projects displayed in the future, by returning to the Local Contexts plugin entry in the sidebar. Save the empty form that is displayed first; this will show you the list of projects that have already been assigned. You can remove individual projects by checking the boxes and saving this page. 
+You can remove a Project from the list of Projects displayed in the future, by returning to the Local Contexts plugin entry in the sidebar. Save the empty form that is displayed first; this will show you the list of Projects that have already been assigned. You can remove individual Projects by checking the boxes and saving this page. 
 
 ![Image](../doc_files/plugin_images/LocalContexts_projects.png)
 
-Deleting a project from the list of projects in the Local Contexts plugin page **will not** remove that project from resources to which it has been added. It will only remove the option to add it to resources in the future. 
+Deleting a Project from the list of Projects in the Local Contexts plugin page **will not** remove that Project from resources to which it has been added. It will only remove the option to add it to resources in the future. 
