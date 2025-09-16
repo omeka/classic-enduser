@@ -86,7 +86,7 @@ Omeka Classic will not save the API key, and does not create a persistent connec
 
 Other users on the Omeka site can add more Projects by entering in another LC API key (or by entering the same key and specifying other Projects by ID). Projects from all sources will be listed together in the Items and Exhibits and can be accessed by any user. 
 
-If you return to this page after initially inputting an API key, you will see the same form to enter in a new API key. You can ignore this and save the page if you wish to see the list of projects already imported to your site. This will appear on a "Remove" tab. 
+If you return to this page after initially inputting an API key, you will see the same form to enter in a new API key. You can ignore this and save the page if you wish to see the list of Projects already imported to your site. This will appear on a "Remove" tab. 
 
 This table will allow you to remove projects from your site. If you wish to add these projects back later, you will have to re-import them by entering the API key again. This will not change any items or exhibits - anything already assigned will need to be removed manually. 
 
