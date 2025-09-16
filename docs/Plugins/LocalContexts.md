@@ -66,7 +66,7 @@ In order for Local Contexts thumbnail images to consistently appear in item meta
 
 ### Permissions
 
-This plugin is available to Omeka Classic users at all levels. Any user can enter in a new API key and add new Projects to the Omeka site, and any user can apply those projects to items or exhibits to which they have access (e.g. Contributors can add them to items they create and/or own). Only Super Users can add projects to the site footer. 
+This plugin is available to Omeka Classic users at all levels. Any user can enter in a new API key and add new Projects to the Omeka site, and any user can apply those projects to items or exhibits to which they have access (e.g. Contributors can add them to items they create and/or own). Only Super Users can add Projects to the site footer. 
 
 ## How to use the LC plugin
 
