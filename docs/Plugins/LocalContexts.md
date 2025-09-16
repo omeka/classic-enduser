@@ -84,7 +84,7 @@ When you save the page, the Projects will load on an "Assign" tab. You will see 
 
 Omeka Classic will not save the API key, and does not create a persistent connection. If you update content on the LC Hub's website, you will need to re-enter the API key to update Omeka's information from the source. Then you will need to re-apply the modified Projects to your footer, items, and exhibits where applicable. 
 
-Other users on the Omeka site can add more projects by entering in another LC API key (or by entering the same key and specifying other projects by ID). Projects from all sources will be listed together in the Items and Exhibits and can be accessed by any user. 
+Other users on the Omeka site can add more Projects by entering in another LC API key (or by entering the same key and specifying other Projects by ID). Projects from all sources will be listed together in the Items and Exhibits and can be accessed by any user. 
 
 If you return to this page after initially inputting an API key, you will see the same form to enter in a new API key. You can ignore this and save the page if you wish to see the list of projects already imported to your site. This will appear on a "Remove" tab. 
 
