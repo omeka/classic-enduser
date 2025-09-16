@@ -82,7 +82,7 @@ When you save the page, the Projects will load on an "Assign" tab. You will see 
 
 ![Image](../doc_files/plugin_images/LocalContexts_assign.png)
 
-Omeka Classic will not save the API key, and does not create a persistent connection. If you update content on the LC Hubs website, you will need to re-enter the API key to update Omeka's information from the source. Then you will need to re-apply the modified projects to your footer, items, and exhibits where applicable. 
+Omeka Classic will not save the API key, and does not create a persistent connection. If you update content on the LC Hub's website, you will need to re-enter the API key to update Omeka's information from the source. Then you will need to re-apply the modified Projects to your footer, items, and exhibits where applicable. 
 
 Other users on the Omeka site can add more projects by entering in another LC API key (or by entering the same key and specifying other projects by ID). Projects from all sources will be listed together in the Items and Exhibits and can be accessed by any user. 
 
