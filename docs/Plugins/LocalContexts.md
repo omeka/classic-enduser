@@ -90,7 +90,7 @@ If you return to this page after initially inputting an API key, you will see th
 
 This table will allow you to remove Projects from your site. If you wish to add these Projects back later, you will have to re-import them by entering the API key again. This will not change any items or exhibits - anything already assigned will need to be removed manually. 
 
-### Apply projects to your site
+### Apply Local Contexts Projects to your site
 
 A Super User can choose to have one or more projects appear in the site footer. This will display all labels and notices attached to that project (in all languages), along with a link to the project in the LC Hubs registry. 
 
