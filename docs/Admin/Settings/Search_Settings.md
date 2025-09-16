@@ -15,7 +15,7 @@ An Omeka Classic Super Administrator account may specify the type of search quer
 ![Search settings page, with Search Query Type selection active for Keyword](../../doc_files/SearchQueryType.png)
 *Search settings page, with Search Query Type selection active for Keyword.*
 
-These options are explained on the [Searching page](../../Searching.md#search-options) of this manual. 
+These options are explained on the [Searching page](../../GettingStarted/Searching.md#search-options) of this manual. 
 
 ## Select Record Types
 

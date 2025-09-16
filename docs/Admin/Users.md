@@ -1,6 +1,14 @@
 # Users
 
-The Users section allows site administrators to control who may access the admin section of the site and what they can do. You may add, delete, and assign categories to your users.
+An Omeka site can have one or many registered users. This can represent staff of your organization, with various responsibilities for your site and collections, or members of your community who are contributing knowledge and materials. Omeka offers four user roles with different access and powers on the site - you can assign people to any of these levels, depending on your needs. 
+
+Plugins can add more roles, as well as more permissions to each role. For example, if you want to encourage comments on your items, you can add the Commenting plugin (which requires the Guest User plugin to be installed), which enables the collection form for users to submit their thoughts, and then assign members of your team, based on their user levels, to moderate whatever comments are submitted. 
+
+Logged-out users will not see a public login page anywhere on your public Omeka site; this page is accessed by going to `yourinstallation/admin` in a browser (it automatically resolves to `/admin/user/login`). You can manually add a login page or a link to the administrative interface to your public site if desired. 
+
+## Manage users
+
+The "Users" section is a link at the top of the page, visible to Super users. This page allows site administrators to control who may access the administrative section of the site and what they can do. You may add, delete, and assign categories to your users.
 
 ![A teal arrow points to the "Users" section link at the top of the admin page](../doc_files/Usersnav.png "A teal arrow points to the "Users" section link at the top of the admin page")
 
@@ -12,12 +20,12 @@ The Browse Users screen shows the number of users, as well as the username, disp
 
 To sort users, simply click on the column heading by which you would like to sort. If you want to sort descending rather than ascending, click twice on the heading. The small paired arrows beside the column heading indicate whether the sort is ascending (top arrow darker) or descending (bottom arrow darker).
 
-You can search users by username, display name, or email address. Username and display name searches can include complete words or partial strings; for example, you could search for any username containing "jam". Email searches only function with a complete email address.
+You can search users by username, display name, or email address. Username and display name searches can include complete words or partial strings. Email searches only function with a complete email address.
 
 User levels and access
 ------------------------------------------------------------
 
-Omeka Classic allows you to give different backend users different levels of access to your archive. Read through the following list of actions available to users to determine what works best for your project team members.
+Omeka Classic allows you to give different backend users different levels of access to your administrative interface. Read through the following list of actions available to users to determine what works best for your project team members.
 
 All logged-in Super, Admin, Contributor, and Researcher users on each site can view non-public content (items, collections, Simple Pages, Exhibits, etc.) on the site.
 
@@ -53,6 +61,12 @@ Contributor users can:
 
 Researchers can log in to the admin side of an Omeka site and see the content, but cannot interact with it in any way. They cannot add, edit, delete, or tag any items. 
 
+**Guest users**
+
+An additional user role, Guest User, can be added using the [Guest User](../Plugins/GuestUser.md) plugin. This role cannot access the administrative interface of your Omeka site at all, but can contribute content on the public site. This plugin is required for [Commenting](../Plugins/Commenting.md), [Contribution](../Plugins/Contribution.md), and other front-end interaction plugins. 
+
+The Guest User plugin adds the functionality of allowing anonymous submissions. Site visitors must still make an account to submit content, but their username or other identifying information will not be attached to their submissions. 
+
 Add users
 ------------------------------------------------------
 
@@ -66,7 +80,7 @@ To add a user, select the green "Add a User" button in the upper left hand corne
 
 Edit users
 -------------------------------------------------------
-To edit a user, click on the word Edit beneath the username in the Browse Users page. This will direct you to a new page with tab options labelled General, Change Password, and API Keys.
+To edit a user, click on the word "Edit" beneath the username in the Browse Users page. This will direct you to a new page with tab options labelled "General", "Change Password", and "API Keys".
 
 ![Edit User form](../doc_files/UserEdit.png "Edit User form")
 
