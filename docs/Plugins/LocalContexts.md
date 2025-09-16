@@ -110,7 +110,7 @@ Site users can apply LC Projects to individual Omeka items, or through batch-edi
 
 ![Image](../doc_files/plugin_images/LocalContexts_itemEdit.png)
 
-Edit an item, then go to the "Local Contexts" tab at the top of the item editing screen. You then assign a LC project to a specific metadata field. 
+Edit an item, then go to the "Local Contexts" tab at the top of the item editing screen. You then assign a LC Project to a specific metadata field. 
 
 ![Image](../doc_files/plugin_images/LocalContexts_itemElement.png)
 
