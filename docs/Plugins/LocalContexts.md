@@ -1,6 +1,6 @@
 # Local Contexts
 
-With the [Local Contexts plugin](https://omeka.org/classic/plugins/LocalContexts/){target=_blank} users can apply [Local Contexts](https://localcontexts.org/){target=_blank} labels and notices to Omeka Classic sites and resources. This requires setting up a Local Contexts account and creating Projects in the registry. Then enter the API key into Omeka to bring the chosen [labels](https://localcontexts.org/labels/about-the-labels/){target=_blank} and [notices](https://localcontexts.org/notices/about-the-notices/){target=_blank} over and apply them to items and exhibits. 
+With the [Local Contexts plugin](https://omeka.org/classic/plugins/LocalContexts/){target=_blank} users can apply [Local Contexts](https://localcontexts.org/){target=_blank} Labels and Notices to Omeka Classic sites and resources. This requires setting up a Local Contexts Hub account and creating Projects in the registry. Then enter the API key into Omeka to bring the chosen [Labels](https://localcontexts.org/labels/about-the-labels/){target=_blank} and [Notices](https://localcontexts.org/notices/about-the-notices/){target=_blank} over and apply them to items and exhibits. 
 
 ![Image](../doc_files/plugin_images/LocalContexts_metadataPublic.png)
 
