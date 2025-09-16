@@ -106,7 +106,7 @@ Note that Local Contexts Labels and Notices are designed to apply to materials o
 
 ### Apply Projects to Omeka items
 
-Site users can apply LC projects to individual Omeka items, or through batch-editing a number of items. Local Contexts notices and labels are used to fill out a metadata field on the item. 
+Site users can apply LC Projects to individual Omeka items, or through batch-editing a number of items. Local Contexts Notices and Labels are used to fill out a metadata field on the item. 
 
 ![Image](../doc_files/plugin_images/LocalContexts_itemEdit.png)
 
