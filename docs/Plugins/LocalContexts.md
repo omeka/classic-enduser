@@ -94,7 +94,7 @@ This table will allow you to remove Projects from your site. If you wish to add 
 
 A Super User can choose to have one or more Projects appear in the site footer. This will display all Labels and Notices attached to that Project (in all languages), along with a link to the Project public view page in the Hub. 
 
-Go to the Plugins tab, then find the Local Contexts entry in the table. Click the "Configure" button. You will see a list of projects that have been added to your site through the API. You can check one or more boxes here to display all the related notices and labels for each selected project. 
+Go to the Plugins tab, then find the Local Contexts entry in the table. Click the "Configure" button. You will see a list of Projects that have been added to your site through the API. You can check one or more boxes here to display all the related Notices and Labels for each selected Project. 
 
 ![Image](../doc_files/plugin_images/LocalContexts_footer.png)
 
