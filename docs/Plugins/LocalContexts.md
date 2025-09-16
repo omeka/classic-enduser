@@ -56,7 +56,7 @@ To use this plugin, you must have a Local Contexts Hub account. Creating a profi
 
 [Go to the Local Contexts website to learn more and set up your Projects](https://localcontexts.org/support/getting-started-on-the-hub/#about-projects){target=_blank}. 
 
-A Project can be designed for one single object, a collection, an exhibit, or for your entire institution. You may have simple needs - adding an "Open to Collaborate" notice in your Omeka site footer - or complex ones, such as separate and unique sets of labels for each of hundreds of items. Familiarize yourself with all of the Local Contexts notice and label options, and plan which set of Projects you will need to express your organization's situation. 
+A Project can be designed for one single object, a collection, an exhibit, or for your entire institution. You may have simple needs - adding an "Open to Collaborate" Notice in your Omeka site footer - or complex ones, such as separate and unique sets of Labels for each of hundreds of items. Familiarize yourself with all of the Local Contexts Notice and Label options, and plan which set of Projects you will need to express your organization's situation. 
 
 ### Enable images in HTML elements
 
