@@ -104,7 +104,7 @@ The LC content will load below the customized footer text that can be set in the
 
 Note that Local Contexts Labels and Notices are designed to apply to materials of Indigenous interest. If your Omeka site or institution as a whole does not fit this definition, we do not recommend you use the site footer. Only apply LC Notices and Labels to relevant items and exhibits. 
 
-### Apply projects to Omeka items
+### Apply Projects to Omeka items
 
 Site users can apply LC projects to individual Omeka items, or through batch-editing a number of items. Local Contexts notices and labels are used to fill out a metadata field on the item. 
 
