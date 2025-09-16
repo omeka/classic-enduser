@@ -78,7 +78,7 @@ With the plugin installed and active on your Omeka site, go to the "Local Contex
 
 You can optionally select only a few of your Projects for import, by entering in their IDs. If you leave the "Projects" field blank, Omeka will load all the projects associated with your Local Contexts API key. 
 
-When you save the page, the projects will load on an "Assign" tab. You will see each project name and all of its associated notices and labels. On this screen you can check the box of each project you wish to make available from the API key you just input. If you do not check any of these projects before saving the page, they will not persist in the Omeka site. Assigning the projects at this stage will not make them appear on your site - you will still need to apply them manually to items and exhibits, and place them into the site footer. 
+When you save the page, the Projects will load on an "Assign" tab. You will see each Project name and all of its associated Notices or Labels. On this screen you can check the box of each Project you wish to make available from the API key you just input. If you do not check any of these Projects before saving the page, they will not persist in the Omeka site. Assigning the Projects at this stage will not make them appear on your site - you will still need to apply them manually to items and exhibits, and place them into the site footer. 
 
 ![Image](../doc_files/plugin_images/LocalContexts_assign.png)
 
