@@ -8,34 +8,25 @@ You cannot currently export from an Omeka S installation to a Classic site.
 
 ### Import from Classic to Classic
 
-You can use the [Omeka API Import plugin](../Plugins/Omeka_API_Import.md) to import items & collections from a Classic site. This plugin imports material accessible from the [API](../Admin/Settings/API_Settings.md): items and their metadata (including tags), attached files, collections, users, comments and contributions, Simple Pages, and Exhibit Builder content. 
+You can use the [Omeka API Import plugin](../Plugins/Omeka_API_Import.md) to import items & collections from a Classic site. This plugin imports some of the material accessible from the [API](../Admin/Settings/API_Settings.md): items and their metadata (including tags), attached files, collections, users, comments and contributions, Simple Pages, and Exhibit Builder content. 
 
 If equivalent plugins are installed on both the source site and the target site, Omeka API Import can import plugin-specific metadata. For example, geolocation data facilitated by the Geolocation plugin will automatically be imported; [PDF Text](https://omeka.org/classic/plugins/PdfText/){target=_blank} elements can be imported.
 
-The plugin offers all possible data accessible by the API (see the next section). An API key is required to access private installation data, such as users and their profiles, and private items and collections. 
+An API key is required to access private installation data, such as users and their profiles, and private items and collections. 
+
+This plugin will *not* import all possible data accessible by the API (see the next section). For example, some plugins may generate data accessible by the API as output but not be able to import that same data to your new installation. We recommend you generate a dataset using the API to capture all possible information.
 
 The instructions on [how to move your Omeka Classic site from one server to another](Moving_to_Another_Server.md) may be of use. 
 
 ### Access data using the API
 
-You can use your own Classic site's API to crawl data as required, or export a spreadsheet for one-time use. You can [request different formats through the API](https://omeka.org/s/docs/developer/api/rest_api/#responses){target=_blank}, including `jsonld` and `rdfxml`. 
+You can use your own Classic site's API to crawl data as required, or export a spreadsheet. You can [request different formats through the API](https://omeka.org/s/docs/developer/api/rest_api/#responses){target=_blank}, including `jsonld` and `rdfxml`. 
 
 [For more information on the API, see the developer documentation section.](https://omeka.org/s/docs/developer/api/){target=_blank}.
 
-The API can share information about the following resource types:
-
-- Collections
-- Element Sets
-- Elements
-- Files
-- Item Types
-- Items
-- Resources
-- Site
-- Tags
-- Users.
-
 There are example scripts for using the API to output information [in the developer documentation](https://omeka.readthedocs.io/en/latest/Reference/api/examples.html){target=_blank}.
+
+Once you have exported from your original installation using the API, you can use the dataset to import information using the [CSV Import plugin](../Plugins/CSVImport.md).
 
 #### Copy over settings
 
@@ -49,7 +40,7 @@ You cannot export or import [Simple Vocab](plugins/SimpleVocab.md) vocabularies 
 
 The [API](../Admin/Settings/API_Settings.md) offers data from the following (Omeka-team-authored) plugins: Simple Pages, Exhibits, Contribution, Geolocation, Comments, Item Relations, User Profiles. 
 
-Note that this does not include Timelines, Collection Tree, Simple Vocab, the CSS Editor, Posters, and Reports, among others. The easiest way to confirm what can be exported is to go to your source installation and view the "API" tab in the Settings. Any content displayed in that table can be exported assuming the target installation has the same plugins installed. Any content not displayed there cannot be accessed. 
+Note that this does not include Timelines, Collection Tree, Simple Vocab, the CSS Editor, Posters, and Reports, among others. The easiest way to confirm what can be exported is to go to your source installation and view the "API" tab in the Settings. Any content displayed in that table can be exported. Any content not displayed there cannot be accessed. 
 
 ![The API table displaying all Omeka-team-authored plugin content available for access.](../doc_files/APItable.png)
 
