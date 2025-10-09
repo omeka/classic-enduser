@@ -28,11 +28,15 @@ There are example scripts for using the API to output information [in the develo
 
 Once you have exported from your original installation using the API, you can use the dataset to import information using the [CSV Import plugin](../Plugins/CSVImport.md).
 
+### Access item data
+
+Alongside the methods above, such as creating a dataset from the API, you can access datasets directly from the public site. Every Omeka Classic browse page, search result page, and item view page has links to output the data contained in the results set: see [this page about Output Formats](Output_Formats.md) for more information on how these formats can be used to export your collections. 
+
 #### Copy over settings
 
 You cannot directly import all installation settings and theme configuration. We recommend that after an import is performed, you compare both installations side-by-side to confirm that all settings match. 
 
-#### Import or export vocabularies
+#### Copy vocabularies
 
 You cannot export or import [Simple Vocab](plugins/SimpleVocab.md) vocabularies at this time. 
 
@@ -64,7 +68,3 @@ You cannot create collections en masse using CSV Import.
 ### Back up your database
 
 See the instructions on [backing up your database on this page](Backing_up_an_Omeka_Database.md).
-
-### Output item information
-
-Every Omeka Classic browse page, search result page, and item view page has links to output the data contained in the results set: see [this page about Output Formats](Output_Formats.md) for more information on how these formats can be used to export your collections. 
