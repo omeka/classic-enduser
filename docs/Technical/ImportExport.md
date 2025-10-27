@@ -24,7 +24,7 @@ The easiest way to confirm what can be exported is to go to your source installa
 
 ![The API table displaying all Omeka-team-authored plugin content available for access.](../doc_files/APItable.png)
 
-Once you have exported from your original installation using the API, you can import the dataset using the [CSV Import plugin](../Plugins/CSVImport.md).
+Once you have exported from your original installation using the API, you can import the dataset using the [CSV Import plugin](../Plugins/CSV_Import.md).
 
 #### Use the Classic plugin
 
@@ -64,12 +64,12 @@ The easiest way to confirm what can be exported is to go to your source installa
 
 Omeka Classic has plugins for connecting directly to:
 
-- [Zotero](../Plugins/Zotero.md)
+- [Zotero](../Plugins/ZoteroImport.md)
 - any [OAI-PMH-formatted data](../Plugins/OaipmhHarvester.md).
 
 ### Import from a spreadsheet
 
-Omeka Classic can take data in any spreadsheet (tabular) form, whether a CSV, an Excel file, or an ODS. Use the [CSV Import plugin](../Plugins/CSVImport.md) to add items and media to your Omeka Classic site from a spreadsheet. This includes data exported from many different databases and platforms. Export the data from your source platform into a spreadsheet. This may require some modification or cleanup of the data before importing into Omeka Classic. 
+Omeka Classic can take data in any spreadsheet (tabular) form, whether a CSV, an Excel file, or an ODS. Use the [CSV Import plugin](../Plugins/CSV_Import.md) to add items and media to your Omeka Classic site from a spreadsheet. This includes data exported from many different databases and platforms. Export the data from your source platform into a spreadsheet. This may require some modification or cleanup of the data before importing into Omeka Classic. 
 
 You cannot create collections en masse using CSV Import.  
 
