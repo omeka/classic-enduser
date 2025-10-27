@@ -10,7 +10,7 @@ You cannot currently export from an Omeka S installation to a Classic site.
 
 You can use the [Omeka API Import plugin](../Plugins/Omeka_API_Import.md) to import items & collections from a Classic site. This plugin imports some of the material accessible from the [API](../Admin/Settings/API_Settings.md): items and their metadata (including tags), attached files, collections, users, comments and contributions, Simple Pages, and Exhibit Builder content. 
 
-If equivalent plugins are installed on both the source site and the target site, Omeka API Import can import plugin-specific metadata. For example, geolocation data facilitated by the Geolocation plugin will automatically be imported; [PDF Text](https://omeka.org/classic/plugins/PdfText/){target=_blank} elements can be imported.
+If equivalent plugins are installed on both the source site and the target site, Omeka API Import can import plugin-specific metadata. For example, geolocation data facilitated by the [Geolocation plugin](../Plugins/Geolocation.md) will automatically be imported; [PDF Text](../Plugins/PdfText.md) elements can be imported.
 
 An API key is required to access private installation data, such as users and their profiles, and private items and collections. 
 
@@ -26,6 +26,10 @@ You can use your own Classic site's API to crawl data as required, or export a s
 
 There are example scripts for using the API to output information [in the developer documentation](https://omeka.readthedocs.io/en/latest/Reference/api/examples.html){target=_blank}.
 
+The easiest way to confirm what can be exported is to go to your source installation and view the "API" tab in the Settings. Any content displayed in that table can be exported. Any content not displayed there cannot be accessed.
+
+![The API table displaying all Omeka-team-authored plugin content available for access.](../doc_files/APItable.png)
+
 Once you have exported from your original installation using the API, you can use the dataset to import information using the [CSV Import plugin](../Plugins/CSVImport.md).
 
 ### Access item data
@@ -34,17 +38,21 @@ Alongside the methods above, such as creating a dataset from the API, you can ac
 
 #### Copy over settings
 
-You cannot directly import all installation settings and theme configuration. We recommend that after an import is performed, you compare both installations side-by-side to confirm that all settings match. 
+You cannot directly import all installation settings and theme configuration, nor plugin information that can impact your installation, such as the CSS Editor. We recommend that after an import is performed, you compare both installations side-by-side to confirm that all settings match. 
 
 #### Copy vocabularies
 
-You cannot export or import [Simple Vocab](plugins/SimpleVocab.md) vocabularies at this time. 
+You cannot export or import [Simple Vocab](../Plugins/SimpleVocab.md) vocabularies at this time. 
 
 #### Import or export plugin data
 
 The [API](../Admin/Settings/API_Settings.md) offers data from the following (Omeka-team-authored) plugins: Simple Pages, Exhibits, Contribution, Geolocation, Comments, Item Relations, User Profiles. 
 
-Note that this does not include Timelines, Collection Tree, Simple Vocab, the CSS Editor, Posters, and Reports, among others. The easiest way to confirm what can be exported is to go to your source installation and view the "API" tab in the Settings. Any content displayed in that table can be exported. Any content not displayed there cannot be accessed. 
+Note that this does not include Timelines, Collection Tree, Simple Vocab, the CSS Editor, Posters, and Reports, among others. 
+
+The easiest way to confirm what can be exported is to go to your source installation and view the "API" tab in the Settings. Any content displayed in that table can be exported. Any content not displayed there cannot be accessed. 
+
+Note that the Omeka API Import plugin does not import all content available from the API. 
 
 ![The API table displaying all Omeka-team-authored plugin content available for access.](../doc_files/APItable.png)
 
@@ -52,10 +60,10 @@ Note that this does not include Timelines, Collection Tree, Simple Vocab, the CS
 
 ### Omeka Classic connectors
 
-Omeka Classic has plugins for connecting to:
+Omeka Classic has plugins for connecting directly to:
 
-- Zotero
-- Scripto (for MediaWiki content).
+- [Zotero](../Plugins/Zotero.md)
+- any [OAI-PMH-formatted data](../Plugins/OaipmhHarvester.md).
 
 ### Import from a spreadsheet
 
