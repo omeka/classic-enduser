@@ -4,9 +4,9 @@ The [OAI-PMH Repository plugin](https://omeka.org/classic/plugins/OaipmhReposito
 
 This plugin offers the reciprocal functionality provided by the [OAI-PMH Harvester plugin](OaipmhHarvester.md).
 
-## Metadata Formats
+## Metadata formats
 
-The plugin ships with several default formats. Other plugins can alter these or add their own (see Extending below):
+The plugin ships with several default metadata schema. Other plugins can alter these or add their own (see Extending, below):
 
 - [Dublin Core](http://dublincore.org){target=_blank} (`oai_dc`) 
     - This is required by the OAI-PMH specification for all repositories. Omeka metadata fields are mapped one-to-one with fields for this output format, and it is the preferred format to use with the plugin.
@@ -17,10 +17,9 @@ The plugin ships with several default formats. Other plugins can alter these or 
 - [METS](http://www.loc.gov/standards/mets/){target=_blank} (`mets`)
     - The Metadata Encoding and Transmission Standard exposes files to harvesters.
 - [RDF](https://www.w3.org/2001/sw/wiki/RDF){target=_blank} (`rdf`)
-    - This format exposes metadata as RDF/XML. Unlike many of the other formats, RDF allows the repository to expose metadata from different standards all in the same output. The main practical distinction from other formats currently is that the RDF output will automatically include "qualified" data from the Dublin Core Extended plugin, if it's present. 
+    - This format exposes metadata as RDF/XML. Unlike many of the other formats, RDF allows the repository to expose metadata from different standards all in the same output. The main practical distinction from other formats currently is that the RDF output will automatically include "qualified" data from the Dublin Core Extended plugin, if present. 
 - Omeka XML (`omeka-xml`)
     - This output format uses an Omeka-specific XML output that includes all metadata elements without requiring crosswalking or subsetting, but is not well-supported by harvesters or other tools.
-
 
 ## Configuration
 
