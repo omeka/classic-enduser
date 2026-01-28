@@ -2,7 +2,14 @@
 
 The Omeka team is committed to making Omeka Classic an accessible option for sharing collections and exhibits online. We are working to make Omeka Classic’s core code accessible, and will continue to make accessibility for persons with disabilities a priority. Omeka strives to adhere to [W3C web design standards](http://www.w3.org/standards/){target=_blank} and to be compliant with [Section 508](http://www.section508.gov/){target=_blank} of the Rehabilitation Act.
 
-The following statements apply to Omeka Classic versions 2.3 and higher.
+For more information, please review the following reports:
+
+- Omeka Classic version 3.2 [Accessibility Conformance Report, using VPAT 2.5 Revised (PDF)](../doc_files/OmekaClassicVPATDecember2025-admin.pdf){target=_blank}, December 2025.
+- Omeka Classic version 2.3.1 [Accessibility Conformance Report, using VPAT 1.3 (PDF)](../doc_files/VPAT_Omeka2015.pdf){target=_blank}, September 2015.
+
+We have separate VPATs for Omeka.net available within the [Omeka.net Accessibility Statement](http://info.omeka.net/signup/accessibility/){target=_blank}.
+
+The following statements apply to Omeka Classic versions 2.3 and higher:
 
 Front End (Public view)
 ---------------------------------------------------------------
@@ -25,10 +32,6 @@ The administrative dashboard of Omeka Classic has the following features for acc
 -   Ability to skip navigation menu and go straight to content when using a keyboard or screen reader to navigate the site. If you do not SkipNav, the sequence is: settings (top navigation bar), plugins (left navigation bar), content;
 -   ARIA landmarks for screen readers on the Admin Dashboard, designating the header, navigation, footer, and main body content;
 -   Semantic HTML5 markup.
-
-A VPAT (Voluntary Product Accessibility Template) for Omeka Classic 3.2, from 2025, is available for [download as a PDF](../doc_files/OmekaClassicVPATDecember2025-admin.pdf){target=_blank}.
-
-We have a separate VPATs for Omeka.net available [on that site](http://info.omeka.net/signup/accessibility/){target=_blank}.
 
 ## Accessibility Issues
 
