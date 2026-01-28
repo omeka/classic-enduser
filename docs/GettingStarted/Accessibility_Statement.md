@@ -32,4 +32,4 @@ We have a separate VPATs for Omeka.net available [on that site](http://info.omek
 
 ## Accessibility Issues
 
-If you encounter an issue with accessiblity with the Omeka S core software or Omeka Team developed addons, please report your findings either via a [Forum post](https://forum.omeka.org/c/omeka-s/accessibility/36) or by making an issue in the appropriate Github repository.
+If you encounter an issue with accessiblity with the Omeka Classic core software or Omeka Team developed addons, please report your findings either via a [Forum post](https://forum.omeka.org/c/omeka-classic/accessibility/37) or by making an issue in the appropriate Github repository.
