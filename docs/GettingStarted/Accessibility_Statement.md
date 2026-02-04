@@ -9,10 +9,23 @@ For more information, please review the following reports:
 
 We have separate VPATs for Omeka.net available within the [Omeka.net Accessibility Statement](http://info.omeka.net/signup/accessibility/){target=_blank}.
 
+## Roadmap
+Based on the current Accessibilty Conformance Report, during 2026 the Omeka Team is working on the following elements:
+
+-   Keyboard-navigable alternatives to drag and drop interfaces
+-   Screen reader-friendly and keyboard-navigable tooltips
+-   Screen reader-friendly status announcements for interactions
+-   Improved focus order through admin interface
+-   Improved relationship roles and attributes across the admin interface
+
+Please review the [current list of issues](https://github.com/omeka/Omeka/issues?q=is%3Aissue%20state%3Aopen%20label%3Aa11y){target=_blank} in the GitHub repository for the core software.
+
+## Features
+
 The following statements apply to Omeka Classic versions 2.3 and higher:
 
-Front End (Public view)
----------------------------------------------------------------
+### Front End (Public view)
+
 The public view of Omeka Classic has the following features to improve accessibility:
 
 -   [ARIA](http://www.w3.org/WAI/intro/aria){target=_blank} (Accessible Rich Internet Applications) landmarks for tabbing through page content, when not using a mouse or using a screen reader;
@@ -25,8 +38,8 @@ There are also SkipNav and ARIA landmarks on [all Omeka Classic themes](https://
 
 Please note that although the core code for Omeka Classic and its bundled themes and plugins conform to the above standards, sites built with Omeka Classic which have been customized or which are using non-Omeka themes and plugins may lack some or all of these options. While we encourage developers to consider accessibility, we cannot ensure that their code includes ARIA landmarks and SkipNav in the themes.
 
-Back End (Administrative view)
-----------------------------------------------------------
+### Back End (Administrative view)
+
 The administrative dashboard of Omeka Classic has the following features for accessibility:
 
 -   Ability to skip navigation menu and go straight to content when using a keyboard or screen reader to navigate the site. If you do not SkipNav, the sequence is: settings (top navigation bar), plugins (left navigation bar), content;
@@ -35,4 +48,4 @@ The administrative dashboard of Omeka Classic has the following features for acc
 
 ## Accessibility Issues
 
-If you encounter an issue with accessiblity with the Omeka Classic core software or Omeka Team developed addons, please report your findings either via a [Forum post](https://forum.omeka.org/c/omeka-classic/accessibility/37) or by making an issue in the appropriate Github repository.
+If you encounter an issue with accessiblity with the Omeka Classic core software or Omeka Team developed addons, please report your findings either via a [Forum post](https://forum.omeka.org/c/omeka-classic/accessibility/37){target=_blank} or by making an issue in the appropriate GitHub repository.
