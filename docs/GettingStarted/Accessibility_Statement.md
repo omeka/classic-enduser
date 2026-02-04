@@ -12,13 +12,13 @@ We have separate VPATs for Omeka.net available within the [Omeka.net Accessibili
 ## Roadmap
 Based on the current Accessibilty Conformance Report, during 2026 the Omeka Team is working on the following elements:
 
--   Keyboard-navigable tooltips
+-   Keyboard-navigable alternatives to drag and drop interfaces
 -   Screen reader-friendly and keyboard-navigable tooltips
 -   Screen reader-friendly status announcements for interactions
 -   Improved focus order through admin interface
 -   Improved relationship roles and attributes across the admin interface
 
-Please review the [current list of issues](https://github.com/omeka/Omeka/issues?q=is%3Aissue%20state%3Aopen%20label%3Aa11y) in the github repository for the core software.
+Please review the [current list of issues](https://github.com/omeka/Omeka/issues?q=is%3Aissue%20state%3Aopen%20label%3Aa11y){target=_blank} in the GitHub repository for the core software.
 
 ## Features
 
@@ -48,4 +48,4 @@ The administrative dashboard of Omeka Classic has the following features for acc
 
 ## Accessibility Issues
 
-If you encounter an issue with accessiblity with the Omeka Classic core software or Omeka Team developed addons, please report your findings either via a [Forum post](https://forum.omeka.org/c/omeka-classic/accessibility/37) or by making an issue in the appropriate Github repository.
+If you encounter an issue with accessiblity with the Omeka Classic core software or Omeka Team developed addons, please report your findings either via a [Forum post](https://forum.omeka.org/c/omeka-classic/accessibility/37){target=_blank} or by making an issue in the appropriate GitHub repository.
