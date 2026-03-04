@@ -40,9 +40,9 @@ After a repository or set has been successfully harvested, a "Re-harvest" button
 
 Manually specifying the exact same harvest to be run again (same base URL, set, and metadata prefix) will result in the same behavior.
 
-### Duplicate items 
+### Redundant items 
 
-Duplicate items (multiple Omeka items corresponding to the same repository record) can be created if an item in a repository is a member of several OAI-PMH sets. This will also occur if a repository is harvested using more than one metadata prefix. In this case, the duplicate items are independent, and changes to one will not propagate to the others.
+Duplicate items (multiple Omeka items corresponding to the same repository record) can be created if an item in a repository is a member of several OAI-PMH sets. This will also occur if a repository is harvested using more than one metadata prefix. In this case, the redundant items are independent, and changes to one will not propagate to the others.
 
 However, the duplicate items, if any, can be accessed from the admin item show page. If an item has duplicates, they will be shown in an infobox on the right-hand side of the page titled "Duplicate Harvested Items."
 
