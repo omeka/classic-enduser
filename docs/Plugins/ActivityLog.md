@@ -6,7 +6,7 @@ The [Activity Log plugin](https://omeka.org/classic/plugins/ActivityLog/){target
 
 Once activated on the Plugins tab of the admin dashboard, Activity Log has no required configuration. It adds an entry to the Plugins list in the left-hand sidebar, which takes users to the table of events. 
 
-Only users at the Super and Admin levesl can view Activity Log data. Only Super users can erase Activity Log data.  
+Only users at the Super and Admin levels can view Activity Log data. Only Super users can erase Activity Log data.  
 
 ## View events
 
@@ -100,6 +100,6 @@ Administrators can export the data using the API:
 
 ## Delete events
 
-A Super user can use the plugin confirguration screen to delete old events. From the "Plugins" link at the top of the administrative dashboard, select "Configure" in the Activity Log entry. This offers the ability to delete all Activity Log entries before a given date. Enter a date formatted as "YYYY-MM-DD".
+A Super user can use the plugin configuration screen to delete old events. From the "Plugins" link at the top of the administrative dashboard, select "Configure" in the Activity Log entry. This offers the ability to delete all Activity Log entries before a given date. Enter a date formatted as "YYYY-MM-DD".
 
 ![The configuration screen for Activity Log has a field to enter a date in the format YYYY-MM-DD.](../doc_files/plugin_images/ALog_delete.png)
