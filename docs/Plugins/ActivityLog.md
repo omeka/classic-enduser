@@ -75,9 +75,12 @@ Set the filters and click "Apply filters". The resulting page will show the filt
 
 By default, the plugin will record the following event types. Plugins may add more events, but they are not listed here.
 
-- `after_insert_record`: logs after a user creates a new object (e.g. Item, Collection, File) 
-- `after_update_record`: logs after a user saves an object
-- `after_delete_record`: logs after a user deletes an object
+!!! note
+	Note that some of these events cannot be captured when using Omeka Classic 3.2. Some will only work after the next update is released (accessible by using [the Github repository of Classic, on the `master` branch](https://github.com/omeka/Omeka){target=_blank}). This includes `after_insert_record`, `after_update_record`, and `after_delete_record`.
+
+- `after_insert_record`: logs after a user creates a new object (e.g. Item, Collection, File) (development only) 
+- `after_update_record`: logs after a user saves an object (development only)
+- `after_delete_record`: logs after a user deletes an object (development only)
 - `insert_option`: logs when a user inserts a new option
 - `update_option`: logs when a user updates an existing option
 - `delete_option`: logs when a user deletes an option
@@ -91,7 +94,7 @@ The nature of this plugin's event logging is that often an action in Omeka Class
 
 #### Export events
 
-Administrators can export the data using the API:
+Administrators can export the data using the API. This will only work after the next update of Classic is released (for now, [the `master` branch of Omeka Classic on Github](https://github.com/omeka/Omeka){target=_blank}), and for the plugin to be installed using Github and switched to the `index-acl-resource` branch:
 
 ```
 /api/activity_log_events?key=<your-api-key>
