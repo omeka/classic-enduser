@@ -76,21 +76,26 @@ Set the filters and click "Apply filters". The resulting page will show the filt
 By default, the plugin will record the following event types. Plugins may add more events, but they are not listed here.
 
 !!! note
-	Note that some of these events cannot be captured when using Omeka Classic 3.2. Some will only work after the next update is released (accessible by using [the Github repository of Classic, on the `master` branch](https://github.com/omeka/Omeka){target=_blank}). This includes `after_insert_record`, `after_update_record`, and `after_delete_record`.
+	Note that many of these events will not be captured when using Omeka Classic 3.2. Most will only work after the next update is released (accessible now if you are synced with [the Github repository of Classic, on the `master` branch](https://github.com/omeka/Omeka){target=_blank}). If you use this plugin with v3.2, only `after_insert_record`, `after_update_record`, and `after_delete_record` events will be logged.
 
-- `after_insert_record`: logs after a user creates a new object (e.g. Item, Collection, File) (development only) 
-- `after_update_record`: logs after a user saves an object (development only)
-- `after_delete_record`: logs after a user deletes an object (development only)
+The following events will be logged in Omeka Classic 3.2:
+
+- `after_insert_record`: logs after a user creates a new object (e.g. item, collection, or file) 
+- `after_update_record`: logs after a user saves an object
+- `after_delete_record`: logs after a user deletes an object
+
+The following events will be logged in Omeka Classic 3.3+:
+
 - `insert_option`: logs when a user inserts a new option
 - `update_option`: logs when a user updates an existing option
 - `delete_option`: logs when a user deletes an option
-- `install_plugin`: logs when a user installs a plugin
+- `install_plugin`: logs when a user installs a plugin 
 - `uninstall_plugin`: logs when a user uninstalls a plugin
-- `activate_plugin`: logs when a user activates a plugin
+- `activate_plugin`: logs when a user activates a plugin 
 - `deactivate_plugin`: logs when a user deactivates a plugin
 - `upgrade_plugin`: logs when a user upgrades a plugin.
 
-The nature of this plugin's event logging is that often an action in Omeka Classic can trigger multiple different events. So you may see a large number of events that reflect a relatively small number of human actions. 
+Often an action in Omeka Classic can trigger multiple different loggable events. So you may see a large number of events that reflect a relatively small number of human actions. 
 
 #### Export events
 
