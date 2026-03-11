@@ -42,7 +42,7 @@ To nest an existing collection:
 1. Go to the "Parent Collection" tab across the top of the Add Collection menu.
 1. From the dropdown menu, select the parent collection for the current collection. 
 
-## Viewing collection trees
+## View collection trees
 
 To view your collection tree, select Collection Tree in the left Admin navigation available from the Dashboard.
 
