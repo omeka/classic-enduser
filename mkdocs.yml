@@ -66,6 +66,7 @@ nav:
         - Plugins/EmbedCodes.md
         - Plugins/ExhibitBuilder.md
         - Plugins/ExhibitImageAnnotation.md
+        - Plugins/Exports.md
         - Plugins/Geolocation.md
         - Plugins/GuestUser.md
         - Plugins/Heist.md
