@@ -1,20 +1,20 @@
 # Exports
 
-The [Exports plugin](https://omeka.org/classic/plugins/Exports/){target=_blank} allows logged-in users to create a downloadable export of metadata associated with Omeka Classic objects. 
+The [Exports plugin](https://omeka.org/classic/plugins/Exports/){target=_blank} allows logged-in users to create a downloadable export of metadata associated with Omeka Classic items, collections, files, and exhibits. This can be in CSV or JSON format. 
 
 ![The Exports table with several exports in the list.](../doc_files/plugin_images/Exports_table.png)
 
 ## System requirements
 
-The plugin requires two folders inside your installation to be writeable. One is a temporary folder where the export files are assembled, and is set in the plugin configuration. You need to create this folder manually when installing the plugin. The other is the permanent place where the export output will be stored and made available for you to download. This folder will be inside the `/files` folder of your installation, called "exports". 
+The plugin requires two folders inside your installation to be writeable. One is a "working" folder you need to create, where the export files are assembled, and is set in the plugin configuration. Create and set the permissions for this directory in the process of installing the plugin. The other is the permanent place where the export output will be stored and made available for you to download. This folder will be inside the `/files` folder of your installation, called "exports". 
 
 The plugin will not create `/files/exports` upon installation, but when you start your first export. If you encounter errors, you may need to either change permissions on your `/files` directory to allow this creation, or manually create the `/files/exports` directory and set its permissions. 
 
 ### User permissions
 
-This plugin can be used by any user at the Admin or Super User level. Both Admin and Super accounts can see the full table of past exports, and generate new exports. 
- 
-Users can export information about private resources (sites, pages, items, item sets, etc. without visibility) using this module. 
+This plugin can be used by any user at the Admin or Super User level. Both Admin and Super accounts can see the table of past exports, and generate new exports. 
+
+Note that these users can export information about **private** exhibits, items, collections, etc. using this plugin. 
 
 ## Configuration
 
@@ -22,7 +22,7 @@ When the plugin is first installed, you will be brought to the Configuration scr
 
 ![.](../doc_files/plugin_images/Exports_config.png)
 
-On this page you must set a folder on your server, inside your Omeka S installation directory, for the temporary export files to be created. Enter in the absolute path from your server root. 
+On this page you must set a folder on your server, inside your Omeka S installation directory, for temporary files to be created. Enter in the absolute path from your server root. 
 
 You must create the directory first on your server, and set its permissions to writeable, before you save this page. The plugin will check that the folder exists and is writeable when you save the page, and give an error message if there is a problem. 
 
@@ -36,68 +36,57 @@ At this time the screen only offers one option. Future or third-party versions o
 
 ![.](../doc_files/plugin_images/Exports_create.png)
 
-On the next page you will set up your export to pull information from your chosen entries in the installation database. 
+On the next page you will set up your export to pull information from your chosen entries in the installation's database. 
 
-**Label**: While the module fills in a default name for this export, you can specify something easier to remember, such as the type of information you are exporting. 
+**Label** (Required): While the plugin fills in a default name for this export, you can specify something easier to remember, such as the type of information you are exporting (such as "Exhibits 2026-01-01"). 
 
-**Resource type**: Select one type of information to export. The three main types of resources you can choose are items, item sets, or media. You can use a query to filter specific types of these resources, such as by resource template, class, metadata value, etc. 
+**Record type** (Required): Select one type of information to export. Besides items, collections, or files, you can also choose users, tags, item types, and element sets. You can use a query to filter specific types of these resources, such as by item type, date range, etc. 
 
-You can also choose other information in the databse of your installation, including data stored by modules. This can include information about past imports from CSV Import or Omeka S Item Importer, hierarchies from Hierarchy, vocabularies, resource templates, and more. 
+You can also choose other information in the databse of your installation, including data stored by plugins. This can include exhibits from ExhibitBuilder, pages from SimplePages, and location data from the Geolocation plugin (coordinates that are attached to items). More may be added by other plugins. 
 
 ![.](../doc_files/plugin_images/Exports_records.png)
 
 The options, excluding additional options added by modules, include:
 
-- Primary types:
-	- Items
-	- Item sets
-	- Media
-- Other types:
-	- API resources
-	- Assets
-	- Data types
-	- Jobs
-	- Mappings
-	- Modules
-	- Properties
-	- Resource classes
-	- Resource templates
-	- Resources
-	- Site pages
-	- Sites
-	- Users
-	- Vocabularies.
+- Collection
+- Element
+- Element Set
+- File
+- Item
+- Item Type
+- Tag
+- User. 
 
-**Item query, or Resource query:** Once you have chosen an option to export, you can narrow the results with queries. You can build a query using the selector sidebar for resources (items, item types, and media). For other resource types you can manually enter in a text query. For example, you can enter the following to narrow down your assets according to the owner:
+![.](../doc_files/plugin_images/Exportsobjects.png)
+
+**Search query:** Once you have chosen an option to export, you can narrow the results with queries. You can manually enter in a text query that you have copies from the URL of a search run in the administrative or public site. For example, you can enter the following to narrow down your assets according to the owner:
 
 ```
 owner_id=2
 ```
 
-**Format**: You can export information into a CSV or into a JSON-LD file (file extensions `.csv` or `.json`). Either choice will come wrapped in a ZIP file for download. 
+**Format** (Required): You can export information into a CSV or into a JSON-LD file (file extensions `.csv` or `.json`). Either choice will come wrapped in a ZIP file for download. 
 
-**Reference by**: This field is an option for CSV exports. For resources, you can either fill fields with absolute URLs (such as "https://yourinstallation.org/api/items/123") or with internals IDs only. This will affect fields for files, such as the fields with media derivatives (which might look like "https://yourinstallation.org/files/large/123abc.png").
-
-**Multivalue separator**: This field is an option for CSV exports. The default character is a vertical pipe (|) character. You can change this if desired. Other common separators include commas and semi-colons; we recommend choosing a character that does not appear in the dataset. 
+**Multivalue separator** (Required): This field is an option for CSV exports. The default character is a vertical pipe (|) character. You can change this if desired. Other common separators include commas and semi-colons; we recommend choosing a character that does not appear in the dataset. 
 
 ![.](../doc_files/plugin_images/Exports_inprogress.png)
 
-Once you start the export, you will be returned to the table of past exports. You will see a green bar at the top of the screen indicating that the job has begun, with a link to watch the job's status. If you refresh this page, you will see the table with the export status indicated. You can also find this information on the Jobs page accessible in the sidebar. 
+Once you start the export, you will be returned to the table of past exports. You will see a green bar at the top of the screen indicating that the job has begun. If you go back to the Exports main screen, using the "Browse Exports" link at the top of the page, you can see the status in the table. 
 
 ## The Exports table
 
 ![.](../doc_files/plugin_images/Exports_table2.png)
 
-When an export is complete, you will see a download icon in the table row that, on click, will download a ZIP file containing the export you specified (a CSV or JSON file). 
+When an export has started, you will see its entry in the table. Its label will be a link where you can review the settings you used, and download the resulting file. 
 
-Once you have created exports, you can view information about them by clicking the ellipsis (three dots) icon in the table row. This will open up a sidebar where you can review the settings you used. 
-
-You can re-run an export with the copy (two identical pages) icon, or delete its record from the installation database (and any files it created) with the delete (trashcan) icon. This will bring up a confirmation window. 
+You can re-run an export from this page with the "Re-export" button, or delete both the table entry and its downloadable file with the "Delete" button. This will bring up a confirmation window.  
 
 ![.](../doc_files/plugin_images/Exports_complete.png)
 
 ## Exported files
 
-The module will output all metadata associated with the chosen resource type, including internal information such as the item owner and links to all the attached media and their derivatives. 
+The plugin will output all metadata associated with the chosen resource type, including internal information such as the item owner and links to all the attached files and their derivatives. 
 
-You will see, if you export a CSV, column headings such as `dcterms:title:literal` (the metadata vocabulary, field, and data type), as well as internal values `o:id`, `o:owner`, `o:is_public`, `o:created`, etc. 
+You will see, if you export a CSV, column headings such as `Dublin Core:Creator` for items, as well as internal information such as `owner_id`, etc. 
+
+Note that this will include data about private objects, including drafts or duplicates in the process of being edited. You can use the search query `public=0` to return only private materials, or `public=1` to return only public materials. 
