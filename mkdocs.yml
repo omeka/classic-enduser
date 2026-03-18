@@ -52,6 +52,7 @@ nav:
         - Admin/Settings/API_Settings.md
         - Admin/Settings/ReCaptcha.md
     - Plugins:
+        - Plugins/ActivityLog.md
         - Plugins/Coins.md
         - Plugins/CollectionTree.md
         - Plugins/Commenting.md
