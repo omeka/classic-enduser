@@ -1,8 +1,8 @@
 # Contribution
 
-The [Contribution plugin](https://omeka.org/classic/plugins/Contribution/){target=_blank} provides a form to collect stories, images, and other files from the public and manage those contributions in your Omeka Classic site as items. Contributors may share and upload content anonymously, and their information will only be available to site administrators. All contributions are private by default and require a site administrator to review and make them public on the Omeka site. 
+The [Contribution plugin](https://omeka.org/classic/plugins/Contribution/){target=_blank} provides a form to collect textual stories and media from the public and manage those contributions in your Omeka Classic site as items. Contributors may share and upload content anonymously, and their information will only be available to site administrators. All contributions are private by default and require a site administrator to review and make them public on the site. 
 
-The plugin can also automatically add a reCAPTCHA box at the bottom of each form to prevent spam-bots from spamming your website. Contribution also offers options for users to create guest accounts that make it easier for one user to submit multiple items. 
+The plugin can automatically add a reCAPTCHA box at the bottom of each form to prevent spam-bots from spamming your website. Contribution also offers options for users to create guest accounts, that make it easier for one user to submit multiple items. 
 
 Other plugins can be integrated into the Contribution form, such as [Simple Vocab](SimpleVocab.md) for creating dropdown menu choices, and [Geolocation](Geolocation.md) for inviting users to map their submissions or locations. 
 
@@ -13,15 +13,12 @@ Watching the [screencast](https://vimeo.com/165200216){target=_blank} we created
 <div style="padding:62.5% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/165200216?h=9d7b0b9767" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 <p><a href="https://vimeo.com/165200216">Omeka Classic: Contribution Plugin</a> from <a href="https://vimeo.com/omeka">Omeka</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
-An Omeka site with the Contribution plugin requires you to upload and install two separate plugins:
-
--   [Guest User](GuestUser.md) (required)
--   Contribution (required)
+Contribution requires you to upload and install the [Guest User](GuestUser.md) plugin.
 
 If you want to collect any information from your contributors, install these two additional plugins:
 
 -   [Record Relations](RecordRelations.md) (optional, only required for collecting user information)
--   [User Profiles](UserProfiles.md) (optional, only required for collecting user information)
+-   [User Profiles](UserProfiles.md) (optional, only required for collecting user information).
 
 ## Screencast
 
@@ -30,7 +27,7 @@ Contribution is a somewhat complex plugin to set up. In addition to the written 
 ## Installing
 
 !!! note
-    You must upload and [install](../Admin/Adding_and_Managing_Plugins.md) the Guest User plugin before installing and activating Contribution. If you have uploaded the other plugins first, you will see in the plugin directory that you cannot install other Contribution-related plugins until Guest User is installed first.
+    You must upload and [install](../Admin/Adding_and_Managing_Plugins.md) the [Guest User](GuestUser.md) plugin before installing and activating Contribution. If you have uploaded the other plugins first, you will see in the plugin directory that you cannot install other Contribution-related plugins until Guest User is installed first.
 
 ### Guest User configuration
 After installing the plugin, click the "Configure" button. For more information go to the [Guest User documentation](GuestUser.md).

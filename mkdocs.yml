@@ -17,12 +17,13 @@ nav:
     - index.md
     - Getting Started:
         - GettingStarted/Site_Planning_Tips.md
-        - GettingStarted/UsingOmeka.md
+        - GettingStarted/Examples.md
         - GettingStarted/Hosting_Suggestions.md
         - GettingStarted/Feature_List.md
         - GettingStarted/Accessibility_Statement.md
         - GettingStarted/Screencasts.md
         - GettingStarted/Searching.md
+        - Content/Working_with_Dublin_Core.md
     - Installation:
         - Installation/System_Requirements.md
         - Installation/Installing.md
@@ -32,12 +33,11 @@ nav:
     - Content:
         - Content/Items.md
         - Content/Files.md
-        - Content/Working_with_Dublin_Core.md
-        - Content/Using_HTML_Editor-TinyMCE.md
-        - Content/Item_Types.md
         - Content/Collections.md
+        - Content/Item_Types.md
         - Content/Tags.md
         - Content/Shortcodes.md
+        - Content/Using_HTML_Editor-TinyMCE.md
     - Administration:
         - Admin/Adding_and_Managing_Plugins.md
         - Admin/Appearance/Themes.md

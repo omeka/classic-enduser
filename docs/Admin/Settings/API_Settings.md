@@ -15,7 +15,7 @@ Superusers can choose whether to enable the API in the API tab under Settings in
 Plugins can also make their data available via the API. The chart shows what resources and actions can be performed via the API. In the screenshot, you can see that in addition to data about items,
 collections, tags, etc. being available via the API, the Exhibit Builder plugin is also installed, and that information about exhibits and individual exhibit pages is exposed through the API.
 
-### API Keys and Permissions
+### API keys and permissions
 
 Permissions to modify any data are only given to existing users of your Omeka Classic site who have been given a key by an administrator. See more information on users at [Users](../Users.md).
 

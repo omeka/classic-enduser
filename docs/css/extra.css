@@ -11,6 +11,19 @@ a:visited {
     color: #cc4d41;
 }
 
+img + em {
+display:block;
+text-align:center;
+}
+
+.wy-nav-top {
+background:#541D1D;
+}
+
+.wy-nav-top a {
+  color: #fff;
+}
+
 .wy-nav-content {
     max-width:1400px;
 }
