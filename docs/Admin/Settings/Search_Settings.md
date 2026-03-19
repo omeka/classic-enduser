@@ -9,7 +9,7 @@ Access the Search Settings tab by going to the Settings link in the top navigati
 ![Arrows labelled as above point to the tabs](../../doc_files/searchsettingsloc.png)
 *Arrows labelled as above point to the tabs.*
 
-## Search Query Type
+## Search query type
 An Omeka Classic Super Administrator account may specify the type of search query that runs when users interact with the simple search: Keyword, Boolean, or Exact match. 
 
 ![Search settings page, with Search Query Type selection active for Keyword](../../doc_files/SearchQueryType.png)
@@ -17,7 +17,7 @@ An Omeka Classic Super Administrator account may specify the type of search quer
 
 These options are explained on the [Searching page](../../GettingStarted/Searching.md#search-options) of this manual. 
 
-## Select Record Types
+## Select record types
 
 You may choose which record types you wish to be searchable: items, collections, files. Remember that each of these types of content can have their own metadata text. 
 
@@ -48,7 +48,7 @@ Once records types are selected, searchers use the ellipsis button to choose fro
 
 ![Expanded search options](../../doc_files/searchExpanded.png)
 
-## Indexing 
+## Index records
 
 Indexing means to collect, parse, and store data to facilitate fast and accurate searches. Omeka Classic will automatically index individual records as they are created and saved. Re-indexing is necessary when updating from an earlier version of Omeka or after you customize which records will be searchable.
 

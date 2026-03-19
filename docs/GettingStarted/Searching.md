@@ -33,7 +33,7 @@ as well as options provided by plugins, such as:
 
 Advanced Search
 ----------------
-Advanced Search, which will only search the items in your Omeka Classic installation, is available on the admin side, and on the public side if the "Use Advanced Site-Wide Search" option is checked in the [theme settings](../Admin/Appearance/Themes.md#configuring-a-theme). 
+Advanced Search, which will only search the items in your Omeka Classic installation, is available on the admin side, and on the public side if the "Use Advanced Site-Wide Search" option is checked in the [theme settings](../Admin/Appearance/Themes.md#configure-a-theme). 
 
 To access the advanced search, click on the ellipsis button to the right of the basic search bar and then click the link reading “Advanced Search (Items Only)”.
 

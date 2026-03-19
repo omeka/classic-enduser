@@ -4,7 +4,7 @@ The Settings tab in the Appearance section helps you to manage derivative image 
 
 ![A screenshot of the appearance settings tab](../../doc_files/appearSettings.png "A screenshot of the appearance settings tab")
 
-Derivative Size Constraints
+Derivative sizes
 ----------------------------------------------------------------
 
 In this section, you can set the maximum image sizes for the derivative images Omeka creates when you upload a file. 
@@ -27,7 +27,7 @@ Please note that changes to these settings will only affect files uploaded after
 
 Those with access to the server files can also [manage thumbnail creation settings](../../Technical/ConfiguringThumbnailCreation.md) to change where thumbnails crop the image (see linked documentation for more information).
 
-Display Settings
+Display settings
 ----------------------------------------------------------------
 These settings relate to the display of results on the public and admin sides and some aspects of metadata display on the public side. 
 

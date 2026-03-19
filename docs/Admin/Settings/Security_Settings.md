@@ -8,7 +8,7 @@ To manage Security Settings, select "Settings" in the top navigation bar. In the
 
 The Security Settings page is divided into three sections: File Validation, Captcha, and HTML Filtering.
 
-File Validation
+File validation
 -------------------------------
 This section sets the rules for the files which can be uploaded to the Omeka Classic site. 
 
@@ -42,7 +42,7 @@ In order to use reCAPTCHA, you will need to [sign up for a Captcha key](http://w
 The [reCAPTCHA page](ReCaptcha.md) has more detailed instructions for implementing reCAPTCHA.
 
 
-HTML Filtering
+HTML filtering
 ---------------------------------------------------------------
 
 You may choose whether to filter HTML elements and attributes utilized as you fill in forms and metadata fields on your Omeka site.

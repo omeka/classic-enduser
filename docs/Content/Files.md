@@ -2,7 +2,7 @@
 
 When adding [items](Items.md) to your database, often you will upload one or more files (images, documents, etc.) associated with that item. An item can have as many files attached as you wish, or none. 
 
-Omeka Classic does not offer a way to upload files that are not attached to an item, except, [depending on the theme](../Admin/Appearance/Themes.md#configuring-a-theme), some branding files such as a header background or logo.
+Omeka Classic does not offer a way to upload files that are not attached to an item, except, [depending on the theme](../Admin/Appearance/Themes.md#configure-a-theme), some branding files such as a header background or logo.
 
 ![The Files tab that appears when you are adding an item](../doc_files/filesAdd.png "The Files tab that appears when you are adding an item")
 

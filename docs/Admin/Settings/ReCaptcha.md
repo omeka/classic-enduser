@@ -16,19 +16,17 @@ In order to enable reCAPTCHA for your plugins, you need to do a little configura
 
 ![ A red arrow points to the word "keys" in an accordion menu, open to reveal fields for site and secret keys. The keys have been obscured.](../../doc_files/captcha-keyloc.jpg) 
 
-- Return to you Omeka Classic admin dashboard and Settings in the top navigation.
-- From Settings, go to the Security tab and scroll down to the Captcha section.
+- Return to your Omeka Classic admin dashboard and click "Settings" in the top navigation.
+- From Settings, go to the "Security" tab and scroll down to the "Captcha" section.
 
 ![Screencap of the Captcha section of the security settings](../../doc_files/captcha-settings.png)
 
-- In the fields provided, enter your site/public and secret/private keys (copy and paste should work).
-- Be sure to click the green Save Changes button on the right hand side of the screen!
-
-
+- In the fields provided, paste in your site/public and secret/private keys, copied from the other site.
+- Click the green "Save Changes" button on the right hand side of the screen.
 
 Plugins that use reCAPTCHA
 ---------------------------------------------------------------
-The following plugins use Omeka Classic's reCAPTCHA support, and configuring reCAPTCHA as explained above should enable captchas for all of them:
+The following plugins use Omeka Classic's reCAPTCHA support, and configuring reCAPTCHA as explained above should enable Captchas for all of them:
 
 - [Commenting](../../Plugins/Commenting.md)
 - [Contribution](../../Plugins/Contribution.md)
