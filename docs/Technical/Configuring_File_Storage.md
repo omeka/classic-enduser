@@ -12,7 +12,7 @@ Omeka's storage system is based on "adapters." An adapter is simply a method for
 
 The default adapter is the Filesystem adapter, and it just stores files on the local server. If you haven't explicitly chosen an adapter to use, you're using this one, and it's the right choice for most users, especially if you're not sure which you want to use.
 
-The second adapter included with Omeka is the ZendS3 adapter, which uses Zend Framework code for storing files on Amazon's S3 storage service. This is a more complex adapter, and it requires you to sign up for S3, but it can be the right choice if you have constrained local storage and a large set of files to deal with, or just want to store files remotely for whatever reason.
+The second adapter included with Omeka is the ZendS3 adapter, which uses Zend Framework code for storing files on Amazon's S3 storage service. This is a more complex adapter, and it requires you to sign up for S3, but it can be the right choice if you have constrained local storage and a large set of files to deal with, or just want to store files remotely for whatever reason. Additionally, version 3.2 added another adapter called ZendS3Cloudfront, which also stores files on S3 but allows you to serve them through AWS's CloudFront CDN.
 
 You set the adapter with a line `storage.adapter` in the configuration file. This configuration option accepts the name of an adapter class. For the built-in adapters, the class name will start with `Omeka_Storage_Adapter`, so the Filesystem adapter would be `Omeka_Storage_Adapter_Filesystem`, and the ZendS3 adapter would be `Omeka_Storage_Adapter_ZendS3`. Plugins can add their own adapters too, and the plugin should document for you how it needs to be configured.
 
@@ -110,12 +110,83 @@ By default, this is `s3.amazonaws.com`, the endpoint for the US-East (N. Virgini
 region. If you're using a different region, you can set the correct endpoint for it
 here. Amazon's documentation lists the [S3 endpoints for different regions][2].
 
-**Note:** The ZendS3 adapter only supports "Version 2" authentication. Regions listed
-as "Version 4 only" in the linked table cannot be used with the ZendS3 adapter.
+**Note:** The ZendS3 adapter by default uses "Version 2" authentication. To use regions
+listed as supporting only signature version 4, see the [sigV4 option](#sigv4) below.
 
-### `forceSSL`
+#### `forceSSL`
 
 This setting will use HTTPS urls for files stored in S3. It is useful to prevent mixed content errors/warnings when the Omeka site is accessed via HTTPS.
+
+#### `acls`
+
+*Requires Omeka 3.2 or newer*
+
+Omeka's S3 support uses object ACLs: a setting on each uploaded file that
+specifies whether it's accessible to the public or hidden and requiring a
+signature to view. S3 now has a preferred mode where permissions are set with
+a policy at the bucket level instead. You can disable the usage of ACLs by
+setting the `acls` option to false.
+
+#### `storageClass`
+
+*Requires Omeka 3.2 or newer*
+
+The S3 adapter defaults to storing files using S3's "Standard" storage class.
+You can use the `storageClass` option to pick another one of the
+[available storage classes][4]. For example, to use S3's Intelligent Tiering
+feature, you could set the option like this:
+
+`storage.adapterOptions.storageClass = "INTELLIGENT_TIERING"`
+
+#### `sigV4`
+
+*Requires Omeka 3.2 or newer*
+
+Enabling this option switches to the newer "version 4" signature system that
+AWS requires for many regions. If this setting is enabled, you set the region
+with the `region` option instead of the `endpoint` option.
+
+For example, to use the US East (Ohio) region, which requires SigV4:
+
+```
+storage.adapterOptions.sigV4 = true
+storage.adapterOptions.region = "us-east-2"
+```
+
+### ZendS3Cloudfront Adapter Options
+
+*Requires Omeka 3.2 or newer*
+
+The ZendS3Cloudfront adapter accepts all the same options as the ZendS3 adapter,
+and it also adds a few CloudFront-specific options. One of them is required,
+and the others are only used to enable signed URLs when using the `expiration`
+setting.
+
+This adapter is designed to work with a CloudFront distribution set up to serve
+from your S3 bucket.
+
+#### `cloudfrontDomain`
+
+Set the name of your CloudFront distribution's domain. This can either be the
+default "xxxxx.cloudflare.net" domain, or a custom domain you have configured
+for the distribution. This domain will be used in all the URLs for serving
+your files.
+
+This option is required to use the ZendS3Cloudfront adapter; an error will occur
+if you try to use the adapter without specifying the domain to use.
+
+#### `cloudfrontKeyId`, `cloudfrontKeyPath`, `cloudfrontKeyPassphrase`
+
+Signed URLs used by the `expiration` setting work differently with CloudFront
+than with S3 alone. CloudFront requires using a private key file on the server
+to sign URLs. AWS has [documentation on setting up keys for CloudFront][5].
+
+- `cloudfrontKeyId` is the CloudFront ID for the key pair you will use for signing
+- `cloudfrontKeyPath` is the path to the private key file on the server
+- `cloudfrontKeyPassphrase` is the passphrase for the private key, if it has one
+
+If `expiration` is enabled for the ZendS3Cloudfront adapter, you must specify
+at least `cloudfrontKeyId` and `cloudfrontKeyPath`.
 
 ## Setting the Temporary Directory
 
@@ -136,5 +207,7 @@ Omeka needs to be able to read and write in this directory, just like in the
 storage `localDir`.
 
 [1]: https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys
-[2]: https://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region
+[2]: https://docs.aws.amazon.com/general/latest/gr/s3.html
 [3]: https://aws.amazon.com/s3/getting-started/
+[4]: https://docs.aws.amazon.com/AmazonS3/latest/userguide/storage-class-intro.html
+[5]: https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/private-content-trusted-signers.html

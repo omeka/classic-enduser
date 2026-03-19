@@ -52,6 +52,7 @@ nav:
         - Admin/Settings/API_Settings.md
         - Admin/Settings/ReCaptcha.md
     - Plugins:
+        - Plugins/ActivityLog.md
         - Plugins/Coins.md
         - Plugins/CollectionTree.md
         - Plugins/Commenting.md
@@ -66,15 +67,18 @@ nav:
         - Plugins/EmbedCodes.md
         - Plugins/ExhibitBuilder.md
         - Plugins/ExhibitImageAnnotation.md
+        - Plugins/Exports.md
         - Plugins/Geolocation.md
         - Plugins/GuestUser.md
         - Plugins/Heist.md
         - Plugins/ItemOrder.md
         - Plugins/ItemRelations.md
         - Plugins/Library_of_Congress_Suggest.md
+        - Plugins/LocalContexts.md
         - Plugins/Ngram.md
         - Plugins/OaipmhHarvester.md
         - Plugins/OaiPmhRepository.md
+        - Plugins/OhmsEmbed.md
         - Plugins/Omeka_API_Import.md
         - Plugins/PBCore.md
         - Plugins/PdfText.md
@@ -107,6 +111,7 @@ nav:
         - Technical/ConfiguringThumbnailCreation.md
         - Technical/Contribute_Code_to_Omeka.md
         - Technical/DatabaseConfigurationFile.md
+        - Technical/ImportExport.md
         - Technical/Legacy_documentation.md
         - Technical/Moving_to_Another_Server.md
         - Technical/Output_Formats.md

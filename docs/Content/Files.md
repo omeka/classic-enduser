@@ -4,7 +4,9 @@ When adding [items](Items.md) to your database, often you will upload one or mor
 
 Omeka Classic does not offer a way to upload files that are not attached to an item, except, [depending on the theme](../Admin/Appearance/Themes.md#configure-a-theme), some branding files such as a header background or logo.
 
-![The Files tab that appears when you are adding an item](../doc_files/filesAdd.png "The Files tab that appears when you are adding an item")
+When uploading files from your computer, you can select multiple files in one location by highlighting them all, or use the "Add Another File" button to browse to files in separate locations. 
+
+![The Files tab that appears when you are adding an item](../doc_files/filesAdd.png)
 
 File types
 -------------------------------------------------------------
@@ -16,7 +18,8 @@ If you are seeing file-validation errors, please see more information about adju
 ![When a disallowed file type upload is attempted](../doc_files/filesError.png "When a disallowed file type upload is attempted")
 
 File display order
----------------------------------------------------------------
+-------------------------------------------------------------
+
 If you have multiple files added to an item, you may click and drag the files into the preferred display order for both public and admin item pages.
 
 The first file associated with an item will be used as its thumbnail in browsing and searching, as well as on timelines and in other features added by plugins.
@@ -58,6 +61,7 @@ To upload a large number of files, or large files, you may download and install 
 
 File metadata
 --------------------------------------------------------------
+
 You may add a distinct set of Dublin Core metadata for each file uploaded. This will be stored and displayed separately from the associated item's metadata.
 
 To add metadata, click the "Edit" button found to the right of the file name on `admin/items/edit`. You also may view or edit file metadata from the `admin/items/show` screen by clicking the file name under the heading "File Metadata."
@@ -66,7 +70,16 @@ To add metadata, click the "Edit" button found to the right of the file name on 
 
 Alt text
 ----------------------
-If a file does not have any metadata, as you can see in the above screenshots, Omeka uses the original filename as the media title and the alt text. If the file has information in its Dublin Core Title property, that text will be displayed as the alt text for that file wherever it appears on the site. 
+
+If a file does not have any metadata, as you can see in the above screenshot, Omeka uses the original filename (and path) as both title and alt text (see below). If the file has information in its Dublin Core Title property, that text will be displayed as the title for that file wherever it appears on the site. 
+
+[Alternative text (`alt`)](https://webaim.org/techniques/alttext/){target=_blank} is displayed when an image cannot load. This information is also accessible to screen readers and other accessibility tools for the web. Best practices include using plain language to describe the content of the image without embellishment. 
+
+You may input alternative text for individual files by editing the file and drafting the text in the input area to the right of the file metadata. This will load wherever the file and its derivatives are displayed - in the administrative side, as thumbnails in browse and search screens, on the item view page, in exhibits, etc. 
+
+![The Alt Text field in the file element editing screen, under the "Save" button, in the right-most column.](../doc_files/filesAltText.png "")
+
+You can also configure a default file element to use for alt text for all image tags (that have a metadata value in that element). This is set in the [Appearance Settings](../../Admin/Appearance/Appearance_Settings). This default will be overridden when text is supplied in the "Alt Text" field. 
 
 Multimedia files
 ------------------------

@@ -59,3 +59,13 @@ The default external ImageMagick strategy and the Imagick strategy both support 
 A common use-case for this is images taken with mobile phone cameras, which often embed an orientation flag to allow computers to automatically rotate the image. Some image manipulation or preview software also will store rotations as only a change to the image's embedded rotation information. Turning `autoOrient` on allows Omeka to produce thumbnails in the expected orientation when these types of images are uploaded.
 
 `fileDerivatives.strategyOptions.autoOrient = true`
+
+### PDF Use CropBox
+
+*Requires Omeka 3.2 or newer*
+
+Starting with Omeka 3.2, by default the external ImageMagick strategy and the Imagick strategy will trim PDFs to the "CropBox" before thumbnailing them. The CropBox essentially defines the area of the PDF page that should be shown on screen when viewing the PDF, and this should be the desired setting for most use cases.
+
+If you do need to disable this feature and return to the pre-3.2 behavior, you can use the option `pdfUseCropBox`.
+
+`fileDerivatives.strategyOptions.pdfUseCropBox = false`

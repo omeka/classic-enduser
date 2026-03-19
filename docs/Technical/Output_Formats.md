@@ -1,5 +1,7 @@
 # Output Formats
 
+![Output formats listed at the end of a collection browse page.](../doc_files/OutputFormats.png)
+
 Omeka Classic uses Zend Framework's [ContextSwitch](https://framework.zend.com/manual/1.12/en/zend.controller.actionhelpers.html#zend.controller.actionhelpers.contextswitch){target=_blank} action helper to return different response formats on request. Omeka Classic comes bundled with several response formats: omeka-xml, omeka-json, dcmes-xml, json, and rss2. See below for more information about these bundled formats.
 
 To access the response formats, simply add `output=format-name` to the URL query string. For example:

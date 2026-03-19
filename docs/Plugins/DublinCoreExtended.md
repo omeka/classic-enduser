@@ -6,7 +6,7 @@ If you are using Omeka.net, see [instructions for the plugin in the Help section
 
 ## Elements Added to the Dublin Core Element Set 
 
-The full set of DC elements are added to item metadata below the initial 20 fields available without this plugin. To reorder the elements in this extended Dublin Core set, see [the documentation on element sets.](../Admin/Settings/Element_Sets.md).
+The full set of DC elements are added to item metadata below the initial 20 fields available without this plugin. To reorder the elements in this extended Dublin Core set, see [the documentation on element sets](../Admin/Settings/Element_Sets.md).
 
 -   Abstract
 -   Access Rights
