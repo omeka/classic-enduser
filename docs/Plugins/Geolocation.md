@@ -7,7 +7,7 @@ There is a [screencast for Geolocation (version 2.2.4) demonstrating its basic f
 <div style="padding:62.5% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/156298642?h=2fef6d0da4" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 <p><a href="https://vimeo.com/156298642">Omeka Classic: Geolocation Plugin</a> from <a href="https://vimeo.com/omeka">Omeka</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
-## Configuring
+## Configuration
 
 Once you have [installed](../Admin/Adding_and_Managing_Plugins.md) the Geolocation plugin, go to the Plugins tab in the top navigation of your admin dashboard. Scroll down to the listing for Geolocation and click *Configure* (if you do not see Configure you may need to click the *Install* or *Activate* buttons.
 
@@ -65,8 +65,8 @@ These settings are for integration of the geolocation map into the site menu and
 - **Add link to map on Items/Browse navigation**: click to make active. 
 - **Add map to contribution form**: click to make active. Note that this will only work if you have the Contribution plugin installed and active.
 
-Adding location to an item
-----------------------------------------------------------------
+## Add location to an item
+
 After you have activated and configured the Geolocation plugin, you can add a location marker to your items. 
 
 !!! note
@@ -92,9 +92,9 @@ To remove geolocation from an item, click directly on the marker. A dialog box w
 
 Don't forget to save your changes.
 
-## Viewing items on the public map 
+## View a public map 
 
-Visitors to your Omeka site may use a map to browse through all of your geolocated items.
+Visitors to your Omeka site can now use a map to browse through all of your geolocated items.
 
 When configuring the plugin, if you selected "Add Link to Map on Items/Browse Navigation," a "Browse Map" link will be added automatically to the secondary navigation on the `items/browse` page.
 
@@ -102,11 +102,11 @@ When configuring the plugin, if you selected "Add Link to Map on Items/Browse Na
 
 From this view, visitors may browse all mapped items, browse by tag, search for items and browse the map.
 
-They may also locate a mapped item by clicking on the items listed in the right column of the map.
+They may also locate a mapped item by clicking on the items listed in the column to the right side of the map.
 
-## Browse and search items on the admin map
+## Use the admin map
 
-A "Map" tab appears in the left navigation bar located on the left side of the dashboard. Clicking on the Map tab takes you to a map that displays all geolocated items in your Omeka site, public and not public, and an advanced search form to locate specific items.
+A "Map" tab appears in the left-side navigation bar in the administrative dashboard. Clicking on the Map tab takes you to a map that displays all geolocated items in your Omeka site, public and not public, and an advanced search form to locate specific items.
 
 ![Admin item browse map with search form](../doc_files/plugin_images/geolocation_adminbr.png)
 
@@ -175,7 +175,7 @@ If any of `lat`, `lon`, or `zoom` are not specifically set, and ‘fit’ is set
 :   set the map width. Can be set in pixels or percentages, but requires specification with either px or %; defaults to 100%.
 :   For example: `[geolocation width=200px]` or `[geolocation width=75%]`
 
-#### Examples
+**Examples**
 
 To print a map of all geotagged items, simply use: 
 :  `[geolocation]`

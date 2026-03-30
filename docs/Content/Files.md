@@ -15,7 +15,7 @@ Omeka Classic accepts most common files and file types, and can be customized to
 
 If you are seeing file-validation errors, please see more information about adjusting the accepted file types and extensions in the [File Validation section of the Security Settings page](../Admin/Settings/Security_Settings.md#file-validation).
 
-![When a disallowed file type upload is attempted](../doc_files/filesError.png "When a disallowed file type upload is attempted")
+![When a disallowed file type upload is attempted](../doc_files/filesError.png)
 
 File display order
 -------------------------------------------------------------
@@ -24,7 +24,7 @@ If you have multiple files added to an item, you may click and drag the files in
 
 The first file associated with an item will be used as its thumbnail in browsing and searching, as well as on timelines and in other features added by plugins.
 
-![The Files tab with multiple items. A four-pointed arrow icon shows you can drag and drop the files to reorder them.](../doc_files/filesReorder.png "The Files tab with multiple items. A four-pointed arrow icon shows you can drag and drop the files to reorder them.")
+![The Files tab with multiple items. A four-pointed arrow icon shows you can drag and drop the files to reorder them.](../doc_files/filesReorder.png)
 
 File derivatives
 -------------------------------
@@ -37,7 +37,7 @@ Derivative images are generated as follows:
 - A "full-size" image used on file view pages, by default 800 pixels on its longest side.
 - The original-sized image as uploaded, available for download or viewing on file view pages.
 
-You can control the size of each derivative file generated (square thumbnails and small original-dimension thumbnails, as well as full-size images) on the Settings tab of the [Appearance page](../Admin/Appearance/Appearance_Settings.md#derivative-size-constraints).
+You can control the size of each derivative file generated (square thumbnails and small original-dimension thumbnails, as well as full-size images) on the Settings tab of the [Appearance page](../Admin/Appearance/Appearance_Settings.md#derivative-sizes).
 
 You can use the [Derivative Images plugin](../Plugins/DerivativeImages.md) to re-generate thumbnails for uploaded media if needed.
 
@@ -47,7 +47,7 @@ Thumbnail creation relies on the ability of your server's chosen thumbnail utili
 
 Look up the utility you are using (such as [ImageMagick](https://imagemagick.org/){target=_blank}, [Imagick](https://www.php.net/imagick){target=_blank}, or [GD](https://www.php.net/manual/en/intro.image.php){target=_blank}) to find out which file types it supports. 
 
-![A File view showing links to generated thumbnails for the image.](../doc_files/filesThumbnails.png "A File view showing links to generated thumbnails for the image.")
+![A File view showing links to generated thumbnails for the image.](../doc_files/filesThumbnails.png)
 
 File size limitations
 -----------------------------

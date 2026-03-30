@@ -51,7 +51,7 @@ Administrators and Super Users can delete posters created by any user via the Po
 
 ![Manage posters, admin side view](../doc_files/plugin_images/Pbadmin.png)
 
-## Configuration options
+## Configuration
 
 To configure Posters, go to the "Plugins" button in the top navigation. Scroll down to Posters and click the blue "Configure" button. You will have the following options: 
 

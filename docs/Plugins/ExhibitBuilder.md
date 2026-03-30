@@ -13,7 +13,7 @@ There is a screencast about this plugin that you may find helpful:
 <div style="padding:50.77% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/102835560?h=0bbf869f01" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 <p><a href="https://vimeo.com/102835560">Omeka Classic: Exhibit Builder 3.0 Plugin</a> from <a href="https://vimeo.com/omeka">Omeka</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
-## Configuring
+## Configuration
 
 This plugin is included in your downloaded Omeka Classic installation and does not require a separate download. Select Plugins in the top navigation of your admin. Activate your plugin and select Configure to choose the sequence in which your exhibits appear. Exhibits may be ordered by date added, alphabetically by name, or most recent.
 
@@ -22,7 +22,7 @@ This plugin is included in your downloaded Omeka Classic installation and does n
 -   Choose the order of your Browse Page Exhibit display from the dropdown menu. 
 -   Don't forget to save your changes.
 
-## Getting Started
+## Add an exhibit
 
 Once you have activated and configured the Exhibit Builder plugin, Exhibits should appear in the left navigation bar. Clicking on it will take you to the Browse Exhibits page (admin/exhibits in your installation).
 
@@ -57,7 +57,7 @@ After selecting a specific theme for exhibit, you can configure that theme by ad
 
 Note that if you change the theme, you must click Save Changes before you configure the theme. So if you have been using Berlin and you want to change to the Winter version of Seasons, you will have to click Save Changes after switching from Berlin to Seasons in the Theme dropdown before you can configure the Seasons theme.
 
-## Pages
+## Add pages
 
 Once you have created an exhibit you can add pages to it by clicking the Add Page button at the bottom of the Exhibit Metadata page.
 
@@ -70,7 +70,7 @@ Once on the Add Page screen, add the following:
 
 To save the page information and continue editing that page, click the Save Changes button. To save the basic information for that page and add another page, click the Save and Add Another Page button.
 
-### Organizing Pages
+### Organize pages
 
 An exhibit in Omeka Classic can have multiple pages. You can reorder these pages by dragging and dropping, and you can use drag and drop to set up an exhibit page hierarchy. Note that these hierarchies cannot be more than three levels deep.
 
@@ -98,7 +98,7 @@ To add a content block, select the layout you want in the New Block dialog box. 
 
 Some plugins, such as [Geolocation](Geolocation.md) and [Exhibit Image Annotation](ExhibitImageAnnotation.md), will create additional block types which you can select when building a page.
 
-### Adding Items
+### Add items
 - If you have selected any block other than Text, choose an item by clicking the large plus sign button titled *Add Item* appearing in the Items area.
 
 ![Empty file block, arrow pointing to the Add Item button](../doc_files/plugin_images/eb_additem1.png)
@@ -138,7 +138,7 @@ In the image below, the middle item has been marked for deletion. A red arrow po
 
 Exhibit text can be formatted using the [text editor bar](../Content/Using_HTML_Editor-TinyMCE.md). To write your own HTML, or paste from somewhere else, click the blue HTML button in the formatting toolbar at the top of the text entry box. This will open up an HTML Source Editor window in which you can work.
 
-### Layout Options
+### Layout options
 
 The File with Text, Gallery, and Carousel blocks include layout options to change the look of the exhibit page. To access these options, click the black triangle button to the right of the Layout Options text at the bottom of the block. This will reveal dropdown menus with options for changing the layout.
 
@@ -150,7 +150,6 @@ The **File with Text** block has the following options, all of which are drop-do
 Whatever you select affects all of the files for that block equally. The text in this block will stay fixed to the right or left of the file, but will wrap below if the length of the text exceeds the height of the file.
 
 ![File with Text block layout options](../doc_files/plugin_images/eb_fwtLayout.png)
-
 
 The **Gallery** block has the following options, all of which are drop-down menus (options listed in parentheses after the dropdown label): 
 
@@ -185,7 +184,7 @@ The **Carousel** block has the following options, which are a mix of text boxes,
 
 ![Carousel block layout opion](../doc_files/plugin_images/eb_cLayout.png)
 
-### Additional Layouts
+### Additional layouts
 Some plugins include their own Exhibit Builder content block layouts.
 
 #### Geolocation
@@ -208,13 +207,13 @@ If you have installed the [Timeline](Timeline.md) plugin, you will have the **Ti
 
 Exhibit Builder adds specific [shortcodes](../Content/Shortcodes.md) to your install, which allow you to call specific exhibits or featured exhibits. 
 
-### Previous Exhibit Builder Layouts
+### Previous Exhibit Builder layouts
 
 The following is a list of layouts from previous versions of Exhibit Builder showing how the old layouts can correspond to new content blocks. These correlations are how pages built in previous versions of Exhibit Builder will be imported when upgrading.
 
 Although it is possible to reproduce previous layouts using Exhibit Builder 3.0, the content blocks allow for a much wider variety of layouts. For example, rather than having all the files on one side, as in image list left or right, files could alternate sides. You can also combine a Gallery block with File with Text Blocks, or stack multiple Galleries with interpretive text for each set. 
 
-NB: You cannot change one kind content block (ex. Gallery) to a different kind of content block (ex. File with Text). However, because you can move content blocks around, adding a new block to replace an existing one is less work than in previous versions of Exhibit Builder.
+Note: You cannot change one kind of content block (e.g. Gallery) to a different kind of content block (e.g. File with Text). However, because you can move content blocks around, adding a new block to replace an existing one is less work than in previous versions of Exhibit Builder.
 
 Block layout options are in *italics* for Exhibit Builder 3.0 blocks.
 

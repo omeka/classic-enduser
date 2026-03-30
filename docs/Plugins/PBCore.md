@@ -4,7 +4,7 @@ The [PBCore plugin](https://omeka.org/classic/plugins/PBCore2/){target=_blank} f
 
 For guidance on using the PBCore metadata standard, please see the [PBCore website](https://pbcore.org/tutorials){target=_blank}.
 
-## Adding an item
+## PBCore in action
 
 Once the plugin is installed, PBCore elements are available in their own tab when a user is adding or editing an item (alongside "Item Type", "File", "Tags", and other metadata tabs).
 
@@ -29,7 +29,7 @@ The PBCore XML output from Omeka will correctly associate the nested elements in
 
 ![Generated XML from the PBCore metadata. Shows container element "Contributor" with sub-elements "contributor" and "contributorRole" containing the values "Contributor 1" and "Role of Contributor 1"](../doc_files/plugin_images/pbCoreNestedElementsXML.png)
 
-### Control metadata visibility
+### Metadata visibility
 
 You may wish to use the [Hide Elements plugin](https://omeka.org/classic/plugins/HideElements/){target=_blank} along with PBCore in order to manage the possible duplication of the Title and Creator fields between the PBCore element set and the Dublin Core element set.
 
@@ -39,7 +39,7 @@ When configuring the Hide Elements plugin, duplicate fields can be hidden on the
 
 ![](../doc_files/plugin_images/pbCoreHideElements.png)
 
-### Adding file metadata
+### Add file metadata
 
 In addition to the item metadata, PBCore offers instantiation metadata fields for the files. Instantiation metadata can only be added if there is a file uploaded to the Omeka system. 
 
@@ -57,7 +57,7 @@ To assure that visitors can access the instantiation metadata connected to the f
 
 ![Settings view for site-wide appearances showing link to file metadata check box](../doc_files/plugin_images/pbCoreLinkFileMetadata.png)
 
-## Uninstalling
+## Uninstall
 
 While you can uninstall PBCore just like any other plugin, doing so will not remove the PBCore elements from your Omeka site. 
 

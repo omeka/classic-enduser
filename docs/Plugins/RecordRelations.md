@@ -5,6 +5,6 @@ Record Relations is a dependency for some plugins, but provides no functionality
 Once you have installed Record Relations, you can activate and
 deactivate it. It has no settings.
 
-Plugins which use Record Relations
+Plugins that use Record Relations
 -------------------------------------
 - [User Profiles](UserProfiles.md)

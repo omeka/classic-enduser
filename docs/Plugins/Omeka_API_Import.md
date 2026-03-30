@@ -18,7 +18,7 @@ The origin Omeka Classic installation does not need to have the Omeka API Import
 
 To find the URL of the origin Omeka Classic installation's API, go to the website in your browser. Add `/api` to the end of the URL. You should see a page with the message "This is the endpoint URL for [name of origin site]" and links to the site information and available API resources. To confirm that the API is enabled, click on the link for available API resources; if you see `{"message":"API is disabled"}`, then you will not be able to import from this site.
 
-## Importing 
+## Import
 
 This plugin does not have a configuration page. All operations can be performed by clicking the "Omeka API Import" entry in the left-hand navigation bar of the administrative dashboard.
 
@@ -56,7 +56,7 @@ To import using an API Key:
 
 Are your jobs starting and not completing? You might need to [set the path for PHP](../Technical/Setting_PHP_Path.md) so that your system can perform the background process to make the items.
 
-## Undoing an import
+## Undo an import
 
 Once you have completed an import, there will be an option to "Undo Imports" in the Omeka API Import interface.
 

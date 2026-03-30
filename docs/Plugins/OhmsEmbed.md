@@ -20,7 +20,7 @@ The OHMS application will output XML files that contain all the information crea
 
 OHMS files include a link to the video or audio media that will be presented alongside the index and texts. They do **not** include the multimedia file itself. This must be hosted elsewhere. Your hosting options include Youtube, Vimeo, Soundcloud, and other audio/video hosting providers.
 
-## Configuring the plugin
+## Configuration
 
 When you activate the OHMS Embed plugin, you will have two configuration options.
 
@@ -114,7 +114,7 @@ Below is an image of the OHMS Viewer rendering in an exhibit using the Santa Fe 
 
 ![Omeka Classsic exhibit page with a file and text block containing an OHMS embed](../doc_files/plugin_images/ohms_filetextblock.png)
 
-#### Using the OHMS viewer
+####  OHMS viewer controls
 
 The Omeka Classic OHMS viewer has several public controls: a toggle between the index and the transcription and/or translation if those elements are available, an information icon that shows the media metadata, and an option to move to a fullscreen view.
 

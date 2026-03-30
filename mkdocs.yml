@@ -85,8 +85,8 @@ nav:
         - Plugins/Posters.md
         - Plugins/RecordRelations.md
         - Plugins/RedactElements.md
-        - Plugins/ResourceMeta.md
         - Plugins/Reports.md
+        - Plugins/ResourceMeta.md
         - Plugins/Scripto.md
         - Plugins/SearchByMetadata.md
         - Plugins/ShortcodeCarousel.md

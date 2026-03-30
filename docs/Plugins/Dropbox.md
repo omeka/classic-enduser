@@ -13,7 +13,7 @@ The [Dropbox plugin](https://omeka.org/classic/plugins/Dropbox/){target=_blank} 
  
 ![Files available via the dropbox plugin ](../doc_files/plugin_images/Dropbox.png)
 
-## Batch Adding Files As Items 
+## Batch-add files As items 
 
 From the Dropbox box tab (.../admin/dropbox) you may select files to batch add as individual items - note that one file creates one item). When selecting files, you may also add them to a collection and associate the same set of tags, make the items public or feature them.
 
@@ -21,7 +21,7 @@ Click "Upload Files as Items." Items are created from each file and titled with 
 
 - Are your jobs starting and not completing? You might need to [set the path for PHP](../Technical/Setting_PHP_Path.md) so that your system can perform the background process to make the items.
 
-## Adding Files to Items 
+## Add files to items 
 
 To add dropbox files to items, add or edit an item(.../items/add or .../items/edit) and click on the Files tab.
 
@@ -31,7 +31,7 @@ Check the box, or boxes, of the file(s) you wish to associate with that particul
 
 You may add files from the dropbox at any point during the adding or editing process.
 
-## Security Settings
+## Security settings
 
-It may be necessary to add specific mimetypes to the Allowed File Types in the admin section. See [Security Settings](../Admin/Settings/Security_Settings.md) for more information.
+It may be necessary to add specific mime-types to the "Allowed File Types" list in the settings. See [Security Settings](../Admin/Settings/Security_Settings.md) for more information.
 

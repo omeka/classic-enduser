@@ -2,7 +2,7 @@
 
 The [Guest User plugin](https://omeka.org/classic/plugins/GuestUser/){target=_blank} adds an additional, low-permission user role to your Omeka Classic site. The Guest role is used behind-the-scenes by other plugins ([Contribution](Contribution.md), [Commenting](Commenting.md), and [User Profiles](UserProfiles.md), for example), without giving the guests administrative access to your Omeka site.
 
-## Install and configure
+## Configuration
 
 When active, Guest User adds an always-visible bar to the top of your Omeka site that includes "Login" and "Register" links. Without this plugin, the [basic suite of users](../Admin/Users.md) can only log in your Omeka site using the `admin/users/login` page. 
 
@@ -29,9 +29,11 @@ There are also two checkboxes:
 
 If you have [ReCaptcha enabled](../Admin/Settings/ReCaptcha.md), you can require a ReCaptcha key for registration.
 
-## Using the plugin
+## Guest User in action
 
-Guest User adds a registration page and a user-access bar to your public site. Most other functionality is seen in additional plugins that you will install. You will have to do additional configuration within other plugins (User Profiles, for instance) to realize the full benefits of the Guest User plugin.
+Guest User adds a registration page and a user-access bar to your public site. 
+
+Most other functionality is for the additional plugins you will install. You will have to do additional configuration within other plugins (User Profiles, for instance) to realize the full benefits of the Guest User plugin.
 
 ### The header bar
 

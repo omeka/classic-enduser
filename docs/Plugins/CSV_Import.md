@@ -12,7 +12,7 @@ The plugin has the following features:
 -   Choose custom delimiters: Set separate delimiters for columns, tags, files, and elements.
 -   Undo imports: The "Undo" option lets you delete all the items and files added in an import.
 
-## Preparing for CSV Import
+## Prepare for a CSV Import
 
 The best option is usually to use spreadsheet software (Excel, Google Sheets, Numbers) to create and organize your data. These programs can export a spreadsheet into CSV format, and will handle all the necessary escaping and quoting for you. When a file is saved from Google Sheets, it will automatically be put into the UTF-8 character set necessary for CSV Import.
 
@@ -26,7 +26,7 @@ However, if you're creating or editing your data by hand, there are a few things
 -   It is possible to import files housed in a digital repository by adding the URL to that specific file in a column representing a file. You may import more than one file per item, by comma separating the urls within a cell. You must use a permanent link for this step.
 - Note that Omeka cannot accept metadata entries that include emojis. You will see the import process stop with and "Import Error" and the [`errors.log` file](../Troubleshooting/Retrieving_Error_Messages.md) will show "Incorrect string value". You may also see the process stop if PDF Text is enabled and has difficulty processing a PDF that has emojis.
 
-## Importing
+## Import
 
 A quick note about CSV formats and importing: The column delimiter is the basic building block of the CSV file, and it is a comma by default.
 
@@ -76,8 +76,8 @@ Click the "Import CSV File" button to complete the import.
 
 You may check on the progress of your import using the "Status" tab.
 
-Undo an Import
-----------------------------------------------------------------
+## Undo an import
+
 To undo an import:
 
 -   Click on the "CSV Import" administrative tab.

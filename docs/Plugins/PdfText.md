@@ -12,7 +12,7 @@ PDF Text requires the `pdftotext` utility, which is part of the [poppler-utils](
 
 You may need to contact your server administrator to install it. 
 
-## Using the PDF Text plugin
+## PDF Text in action
 
 - Add PDF file(s) to a new or existing item.
 - Save the item.
