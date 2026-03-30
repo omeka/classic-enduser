@@ -2,7 +2,6 @@
 
 The [Redact Elements plugin](https://omeka.org/classic/plugins/RedactElements/){target=_blank} allows selected users of an Omeka Classic installation to redact information from element fields in Omeka, using regular expressions to match character sequences. For example, any instance of an email address in the Contributor or Source field could be replaced with "[Redacted]". You can select which elements have redactions applied, and which redactions to use.
 
-Text sequences to be redacted are specified using regular expressions. For more information on regular expressions, see [regularexpressions.info](http://www.regular-expressions.info){target=_blank}. The plugin comes with regular expressions for IP addresses, email addresses, and urls; you can can add other patterns.
 Text sequences to be redacted are specified using regular expressions. For more information on regular expressions, see [regular-expressions.info](http://www.regular-expressions.info){target=_blank}. The plugin comes with pre-written regular expressions for IP addresses, email addresses, and URLs; you can can add other patterns.
 
 ## Configuration
