@@ -5,7 +5,7 @@ Note that some files may take a long time to load, and some may not load at all,
 
 When you use this service you are acknowledging that you have read and agreed to the [Google Docs Viewer Terms of Service](https://policies.google.com/terms?hl=en){target=_blank}.
 
-## Configuring
+## Configuration
 
 Once you have [installed](../Admin/Adding_and_Managing_Plugins.md) the Docs Viewer plugin, select Plugins in the top navigation of your admin. Activate your plugin and select Configure.
 
@@ -31,4 +31,4 @@ Finally, the plugin gives you the options to select the file formats that you wo
 - TrueType (ttf)
 - XML Paper Specification (xps). 
 
-Save Changes to finish the configuration process.
+"Save Changes" to finish the configuration process.

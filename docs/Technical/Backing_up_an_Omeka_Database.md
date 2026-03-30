@@ -1,6 +1,6 @@
 # Backing up an Omeka Classic Database
 
-WordPress has terrific documentation on their website about [Backing up Your Database](https://wordpress.org/support/article/backing-up-your-database/){target=_blank} that will help guide you through this process. You can go ahead and do this one of two ways: directly executing mysql commands on the command line, or using PHPMyAdmin.
+WordPress has terrific documentation on their website about [Backing up Your Database](https://web.archive.org/web/20250218163904/https://developer.wordpress.org/advanced-administration/security/backup/database/){target=_blank} that will help guide you through this process. You can go ahead and do this one of two ways: directly executing mysql commands on the command line, or using PHPMyAdmin.
 
 ## mysqldump
 

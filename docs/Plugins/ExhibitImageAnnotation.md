@@ -9,7 +9,7 @@ There is a [screencast](https://vimeo.com/245756433){target=_blank} for this plu
 <div style="padding:62.5% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/245756433?h=5e499d878f" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 <p><a href="https://vimeo.com/245756433">Exhibit Image Annotation</a> from <a href="https://vimeo.com/omeka">Omeka</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
-## Annotating an Image
+## Annotate an image
 To add an image annotation, create a new page in an  exhibit, or go to an existing page on which you want the annotation bloc to appear.
 
 First, add an image annotation block: 
@@ -49,7 +49,7 @@ Note that you can overlap annotations if you choose.
 
 To delete an existing annotation, hover over it and click the X button in the menu which appears.
 
-## Viewing Annotations
+## View annotations
 On the public side, image annotation blocks will appear as a full-size version of the image, with the rectangular outlines of the annotations visible. When a visitor hovers over the annotation outline, the text you have entered will appear.
 
 ![A section of a painting showing drapery in front of a cloudy sky in the background, and in the foreground an extended arm in black clothing with a hand, palm up. A white-edged rectangle outlines one of the clouds. A yellow-edged rectangle surrounds the hand, with a caption below it stating "Hand"](../doc_files/plugin_images/eximageanno_public.png)
