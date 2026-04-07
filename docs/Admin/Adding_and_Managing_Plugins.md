@@ -9,15 +9,17 @@ The Omeka Team cannot guarantee that user-built plugins work as expected, and do
 
 ![A screenshot of the Plugins page, with one not yet installed, one installed but not activated, and one active plugin](../doc_files/Plugins.png "A screenshot of the Plugins page, with one not yet installed, one installed but not activated, and one active plugin")
 
-Manage plugins from the Plugins page found at the top of your Dashboard. Plugins will be listed alphabetically. Each plugin listed will have links to perform various actions:
+Manage plugins from the Plugins page found at the top of your administrative dashboard. Note that only Super-level users have access to the Plugins page, so any plugin functionality configured from this menu can only be done by Super accounts. 
 
--   **Install**: Run the installer and activates the plugin.
--   **Configure**: If applicable, a page for customizing the plugin's unique settings. 
+Plugins will be listed alphabetically. Each plugin listed will have links to perform various actions:
+
+-   **Install**: Run the installer and activate the plugin.
+-   **Configure**: If applicable, a page for setting up the plugin and/or customizing its settings. 
 -   **Deactivate**: Deactivating merely "unplugs" the plugin, but does not delete any data collected while the plugin was active. 
 -   **Activate**: Activates the plugin after it has been manually deactivated. All plugins are automatically activated once installed.
--   **Uninstall**: Runs the uninstaller for the plugin and deletes information in your installation related to the plugin, including content in item metadata fields.
+-   **Uninstall**: Runs the uninstaller for the plugin and deletes information in your installation database related to the plugin, including content in metadata fields.
 
-In some cases, uninstalling plugins can delete data associated with the plugin from your database, such as information entered into metadata fields on items or collections. Check the plugin's documentation. We recommend deactivating and testing the changes first, before uninstalling. 
+In some cases, uninstalling plugins can delete data associated with the plugin from your database, such as information entered into metadata fields on items or collections. Check the plugin's documentation. We recommend deactivating and testing changes first, before fully uninstalling. 
 
 Install a plugin
 -------------------
@@ -43,7 +45,7 @@ You can watch [our screencast showing these steps](https://vimeo.com/153819886){
 !!! Note
     You can also use `git clone` or the Github interface to download the latest plugin code directly from Github into a folder in your `/plugins` folder. Be sure to watch for extra folder levels or incorrect folder names in this case, such as a folder starting with `plugin-` or ending with `-master`. Rename the folder to remove things like `plugin-` and/or `-master` from the folder name, as in `git clone https://github.com/omeka/plugin-Timeline.git Timeline`. 
 
-Upgrade plugins
+Upgrade
 -----------------
 When an active plugin is out of date, a notification will appear at the bottom of the plugin's entry on your Plugins page. The notification reads "A new version of this plugin is available. Get the new version." with a link. 
 
