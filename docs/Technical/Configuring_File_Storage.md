@@ -1,12 +1,13 @@
 # Configuring File Storage
 
-Omeka Classic allows administrators to configure how files are stored (both original files uploaded to Omeka Classic and the derivative images Omeka creates itself). For typical users, the default settings are sufficient: files are simply stored the `files` subdirectory of the Omeka installation and served from there by the web server, just like any other file in Omeka.
+Omeka Classic administrators can configure how files are stored (both original files uploaded to Omeka Classic and the derivative images Omeka creates itself). For typical users, the default settings are sufficient: files are simply stored the `files` subdirectory of the Omeka installation and served from there by the web server, just like any other file in Omeka.
 
-However, if you want or need to store files in a different location, on a different drive, or even a different server or service, you'll need to do some configuration. The storage system is configured through the Omeka configuration file, `application/config/config.ini`.
+However, if you want or need to store files in a different location, on a different drive, or even a different server or service, you'll need to do some configuration. The storage system is configured through the Omeka configuration file `application/config/config.ini`.
 
-Note: storage changes in the configuration get applied immediately, and will affect all operations involving files. If you change storage methods or locations after already working on an Omeka installation for some time, you'll have to take care of moving or copying any pre-existing files to the new location yourself. If you're thinking about using non-standard storage settings, it's often easiest to make that decision up front, before you upload anything.
+!!! note
+	Storage changes in the configuration get applied immediately, and will affect all operations involving files. If you change storage methods or locations after already working on an Omeka installation for some time, you'll have to take care of moving or copying any pre-existing files to the new location yourself. If you're thinking about using non-standard storage settings, it's often easiest to make that decision up front, before you upload anything.
 
-## Storage Adapters
+## Storage adapters
 
 Omeka's storage system is based on "adapters." An adapter is simply a method for storing and accessing files, and Omeka ships with two adapters out of the box.
 
@@ -18,7 +19,7 @@ You set the adapter with a line `storage.adapter` in the configuration file. Thi
 
 Remember, if you don't explicitly choose an adapter (in other words, if you don't have a `storage.adapter` line in your configuration file) then Omeka will use the Filesystem adapter.
 
-## Adapter Options
+## Adapter options
 
 Each adapter has some options that can be set to change its behavior. These options differ from adapter to adapter. Adapter options are set with `storage.adapterOptions.` lines in the configuration file (for example, to set the `localDir` option for the Filesystem adapter, you'd use a line like this (with a real path instead):
 
@@ -26,7 +27,7 @@ Each adapter has some options that can be set to change its behavior. These opti
 storage.adapterOptions.localDir = "/local/path/to/store/files"
 ```
 
-### Filesystem Adapter Options
+### Filesystem adapter options
 
 #### `localDir`
 
@@ -61,7 +62,7 @@ Only the URL up to the directory needs to be provided; Omeka will handle the
 part of the URL for referring to a specific file and type of file (in other
 words, this option is the *prefix* for the file URLs).
 
-### ZendS3 Adapter Options
+### ZendS3 adapter options
 
 Unlike the Filesystem adapter, the ZendS3 adapter has several options that are
 mandatory and have no default. So, to use this adapter, you must also always
@@ -153,7 +154,7 @@ storage.adapterOptions.sigV4 = true
 storage.adapterOptions.region = "us-east-2"
 ```
 
-### ZendS3Cloudfront Adapter Options
+### ZendS3Cloudfront adapter options
 
 *Requires Omeka 3.2 or newer*
 
@@ -188,7 +189,7 @@ to sign URLs. AWS has [documentation on setting up keys for CloudFront][5].
 If `expiration` is enabled for the ZendS3Cloudfront adapter, you must specify
 at least `cloudfrontKeyId` and `cloudfrontKeyPath`.
 
-## Setting the Temporary Directory
+## Set the temporary directory
 
 There is one storage option that is used regardless of the configured adapter:
 `storage.tempDir`.

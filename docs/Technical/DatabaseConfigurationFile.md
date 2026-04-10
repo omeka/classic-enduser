@@ -1,8 +1,8 @@
 # Database Configuration File
 
-Before installing Omeka Classic, users must edit their database configuration in the db.ini file. Replace the Xs in the document with your MySQL database-specific information. You must have MySQL5 installed to use Omeka. 
+Before installing Omeka Classic, users must edit their database configuration in the `db.ini` file. Replace the "X"s in the document with your MySQL database-specific information. You must have MySQL5 installed to use Omeka Classic. 
 
-## Required Fields 
+## Required fields 
 These fields must be filled in for any Omeka installation. Your hosting provider or system administrator should provide you with the correct values for each of these. 
 
 `host`  
@@ -14,7 +14,7 @@ These are specific to your MySQL database, and often different from your FTP use
 `dbname`  
 Your database name. Shared hosts often will prefix these names with your username, sometimes resulting in a database name like username_databasename. 
 
-## Additional Fields 
+## Additional fields 
 
 These fields can usually be left untouched, but some installations or special situations may require their use. 
 

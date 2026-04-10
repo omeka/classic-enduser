@@ -4,7 +4,7 @@ The most straightforward way to move an Omeka Classic project between servers is
 
 If this is not an option (the original site is no longer online or is on an internal network), follow the legacy instructions below.
 
-## Legacy Instructions
+## Legacy instructions
 
 Before moving an existing Omeka project from one server to another, you should [upgrade](../Installation/Upgrading.md) your existing installation to the latest version.
 
