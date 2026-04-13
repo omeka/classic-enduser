@@ -94,6 +94,7 @@ nav:
         - Plugins/SimplePages.md
         - Plugins/SimpleVocab.md
         - Plugins/SocialBookmarking.md
+        - Plugins/StaticSiteExport.md
         - Plugins/TextAnalysis.md
         - Plugins/TextAnnotation.md
         - Plugins/Timeline.md
