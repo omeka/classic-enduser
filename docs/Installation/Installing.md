@@ -3,7 +3,7 @@
 ## Preparing to install
 Before installing Omeka Classic, make sure your web server meets our [system requirements](System_Requirements.md). These are standard requirements that are available with many web hosting services. Check the dependencies of your intended plugins. Once these requirements are met, all you need to do is install the Omeka software.
 
-Easy installation steps
+Installation steps
 -----------
 
 !!! note

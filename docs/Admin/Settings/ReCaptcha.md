@@ -4,9 +4,8 @@ A captcha is a program that can help ensure that only actual people, not spammer
 
 Omeka Classic versions 1.3 and higher have built-in support for reCAPTCHA, a free captcha service from Google. Several Omeka plugins that used to handle captchas individually now all use Omeka's built-in support.
 
-Configuring
+Configuration
 ---------------------------------------------------------------
-In order to enable reCAPTCHA for your plugins, you need to do a little configuration.
 
 - Go to [https://www.google.com/recaptcha/](https://www.google.com/recaptcha/){target=_blank} to sign up for a ReCaptcha key. Note that you will need to sign in with a Google account to acquire a reCATPCHA key.
 - In the "register a new site" box, enter the url for your Omeka site and select the reCAPTCHA version you want. For more information, see [the reCAPTCHA documentation](https://developers.google.com/recaptcha/docs/versions){target=_blank}.

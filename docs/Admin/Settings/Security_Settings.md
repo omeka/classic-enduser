@@ -1,6 +1,6 @@
 # Security Settings
 
-Security settings enable you to determine the file formats and HTML markup allowed on your Omeka Classic site, and to set Captcha controls to protect your site from automated spam.
+Security settings include the file formats and HTML markup allowed on your Omeka Classic site. You can also set Captcha controls to protect your site from spam.
 
 To manage Security Settings, select "Settings" in the top navigation bar. In the Settings section, choose the "Security" tab to the right of the "General" tab. Only [Super Users](../Users.md) may edit these settings.
 
