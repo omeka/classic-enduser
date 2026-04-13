@@ -1,4 +1,4 @@
-# Using Omeka with Other Tools
+# Using Omeka With Other Tools
 
 This list links out to information about digital tools and platforms which can be used with Omeka Classic.
 
