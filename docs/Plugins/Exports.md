@@ -46,7 +46,7 @@ On the next page you will set up your export to pull information from your chose
 
 You can also choose other information in the databse of your installation, including data stored by plugins. This can include exhibits from ExhibitBuilder, pages from SimplePages, and location data from the Geolocation plugin (coordinates that are attached to items). More may be added by other plugins. 
 
-The options, excluding additional options added by modules, include:
+The options, excluding additional options added by other plugins, include:
 
 - Collection
 - Element

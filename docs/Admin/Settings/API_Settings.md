@@ -5,7 +5,8 @@ Versions 2.1 and above include an API ([application programming interface](http:
 Some online collections are making their data available through APIs, such as the [Digital Public Library of America](http://dp.la/info/developers/codex/){target=_blank} and the [Brooklyn Museum](http://www.brooklynmuseum.org/opencollection/api/){target=_blank}, among others. APIs make your collections more accessible, and also contribute to the long-term sustainability by making it easier for your Omeka Classic data to communicate and be shared with other systems via web-based protocols.
 
 ### Enabling the API 
-Superusers can choose whether to enable the API in the API tab under Settings in the top navigation of the Admin dashboard.
+
+Super Users can choose whether to enable the API in the API tab under Settings in the top navigation of the Admin dashboard.
 
 -   By default the API will be enabled, but you can un-check the box if you wish to disable the API.
 -   Super users may also adjust the number of results per page (default: 50).
@@ -15,7 +16,7 @@ Superusers can choose whether to enable the API in the API tab under Settings in
 Plugins can also make their data available via the API. The chart shows what resources and actions can be performed via the API. In the screenshot, you can see that in addition to data about items,
 collections, tags, etc. being available via the API, the Exhibit Builder plugin is also installed, and that information about exhibits and individual exhibit pages is exposed through the API.
 
-### API Keys and Permissions
+### API keys and permissions
 
 Permissions to modify any data are only given to existing users of your Omeka Classic site who have been given a key by an administrator. See more information on users at [Users](../Users.md).
 

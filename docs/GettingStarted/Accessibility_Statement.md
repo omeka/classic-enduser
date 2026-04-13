@@ -24,7 +24,7 @@ Please review the [current list of issues](https://github.com/omeka/Omeka/issues
 
 The following statements apply to Omeka Classic versions 2.3 and higher:
 
-### Front End (Public view)
+### Front end (Public view)
 
 The public view of Omeka Classic has the following features to improve accessibility:
 
@@ -38,7 +38,7 @@ There are also SkipNav and ARIA landmarks on [all Omeka Classic themes](https://
 
 Please note that although the core code for Omeka Classic and its bundled themes and plugins conform to the above standards, sites built with Omeka Classic which have been customized or which are using non-Omeka themes and plugins may lack some or all of these options. While we encourage developers to consider accessibility, we cannot ensure that their code includes ARIA landmarks and SkipNav in the themes.
 
-### Back End (Administrative view)
+### Back end (Administrative view)
 
 The administrative dashboard of Omeka Classic has the following features for accessibility:
 
@@ -46,6 +46,6 @@ The administrative dashboard of Omeka Classic has the following features for acc
 -   ARIA landmarks for screen readers on the Admin Dashboard, designating the header, navigation, footer, and main body content;
 -   Semantic HTML5 markup.
 
-## Accessibility Issues
+## Accessibility issues
 
-If you encounter an issue with accessiblity with the Omeka Classic core software or Omeka Team developed addons, please report your findings either via a [Forum post](https://forum.omeka.org/c/omeka-classic/accessibility/37){target=_blank} or by making an issue in the appropriate GitHub repository.
+If you encounter an issue with accessiblity using the Omeka Classic core software or Omeka Team developed add-ons, please report your findings either via a [Forum post](https://forum.omeka.org/c/omeka-classic/accessibility/37){target=_blank} or by making an issue in the appropriate GitHub repository. More information can be found on the [Report a Bug](../Troubleshooting/Report-a-bug.md) page. 

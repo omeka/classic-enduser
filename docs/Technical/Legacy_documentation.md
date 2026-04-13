@@ -2,7 +2,7 @@
 
 Documentation for versions of Omeka up to 1.5 is available for download as a [zipped archive of html files](../doc_files/1xDocumentation.zip).
 
-## Legacy Add-ons
+## Legacy add-ons
 
 The following add-ons are not compatible with current versions of Omeka Classic.
 

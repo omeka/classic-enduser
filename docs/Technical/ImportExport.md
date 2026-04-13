@@ -16,7 +16,7 @@ See [the instructions in the Omeka S user manual](https://omeka.org/s/docs/user-
 
 You can use your own Classic site's API to crawl data as required, or export a spreadsheet. You can [request different formats through the API](https://omeka.org/s/docs/developer/api/rest_api/#responses){target=_blank}, including `jsonld` and `rdfxml`. 
 
-[For more information on the API, see the developer documentation section.](https://omeka.org/s/docs/developer/api/){target=_blank}.
+[For more information on the API, see the developer documentation section](https://omeka.org/s/docs/developer/api/){target=_blank}.
 
 There are example scripts for using the API to output information [in the developer documentation](https://omeka.readthedocs.io/en/latest/Reference/api/examples.html){target=_blank}.
 
@@ -28,7 +28,7 @@ Once you have exported from your original installation using the API, you can im
 
 #### Use the Classic plugin
 
-You can use the [Omeka API Import plugin](../Plugins/Omeka_API_Import.md) to import items & collections from a Classic site. This plugin imports **some** of the material accessible from the [API](../Admin/Settings/API_Settings.md): items and their metadata (including tags), attached files, collections, users, comments and contributions, Simple Pages, and Exhibit Builder content. 
+You can use the [Omeka API Import plugin](../Plugins/Omeka_API_Import.md) to import some resources from one Classic site to another. This plugin imports **some** of the material accessible from the [API](../Admin/Settings/API_Settings.md): items and their metadata (including tags), attached files, collections, users, comments and contributions, Simple Pages, and Exhibit Builder content. 
 
 If equivalent plugins are installed on both the source site and the target site, Omeka API Import can import plugin-specific metadata. For example, geolocation data facilitated by the [Geolocation plugin](../Plugins/Geolocation.md) will automatically be imported; [PDF Text](../Plugins/PdfText.md) elements can be imported.
 

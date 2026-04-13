@@ -1,27 +1,26 @@
 # Configuring Thumbnail Creation
 
-
-## Choosing a Strategy
+## Choose a tool
 
 Omeka Classic uses the command-line tool `convert` from ImageMagick by default to create thumbnail images for uploaded files. Instead, you can choose to use the PECL ext/imagick extension (Omeka 2.2 and above) or the PHP GD extension (Omeka 2.3 and above).
 
 The Imagick and GD options both avoid the need to call out to a command-line. PHP's GD extension is less advanced than ImageMagick but is more widely available.
 
-To change how Omeka will generate thumbnails, set the option `fileDerivatives.strategy` in the application/config/config.ini file. Note: there may be a `fileDerivatives.strategy` line already in the config.ini file. If that line starts with a semicolon, it is a comment, not an actual setting. Either remove the semicolon and edit the line to use the desired strategy, or just add a new line.
+To change how Omeka will generate thumbnails, set the option `fileDerivatives.strategy` in the `application/config/config.ini` file. Note: there may be a `fileDerivatives.strategy` line already in the `config.ini` file. If that line starts with a semicolon, it is a comment, not an actual setting. Either remove the semicolon and edit the line to use the desired tool, or just add a new line.
 
-To use the GD strategy, use the following line:
+To use GD, use the following line:
 
 `fileDerivatives.strategy = "Omeka_File_Derivative_Strategy_GD"`
 
-To use the IMagick strategy, use the following line:
+To use IMagick, use the following line:
 
 `fileDerivatives.strategy = "Omeka_File_Derivative_Strategy_Imagick"`
 
-The new strategy will only apply to files added to Omeka after the configuration is changed.
+The new setting will only apply to files added to Omeka after the configuration is changed.
 
-## Changing Options
+## Change options
 
-In addition to the entire strategy used to create the thumbnails, more fine-grained options are also configurable in application/config/config.ini.
+In addition to the entire strategy used to create the thumbnails, more fine-grained options are also configurable in `application/config/config.ini`.
 
 Options are set using lines starting with
 `fileDerivatives.strategyOptions`.

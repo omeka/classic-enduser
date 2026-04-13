@@ -1,39 +1,12 @@
 # Posters
 
-[Posters](https://omeka.org/classic/plugins/Posters/){target=_blank} are a simple, lightweight way for users on your Omeka Classic site to interact with your content by selecting items to gather together into a sequential presentation, with an overall description and captions for items.
+[Posters](https://omeka.org/classic/plugins/Posters/){target=_blank} are a simple, lightweight way for users on your Omeka Classic site to interact with your content by selecting items to gather together into a sequential presentation, with an overall description and captions for items. You can think of posters as small, user-contributed exhibits using your collections. 
 
-You must have [Guest User](GuestUser.md) installed to use Posters.
+Posters can render as slideshows that can be navigated forwards or backwards, or as a page with a series of items in a list. 
 
+## Requirements
 
-## Configure
-
-To configure Posters, go to the Plugins button in the top navigation. Scroll down to Posters and click the blue "Configure" button. The page should load with the following options: 
-
-![Configuration options for Poster Builder, as described below](../doc_files/plugin_images/posters-config.png)
-
-**Poster Page Title:** Change the title of the posters page and how it is populated in the public navigation.
-
-**Poster Page Path:** the slug for the poster page (what shows up in the url, so `youromekasite.org/posters`).
-
-**Poster Page Disclaimer:** Edit, replace, or remove the default disclaimer that appears at the bottom of every poster page.
-
-**Poster Page Help:** Edit, replace, or remove the default text for posters/help, accessible to users when they are creating or editing a poster.
-
-**Poster File Size:** Use these two drop-down menus to indicate the image size (fullsize or thumbnail) for display on the public page and when printing posters.
-
-**Poster Display Show:** Page From this drop-down, you can choose whether posters display online as a static list of items or a carousel slide show. Note that the carousel display is designed for shorter descriptions and posters of at least two items.
-
-### Default Texts
-
-If you replace the default texts and later want to restore them, they are as follows:
-
-**Poster Page Disclaimer** 
-
-`This page contains user-generated content and does not necessarily reflect the opinions of this website. For more information, please refer to our terms of service and conditions. If you would like to report the content of this as objectionable, please contact us.`
-
-**Poster Page Help**  
-
-`<h2>Your Posters</h2> To build a poster, you may use any public item in in this website and add a caption.  <p>Click the button that says "New Poster." Assign a title to your poster, add a short description. Click the tab that says "Add an Item" and select any item that you wish to include in your poster. Continue adding items and captions. </p> <p> Be sure to save your poster. You may return to edit your poster at any time. </p> <p>You may print this poster, or share it by email.</p>`
+You must have [Guest User](GuestUser.md) installed and active to use Posters.
 
 ## Working with Posters
 
@@ -42,6 +15,7 @@ Users add, edit, share, print, and delete posters from the public side of your O
 Note that logged-in users will only see their own posters. Non-logged in people who navigate to youromekasite.org/posters will see all posters with the option to print any of them.
 
 ### Build a Poster
+
 To create a new poster, go to the public posters page and click the Add a Poster button. This will take to you to a new page where you can create your poster.
 
 Enter the title of the poster. The title will display on the posters page as well as at the top of the printed version.
@@ -60,13 +34,13 @@ Finally, you may save your poster or discard all changes and return to the dashb
 
 To view your poster, click the poster title from the Posters page.
 
-**Edit** You can access this same page at any time by clicking edit under the poster title on the Posters page.
+**Edit**: You can access this same page at any time by clicking edit under the poster title on the Posters page.
 
-**Delete** If you click delete below the title on the posters page, you will be asked to confirm before the poster is deleted. To cancel, simply click the back button in your browser.
+**Delete**: If you click delete below the title on the posters page, you will be asked to confirm before the poster is deleted. To cancel, simply click the back button in your browser.
 
-**Share Poster** Takes you to a new page where you can enter an email address; poster Builder will send a link to your poster’s webpage to that address with the message “Username shared a poster with with you. Click here to view the poster: `[link]`.”
+**Share Poster**: Takes you to a new page where you can enter an email address; the installation will email a link to your poster’s webpage with the message “Username shared a poster with with you. Click here to view the poster: [link].”
 
-**Print** Takes you to a new page displaying your poster content all on one page, suitable for printing.
+**Print**: Takes you to a new page displaying your poster content all on one page, suitable for printing.
 
 ![browse posters, public side view](../doc_files/plugin_images/Pbbrwse.png)
 
@@ -76,3 +50,41 @@ Logged-in users can manage their posters from the public side of the Omeka insta
 Administrators and Super Users can delete posters created by any user via the Posters tab on the left side of the admin dashboard. You will be asked to confirm before the item is deleted.
 
 ![Manage posters, admin side view](../doc_files/plugin_images/Pbadmin.png)
+
+## Configuration
+
+To configure Posters, go to the "Plugins" button in the top navigation. Scroll down to Posters and click the blue "Configure" button. You will have the following options: 
+
+![Configuration options for Poster Builder, as described below](../doc_files/plugin_images/posters-config.png)
+
+**Poster Page Title:** Change the title of the posters page and how it is populated in the public navigation.
+
+**Poster Page Path:** the slug for the poster page (what shows up in the URL, such as `youromekasite.org/posters`).
+
+**Poster Page Disclaimer:** Edit, replace, or remove the default disclaimer that appears at the bottom of every poster page.
+
+**Poster Page Help:** Edit, replace, or remove the default text for posters/help, accessible to users when they are creating or editing a poster.
+
+**Poster File Size:** Use these two drop-down menus to indicate the image size (fullsize or thumbnail) for display on the public page and when printing posters.
+
+**Poster Display Show:** Page From this drop-down, you can choose whether posters display as a static list of items or a carousel slideshow. Note that the carousel display is designed for shorter descriptions and posters of at least two items.
+
+### Default texts
+
+If you replace the default texts and later want to restore them, they are as follows:
+
+**Poster Page Disclaimer** 
+
+> This page contains user-generated content and does not necessarily reflect the opinions of this website. For more information, please refer to our terms of service and conditions. If you would like to report the content of this as objectionable, please contact us.
+
+**Poster Page Help**  
+
+> `<h2>`Your Posters`</h2>`
+>
+> `<p>`To build a poster, you may use any public item in in this website and add a caption.`</p>` 
+>
+> `<p>`Click the button that says "New Poster". Assign a title to your poster, add a short description. Click the tab that says "Add an Item" and select any item that you wish to include in your poster. Continue adding items and captions.`</p>` 
+>
+> `<p>`Be sure to save your poster. You may return to edit your poster at any time.`</p>` 
+>
+> `<p>`You may print this poster, or share it by email.`</p>`

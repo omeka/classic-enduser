@@ -4,9 +4,8 @@ A captcha is a program that can help ensure that only actual people, not spammer
 
 Omeka Classic versions 1.3 and higher have built-in support for reCAPTCHA, a free captcha service from Google. Several Omeka plugins that used to handle captchas individually now all use Omeka's built-in support.
 
-Configuring
+Configuration
 ---------------------------------------------------------------
-In order to enable reCAPTCHA for your plugins, you need to do a little configuration.
 
 - Go to [https://www.google.com/recaptcha/](https://www.google.com/recaptcha/){target=_blank} to sign up for a ReCaptcha key. Note that you will need to sign in with a Google account to acquire a reCATPCHA key.
 - In the "register a new site" box, enter the url for your Omeka site and select the reCAPTCHA version you want. For more information, see [the reCAPTCHA documentation](https://developers.google.com/recaptcha/docs/versions){target=_blank}.
@@ -16,19 +15,17 @@ In order to enable reCAPTCHA for your plugins, you need to do a little configura
 
 ![ A red arrow points to the word "keys" in an accordion menu, open to reveal fields for site and secret keys. The keys have been obscured.](../../doc_files/captcha-keyloc.jpg) 
 
-- Return to you Omeka Classic admin dashboard and Settings in the top navigation.
-- From Settings, go to the Security tab and scroll down to the Captcha section.
+- Return to your Omeka Classic admin dashboard and click "Settings" in the top navigation.
+- From Settings, go to the "Security" tab and scroll down to the "Captcha" section.
 
 ![Screencap of the Captcha section of the security settings](../../doc_files/captcha-settings.png)
 
-- In the fields provided, enter your site/public and secret/private keys (copy and paste should work).
-- Be sure to click the green Save Changes button on the right hand side of the screen!
-
-
+- In the fields provided, paste in your site/public and secret/private keys, copied from the other site.
+- Click the green "Save Changes" button on the right hand side of the screen.
 
 Plugins that use reCAPTCHA
 ---------------------------------------------------------------
-The following plugins use Omeka Classic's reCAPTCHA support, and configuring reCAPTCHA as explained above should enable captchas for all of them:
+The following plugins use Omeka Classic's reCAPTCHA support, and configuring reCAPTCHA as explained above should enable Captchas for all of them:
 
 - [Commenting](../../Plugins/Commenting.md)
 - [Contribution](../../Plugins/Contribution.md)
