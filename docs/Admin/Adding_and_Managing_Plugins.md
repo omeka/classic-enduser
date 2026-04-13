@@ -7,7 +7,7 @@ The Omeka Team cannot guarantee that user-built plugins work as expected, and do
 !!! Note
     Not every plugin will work with every version of Omeka, especially newer plugins on old installations. Older versions of plugins may be available on their Github pages. Use the Plugins Directory to find the "Github" link on the right side of the screen for each plugin, then look on the right hand side of the Github page for the "Releases" section. 
 
-![A screenshot of the Plugins page, with one not yet installed, one installed but not activated, and one active plugin](../doc_files/Plugins.png "A screenshot of the Plugins page, with one not yet installed, one installed but not activated, and one active plugin")
+![A screenshot of the Plugins page, with one not yet installed, one installed but not activated, and one active plugin](../doc_files/Plugins.png)
 
 Manage plugins from the Plugins page found at the top of your administrative dashboard. Note that only Super-level users have access to the Plugins page, so any plugin functionality configured from this menu can only be done by Super accounts. 
 
@@ -51,7 +51,7 @@ When an active plugin is out of date, a notification will appear at the bottom o
 
 Clicking the phrase "Get the new version" will take you to a page where you can download the latest version of the plugin. 
 
-![Entry for a plugin, displaying the out-of-date notification below the usual information for the plugin](../doc_files/plugin_updatenotice.png "Entry for a plugin, displaying the out-of-date notification below the usual information for the plugin")
+![Entry for a plugin, displaying the out-of-date notification below the usual information for the plugin](../doc_files/plugin_updatenotice.png)
 
 You will upgrade by replacing the old plugin folder with the new one: 
 
@@ -71,7 +71,7 @@ Plugin dependencies
 ----------------
 Some plugins provide infrastructural functions for other plugins. These plugins are required to be installed and active for other plugins that depend on them to work. If you upload a plugin to your site but cannot activate it due to a message like this, simply install the required plugin following the usual steps above. 
 
-![The "User Profiles" plugin, appearing with a pink background, with an alert saying that it requires the "RecordRelations" plugin in order to work.](../doc_files/pluginRequired.png "The "User Profiles" plugin, appearing with a pink background, with an alert saying that it requires the "RecordRelations" plugin in order to work.") 
+![The "User Profiles" plugin, appearing with a pink background, with an alert saying that it requires the "RecordRelations" plugin in order to work.](../doc_files/pluginRequired.png) 
 
 Pre-packaged plugins
 --------------------

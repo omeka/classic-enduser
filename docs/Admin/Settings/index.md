@@ -3,7 +3,7 @@
 Find the general site settings by clicking on the "Settings" link in the top navigation bar of the admin view. Settings are only accessible to [Super Users](../Users.md).
 
 
-![General Settings screenshot](../../doc_files/Generalsettings.png "General Settings screenshot")
+![General Settings screenshot](../../doc_files/Generalsettings.png)
 
 In the "General" Settings tab, you may edit the fields you filled in when you installed your site, and add other information.
 

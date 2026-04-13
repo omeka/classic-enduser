@@ -2,7 +2,7 @@
 
 The Settings tab in the Appearance section helps you to manage derivative image sizes and adjust some of the display settings for items on the public and admin sides. It is divided into two sections: **Derivative Size Constraints** and **Display Settings**.
 
-![A screenshot of the appearance settings tab](../../doc_files/appearSettings.png "A screenshot of the appearance settings tab")
+![A screenshot of the appearance settings tab](../../doc_files/appearSettings.png)
 
 Derivative sizes
 ----------------------------------------------------------------
@@ -41,10 +41,10 @@ These settings relate to the display of results on the public and admin sides an
 
 **Show Empty Elements**: determines whether you want to show empty metadata fields on the public pages. The default setting is unchecked. If you wish to show all metadata (empty and filled) fields, check this box. The image below shows how empty elements display on a public item show page.
 
-![Item show page with empty elements displayed. Each empty element has “no text” where the input would be](../../doc_files/showEmptyElm.png "Item show page with empty elements displayed. Each empty element has “no text” where the input would be")
+![Item show page with empty elements displayed. Each empty element has “no text” where the input would be](../../doc_files/showEmptyElm.png)
 
 **Show Element Set Headings**: unchecking this box will remove the element set headings (e.g. "Dublin Core," "Person Item Type Metadata") from display on the public pages of the site. The default setting is checked. The image below shows the Dublin Core heading on a public item show page.
 
-![Item show page with heading Dublin Core above item title](../../doc_files/showElmSet.png "Item show page with heading Dublin Core above item title")
+![Item show page with heading Dublin Core above item title](../../doc_files/showElmSet.png)
 
 **File Alt Text Element**: You can set a default file element to use in describing visual files to screen reader users via the HTML `image` tag's `alt` attribute. Select a file element from the dropdown menu. Be sure that the chosen field is filled out in the file metadata (not the item metadata). This setting may be overridden for individual Files by editing the attached file and using the ["Alt Text" input on the File metadata editing screen](../../Content/Files.md#alt-text).

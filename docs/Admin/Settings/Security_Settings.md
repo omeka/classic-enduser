@@ -12,7 +12,7 @@ File validation
 -------------------------------
 This section sets the rules for the files which can be uploaded to the Omeka Classic site. 
 
-![File validation section, all fields](../../doc_files/securityFile.png "File validation section, all fields")
+![File validation section, all fields](../../doc_files/securityFile.png)
 
 The **Disable File Upload Validation** box is unchecked by default. Leaving the box unchecked allows you to limit file uploads to specific extensions and Mime Types.
 
@@ -35,7 +35,7 @@ reCAPTCHA
 -----------------------------------------------------
 reCAPTCHA is an option to reduce spam on your site if you are using a plugins requiring public forms on your Omeka site such as the [Contribution](../../Plugins/Contribution.md) plugin and [Simple Contact](../../Plugins/SimpleContactForm.md). 
 
-![Example of a public side reCAPTCHA in action](../../doc_files/Captcha.png "Example of a public side reCAPTCHA in action")
+![Example of a public side reCAPTCHA in action](../../doc_files/Captcha.png)
 
 In order to use reCAPTCHA, you will need to [sign up for a Captcha key](http://www.google.com/recaptcha){target=_blank} to reduce spam on your site. Once you sign up, you can enter your site and secret keys in their respective fields. 
 
@@ -51,7 +51,7 @@ By default, all HTML elements and attributes are allowed in Omeka Classic when t
 
 If you would like to limit the use of HTML, place a check in that box. When you enable HTML filtering, only elements listed in the "Allowed HTML Elements" and the "Allowed HTML Attributes" fields will function on your site.
 
-![Filtering checkbox and Elements text field](../../doc_files/Securityallelements.png "Filtering checkbox and Elements text field")
+![Filtering checkbox and Elements text field](../../doc_files/Securityallelements.png)
 
 You may add or delete HTML elements and attributes in the "Allowed HTML Elements" field.
 
