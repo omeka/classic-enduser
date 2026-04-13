@@ -6,7 +6,7 @@ For example, a metadata property, such as `dcterms:creator`, can be set to outpu
 
 ![A public item page showing metadata values on the page, and in the HTML.](../doc_files/plugin_images/resourceMeta_public.png)
 
-Meta elements are used for search engine optimization and indexing of the most relevant page content. This module offers commonly-used meta elements for the indexing and discoverability of academic resources, including BE Press, Highwire Press, EPrints, and PRISM, as well as Dublin Core Elements and Dublin Core Terms for other resource types.
+Meta elements are used for search engine optimization and indexing of the most relevant page content. This plugin offers commonly-used meta elements for the indexing and discoverability of academic resources, including BE Press, Highwire Press, EPrints, and PRISM, as well as Dublin Core Elements and Dublin Core Terms for other resource types.
 
 Resource Meta settings can be configured by users at the Super and Admin levels. Once configured, the meta elements will appear for all resources. 
 

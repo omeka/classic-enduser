@@ -31,6 +31,10 @@ You can watch this [screencast](https://vimeo.com/153819886){target=_blank} demo
 <div style="padding:62.5% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/153819886?h=cc52b34de6" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 <p><a href="https://vimeo.com/153819886">Omeka Classic: Installing Plugins and Themes</a> from <a href="https://vimeo.com/omeka">Omeka</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
+!!! note
+	You can also use `git clone` or the Github interface to download the latest theme code directly from Github into a folder in your `/themes` folder. Be sure to watch for extra folder levels or incorrect folder names in this case, such as a folder ending with `-master`. Rename the folder as in the command `git clone https://github.com/omeka/theme-papers.git papers`.
+
+
 Select a theme
 -------------------------------------------------------------
 You can browse the themes you have installed for your Omeka Classic site by going to the "Appearance" link in the upper admin navigation. The "Themes" tab in the Appearance section will be the first to display. 
