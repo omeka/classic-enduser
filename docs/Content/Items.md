@@ -121,6 +121,7 @@ If you wish to batch-edit items, click the the "Edit" button at the top right of
 ![The Batch Edit window](../doc_files/BatchEdit.png "The Batch Edit window")
 
 You may change the following fields for each batch of selected items:
+
 -   public or private
 -   featured or not featured
 -   Item Type
