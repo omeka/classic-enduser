@@ -1,6 +1,6 @@
 # Omeka Classic User Manual
 
-This user manual is for the current version of Omeka Classic (version 3.1.2). 
+This user manual is for the current version of Omeka Classic (version 3.2). 
 
 It contains the following sections:
 
