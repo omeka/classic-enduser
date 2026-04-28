@@ -105,13 +105,13 @@ Scripto Base64 encodes document and page numbers to prevent incompatible MediaWi
 $wgHooks['BeforePageDisplay'][] = 'fnScriptoDecodePageTitle';
 function fnScriptoDecodePageTitle(&$out, &$sk, $prefix = '.', $delimiter = '.')
 {
-    $title = strtr($out->getPageTitle(), '-_', '+/');
+    $title = strip_tags(strtr($out->getPageTitle(), '-_', '+/'));
     if ($prefix != $title[0]) {
-        return false;
+        return;
     }
     $title = array_map('base64_decode', explode($delimiter, ltrim($title, $prefix)));
     $title = 'Document ' . $title[0] . '; Page ' . $title[1];
     $out->setPageTitle($title);
-    return false;
+    return;
 }
 ```
