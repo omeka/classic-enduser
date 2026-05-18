@@ -6,7 +6,7 @@ Basic search
 -------------
 The simplest way to search an Omeka Classic installation is with the simple search bar. On the admin side, this is always present in the upper right hand area of the screen, under the top navigation bar. The exact location of the search bar on the public side varies by theme, but is generally close to the navigation menu at the top of the screen. 
 
-To perform a basic search, type the keyword you want to search for into the box and either hit enter on your keyboard or click the search button (the magnifying glass icon). Depending on the [search settings](../Admin/Settings/Search_Settings.md), content in this search might include item, file, and collection metadata, the text on Simple Pages, exhibit summary pages, and exhibit pages. 
+To perform a basic search, type the keyword you want to search for into the box and either hit enter on your keyboard or click the search button (the magnifying glass icon). Depending on the [search settings](../Admin/Settings/Search_Settings.md), content in this search might include item, file, and collection metadata, and the text on Simple Pages, exhibit summary pages, and exhibit pages. 
 
 ### Search options
 To access the options for a basic search, click on the ellipsis button ("...") to the right of the search bar, next to the search button (the magnifying glass icon).
@@ -35,11 +35,13 @@ Advanced Search
 ----------------
 Advanced Search, which will only search the items in your Omeka Classic installation, is available on the admin side, and on the public side if the "Use Advanced Site-Wide Search" option is checked in the [theme settings](../Admin/Appearance/Themes.md#configure-a-theme). 
 
-To access the advanced search, click on the ellipsis button to the right of the basic search bar and then click the link reading “Advanced Search (Items Only)”.
+To access the advanced search, click on the ellipsis (..) button to the right of the basic search bar and then click the link reading “Advanced Search (Items Only)”.
+
+You can also get to the advanced item search from the "Search Items" button on the Items page of the admin interface.
 
 ![Search options, with the ellipses expanded. At the bottom of the window, below the options for search query type and record types, there is the "Advanced Search" link](../doc_files/searchExpanded.png "Search options, with the ellipses expanded. At the bottom of the window, below the options for search query type and record types, there is the "Advanced Search" link")
 
-The “Search Items” page will load. It presents a variety of options for advanced searching across all items. You do not need to complete all fields, only as many as you want.
+The “Search Items” page presents a variety of options for advanced searching across all items. You do not need to complete all fields, only as many as you want.
 
 ![Public view of the advanced search options, as described in the list below. Text is all black, on a white background.](../doc_files/searchAdvancedP.png "Public view of the advanced search options, as described in the list below.")
 
@@ -60,7 +62,7 @@ Advanced Search options are:
         - matches
         - does not match.
     - In the text area, enter the terms for the field search.
-    - You can add additional field searches using the green “add a field”. Additional field searches include a dropdown to select **AND** or **OR** for these terms. Use **AND** to narrow the search, requiring it to find items which meet both field criteria. Use **OR** to broaden the search, including items which meet either field criterion.
+    - You can add additional field searches using the green “add a field” button. Additional field searches include a dropdown to select **AND** or **OR** for these terms. Use **AND** to narrow the search, requiring it to find items which meet both field criteria. Use **OR** to broaden the search, including items which meet either field criterion.
 - **Search by a range of item IDs**: a text field in which you can enter item IDs. You can describe a range, such as “1-7”, or a sequence separated with commas, for example “1,5-7,11”.
 - **Search by collection**: a dropdown of collections in your installation.
 - **Search by type**: a dropdown of existing item types in your installation.
@@ -84,8 +86,8 @@ Troubleshooting
 
 If you are logged in to your Omeka Classic installation, you will see all items and exhibits on the public and admin side - private and public. Try logging out, copying the page URL to a private browser window, or visiting the site in a browser where you are not logged in.
 
-**Trouble finding words you know are in your install:**
+**Trouble finding words you know are in your install**:
 
 -   MySQL by default does not index any words shorter than 4 characters long. This may include numerical identification numbers in your collection, particularly if they include punctuation, as in "2020.01.123-ABC".
--   Exact match searches will look for the exact string given by the user, anywhere in the record. For example a search for “poe” would also return “poem”.
+-   Exact match searches will look for the exact string given by the user, anywhere in the record. For example a search for "poe" would also return "poem".
 -   MySQL considers terms that appear in over 50% of indexed items to be so common that it excludes them from keyword searches. The easy way to tell if a term meets the 50% threshold is to choose the “Boolean” search, as MySQL does not apply the 50% limitation to Boolean searches.

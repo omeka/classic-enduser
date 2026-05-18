@@ -39,7 +39,7 @@ These settings relate to the display of results on the public and admin sides an
 
 **Results per page (public)**: sets the number of results on the public-side browse pages for items, collections, and exhibits. The default is 10.
 
-**Show Empty Elements**: determines whether you want to show empty metadata fields on the public pages. The default setting is unchecked. If you wish to show all metadata (empty and filled) fields, check this box. The image below shows how empty elements display on a public item show page.
+**Show Empty Elements**: determines whether to show empty metadata fields on the public pages. The default setting is unchecked. If you wish to show all metadata (empty and filled) fields, check this box. The image below shows how empty elements display on a public item show page.
 
 ![Item show page with empty elements displayed. Each empty element has “no text” where the input would be](../../doc_files/showEmptyElm.png)
 

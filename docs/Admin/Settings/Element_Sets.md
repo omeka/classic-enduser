@@ -1,6 +1,6 @@
 # Element Sets
 
-Many of the metadata fields provided for your items are contained within element sets. Element sets provide standardized metadata categories that enable you to consistently identify, classify, and sort the digital resources in your Omeka Classic installation. Element sets include such things as Dublin Core metadata fields, enabling you to classify the items in your installation according to international standards. 
+Many of the metadata fields available for describing your items are contained within element sets. Element sets provide standardized metadata categories that enable you to consistently identify, classify, and sort the digital resources in your Omeka Classic installation. Element sets include such things as Dublin Core metadata fields, enabling you to classify the items in your installation according to international standards. 
 
 Element sets can contain fields common to all item types (such as "Title"), as well as fields particular to one or several item types. Item types are not bound to one element set: for example, a Dublin Core item type of "Moving Image" is not restricted to elements only from Dublin Core, but can include elements from VRA Core and other element sets. 
 
