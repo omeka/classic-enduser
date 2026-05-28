@@ -55,7 +55,7 @@ Further WMS configuration fields:
 For both types of maps:
 
 - **Zoom range**: **Min Zoom** and **Max Zoom** can help you narrow down the browsing area to the area of your custom overlay, or a relevant area within it. 
-- **Attribution**: Provide attribution text for the custom map. This text will appear in the bottom right corner of the map, alongside the credits for the base map you have chosen. This field will accept HTML and you can provide a link around your text. 
+- **Attribution**: Provide attribution text for the custom map. This text will appear in the bottom right corner of the map, alongside the credits for the base map you have chosen. 
 
 ![A map using the "Ocean Basemap" with the US Drought Monitor map overlay, as described above, and a cluster of 4 map pins. The overlay attribution reads "US Drought Monitor".](../doc_files/plugin_images/geolocation_overlay.png)
  
