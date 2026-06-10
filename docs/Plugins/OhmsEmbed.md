@@ -102,7 +102,7 @@ To make a specific OHMS item display on your Omeka Classic website pages, use th
 
 You can use the ["File with Text" or the "File"](https://omeka.org/classic/docs/Plugins/ExhibitBuilder/#content) block to place the OHMS viewer directly into Exhibit pages. 
 
-![Select block dialog with options as described above](../doc_files/plugin_images/eb_selectblock.png)
+![Select block dialog with options as described above](../doc_files/plugin_images/eb_selectblock.jpg)
 
 Choose an item by clicking the large plus sign button titled "Add Item" appearing in the Items area.
 

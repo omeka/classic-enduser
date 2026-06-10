@@ -92,7 +92,7 @@ The **File** block allows you to add larger files as a separate block.
 
 The **Carousel** block creates a slidehow of item files as thumbnails, square thumbnails, or as the full size file. You can pair the file with a caption and/or the item title, and text can be positioned left, right, or center. You can feature up to ten items per slide and adjust the scrolling speed and duration of the slides.
 
-![Select block dialog with options as described above](../doc_files/plugin_images/eb_selectblock.png)
+![Select block dialog with options as described above](../doc_files/plugin_images/eb_selectblock.jpg)
 
 To add a content block, select the layout you want in the New Block dialog box. Once you have selected the kind you want, click the "Add new content block" button. You will have a new block on the page to configure your content.
 
@@ -182,7 +182,7 @@ The **Carousel** block has the following options, which are a mix of text boxes,
 - Loop: a checkbox to make the carousel continually replay.
 - Fade between slides: a checkbox that adds a fade effect between slides, but it only works with 1 item per slide.
 
-![Carousel block layout opion](../doc_files/plugin_images/eb_cLayout.png)
+![Carousel block layout opion](../doc_files/plugin_images/eb_cLayout.jpg)
 
 ### Additional layouts
 Some plugins include their own Exhibit Builder content block layouts.
