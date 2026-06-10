@@ -1,6 +1,6 @@
 # Geolocation
 
-The [Geolocation plugin](https://omeka.org/classic/plugins/Geolocation/){target=_blank} allows you to assign a location to items in your Omeka Classic site. The locations are displayed on maps on individual items page and on a browsable map of all geolocated items.
+The [Geolocation plugin](https://omeka.org/classic/plugins/Geolocation/){target=_blank} allows you to assign a worldwide location to items in your Omeka Classic site. The locations are displayed on maps on individual items page and on a browsable map of all geolocated items. Maps can also be added to exhibits. 
 
 There is a [screencast for Geolocation (version 2.2.4) demonstrating its basic functionality](https://vimeo.com/156298642){target=_blank}:
 
@@ -77,20 +77,21 @@ The same map with Enable marker clusters checked:
 ![A low-detail map of the British Isles, with one blue map marker in southwest England and a yellow circle with the label 17 roughly over London](../doc_files/plugin_images/geolocation-cluster.png)
 
 ### Item map settings
-These settings are for the map display on an `item/show` page.
+These settings are for the map display on an `item/show` page. 
 
 ![Item Map settings](../doc_files/plugin_images/geolocation_ItemMap.png)
 
+- **Enable Item Map**: - Display a map for each item that has one or more map location markers. For items with no geolocation data, the map is not displayed. The placement of the map is governed by each theme. 
 - **Width for Item Map**: set in percent; defaults to 100% if left blank.
 - **Height for Item Map**: set in pixels; defaults to 300px if left blank. 
 
 ### Map integration
-These settings are for integration of the geolocation map into the site menu and the [Contribution](Contribution.md) plugin's form. 
+These settings are for integration of the geolocation map into browse pages, and into the [Contribution](Contribution.md) plugin's form. 
 
 ![Map Integration settings](../doc_files/plugin_images/geolocation_Mapint.png)
 
-- **Add link to map on Items/Browse navigation**: click to make active. 
-- **Add map to contribution form**: click to make active. Note that this will only work if you have the Contribution plugin installed and active.
+- **Add link to map on Items/Browse navigation**: This will make a "Browse Map" link appear alongside the "Browse Items", "Browse Tags", and "Advanced Search" links at the top of those pages. See the image below in the "View a public map" section. 
+- **Add map to contribution form**: Note that this will only work if you have the Contribution plugin installed and active.
 
 ## Add location to an item
 
@@ -121,15 +122,13 @@ Don't forget to save your changes.
 
 ## View a public map 
 
-Visitors to your Omeka site can now use a map to browse through all of your geolocated items.
+Visitors to your Omeka site can now use a map to browse through all of your geolocated items. The generic map showing all of your items with geolocation metadata can be found at `yourclassicsite/items/map`, which you can enable or disable in your site navigation. 
 
-When configuring the plugin, if you selected "Add Link to Map on Items/Browse Navigation," a "Browse Map" link will be added automatically to the secondary navigation on the `items/browse` page.
+If you enable "Add Link to Map on Items/Browse Navigation" in the plugin configuration, the "Browse Map" link will also be added to the secondary navigation on the `items/browse` page. 
 
 ![Public items map view in the Thanks Roy theme](../doc_files/plugin_images/geolocation_pubbr.png)
 
-From this view, visitors may browse all mapped items, browse by tag, search for items and browse the map.
-
-They may also locate a mapped item by clicking on the items listed in the column to the right side of the map.
+Users can click within the map on pins to see the relevant item, or click an item title in the right sidebar to move the map. 
 
 ## Use the admin map
 
@@ -157,58 +156,4 @@ The exhibit will display a single map with the markers for those specific items,
 
 The geolocation [shortcode](../Content/Shortcodes.md#geolocation) will create a map of items based on parameters it is given.
 
-The shortcode is `[geolocation]`. Without any additional parameters, it will return a map of all items that contain geolocation data, limited by the records per page as set in the Geolocation plugin configuration.
-
-**Options**
-
-`fit`
-:   specify whether to allow google map to automatically center and zoom the map to fit all of the markers. This is on by default.
-
-To manually specify the map/location zoom, use the following options. Note, to use these options, fit must be set to ‘0’ or ‘false’.
-
-`lat` 
-:   specify the latitude of the map’s initial center point, in degrees.
-:   Must be between -90 and 90.
-
-`lon` 
-:   specify the longitude of the map’s initial center point, in degrees.
-:   Must be between -180 and 180
-
-`zoom` 
-:   specify the initial zoom level of the map. 0 is the most zoomed out.
-
-If any of `lat`, `lon`, or `zoom` are not specifically set, and ‘fit’ is set to `0` or `false`, the settings from the Geolocation plugin configuration page will be used.
-
-`type` 
-:   specify the type of google map that appears. Defaults to the setting from the Geolocation plugin configuration page.
-- roadmap - displays the road map view
-- satellite - displays Google Earth satellite images
-- hybrid - displays a mixture of road map and satellite views
-- terrain - displays a physical map based on terrain information
-
-`collection` 
-:   limits the map’s items to those from a specific collection, using the collection ID number. Only one collection may be specified.
-:   For example: `[geolocation collection=5]`
-
-`tags`
-:   limits the map’s items to those from a specific tag. Multiple tags can be entered, separated by a comma, and without any spaces.
-:   For example: `[geolocation tags=baseball,math]`
-
-`height`
-:   set the map height. Can be set in pixels or percentages, but requires specification with either px or %; defaults to 436px.
-:   For example: `[geolocation height=300px]` or `[geolocation height=50%]`
-
-`width` 
-:   set the map width. Can be set in pixels or percentages, but requires specification with either px or %; defaults to 100%.
-:   For example: `[geolocation width=200px]` or `[geolocation width=75%]`
-
-**Examples**
-
-To print a map of all geotagged items, simply use: 
-:  `[geolocation]`
-
-For a map that gets all of the items from your first collection, that are also tagged ‘baseball’
-: `[geolocation collection=1 tags=baseball]`
- 
-A shortcode that leveraged all of the possible parameters would look like
-:    `[geolocation lat=42 lon=117 zoom=7 type=hybrid collection=4 tags=baseball,math,oakland height=500px width=500px]`
+The shortcode is `[geolocation]`. Without any additional parameters, it will return a map of all items that contain geolocation data, limited by the records per page as set in the Geolocation plugin configuration. See the relevant section on the Shortcodes page for more information. 
