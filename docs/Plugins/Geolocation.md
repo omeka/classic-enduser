@@ -26,12 +26,39 @@ If you select Mapbox from the dropdown for Base Map, two additional fields will 
 - **Mapbox Access Token**: in order to use Mapbox, you need to sign up for their service. Once you have done so, you can go to your [account page](https://www.mapbox.com/account/){target=_blank} and copy your access token to paste into this field. 
 - **Mapbox Map ID**: The "map ID" that goes here is the part of a Mapbox "Style URL" that comes after "mapbox://styles/". You can use your own maps or one of the [globally available styles](https://docs.mapbox.com/api/maps/#mapbox-styles){target=_blank}. Leaving this input blank will use the default Mapbox street map.
 
-  As of June 1, 2020, Mapbox has deprecated older-style maps. Geolocation 3.2 and up support the newer Mapbox API, and the plugin will automatically update your selected Map ID if you were using one of the "standard" map types. If you had specified a custom map ID, you may need to update it after upgrading Geolocation.
+As of June 1, 2020, Mapbox has deprecated older-style maps. Geolocation 3.2 and up support the newer Mapbox API, and the plugin will automatically update your selected Map ID if you were using one of the "standard" map types. If you had specified a custom map ID, you may need to update it after upgrading Geolocation.
 
 You can use MapBox to create your own map tiles, for example a historic map layer. Please refer to the [MapBox documentation](https://www.mapbox.com/api-documentation/#introduction){target=_blank} for more information.
 
 ![The dropdown for Base Map with MapBox selected is at the top, with the two fields described following. Both fields are empty.](../doc_files/plugin_images/geolocation-mapbox.png)
 
+### Custom Map Overlay
+
+Use this section if you wish to add a specific image, already mapped and uploaded elsewhere, as a display layer on all the maps of your site. For example, you can add a historical map that shows relevant areas as they looked in another time. You can use [this list to find example maps to test out this feature](https://www.ncwater.org/GWMS/openlayers/WMS_examples.html){target=_blank}. 
+
+![The fields available in the Custom Map Overlay settings section, as described below.](../doc_files/plugin_images/geolocation_overlayAdmin.png)
+
+- **Map Type**: Type of custom map to overlay. Specify the standard of the map you wish to use: "Tiled web map" or "WMS". 
+
+- **Tile URL Template**: Paste in the Tile URL for your desired map. This will contain coordinates in the form `(x)`, `(y)`, and `(z)`. For example, `https://mapwarper.net/maps/tile/105449/{z}/{x}/{y}.png` is a [world map from the 1850s](https://mapwarper.net/maps/105449#Show_tab){target=_blank}; the URL is found on the Preview page after the text "Tiles (Google/OSM scheme):". 
+
+or 
+
+- **WMS Base URL**: Paste in the WMS URL for your desired map. For example, `https://ndmcgeodata.unl.edu/cgi-bin/mapserv.exe?map=/ms4w/apps/usdm/map/usdm_current_wms.map` is a map of current USA drought conditions from the [National Drought Mitigation Center](https://droughtmonitor.unl.edu/DmData/GISData.aspx){target=_blank}.
+
+Further WMS configuration fields: 
+
+- **WMS Layers**: This field is required. From the source of your WMS map, find the names of available layers, and enter in as many as you wish to include, separated by commas. The layer names do not need quotes. You must use this field to fetch at least one layer from the WMS map. For example, `usdm_current` for the drought map URL given above. 
+- **WMS Styles**: From the source of your WMS map, find the names of available styles if applicable and enter them in here. This field is optional and many WMS maps do not have styles.
+- **Transparent**: If the WMS map provides them, check this box to request transparent map image tiles that will show the base map wherever the overlay does not cover. 
+
+For both types of maps:
+
+- **Zoom range**: **Min Zoom** and **Max Zoom** can help you narrow down the browsing area to the area of your custom overlay, or a relevant area within it. 
+- **Attribution**: Provide attribution text for the custom map. This text will appear in the bottom right corner of the map, alongside the credits for the base map you have chosen. 
+
+![A map using the "Ocean Basemap" with the US Drought Monitor map overlay, as described above, and a cluster of 4 map pins. The overlay attribution reads "US Drought Monitor".](../doc_files/plugin_images/geolocation_overlay.png)
+ 
 ### Browse Map settings
 These settings are for the map through which users can browse all geolocated items, and for the "Search by Address function" that Geolocation enables in advanced item search. 
 

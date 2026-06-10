@@ -241,14 +241,15 @@ To manually specify the map/location zoom, use the following options. Note, to u
 
 If any of `lat`, `lon`, or `zoom` are not specifically set, and ‘fit' is set to `0` or `false`, the settings from the Geolocation plugin configuration page will be used.
 
-- `type`: specify the type of google map that appears. Defaults to the setting from the Geolocation plugin configuration page. Values are:
-	- `roadmap`: displays the road map view
-	- `satellite`: displays Google Earth satellite images
-	- `hybrid`: displays a mixture of road map and satellite views
+- `type`: If you have set "MapBox" as your base map source on the Geolocation plugin configuration page, and entered in a MapBox key, you can choose map types here. If you are not using MapBox, this setting will be ignored. Values are:
+	- `roadmap`: displays road maps
+	- `satellite`: displays satellite images
+	- `hybrid`: displays both satellite views and road maps
 	- `terrain`: displays a physical map based on terrain information.
 
 - `collection`: limits the map’s items to those from only one collection, by collection ID number. For example: `[geolocation collection=5]`.
 - `tags`: limits the map’s items to those from a specific tag. Multiple tags can be entered, separated by a comma, with no spaces. For example: `[geolocation tags=baseball,math]`.
+- `range`: limits the map's items to those with specifics IDs, either one by one or by providing a range of numbers. For example: `[geolocation range=2,4,6,15-95]`.
 
 Examples:
 
@@ -256,7 +257,7 @@ To display a map of all geotagged items, simply use: `[geolocation]`.
 
 For a map that gets all of the items in your first collection, that are also tagged "baseball": `[geolocation collection=1 tags=baseball]`.
  
-A shortcode with all possible parameters would look like `[geolocation fit=0 lat=42 lon=117 zoom=7 type=hybrid collection=4 tags=baseball,math,oakland height=500px width=500px]`.
+A shortcode with a large number of parameters would look like `[geolocation fit=0 lat=42 lon=117 zoom=7 collection=4 tags=baseball,math,oakland height=500px width=500px]`.
 
 ### Carousel
 
