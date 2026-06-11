@@ -136,7 +136,7 @@ In the image below, the middle item has been marked for deletion. A red arrow po
 
 ![Image described above](../doc_files/plugin_images/eb_delitem.png)
 
-Exhibit text can be formatted using the [text editor bar](../Content/Using_HTML_Editor-TinyMCE.md). To write your own HTML, or paste from somewhere else, click the blue HTML button in the formatting toolbar at the top of the text entry box. This will open up an HTML Source Editor window in which you can work.
+Exhibit text can be formatted using the [text editor bar](../Content/html-editor.md). To write your own HTML, or paste from somewhere else, click the blue HTML button in the formatting toolbar at the top of the text entry box. This will open up an HTML Source Editor window in which you can work.
 
 ### Layout options
 

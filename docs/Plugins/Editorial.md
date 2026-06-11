@@ -30,7 +30,7 @@ Click to select **Editorial Block** in the New Block options and click the green
 
 ### Add the first comment in a block
 
-The block will have your username and a text field for comments, which can be formatted [using HTML](../Content/Using_HTML_Editor-TinyMCE.md). If the email address registered to the Omeka site user is also registered with [Gravatar](https://en.gravatar.com/){target=_blank}, then your Gravatar will show up above your username. Type your comment in the text field.
+The block will have your username and a text field for comments, which can be formatted [using HTML](../Content/html-editor.md). If the email address registered to the Omeka site user is also registered with [Gravatar](https://en.gravatar.com/){target=_blank}, then your Gravatar will show up above your username. Type your comment in the text field.
 
 ![Editorial block with a gravatar above the username](../doc_files/plugin_images/editorial_block.png)
 

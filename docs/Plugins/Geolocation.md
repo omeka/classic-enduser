@@ -79,7 +79,7 @@ The same map with Enable marker clusters checked:
 ### Item map settings
 These settings are for the map display on an `item/show` page. 
 
-![Item Map settings](../doc_files/plugin_images/geolocation_ItemMap.png)
+![Item Map settings](../doc_files/plugin_images/geolocation_itemMap.png)
 
 - **Enable Item Map**: - Display a map for each item that has one or more map location markers. For items with no geolocation data, the map is not displayed. The placement of the map is governed by each theme. 
 - **Width for Item Map**: set in percent; defaults to 100% if left blank.

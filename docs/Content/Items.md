@@ -50,7 +50,7 @@ Each metadata field's text may be enhanced using basic HTML tags. Check the HTML
 
 ![Item element with Use HTML box ticked](../doc_files/itemHTML.png "Item element with Use HTML box ticked")
 
-For more information, see [Using the HTML Editor](Using_HTML_Editor-TinyMCE.md).
+For more information, see [Using the HTML Editor](html-editor.md).
 
 Properties of items
 -------------------------------------------------------------

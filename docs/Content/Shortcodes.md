@@ -2,7 +2,7 @@
 
 A shortcode works like embedding a multimedia object: a shortcode can insert an image, a video, a set of items, a timeline, a form, or something interactive or dynamic. A shortcode can be included in any body of text. 
 
-In Omeka, shortcodes work in basic text fields (not the HTML editor) on [Simple Pages](../Plugins/SimplePages.md), and on [Exhibit pages](../Plugins/ExhibitBuilder.md). 
+In Omeka, shortcodes work in basic text fields  on [Simple Pages](../Plugins/SimplePages.md), and on [Exhibit pages](../Plugins/ExhibitBuilder.md). Using the [HTML editor](html-editor.md) in these fields is not necessary - but a shortcode can be dropped in to HTML text entries, as in `<p>[geolocation]</p>`.
 
 Several shortcodes come built-in with an Omeka installation, and many more shortcodes can be added via plugins.
 

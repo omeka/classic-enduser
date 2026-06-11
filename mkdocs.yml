@@ -37,7 +37,7 @@ nav:
         - Content/Item_Types.md
         - Content/Tags.md
         - Content/Shortcodes.md
-        - Content/Using_HTML_Editor-TinyMCE.md
+        - Content/html-editor.md
     - Administration:
         - Admin/Adding_and_Managing_Plugins.md
         - Admin/Appearance/Themes.md

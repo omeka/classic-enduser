@@ -28,7 +28,7 @@ On the "Add Page" screen you can enter:
 - **Slug**: the URL for the page (in the form `youromekasite.org/slug`).
 - **Use HTML Editor** checkbox: check this if you want to use the HTML editor to format the text on the page.
 - **Text**: page content. 
-    - If you have checked the box above, you will be able to use the [Tiny MCE HTML editor](../Content/Using_HTML_Editor-TinyMCE.md) to format this content. 
+    - If you have checked the box above, you will be able to use the [Tiny MCE HTML editor](../Content/html-editor.md) to format this content. 
     - You can also use [shortcodes](../Content/Shortcodes.md) in the text area.
 
 To the right of these fields is the green "Save Changes" button.  Below it are the following options:
