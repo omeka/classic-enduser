@@ -62,7 +62,7 @@ To upload a large number of files, or large files, you may download and install 
 File metadata
 --------------------------------------------------------------
 
-You may add a distinct set of Dublin Core metadata for each file uploaded. This will be stored and displayed separately from the associated item's metadata.
+You may add a distinct set of metadata for each file uploaded. This will be stored and displayed separately from the associated item's metadata.
 
 To add metadata, click the "Edit" button found to the right of the file name on `admin/items/edit`. You also may view or edit file metadata from the `admin/items/show` screen by clicking the file name under the heading "File Metadata."
 

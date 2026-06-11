@@ -23,7 +23,6 @@ Create a collection
 1.  Click on the "Collections" tab in the left navigation bar from the Dashboard. Any collections you have created will be listed on the `admin/collections` page.
 1.  To create a new collection, click, "Add a Collection".
 1.  You may assign a full complement of Dublin Core metadata to any collection, or simply create a title and description.
-1.  The Dublin Core Extended plugin and the VRA Core plugin will also offer more fields to describe collections. 
 1.  To make your collection public, check the "Public" box under the "Add Collection" button. 
 1.  Likewise, to feature your collection, check "Feature".
 1.  When you are finished adding metadata, click the "Add Collection" button to save it.
@@ -57,7 +56,7 @@ To edit a collection, click the "Edit" link underneath the title from the Collec
 Browse collections
 ---------------------------------------------------------------
 
-By clicking the Collections tab, you may browse through the collections in your archive. They are listed with very basic metadata: Title, Contributors, Date Added, and Total Number of Items. You may sort collections by clicking Title or Date Added.
+By clicking the Collections tab, you may browse through the collections in your installation. They are listed with very basic metadata: Title, Contributors, Date Added, and Total Number of Items. You may sort collections by clicking Title or Date Added.
 
 On the public interface, you can find the Browse Collections page at `yoursite/collections/browse`. A link is automatically added to the site navigation pointing to `yoursite/collections/browse`, and can be turned off in the [Navigation settings](../Admin/Appearance/Navigation.md).
 

@@ -1,6 +1,8 @@
 # Element Sets
 
-Many of the metadata fields available for describing your items are contained within element sets. Element sets provide standardized metadata categories that enable you to consistently identify, classify, and sort the digital resources in your Omeka Classic installation. Element sets include such things as Dublin Core metadata fields, enabling you to classify the items in your installation according to international standards. 
+Many of the metadata fields available for describing your items are contained within element sets. "Element Sets" is what we call metadata schema: they provide standardized metadata categories that enable you to consistently identify, classify, and sort the digital resources in your Omeka Classic installation. 
+
+Omeka Classic comes with [Dublin Core metadata fields](../Content/Working_with_Dublin_Core.md), enabling you to classify the items in your installation according to international standards. 
 
 Element sets can contain fields common to all item types (such as "Title"), as well as fields particular to one or several item types. Item types are not bound to one element set: for example, a Dublin Core item type of "Moving Image" is not restricted to elements only from Dublin Core, but can include elements from VRA Core and other element sets. 
 
@@ -8,7 +10,7 @@ Your installation may also have elements that are not included in the element se
 
 ![Admin top nav with an arrow pointing to Settings and then to Element Sets](../../doc_files/Elementsetnav.png)
 
-To manage your Element sets in Omeka, select "Settings" in the top navigation bar. In the "Settings" screen, choose the "Element Sets" tab.
+To manage your element sets in Omeka, select "Settings" in the top navigation bar. In the "Settings" screen, choose the "Element Sets" tab.
 
 You will see a table with all the element sets on your Omeka Classic installation. Each row of the table will show the Name and Description for the element set. To edit an element set, click the "Edit" button under the element set name. To delete an element set, click the "Delete" button (note that you cannot delete the Dublin Core element set). 
 
