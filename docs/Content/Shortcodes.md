@@ -1,8 +1,12 @@
 # Shortcodes
 
-A shortcode works like embedding a multimedia object: a shortcode can insert an image, a video, a set of items, a timeline, a form, or something interactive or dynamic. A shortcode can be included in any body of text. 
+A shortcode works like embedding a multimedia object: a shortcode can insert an image, a video, a set of items, a timeline, a form, or something interactive or dynamic.
 
+<<<<<<< Updated upstream
 In Omeka, shortcodes work in basic text fields (not the HTML editor) on [Simple Pages](../Plugins/SimplePages.md), and on [Exhibit pages](../Plugins/ExhibitBuilder.md). 
+=======
+In Omeka, shortcodes work in basic text fields on [Simple Pages](../Plugins/SimplePages.md), and on [Exhibit pages](../Plugins/ExhibitBuilder.md). Using the [HTML editor](html-editor.md) in these fields is not necessary - but a shortcode can be dropped in to HTML text entries, as in `<p>[geolocation]</p>`.
+>>>>>>> Stashed changes
 
 Several shortcodes come built-in with an Omeka installation, and many more shortcodes can be added via plugins.
 
@@ -23,7 +27,7 @@ Values can be wrapped in single or double quotes, making the following variation
 
 **Shortcodes will not work with smart/curly quotes** (“ and ”). When in doubt, replace double quotes with single quotes. 
 
-When using shortcodes on a Simple Page, do not use the HTML editor. Put the shortcode in the basic text field:
+When using shortcodes on a Simple Page, you can put the shortcode in the basic text field:
 
 ![A Simple Page text field with lorem ipsum and a featured carousel shortcode](../doc_files/shortcodeSimplePage.png "A Simple Page text field with lorem ipsum and a featured carousel shortcode")
 
@@ -98,6 +102,10 @@ Options:
 - `num`
 - `has_image`
 
+For example, to return 2 featured items, and only ones that do not contain an image:
+
+`[featured\_items num=2 has\_image=false]`
+
 ### Collections
 The collections shortcode returns one or multiple collections.
 
@@ -120,7 +128,6 @@ Options:
 - `num`
 
 ### Recent collections
-
 The recent collections shortcode returns a list of the most recent collections created.
 
 The shortcode is `[recent_collections]`. Without parameters, it will return five collections.
@@ -168,7 +175,7 @@ To return a square thumbnail of an image, that links to the fullsize image, with
 
 ### Shortcode options
 
-Most shortcodes have options that will modify the content they return. The following table explains some of the options which are shared across multiple shortcodes. 
+Most shortcodes have options that will modify the content they return. The following table explains some of the options that are shared across multiple shortcodes, and how to use them. 
 
 | Option | Purpose | Settings | Example |
 | --- | --- | --- | --- |
