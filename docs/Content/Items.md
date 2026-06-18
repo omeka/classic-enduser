@@ -66,15 +66,15 @@ Browse items in admin
 -------------------------------------------------------------
 Clicking on the "Items" tab in the administrative interface takes you to a list of items. By default, these are sorted with the most-recently added items at the top.
 
-![A screenshot of the Browse items view](../doc_files/itemBrowse.png "A screenshot of the Browse items view")
+![A screenshot of the Browse items view](../doc_files/itemBrowse.png)
 
 The "Browse Items" view displays items in a table. Each row is one item. There are columns for a checkbox (to select items for bulk actions), the item title, item creator, item type, and the date added. 
 
 Click the up-down arrows next to the "Title", "Creator", and "Date Added" headers to sort the items by that field. 
 
-Note that items that are not public will display "(Private)" next to the title. Items that are featured have a small star icon after the item’s title. The image below shows first a featured item (note the star), then a private item, then a general public item.
+Note that items that are not public will display a blue "Private" indicator below the title, with an icon of an eye with a line through it. Items that are featured will display a green "Featured" indicator below the title, with a star icon. The image below shows first a featured item, then a private item.
 
-![A closer look at the table on the Browse Items page](../doc_files/itemsBrowsePF.png "A closer look at the table on the Browse Items page")
+![The Browse Items page, showing an item that is private and an item that is featured.](../doc_files/itemBrowsePF.png)
 
 Each item has links for "Details", "Edit", or "Delete" just below its title. 
 

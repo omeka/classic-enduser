@@ -57,7 +57,7 @@ To edit a collection, click the "Edit" link underneath the title from the Collec
 Browse collections
 ---------------------------------------------------------------
 
-By clicking the Collections tab, you may browse through the collections in your archive. They are listed with very basic metadata: Title, Contributors, Date Added, and Total Number of Items. You may sort collections by clicking Title or Date Added.
+By clicking the "Collections" tab, you may browse through the collections in your installation. They are listed with very basic metadata: "Title", "Contributors", "Date Added", and "Total Number of Items". You may sort collections by clicking "Title" or "Date Added". Like items, they will show a green "Featured" indicator or a blue "Private" indicator below the collection title, where applicable. 
 
-On the public interface, you can find the Browse Collections page at `yoursite/collections/browse`. A link is automatically added to the site navigation pointing to `yoursite/collections/browse`, and can be turned off in the [Navigation settings](../Admin/Appearance/Navigation.md).
+On the public interface, you can find the "Browse Collections" page at `yoursite/collections/browse`. A link is automatically added to the site navigation pointing to `yoursite/collections/browse`, and can be rearranged, removed, or retitled in the [Navigation settings](../Admin/Appearance/Navigation.md).
 
