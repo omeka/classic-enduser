@@ -73,7 +73,15 @@ Omeka Classic can take data in any spreadsheet (tabular) form, whether a CSV, an
 
 You cannot create collections en masse using CSV Import.  
 
-## Back up your Omeka Classic site
+## Export from Omeka Classic
+
+- The [Exports plugin](https://omeka.org/classic/docs/Plugins/Exports/) allows logged-in users to create a downloadable export of metadata associated with Omeka Classic items, collections, files, and exhibits. This can be in CSV or JSON format. For more information, see the plugin page. Note that these users can export information about **private** exhibits, items, collections, etc. using this plugin. 
+- You can also activate the [OAI-PMH Repository plugin](https://omeka.org/classic/docs/Plugins/OaiPmhRepository/) to make all of your Classic site's content available via the OAI-PMH standard. Then you, and others, can harvest that data through OAI-PMH harvesting tools. For more information, see the plugin page.
+- Using the [Omeka API to CSV python script](https://github.com/omeka/PythonOmekaApiToCsv){target=_blank}, users can generate CSV files of the metadata in any Omeka installation with an available API. It will retreive the metadata for items, collections, element sets, elements, files, tags, exhibits, and exhibit pages. However, it does not retreive the files themselves - only the metadata associated with them. 
+
+### Export a static site 
+
+You can use the [Static Site Export plugin](https://omeka.org/classic/docs/Plugins/StaticSiteExport/) to create a flattened, static version of your Omeka Classic site. This will have a basic theme (similar in design to the Default theme) and will contain all of your resources and media, but without any searching or dynamic tools. For more information, see the plugin page. 
 
 ### Back up your database
 
