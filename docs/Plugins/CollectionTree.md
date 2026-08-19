@@ -56,7 +56,7 @@ You can make items and collections private or public. When a root-level collecti
 
 ![Collection tree displayed on logged-in and logged-out browsers, showing "[Unavailable]" in the place of a parent collection.](../doc_files/plugin_images/collectionTree_unavailable.png)
 
-If a child collection is private, it will not display in its hierarchy. Its (public) items will not be available in parent collections, regardless of your "Show subcollection items" setting. 
+If a child collection is private, it will not display in any hierarchy. Its (public) items will not be available in parent collections, regardless of your "Show subcollection items" setting. 
 
 ![Collection tree displayed on logged-in and logged-out browsers, showing a difference in total items as well as child collections available.](../doc_files/plugin_images/collectionTree_loggedOut.png)
 
