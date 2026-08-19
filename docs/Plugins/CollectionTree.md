@@ -1,6 +1,6 @@
 # Collection Tree
 
-The [Collection Tree plugin](https://omeka.org/classic/plugins/CollectionTree/){target=_blank} allows Omeka Classic sites to have nested [collections](../Content/Collections.md). One collection can have at most one parent collection, but a collection may have multiple child collections. 
+The [Collection Tree plugin](https://omeka.org/classic/plugins/CollectionTree/){target=_blank} allows Omeka Classic sites to have nested [collections](../Content/Collections.md). A collection can have at most one parent collection, but a collection may have multiple child collections. 
 
 This screencast includes information on how Collection Tree can modify your collections:
 
@@ -60,4 +60,4 @@ If a child collection is private, it will not display in any hierarchy. Its (pub
 
 ![Collection tree displayed on logged-in and logged-out browsers, showing a difference in total items as well as child collections available.](../doc_files/plugin_images/collectionTree_loggedOut.png)
 
-We recommend you double-check your collection tree display on a logged-out browser, as logged-in users will see different content than the general public browsing your website. 
+If you have private collections and items, we recommend you double-check your collection tree display on a logged-out browser, as logged-in users will see different content than the general public browsing your website. 
