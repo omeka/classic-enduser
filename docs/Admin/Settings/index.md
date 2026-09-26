@@ -9,7 +9,8 @@ In the "General" Settings tab, you may edit the fields you filled in when you in
 
 The fields are as follows:
 
--   **Administrator Email**: Address entered will send emails to new users, when created. This address will be where emails appear to be from, in any administrative emails sent from the page. (This field is required)
+-   **Server URL**: Enter in the server URL, used for creating absolute links. The URL will be autodetected if left blank, but this can be less secure. 
+-   **Administrator Email**: Address entered will send emails to new users, when created. This address will be where emails appear to be from, in any administrative emails sent from the page. (This field is required.) Note that the password reset email links (and activation links) will (as of Classic version 3.2.2) expire in 24 hours after they are sent.
     - Some hosting providers may require this email to match your domain (`you@yoursite.org`).
 -   **Site Title**: Appears as the name of your site on the homepage.
 -   **Site Description**: Descriptive text entered here appears in the website's `head` tags, but is not published on the homepage. This may be displayed when your site comes up in search-engine results. 

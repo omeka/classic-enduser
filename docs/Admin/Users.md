@@ -1,10 +1,10 @@
 # Users
 
-An Omeka site can have one or many registered users. This can represent staff of your organization, with various responsibilities for your site and collections, or members of your community who are contributing knowledge and materials. Omeka offers four user roles with different access and powers on the site - you can assign people to any of these levels, depending on your needs. 
+An Omeka site can have one or many registered users. This can represent staff of your organization, with various responsibilities for your site and collections, or members of your community who are contributing knowledge and materials. Omeka Classic offers four user roles with different access and powers on the site - you can assign people to any of these levels, depending on your needs. 
 
-Plugins can add more roles, as well as more permissions to each role. For example, if you want to encourage comments on your items, you can add the Commenting plugin (which requires the Guest User plugin to be installed), which enables the collection form for users to submit their thoughts, and then assign members of your team, based on their user levels, to moderate whatever comments are submitted. 
+Plugins can add more roles, as well as more permissions to each role. For example, if you want to encourage comments on your items, you can add the Commenting plugin (which requires the Guest User plugin), which enables the collection form for users to submit their thoughts, and then assign members of your team, based on their user levels, to moderate whatever comments are submitted. 
 
-Logged-out users will not see a public login page anywhere on your public Omeka site; this page is accessed by going to `yourinstallation/admin` in a browser (it automatically resolves to `/admin/user/login`). You can manually add a login page or a link to the administrative interface to your public site if desired. 
+Logged-out users will not see a public login page anywhere on your public Omeka site; this page is accessed by going to `yourinstallation/admin` in a browser (it automatically resolves to `/admin/user/login`). You can install the Guest User plugint to add a "Login" and "Register" bar to the top of every screen. You can also manually add a login page, or a link to the administrative interface, to your public site if desired. 
 
 ## Manage users
 
@@ -21,6 +21,8 @@ The Browse Users screen shows the number of users, as well as the username, disp
 To sort users, simply click on the column heading by which you would like to sort. If you want to sort descending rather than ascending, click twice on the heading. The small paired arrows beside the column heading indicate whether the sort is ascending (top arrow darker) or descending (bottom arrow darker).
 
 You can search users by username, display name, or email address. Username and display name searches can include complete words or partial strings. Email searches only function with a complete email address.
+
+A user who attempts to login using their screen name can reset their password from the login page. The reset link is sent to the email address associated with the username. The link expires after 24 hours. No administrative intervention is required for a user to reset their password. 
 
 User levels and access
 ------------------------------------------------------------
@@ -75,7 +77,7 @@ To add a user, select the green "Add a User" button in the upper left hand corne
 ![Add user form](../doc_files/Usersaddnew.png "Add user form")
 
 -   Fill in the fields for the new user. Assign a role to the user, and click the green "Add User" button to save the page. 
--   The new user will receive an email at the address you provide with their username and a link that takes them to a form to create a password. Until the new user activates his/her account, an "Inactive" status appears after the username in the main Users list.
+-   The new user will receive an email at the address you provide with their username and a link that takes them to a form to create a password. Until the new user activates his/her account, an "Inactive" status appears after the username in the main Users list. Email links expire after 24 hours.
 -   To edit user information, including changing passwords, Super and Admin users may click on the "Edit" button below the username.
 
 Edit users
