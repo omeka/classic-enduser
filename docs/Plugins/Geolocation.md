@@ -9,7 +9,7 @@ There is a [screencast for Geolocation (version 2.2.4) demonstrating its basic f
 
 ## Configuration
 
-Once you have [installed](../Admin/Adding_and_Managing_Plugins.md) the Geolocation plugin, go to the Plugins tab in the top navigation of your admin dashboard. Scroll down to the listing for Geolocation and click "Configure" (if you do not see Configure you may need to click the "Install" or "Activate" buttons).
+Once you have [installed](../Admin/Adding_and_Managing_Plugins.md) the Geolocation plugin, go to the Plugins tab in the top navigation of your admin dashboard. Scroll down to the listing for Geolocation and click "Configure" (if you do not see "Configure" you may need to click the "Install" or "Activate" buttons).
 
 ### General settings
 
@@ -22,10 +22,17 @@ The first section contains the general appearance settings for your maps on both
 - **Default Zoom Level**: Use a whole number of 0 of greater. 0 is the most zoomed out. A value of 15 will result in a map showing roughly one square mile.
 - **Geocoder**: Select a service to use for looking up coordinates when an address is entered. The default is "OpenStreetMap Nominatim". You may find other services work better depending on where your work is focused across the globe. 
 
-### Base Map Settings
+### Basemap Settings
 
-- **Base Map**: Select a map from the dropdown to display. All base maps except those served by Mapbox can be [previewed courtesy of Leaflet](http://leaflet-extras.github.io/leaflet-providers/preview/){target=_blank}.
-"OpenStreetMap Standard" is the default. Busy sites are encouraged to choose a provider that requires its own credentials, rather than rely on the shared OpenStreetMap tiles. To help visitors with low vision, consider "Esri National Geographic World Map" or "OpenTopoMap", which have higher contrast between map features.
+- **Basemap**: Select a visual map from the dropdown to display. All basemaps except those served by Mapbox can be [previewed courtesy of Leaflet](http://leaflet-extras.github.io/leaflet-providers/preview/){target=_blank}.
+
+"OpenStreetMap Standard" is the default. Busy sites are encouraged to choose a provider that requires its own credentials, rather than rely on the shared OpenStreetMap tiles. 
+
+!!! note
+	To help visitors with low vision, consider "Esri National Geographic World Map" or "OpenTopoMap", which have higher contrast between map features.
+
+If you select a Stamen option from the dropdown, you will need to [register your domain by going to the provided Stadia link](https://client.stadiamaps.com/signup/){target=_blank}. Stamen basemaps are hosted by Stadia Maps, and Geolocation authorizes them by registered domain rather than by API key.
+
 
 If you select a CARTO option from the dropdown, you will be asked to enter your:
 
@@ -40,7 +47,7 @@ As of June 1, 2020, Mapbox has deprecated older-style maps. Geolocation 3.2 and 
 
 You can use MapBox to create your own map tiles, for example a historic map layer. Please refer to the [MapBox documentation](https://www.mapbox.com/api-documentation/#introduction){target=_blank} for more information.
 
-![The dropdown for Base Map with MapBox selected is at the top, with the two fields described following. Both fields are empty.](../doc_files/plugin_images/geolocation-mapbox.png)
+![The dropdown for Basemap with MapBox selected is at the top, with the two fields described following. Both fields are empty.](../doc_files/plugin_images/geolocation_mapbox.png)
 
 ### Custom Map Overlay
 
@@ -81,15 +88,15 @@ These settings are for the map through which users can browse all geolocated ite
 -   A checkbox to **Enable marker clusters**. When checked, markers that are very close to each other will cluster together and be represented by a number (indicating the number of markers).
 
 A map with Enable marker clusters unchecked:  
-![A low-detail map showing the British Isles, with a number of blue map markers throughout England](../doc_files/plugin_images/geolocation-nocluster.png)
+![A low-detail map showing the British Isles, with a number of blue map markers throughout England](../doc_files/plugin_images/geolocation_nocluster.png)
 
 The same map with Enable marker clusters checked:   
-![A low-detail map of the British Isles, with one blue map marker in southwest England and a yellow circle with the label 17 roughly over London](../doc_files/plugin_images/geolocation-cluster.png)
+![A low-detail map of the British Isles, with one blue map marker in southwest England and a yellow circle with the label 17 roughly over London](../doc_files/plugin_images/geolocation_cluster.png)
 
 ### Item map settings
 These settings are for the map display on an `item/show` page. 
 
-![Item Map settings](../doc_files/plugin_images/geolocation_ItemMap.png)
+![Item Map settings](../doc_files/plugin_images/geolocation_itemMap.png)
 
 - **Enable Item Map**: - Display a map for each item that has one or more map location markers. For items with no geolocation data, the map is not displayed. The placement of the map is governed by each theme. 
 - **Width for Item Map**: set in percent; defaults to 100% if left blank.
@@ -98,7 +105,7 @@ These settings are for the map display on an `item/show` page.
 ### Map integration
 These settings are for integration of the geolocation map into browse pages, and into the [Contribution](Contribution.md) plugin's form. 
 
-![Map Integration settings](../doc_files/plugin_images/geolocation_Mapint.png)
+![Map Integration settings](../doc_files/plugin_images/geolocation_mapInt.png)
 
 - **Add link to map on Items/Browse navigation**: This will make a "Browse Map" link appear alongside the "Browse Items", "Browse Tags", and "Advanced Search" links at the top of those pages. See the image below in the "View a public map" section. 
 - **Add map to contribution form**: Note that this will only work if you have the Contribution plugin installed and active.
