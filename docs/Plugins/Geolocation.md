@@ -15,7 +15,7 @@ Once you have [installed](../Admin/Adding_and_Managing_Plugins.md) the Geolocati
 
 The first section contains the general appearance settings for your maps on both public pages and administrative screens.
 
-![General settings for geolocation](../doc_files/plugin_images/geolocation_genset.png)
+![General settings for geolocation](../doc_files/plugin_images/geolocation_configGen.png)
 
 - **Default Latitude**: set the center point of the map's latitude (North/South value), in degrees, between -90 and 90. Using numbers after the decimal point will pinpoint the location more precisely.
 - **Default Longitude**: set the center point of the map's longitude (East/West), in degrees, between -180 and 180. Using numbers after the decimal point will pinpoint the location more precisely.
@@ -53,7 +53,7 @@ You can use MapBox to create your own map tiles, for example a historic map laye
 
 Use this section if you wish to add a specific image, already mapped and uploaded elsewhere, as a display layer on all the maps of your site. For example, you can add a historical map that shows relevant areas as they looked in another time. You can use [this list to find example maps to test out this feature](https://www.ncwater.org/GWMS/openlayers/WMS_examples.html){target=_blank}. 
 
-![The fields available in the Custom Map Overlay settings section, as described below.](../doc_files/plugin_images/geolocation_overlayAdmin.png)
+![The fields available in the Custom Map Overlay settings section, as described below.](../doc_files/plugin_images/geolocation_configOverlay.png)
 
 - **Map Type**: Type of custom map to overlay. Specify the standard of the map you wish to use: "Tiled web map" or "WMS". 
 
@@ -84,7 +84,7 @@ This plugin adds a "Browse Map" page to your site, as well as an administrative 
 
 The settings in this section also influence the "Search by Address function" that Geolocation enables in advanced item search. 
 
-![Browse map settings for geolocation](../doc_files/plugin_images/geolocation_brset.png)
+![Browse map settings for geolocation](../doc_files/plugin_images/geolocation_configBrowseMap.png)
 
 -   **Number of Locations Per Page**: The browsable map has pagination; set the number of items per map page with a whole number.
 -   **Auto-fit to Locations**: If checked, the browse map will ignore default location and zoom settings designated in General Settings and instead automatically contain all the locations of the items displayed (on that page).
@@ -101,16 +101,20 @@ The same map with Enable marker clusters checked:
 ### Item map settings
 These settings are for the map display on an `item/show` page. 
 
-![Item Map settings](../doc_files/plugin_images/geolocation_itemMap.png)
+![Item Map settings](../doc_files/plugin_images/geolocation_configItemMap.png)
 
 - **Enable Item Map**: - Display a map for each item that has one or more map location markers. For items with no geolocation data, the map is not displayed. The placement of the map is governed by each site theme. 
 - **Width for Item Map**: set in percent; defaults to 100% if left blank.
 - **Height for Item Map**: set in pixels; defaults to 300px if left blank. 
 
+### Search settings
+
+![Search settings](../doc_files/plugin_images/geolocation_configSearch.png)
+
 ### Map integration
 These settings are for integration of the geolocation map into browse pages, and into the [Contribution](Contribution.md) plugin's form. 
 
-![Map Integration settings](../doc_files/plugin_images/geolocation_mapInt.png)
+![Map Integration settings](../doc_files/plugin_images/geolocation_configMapInt.png)
 
 - **Add link to map on Items/Browse navigation**: This will make a "Browse Map" link appear alongside the "Browse Items", "Browse Tags", and "Advanced Search" links at the top of those pages. See the image below in the "View a public map" section. 
 - **Add map to contribution form**: Note that this will only work if you have the Contribution plugin installed and active.
