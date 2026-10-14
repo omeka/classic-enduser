@@ -33,7 +33,6 @@ The first section contains the general appearance settings for your maps on both
 
 If you select a Stamen option from the dropdown, you will need to [register your domain by going to the provided Stadia link](https://client.stadiamaps.com/signup/){target=_blank}. Stamen basemaps are hosted by Stadia Maps, and Geolocation authorizes them by registered domain rather than by API key.
 
-
 If you select a CARTO option from the dropdown, you will be asked to enter your:
 
 - **CARTO API Key**: CARTO requires an API key for its basemaps. Without one the tiles are watermarked, so Geolocation displays the default base map instead. Request a key at https://carto.com/basemaps/apikey/. 
@@ -80,59 +79,76 @@ For both types of maps:
 
 ![Browse map page example](../doc_files/plugin_images/geolocation_browseMap.png)
 
-This plugin adds a "Browse Map" page to your site, as well as an administrative screen, which will show all geolocated items. You can add it to your navigation wherever you wish, and have a link to it appear alongside the "Browse by Tag" and other options on your item browsing pages. 
+This plugin adds a "Browse Map" page to your site, as well as an administrative screen, which will show all geolocated items. You can add it to your navigation wherever you wish, and have a link to it appear alongside the "Browse by Tag" and other options on your item browsing pages. We provide a relative link to the Browse Map page within your site at the top of this section. 
 
 The settings in this section also influence the "Search by Address function" that Geolocation enables in advanced item search. 
 
 ![Browse map settings for geolocation](../doc_files/plugin_images/geolocation_configBrowseMap.png)
 
+- **Add link to map on Items/Browse navigation**: This will make a "Browse Map" link appear alongside the "Browse Items", "Browse Tags", and "Advanced Search" links at the top of those pages. See the image below in the "View a public map" section. 
 -   **Number of Locations Per Page**: The browsable map has pagination; set the number of items per map page with a whole number.
 -   **Auto-fit to Locations**: If checked, the browse map will ignore default location and zoom settings designated in General Settings and instead automatically contain all the locations of the items displayed (on that page).
--   **Default Radius**: for the Search By Address function in the advanced items search.
--   A checkbox to **Use metric distances** for radius search, rather than miles.
--   A checkbox to **Enable marker clusters**. When checked, markers that are very close to each other will cluster together and be represented by a number (indicating the number of markers).
+-   A checkbox to **Enable location clustering**. When checked, markers that are very close to each other will cluster together and be represented by a number (indicating the number of markers).
+- A checkbox to **Show item list on browse map**, which offers an accessible readout of item titles that are represented on the map as features (pins and shapes). This list will show a number of items according to the "Number of locations per page" setting above, keeping in mind that items can have many locations each. 
 
-A map with Enable marker clusters unchecked:  
+A map with "Enable location clustering" unchecked:  
 ![A low-detail map showing the British Isles, with a number of blue map markers throughout England](../doc_files/plugin_images/geolocation_nocluster.png)
 
-The same map with Enable marker clusters checked:   
-![A low-detail map of the British Isles, with one blue map marker in southwest England and a yellow circle with the label 17 roughly over London](../doc_files/plugin_images/geolocation_cluster.png)
+The same map with "Enable location clustering" checked:   
+![A low-detail map of the British Isles, with one blue map marker in southwest England and a yellow circle labelled "17" roughly over London](../doc_files/plugin_images/geolocation_cluster.png)
 
 ### Item map settings
+
 These settings are for the map display on an `item/show` page. 
 
 ![Item Map settings](../doc_files/plugin_images/geolocation_configItemMap.png)
 
-- **Enable Item Map**: - Display a map for each item that has one or more map location markers. For items with no geolocation data, the map is not displayed. The placement of the map is governed by each site theme. 
-- **Width for Item Map**: set in percent; defaults to 100% if left blank.
+- **Enable Item Map**: Display a map for each item that has one or more map location markers. For items with no geolocation data, the map is not displayed. The placement of the map is governed by each site theme. 
+- **Width for Item Map**: set in percentage of the page area's width (which can vary by theme); defaults to 100% (of the available space) if left blank.
 - **Height for Item Map**: set in pixels; defaults to 300px if left blank. 
+- **Show location list on item pages**: When checked, this adds a list of all map features (pins and shapes) currently attached to the item. This makes it easier for user to access all of the map features, and is recommended for accessibility. 
+
+![Item Map with location list showing 3 entries](../doc_files/plugin_images/geolocation_itemList.png)
 
 ### Search settings
 
+The following three fields are automatically added to public and administrative searches:
+
+- **Geolocation Status**: Users can select to search for only items with locations, or only items without locations.
+- **Geographic Address**: Users can type in a location name or address, which will be searched when the form is submitted. This search relies on the service provider set above, in the "Geocoder" field. 
+- **Geographic radius**: In either kilometres or miles, users can enter an integer to search within the area of the location they provided in the field above. 
+
 ![Search settings](../doc_files/plugin_images/geolocation_configSearch.png)
 
+In this section of the configuration page, you can control the settings for these fields: 
+
+-   **Default Radius**: for the Search By Address function in the advanced items search.
+-   A checkbox to **Use metric distances** for radius search, rather than miles.
+
+![The described search fields in the admin "Search items" page. The radius is searching kilometres and is set to a default of 10.](../doc_files/plugin_images/geolocation_search.png)
+
 ### Map integration
-These settings are for integration of the geolocation map into browse pages, and into the [Contribution](Contribution.md) plugin's form. 
+
+These settings are for integration of the geolocation map into the [Contribution](Contribution.md) plugin's form. 
 
 ![Map Integration settings](../doc_files/plugin_images/geolocation_configMapInt.png)
 
-- **Add link to map on Items/Browse navigation**: This will make a "Browse Map" link appear alongside the "Browse Items", "Browse Tags", and "Advanced Search" links at the top of those pages. See the image below in the "View a public map" section. 
-- **Add map to contribution form**: Note that this will only work if you have the Contribution plugin installed and active.
+- **Add map to contribution form**: If you have the Contribution plugin installed and active, you can use this setting to add maps to your contribution forms, which enables your users to pin their submissions to locations. They will be able to add pins and shapes, label each feature, and edit and delete their work before submitting the contribution. 
 
-## Add location to an item
+## Geolocate items
 
-After you have activated and configured the Geolocation plugin, you can add location markers to your items. 
+After you have activated and configured the Geolocation plugin, you can add locations to your items. 
 
-Geolocation adds a Map tab to the options for adding or editing an item (`admin/item/edit` and `admin/item/add` pages).  When adding metadata for an item, click on the Map tab to add a location.
+Geolocation adds a Map tab to the options for adding or editing an item (`admin/item/edit` and `admin/item/add` pages).  When editing an item, click on the Map tab to add locations.
 
 ![Arrow points to the Map tab](../doc_files/plugin_images/geolocation_set1.png)
 
-On the tab there is a field for you to **find a location by address** and a map which you can drag to move around, zoom in and out with the plus and minus options (or the scroll wheel on a mouse), and toggle between road and satellite maps. 
+On the tab there is a field for you to **find a location by address** and a map that you can drag to move around, zoom in and out with the plus and minus options (or the scroll wheel on a mouse), and toggle between road and satellite maps. 
 
-To find the location you want to assign to the item, you can:
+To find the location and assign it to the item, you can:
 
-- Enter the address where you want the marker for the item to be placed. The plugin will automatically add a marker at that location. You can use a street address (ex `100 First St SE, Washington, DC 20543`) or geocordinates in decimal form (ex `38.888611, -77.004722`).
-- Zoom and scroll to navigate to where you want to place the marker, then choose the map feature shape (pin, line, rectangle, or polygon), and click directly on the spot on the map. 
+- Enter the address where you want the marker for the item to be placed. The plugin will automatically add a marker at that location. You can use a street address (e.g. "100 First St SE, Washington, DC 20543") or geocordinates in decimal form (e.g. "38.888611, -77.004722").
+- Zoom and scroll to navigate to where you want to place the marker, then choose the map feature shape you wish to use (pin, line, rectangle, or polygon), and click directly on the spot on the map. 
 	- To add lines, click a start and end spot, then click the "Finish" button that appears on the left hand side to complete the line. 
 	- To add rectangles, click to start the shape and then drag your cursor to the opposite corner to add both width and height to your rectangle.
 	- To add polygons, click to start the shape and then click as many corners as you wish to add to the shape. Then click the "Finish" button that appears on the left hand side to seal the shape up between the last point you added and the first one you started with.  
@@ -144,7 +160,7 @@ To remove geolocation from an item, click directly on the marker to highlight it
 !!! note 
 	Note that at this time you cannot use [CSV Import](CSV_Import.md) to add location data for use by the Geolocation plugin. Map pins can only be added manually.
 
-Don't forget to save your changes.
+Remember to save your changes to the item.
 
 ## View a public map 
 
