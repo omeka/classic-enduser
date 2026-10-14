@@ -48,9 +48,14 @@ You can use MapBox to create your own map tiles, for example a historic map laye
 
 ![The dropdown for Basemap with MapBox selected is at the top, with the two fields described following. Both fields are empty.](../doc_files/plugin_images/geolocation_mapbox.png)
 
+!!! note
+	Some maps do not have tiles at a high degree of zoom; be sure to test your chosen basemap on item pages, item set pages, the Map Browse page, and page blocks to be certain it will work for your needs. 
+
 ### Custom Map Overlay
 
 Use this section if you wish to add a specific image, already mapped and uploaded elsewhere, as a display layer on all the maps of your site. For example, you can add a historical map that shows relevant areas as they looked in another time. You can use [this list to find example maps to test out this feature](https://www.ncwater.org/GWMS/openlayers/WMS_examples.html){target=_blank}. 
+
+WMS and tile overlays appear as optional visual layers that site visitors can display or hide. Overlays frequently only cover one part of the world map: for example, a historical map of northern Africa that has been digitized and mapped precisely with coordinates. You can have multiple layers all set to be visible by default, whether they overlap each other or not. 
 
 ![The fields available in the Custom Map Overlay settings section, as described below.](../doc_files/plugin_images/geolocation_configOverlay.png)
 
@@ -162,9 +167,19 @@ To remove geolocation from an item, click directly on the marker to highlight it
 
 Remember to save your changes to the item.
 
+## Map browsing in admin
+
+A "Map" tab appears in the left-side navigation bar of the administrative dashboard. Clicking on the Map tab takes you to a map that displays all geolocated items in your Omeka site, public and not public, and an advanced search form to locate specific items.
+
+![Admin item browse map with search form](../doc_files/plugin_images/geolocation_adminbr.png)
+
+From this view, you may also search mapped items using the item advanced search. Search results appear directly on the map.
+
 ## View a public map 
 
-Visitors to your Omeka site can now use a map to browse through all of your geolocated items. The generic map showing all of your items with geolocation metadata can be found at `yourclassicsite/items/map`, which you can enable or disable in your site navigation. 
+Visitors to your Omeka site can now use a map to browse through all of your geolocated items. The generic map showing all of your items with geolocation metadata can be found at `yourclassicsite/items/map`, which you can enable or disable in your site navigation. Each item's view page will contain a map if the item has at least one location set. 
+
+All maps across the entire site, including Exhibits and Contribution forms, will show the visual settings according to your configuration, including default zoom and latitude/longitude, overlays, and basemaps. 
 
 If you enable "Add Link to Map on Items/Browse Navigation" in the plugin configuration, the "Browse Map" link will also be added to the secondary navigation on the `items/browse` page. 
 
@@ -174,15 +189,7 @@ Users can click within the map to see a pop-up on each map feature. These will i
 
 If you have enabled it in the plugin configuration, users can click an item title in the right sidebar to move the map. In this sidebar an item with multiple map features will show its title as the list header, then a list showing "Location 1" through "Location X", in the order these locations were added. Locations cannot be reordered when editing the item, only deleted and re-added. 
 
-## Use the admin map
-
-A "Map" tab appears in the left-side navigation bar in the administrative dashboard. Clicking on the Map tab takes you to a map that displays all geolocated items in your Omeka site, public and not public, and an advanced search form to locate specific items.
-
-![Admin item browse map with search form](../doc_files/plugin_images/geolocation_adminbr.png)
-
-From this view, you may also search mapped items using the item advanced search. Search results appear directly on the map.
-
-## Geolocation and Exhibit Builder
+## Exhibit Builder integration
 
 If you have [Exhibit Builder](ExhibitBuilder.md) (version 3.x or greater) installed, Geolocation will add a Map block to the options when building pages. 
 
