@@ -21,6 +21,13 @@ The first section contains the general appearance settings for your maps on both
 - **Default Longitude**: set the center point of the map's longitude (East/West), in degrees, between -180 and 180. Using numbers after the decimal point will pinpoint the location more precisely.
 - **Default Zoom Level**: Use a whole number of 0 of greater. 0 is the most zoomed out. A value of 15 will result in a map showing roughly one square mile.
 - **Geocoder**: Select a service to use for looking up coordinates when an address is entered. The default is "OpenStreetMap Nominatim". You may find other services work better depending on where your work is focused across the globe. 
+- **Enable location clustering**: A checkbox. When checked, markers that are very close to each other (at the current zoom level) will cluster together and be represented by a number (indicating the number of markers).
+
+A map with "Enable location clustering" unchecked:  
+![A low-detail map showing the British Isles, with a number of blue map markers throughout England](../doc_files/plugin_images/geolocation_nocluster.png)
+
+The same map with "Enable location clustering" checked:   
+![A low-detail map of the British Isles, with one blue map marker in southwest England and a yellow circle labelled "17" roughly over London](../doc_files/plugin_images/geolocation_cluster.png)
 
 ### Basemap Settings
 
@@ -93,14 +100,7 @@ The settings in this section also influence the "Search by Address function" tha
 - **Add link to map on Items/Browse navigation**: This will make a "Browse Map" link appear alongside the "Browse Items", "Browse Tags", and "Advanced Search" links at the top of those pages. See the image below in the "View a public map" section. 
 -   **Number of Locations Per Page**: The browsable map has pagination; set the number of items per map page with a whole number.
 -   **Auto-fit to Locations**: If checked, the browse map will ignore default location and zoom settings designated in General Settings and instead automatically contain all the locations of the items displayed (on that page).
--   A checkbox to **Enable location clustering**. When checked, markers that are very close to each other will cluster together and be represented by a number (indicating the number of markers).
 - A checkbox to **Show item list on browse map**, which offers an accessible readout of item titles that are represented on the map as features (pins and shapes). This list will show a number of items according to the "Number of locations per page" setting above, keeping in mind that items can have many locations each. 
-
-A map with "Enable location clustering" unchecked:  
-![A low-detail map showing the British Isles, with a number of blue map markers throughout England](../doc_files/plugin_images/geolocation_nocluster.png)
-
-The same map with "Enable location clustering" checked:   
-![A low-detail map of the British Isles, with one blue map marker in southwest England and a yellow circle labelled "17" roughly over London](../doc_files/plugin_images/geolocation_cluster.png)
 
 ### Item map settings
 
@@ -179,7 +179,7 @@ From this view, you may also search mapped items using the item advanced search.
 
 Visitors to your Omeka site can now use a map to browse through all of your geolocated items. The generic map showing all of your items with geolocation metadata can be found at `yourclassicsite/items/map`, which you can enable or disable in your site navigation. Each item's view page will contain a map if the item has at least one location set. 
 
-All maps across the entire site, including Exhibits and Contribution forms, will show the visual settings according to your configuration, including default zoom and latitude/longitude, overlays, and basemaps. 
+All maps across the entire site, including Exhibits and Contribution forms, will show the visual settings according to your configuration, including default zoom and latitude/longitude, overlays, and basemaps. Every map has a "Fit all" button that users can press to zoom the map out (or in) far enough to contain all available markers. 
 
 If you enable "Add Link to Map on Items/Browse Navigation" in the plugin configuration, the "Browse Map" link will also be added to the secondary navigation on the `items/browse` page. 
 
