@@ -195,13 +195,20 @@ If you have [Exhibit Builder](ExhibitBuilder.md) (version 3.x or greater) instal
 
 ![Admin item browse map with search form](../doc_files/plugin_images/geolocation_ex1.png)
 
-You can add items with geolocation markers to the map block by [adding items](ExhibitBuilder.md#add-items) as you would with any other Exhibit Builder block. The map will ignore items without a location.
+You can add items with geolocation markers to the map block by [adding items](ExhibitBuilder.md#add-items) as you would with any other Exhibit Builder block. The map will ignore items without a location. We suggest you use the search function to filter only to items with geolocation data. 
 
-![Geolocation block in Exhibit Builder, which has no layout options. It has four items added and the option to add another item.](../doc_files/plugin_images/geolocation_ex2.png)
+![Geolocation block in Exhibit Builder. It has four items added and the option to add another item.](../doc_files/plugin_images/geolocation_ex2.png)
 
 The exhibit will display a single map with the markers for those specific items, centered to display all the items within the map view.
 
 ![Public view of exhibit map block](../doc_files/plugin_images/geolocation_ex3.png)
+
+The block has one layout option: **sequence mode**, which adds the ability for users to browse through the map features in order. This order is determined by the order of the items you add to this block, as well as the order of the map features on items with multiple locations. 
+
+If this option is checked, the first item will be centered and its pop-up displayed when the page loads. First, Last, Previous, and Next buttons at the top of the page can be used to navigate through the sequence. An indicator in the middle of the buttons shows the total number of map features (not items), and  where the user currently is in the sequence. 
+
+![Public view of exhibit map block with sequence mode enabled.](../doc_files/plugin_images/geolocation_exhibitSequence.png)
+
 
 ## Shortcodes
 
