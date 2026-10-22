@@ -1,6 +1,6 @@
 # Geolocation
 
-The [Geolocation plugin](https://omeka.org/classic/plugins/Geolocation/){target=_blank} allows you to assign worldwide locations to items in your Omeka Classic site. The locations are displayed on maps on individual item page and on a browsable map of all geolocated items. Maps can also be added to exhibits. 
+The [Geolocation plugin](https://omeka.org/classic/plugins/Geolocation/){target=_blank} allows you to assign worldwide locations to items in your Omeka Classic site. The locations can be displayed on maps on individual item pages, in Simple Pages using shortcodes, and on a browsable map of all the geolocated items in your site. Maps can also be added to exhibits. 
 
 There is a [screencast for Geolocation (version 2.2.4) demonstrating its basic functionality](https://vimeo.com/156298642){target=_blank}:
 
@@ -19,9 +19,9 @@ The first section contains the general appearance settings for your maps on both
 
 - **Default Latitude**: set the center point of the map's latitude (North/South value), in degrees, between -90 and 90. Using numbers after the decimal point will pinpoint the location more precisely.
 - **Default Longitude**: set the center point of the map's longitude (East/West), in degrees, between -180 and 180. Using numbers after the decimal point will pinpoint the location more precisely.
-- **Default Zoom Level**: Use a whole number of 0 of greater. 0 is the most zoomed out. A value of 15 will result in a map showing roughly one square mile.
+- **Default Zoom Level**: Use a whole number of 0 or greater. 0 is the most zoomed out. A value of 15 will result in a map showing roughly one square mile. Note that some of the visual maps you can choose in the basemap section may not have tiles for high levels of zoom.
 - **Geocoder**: Select a service to use for looking up coordinates when an address is entered. The default is "OpenStreetMap Nominatim". You may find other services work better depending on where your work is focused across the globe. 
-- **Enable location clustering**: A checkbox. When checked, markers that are very close to each other (at the current zoom level) will cluster together and be represented by a number (indicating the number of markers).
+- **Enable location clustering**: A checkbox. When checked, markers that are very close to each other (at the user's current zoom level) will cluster together and be represented by a number (indicating the number of markers).
 
 A map with "Enable location clustering" unchecked:  
 ![A low-detail map showing the British Isles, with a number of blue map markers throughout England](../doc_files/plugin_images/geolocation_nocluster.png)
@@ -62,7 +62,7 @@ You can use MapBox to create your own map tiles, for example a historic map laye
 
 Use this section if you wish to add a specific image, already mapped and uploaded elsewhere, as a display layer on all the maps of your site. For example, you can add a historical map that shows relevant areas as they looked in another time. You can use [this list to find example maps to test out this feature](https://www.ncwater.org/GWMS/openlayers/WMS_examples.html){target=_blank}. 
 
-WMS and tile overlays appear as optional visual layers that site visitors can display or hide. Overlays frequently only cover one part of the world map: for example, a historical map of northern Africa that has been digitized and mapped precisely with coordinates. You can have multiple layers all set to be visible by default, whether they overlap each other or not. 
+WMS and tile overlays appear as optional visual layers that site visitors can display or hide. Overlays frequently only cover one part of the world map: for example, a historical map of northern Africa that has been digitized and mapped precisely with coordinates, but ends at the Atlantic Ocean. You can have multiple layers all set to be visible by default, whether they overlap each other or not. 
 
 ![The fields available in the Custom Map Overlay settings section, as described below.](../doc_files/plugin_images/geolocation_configOverlay.png)
 
@@ -77,13 +77,13 @@ or
 Further WMS configuration fields: 
 
 - **WMS Layers**: This field is required. From the source of your WMS map, find the names of available layers, and enter in as many as you wish to include, separated by commas. The layer names do not need quotes. You must use this field to fetch at least one layer from the WMS map. For example, `usdm_current` for the drought map URL given above. 
-- **WMS Styles**: From the source of your WMS map, find the names of available styles if applicable and enter them in here. This field is optional and many WMS maps do not have styles.
-- **Transparent**: If the WMS map provides them, check this box to request transparent map image tiles that will show the base map wherever the overlay does not cover. 
+- **WMS Styles**: From the source of your WMS map, find the names of available styles if applicable and enter them in here. This field is optional, and many WMS maps do not have styles.
+- **Transparent**: If the WMS map provides them, check this box to request transparent map image tiles that will show the basemap wherever the overlay does not cover. 
 
 For both types of maps:
 
 - **Zoom range**: **Min Zoom** and **Max Zoom** can help you narrow down the browsing area to the area of your custom overlay, or a relevant area within it. 
-- **Attribution**: Provide attribution text for the custom map. This text will appear in the bottom right corner of the map, alongside the credits for the base map you have chosen. 
+- **Attribution**: Provide attribution text for the custom map. This text will appear in the bottom right corner of the map, alongside the credits for the basemap you have chosen. 
 
 ![A map using the "Ocean Basemap" with the US Drought Monitor map overlay, as described above, and a cluster of 4 map pins. The overlay attribution reads "US Drought Monitor".](../doc_files/plugin_images/geolocation_overlay.png)
  
