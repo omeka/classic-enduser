@@ -48,4 +48,4 @@ The administrative dashboard of Omeka Classic has the following features for acc
 
 ## Accessibility issues
 
-If you encounter an issue with accessiblity using the Omeka Classic core software or Omeka Team developed add-ons, please report your findings either via a [Forum post](https://forum.omeka.org/c/omeka-classic/accessibility/37){target=_blank} or by making an issue in the appropriate GitHub repository. More information can be found on the [Report a Bug](../Troubleshooting/Report-a-bug.md) page. 
+If you encounter an issue with accessibility using the Omeka Classic core software or Omeka Team developed add-ons, please report your findings either via a [Forum post](https://forum.omeka.org/c/omeka-classic/accessibility/37){target=_blank} or by making an issue in the appropriate GitHub repository. More information can be found on the [Report a Bug](../Troubleshooting/Report-a-bug.md) page. 
