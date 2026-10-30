@@ -10,7 +10,7 @@ For more information, please review the following reports:
 We have separate VPATs for Omeka.net available within the [Omeka.net Accessibility Statement](http://info.omeka.net/signup/accessibility/){target=_blank}.
 
 ## Roadmap
-Based on the current Accessibilty Conformance Report, during 2026 the Omeka Team is working on the following elements:
+Based on the current Accessibility Conformance Report, during 2026 the Omeka Team is working on the following elements:
 
 -   Keyboard-navigable alternatives to drag and drop interfaces
 -   Screen reader-friendly and keyboard-navigable tooltips
