@@ -44,7 +44,7 @@ You can add new report output formats or edit the existing ones. The existing fo
 
 ### Adding new formats 
 
-Report generators are stored in `Reports/libraries/Reports/ReportGenerator`, and each generator is a PHP class extending `Reports\_ReportsGenerator.`
+Report generators are stored in `Reports/libraries/Reports/ReportGenerator`, and each generator is a PHP class extending `Reports_ReportsGenerator.`
 
 All the generation takes place in the function `generateReport()`. For examples of how to generate reports, study the two included report generators.
 
@@ -52,9 +52,9 @@ All the generation takes place in the function `generateReport()`. For examples 
 
 The included formats are HTML and PDF output. Both can be modified from their original forms to suit specific needs.
 
-When modifying a included report format, first make a copy of the file, and change both the file name and the class name (so, for example, you could copy `HTML.php` to `HTMLCustom.php`, and change the class name to `Reports\_ReportGenerator\_HTMLCustom`). Do not use other underscores in your file and class names.
+When modifying a included report format, first make a copy of the file, and change both the file name and the class name (so, for example, you could copy `HTML.php` to `HTMLCustom.php`, and change the class name to `Reports_ReportGenerator_HTMLCustom`). Do not use other underscores in your file and class names.
 
-The HTML report format is simple to edit. By default, all the elements in all element sets are printed. You can change this behavior to print only specific elements or specific element sets. This is accomplished with the function `\_outputSetElements()`. 
+The HTML report format is simple to edit. By default, all the elements in all element sets are printed. You can change this behavior to print only specific elements or specific element sets. This is accomplished with the function `_outputSetElements()`. 
 
 It takes three arguments. The first is the item that will be printed, the second is the name of the element set to print, and the third is an array of the specific elements to print.
 
