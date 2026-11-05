@@ -44,7 +44,7 @@ If you select a CARTO option from the dropdown, you will be asked to enter your:
 
 - **CARTO API Key**: CARTO requires an API key for its basemaps. Without one the tiles are watermarked, so Geolocation displays the default base map instead. Request a key at https://carto.com/basemaps/apikey/. 
 
-If you select Mapbox from the dropdown, two additional fields will appear under general settings: 
+If you select Mapbox from the dropdown, two additional fields will appear underneath: 
 
 - **Mapbox Access Token**: in order to use Mapbox, you need to sign up for their service. Once you have done so, you can go to your [account page](https://www.mapbox.com/account/){target=_blank} and copy your access token to paste into this field. 
 - **Mapbox Map ID**: The "map ID" that goes here is the part of a Mapbox "Style URL" that comes after "mapbox://styles/". You can use your own maps or one of the [globally available styles](https://docs.mapbox.com/api/maps/#mapbox-styles){target=_blank}. Leaving this input blank will use the default Mapbox street map.
@@ -93,14 +93,12 @@ For both types of maps:
 
 This plugin adds a "Browse Map" page to your site, as well as an administrative screen, which will show all geolocated items. You can add it to your navigation wherever you wish, and have a link to it appear alongside the "Browse by Tag" and other options on your item browsing pages. We provide a relative link to the Browse Map page within your site at the top of this section. 
 
-The settings in this section also influence the "Search by Address function" that Geolocation enables in advanced item search. 
-
 ![Browse map settings for geolocation](../doc_files/plugin_images/geolocation_configBrowseMap.png)
 
 - **Add link to map on Items/Browse navigation**: This will make a "Browse Map" link appear alongside the "Browse Items", "Browse Tags", and "Advanced Search" links at the top of those pages. See the image below in the "View a public map" section. 
--   **Number of Locations Per Page**: The browsable map has pagination; set the number of items per map page with a whole number.
+-   **Number of Items Per Page**: The browsable map has pagination; set the number of items per map page with a whole number.
 -   **Auto-fit to Locations**: If checked, the browse map will ignore default location and zoom settings designated in General Settings and instead automatically contain all the locations of the items displayed (on that page).
-- A checkbox to **Show item list on browse map**, which offers an accessible readout of item titles that are represented on the map as features (pins and shapes). This list will show a number of items according to the "Number of locations per page" setting above, keeping in mind that items can have many locations each. 
+- A checkbox to **Show item list on browse map**, which offers an accessible readout of item titles that are represented on the map as features (pins and shapes). This list will show a number of items according to the "Number of items per page" setting above, keeping in mind that items can have many locations each. 
 
 ### Item map settings
 
@@ -160,7 +158,9 @@ To find the location and assign it to the item, you can:
 
 You can add as many features (pins or shapes) to the map as you wish, and give them each a custom label indicating the significance of the place relative to the item. 
 
-To remove geolocation from an item, click directly on the marker to highlight it, then click the trash-can icon that appears on the left. A dialog box will ask you to confirm that you want to delete the location assignment. 
+To remove a geolocation from an item, click the trash-can icon in the left-hand menu bar to go into deletion mode, then click the intended map feature to delete it. You can press "Cancel" next to the trash-can icon to reverse the changes you've made, or simply save the page. 
+
+A "Clear all" option also appears when the trash can is selected. If this is clicked, all map features are removed. You cannot "Cancel" this action. 
 
 !!! note 
 	Note that at this time you cannot use [CSV Import](CSV_Import.md) to add location data for use by the Geolocation plugin. Map pins can only be added manually.
@@ -187,7 +187,7 @@ If you enable "Add Link to Map on Items/Browse Navigation" in the plugin configu
 
 Users can click within the map to see a pop-up on each map feature. These will include the relevant item's title, thumbnail, a truncated description, and any custom label if set. 
 
-If you have enabled it in the plugin configuration, users can click an item title in the right sidebar to move the map. In this sidebar an item with multiple map features will show its title as the list header, then a list showing "Location 1" through "Location X", in the order these locations were added. Locations cannot be reordered when editing the item, only deleted and re-added. 
+If you have enabled it in the plugin configuration, users can click an item title in the right sidebar to move the map. In this sidebar an item with multiple map features will show its title as the list header, then a list of links for each feature. These will display as "Location 1" through "Location X", or the individual geolocation's label, in the order these locations were added. (Locations cannot be reordered when editing the item, only deleted and re-added.)
 
 ## Exhibit Builder integration
 
@@ -199,7 +199,7 @@ You can add items with geolocation markers to the map block by [adding items](Ex
 
 ![Geolocation block in Exhibit Builder. It has four items added and the option to add another item.](../doc_files/plugin_images/geolocation_ex2.png)
 
-The exhibit will display a single map with the markers for those specific items, centered to display all the items within the map view.
+The exhibit will display a single map with the markers for those specific items, centered to display all the items within the map view. Map features can be customized with captions for each item. The map feature pop-ups will display a thumbnail, the item title, and the caption if set. 
 
 ![Public view of exhibit map block](../doc_files/plugin_images/geolocation_ex3.png)
 
