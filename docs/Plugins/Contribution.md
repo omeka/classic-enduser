@@ -95,7 +95,7 @@ In the above image, the upper block has marked for deletion - note that the head
 
 If you want users to select from a drop-down instead of entering text, use [Simple Vocab](SimpleVocab.md) to set up a controlled vocabulary for the element which will be applied on the admin side when adding/editing an item and in contribution forms. 
 
-If you want users to be able to assign a location to their contributions, use the [Geolocation](Geolocation.md) plugin and check the *add map to contribution form* in its configuration settings.
+If you want users to be able to assign a location to their contributions, use the [Geolocation](Geolocation.md) plugin and check the "Add map to Contribution Form" option in its configuration settings, in the "Integrations" section. Users can add map pins or shapes (lines, polygons, and rectangles) to the map and customize their labels to include more information. 
 
 ### Submission Settings
 

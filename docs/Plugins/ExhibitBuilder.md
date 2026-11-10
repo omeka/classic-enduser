@@ -185,12 +185,12 @@ The **Carousel** block has the following options, which are a mix of text boxes,
 ![Carousel block layout opion](../doc_files/plugin_images/eb_cLayout.jpg)
 
 ### Additional layouts
+
 Some plugins include their own Exhibit Builder content block layouts.
 
 #### Geolocation
 
-If you have installed the [Geolocation](Geolocation.md) plugin, you will have the
-**Geolocation Map** block as an option in your exhibits. This block has no text. Select items which already have been geolocated using the plugin in their item edit page. This block displays as a map across the full width of the page, with markers for the items you select. Any captions you enter will appear in a pop-up inside the map when the item marker is clicked, as will the item file and title.
+If you have installed the [Geolocation](Geolocation.md) plugin, you will have the **Geolocation Map** block as an option in your exhibits. This block has no text. Select items which already have been geolocated; the block will ignore any items without locations. This block displays as a map across the full width of the page, with markers from all the items you select. Any captions you enter will appear in a pop-up when the item marker is clicked, as will the item file and title. You can choose the "Sequence mode" option from the block's "Layout options" section to offer site visitors a way to scroll through items from beginning to end. For more information, see the [Geolocation](Geolocation.md) plugin page.
 
 This image shows a Geolocation block with items added:
 ![Geolocation block](../doc_files/plugin_images/eb_geolocationBlock.png)

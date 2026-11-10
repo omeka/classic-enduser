@@ -33,34 +33,35 @@ The same map with "Enable location clustering" checked:
 
 - **Basemap**: Select a visual map from the dropdown to display. All basemaps except those served by Mapbox can be [previewed courtesy of Leaflet](http://leaflet-extras.github.io/leaflet-providers/preview/){target=_blank}.
 
+Some maps do not have tiles at a high degree of zoom; be sure to test your chosen basemap on item pages, item set pages, the Map Browse page, and page blocks to be certain it will work for your needs. 
+
 "OpenStreetMap Standard" is the default. Busy sites are encouraged to choose a provider that requires its own credentials, rather than rely on the shared OpenStreetMap tiles. 
 
 !!! note
 	To help visitors with low vision, consider "Esri National Geographic World Map" or "OpenTopoMap", which have higher contrast between map features.
 
-If you select a Stamen option from the dropdown, you will need to [register your domain by going to the provided Stadia link](https://client.stadiamaps.com/signup/){target=_blank}. Stamen basemaps are hosted by Stadia Maps, and Geolocation authorizes them by registered domain rather than by API key.
+#### Basemap provider setup
 
-If you select a CARTO option from the dropdown, you will be asked to enter your:
+If you select a **Stamen** option from the dropdown, you will need to [register your domain by going to the provided Stadia link](https://client.stadiamaps.com/signup/){target=_blank}. Stamen basemaps are hosted by Stadia Maps, and Geolocation authorizes them by registered domain rather than by API key.
 
-- **CARTO API Key**: CARTO requires an API key for its basemaps. Without one the tiles are watermarked, so Geolocation displays the default base map instead. Request a key at https://carto.com/basemaps/apikey/. 
+If you select a **CARTO** option from the dropdown, you will be asked to enter your:
 
-If you select Mapbox from the dropdown, two additional fields will appear underneath: 
+- **CARTO API Key**: CARTO requires an API key for its basemaps. Without one the tiles are watermarked, so Geolocation displays the default base map instead. Request a key at [https://carto.com/basemaps/apikey/](https://carto.com/basemaps/apikey/){target=_blank}. 
+
+If you select **Mapbox** from the dropdown, two additional fields will appear underneath: 
 
 - **Mapbox Access Token**: in order to use Mapbox, you need to sign up for their service. Once you have done so, you can go to your [account page](https://www.mapbox.com/account/){target=_blank} and copy your access token to paste into this field. 
 - **Mapbox Map ID**: The "map ID" that goes here is the part of a Mapbox "Style URL" that comes after "mapbox://styles/". You can use your own maps or one of the [globally available styles](https://docs.mapbox.com/api/maps/#mapbox-styles){target=_blank}. Leaving this input blank will use the default Mapbox street map.
 
-As of June 1, 2020, Mapbox has deprecated older-style maps. Geolocation 3.2 and up support the newer Mapbox API, and the plugin will automatically update your selected Map ID if you were using one of the "standard" map types. If you had specified a custom map ID, you may need to update it after upgrading Geolocation.
-
-You can use MapBox to create your own map tiles, for example a historic map layer. Please refer to the [MapBox documentation](https://www.mapbox.com/api-documentation/#introduction){target=_blank} for more information.
-
 ![The dropdown for Basemap with MapBox selected is at the top, with the two fields described following. Both fields are empty.](../doc_files/plugin_images/geolocation_mapbox.png)
 
-!!! note
-	Some maps do not have tiles at a high degree of zoom; be sure to test your chosen basemap on item pages, item set pages, the Map Browse page, and page blocks to be certain it will work for your needs. 
+As of June 1, 2020, Mapbox has deprecated older-style maps. Geolocation 3.2 and up support the newer Mapbox API, and the plugin will automatically update your selected Map ID if you were using one of the "standard" map types. If you had specified a custom map ID, you may need to update it after upgrading Geolocation.
+
+You can use MapBox to create your own map tiles, for example a historic map of your area. Please refer to the [MapBox documentation](https://www.mapbox.com/api-documentation/#introduction){target=_blank} for more information.
 
 ### Custom Map Overlay
 
-Use this section if you wish to add a specific image, already mapped and uploaded elsewhere, as a display layer on all the maps of your site. For example, you can add a historical map that shows relevant areas as they looked in another time. You can use [this list to find example maps to test out this feature](https://www.ncwater.org/GWMS/openlayers/WMS_examples.html){target=_blank}. 
+Use this section if you wish to add a specific image, already mapped and uploaded elsewhere, as a display layer on all the maps of your site. For example, you can add a historical map that shows relevant areas as they looked in another time. You can use [this list to find maps for this feature](https://www.ncwater.org/GWMS/openlayers/WMS_examples.html){target=_blank}. 
 
 WMS and tile overlays appear as optional visual layers that site visitors can display or hide. Overlays frequently only cover one part of the world map: for example, a historical map of northern Africa that has been digitized and mapped precisely with coordinates, but ends at the Atlantic Ocean. You can have multiple layers all set to be visible by default, whether they overlap each other or not. 
 
@@ -95,10 +96,10 @@ This plugin adds a "Browse Map" page to your site, as well as an administrative 
 
 ![Browse map settings for geolocation](../doc_files/plugin_images/geolocation_configBrowseMap.png)
 
-- **Add link to map on Items/Browse navigation**: This will make a "Browse Map" link appear alongside the "Browse Items", "Browse Tags", and "Advanced Search" links at the top of those pages. See the image below in the "View a public map" section. 
+- **Add Link to Map on Items/Browse Navigation**: This will make a "Browse Map" link appear alongside the "Browse Items", "Browse Tags", and "Advanced Search" links at the top of those pages. 
 -   **Number of Items Per Page**: The browsable map has pagination; set the number of items per map page with a whole number.
--   **Auto-fit to Locations**: If checked, the browse map will ignore default location and zoom settings designated in General Settings and instead automatically contain all the locations of the items displayed (on that page).
-- A checkbox to **Show item list on browse map**, which offers an accessible readout of item titles that are represented on the map as features (pins and shapes). This list will show a number of items according to the "Number of items per page" setting above, keeping in mind that items can have many locations each. 
+-   **Auto-fit to Locations**: If checked, the browse map will ignore default location and zoom settings designated in General Settings and instead automatically contain all the locations of the items displayed (on each page).
+- A checkbox to **Show item list on browse map**, which offers an accessible readout of item titles that are represented on the map as features (pins and shapes). This list will show a number of items according to the "Number of items per page" setting above, keeping in mind that items can have many locations each. We recommend including this in your site for accessibility reasons.
 
 ### Item map settings
 
@@ -107,19 +108,21 @@ These settings are for the map display on an `item/show` page.
 ![Item Map settings](../doc_files/plugin_images/geolocation_configItemMap.png)
 
 - **Enable Item Map**: Display a map for each item that has one or more map location markers. For items with no geolocation data, the map is not displayed. The placement of the map is governed by each site theme. 
-- **Width for Item Map**: set in percentage of the page area's width (which can vary by theme); defaults to 100% (of the available space) if left blank.
-- **Height for Item Map**: set in pixels; defaults to 300px if left blank. 
-- **Show location list on item pages**: When checked, this adds a list of all map features (pins and shapes) currently attached to the item. This makes it easier for user to access all of the map features, and is recommended for accessibility. 
+- **Width for Item Map**: Set a percentage of the page area's width (which can vary by theme); defaults to 100% (of the available space) if left blank.
+- **Height for Item Map**: Set in pixels; defaults to 300px if left blank. 
+- **Show location list on item pages**: When checked, this adds a list of all map features (pins and shapes) currently attached to the item. This makes it easier for users to access all of the map features, and is recommended for accessibility. The following image is an example of an item map with three pins, and a list of "Locations" following the map showing each map feature's individual label.
 
 ![Item Map with location list showing 3 entries](../doc_files/plugin_images/geolocation_itemList.png)
 
-### Search settings
+### Search Settings
 
 The following three fields are automatically added to public and administrative searches:
 
-- **Geolocation Status**: Users can select to search for only items with locations, or only items without locations.
-- **Geographic Address**: Users can type in a location name or address, which will be searched when the form is submitted. This search relies on the service provider set above, in the "Geocoder" field. 
-- **Geographic radius**: In either kilometres or miles, users can enter an integer to search within the area of the location they provided in the field above. 
+![The described search fields in the admin "Search items" page. The radius is searching kilometres and is set to a default of 10.](../doc_files/plugin_images/geolocation_search.png)
+
+- **Geolocation Status**: Users can search for only items with locations, or only items without locations.
+- **Geographic Address**: Users can type in a location name or address, which will be searched when the form is submitted. This search relies on the service provider set in the "Geocoder" field. 
+- **Geographic Radius**: In either kilometres or miles, users can enter an integer to search within the area of the location they provided in the field above. 
 
 ![Search settings](../doc_files/plugin_images/geolocation_configSearch.png)
 
@@ -128,27 +131,25 @@ In this section of the configuration page, you can control the settings for thes
 -   **Default Radius**: for the Search By Address function in the advanced items search.
 -   A checkbox to **Use metric distances** for radius search, rather than miles.
 
-![The described search fields in the admin "Search items" page. The radius is searching kilometres and is set to a default of 10.](../doc_files/plugin_images/geolocation_search.png)
+### Map Integration
 
-### Map integration
-
-These settings are for integration of the geolocation map into the [Contribution](Contribution.md) plugin's form. 
+These settings are for adding a map into the [Contribution](Contribution.md) plugin's form. 
 
 ![Map Integration settings](../doc_files/plugin_images/geolocation_configMapInt.png)
 
-- **Add map to contribution form**: If you have the Contribution plugin installed and active, you can use this setting to add maps to your contribution forms, which enables your users to pin their submissions to locations. They will be able to add pins and shapes, label each feature, and edit and delete their work before submitting the contribution. 
+- **Add Map To Contribution Form**: If you have the Contribution plugin installed and active, you can use this setting to add maps to your contribution forms, which enables your users to pin their submissions to locations. They will be able to add pins and shapes, label each feature, and edit and delete their work before submitting the contribution. 
 
 ## Geolocate items
 
 After you have activated and configured the Geolocation plugin, you can add locations to your items. 
 
-Geolocation adds a Map tab to the options for adding or editing an item (`admin/item/edit` and `admin/item/add` pages).  When editing an item, click on the Map tab to add locations.
+Geolocation adds a Map tab to the options for adding or editing an item (the `admin/item/edit` and `admin/item/add` pages). When editing an item, click on the Map tab to add locations.
 
 ![Arrow points to the Map tab](../doc_files/plugin_images/geolocation_set1.png)
 
-On the tab there is a field for you to **find a location by address** and a map that you can drag to move around, zoom in and out with the plus and minus options (or the scroll wheel on a mouse), and toggle between road and satellite maps. 
+On that tab, there is a field for you to **find a location by address** and a map that you can drag to move around, zoom in and out with the plus and minus options (or the scroll wheel on a mouse), and toggle between road and satellite maps. 
 
-To find the location and assign it to the item, you can:
+To find a location and assign it to the item, you can:
 
 - Enter the address where you want the marker for the item to be placed. The plugin will automatically add a marker at that location. You can use a street address (e.g. "100 First St SE, Washington, DC 20543") or geocordinates in decimal form (e.g. "38.888611, -77.004722").
 - Zoom and scroll to navigate to where you want to place the marker, then choose the map feature shape you wish to use (pin, line, rectangle, or polygon), and click directly on the spot on the map. 
@@ -158,7 +159,7 @@ To find the location and assign it to the item, you can:
 
 You can add as many features (pins or shapes) to the map as you wish, and give them each a custom label indicating the significance of the place relative to the item. 
 
-To remove a geolocation from an item, click the trash-can icon in the left-hand menu bar to go into deletion mode, then click the intended map feature to delete it. You can press "Cancel" next to the trash-can icon to reverse the changes you've made, or simply save the page. 
+To remove a location from an item, click the trash-can icon in the left-hand menu bar to go into deletion mode, then click the intended map feature to delete it. You can press "Cancel" next to the trash-can icon to reverse the changes you've made, or simply save the page. 
 
 A "Clear all" option also appears when the trash can is selected. If this is clicked, all map features are removed. You cannot "Cancel" this action. 
 
@@ -177,7 +178,7 @@ From this view, you may also search mapped items using the item advanced search.
 
 ## View a public map 
 
-Visitors to your Omeka site can now use a map to browse through all of your geolocated items. The generic map showing all of your items with geolocation metadata can be found at `yourclassicsite/items/map`, which you can enable or disable in your site navigation. Each item's view page will contain a map if the item has at least one location set. 
+Visitors to your Omeka site can use a map to browse through all of your geolocated items. The generic map showing all of your items with geolocation metadata can be found at `yourclassicsite/items/map`, which you can enable or disable in your site navigation. Each item's view page will contain a map if the item has at least one location set. 
 
 All maps across the entire site, including Exhibits and Contribution forms, will show the visual settings according to your configuration, including default zoom and latitude/longitude, overlays, and basemaps. Every map has a "Fit all" button that users can press to zoom the map out (or in) far enough to contain all available markers. 
 
@@ -185,30 +186,29 @@ If you enable "Add Link to Map on Items/Browse Navigation" in the plugin configu
 
 ![Public items map view in the Thanks Roy theme](../doc_files/plugin_images/geolocation_pubbr.png)
 
-Users can click within the map to see a pop-up on each map feature. These will include the relevant item's title, thumbnail, a truncated description, and any custom label if set. 
+Users can click within the map to see a pop-up on each map feature. These will include the relevant item's title, thumbnail, a truncated description, and any custom label if set. In exhibits (see below), map features can also have captions added. 
 
 If you have enabled it in the plugin configuration, users can click an item title in the right sidebar to move the map. In this sidebar an item with multiple map features will show its title as the list header, then a list of links for each feature. These will display as "Location 1" through "Location X", or the individual geolocation's label, in the order these locations were added. (Locations cannot be reordered when editing the item, only deleted and re-added.)
 
 ## Exhibit Builder integration
 
-If you have [Exhibit Builder](ExhibitBuilder.md) (version 3.x or greater) installed, Geolocation will add a Map block to the options when building pages. 
+If you have [Exhibit Builder](ExhibitBuilder.md) (version 3.x or greater) installed, Geolocation will add a "Geolocation Map" block to the options when building pages. 
 
 ![Admin item browse map with search form](../doc_files/plugin_images/geolocation_ex1.png)
 
-You can add items with geolocation markers to the map block by [adding items](ExhibitBuilder.md#add-items) as you would with any other Exhibit Builder block. The map will ignore items without a location. We suggest you use the search function to filter only to items with geolocation data. 
+You can add items with geolocation features to the map block by [adding items](ExhibitBuilder.md#add-items) as you would with any other Exhibit Builder block. The map will ignore items without a location. We suggest you use the search function to filter only to items with geolocation data. 
 
 ![Geolocation block in Exhibit Builder. It has four items added and the option to add another item.](../doc_files/plugin_images/geolocation_ex2.png)
 
-The exhibit will display a single map with the markers for those specific items, centered to display all the items within the map view. Map features can be customized with captions for each item. The map feature pop-ups will display a thumbnail, the item title, and the caption if set. 
+The exhibit will display a single map with the markers for those specific items, centered to display all the items within the map view. Map features can be customized with captions for each item. The map feature pop-ups will display a thumbnail, the item title, and a caption if set. 
 
 ![Public view of exhibit map block](../doc_files/plugin_images/geolocation_ex3.png)
 
-The block has one layout option: **sequence mode**, which adds the ability for users to browse through the map features in order. This order is determined by the order of the items you add to this block, as well as the order of the map features on items with multiple locations. 
+The block has one layout option: **Sequence mode**, which adds the ability for users to browse through the map features in order. This order is determined by the order of the items you add to this block, as well as the order of the map features on items with multiple locations. 
 
-If this option is checked, the first item will be centered and its pop-up displayed when the page loads. First, Last, Previous, and Next buttons at the top of the page can be used to navigate through the sequence. An indicator in the middle of the buttons shows the total number of map features (not items), and  where the user currently is in the sequence. 
+If this option is checked, the first item will be centered and its pop-up displayed when the page loads. First, Last, Previous, and Next buttons at the top of the page can be used to navigate through the sequence. An indicator in the middle of the buttons shows the total number of map features (not items), and where the user currently is in the sequence. 
 
 ![Public view of exhibit map block with sequence mode enabled.](../doc_files/plugin_images/geolocation_exhibitSequence.png)
-
 
 ## Shortcodes
 
