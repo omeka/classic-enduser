@@ -2,9 +2,9 @@
 
 The [Exhibit Builder plugin](https://omeka.org/classic/plugins/ExhibitBuilder/){target=_blank} allows you to develop online exhibits, or special web pages, that display and contextualize items from your Omeka Classic site, and may include narrative text, maps, timelines, and other dynamic features.
 
-Exhibits are composed of pages, generally an initial page that introduces your exhibit and subsequent pages composed of items from your Omeka Classic database you wish to highlight and relate to each other. Exhibit Builder exhibits may be as short as one page or consist of multiple pages. You can separate the pages into sections and make hierarchies as well as give the pages a narrative order.
+Each exhibit is a set of webpages, generally an initial page that introduces your exhibit and subsequent pages including items from your Omeka Classic database you wish to highlight and relate to each other. Exhibit Builder exhibits may be as short as one page or consist of multiple pages. You can separate the pages into sections and make hierarchies as well as give the pages a narrative order.
 
-The layout of exhibits in Exhibit Builder is highly customizable, with pages containing smaller units called blocks. There are four basic content blocks: a single file from your items, a file with accompanying text, a gallery of files, and a text block. Other plugins may add their own Exhibit Builder block layouts.
+The layout of exhibits in Exhibit Builder is highly customizable, with pages containing smaller units called blocks. The plugin includes some basic content blocks: a single file from your items, a file with accompanying text, a gallery of files, an HTML-styled text block, and a carousel of multiple files. Other plugins may add their own Exhibit Builder block layouts.
 
 There is a screencast about this plugin that you may find helpful:
 
@@ -82,19 +82,15 @@ You can also delete pages from the "Edit Exhibit" page through a two-step proces
 
 ### Exhibit blocks
 
-Pages are built with smaller content units called "blocks". There are four basic kinds of blocks: item(s) with text, an item gallery, a text-only block, and a file-only block. Each page can have one or more content blocks.
+Pages are built with smaller content units called "blocks". There are five blocks included with this plugin: item(s) with text, an item gallery, a text-only block, a file-only block, and a carousel that rotates through multiple files. More blocks are added by other plugins. 
 
-Where an item's file is used in an exhibit, it will be a link back to the full item view page. Be aware that this may mean the site visitor moves away from your exhibit - and away from the exhibit's specific theme, into the theme and look of your general site. 
+Where an item's file is used in an exhibit, the file will appear on the public page with a link back to the full item view page. Be aware that this will cause the site visitor to move away from your exhibit - and away from the exhibit's specific theme, into the theme and look of your general site. 
 
-The **File with Text** block allows you to pair full-size or thumbnail files of your items with a block of text. The item files will all be the same size. Text will appear either to the right or left of the files. You can use a single file paired with text, or have multiple files to the right or left of a block of text. 
-
-The **Gallery** block creates a gallery of item files, generally large square thumbnails. You can add text to the gallery, which will display left or right of the gallery. In a gallery block, you can specify a showcase file, which will appear fullsize either to the right or left of the text. The other gallery images can be placed below the showcase image or beside it, over the text.
-
-The **Text** block allows you to create a section of text which spans the width of the entire page.
-
-The **File** block allows you to add larger files as a separate block.
-
-The **Carousel** block creates a slidehow of item files as thumbnails, square thumbnails, or as the full size file. You can pair the file with a caption and/or the item title, and text can be positioned left, right, or center. You can feature up to ten items per slide and adjust the scrolling speed and duration of the slides.
+- The **File with Text** block allows you to pair full-size or thumbnail files of your items with a block of text. The item files will all be the same size. Text will appear either to the right or left of the files. You can use a single file paired with text, or have multiple files to the right or left of a block of text. 
+= The **Gallery** block creates a gallery of item files, generally large square thumbnails. You can add text to the gallery, which will display to the left or right of the gallery. In a gallery block, you can specify a showcase file, which will appear fullsize either to the right or left of the text. The other gallery images can be placed below the showcase image or beside it, over the text.
+- The **Text** block allows you to create a section of text which spans the width of the entire page.
+- The **File** block allows you to add a larger file display on its own.
+= The **Carousel** block creates a slidehow of item files as thumbnails, square thumbnails, or as the full size file. You can pair the file with a caption and/or the item title, and text can be positioned left, right, or center. You can feature up to ten items per slide and adjust the scrolling speed and duration of the slides.
 
 ![Select block dialog with options as described above](../doc_files/plugin_images/eb_selectblock.jpg)
 
@@ -166,13 +162,13 @@ The **Gallery** block has the following options, all of which are drop-down menu
 
 The **File** block has the following options, all of which are drop-down menus (options listed in parentheses after the dropdown label): 
 
-- File Position (left, right, center): a dropdown to select the position of the file relative to page margins.
-- File Size (full-size, thumbnail, square thumbnail): a dropdown to select the item file size.
-- Captions position (center, left, right): a dropdown to select the position of the file's caption relative to page margins (not the file)
+- File Position (left, right, center): a dropdown to select the position of the file on the page.
+- File Size (full-size, thumbnail, square thumbnail): a dropdown to select the file's derivative image size.
+- Captions position (center, left, right): a dropdown to select the position of the file's caption on the page (not relative to the file).
 
 ![File block layout options](../doc_files/plugin_images/eb_fLayout.png)
 
-The **Carousel** block has the following options, which are a mix of text boxes, drop-down menus, and checkboxes:
+The **Carousel** block has the following options:
 
 - Carousel title: a text field to enter your title. 
 - Items per slide (1-10): a dropdown to select the number of items represented on each slide in the carousel.
@@ -188,8 +184,8 @@ The **Carousel** block has the following options, which are a mix of text boxes,
 
 ![Carousel block layout opion](../doc_files/plugin_images/eb_cLayout.jpg)
 
-#### Additional layouts
-Some plugins include their own Exhibit Builder content block layouts.
+#### Additional blocks
+Some plugins include their own Exhibit Builder blocks.
 
 ##### Geolocation
 
@@ -217,7 +213,7 @@ The following is a list of layouts from previous versions of Exhibit Builder sho
 
 Although it is possible to reproduce previous layouts using Exhibit Builder 3.0, the content blocks allow for a much wider variety of layouts. For example, rather than having all the files on one side, as in image list left or right, files could alternate sides. You can also combine a Gallery block with File with Text Blocks, or stack multiple Galleries with interpretive text for each set. 
 
-Note: You cannot change one kind of content block (e.g. Gallery) to a different kind of content block (e.g. File with Text). However, because you can move content blocks around, adding a new block to replace an existing one is less work than in previous versions of Exhibit Builder.
+Note: You cannot change one kind of content block (e.g. Gallery) to a different kind of content block (e.g. File with Text). Adding a new block to replace an existing one is less work than in previous versions of Exhibit Builder.
 
 Block layout options are in *italics* for Exhibit Builder 3.0 blocks.
 
