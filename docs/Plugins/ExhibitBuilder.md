@@ -1,6 +1,6 @@
 # Exhibit Builder
 
-The [Exhibit Builder plugin](https://omeka.org/classic/plugins/ExhibitBuilder/){target=_blank} allows you to develop online exhibits, or special web pages, that display and contextualize items from your Omeka Classic site, and may include narrative text, maps, timelines, and other dynamic features.
+The [Exhibit Builder plugin](https://omeka.org/classic/plugins/ExhibitBuilder/){target=_blank} allows you to develop online exhibits, or special sections of your Omeka Classic website, that display and contextualize items from your Omeka collection, and may include narrative text, maps, timelines, and other dynamic features.
 
 Each exhibit is a set of webpages, generally an initial page that introduces your exhibit and subsequent pages including items from your Omeka Classic database you wish to highlight and relate to each other. Exhibit Builder exhibits may be as short as one page or consist of multiple pages. You can separate the pages into sections and make hierarchies as well as give the pages a narrative order.
 
