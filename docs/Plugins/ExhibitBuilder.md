@@ -81,6 +81,8 @@ Once on the "Add Page" screen, add the following:
 
 Exhibit Builder (as of version 3.11.1) allows themes to offer page templates, which can rearrange the usual page content and offer more options for navigation and display. 
 
+![Page Layout Options, filled out with examples](../doc_files/plugin_images/eb_pageLayout.png)
+
 - **Template**: A dropdown, that defaults to "Default", but can contain options offered by the exhibit's chosen theme. See the theme's documentation for more information.  
 - **Class**: A text field where you can enter in CSS classes to apply to the whole page (on the `body` tag). Enter multiple classes separated by spaces, such as "full-width beige". The corresponding CSS can be entered into the [CSS Editor plugin](csseditor.md)'s configuration screen. 
 
@@ -88,9 +90,9 @@ Exhibit Builder (as of version 3.11.1) allows themes to offer page templates, wh
 
 An exhibit in Omeka Classic can have multiple pages. You can reorder these pages by dragging and dropping, and you can use drag and drop to set up exhibit sections and have hierarchies. Note that these hierarchies cannot be more than three levels deep. 
 
-You can also delete pages from the "Edit Exhibit" page through a two-step process. First, click the large black "X" on the display bar of the page you wish to delete. Once you click the "X", the bar will turn red. Clicking the arrow will undo the delete action. To confirm deleting a page, you must click the "Save Changes" button. Once pages have been deleted, they cannot be restored.
-
 ![Pages in a hierarchy](../doc_files/plugin_images/eb_pages.png)
+
+You can also delete pages from the "Edit Exhibit" page through a two-step process. First, click the large black "X" on the display bar of the page you wish to delete. Once you click the "X", the bar will turn red. Clicking the arrow will undo the delete action. To confirm deleting a page, you must click the "Save Changes" button. Once pages have been deleted, they cannot be restored.
 
 ## Add exhibit blocks
 
@@ -159,6 +161,10 @@ To write your own HTML, or paste from somewhere else, click the "<>" button in t
 
 ### Style your blocks
 
+Every block can have some stylistic attributes customized under Block Layout Options. Certain block types have specific settings available under Layout Options.
+
+#### Block Layout Options
+
 Each block, no matter which type, comes with a section called "Block Layout Options", found in a dropdown at the bottom of the block once it's been added to your page. This dropdown is collapsed; you can open it by clicking on the small arrow on the right of the heading. 
 
 The following styling options are available:
@@ -199,7 +205,6 @@ The **Gallery** block has the following options, all of which are drop-down menu
 - Captions Position (center, left, right): a dropdown to select the position of the file's caption relative to its file.
 
 ![Gallery block layout options](../doc_files/plugin_images/eb_gLayout.png)
-
 
 ###### File
 
