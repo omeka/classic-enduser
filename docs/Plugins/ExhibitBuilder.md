@@ -1,12 +1,10 @@
 # Exhibit Builder
 
-The [Exhibit Builder plugin](https://omeka.org/classic/plugins/ExhibitBuilder/){target=_blank} allows you to develop online exhibits, or special web pages, that combine items from your Omeka Classic site and may include narrative text.
+The [Exhibit Builder plugin](https://omeka.org/classic/plugins/ExhibitBuilder/){target=_blank} allows you to develop online exhibits, or special sections of your Omeka Classic website, that display and contextualize items from your Omeka collection, and may include narrative text, maps, timelines, and other dynamic features.
 
-Exhibits are composed of pages, generally an initial page that introduces your exhibit and subsequent pages composed of the items from your Omeka Classic database that you wish to highlight and/or relate to each other. Exhibit Builder exhibits may be as short as one page or consist of multiple pages. You can make the pages of an exhibit hierarchical.
+Each exhibit is a set of webpages, generally an initial page that introduces your exhibit and subsequent pages including items from your Omeka Classic database you wish to highlight and relate to each other. Exhibit Builder exhibits may be as short as one page or consist of multiple pages. You can separate the pages into sections and make hierarchies as well as give the pages a narrative order.
 
-The layout of exhibits in Exhibit Builder is highly customizable, with the pages composed of smaller units called blocks. There are four basic content block types which come with Exhibit Builder: file with text, gallery, text, and file.
-
-Other plugins may include their own Exhibit Builder block layouts, if the developer has created them.
+The layout of exhibits in Exhibit Builder is highly customizable, with pages containing smaller units called blocks. The plugin includes some basic content blocks: a single file from your items, a file with accompanying text, a gallery of files, an HTML-styled text block, and a carousel of multiple files. Other plugins may add their own Exhibit Builder block layouts.
 
 There is a screencast about this plugin that you may find helpful:
 
@@ -15,132 +13,178 @@ There is a screencast about this plugin that you may find helpful:
 
 ## Configuration
 
-This plugin is included in your downloaded Omeka Classic installation and does not require a separate download. Select Plugins in the top navigation of your admin. Activate your plugin and select Configure to choose the sequence in which your exhibits appear. Exhibits may be ordered by date added, alphabetically by name, or most recent.
+This plugin is included in a downloaded Omeka Classic installation and does not require a separate download. It is included in core installation upgrades, but you may choose to upgrade the plugin separately from your site at any time a new version is released. 
 
-![Configuration drop down open to show all options](../doc_files/plugin_images/Eb3config.png)
+Select "Plugins" in the top navigation of your admin. Activate your plugin and select "Configure" to see two options: 
 
--   Choose the order of your Browse Page Exhibit display from the dropdown menu. 
--   Don't forget to save your changes.
+- **Sorting Exhibits**: Exhibits may be ordered by date added, alphabetically by name, or recent. ("Recent" and "Date Added" are opposites.)
+- **Contributor/Researcher Permissions**: Check to allow users at the Contributor and Researcher levels to have access to unpublished exhibits. Note that all exhibits, regardless of author, are available for all other logged-in users at the higher account levels (Super and Admin). 
+
+![Configuration drop down open to show all options](../doc_files/plugin_images/eb_config.png)
 
 ## Add an exhibit
 
-Once you have activated and configured the Exhibit Builder plugin, Exhibits should appear in the left navigation bar. Clicking on it will take you to the Browse Exhibits page (admin/exhibits in your installation).
+Once you have activated the Exhibit Builder plugin, "Exhibits" appears in the left navigation bar. Clicking on it will take you to the Browse Exhibits page (`admin/exhibits` in your installation). To create an exhibit, go to the Exhibits tab and click the green button labeled "Add an Exhibit". 
 
-To create an exhibit, go to the Exhibits tab and click the green button labeled "Add an Exhibit". 
+![Add exhibit page](../doc_files/plugin_images/eb_add.png)
 
-![Add exhibit page](../doc_files/plugin_images/exhibitbuilder_add.png)
+On the "Add Exhibit" page, there are two sections. The first is "Exhibit Metadata":
 
-On the Add Exhibit page, enter the following metadata:
+-   **Title**: The name of your exhibit, which will be displayed to users.
+-   **Slug**: A shorter identifier which will appear in the URL, for example `http://youromekasite.org/exhibits/show/exhibit-slug-goes-here`. You can leave this blank and Omeka will generate one from the title. 
+-   **Credits**: Acknowledgements, particularly of copyright and authorship. This section appears on the summary page of the exhibit. 
+-   **Description**: An introduction or overview for the exhibit. This section appears on the summary page of the exhibit. 
+-   **Tags**: Keywords or themes that allow site visitors to browse through your exhibits. These will appear on the "Browse Exhibits" page of your site. 
 
--   Title: the name of your exhibit, which will be displayed to users
--   Slug: the abbreviated exhibit name which appears in the url, for example `http://youromekasite/exhibits/show/slug`
--   Credits: acknowledgements which will be visible to the public
--   Description: an introduction or overview for the exhibit
--   Tags: keywords or themes that give users another option for finding exhibits.
+There is an option to select a **theme** for the exhibit (see below). 
 
-Once you have entered the data, click Save Changes to create your exhibit.
+The "**Use Summary Page**" checkbox allows you to decide whether or not to start your exhibit with a summary page. An exhibit summary page displays the exhibit description, credits, and shows the full table of contents of all its pages. If this box is unchecked, site visitors will start on the first page of the exhibit.
 
-There is an option to select a theme for the exhibit (see below).
+The field below is **Summary Page Template**, which allows you to choose a template for that summary page, if your theme offers one. Note that this dropdown will not populate when you first add an exhibit; you need to chose a theme, save the page, and then navigate to this field to see available templates. It will only show "Default" and no dropdown until an applicable theme is chosen and the page is saved. 
 
-The *Use summary page* checkbox allows you to decide whether or not to use a summary page. An exhibit summary page displays the exhibit description and navigation options. If this box is unchecked, users navigating to the exhibit will start on the first page of the exhibit.
+Choose a **Cover Image** from your items' files to represent the exhibit on browse pages and elsewhere on your site. This thumbnail must be from an existing item, and will be the first file on that item. 
 
-Upload a *cover image* to represent the exhibit on browse pages and elsewhere on your site. 
+To the right, under the "Save Changes" button, there are two options: "Public" and "Featured". We recommend you leave your exhibit private until it has pages and been set up completely, but do not forget to make your exhibit public when ready to do so. You may also wish to feature the exhibit on the homepage of your Classic site, alongside featured collections and items, when it is published. 
 
 ### Theme
-By default, your exhibits will display using the same theme as the rest of the site. You may choose a different theme for each exhibit. To do so, select a theme from the dropdown, which will default display "Current Public Theme."
 
-![theme dropdown with seasons selected and configure button visible](../doc_files/plugin_images/exhibitbuilder_themeconfig.png)
+By default, your exhibits will display using the same theme as the rest of the site. You may choose a different theme for each exhibit. To do so, select a theme from the dropdown, which will display "Current Public Theme" as the default. 
 
-If you select an option other than "Current Public Theme" for your exhibit, you can configure the theme settings for the exhibit by clicking the Configure button which will appear next to the dropdown.
+![theme dropdown with seasons selected and configure button visible](../doc_files/plugin_images/eb_themeconfig.png)
 
-After selecting a specific theme for exhibit, you can configure that theme by adding a logo, header image, footer text, and copyright information which displays only for that exhibit. 
+If you select an option other than "Current Public Theme" for your exhibit, you can configure the theme settings for the exhibit by clicking the "Configure" button that appears next to the dropdown.
 
-Note that if you change the theme, you must click Save Changes before you configure the theme. So if you have been using Berlin and you want to change to the Winter version of Seasons, you will have to click Save Changes after switching from Berlin to Seasons in the Theme dropdown before you can configure the Seasons theme.
+This theme configuration will show any settings that had previously been chosen at the site level or for other exhibits. This makes it easier to keep your exhibits looking consistent. If you make a change to the theme settings on this page, it will be applied to every exhibit using this theme. 
+
+If you wish this exhibit theme to more closely match the theme used on the rest of your site, you will need to manually upload the same or similar logo and header image (depending on the theme's required image dimensions). You can copy over your general footer text and site copyright information if desired. Or you can set up these options specific to the exhibits portion of your site.
+
+If you have clicked "Configure" and end up on the theme settings page, saving these changes will return you back to the exhibit editing screen you were on earlier. Other changes you may have made to that page will have been saved. 
+
+!!! note
+	Themes in Omeka Classic can now offer templates for the design elements of your exhibits. This includes templates for exhibit pages, the summary page, and for individual blocks on each page. These templates are stylistic modifications to the baseline look of each element. See each theme for more information about whether it includes templates. 
 
 ## Add pages
 
-Once you have created an exhibit you can add pages to it by clicking the Add Page button at the bottom of the Exhibit Metadata page.
+Once you have created an exhibit, you can add pages to it. Scroll down to the "Pages" section at the bottom of the "Edit Exhibit" page, and click the grey "Add Page" button.
 
-![Arrow points to the Add Page button](../doc_files/plugin_images/Ebaddp.png)
+![Arrow points to the Add Page button](../doc_files/plugin_images/eb_addpage.png)
 
-Once on the Add Page screen, add the following:
+At any time you can click the "Save Changes" button to return to this screen and work on it more. To save the basic information for this page and add another page, click the "Save and Add Another Page" button.
 
--   Page Title: visible to users, used for navigating through the exhibit.
--   Page Slug: an abbreviated exhibit name that appears in the url, for example `http://youromekasite/exhibits/show/exhibit_slug/page_slug`
+Once on the "Add Page" screen, add the following:
 
-To save the page information and continue editing that page, click the Save Changes button. To save the basic information for that page and add another page, click the Save and Add Another Page button.
+- **Page Title**: A heading that will be visible to users on the page.
+- **Menu Link Title**: An optional (likely shorter) term to display in the exhibit's own navigation. You can use these two fields to help structure your narrative in the navigation differently than the way you title your pages. For example, the navigation may simply read eras such as "1918-1938", while the page title is longer and more descriptive. 
+- **Page Slug**: An optional abbreviated page name that appears in the URL, for example `http://youromekasite.org/exhibits/show/exhibit-slug/page-slug`. This will be generated for you from the Page Title if you leave it blank. 
+
+### Page Layout Options
+
+Exhibit Builder (as of version 3.11.1) allows themes to offer page templates, which can rearrange the usual page content and offer more options for navigation and display. 
+
+![Page Layout Options, filled out with examples](../doc_files/plugin_images/eb_pageLayout.png)
+
+- **Template**: A dropdown, that defaults to "Default", but can contain options offered by the exhibit's chosen theme. See the theme's documentation for more information.  
+- **Class**: A text field where you can enter in CSS classes to apply to the whole page (on the `body` tag). Enter multiple classes separated by spaces, such as "full-width beige". The corresponding CSS can be entered into the [CSS Editor plugin](csseditor.md)'s configuration screen. 
 
 ### Organize pages
 
-An exhibit in Omeka Classic can have multiple pages. You can reorder these pages by dragging and dropping, and you can use drag and drop to set up an exhibit page hierarchy. Note that these hierarchies cannot be more than three levels deep.
+An exhibit in Omeka Classic can have multiple pages. You can reorder these pages by dragging and dropping, and you can use drag and drop to set up exhibit sections and have hierarchies. Note that these hierarchies cannot be more than three levels deep. 
 
-You can also delete pages from the Exhibit Metadata page through a two-step process. First, click the large black X on the display bar of the page you wish to delete. Once you click the X, the bar will turn red (see the bar for the page Edward in the image below). Clicking the arrow will undo the delete action. To confirm deleting a page, you must click the Save Changes button. Once pages have been deleted, they cannot be restored.
+![Pages in a hierarchy](../doc_files/plugin_images/eb_pages.png)
 
-![Pages in a hierarchy](../doc_files/plugin_images/ebpages.png)
+You can also delete pages from the "Edit Exhibit" page through a two-step process. First, click the large black "X" on the display bar of the page you wish to delete. Once you click the "X", the bar will turn red. Clicking the arrow will undo the delete action. To confirm deleting a page, you must click the "Save Changes" button. Once pages have been deleted, they cannot be restored.
 
-## Content
+## Add exhibit blocks
 
-Pages are made up of combinations of smaller content units called 'blocks.' There are four basic kinds of blocks: item(s) with text, an item gallery, text only, and file only. Each page can have one or more content blocks.
-
-The **File with Text** block allows you to pair fullsize or thumbnail files of your items with a block of text. The item files will all be the same size. Text will appear either to the right or left of the item(s). You can use a single item file paired with text, or have multiple item files to the right or left of a block of text.
-
-The **Gallery** block creates a gallery of item files, generally large square thumbnails. You can add text to the gallery, which will display left or right of the gallery. In a gallery block, you can specify a showcase file, which will appear fullsize either to the right or left of the text. The other gallery images can be placed below the showcase image or beside it, over the text.
-
-The **Text** block allows you to create a section of text which spans the width of the entire page.
-
-The **File** block allows you to add larger files as a separate block.
-
-The **Carousel** block creates a slidehow of item files as thumbnails, square thumbnails, or as the full size file. You can pair the file with a caption and/or the item title, and text can be positioned left, right, or center. You can feature up to ten items per slide and adjust the scrolling speed and duration of the slides.
-
-![Select block dialog with options as described above](../doc_files/plugin_images/eb_selectblock.jpg)
-
-To add a content block, select the layout you want in the New Block dialog box. Once you have selected the kind you want, click the "Add new content block" button. You will have a new block on the page to configure your content.
+Pages are built with smaller content units called "blocks". There are five blocks included with this plugin: item(s) with text, an item gallery, a text-only block, a file-only block, and a carousel that rotates through multiple files. 
 
 Some plugins, such as [Geolocation](Geolocation.md) and [Exhibit Image Annotation](ExhibitImageAnnotation.md), will create additional block types which you can select when building a page.
 
-### Add items
-- If you have selected any block other than Text, choose an item by clicking the large plus sign button titled *Add Item* appearing in the Items area.
+Where an item's file is used in an exhibit, the file will appear on the public page with a link back to the full item view page. Be aware that this will cause the site visitor to move away from your exhibit, and away from the exhibit's specific theme, into the theme and look of your general site. 
+
+![Select block dialog with options as described above](../doc_files/plugin_images/eb_selectblock.jpg)
+
+- The **File with Text** block allows you to pair full-size or thumbnail files of your items with a block of text. The item files will all be the same size. Text will appear either to the right or left of the files. You can use a single file paired with text, or have multiple files to the right or left of a block of text. 
+= The **Gallery** block creates a gallery of item files, generally large square thumbnails. You can add text to the gallery, which will display to the left or right of the gallery. In a gallery block, you can specify a showcase file, which will appear fullsize either to the right or left of the text. The other gallery images can be placed below the showcase image or beside it, over the text.
+- The **Text** block allows you to create a section of text which spans the width of the entire page.
+- The **File** block allows you to add a larger file display on its own.
+- The **Carousel** block creates a slidehow of item files as thumbnails, square thumbnails, or as the full size file. You can pair the file with a caption and/or the item title, and text can be positioned left, right, or center. You can feature up to ten items per slide and adjust the scrolling speed and duration of the slides.
+
+To add a content block, select the layout you want in the New Block box. Once you have selected the kind you want, click the "Add new content block" button. You will have a new block on the page to configure your content.
+
+#### Attach items
+
+1) If you have selected any block other than Text, choose an item by clicking the large plus-sign button titled "Add Item" that appears in the Items area.
 
 ![Empty file block, arrow pointing to the Add Item button](../doc_files/plugin_images/eb_additem1.png)
 
-- An items browse dialog box pops up showing all of your items.
-   - You can browse using the back and forth arrow buttons in the upper right corner of the dialog box. 
+2) An items browse dialog box pops up showing all of your items.
+
+- You can browse using the back and forth arrow buttons in the upper right corner of the dialog box. 
 
 ![Attach an Item window with browse options](../doc_files/plugin_images/eb_additem2a.png)
   
-- Clicking *Show Search Form* will take you to an advanced item search. 
+3) Clicking "Show Search Form" will take you to an advanced item search. 
 
 ![Advanced search options in attach an item window](../doc_files/plugin_images/eb_additem2a.png)
 
-- To select an item, click on the bar representing it in the Attach an Item window. The right end of the bar will highlight a dark brown "Select Item" button. 
+4) To select an item, click on the bar representing it in the "Attach an Item" window. The right end of the bar will highlight a dark brown "Select Item" button. 
 
 ![Select Item is visible.](../doc_files/plugin_images/eb_additem3.png)
 
-- Click Select Item to find options for selecting a file and creating a caption for the item. 
-    - If you have more than one file uploaded for an item, you will be able to select which you want to use by clicking on it.
-    - Add a caption in the text field. This will appear in smaller font below the file, not as part of a larger text block. Best practice is to keep it short.
+5) Click "Select Item" to find options for selecting a file and creating a caption for the item. 
+
+- If you have more than one file uploaded for an item, you will be able to select which you want to use by clicking on it.
+- Add a caption in the text field. This will appear in smaller font below the file, not as part of a larger text block (except where set otherwise, as in the Carousel block options). Best practice is to keep it short.
    
 ![Attach an item, with three file options and a caption field.](../doc_files/plugin_images/eb_additem4.png)
 
-- Click Apply to add the item to the block.
+6) Click "Apply" to add the item to the block.
 
-Click the X in the upper right corner of the Attach an Item window at any time to exit the process.
+Click the "X" in the upper right corner of the "Attach an Item" window at any time to exit the process.
 
-Once you have added an item, you can change the caption or selected file by clicking the edit button which sits across the bottom of the item icon. 
+Once you have attached an item to your exhibit block, you can **add a caption** or **change the selected file** by clicking the "Edit" button sitting across the bottom of the item icon. 
 
-To add multiple files from the same item, simply add the same item to the block, choosing a different file to represent the item each time.
+To add multiple files from the same item, simply add the same item to the block again, choosing a different file to represent the item each time.
 
-To delete items, click the X in the upper right hand corner of the item icon; this will gray out the icon, indicating that it will be deleted the next time you save changes. If you decide not to delete the item, you can click the curved arrow which replaced the X, but you must do so before you save your changes.
+To delete items, click the "X" in the upper right hand corner of the item icon; this will gray out the icon, indicating that it will be deleted the next time you save changes. If you decide not to delete the item, you can click the curved arrow which replaced the "X", but you must do so before you save your changes.
 
-In the image below, the middle item has been marked for deletion. A red arrow points to the X to delete the third item.
+In the image below, the second item has been marked for deletion. A blue arrow points to the "X" that would allow you to delete the third item as well.
 
 ![Image described above](../doc_files/plugin_images/eb_delitem.png)
 
-Exhibit text can be formatted using the [text editor bar](../Content/html-editor.md). To write your own HTML, or paste from somewhere else, click the blue HTML button in the formatting toolbar at the top of the text entry box. This will open up an HTML Source Editor window in which you can work.
+#### Add text
 
-### Layout options
+Exhibit text can be formatted using the [text editor bar](../Content/html-editor.md). 
+
+To write your own HTML, or paste from somewhere else, click the "<>" button in the formatting toolbar at the top of the text entry box. This will open up an HTML Source Editor window where you can work. Note that the HTML Editor tool strips out some tags and can modify others. You can use these areas to embed content from other websites. 
+
+### Style your blocks
+
+Every block can have some stylistic attributes customized under Block Layout Options. Certain block types have specific settings available under Layout Options.
+
+#### Block Layout Options
+
+Each block, no matter which type, comes with a section called "Block Layout Options", found in a dropdown at the bottom of the block once it's been added to your page. This dropdown is collapsed; you can open it by clicking on the small arrow on the right of the heading. 
+
+The following styling options are available:
+
+- **Template**: Block templates are added by your chosen exhibit theme. If your theme offers no templates to choose from, this will show "Default" and no dropdown. If there is a dropdown, you can select a template and view the public page to see what it does. See your theme's documentation for more information.
+- **Class**: Enter in one or more CSS classes to be added to the block's `div`. Enter multiple classes separated by spaces, such as "full-width beige". The corresponding CSS can be entered into the [CSS Editor plugin](csseditor.md)'s configuration screen. 
+- **Alignment**: Set an alignment for the block as a whole within its container `div` (left, right, or center). You can also set alignment for all the text within the block (left, right, center, or justify). Leave as "Default" to inherit from the rest of the page. 
+- **Size**: Set a maximum width and a minimum height for this block. 
+- **Padding**: Add padding to the inside of this block, which will not change the size of the block but will have an effect on the contents. You can set one, or some, or all of these values: top, right, bottom, and left. 
+- **Background Color**: Set a value for the `background-color` of this block. You can enter in a hexadecimal value (such as #121212 or #eee), or a word such as "blue". 
+
+![Block Layout Options as described above. The fields have all been filled out with valid entries.](../doc_files/plugin_images/eb_blockLayoutOptions.png)
+
+Be sure to save your changes and preview the public page to be sure things look as intended. 
+
+##### Layout Options
 
 The File with Text, Gallery, and Carousel blocks include layout options to change the look of the exhibit page. To access these options, click the black triangle button to the right of the Layout Options text at the bottom of the block. This will reveal dropdown menus with options for changing the layout.
+
+###### File with Text
 
 The **File with Text** block has the following options, all of which are drop-down menus (options listed in parentheses after the dropdown label):
 
@@ -151,6 +195,8 @@ Whatever you select affects all of the files for that block equally. The text in
 
 ![File with Text block layout options](../doc_files/plugin_images/eb_fwtLayout.png)
 
+###### Gallery
+
 The **Gallery** block has the following options, all of which are drop-down menus (options listed in parentheses after the dropdown label): 
 
 - Showcase File Position (no showcase file, left, right): a dropdown to selec the position of the showcase file. A showcase file is full-size, while the rest of the gallery files are thumbnails. 
@@ -160,15 +206,19 @@ The **Gallery** block has the following options, all of which are drop-down menu
 
 ![Gallery block layout options](../doc_files/plugin_images/eb_gLayout.png)
 
+###### File
+
 The **File** block has the following options, all of which are drop-down menus (options listed in parentheses after the dropdown label): 
 
-- File Position (left, right, center): a dropdown to select the position of the file relative to page margins.
-- File Size (full-size, thumbnail, square thumbnail): a dropdown to select the item file size.
-- Captions position (center, left, right): a dropdown to select the position of the file's caption relative to page margins (not the file)
+- File Position (left, right, center): a dropdown to select the position of the file on the page.
+- File Size (full-size, thumbnail, square thumbnail): a dropdown to select the file's derivative image size.
+- Captions position (center, left, right): a dropdown to select the position of the file's caption on the page (not relative to the file).
 
 ![File block layout options](../doc_files/plugin_images/eb_fLayout.png)
 
-The **Carousel** block has the following options, which are a mix of text boxes, drop-down menus, and checkboxes:
+###### Carousel
+
+The **Carousel** block has the following options:
 
 - Carousel title: a text field to enter your title. 
 - Items per slide (1-10): a dropdown to select the number of items represented on each slide in the carousel.
@@ -182,12 +232,13 @@ The **Carousel** block has the following options, which are a mix of text boxes,
 - Loop: a checkbox to make the carousel continually replay.
 - Fade between slides: a checkbox that adds a fade effect between slides, but it only works with 1 item per slide.
 
-![Carousel block layout opion](../doc_files/plugin_images/eb_cLayout.jpg)
+![Carousel block layout opion](../doc_files/plugin_images/eb_cLayout.png)
 
-### Additional layouts
-Some plugins include their own Exhibit Builder content block layouts.
+#### Plugin-added blocks
 
-#### Geolocation
+Some plugins include their own Exhibit Builder blocks.
+
+##### Geolocation
 
 If you have installed the [Geolocation](Geolocation.md) plugin, you will have the
 **Geolocation Map** block as an option in your exhibits. This block has no text. Select items which already have been geolocated using the plugin in their item edit page. This block displays as a map across the full width of the page, with markers for the items you select. Any captions you enter will appear in a pop-up inside the map when the item marker is clicked, as will the item file and title.
@@ -198,22 +249,42 @@ This image shows a Geolocation block with items added:
 And this is how the map looks on the public view of the exhibit page:
 ![Geolocation block public view](../doc_files/plugin_images/eb_geolocationPublic.png)
 
-#### Timeline
+##### Timeline
 
-If you have installed the [Timeline](Timeline.md) plugin, you will have the **Timeline** block as an option in your exhibits. Select one of your previously created timelines from the dropdown menu to add it to your exhibit page. This is how the timeline looks on the public view of the exhibit page (appearance will differ slightly depending on the theme):
+If you have installed the [Timeline](Timeline.md) plugin, you will have the **Timeline** block as an option in your exhibits. Select one of your previously created timelines from the dropdown menu to add it to your exhibit page. 
+
+This is how the timeline looks on the public view of the exhibit page (appearance will differ slightly depending on the theme):
 ![Timeline block public view](../doc_files/plugin_images/eb_timelinePublic.png)
 
-## Shortcodes
+##### Exhibit Image Annotation
 
-Exhibit Builder adds specific [shortcodes](../Content/Shortcodes.md) to your install, which allow you to call specific exhibits or featured exhibits. 
+[The Exhibit Image Annotation plugin](ExhibitImageAnnotation.md) adds an exhibit block that allows you to annotate image files. These annotations can be viewable in the public exhibit. 
 
-### Previous Exhibit Builder layouts
+##### Editorial
+
+[The Editorial plugin](Editorial.md) adds an exhibit block that shows in both the administrative interface and on public pages (but only to logged-in users who have permission to view the comments). It is used to contribute editorial notes to an exhibit being built by another Omeka user account. 
+
+## Publish your exhibits
+
+This plugin adds an "Browse Exhibits" page to your navigation. This shows a browse page much like the other browsing pages in your site (for items and for collections). All of your public exhibits will be visible there to site visitors, as well as private ones if you are browsing with a logged-in account. 
+
+![A typical site Navigation setup with "Browse Exhibits" at the top of the list and "Browse Exhibits" selected as the Homepage.](../doc_files/plugin_images/eb_nav.png)
+
+You can manually add your exhibits to your navigation by using the "Add a Link to the Navigation" box at the bottom of the "Appearance" > "Navigation" screen. The URL should be similar to the path supplied in the "Browse Exhibits" entry, i.e. if the URL displayed is `yourserver/youromekainstallation/exhibits`, enter in each individual exhibit as `yourserver/youromekainstallation/exhibits/show/your-exhibit-slug`. 
+
+You can also select one exhibit to be the Homepage of your site, using the Homepage dropdown in the rightmost column on the Navigation page. 
+
+### Shortcodes
+
+Exhibit Builder adds [shortcodes](../Content/Shortcodes.md), which allow you to inject exhibits into other pages of your Omeka site. See the [Shortcodes page](../Content/Shortcodes.md) for more information about how to use them. 
+
+## Previous Exhibit Builder layouts
 
 The following is a list of layouts from previous versions of Exhibit Builder showing how the old layouts can correspond to new content blocks. These correlations are how pages built in previous versions of Exhibit Builder will be imported when upgrading.
 
 Although it is possible to reproduce previous layouts using Exhibit Builder 3.0, the content blocks allow for a much wider variety of layouts. For example, rather than having all the files on one side, as in image list left or right, files could alternate sides. You can also combine a Gallery block with File with Text Blocks, or stack multiple Galleries with interpretive text for each set. 
 
-Note: You cannot change one kind of content block (e.g. Gallery) to a different kind of content block (e.g. File with Text). However, because you can move content blocks around, adding a new block to replace an existing one is less work than in previous versions of Exhibit Builder.
+Note: You cannot change one kind of content block (e.g. Gallery) to a different kind of content block (e.g. File with Text). Adding a new block to replace an existing one is less work than in previous versions of Exhibit Builder.
 
 Block layout options are in *italics* for Exhibit Builder 3.0 blocks.
 
